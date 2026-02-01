@@ -111,15 +111,16 @@ def upsert_case(cur, case_obj: Dict[str, Any], court_id: int) -> str:
     interpretation_summary = normalize_str(case_obj.get("interpretation_summary"))
     outcome = normalize_str(case_obj.get("outcome"))
     source = normalize_str(case_obj.get("source"))
+    full_text = normalize_str(case_obj.get("full_text"))
 
     # Try insert; if exists, update
     insert_sql = """
         INSERT INTO cases (
             case_id, case_title, court_id, decision_date,
             legal_issue, petitioner_claim, respondent_argument,
-            interpretation_summary, outcome, source
+            interpretation_summary, outcome, source, full_text
         )
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
     """
     update_sql = """
         UPDATE cases
@@ -131,7 +132,8 @@ def upsert_case(cur, case_obj: Dict[str, Any], court_id: int) -> str:
             respondent_argument=%s,
             interpretation_summary=%s,
             outcome=%s,
-            source=%s
+            source=%s,
+            full_text=%s
         WHERE case_id=%s
     """
 
@@ -149,6 +151,7 @@ def upsert_case(cur, case_obj: Dict[str, Any], court_id: int) -> str:
                 interpretation_summary,
                 outcome,
                 source,
+                full_text,
             ),
         )
     except Error as e:
@@ -166,6 +169,7 @@ def upsert_case(cur, case_obj: Dict[str, Any], court_id: int) -> str:
                     interpretation_summary,
                     outcome,
                     source,
+                    full_text,
                     case_id,
                 ),
             )

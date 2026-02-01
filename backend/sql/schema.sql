@@ -62,6 +62,7 @@ CREATE TABLE cases (
   interpretation_summary TEXT,
   outcome TEXT,
   source TEXT,
+  full_text LONGTEXT NULL,         -- entire body of case report (2-5 pages)
   PRIMARY KEY (case_id),
   KEY idx_cases_court_date (court_id, decision_date),
   CONSTRAINT fk_cases_court
