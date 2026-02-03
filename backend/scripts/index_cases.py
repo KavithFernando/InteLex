@@ -107,11 +107,6 @@ def fetch_cases_with_full_text():
     return rows
 
 def build_case_representation(row: dict) -> str:
-    """
-    For chunk-level indexing, we primarily chunk the full_text.
-    But it helps to prepend a short header of structured fields once,
-    so chunks carry some context (title/issue/outcome).
-    """
     header_parts = []
     if row.get("case_title"):
         header_parts.append(f"Title: {row['case_title']}")
