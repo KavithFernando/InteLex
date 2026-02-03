@@ -13,6 +13,7 @@ DROP TABLE IF EXISTS keywords;
 DROP TABLE IF EXISTS clauses;
 DROP TABLE IF EXISTS judges;
 DROP TABLE IF EXISTS courts;
+DROP TABLE IF EXISTS case_chunks;
 
 CREATE TABLE courts (
   court_id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -147,7 +148,27 @@ CREATE TABLE case_principles (
     ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- 5) Useful indexes for search/filtering
+-- 5) Case chunks table
+CREATE TABLE case_chunks (
+  chunk_id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+  case_id VARCHAR(255) NOT NULL,
+  faiss_id BIGINT UNSIGNED NOT NULL,
+  chunk_text LONGTEXT NOT NULL,
+  start_word INT NULL,
+  end_word INT NULL,
+  start_char INT NULL,
+  end_char INT NULL,
+  word_count INT NULL,
+  PRIMARY KEY (chunk_id),
+  UNIQUE KEY uq_case_chunks_faiss (faiss_id),
+  KEY idx_case_chunks_case (case_id),
+  CONSTRAINT fk_case_chunks_case
+    FOREIGN KEY (case_id) REFERENCES cases(case_id)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- 6) Useful indexes for search/filtering
 CREATE INDEX idx_clauses_article ON clauses(article);
 
 SET FOREIGN_KEY_CHECKS = 1;
