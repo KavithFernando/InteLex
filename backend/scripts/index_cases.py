@@ -11,7 +11,7 @@ dotenv.load_dotenv()
 
 DB_CONFIG = {
     "host": os.getenv("DB_HOST"),
-    "port": os.getenv("DB_PORT"),
+    "port": int(os.getenv("DB_PORT", 3306)),
     "user": os.getenv("DB_USER"),
     "password": os.getenv("DB_PASSWORD"),
     "database": os.getenv("DB_NAME"),
@@ -38,10 +38,7 @@ def clean_text(text: str) -> str:
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 
-def chunk_by_words(text: str,
-                   chunk_words: int,
-                   overlap_words: int,
-                   min_words: int):
+def chunk_by_words(text: str, chunk_words: int, overlap_words: int, min_words: int):
     """
     Simple, beginner-friendly chunker: splits by words with overlap.
     Also tracks approximate character offsets for later snippet highlighting.
@@ -143,8 +140,18 @@ def main():
 
     model = SentenceTransformer(EMBED_MODEL)
 
+    conn = mysql.connector.connect(**DB_CONFIG)
+    cur = conn.cursor()
+    cur.execute("TRUNCATE TABLE case_chunks")
+    conn.commit()
+
     chunk_map = []
     all_chunk_texts = []
+    insert_sql = """
+        INSERT INTO case_chunks
+        (case_id, faiss_id, chunk_text, start_word, end_word, start_char, end_char, word_count)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+    """
 
     for row in rows:
         case_id = row["case_id"]
@@ -161,9 +168,9 @@ def main():
         )
 
         for ch in chunks:
+            faiss_id = len(chunk_map)  # 0-based index: FAISS row i <-> DB faiss_id = i
             chunk_map.append({
                 "case_id": case_id,
-                # optional fields for UI/snippets
                 "start_word": ch["start_word"],
                 "end_word": ch["end_word"],
                 "start_char": ch["start_char"],
@@ -171,6 +178,20 @@ def main():
                 "word_count": ch["word_count"],
             })
             all_chunk_texts.append(ch["text"])
+            cur.execute(insert_sql, (
+                case_id,
+                faiss_id,
+                ch["text"],
+                ch["start_word"],
+                ch["end_word"],
+                ch["start_char"],
+                ch["end_char"],
+                ch["word_count"],
+            ))
+
+    conn.commit()
+    cur.close()
+    conn.close()
 
     if not all_chunk_texts:
         raise RuntimeError("No chunks were created. Check full_text content or chunk settings.")
@@ -199,6 +220,7 @@ def main():
 
     print(f"Saved FAISS index to: {INDEX_PATH}")
     print(f"Saved chunk map to:   {CHUNK_MAP_PATH}")
+    print(f"Populated case_chunks table (faiss_id 0..{len(chunk_map) - 1} in same order as FAISS)")
     print(f"Total chunks indexed: {len(chunk_map)}")
 
 if __name__ == "__main__":
