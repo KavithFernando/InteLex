@@ -1,24 +1,25 @@
 import os
 import re
+import sys
 import json
 import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
+_backend_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if _backend_dir not in sys.path:
+    sys.path.insert(0, _backend_dir)
+
+from config import (
+    CHUNK_MAP_PATH,
+    CHUNK_TOKENS_APPROX,
+    EMBED_MODEL,
+    INDEX_PATH,
+    MIN_CHUNK_TOKENS,
+    OVERLAP_TOKENS_APPROX,
+)
 from db.connection import get_connection
 from db.repositories import case_repo, chunk_repo
-
-# Embedding model (starter). Swap later if needed.
-EMBED_MODEL = "bhavyagiri/InLegal-Sbert"
-
-# Output files
-INDEX_PATH = "index_store/case_chunks.index"
-CHUNK_MAP_PATH = "index_store/case_chunks_map.json"
-
-# Chunking parameters (tune these)
-CHUNK_TOKENS_APPROX = 400      # target chunk size (approx words)
-OVERLAP_TOKENS_APPROX = 80     # overlap between chunks (approx words)
-MIN_CHUNK_TOKENS = 100         # drop too-small chunks (noise)
 
 def clean_text(text: str) -> str:
     if not text:

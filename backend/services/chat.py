@@ -10,15 +10,11 @@ from loguru import logger
 
 from services import search as search_service
 
-# Groq client (env loaded by app/dotenv; ensure GROQ_API_KEY is set before using chat)
 def _get_client() -> Groq:
-    import os
-    from dotenv import load_dotenv
-    load_dotenv()
-    key = os.getenv("GROQ_API_KEY")
-    if not key:
+    from config import GROQ_API_KEY
+    if not GROQ_API_KEY:
         raise ValueError("GROQ_API_KEY is missing.")
-    return Groq(api_key=key)
+    return Groq(api_key=GROQ_API_KEY)
 
 
 SYSTEM_PROMPT = """

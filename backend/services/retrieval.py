@@ -3,17 +3,13 @@ Retrieval: load FAISS index, encode query, search, fetch chunk/headers from DB.
 No app or tool concerns; used by services.search.
 """
 import json
-import os
 
 import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
+from config import CHUNK_MAP_PATH, INDEX_PATH
 from db.repositories import chunk_repo
-
-_BACKEND_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-INDEX_PATH = os.path.join(_BACKEND_DIR, "index_store", "case_chunks.index")
-CHUNK_MAP_PATH = os.path.join(_BACKEND_DIR, "index_store", "case_chunks_map.json")
 
 _embedder = None
 _index = None

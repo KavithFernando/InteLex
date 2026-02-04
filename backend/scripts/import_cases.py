@@ -1,4 +1,5 @@
 import json
+import os
 import sys
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -8,20 +9,12 @@ from datetime import datetime
 import mysql.connector
 from mysql.connector import Error
 
-import os
-from dotenv import load_dotenv
+_backend_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if _backend_dir not in sys.path:
+    sys.path.insert(0, _backend_dir)
 
-load_dotenv()
-
-DB_CONFIG = {
-    "host": os.getenv("DB_HOST"),
-    "port": os.getenv("DB_PORT"),
-    "user": os.getenv("DB_USER"),
-    "password": os.getenv("DB_PASSWORD"),
-    "database": os.getenv("DB_NAME"),
-}
-
-JSON_PATH = "./data/casedata.json"
+from config import DATA_JSON_PATH
+from db.connection import get_connection
 
 
 # ---------------------------
@@ -276,7 +269,7 @@ def insert_case_principles(cur, case_id: str, principles: List[str]) -> None:
 # Main import routine
 # ---------------------------
 def main():
-    json_path = JSON_PATH
+    json_path = DATA_JSON_PATH
     if len(sys.argv) >= 2:
         json_path = sys.argv[1]
 
@@ -285,7 +278,7 @@ def main():
 
     conn = None
     try:
-        conn = mysql.connector.connect(**DB_CONFIG)
+        conn = get_connection()
         conn.autocommit = False  # we control transactions
         cur = conn.cursor()
 
