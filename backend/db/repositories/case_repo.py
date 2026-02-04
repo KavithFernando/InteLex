@@ -25,11 +25,11 @@ def fetch_cases_with_full_text() -> List[Dict[str, Any]]:
     return rows
 
 
-def fetch_retrieval_summaries(case_ids: List[str]) -> List[Dict[str, Any]]:
+def fetch_case_summaries(case_ids: List[str]) -> List[Dict[str, Any]]:
     """
     Fetch case_id, case_title, decision_date, and clauses for the given case_ids.
     Returns list in same order as case_ids; each item has clauses as list of {article, text}.
-    Used for API retrieval_result (lightweight list for response body).
+    Used for chat/API response (lightweight case list).
     """
     if not case_ids:
         return []

@@ -1,6 +1,6 @@
 """
 Chat service: system prompt, tool definitions, and Groq tool-calling loop.
-Uses services.search for the search_cases tool; no direct DB or FAISS access.
+Uses services.case_search for the search_cases tool; no direct DB or FAISS access.
 """
 import json
 from typing import Any, Dict, List, Optional, Tuple
@@ -8,7 +8,7 @@ from typing import Any, Dict, List, Optional, Tuple
 from groq import Groq
 from loguru import logger
 
-from services import search as search_service
+from services import case_search
 
 def _get_client() -> Groq:
     from config import GROQ_API_KEY
@@ -57,9 +57,9 @@ TOOLS = [
 ]
 
 
-def query_groq_api_with_tools(conversation_messages: List[Dict[str, Any]]) -> Tuple[str, Optional[List[Dict[str, Any]]]]:
+def run_chat_turn(conversation_messages: List[Dict[str, Any]]) -> Tuple[str, Optional[List[Dict[str, Any]]]]:
     """
-    Run Groq chat with tool-calling loop. On search_cases tool call, uses services.search.
+    Run one chat turn (Groq + tool loop). On search_cases tool call, uses case_search.run_case_search.
     Returns (response_text, retrieval_result). retrieval_result is for the API response body.
     """
     client = _get_client()
@@ -105,7 +105,7 @@ def query_groq_api_with_tools(conversation_messages: List[Dict[str, Any]]) -> Tu
                 except json.JSONDecodeError:
                     args = {"query_text": tc.function.arguments or ""}
 
-                out = search_service.search_cases_for_tool(
+                out = case_search.run_case_search(
                     query_text=args.get("query_text", ""),
                     top_k=int(args.get("top_k", 10)),
                 )

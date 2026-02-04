@@ -6,7 +6,6 @@ from typing import Any, Dict, List, Optional, Tuple
 import re
 from datetime import datetime
 
-import mysql.connector
 from mysql.connector import Error
 
 _backend_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

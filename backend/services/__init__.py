@@ -1,6 +1,6 @@
 """
-Services layer: retrieval (FAISS + DB), search (tool-facing), chat (Groq + tools).
+Services layer: retrieval (FAISS + chunks), case_search (for chat tool), chat (Groq + tools).
 """
-from services import retrieval, search, chat
+from services import retrieval, case_search, chat
 
-__all__ = ["retrieval", "search", "chat"]
+__all__ = ["retrieval", "case_search", "chat"]

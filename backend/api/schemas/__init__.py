@@ -4,13 +4,13 @@ Pydantic schemas for API request/response and tool-related DTOs.
 from api.schemas.chat import (
     UserInput,
     ChatResponse,
-    RetrievalCaseSummary,
+    CaseSummary,
     ClauseSummary,
 )
 
 __all__ = [
     "UserInput",
     "ChatResponse",
-    "RetrievalCaseSummary",
+    "CaseSummary",
     "ClauseSummary",
 ]

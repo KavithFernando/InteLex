@@ -1,20 +1,19 @@
 """
-Search service for the chat tool: runs retrieval (FAISS + chunk/headers) and enriches
-with lightweight case summaries (case_id, title, date, clauses) for the API response.
+High-level case search: runs retrieval (FAISS + chunk/headers) and enriches
+with case summaries (title, date, clauses) for the chat tool and API response.
 """
 from typing import Any, Dict, List
 
 from db.repositories import case_repo
+from services.retrieval import search_cases as run_retrieval
 
-from services.retrieval import search_cases as retrieval_search_cases
 
-
-def search_cases_for_tool(query_text: str, top_k: int = 10) -> Dict[str, Any]:
+def run_case_search(query_text: str, top_k: int = 10) -> Dict[str, Any]:
     """
-    Runs retrieval (FAISS + DB chunk/headers), then fetches retrieval summaries (title, date, clauses).
+    Run retrieval (FAISS + DB chunk/headers), then fetch case summaries (title, date, clauses).
     Returns tool_content (short message for the LLM) and retrieval_result (for API response body).
     """
-    retrieval = retrieval_search_cases(
+    retrieval = run_retrieval(
         query_text=query_text,
         top_cases=top_k,
         chunk_recall=None,
@@ -23,7 +22,7 @@ def search_cases_for_tool(query_text: str, top_k: int = 10) -> Dict[str, Any]:
     results = retrieval.get("results", [])
 
     case_ids = [r["case_id"] for r in results]
-    summaries: List[Dict[str, Any]] = case_repo.fetch_retrieval_summaries(case_ids)
+    summaries: List[Dict[str, Any]] = case_repo.fetch_case_summaries(case_ids)
 
     score_by_id = {r["case_id"]: r["score"] for r in results}
     retrieval_result = [

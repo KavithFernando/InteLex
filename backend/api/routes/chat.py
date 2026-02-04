@@ -7,7 +7,7 @@ from fastapi import APIRouter, HTTPException
 from loguru import logger
 
 from api.schemas import ChatResponse, UserInput
-from services.chat import SYSTEM_PROMPT, query_groq_api_with_tools
+from services.chat import SYSTEM_PROMPT, run_chat_turn
 
 
 router = APIRouter()
@@ -64,7 +64,7 @@ async def chat(input: UserInput) -> ChatResponse:
         conversation.messages.append({"role": "user", "content": user_text})
         conversation.messages = trim_history(conversation.messages)
 
-        response_text, retrieval_result = query_groq_api_with_tools(conversation.messages)
+        response_text, retrieval_result = run_chat_turn(conversation.messages)
 
         conversation.messages.append({"role": "assistant", "content": response_text})
         conversation.messages = trim_history(conversation.messages)
