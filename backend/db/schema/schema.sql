@@ -2,6 +2,7 @@ SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- 1) Reference tables
+DROP TABLE IF EXISTS users;
 DROP TABLE IF EXISTS case_principles;
 DROP TABLE IF EXISTS case_precedents;
 DROP TABLE IF EXISTS case_keywords;
@@ -168,7 +169,18 @@ CREATE TABLE case_chunks (
     ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- 6) Useful indexes for search/filtering
+-- 6) Users (auth)
+CREATE TABLE users (
+  user_id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+  email VARCHAR(255) NOT NULL,
+  password_hash VARCHAR(255) NOT NULL,
+  created_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+  updated_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+  PRIMARY KEY (user_id),
+  UNIQUE KEY uq_users_email (email)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- 7) Useful indexes for search/filtering
 CREATE INDEX idx_clauses_article ON clauses(article);
 
 SET FOREIGN_KEY_CHECKS = 1;
