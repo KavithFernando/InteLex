@@ -3,19 +3,10 @@ import re
 import json
 import faiss
 import numpy as np
-import mysql.connector
 from sentence_transformers import SentenceTransformer
 
-import dotenv
-dotenv.load_dotenv()
-
-DB_CONFIG = {
-    "host": os.getenv("DB_HOST"),
-    "port": int(os.getenv("DB_PORT", 3306)),
-    "user": os.getenv("DB_USER"),
-    "password": os.getenv("DB_PASSWORD"),
-    "database": os.getenv("DB_NAME"),
-}
+from db.connection import get_connection
+from db.repositories import case_repo, chunk_repo
 
 # Embedding model (starter). Swap later if needed.
 EMBED_MODEL = "bhavyagiri/InLegal-Sbert"
@@ -89,23 +80,6 @@ def chunk_by_words(text: str, chunk_words: int, overlap_words: int, min_words: i
 
     return chunks
 
-def fetch_cases_with_full_text():
-    conn = mysql.connector.connect(**DB_CONFIG)
-    cur = conn.cursor(dictionary=True)
-
-    # Adjust column name if your full text column differs.
-    cur.execute("""
-        SELECT case_id, case_title, legal_issue, petitioner_claim,
-               respondent_argument, outcome, interpretation_summary,
-               full_text
-        FROM cases
-    """)
-    rows = cur.fetchall()
-
-    cur.close()
-    conn.close()
-    return rows
-
 def build_case_representation(row: dict) -> str:
     header_parts = []
     if row.get("case_title"):
@@ -129,24 +103,17 @@ def build_case_representation(row: dict) -> str:
     return header or body
 
 def main():
-    rows = fetch_cases_with_full_text()
+    rows = case_repo.fetch_cases_with_full_text()
     if not rows:
         raise RuntimeError("No cases found in DB.")
 
     model = SentenceTransformer(EMBED_MODEL)
 
-    conn = mysql.connector.connect(**DB_CONFIG)
-    cur = conn.cursor()
-    cur.execute("TRUNCATE TABLE case_chunks")
-    conn.commit()
+    conn = get_connection()
+    chunk_repo.truncate_case_chunks(conn)
 
     chunk_map = []
     all_chunk_texts = []
-    insert_sql = """
-        INSERT INTO case_chunks
-        (case_id, faiss_id, chunk_text, start_word, end_word, start_char, end_char, word_count)
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
-    """
 
     for row in rows:
         case_id = row["case_id"]
@@ -173,7 +140,8 @@ def main():
                 "word_count": ch["word_count"],
             })
             all_chunk_texts.append(ch["text"])
-            cur.execute(insert_sql, (
+            chunk_repo.insert_case_chunk(
+                conn,
                 case_id,
                 faiss_id,
                 ch["text"],
@@ -182,10 +150,9 @@ def main():
                 ch["start_char"],
                 ch["end_char"],
                 ch["word_count"],
-            ))
+            )
 
     conn.commit()
-    cur.close()
     conn.close()
 
     if not all_chunk_texts:

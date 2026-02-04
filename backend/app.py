@@ -9,7 +9,6 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from groq import Groq
-import mysql.connector
 
 load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
@@ -19,14 +18,8 @@ if not GROQ_API_KEY:
 
 client = Groq(api_key=GROQ_API_KEY)
 
-# DB config for fetching full case records (same as scripts)
-DB_CONFIG = {
-    "host": os.getenv("DB_HOST"),
-    "port": int(os.getenv("DB_PORT", 3306)),
-    "user": os.getenv("DB_USER"),
-    "password": os.getenv("DB_PASSWORD"),
-    "database": os.getenv("DB_NAME"),
-}
+# DB layer
+from db.repositories import case_repo
 
 # Import retrieval from scripts (FAISS + MySQL chunk/header fetch)
 # Ensure backend dir is on path so "scripts" resolves whether run from backend/ or repo root
@@ -89,65 +82,6 @@ TOOLS = [
         }
     }
 ]
-
-
-# ----------------------------
-# Lightweight retrieval summaries (case_id, title, date, clauses) for response body
-# Full case fetch is left for a separate "get case by id" API when user clicks.
-# ----------------------------
-def fetch_retrieval_summaries(case_ids: List[str]) -> List[Dict[str, Any]]:
-    """
-    Fetch case_id, case_title, decision_date, and clauses for the given case_ids.
-    Returns list in same order as case_ids; each item has clauses as list of {article, text}.
-    """
-    if not case_ids:
-        return []
-
-    conn = mysql.connector.connect(**DB_CONFIG)
-    cur = conn.cursor(dictionary=True)
-    placeholders = ",".join(["%s"] * len(case_ids))
-
-    cur.execute(
-        f"""
-        SELECT case_id, case_title, decision_date 
-        FROM cases
-        WHERE case_id IN ({placeholders})
-        """,
-        case_ids,
-    )
-    case_rows = {r["case_id"]: dict(r) for r in cur.fetchall()}
-
-    cur.execute(
-        f"""
-        SELECT cc.case_id, cl.article, cl.text
-        FROM case_clauses cc
-        JOIN clauses cl ON cl.clause_id = cc.clause_id
-        WHERE cc.case_id IN ({placeholders})
-        """,
-        case_ids,
-    )
-    clauses_by_case: Dict[str, List[Dict[str, Any]]] = {cid: [] for cid in case_ids}
-    for r in cur.fetchall():
-        clauses_by_case.setdefault(r["case_id"], []).append(
-            {"article": r["article"], "text": r["text"]}
-        )
-
-    cur.close()
-    conn.close()
-
-    out = []
-    for cid in case_ids:
-        row = case_rows.get(cid)
-        if not row:
-            continue
-        d = {
-            "case_id": cid,
-            "case_title": row.get("case_title"),
-            "decision_date": str(row["decision_date"]) if row.get("decision_date") else None,
-            "clauses": clauses_by_case.get(cid, []),
-        }
-        out.append(d)
-    return out
 
 
 # ----------------------------
@@ -215,7 +149,7 @@ def search_cases(query_text: str, top_k: int = 10) -> Dict[str, Any]:
     results = retrieval.get("results", [])
 
     case_ids = [r["case_id"] for r in results]
-    summaries = fetch_retrieval_summaries(case_ids)
+    summaries = case_repo.fetch_retrieval_summaries(case_ids)
 
     # Preserve order and add score from search results
     score_by_id = {r["case_id"]: r["score"] for r in results}

@@ -2,25 +2,17 @@ import os
 import json
 import faiss
 import numpy as np
-import mysql.connector
 from sentence_transformers import SentenceTransformer
 
-import dotenv
-dotenv.load_dotenv()
-
-DB = {
-    "host": os.getenv("DB_HOST"),
-    "port": int(os.getenv("DB_PORT", 3306)),
-    "user": os.getenv("DB_USER"),
-    "password": os.getenv("DB_PASSWORD"),
-    "database": os.getenv("DB_NAME"),
-}
+from db.repositories import chunk_repo
 
 INDEX_PATH = "index_store/case_chunks.index"
 CHUNK_MAP_PATH = "index_store/case_chunks_map.json"
 
 _embedder = None
 _index = None
+
+
 def _load_assets():
     global _embedder, _index
     if _index is None:
@@ -29,33 +21,6 @@ def _load_assets():
         with open(CHUNK_MAP_PATH, "r", encoding="utf-8") as f:
             meta = json.load(f)
         _embedder = SentenceTransformer(meta["embed_model"])
-
-def _fetch_chunks_and_headers_by_faiss_ids(faiss_ids):
-    """
-    Fetch chunk text and case header fields from MySQL for the given FAISS row indices.
-    Returns dict: faiss_id -> {case_id, chunk_text, case_title, decision_date, legal_issue, outcome}.
-    """
-    if not faiss_ids:
-        return {}
-
-    conn = mysql.connector.connect(**DB)
-    cur = conn.cursor(dictionary=True)
-
-    # Keep it small here; you’ll fetch all joins when user clicks a case.
-    placeholders = ",".join(["%s"] * len(faiss_ids))
-    cur.execute(f"""
-        SELECT c.faiss_id, c.case_id, c.chunk_text,
-               ca.case_title, ca.decision_date, ca.legal_issue, ca.outcome
-        FROM case_chunks c
-        JOIN cases ca ON ca.case_id = c.case_id
-        WHERE c.faiss_id IN ({placeholders})
-    """, list(faiss_ids))
-    rows = cur.fetchall()
-
-    cur.close()
-    conn.close()
-
-    return {r["faiss_id"]: r for r in rows}
 
 # Diversity guard: scale chunk_recall with corpus size so retrieval doesn't under-recall as DB grows
 CHUNK_RECALL_MIN = 80
@@ -88,7 +53,7 @@ def search_cases(
 
     # Fetch chunk text + case headers from MySQL for all top chunks (faiss_id = FAISS row index)
     faiss_ids = [int(i) for i in idxs[0] if i >= 0]
-    chunk_rows = _fetch_chunks_and_headers_by_faiss_ids(faiss_ids)
+    chunk_rows = chunk_repo.fetch_chunks_and_headers_by_faiss_ids(faiss_ids)
 
     # Per case: keep top top_chunks_per_case chunks by score (for diversity / multiple snippets)
     case_chunks = {}  # case_id -> [(score, faiss_id), ...] sorted desc by score, max top_chunks_per_case
