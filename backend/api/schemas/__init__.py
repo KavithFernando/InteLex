@@ -1,6 +1,7 @@
 """
 Pydantic schemas for API request/response and tool-related DTOs.
 """
+from api.schemas.case import CaseDetail, ClauseItem
 from api.schemas.chat import (
     UserInput,
     ChatResponse,
@@ -13,4 +14,6 @@ __all__ = [
     "ChatResponse",
     "CaseSummary",
     "ClauseSummary",
+    "CaseDetail",
+    "ClauseItem",
 ]

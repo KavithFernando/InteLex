@@ -1,3 +1,3 @@
-from api.routes import chat
+from api.routes import chat, cases
 
-__all__ = ["chat"]
+__all__ = ["chat", "cases"]

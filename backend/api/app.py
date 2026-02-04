@@ -5,6 +5,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from api.routes import chat as chat_router
+from api.routes import cases as cases_router
 
 app = FastAPI(title="Legal Assistant (Groq + Retrieval)")
 
@@ -17,3 +18,4 @@ app.add_middleware(
 )
 
 app.include_router(chat_router.router, tags=["chat"])
+app.include_router(cases_router.router, tags=["cases"])
