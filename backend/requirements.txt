@@ -12,3 +12,7 @@ sentence-transformers
 numpy
 loguru
 regex
+mysql-connector-python
+sqlalchemy
+pyjwt
+passlib[bcrypt]

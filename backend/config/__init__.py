@@ -16,6 +16,9 @@ from config.settings import (
     OVERLAP_TOKENS_APPROX,
     MIN_CHUNK_TOKENS,
     DATA_JSON_PATH,
+    JWT_SECRET,
+    JWT_ALGORITHM,
+    JWT_EXPIRE_MINUTES,
 )
 
 __all__ = [
@@ -29,4 +32,7 @@ __all__ = [
     "OVERLAP_TOKENS_APPROX",
     "MIN_CHUNK_TOKENS",
     "DATA_JSON_PATH",
+    "JWT_SECRET",
+    "JWT_ALGORITHM",
+    "JWT_EXPIRE_MINUTES",
 ]

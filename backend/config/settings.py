@@ -32,3 +32,8 @@ MIN_CHUNK_TOKENS = 100
 
 # Data (used by scripts.import_cases)
 DATA_JSON_PATH = os.path.join(_BACKEND_DIR, "data", "casedata.json")
+
+# Auth (JWT and password hashing)
+JWT_SECRET = os.getenv("JWT_SECRET", "change-me-in-production")
+JWT_ALGORITHM = "HS256"
+JWT_EXPIRE_MINUTES = 60 * 24  # 1 day
