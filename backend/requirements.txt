@@ -15,4 +15,4 @@ regex
 mysql-connector-python
 sqlalchemy
 pyjwt
-passlib[bcrypt]
+bcrypt

@@ -1,23 +1,27 @@
 """
 Auth helpers: password hashing/verification and JWT creation/decoding.
+Uses bcrypt directly to avoid passlib/bcrypt 4.1+ compatibility issues.
 """
 from datetime import datetime, timedelta, timezone
 from typing import Any, Optional
 
+import bcrypt
 import jwt
-from passlib.context import CryptContext
 
 from config import JWT_ALGORITHM, JWT_EXPIRE_MINUTES, JWT_SECRET
 
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+# bcrypt truncates at 72 bytes; we do it explicitly to avoid surprises
+BCRYPT_MAX_PASSWORD_BYTES = 72
 
 
 def hash_password(plain: str) -> str:
-    return pwd_context.hash(plain)
+    raw = plain.encode("utf-8")[:BCRYPT_MAX_PASSWORD_BYTES]
+    return bcrypt.hashpw(raw, bcrypt.gensalt()).decode("utf-8")
 
 
 def verify_password(plain: str, password_hash: str) -> bool:
-    return pwd_context.verify(plain, password_hash)
+    raw = plain.encode("utf-8")[:BCRYPT_MAX_PASSWORD_BYTES]
+    return bcrypt.checkpw(raw, password_hash.encode("utf-8"))
 
 
 def create_access_token(user_id: int, username: str) -> str:
