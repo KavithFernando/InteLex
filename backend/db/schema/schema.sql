@@ -2,6 +2,8 @@ SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- 1) Reference tables
+DROP TABLE IF EXISTS messages;
+DROP TABLE IF EXISTS conversations;
 DROP TABLE IF EXISTS users;
 DROP TABLE IF EXISTS user_roles;
 DROP TABLE IF EXISTS case_principles;
@@ -195,7 +197,38 @@ CREATE TABLE users (
     ON DELETE RESTRICT
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- 7) Useful indexes for search/filtering
+-- 7) Conversations and messages (chat history)
+CREATE TABLE conversations (
+  id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+  conversation_id VARCHAR(255) NOT NULL COMMENT 'Client-facing id (e.g. UUID)',
+  user_id BIGINT UNSIGNED NULL,
+  created_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+  updated_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+  active TINYINT(1) NOT NULL DEFAULT 1,
+  PRIMARY KEY (id),
+  UNIQUE KEY uq_conversations_conversation_id (conversation_id),
+  KEY idx_conversations_user (user_id),
+  CONSTRAINT fk_conversations_user
+    FOREIGN KEY (user_id) REFERENCES users(user_id)
+    ON UPDATE CASCADE
+    ON DELETE SET NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE messages (
+  id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+  conversation_id BIGINT UNSIGNED NOT NULL,
+  role VARCHAR(32) NOT NULL COMMENT 'user | assistant',
+  content LONGTEXT NOT NULL,
+  created_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+  PRIMARY KEY (id),
+  KEY idx_messages_conversation (conversation_id),
+  CONSTRAINT fk_messages_conversation
+    FOREIGN KEY (conversation_id) REFERENCES conversations(id)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- 8) Useful indexes for search/filtering
 CREATE INDEX idx_clauses_article ON clauses(article);
 
 SET FOREIGN_KEY_CHECKS = 1;
