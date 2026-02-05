@@ -1,5 +1,5 @@
 """
-Chat route: POST /chat/ using schemas and services.chat.
+Chat route: POST /chat/. Conversations and messages are persisted in the DB.
 """
 from typing import Any, Dict, List
 
@@ -7,53 +7,34 @@ from fastapi import APIRouter, HTTPException
 from loguru import logger
 
 from api.schemas import ChatResponse, UserInput
+from db.repositories import conversation_repo
 from services.chat import SYSTEM_PROMPT, run_chat_turn
-
 
 router = APIRouter()
 
-# ----------------------------
-# Conversation store (in-memory)
-# ----------------------------
-class Conversation:
-    def __init__(self) -> None:
-        self.messages: List[Dict[str, Any]] = [
-            {"role": "system", "content": SYSTEM_PROMPT}
-        ]
-        self.active: bool = True
+KEEP_LAST_MESSAGES = 10
 
 
-conversations: Dict[str, Conversation] = {}
+def _build_messages_for_llm(db_messages: List[Dict[str, Any]], user_text: str) -> List[Dict[str, Any]]:
+    """Build message list for Groq: system + (trimmed) history + current user message."""
+    out: List[Dict[str, Any]] = [{"role": "system", "content": SYSTEM_PROMPT}]
+    for m in db_messages:
+        out.append({"role": m["role"], "content": m["content"]})
+    out.append({"role": "user", "content": user_text})
+    # Trim to system + last N exchanges to avoid context overflow
+    if len(out) > 1 + KEEP_LAST_MESSAGES:
+        out = [out[0]] + out[-(KEEP_LAST_MESSAGES):]
+    return out
 
 
-def get_or_create_conversation(conversation_id: str) -> Conversation:
-    if conversation_id not in conversations:
-        logger.info("Making new conversation")
-        conversations[conversation_id] = Conversation()
-    logger.info("Retrieving conversation")
-    return conversations[conversation_id]
-
-
-def trim_history(messages: List[Dict[str, Any]], keep_last: int = 10) -> List[Dict[str, Any]]:
-    """Keep the system message + last N messages to avoid context blowing up."""
-    if not messages:
-        return [{"role": "system", "content": SYSTEM_PROMPT}]
-    system = messages[:1]
-    tail = messages[-keep_last:] if len(messages) > 1 else []
-    return system + tail
-
-
-# ----------------------------
-# Endpoint
-# ----------------------------
 @router.post("/chat/", response_model=ChatResponse)
 async def chat(input: UserInput) -> ChatResponse:
-    conversation = get_or_create_conversation(input.conversation_id)
+    conv = conversation_repo.get_or_create(input.conversation_id, user_id=None)
 
-    if not conversation.active:
+    if not conv.get("active"):
         raise HTTPException(
             status_code=400,
-            detail="The chat session has ended. Please start a new session."
+            detail="The chat session has ended. Please start a new session.",
         )
 
     try:
@@ -61,13 +42,14 @@ async def chat(input: UserInput) -> ChatResponse:
         if not user_text:
             raise HTTPException(status_code=400, detail="Empty message.")
 
-        conversation.messages.append({"role": "user", "content": user_text})
-        conversation.messages = trim_history(conversation.messages)
+        internal_id = conv["id"]
+        db_messages = conversation_repo.get_messages(internal_id)
+        messages_for_llm = _build_messages_for_llm(db_messages, user_text)
 
-        response_text, retrieval_result = run_chat_turn(conversation.messages)
+        response_text, retrieval_result = run_chat_turn(messages_for_llm)
 
-        conversation.messages.append({"role": "assistant", "content": response_text})
-        conversation.messages = trim_history(conversation.messages)
+        conversation_repo.add_message(internal_id, "user", user_text)
+        conversation_repo.add_message(internal_id, "assistant", response_text)
 
         return ChatResponse(
             response=response_text,
