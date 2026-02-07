@@ -1,0 +1,52 @@
+.retrieval-results {
+  padding: 1rem 1.5rem;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+}
+
+.retrieval-results-title {
+  margin: 0 0 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.retrieval-results-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.retrieval-results-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.6rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--main-bg);
+  color: var(--text);
+  font-size: 0.9rem;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.retrieval-results-item:hover {
+  border-color: var(--accent);
+  background: var(--surface-hover);
+}
+
+.retrieval-results-item-title {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.retrieval-results-item-date,
+.retrieval-results-item-score {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
