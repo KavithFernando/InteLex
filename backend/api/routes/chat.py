@@ -1,16 +1,48 @@
 """
-Chat route: POST /chat/. Conversations and messages are persisted in the DB.
+Chat routes: create conversation, POST /chat/. Conversations and messages are persisted in the DB.
 """
+import uuid
 from typing import Any, Dict, List
 
 from fastapi import APIRouter, HTTPException
 from loguru import logger
 
-from api.schemas import ChatResponse, UserInput
+from api.schemas import (
+    ChatResponse,
+    ConversationItem,
+    CreateConversationResponse,
+    MessageItem,
+    UserInput,
+)
 from db.repositories import conversation_repo
 from services.chat import SYSTEM_PROMPT, run_chat_turn
 
 router = APIRouter()
+
+
+@router.get("/conversations/", response_model=list[ConversationItem])
+async def list_conversations() -> list[ConversationItem]:
+    """List all conversations, newest first."""
+    rows = conversation_repo.list_all()
+    return [ConversationItem(**r) for r in rows]
+
+
+@router.get("/conversations/{conversation_id}/messages/", response_model=list[MessageItem])
+async def get_conversation_messages(conversation_id: str) -> list[MessageItem]:
+    """Get message history for a conversation (user and assistant only)."""
+    messages = conversation_repo.get_messages_by_conversation_id(conversation_id)
+    return [MessageItem(role=m["role"], content=m["content"]) for m in messages]
+
+
+@router.post("/conversations/", response_model=CreateConversationResponse)
+async def create_conversation() -> CreateConversationResponse:
+    """Create a new conversation. Returns conversation_id to use in POST /chat/."""
+    conversation_id = str(uuid.uuid4())
+    row = conversation_repo.create(conversation_id, user_id=None)
+    return CreateConversationResponse(
+        conversation_id=row["conversation_id"],
+        created_at=row.get("created_at"),
+    )
 
 KEEP_LAST_MESSAGES = 10
 

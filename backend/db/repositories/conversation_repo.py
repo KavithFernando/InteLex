@@ -23,7 +23,7 @@ def get_by_conversation_id(conversation_id: str) -> Optional[Dict[str, Any]]:
 
 
 def create(conversation_id: str, user_id: Optional[int] = None) -> Dict[str, Any]:
-    """Create a new conversation. Returns the created row (id, conversation_id, user_id, active)."""
+    """Create a new conversation. Returns the created row (id, conversation_id, user_id, active, created_at)."""
     conn = get_connection()
     try:
         cur = conn.cursor(dictionary=True)
@@ -33,13 +33,10 @@ def create(conversation_id: str, user_id: Optional[int] = None) -> Dict[str, Any
         )
         conn.commit()
         pk = cur.lastrowid
+        cur.execute("SELECT id, conversation_id, user_id, active, created_at FROM conversations WHERE id = %s", (pk,))
+        row = cur.fetchone()
         cur.close()
-        return {
-            "id": pk,
-            "conversation_id": conversation_id,
-            "user_id": user_id,
-            "active": True,
-        }
+        return row
     finally:
         conn.close()
 
@@ -50,6 +47,29 @@ def get_or_create(conversation_id: str, user_id: Optional[int] = None) -> Dict[s
     if row:
         return row
     return create(conversation_id, user_id)
+
+
+def list_all() -> List[Dict[str, Any]]:
+    """Return all conversations, newest first. Each row: conversation_id, created_at, updated_at."""
+    conn = get_connection()
+    try:
+        cur = conn.cursor(dictionary=True)
+        cur.execute(
+            "SELECT conversation_id, created_at, updated_at FROM conversations ORDER BY updated_at DESC"
+        )
+        rows = cur.fetchall()
+        cur.close()
+        return rows
+    finally:
+        conn.close()
+
+
+def get_messages_by_conversation_id(conversation_id: str) -> List[Dict[str, Any]]:
+    """Return messages for the conversation (by client-facing id), ordered by created_at. Each item: role, content."""
+    conv = get_by_conversation_id(conversation_id)
+    if not conv:
+        return []
+    return get_messages(conv["id"])
 
 
 def get_messages(conversation_internal_id: int) -> List[Dict[str, Any]]:

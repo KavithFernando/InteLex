@@ -1,9 +1,29 @@
 """
 Chat and retrieval request/response schemas.
 """
+from datetime import datetime
 from typing import List, Optional
 
 from pydantic import BaseModel, Field
+
+
+class CreateConversationResponse(BaseModel):
+    """Response body for POST /conversations/."""
+    conversation_id: str = Field(..., description="Use this id for subsequent POST /chat/ requests.")
+    created_at: Optional[datetime] = None
+
+
+class ConversationItem(BaseModel):
+    """One item in GET /conversations/ list."""
+    conversation_id: str
+    created_at: Optional[datetime] = None
+    updated_at: Optional[datetime] = None
+
+
+class MessageItem(BaseModel):
+    """One message in GET /conversations/{id}/messages."""
+    role: str
+    content: str
 
 
 class UserInput(BaseModel):

@@ -8,6 +8,9 @@ from api.schemas.chat import (
     ChatResponse,
     CaseSummary,
     ClauseSummary,
+    ConversationItem,
+    CreateConversationResponse,
+    MessageItem,
 )
 
 __all__ = [
@@ -15,6 +18,9 @@ __all__ = [
     "ChatResponse",
     "CaseSummary",
     "ClauseSummary",
+    "ConversationItem",
+    "CreateConversationResponse",
+    "MessageItem",
     "CaseDetail",
     "ClauseItem",
     "LoginRequest",
