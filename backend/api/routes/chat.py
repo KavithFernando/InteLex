@@ -4,9 +4,10 @@ Chat routes: create conversation, POST /chat/. Conversations and messages are pe
 import uuid
 from typing import Any, Dict, List
 
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, Depends, HTTPException
 from loguru import logger
 
+from api.deps import get_chat_service, get_conversation_repo
 from api.schemas import (
     ChatResponse,
     ConversationItem,
@@ -14,35 +15,9 @@ from api.schemas import (
     MessageItem,
     UserInput,
 )
-from db.repositories import conversation_repo
-from services.chat import SYSTEM_PROMPT, run_chat_turn
+from services.chat import SYSTEM_PROMPT
 
 router = APIRouter()
-
-
-@router.get("/conversations/", response_model=list[ConversationItem])
-async def list_conversations() -> list[ConversationItem]:
-    """List all conversations, newest first."""
-    rows = conversation_repo.list_all()
-    return [ConversationItem(**r) for r in rows]
-
-
-@router.get("/conversations/{conversation_id}/messages/", response_model=list[MessageItem])
-async def get_conversation_messages(conversation_id: str) -> list[MessageItem]:
-    """Get message history for a conversation (user and assistant only)."""
-    messages = conversation_repo.get_messages_by_conversation_id(conversation_id)
-    return [MessageItem(role=m["role"], content=m["content"]) for m in messages]
-
-
-@router.post("/conversations/", response_model=CreateConversationResponse)
-async def create_conversation() -> CreateConversationResponse:
-    """Create a new conversation. Returns conversation_id to use in POST /chat/."""
-    conversation_id = str(uuid.uuid4())
-    row = conversation_repo.create(conversation_id, user_id=None)
-    return CreateConversationResponse(
-        conversation_id=row["conversation_id"],
-        created_at=row.get("created_at"),
-    )
 
 KEEP_LAST_MESSAGES = 10
 
@@ -53,14 +28,49 @@ def _build_messages_for_llm(db_messages: List[Dict[str, Any]], user_text: str) -
     for m in db_messages:
         out.append({"role": m["role"], "content": m["content"]})
     out.append({"role": "user", "content": user_text})
-    # Trim to system + last N exchanges to avoid context overflow
     if len(out) > 1 + KEEP_LAST_MESSAGES:
         out = [out[0]] + out[-(KEEP_LAST_MESSAGES):]
     return out
 
 
+@router.get("/conversations/", response_model=list[ConversationItem])
+async def list_conversations(
+    conversation_repo=Depends(get_conversation_repo),
+) -> list[ConversationItem]:
+    """List all conversations, newest first."""
+    rows = conversation_repo.list_all()
+    return [ConversationItem(**r) for r in rows]
+
+
+@router.get("/conversations/{conversation_id}/messages/", response_model=list[MessageItem])
+async def get_conversation_messages(
+    conversation_id: str,
+    conversation_repo=Depends(get_conversation_repo),
+) -> list[MessageItem]:
+    """Get message history for a conversation (user and assistant only)."""
+    messages = conversation_repo.get_messages_by_conversation_id(conversation_id)
+    return [MessageItem(role=m["role"], content=m["content"]) for m in messages]
+
+
+@router.post("/conversations/", response_model=CreateConversationResponse)
+async def create_conversation(
+    conversation_repo=Depends(get_conversation_repo),
+) -> CreateConversationResponse:
+    """Create a new conversation. Returns conversation_id to use in POST /chat/."""
+    conversation_id = str(uuid.uuid4())
+    row = conversation_repo.create(conversation_id, user_id=None)
+    return CreateConversationResponse(
+        conversation_id=row["conversation_id"],
+        created_at=row.get("created_at"),
+    )
+
+
 @router.post("/chat/", response_model=ChatResponse)
-async def chat(input: UserInput) -> ChatResponse:
+async def chat(
+    input: UserInput,
+    conversation_repo=Depends(get_conversation_repo),
+    chat_service=Depends(get_chat_service),
+) -> ChatResponse:
     conv = conversation_repo.get_or_create(input.conversation_id, user_id=None)
 
     if not conv.get("active"):
@@ -78,7 +88,7 @@ async def chat(input: UserInput) -> ChatResponse:
         db_messages = conversation_repo.get_messages(internal_id)
         messages_for_llm = _build_messages_for_llm(db_messages, user_text)
 
-        response_text, retrieval_result = run_chat_turn(messages_for_llm)
+        response_text, retrieval_result = chat_service.run_chat_turn(messages_for_llm)
 
         conversation_repo.add_message(internal_id, "user", user_text)
         conversation_repo.add_message(internal_id, "assistant", response_text)
