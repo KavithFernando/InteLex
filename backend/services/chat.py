@@ -1,20 +1,12 @@
 """
 Chat service: system prompt, tool definitions, and Groq tool-calling loop.
-Uses services.case_search for the search_cases tool; no direct DB or FAISS access.
+Implemented as ChatService for OOP; uses CaseSearchService for the search_cases tool.
 """
 import json
 from typing import Any, Dict, List, Optional, Tuple
 
 from groq import Groq
 from loguru import logger
-
-from services import case_search
-
-def _get_client() -> Groq:
-    from config import GROQ_API_KEY
-    if not GROQ_API_KEY:
-        raise ValueError("GROQ_API_KEY is missing.")
-    return Groq(api_key=GROQ_API_KEY)
 
 
 SYSTEM_PROMPT = """
@@ -57,68 +49,30 @@ TOOLS = [
 ]
 
 
-def run_chat_turn(conversation_messages: List[Dict[str, Any]]) -> Tuple[str, Optional[List[Dict[str, Any]]]]:
-    """
-    Run one chat turn (Groq + tool loop). On search_cases tool call, uses case_search.run_case_search.
-    Returns (response_text, retrieval_result). retrieval_result is for the API response body.
-    """
-    client = _get_client()
-    retrieval_result: Optional[List[Dict[str, Any]]] = None
+class ChatService:
+    """Orchestrates one chat turn with LLM and case search tool."""
 
-    resp = client.chat.completions.create(
-        model="llama-3.1-8b-instant",
-        messages=conversation_messages,
-        tools=TOOLS,
-        tool_choice="auto",
-        temperature=0.6,
-        max_tokens=900,
-        top_p=1,
-        stream=False,
-    )
+    def __init__(self, case_search_service):
+        """
+        :param case_search_service: CaseSearchService instance for search_cases tool.
+        """
+        self._case_search_service = case_search_service
 
-    msg = resp.choices[0].message
-    logger.info("First call response: %s", msg)
+    def _get_client(self) -> Groq:
+        from config import GROQ_API_KEY
+        if not GROQ_API_KEY:
+            raise ValueError("GROQ_API_KEY is missing.")
+        return Groq(api_key=GROQ_API_KEY)
 
-    tool_calls = getattr(msg, "tool_calls", None)
-    if tool_calls:
-        logger.info("Executing tool calls")
-        conversation_messages.append({
-            "role": "assistant",
-            "content": msg.content or "",
-            "tool_calls": [
-                {
-                    "id": tc.id,
-                    "type": "function",
-                    "function": {
-                        "name": tc.function.name,
-                        "arguments": tc.function.arguments,
-                    },
-                }
-                for tc in tool_calls
-            ],
-        })
+    def run_chat_turn(self, conversation_messages: List[Dict[str, Any]]) -> Tuple[str, Optional[List[Dict[str, Any]]]]:
+        """
+        Run one chat turn (Groq + tool loop). On search_cases tool call, uses CaseSearchService.
+        Returns (response_text, retrieval_result). retrieval_result is for the API response body.
+        """
+        client = self._get_client()
+        retrieval_result: Optional[List[Dict[str, Any]]] = None
 
-        for tc in tool_calls:
-            if tc.function.name == "search_cases":
-                try:
-                    args = json.loads(tc.function.arguments or "{}")
-                except json.JSONDecodeError:
-                    args = {"query_text": tc.function.arguments or ""}
-
-                out = case_search.run_case_search(
-                    query_text=args.get("query_text", ""),
-                    top_k=int(args.get("top_k", 10)),
-                )
-                retrieval_result = out.get("retrieval_result", [])
-                content_for_model = json.dumps(out.get("tool_content", {"message": "Done.", "count": 0}))
-
-                conversation_messages.append({
-                    "role": "tool",
-                    "tool_call_id": tc.id,
-                    "content": content_for_model,
-                })
-
-        resp2 = client.chat.completions.create(
+        resp = client.chat.completions.create(
             model="llama-3.1-8b-instant",
             messages=conversation_messages,
             tools=TOOLS,
@@ -128,9 +82,62 @@ def run_chat_turn(conversation_messages: List[Dict[str, Any]]) -> Tuple[str, Opt
             top_p=1,
             stream=False,
         )
-        msg2 = resp2.choices[0].message.content or ""
-        logger.info("Second call response: %s", msg2)
-        return msg2, retrieval_result
 
-    logger.info("No tool calls")
-    return (msg.content or ""), None
+        msg = resp.choices[0].message
+        logger.info("First call response: %s", msg)
+
+        tool_calls = getattr(msg, "tool_calls", None)
+        if tool_calls:
+            logger.info("Executing tool calls")
+            conversation_messages.append({
+                "role": "assistant",
+                "content": msg.content or "",
+                "tool_calls": [
+                    {
+                        "id": tc.id,
+                        "type": "function",
+                        "function": {
+                            "name": tc.function.name,
+                            "arguments": tc.function.arguments,
+                        },
+                    }
+                    for tc in tool_calls
+                ],
+            })
+
+            for tc in tool_calls:
+                if tc.function.name == "search_cases":
+                    try:
+                        args = json.loads(tc.function.arguments or "{}")
+                    except json.JSONDecodeError:
+                        args = {"query_text": tc.function.arguments or ""}
+
+                    out = self._case_search_service.run_case_search(
+                        query_text=args.get("query_text", ""),
+                        top_k=int(args.get("top_k", 10)),
+                    )
+                    retrieval_result = out.get("retrieval_result", [])
+                    content_for_model = json.dumps(out.get("tool_content", {"message": "Done.", "count": 0}))
+
+                    conversation_messages.append({
+                        "role": "tool",
+                        "tool_call_id": tc.id,
+                        "content": content_for_model,
+                    })
+
+            resp2 = client.chat.completions.create(
+                model="llama-3.1-8b-instant",
+                messages=conversation_messages,
+                tools=TOOLS,
+                tool_choice="auto",
+                temperature=0.6,
+                max_tokens=900,
+                top_p=1,
+                stream=False,
+            )
+            msg2 = resp2.choices[0].message.content or ""
+            logger.info("Second call response: %s", msg2)
+            return msg2, retrieval_result
+
+        logger.info("No tool calls")
+        return (msg.content or ""), None
