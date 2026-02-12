@@ -1,6 +1,7 @@
 """
 Conversation and message repository (raw SQL). Chat history persistence. Encapsulated in ConversationRepository.
 """
+import json
 from typing import Any, Dict, List, Optional
 
 from db.connection import get_connection
@@ -64,35 +65,60 @@ class ConversationRepository:
             conn.close()
 
     def get_messages_by_conversation_id(self, conversation_id: str) -> List[Dict[str, Any]]:
-        """Return messages for the conversation (by client-facing id), ordered by created_at. Each item: role, content."""
+        """Return messages for the conversation (by client-facing id), ordered by created_at. Each item: role, content, retrieval_result."""
         conv = self.get_by_conversation_id(conversation_id)
         if not conv:
             return []
         return self.get_messages(conv["id"])
 
     def get_messages(self, conversation_internal_id: int) -> List[Dict[str, Any]]:
-        """Return messages for the conversation (by internal id), ordered by created_at. Each item: role, content."""
+        """Return messages for the conversation (by internal id), ordered by created_at. Each item: role, content, retrieval_result (list or None)."""
         conn = get_connection()
         try:
             cur = conn.cursor(dictionary=True)
             cur.execute(
-                "SELECT role, content FROM messages WHERE conversation_id = %s ORDER BY created_at ASC",
+                "SELECT role, content, retrieval_result FROM messages WHERE conversation_id = %s ORDER BY created_at ASC",
                 (conversation_internal_id,),
             )
             rows = cur.fetchall()
             cur.close()
-            return rows
+            out = []
+            for r in rows:
+                retrieval = r.get("retrieval_result")
+                if retrieval is not None:
+                    if isinstance(retrieval, str):
+                        try:
+                            retrieval = json.loads(retrieval) if retrieval else []
+                        except (json.JSONDecodeError, TypeError):
+                            retrieval = []
+                    elif not isinstance(retrieval, list):
+                        retrieval = []
+                else:
+                    retrieval = None
+                out.append({
+                    "role": r["role"],
+                    "content": r["content"],
+                    "retrieval_result": retrieval,
+                })
+            return out
         finally:
             conn.close()
 
-    def add_message(self, conversation_internal_id: int, role: str, content: str) -> None:
-        """Append a message (user or assistant) to the conversation."""
+    def add_message(
+        self,
+        conversation_internal_id: int,
+        role: str,
+        content: str,
+        retrieval_result: Optional[List[Dict[str, Any]]] = None,
+    ) -> None:
+        """Append a message (user or assistant) to the conversation. retrieval_result is for assistant messages with case results."""
         conn = get_connection()
         try:
             cur = conn.cursor()
+            json_val = json.dumps(retrieval_result) if retrieval_result else None
             cur.execute(
-                "INSERT INTO messages (conversation_id, role, content) VALUES (%s, %s, %s)",
-                (conversation_internal_id, role, content),
+                "INSERT INTO messages (conversation_id, role, content, retrieval_result) VALUES (%s, %s, %s, %s)",
+                (conversation_internal_id, role, content, json_val),
             )
             conn.commit()
             cur.close()

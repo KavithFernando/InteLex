@@ -24,6 +24,10 @@ class MessageItem(BaseModel):
     """One message in GET /conversations/{id}/messages."""
     role: str
     content: str
+    retrieval_result: Optional[List["CaseSummary"]] = Field(
+        default=None,
+        description="Case results for this assistant message, if any.",
+    )
 
 
 class UserInput(BaseModel):

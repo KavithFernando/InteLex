@@ -49,7 +49,14 @@ async def get_conversation_messages(
 ) -> list[MessageItem]:
     """Get message history for a conversation (user and assistant only)."""
     messages = conversation_repo.get_messages_by_conversation_id(conversation_id)
-    return [MessageItem(role=m["role"], content=m["content"]) for m in messages]
+    return [
+        MessageItem(
+            role=m["role"],
+            content=m["content"],
+            retrieval_result=m.get("retrieval_result"),
+        )
+        for m in messages
+    ]
 
 
 @router.post("/conversations/", response_model=CreateConversationResponse)
@@ -91,7 +98,12 @@ async def chat(
         response_text, retrieval_result = chat_service.run_chat_turn(messages_for_llm)
 
         conversation_repo.add_message(internal_id, "user", user_text)
-        conversation_repo.add_message(internal_id, "assistant", response_text)
+        conversation_repo.add_message(
+            internal_id,
+            "assistant",
+            response_text,
+            retrieval_result=retrieval_result if retrieval_result else None,
+        )
 
         return ChatResponse(
             response=response_text,
