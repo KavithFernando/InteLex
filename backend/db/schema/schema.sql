@@ -219,6 +219,7 @@ CREATE TABLE messages (
   conversation_id BIGINT UNSIGNED NOT NULL,
   role VARCHAR(32) NOT NULL COMMENT 'user | assistant',
   content LONGTEXT NOT NULL,
+  retrieval_result JSON NULL COMMENT 'Case results for assistant messages (search_cases tool).',
   created_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
   PRIMARY KEY (id),
   KEY idx_messages_conversation (conversation_id),
