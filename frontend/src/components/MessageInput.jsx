@@ -1,57 +1,61 @@
 import { useState, useRef, useEffect } from 'react';
 
 export default function MessageInput({ onSend, disabled }) {
-  const [value, setValue] = useState('');
-  const [focused, setFocused] = useState(false);
+  const [text, setText] = useState('');
   const textareaRef = useRef(null);
 
   useEffect(() => {
-    const ta = textareaRef.current;
-    if (!ta) return;
-    ta.style.height = 'auto';
-    ta.style.height = `${Math.min(ta.scrollHeight, 200)}px`;
-  }, [value]);
+    if (textareaRef.current) {
+      textareaRef.current.style.height = 'auto';
+      textareaRef.current.style.height = `${Math.min(textareaRef.current.scrollHeight, 200)}px`;
+    }
+  }, [text]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const text = value.trim();
-    if (!text || disabled) return;
+    if (!text.trim() || disabled) return;
     onSend(text);
-    setValue('');
+    setText('');
+    if (textareaRef.current) {
+      textareaRef.current.style.height = 'auto';
+      textareaRef.current.focus();
+    }
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      handleSubmit(e);
+    }
   };
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="flex gap-2 items-end py-4 px-6"
-    >
-      <textarea
-        ref={textareaRef}
-        placeholder="Ask about cases or paste legal text..."
-        value={value}
-        onChange={(e) => setValue(e.target.value)}
-        onKeyDown={(e) => {
-          if (e.key === 'Enter' && !e.shiftKey) {
-            e.preventDefault();
-            handleSubmit(e);
-          }
-        }}
-        onFocus={() => setFocused(true)}
-        onBlur={() => setFocused(false)}
-        rows={1}
-        disabled={disabled}
-        aria-label="Message"
-        className={`flex-1 min-h-[2.75rem] max-h-[200px] py-2.5 px-4 rounded-[10px] bg-surface text-content-primary text-[0.95rem] leading-snug resize-none outline-none font-[inherit] disabled:opacity-70 disabled:cursor-not-allowed border ${
-          focused ? 'border-accent' : 'border-border'
-        }`}
-      />
-      <button
-        type="submit"
-        disabled={disabled || !value.trim()}
-        className="shrink-0 py-2.5 px-5 border-0 rounded-[10px] bg-accent text-accent-fg text-[0.9rem] font-medium cursor-pointer hover:enabled:bg-accent-hover disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-      >
-        Send
-      </button>
+    <form onSubmit={handleSubmit} className="relative w-full max-w-4xl mx-auto">
+      <div className="relative flex items-end gap-2 p-2 bg-surface border border-border/70 rounded-3xl shadow-lg ring-1 ring-black/5 focus-within:ring-2 focus-within:border-accent focus-within:ring-accent/20 transition-all duration-300">
+        <textarea
+          ref={textareaRef}
+          value={text}
+          onChange={(e) => setText(e.target.value)}
+          onKeyDown={handleKeyDown}
+          placeholder="Ask a legal question or describe a case..."
+          disabled={disabled}
+          rows={1}
+          className="w-full max-h-[200px] py-3 pl-4 pr-2 bg-transparent border-0 focus:ring-0 resize-none text-content-primary placeholder:text-content-muted scrollbar-hide leading-relaxed"
+          style={{ minHeight: '48px' }}
+        />
+        <button
+          type="submit"
+          disabled={!text.trim() || disabled}
+          className="shrink-0 p-2.5 mb-1 mr-1 rounded-full bg-accent text-white disabled:opacity-50 disabled:bg-gray-200 disabled:text-gray-400 hover:bg-accent-hover transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/50 active:scale-95 shadow-md flex items-center justify-center"
+        >
+          <svg className="w-5 h-5 translate-x-0.5 translate-y-px" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+          </svg>
+        </button>
+      </div>
+      <div className="text-center mt-2 text-xs text-content-muted/60 font-medium pb-2">
+        InteLex AI can make mistakes. Verify important legal information.
+      </div>
     </form>
   );
 }

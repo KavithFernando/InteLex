@@ -90,7 +90,7 @@ export default function App() {
         ...prev,
         { role: 'user', content: text },
       ]);
-      
+
       setSending(true);
       try {
         const res = await apiSendMessage(cid, text);
@@ -128,8 +128,8 @@ export default function App() {
   }, []);
 
   return (
-    <div className="flex h-screen overflow-hidden">
-      <aside className="w-[260px] h-screen shrink-0 flex flex-col border-r border-border overflow-hidden">
+    <div className="flex h-screen overflow-hidden bg-main-bg selection:bg-accent/20">
+      <aside className="w-[280px] h-screen shrink-0 flex flex-col border-r border-sidebar-border bg-sidebar-bg overflow-hidden transition-all duration-300 ease-in-out">
         <ConversationList
           conversations={conversations}
           currentId={currentConversationId}
@@ -139,58 +139,80 @@ export default function App() {
         />
       </aside>
 
-      <main className="flex-1 min-w-0 flex flex-col h-screen overflow-hidden">
-        <div className="flex-1 flex flex-col min-h-0 overflow-hidden">
+      <main className="flex-1 min-w-0 flex flex-col h-screen overflow-hidden relative">
+        {/* Subtle background glow effect */}
+        <div className="absolute inset-0 pointer-events-none bg-gradient-radial from-accent-light/40 to-transparent opacity-50" />
+
+        <div className="flex-1 flex flex-col min-h-0 overflow-hidden relative z-10">
           {messages.length === 0 && !currentConversationId && (
             <div className="flex-1 flex flex-col items-center justify-center py-8 px-8 text-center min-h-0 overflow-y-auto">
-              <div className="w-20 h-20 rounded-2xl bg-accent/10 flex items-center justify-center mb-5">
-                <svg className="w-10 h-10 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+              <div className="w-24 h-24 rounded-3xl bg-surface-glass backdrop-blur-xl border border-white/50 shadow-glass flex items-center justify-center mb-8 animate-fade-in">
+                <svg className="w-12 h-12 text-accent" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M2 17L12 22L22 17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M2 12L12 17L22 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </div>
-              <h1 className="m-0 mb-2 text-[1.75rem] font-semibold text-content-primary">InteLex</h1>
-              <p className="m-0 text-content-secondary max-w-[28rem]">Create a new chat to ask about legal cases or paste legal text to find relevant precedents.</p>
+              <h1 className="m-0 mb-3 text-4xl font-serif font-bold text-content-primary tracking-tight">InteLex</h1>
+              <p className="m-0 text-content-secondary max-w-[32rem] text-lg leading-relaxed">
+                Your AI-powered legal assistant. Start a new chat to analyze cases, find precedents, or draft legal documents with precision.
+              </p>
             </div>
           )}
           {messages.length === 0 && currentConversationId && !loading && (
             <div className="flex-1 flex flex-col items-center justify-center py-8 px-8 text-center min-h-0 overflow-y-auto">
-              <div className="w-16 h-16 rounded-2xl bg-accent/10 flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+              <div className="w-20 h-20 rounded-2xl bg-surface/50 flex items-center justify-center mb-6 shadow-sm border border-border-subtle">
+                <svg className="w-10 h-10 text-accent/80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
                 </svg>
               </div>
-              <h2 className="m-0 mb-2 text-lg font-semibold text-content-primary">Start a conversation</h2>
-              <p className="m-0 text-content-secondary max-w-[28rem]">Send a message to begin chatting about legal cases or finding relevant precedents.</p>
+              <h2 className="m-0 mb-2 text-2xl font-serif font-semibold text-content-primary">Ready to assist</h2>
+              <p className="m-0 text-content-secondary max-w-[28rem]">Ask a question about legal cases or paste a document for analysis.</p>
             </div>
           )}
-          <div className="flex-1 min-h-0 overflow-y-auto py-4">
+          <div className="flex-1 min-h-0 overflow-y-auto py-6 space-y-6 scrollbar-hide">
             {messages.map((msg, i) => (
-              <div key={i}>
+              <div key={i} className="max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8">
                 <ChatMessage role={msg.role} content={msg.content} />
                 {msg.role === 'assistant' && (msg.retrieval_result?.length ?? 0) > 0 && (
                   <RetrievalResults results={msg.retrieval_result} onSelectCase={handleSelectCase} />
                 )}
               </div>
             ))}
-            {sending && <LoadingMessage />}
+            {sending && (
+              <div className="max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8">
+                <LoadingMessage />
+              </div>
+            )}
           </div>
         </div>
         {currentConversationId && (
-          <div className="shrink-0 border-t border-border-strong">
-            <MessageInput onSend={handleSendMessage} disabled={sending} />
+          <div className="shrink-0 z-20 p-4 bg-gradient-to-t from-main-bg via-main-bg/90 to-transparent">
+            <div className="max-w-4xl mx-auto w-full">
+              <MessageInput onSend={handleSendMessage} disabled={sending} />
+            </div>
           </div>
         )}
       </main>
 
       {(selectedCaseId || caseDetailLoading || caseDetail) && (
-        <aside className="w-[40vw] h-screen shrink-0 flex flex-col overflow-hidden border-l border-border">
+        <aside className="w-[45vw] h-screen shrink-0 flex flex-col overflow-hidden border-l border-border bg-surface shadow-2xl z-30 transition-shadow">
           {caseDetailLoading && !caseDetail && (
-            <div className="py-8 px-8 text-center text-content-secondary overflow-y-auto">Loading case…</div>
+            <div className="h-full flex flex-col items-center justify-center text-content-secondary">
+              <div className="w-8 h-8 border-2 border-accent/30 border-t-accent rounded-full animate-spin mb-4" />
+              <p>Loading case details...</p>
+            </div>
           )}
           {!caseDetailLoading && selectedCaseId && !caseDetail && (
-            <div className="py-8 px-8 text-center text-content-secondary overflow-y-auto">
-              <p className="m-0 mb-4">Could not load case.</p>
-              <button type="button" className="py-2 px-4 border border-border rounded-lg bg-surface text-content-primary text-[0.9rem]" onClick={handleCloseCaseDetail}>Close</button>
+            <div className="h-full flex flex-col items-center justify-center text-content-secondary p-8 text-center">
+              <p className="mb-6 text-lg">Unable to load case details.</p>
+              <button
+                type="button"
+                className="py-2.5 px-6 border border-border rounded-lg bg-surface hover:bg-surface-hover text-content-primary transition-colors duration-200 font-medium"
+                onClick={handleCloseCaseDetail}
+              >
+                Close Panel
+              </button>
             </div>
           )}
           {caseDetail && (

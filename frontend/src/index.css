@@ -1,30 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   body {
-    @apply min-w-[320px] min-h-screen font-sans text-content-primary leading-normal font-normal antialiased;
+    @apply bg-main-bg text-content-primary font-sans antialiased min-w-[320px] min-h-screen leading-normal font-normal;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
   }
+
   #root {
     @apply min-h-screen;
   }
+
   button {
     @apply font-[inherit] cursor-pointer;
   }
+
   button:focus-visible {
     @apply outline outline-2 outline-offset-2 outline-accent;
   }
+
   textarea::placeholder {
     @apply text-content-muted;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif text-content-primary;
   }
 }
 
 @layer utilities {
+  .glass {
+    @apply bg-surface-glass backdrop-blur-md border border-white/20 shadow-glass;
+  }
+
+  .glass-panel {
+    @apply bg-white/60 backdrop-blur-xl border border-white/40 shadow-xl;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
   .outline-accent {
     outline-color: theme('colors.accent.DEFAULT');
   }
 }
-
