@@ -141,18 +141,27 @@ export default function App() {
 
       <main className="flex-1 min-w-0 flex flex-col h-screen overflow-hidden relative">
         {/* Subtle background glow effect */}
-        <div className="absolute inset-0 pointer-events-none bg-gradient-radial from-accent-light/40 to-transparent opacity-50" />
+        <div className="absolute inset-0 pointer-events-none bg-gradient-radial from-accent-light/40 to-transparent opacity-50 z-0" />
+
+        {/* Logo Watermark */}
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0 overflow-hidden">
+          <img
+            src="../public/images/logo.png"
+            alt=""
+            className="w-[500px] h-[500px] object-contain opacity-[0.07] grayscale brightness-125"
+          />
+        </div>
 
         <div className="flex-1 flex flex-col min-h-0 overflow-hidden relative z-10">
           {messages.length === 0 && !currentConversationId && (
             <div className="flex-1 flex flex-col items-center justify-center py-8 px-8 text-center min-h-0 overflow-y-auto">
-              <div className="w-24 h-24 rounded-3xl bg-surface-glass backdrop-blur-xl border border-white/50 shadow-glass flex items-center justify-center mb-8 animate-fade-in">
-                <svg className="w-12 h-12 text-accent" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M2 17L12 22L22 17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M2 12L12 17L22 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </div>
+              {/* <div className="w-32 h-32 rounded-3xl bg-surface-glass backdrop-blur-xl border border-white/50 shadow-glass flex items-center justify-center mb-8 animate-fade-in relative z-20"> */}
+              <img
+                src="../public/images/logo.png"
+                alt="InteLex Logo"
+                className="w-20 h-20 object-contain drop-shadow-md"
+              />
+              {/* </div> */}
               <h1 className="m-0 mb-3 text-4xl font-serif font-bold text-content-primary tracking-tight">InteLex</h1>
               <p className="m-0 text-content-secondary max-w-[32rem] text-lg leading-relaxed">
                 Your AI-powered legal assistant. Start a new chat to analyze cases, find precedents, or draft legal documents with precision.
@@ -161,11 +170,13 @@ export default function App() {
           )}
           {messages.length === 0 && currentConversationId && !loading && (
             <div className="flex-1 flex flex-col items-center justify-center py-8 px-8 text-center min-h-0 overflow-y-auto">
-              <div className="w-20 h-20 rounded-2xl bg-surface/50 flex items-center justify-center mb-6 shadow-sm border border-border-subtle">
-                <svg className="w-10 h-10 text-accent/80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
-                </svg>
-              </div>
+              {/* <div className="w-24 h-24 rounded-2xl bg-surface/50 flex items-center justify-center mb-6 shadow-sm border border-border-subtle relative z-20"> */}
+              <img
+                src="../public/images/logo.png"
+                alt="InteLex Logo"
+                className="w-14 h-14 object-contain opacity-90"
+              />
+              {/* </div> */}
               <h2 className="m-0 mb-2 text-2xl font-serif font-semibold text-content-primary">Ready to assist</h2>
               <p className="m-0 text-content-secondary max-w-[28rem]">Ask a question about legal cases or paste a document for analysis.</p>
             </div>

@@ -40,7 +40,7 @@ export default function MessageInput({ onSend, disabled }) {
           placeholder="Ask a legal question or describe a case..."
           disabled={disabled}
           rows={1}
-          className="w-full max-h-[200px] py-3 pl-4 pr-2 bg-transparent border-0 focus:ring-0 resize-none text-content-primary placeholder:text-content-muted scrollbar-hide leading-relaxed"
+          className="w-full max-h-[200px] py-3 pl-4 pr-2 bg-transparent border-0 focus:ring-0 focus:outline-none resize-none text-content-primary placeholder:text-content-muted scrollbar-hide leading-relaxed"
           style={{ minHeight: '48px' }}
         />
         <button

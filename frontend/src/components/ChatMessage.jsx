@@ -1,4 +1,4 @@
-// import ReactMarkdown from 'react-markdown';
+import ReactMarkdown from 'react-markdown';
 
 export default function ChatMessage({ role, content }) {
   const isUser = role === 'user';
@@ -35,7 +35,7 @@ export default function ChatMessage({ role, content }) {
             <div className="whitespace-pre-wrap">{content}</div>
           ) : (
             <div className="prose prose-sm prose-slate max-w-none">
-              {/* <ReactMarkdown>{content}</ReactMarkdown> */}
+              <ReactMarkdown>{content}</ReactMarkdown>
             </div>
           )}
         </div>

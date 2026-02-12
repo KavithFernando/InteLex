@@ -17,14 +17,20 @@ export default function ConversationList({ conversations, currentId, onSelect, o
     <div className="flex flex-col h-full bg-sidebar-bg text-content-inverse">
       {/* Logo Section */}
       <div className="flex items-center gap-3 px-5 py-6 border-b border-sidebar-border/50">
-        <div className="w-9 h-9 rounded-xl bg-accent bg-gradient-to-br from-accent to-accent-hover flex items-center justify-center shadow-lg shadow-accent/20">
+        {/* <div className="w-9 h-9 rounded-xl bg-accent bg-gradient-to-br from-accent to-accent-hover flex items-center justify-center shadow-lg shadow-accent/20">
           <svg className="w-5 h-5 text-accent-fg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
           </svg>
+        </div> */}
+        <div className="w-12 h-12 rounded-2xl bg-accent border border-[#29323dff] flex items-center justify-center">
+          <img
+            src="../../public/images/logo_white.png"
+            alt="InteLex Logo"
+            className="w-8 h-8 object-contain drop-shadow-md"
+          />
         </div>
         <div>
-          <h1 className="text-surface font-serif font-bold text-lg tracking-tight">InteLex</h1>
-          {/* <p className="text-secondary font-medium text-xs tracking-wide uppercase">AI Legal Assistant</p> */}
+          <h1 className="text-surface text-3xl font-serif font-bold tracking-tight">InteLex</h1>
         </div>
       </div>
 
