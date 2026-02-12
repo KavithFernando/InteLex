@@ -27,6 +27,7 @@ class CaseRepository:
         cur = conn.cursor(dictionary=True)
         placeholders = ",".join(["%s"] * len(case_ids))
 
+        # Fetch case headers
         cur.execute(
             f"""
             SELECT case_id, case_title, decision_date
@@ -37,6 +38,7 @@ class CaseRepository:
         )
         case_rows = {r["case_id"]: dict(r) for r in cur.fetchall()}
 
+        # Fetch clauses for all cases
         cur.execute(
             f"""
             SELECT cc.case_id, cl.article, cl.text
@@ -55,6 +57,7 @@ class CaseRepository:
         cur.close()
         conn.close()
 
+        # Preserve input order when building results
         out = []
         for cid in case_ids:
             row = case_rows.get(cid)

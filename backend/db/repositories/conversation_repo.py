@@ -72,6 +72,7 @@ class ConversationRepository:
             )
             rows = cur.fetchall()
             cur.close()
+            # Parse retrieval_result JSON if stored as string
             out = []
             for r in rows:
                 retrieval = r.get("retrieval_result")
@@ -128,6 +129,7 @@ class ConversationRepository:
             conn.close()
 
     def update_title(self, conversation_internal_id: int, title: str) -> None:
+        # Only update if title is currently NULL (prevents overwriting existing titles)
         conn = get_connection()
         try:
             cur = conn.cursor()

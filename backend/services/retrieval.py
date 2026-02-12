@@ -8,6 +8,8 @@ from sentence_transformers import SentenceTransformer
 from config import CHUNK_MAP_PATH, INDEX_PATH
 from services.interfaces import RetrievalServiceInterface
 
+# Chunk recall controls how many chunks we fetch before grouping by case
+# Higher recall = more diversity but slower. Auto-calculated from index size.
 CHUNK_RECALL_MIN = 80
 CHUNK_RECALL_MAX = 500
 CHUNK_RECALL_DIVISOR = 4
@@ -21,6 +23,7 @@ class RetrievalService(RetrievalServiceInterface):
         self._index = None
 
     def _load_assets(self) -> None:
+        # Lazy load FAISS index and embedding model
         if self._index is None:
             self._index = faiss.read_index(INDEX_PATH)
         if self._embedder is None:
@@ -37,6 +40,8 @@ class RetrievalService(RetrievalServiceInterface):
     ) -> Dict[str, Any]:
         self._load_assets()
 
+        # Calculate chunk recall: fetch more chunks than needed to ensure diversity
+        # Formula: index_size / 4, clamped between min and max
         ntotal = self._index.ntotal
         if chunk_recall is None:
             chunk_recall = max(
@@ -44,12 +49,14 @@ class RetrievalService(RetrievalServiceInterface):
                 min(CHUNK_RECALL_MAX, ntotal // CHUNK_RECALL_DIVISOR),
             )
 
+        # Encode query and search FAISS index
         q = self._embedder.encode([query_text], normalize_embeddings=True).astype("float32")
         scores, idxs = self._index.search(q, chunk_recall)
 
         faiss_ids = [int(i) for i in idxs[0] if i >= 0]
         chunk_rows = self._chunk_repo.fetch_chunks_and_headers_by_faiss_ids(faiss_ids)
 
+        # Group chunks by case, keeping only top N chunks per case (by score)
         case_chunks = {}
         for score, faiss_id in zip(scores[0], idxs[0]):
             if faiss_id < 0:
@@ -62,11 +69,13 @@ class RetrievalService(RetrievalServiceInterface):
             if cid not in case_chunks:
                 case_chunks[cid] = []
             lst = case_chunks[cid]
+            # Keep top chunks per case, sorted by score
             if len(lst) < top_chunks_per_case or score_f > lst[-1][0]:
                 lst.append((score_f, int(faiss_id)))
                 lst.sort(key=lambda x: -x[0])
                 case_chunks[cid] = lst[:top_chunks_per_case]
 
+        # Rank cases by their best chunk score
         ranked = sorted(
             case_chunks.items(),
             key=lambda x: x[1][0][0] if x[1] else 0.0,

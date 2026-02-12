@@ -6,6 +6,7 @@ import jwt
 
 from config import JWT_ALGORITHM, JWT_EXPIRE_MINUTES, JWT_SECRET
 
+# bcrypt truncates passwords at 72 bytes, so we truncate explicitly to avoid silent failures
 BCRYPT_MAX_PASSWORD_BYTES = 72
 
 

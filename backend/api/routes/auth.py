@@ -39,4 +39,5 @@ def login(body: LoginRequest) -> TokenResponse:
 
 @router.post("/logout")
 def logout(credentials: HTTPAuthorizationCredentials | None = Depends(security)) -> dict:
+    # Client-side logout: token is discarded on client. No server-side blacklist.
     return {"message": "Logged out."}

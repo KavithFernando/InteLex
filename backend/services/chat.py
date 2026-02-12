@@ -60,6 +60,7 @@ class ChatService:
         client = self._get_client()
         retrieval_result: Optional[List[Dict[str, Any]]] = None
 
+        # First LLM call: check if tool should be called
         resp = client.chat.completions.create(
             model="llama-3.1-8b-instant",
             messages=conversation_messages,
@@ -77,6 +78,7 @@ class ChatService:
         tool_calls = getattr(msg, "tool_calls", None)
         if tool_calls:
             logger.info("Executing tool calls")
+            # Add assistant message with tool calls to conversation
             conversation_messages.append({
                 "role": "assistant",
                 "content": msg.content or "",
@@ -93,11 +95,13 @@ class ChatService:
                 ],
             })
 
+            # Execute tool calls and add results to conversation
             for tc in tool_calls:
                 if tc.function.name == "search_cases":
                     try:
                         args = json.loads(tc.function.arguments or "{}")
                     except json.JSONDecodeError:
+                        # Fallback if JSON parsing fails
                         args = {"query_text": tc.function.arguments or ""}
 
                     out = self._case_search_service.run_case_search(
@@ -113,6 +117,7 @@ class ChatService:
                         "content": content_for_model,
                     })
 
+            # Second LLM call: generate final response using tool results
             resp2 = client.chat.completions.create(
                 model="llama-3.1-8b-instant",
                 messages=conversation_messages,

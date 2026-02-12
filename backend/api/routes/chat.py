@@ -16,6 +16,7 @@ from services.chat import SYSTEM_PROMPT
 
 router = APIRouter()
 
+# Limit conversation history to prevent token overflow
 KEEP_LAST_MESSAGES = 10
 MAX_TITLE_LENGTH = 50
 
@@ -29,6 +30,7 @@ def _generate_title_from_message(message: str) -> str:
     if len(message) <= MAX_TITLE_LENGTH:
         return message
     
+    # Truncate at word boundary, but only if we keep at least 50% of the message
     truncated = message[:MAX_TITLE_LENGTH]
     last_space = truncated.rfind(' ')
     
@@ -39,10 +41,12 @@ def _generate_title_from_message(message: str) -> str:
 
 
 def _build_messages_for_llm(db_messages: List[Dict[str, Any]], user_text: str) -> List[Dict[str, Any]]:
+    # Always include system prompt, then history, then current message
     out: List[Dict[str, Any]] = [{"role": "system", "content": SYSTEM_PROMPT}]
     for m in db_messages:
         out.append({"role": m["role"], "content": m["content"]})
     out.append({"role": "user", "content": user_text})
+    # Trim history if too long, keeping system prompt + last N messages
     if len(out) > 1 + KEEP_LAST_MESSAGES:
         out = [out[0]] + out[-(KEEP_LAST_MESSAGES):]
     return out
@@ -106,6 +110,7 @@ async def chat(
         internal_id = conv["id"]
         db_messages = conversation_repo.get_messages(internal_id)
         
+        # Generate title from first user message only
         if not conv.get("title") and len(db_messages) == 0:
             title = _generate_title_from_message(user_text)
             conversation_repo.update_title(internal_id, title)
