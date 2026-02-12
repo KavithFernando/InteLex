@@ -20,6 +20,29 @@ from services.chat import SYSTEM_PROMPT
 router = APIRouter()
 
 KEEP_LAST_MESSAGES = 10
+MAX_TITLE_LENGTH = 50
+
+
+def _generate_title_from_message(message: str) -> str:
+    """Generate a title from the first user message. Truncates to MAX_TITLE_LENGTH at word boundary."""
+    if not message:
+        return "New Conversation"
+    
+    # Strip whitespace
+    message = message.strip()
+    
+    # If message is shorter than max length, return as-is
+    if len(message) <= MAX_TITLE_LENGTH:
+        return message
+    
+    # Truncate at word boundary
+    truncated = message[:MAX_TITLE_LENGTH]
+    last_space = truncated.rfind(' ')
+    
+    if last_space > MAX_TITLE_LENGTH * 0.5:  # Only truncate at word if we keep at least 50% of the length
+        truncated = truncated[:last_space]
+    
+    return truncated + "..."
 
 
 def _build_messages_for_llm(db_messages: List[Dict[str, Any]], user_text: str) -> List[Dict[str, Any]]:
@@ -93,6 +116,12 @@ async def chat(
 
         internal_id = conv["id"]
         db_messages = conversation_repo.get_messages(internal_id)
+        
+        # Generate title from first user message if conversation doesn't have one yet
+        if not conv.get("title") and len(db_messages) == 0:
+            title = _generate_title_from_message(user_text)
+            conversation_repo.update_title(internal_id, title)
+        
         messages_for_llm = _build_messages_for_llm(db_messages, user_text)
 
         response_text, retrieval_result = chat_service.run_chat_turn(messages_for_llm)

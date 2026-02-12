@@ -16,7 +16,7 @@ class ConversationRepository:
         try:
             cur = conn.cursor(dictionary=True)
             cur.execute(
-                "SELECT id, conversation_id, user_id, active FROM conversations WHERE conversation_id = %s",
+                "SELECT id, conversation_id, user_id, title, active FROM conversations WHERE conversation_id = %s",
                 (conversation_id,),
             )
             row = cur.fetchone()
@@ -26,7 +26,7 @@ class ConversationRepository:
             conn.close()
 
     def create(self, conversation_id: str, user_id: Optional[int] = None) -> Dict[str, Any]:
-        """Create a new conversation. Returns the created row (id, conversation_id, user_id, active, created_at)."""
+        """Create a new conversation. Returns the created row (id, conversation_id, user_id, title, active, created_at)."""
         conn = get_connection()
         try:
             cur = conn.cursor(dictionary=True)
@@ -36,7 +36,7 @@ class ConversationRepository:
             )
             conn.commit()
             pk = cur.lastrowid
-            cur.execute("SELECT id, conversation_id, user_id, active, created_at FROM conversations WHERE id = %s", (pk,))
+            cur.execute("SELECT id, conversation_id, user_id, title, active, created_at FROM conversations WHERE id = %s", (pk,))
             row = cur.fetchone()
             cur.close()
             return row
@@ -51,12 +51,12 @@ class ConversationRepository:
         return self.create(conversation_id, user_id)
 
     def list_all(self) -> List[Dict[str, Any]]:
-        """Return all conversations, newest first. Each row: conversation_id, created_at, updated_at."""
+        """Return all conversations, newest first. Each row: conversation_id, title, created_at, updated_at."""
         conn = get_connection()
         try:
             cur = conn.cursor(dictionary=True)
             cur.execute(
-                "SELECT conversation_id, created_at, updated_at FROM conversations ORDER BY updated_at DESC"
+                "SELECT conversation_id, title, created_at, updated_at FROM conversations ORDER BY updated_at DESC"
             )
             rows = cur.fetchall()
             cur.close()
@@ -133,6 +133,20 @@ class ConversationRepository:
             cur.execute(
                 "UPDATE conversations SET active = %s WHERE id = %s",
                 (1 if active else 0, conversation_internal_id),
+            )
+            conn.commit()
+            cur.close()
+        finally:
+            conn.close()
+
+    def update_title(self, conversation_internal_id: int, title: str) -> None:
+        """Set the title for a conversation. Only updates if title is currently NULL."""
+        conn = get_connection()
+        try:
+            cur = conn.cursor()
+            cur.execute(
+                "UPDATE conversations SET title = %s WHERE id = %s AND title IS NULL",
+                (title, conversation_internal_id),
             )
             conn.commit()
             cur.close()

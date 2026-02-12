@@ -16,6 +16,7 @@ class CreateConversationResponse(BaseModel):
 class ConversationItem(BaseModel):
     """One item in GET /conversations/ list."""
     conversation_id: str
+    title: Optional[str] = None
     created_at: Optional[datetime] = None
     updated_at: Optional[datetime] = None
 
