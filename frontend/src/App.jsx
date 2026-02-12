@@ -98,13 +98,17 @@ export default function App() {
           ...prev,
           { role: 'assistant', content: res.response, retrieval_result: res.retrieval_result ?? [] },
         ]);
+        // Refresh conversations list to show updated title if this was the first message
+        if (messages.length === 0) {
+          await refreshConversations();
+        }
       } catch (err) {
         console.error('Send message failed', err);
       } finally {
         setSending(false);
       }
     },
-    [currentConversationId]
+    [currentConversationId, messages.length, refreshConversations]
   );
 
   const handleSelectCase = useCallback(async (caseId) => {

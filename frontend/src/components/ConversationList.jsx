@@ -77,7 +77,7 @@ export default function ConversationList({ conversations, currentId, onSelect, o
                     <svg className={`w-3.5 h-3.5 flex-shrink-0 ${isActive ? 'text-accent' : 'text-content-muted/50 group-hover:text-content-muted'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                     </svg>
-                    <span className="truncate">{conv.created_at || 'Untitled Conversation'}</span>
+                    <span className="truncate">{conv.title || 'New Chat'}</span>
                   </div>
                   <div className={`text-[10px] truncate mt-1.5 pl-5.5 relative z-10 font-medium ${isActive ? 'text-accent-light/70' : 'text-content-muted/60 group-hover:text-content-muted/80'}`}>
                     {formatDate(conv.updated_at || conv.created_at)}
