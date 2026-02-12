@@ -1,7 +1,3 @@
-"""
-SQLAlchemy engine and session for ORM (e.g. User model).
-Uses same DB config as db.connection; for auth/user only.
-"""
 from urllib.parse import quote_plus
 
 from sqlalchemy import create_engine
@@ -9,7 +5,6 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 
 from config import DB_CONFIG
 
-# Build URL; escape password for special characters
 user = DB_CONFIG["user"] or ""
 password = DB_CONFIG["password"] or ""
 host = DB_CONFIG["host"] or "localhost"
@@ -26,7 +21,6 @@ Base = declarative_base()
 
 
 def get_db_session():
-    """Yield a DB session; caller should close or use as context."""
     session = SessionLocal()
     try:
         yield session

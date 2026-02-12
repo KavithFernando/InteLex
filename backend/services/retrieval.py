@@ -1,7 +1,3 @@
-"""
-Retrieval: load FAISS index, encode query, search, fetch chunk/headers from DB.
-Implemented as RetrievalServiceInterface (RetrievalServiceInterface) for OOP and swappable backends.
-"""
 import json
 from typing import Any, Dict
 
@@ -18,12 +14,8 @@ CHUNK_RECALL_DIVISOR = 4
 
 
 class RetrievalService(RetrievalServiceInterface):
-    """FAISS-based case retrieval. Implements RetrievalServiceInterface for scalability."""
 
     def __init__(self, chunk_repository):
-        """
-        :param chunk_repository: ChunkRepository instance for fetching chunks/headers by FAISS ids.
-        """
         self._chunk_repo = chunk_repository
         self._embedder = None
         self._index = None
@@ -43,10 +35,6 @@ class RetrievalService(RetrievalServiceInterface):
         chunk_recall: int | None = None,
         top_chunks_per_case: int = 3,
     ) -> Dict[str, Any]:
-        """
-        Encode query, search FAISS, fetch chunk/headers from DB; return ranked results per case.
-        chunk_recall: if None, computed from index size (diversity guard).
-        """
         self._load_assets()
 
         ntotal = self._index.ntotal
@@ -116,7 +104,6 @@ class RetrievalService(RetrievalServiceInterface):
 
 
 def _default_service() -> RetrievalService:
-    """Default RetrievalService instance for scripts and backward compatibility."""
     from db.repositories import chunk_repo
     return RetrievalService(chunk_repo)
 
@@ -127,7 +114,6 @@ def search_cases(
     chunk_recall: int | None = None,
     top_chunks_per_case: int = 3,
 ) -> Dict[str, Any]:
-    """Backward-compatible function for scripts. Delegates to default RetrievalService."""
     return _default_service().search_cases(
         query_text=query_text,
         top_cases=top_cases,

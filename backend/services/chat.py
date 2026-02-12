@@ -1,7 +1,3 @@
-"""
-Chat service: system prompt, tool definitions, and Groq tool-calling loop.
-Implemented as ChatService for OOP; uses CaseSearchService for the search_cases tool.
-"""
 import json
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -50,12 +46,8 @@ TOOLS = [
 
 
 class ChatService:
-    """Orchestrates one chat turn with LLM and case search tool."""
 
     def __init__(self, case_search_service):
-        """
-        :param case_search_service: CaseSearchService instance for search_cases tool.
-        """
         self._case_search_service = case_search_service
 
     def _get_client(self) -> Groq:
@@ -65,10 +57,6 @@ class ChatService:
         return Groq(api_key=GROQ_API_KEY)
 
     def run_chat_turn(self, conversation_messages: List[Dict[str, Any]]) -> Tuple[str, Optional[List[Dict[str, Any]]]]:
-        """
-        Run one chat turn (Groq + tool loop). On search_cases tool call, uses CaseSearchService.
-        Returns (response_text, retrieval_result). retrieval_result is for the API response body.
-        """
         client = self._get_client()
         retrieval_result: Optional[List[Dict[str, Any]]] = None
 

@@ -1,19 +1,11 @@
-"""
-Case chunks table: fetch by faiss_id, truncate, insert. Encapsulated in ChunkRepository.
-"""
 from typing import Any
 
 from db.connection import get_connection
 
 
 class ChunkRepository:
-    """Repository for case_chunks table access."""
 
     def fetch_chunks_and_headers_by_faiss_ids(self, faiss_ids: list[int]) -> dict[int, dict[str, Any]]:
-        """
-        Fetch chunk text and case header fields for the given FAISS row indices.
-        Returns dict: faiss_id -> {case_id, chunk_text, case_title, decision_date, legal_issue, outcome}.
-        """
         if not faiss_ids:
             return {}
 
@@ -37,7 +29,6 @@ class ChunkRepository:
         return {r["faiss_id"]: r for r in rows}
 
     def truncate_case_chunks(self, conn) -> None:
-        """Truncate the case_chunks table. Caller must pass an open connection (e.g. for use in a transaction)."""
         cur = conn.cursor()
         cur.execute("TRUNCATE TABLE case_chunks")
         conn.commit()
@@ -55,9 +46,6 @@ class ChunkRepository:
         end_char: Any,
         word_count: int,
     ) -> None:
-        """
-        Insert one row into case_chunks. Caller must pass an open connection and commit when done.
-        """
         cur = conn.cursor()
         cur.execute(
             """
@@ -70,5 +58,4 @@ class ChunkRepository:
         cur.close()
 
 
-# Singleton instance for backward compatibility and dependency injection
 chunk_repo = ChunkRepository()

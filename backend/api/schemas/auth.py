@@ -1,6 +1,3 @@
-"""
-Auth request/response schemas: login, register, token response.
-"""
 from pydantic import BaseModel, Field
 
 

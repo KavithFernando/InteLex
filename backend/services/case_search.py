@@ -1,29 +1,15 @@
-"""
-High-level case search: runs retrieval (FAISS + chunk/headers) and enriches
-with case summaries (title, date, clauses) for the chat tool and API response.
-Implemented as CaseSearchService for OOP.
-"""
 from typing import Any, Dict, List
 
 from services.interfaces import RetrievalServiceInterface
 
 
 class CaseSearchService:
-    """Orchestrates retrieval and case summaries for chat and API."""
 
     def __init__(self, retrieval_service: RetrievalServiceInterface, case_repository):
-        """
-        :param retrieval_service: Implementation of RetrievalServiceInterface (e.g. RetrievalService).
-        :param case_repository: CaseRepository for fetching case summaries.
-        """
         self._retrieval = retrieval_service
         self._case_repo = case_repository
 
     def run_case_search(self, query_text: str, top_k: int = 10) -> Dict[str, Any]:
-        """
-        Run retrieval (FAISS + DB chunk/headers), then fetch case summaries (title, date, clauses).
-        Returns tool_content (short message for the LLM) and retrieval_result (for API response body).
-        """
         retrieval = self._retrieval.search_cases(
             query_text=query_text,
             top_cases=top_k,

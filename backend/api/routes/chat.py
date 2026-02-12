@@ -1,6 +1,3 @@
-"""
-Chat routes: create conversation, POST /chat/. Conversations and messages are persisted in the DB.
-"""
 import uuid
 from typing import Any, Dict, List
 
@@ -24,29 +21,24 @@ MAX_TITLE_LENGTH = 50
 
 
 def _generate_title_from_message(message: str) -> str:
-    """Generate a title from the first user message. Truncates to MAX_TITLE_LENGTH at word boundary."""
     if not message:
         return "New Conversation"
     
-    # Strip whitespace
     message = message.strip()
     
-    # If message is shorter than max length, return as-is
     if len(message) <= MAX_TITLE_LENGTH:
         return message
     
-    # Truncate at word boundary
     truncated = message[:MAX_TITLE_LENGTH]
     last_space = truncated.rfind(' ')
     
-    if last_space > MAX_TITLE_LENGTH * 0.5:  # Only truncate at word if we keep at least 50% of the length
+    if last_space > MAX_TITLE_LENGTH * 0.5:
         truncated = truncated[:last_space]
     
     return truncated + "..."
 
 
 def _build_messages_for_llm(db_messages: List[Dict[str, Any]], user_text: str) -> List[Dict[str, Any]]:
-    """Build message list for Groq: system + (trimmed) history + current user message."""
     out: List[Dict[str, Any]] = [{"role": "system", "content": SYSTEM_PROMPT}]
     for m in db_messages:
         out.append({"role": m["role"], "content": m["content"]})
@@ -60,7 +52,6 @@ def _build_messages_for_llm(db_messages: List[Dict[str, Any]], user_text: str) -
 async def list_conversations(
     conversation_repo=Depends(get_conversation_repo),
 ) -> list[ConversationItem]:
-    """List all conversations, newest first."""
     rows = conversation_repo.list_all()
     return [ConversationItem(**r) for r in rows]
 
@@ -70,7 +61,6 @@ async def get_conversation_messages(
     conversation_id: str,
     conversation_repo=Depends(get_conversation_repo),
 ) -> list[MessageItem]:
-    """Get message history for a conversation (user and assistant only)."""
     messages = conversation_repo.get_messages_by_conversation_id(conversation_id)
     return [
         MessageItem(
@@ -86,7 +76,6 @@ async def get_conversation_messages(
 async def create_conversation(
     conversation_repo=Depends(get_conversation_repo),
 ) -> CreateConversationResponse:
-    """Create a new conversation. Returns conversation_id to use in POST /chat/."""
     conversation_id = str(uuid.uuid4())
     row = conversation_repo.create(conversation_id, user_id=None)
     return CreateConversationResponse(
@@ -117,7 +106,6 @@ async def chat(
         internal_id = conv["id"]
         db_messages = conversation_repo.get_messages(internal_id)
         
-        # Generate title from first user message if conversation doesn't have one yet
         if not conv.get("title") and len(db_messages) == 0:
             title = _generate_title_from_message(user_text)
             conversation_repo.update_title(internal_id, title)

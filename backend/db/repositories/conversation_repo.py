@@ -1,6 +1,3 @@
-"""
-Conversation and message repository (raw SQL). Chat history persistence. Encapsulated in ConversationRepository.
-"""
 import json
 from typing import Any, Dict, List, Optional
 
@@ -8,10 +5,8 @@ from db.connection import get_connection
 
 
 class ConversationRepository:
-    """Repository for conversations and messages."""
 
     def get_by_conversation_id(self, conversation_id: str) -> Optional[Dict[str, Any]]:
-        """Return the conversation row by client-facing conversation_id, or None."""
         conn = get_connection()
         try:
             cur = conn.cursor(dictionary=True)
@@ -26,7 +21,6 @@ class ConversationRepository:
             conn.close()
 
     def create(self, conversation_id: str, user_id: Optional[int] = None) -> Dict[str, Any]:
-        """Create a new conversation. Returns the created row (id, conversation_id, user_id, title, active, created_at)."""
         conn = get_connection()
         try:
             cur = conn.cursor(dictionary=True)
@@ -44,14 +38,12 @@ class ConversationRepository:
             conn.close()
 
     def get_or_create(self, conversation_id: str, user_id: Optional[int] = None) -> Dict[str, Any]:
-        """Get existing conversation by conversation_id or create one. Returns row with id."""
         row = self.get_by_conversation_id(conversation_id)
         if row:
             return row
         return self.create(conversation_id, user_id)
 
     def list_all(self) -> List[Dict[str, Any]]:
-        """Return all conversations, newest first. Each row: conversation_id, title, created_at, updated_at."""
         conn = get_connection()
         try:
             cur = conn.cursor(dictionary=True)
@@ -65,14 +57,12 @@ class ConversationRepository:
             conn.close()
 
     def get_messages_by_conversation_id(self, conversation_id: str) -> List[Dict[str, Any]]:
-        """Return messages for the conversation (by client-facing id), ordered by created_at. Each item: role, content, retrieval_result."""
         conv = self.get_by_conversation_id(conversation_id)
         if not conv:
             return []
         return self.get_messages(conv["id"])
 
     def get_messages(self, conversation_internal_id: int) -> List[Dict[str, Any]]:
-        """Return messages for the conversation (by internal id), ordered by created_at. Each item: role, content, retrieval_result (list or None)."""
         conn = get_connection()
         try:
             cur = conn.cursor(dictionary=True)
@@ -111,7 +101,6 @@ class ConversationRepository:
         content: str,
         retrieval_result: Optional[List[Dict[str, Any]]] = None,
     ) -> None:
-        """Append a message (user or assistant) to the conversation. retrieval_result is for assistant messages with case results."""
         conn = get_connection()
         try:
             cur = conn.cursor()
@@ -126,7 +115,6 @@ class ConversationRepository:
             conn.close()
 
     def set_active(self, conversation_internal_id: int, active: bool) -> None:
-        """Mark conversation as active or ended."""
         conn = get_connection()
         try:
             cur = conn.cursor()
@@ -140,7 +128,6 @@ class ConversationRepository:
             conn.close()
 
     def update_title(self, conversation_internal_id: int, title: str) -> None:
-        """Set the title for a conversation. Only updates if title is currently NULL."""
         conn = get_connection()
         try:
             cur = conn.cursor()
@@ -154,5 +141,4 @@ class ConversationRepository:
             conn.close()
 
 
-# Singleton instance for backward compatibility and dependency injection
 conversation_repo = ConversationRepository()

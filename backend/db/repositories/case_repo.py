@@ -1,19 +1,11 @@
-"""
-Case-related database queries. Encapsulated in CaseRepository for OOP and testability.
-"""
 from typing import Any, Dict, List, Optional
 
 from db.connection import get_connection
 
 
 class CaseRepository:
-    """Repository for case and case-related data access."""
 
     def fetch_cases_with_full_text(self) -> List[Dict[str, Any]]:
-        """
-        Fetch all cases with full_text and fields needed for building case representation.
-        Used by index_cases script.
-        """
         conn = get_connection()
         cur = conn.cursor(dictionary=True)
         cur.execute("""
@@ -28,11 +20,6 @@ class CaseRepository:
         return rows
 
     def fetch_case_summaries(self, case_ids: List[str]) -> List[Dict[str, Any]]:
-        """
-        Fetch case_id, case_title, decision_date, and clauses for the given case_ids.
-        Returns list in same order as case_ids; each item has clauses as list of {article, text}.
-        Used for chat/API response (lightweight case list).
-        """
         if not case_ids:
             return []
 
@@ -83,10 +70,6 @@ class CaseRepository:
         return out
 
     def fetch_case_by_id(self, case_id: str) -> Optional[Dict[str, Any]]:
-        """
-        Fetch a single case by id with all related data: court name, judges, clauses,
-        keywords, precedents_cited, principles_established. Returns None if not found.
-        """
         conn = get_connection()
         cur = conn.cursor(dictionary=True)
 
@@ -187,5 +170,4 @@ class CaseRepository:
         return out
 
 
-# Singleton instance for backward compatibility and dependency injection
 case_repo = CaseRepository()

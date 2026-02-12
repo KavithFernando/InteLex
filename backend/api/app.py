@@ -1,6 +1,3 @@
-"""
-FastAPI application: create app, add CORS, include routers.
-"""
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 

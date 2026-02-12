@@ -1,7 +1,3 @@
-"""
-Auth helpers: password hashing/verification and JWT creation/decoding.
-Uses bcrypt directly to avoid passlib/bcrypt 4.1+ compatibility issues.
-"""
 from datetime import datetime, timedelta, timezone
 from typing import Any, Optional
 
@@ -10,7 +6,6 @@ import jwt
 
 from config import JWT_ALGORITHM, JWT_EXPIRE_MINUTES, JWT_SECRET
 
-# bcrypt truncates at 72 bytes; we do it explicitly to avoid surprises
 BCRYPT_MAX_PASSWORD_BYTES = 72
 
 

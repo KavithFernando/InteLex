@@ -1,19 +1,14 @@
-"""
-Full case detail schema for GET /cases/{case_id} (when user clicks a retrieval result).
-"""
 from typing import List, Optional
 
 from pydantic import BaseModel, Field
 
 
 class ClauseItem(BaseModel):
-    """One clause (article + text) in a case."""
     article: Optional[str] = None
     text: Optional[str] = None
 
 
 class CaseDetail(BaseModel):
-    """Full case for the case-by-ID API: all fields + judges, clauses, keywords, precedents, principles."""
     case_id: str
     case_title: Optional[str] = None
     court_name: Optional[str] = None
