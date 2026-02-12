@@ -5,15 +5,15 @@ Implemented as CaseSearchService for OOP.
 """
 from typing import Any, Dict, List
 
-from services.interfaces import IRetrievalService
+from services.interfaces import RetrievalServiceInterface
 
 
 class CaseSearchService:
     """Orchestrates retrieval and case summaries for chat and API."""
 
-    def __init__(self, retrieval_service: IRetrievalService, case_repository):
+    def __init__(self, retrieval_service: RetrievalServiceInterface, case_repository):
         """
-        :param retrieval_service: Implementation of IRetrievalService (e.g. RetrievalService).
+        :param retrieval_service: Implementation of RetrievalServiceInterface (e.g. RetrievalService).
         :param case_repository: CaseRepository for fetching case summaries.
         """
         self._retrieval = retrieval_service

@@ -1,6 +1,6 @@
 """
 Retrieval: load FAISS index, encode query, search, fetch chunk/headers from DB.
-Implemented as RetrievalService (IRetrievalService) for OOP and swappable backends.
+Implemented as RetrievalServiceInterface (RetrievalServiceInterface) for OOP and swappable backends.
 """
 import json
 from typing import Any, Dict
@@ -10,15 +10,15 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 from config import CHUNK_MAP_PATH, INDEX_PATH
-from services.interfaces import IRetrievalService
+from services.interfaces import RetrievalServiceInterface
 
 CHUNK_RECALL_MIN = 80
 CHUNK_RECALL_MAX = 500
 CHUNK_RECALL_DIVISOR = 4
 
 
-class RetrievalService(IRetrievalService):
-    """FAISS-based case retrieval. Implements IRetrievalService for scalability."""
+class RetrievalService(RetrievalServiceInterface):
+    """FAISS-based case retrieval. Implements RetrievalServiceInterface for scalability."""
 
     def __init__(self, chunk_repository):
         """

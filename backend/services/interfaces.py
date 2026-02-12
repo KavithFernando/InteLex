@@ -6,7 +6,7 @@ from abc import ABC, abstractmethod
 from typing import Any, Dict, List
 
 
-class IRetrievalService(ABC):
+class RetrievalServiceInterface(ABC):
     """Abstract interface for case retrieval (e.g. FAISS, or another vector store)."""
 
     @abstractmethod
