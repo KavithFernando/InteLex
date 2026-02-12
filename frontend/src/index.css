@@ -1,63 +1,30 @@
-:root {
-  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  /* Light theme (default) */
-  --main-bg: #f5f2ee;
-  --surface: #ffffff;
-  --surface-hover: #f0eeeb;
-  --surface-active: #e8e5e0;
-  --sidebar-bg: #ebe8e3;
-  --border: #ddd9d3;
-  --text: #1c1917;
-  --text-secondary: #57534e;
-  --text-muted: #a8a29e;
-  --accent: #1e3a5f;
-  --accent-fg: #ffffff;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --main-bg: #1c1917;
-    --surface: #292524;
-    --surface-hover: #44403c;
-    --surface-active: #57534e;
-    --sidebar-bg: #292524;
-    --border: #44403c;
-    --text: #fafaf9;
-    --text-secondary: #a8a29e;
-    --text-muted: #78716c;
-    --accent: #7c9bb8;
-    --accent-fg: #1c1917;
+@layer base {
+  body {
+    @apply min-w-[320px] min-h-screen font-sans text-content-primary leading-normal font-normal antialiased;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+  }
+  #root {
+    @apply min-h-screen;
+  }
+  button {
+    @apply font-[inherit] cursor-pointer;
+  }
+  button:focus-visible {
+    @apply outline outline-2 outline-offset-2 outline-accent;
+  }
+  textarea::placeholder {
+    @apply text-content-muted;
   }
 }
 
-* {
-  box-sizing: border-box;
+@layer utilities {
+  .outline-accent {
+    outline-color: theme('colors.accent.DEFAULT');
+  }
 }
 
-body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
-  background: var(--main-bg);
-  color: var(--text);
-}
-
-#root {
-  min-height: 100vh;
-}
-
-button {
-  font-family: inherit;
-  cursor: pointer;
-}
-
-button:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-}

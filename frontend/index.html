@@ -4,7 +4,30 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>frontend</title>
+    <title>InteLex</title>
+    <style>
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-width: 320px;
+        min-height: 100vh;
+        background: #f5f2ee;
+        color: #1c1917;
+        font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        line-height: 1.5;
+        font-weight: 400;
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+      }
+      #root { min-height: 100vh; }
+      button { font-family: inherit; cursor: pointer; }
+      button:focus-visible {
+        outline: 2px solid #1e3a5f;
+        outline-offset: 2px;
+      }
+      textarea::placeholder { color: #a8a29e; }
+    </style>
   </head>
   <body>
     <div id="root"></div>

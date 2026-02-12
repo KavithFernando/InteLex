@@ -1,6 +1,8 @@
-import './CaseDetailPanel.css';
+import { useState } from 'react';
 
 export default function CaseDetailPanel({ caseDetail, onClose }) {
+  const [closeHover, setCloseHover] = useState(false);
+
   if (!caseDetail) return null;
 
   const {
@@ -25,12 +27,14 @@ export default function CaseDetailPanel({ caseDetail, onClose }) {
   const section = (title, content) => {
     if (content == null || (Array.isArray(content) && content.length === 0)) return null;
     return (
-      <section className="case-detail-section">
-        <h4 className="case-detail-section-title">{title}</h4>
-        <div className="case-detail-section-content">
+      <section className="mb-5">
+        <h4 className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-content-secondary">
+          {title}
+        </h4>
+        <div className="text-[0.9rem] leading-normal text-content-primary whitespace-pre-wrap break-words">
           {Array.isArray(content)
             ? content.map((item, i) => (
-                <div key={i}>
+                <div key={i} className={i > 0 ? 'mt-1.5' : ''}>
                   {typeof item === 'object' && item?.article != null
                     ? `${item.article}: ${item.text ?? ''}`
                     : String(item)}
@@ -43,16 +47,27 @@ export default function CaseDetailPanel({ caseDetail, onClose }) {
   };
 
   return (
-    <div className="case-detail-panel">
-      <div className="case-detail-panel-header">
-        <h2 className="case-detail-panel-title">{case_title || case_id}</h2>
-        <button type="button" className="case-detail-panel-close" onClick={onClose} aria-label="Close">
+    <div className="flex flex-col h-full min-h-0 bg-surface">
+      <div className="shrink-0 flex items-start justify-between gap-2 py-4 px-5 border-b border-border-strong">
+        <h2 className="m-0 text-base font-semibold text-content-primary leading-tight">
+          {case_title || case_id}
+        </h2>
+        <button
+          type="button"
+          aria-label="Close"
+          onClick={onClose}
+          onMouseEnter={() => setCloseHover(true)}
+          onMouseLeave={() => setCloseHover(false)}
+          className={`shrink-0 w-8 h-8 border-0 rounded-md text-xl leading-none cursor-pointer transition-colors ${
+            closeHover ? 'bg-surface-hover text-content-primary' : 'bg-transparent text-content-secondary'
+          }`}
+        >
           ×
         </button>
       </div>
-      <div className="case-detail-panel-body">
+      <div className="flex-1 min-h-0 overflow-y-auto py-4 px-5">
         {(court_name || decision_date) && (
-          <p className="case-detail-meta">
+          <p className="m-0 mb-4 text-[0.85rem] text-content-secondary">
             {[court_name, decision_date].filter(Boolean).join(' · ')}
           </p>
         )}
