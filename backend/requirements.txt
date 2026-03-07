@@ -16,3 +16,4 @@ mysql-connector-python
 sqlalchemy
 pyjwt
 bcrypt
+slowapi
