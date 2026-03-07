@@ -5,7 +5,11 @@ import {
   getConversationMessages,
   sendMessage as apiSendMessage,
   getCase,
+  getMe,
+  logout as apiLogout,
+  getStoredToken,
 } from './api';
+import AuthPage from './components/AuthPage';
 import ConversationList from './components/ConversationList';
 import ChatMessage from './components/ChatMessage';
 import LoadingMessage from './components/LoadingMessage';
@@ -14,6 +18,11 @@ import RetrievalResults from './components/RetrievalResults';
 import CaseDetailPanel from './components/CaseDetailPanel';
 
 export default function App() {
+  // ── Auth state ──────────────────────────────────────────────────────────────
+  const [user, setUser] = useState(null);
+  const [authLoading, setAuthLoading] = useState(true); // true while verifying stored token
+
+  // ── Chat state ───────────────────────────────────────────────────────────────
   const [conversations, setConversations] = useState([]);
   const [currentConversationId, setCurrentConversationId] = useState(null);
   const [messages, setMessages] = useState([]);
@@ -23,6 +32,50 @@ export default function App() {
   const [caseDetail, setCaseDetail] = useState(null);
   const [caseDetailLoading, setCaseDetailLoading] = useState(false);
 
+  // ── Verify stored token on mount ─────────────────────────────────────────────
+  useEffect(() => {
+    if (!getStoredToken()) {
+      setAuthLoading(false);
+      return;
+    }
+    getMe()
+      .then(setUser)
+      .catch(() => setUser(null))
+      .finally(() => setAuthLoading(false));
+  }, []);
+
+  // ── Listen for 401 auto-logout from the API layer ────────────────────────────
+  useEffect(() => {
+    function handleForcedLogout() {
+      setUser(null);
+      setConversations([]);
+      setCurrentConversationId(null);
+      setMessages([]);
+    }
+    window.addEventListener('auth:logout', handleForcedLogout);
+    return () => window.removeEventListener('auth:logout', handleForcedLogout);
+  }, []);
+
+  // ── Auth handlers ─────────────────────────────────────────────────────────────
+  function handleAuthenticated(me) {
+    setUser(me);
+  }
+
+  async function handleLogout() {
+    try {
+      await apiLogout();
+    } catch {
+      // ignore network errors on logout
+    }
+    setUser(null);
+    setConversations([]);
+    setCurrentConversationId(null);
+    setMessages([]);
+    setSelectedCaseId(null);
+    setCaseDetail(null);
+  }
+
+  // ── Chat handlers ─────────────────────────────────────────────────────────────
   const refreshConversations = useCallback(async () => {
     setLoading(true);
     try {
@@ -36,8 +89,8 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    refreshConversations();
-  }, [refreshConversations]);
+    if (user) refreshConversations();
+  }, [user, refreshConversations]);
 
   const loadMessages = useCallback(async (conversationId) => {
     if (!conversationId) {
@@ -86,10 +139,7 @@ export default function App() {
       const cid = currentConversationId;
       if (!cid) return;
 
-      setMessages((prev) => [
-        ...prev,
-        { role: 'user', content: text },
-      ]);
+      setMessages((prev) => [...prev, { role: 'user', content: text }]);
 
       setSending(true);
       try {
@@ -98,7 +148,6 @@ export default function App() {
           ...prev,
           { role: 'assistant', content: res.response, retrieval_result: res.retrieval_result ?? [] },
         ]);
-        // Refresh conversations list to show updated title if this was the first message
         if (messages.length === 0) {
           await refreshConversations();
         }
@@ -131,6 +180,24 @@ export default function App() {
     setCaseDetailLoading(false);
   }, []);
 
+  // ── Render: loading splash ────────────────────────────────────────────────────
+  if (authLoading) {
+    return (
+      <div className="min-h-screen bg-main-bg flex items-center justify-center">
+        <div className="flex flex-col items-center gap-4">
+          <div className="w-10 h-10 border-2 border-accent/30 border-t-accent rounded-full animate-spin" />
+          <p className="text-content-muted text-sm">Loading InteLex…</p>
+        </div>
+      </div>
+    );
+  }
+
+  // ── Render: auth page ─────────────────────────────────────────────────────────
+  if (!user) {
+    return <AuthPage onAuthenticated={handleAuthenticated} />;
+  }
+
+  // ── Render: main app ──────────────────────────────────────────────────────────
   return (
     <div className="flex h-screen overflow-hidden bg-main-bg selection:bg-accent/20">
       <aside className="w-[280px] h-screen shrink-0 flex flex-col border-r border-sidebar-border bg-sidebar-bg overflow-hidden transition-all duration-300 ease-in-out">
@@ -140,6 +207,8 @@ export default function App() {
           onSelect={handleSelectConversation}
           onCreate={handleCreateConversation}
           loading={loading}
+          user={user}
+          onLogout={handleLogout}
         />
       </aside>
 
@@ -159,13 +228,11 @@ export default function App() {
         <div className="flex-1 flex flex-col min-h-0 overflow-hidden relative z-10">
           {messages.length === 0 && !currentConversationId && (
             <div className="flex-1 flex flex-col items-center justify-center py-8 px-8 text-center min-h-0 overflow-y-auto">
-              {/* <div className="w-32 h-32 rounded-3xl bg-surface-glass backdrop-blur-xl border border-white/50 shadow-glass flex items-center justify-center mb-8 animate-fade-in relative z-20"> */}
               <img
                 src="../public/images/logo.png"
                 alt="InteLex Logo"
                 className="w-20 h-20 object-contain drop-shadow-md"
               />
-              {/* </div> */}
               <h1 className="m-0 mb-3 text-4xl font-serif font-bold text-content-primary tracking-tight">InteLex</h1>
               <p className="m-0 text-content-secondary max-w-[32rem] text-lg leading-relaxed">
                 Your AI-powered legal assistant. Start a new chat to analyze cases, find precedents, or draft legal documents with precision.
@@ -174,13 +241,11 @@ export default function App() {
           )}
           {messages.length === 0 && currentConversationId && !loading && (
             <div className="flex-1 flex flex-col items-center justify-center py-8 px-8 text-center min-h-0 overflow-y-auto">
-              {/* <div className="w-24 h-24 rounded-2xl bg-surface/50 flex items-center justify-center mb-6 shadow-sm border border-border-subtle relative z-20"> */}
               <img
                 src="../public/images/logo.png"
                 alt="InteLex Logo"
                 className="w-14 h-14 object-contain opacity-90"
               />
-              {/* </div> */}
               <h2 className="m-0 mb-2 text-2xl font-serif font-semibold text-content-primary">Ready to assist</h2>
               <p className="m-0 text-content-secondary max-w-[28rem]">Ask a question about legal cases or paste a document for analysis.</p>
             </div>

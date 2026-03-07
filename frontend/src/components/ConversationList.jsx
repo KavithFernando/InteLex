@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import ChangePasswordModal from './ChangePasswordModal';
 
 function formatDate(iso) {
   if (!iso) return 'New chat';
@@ -10,18 +11,80 @@ function formatDate(iso) {
   return d.toLocaleDateString([], { month: 'short', day: 'numeric' });
 }
 
-export default function ConversationList({ conversations, currentId, onSelect, onCreate, loading }) {
+function UserSection({ user, onLogout }) {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [showChangePassword, setShowChangePassword] = useState(false);
+
+  const initials = user.username.slice(0, 2).toUpperCase();
+
+  return (
+    <>
+      {showChangePassword && (
+        <ChangePasswordModal onClose={() => setShowChangePassword(false)} />
+      )}
+
+      <div className="p-3 border-t border-sidebar-border/50 bg-sidebar-bg relative">
+        <button
+          type="button"
+          onClick={() => setMenuOpen((o) => !o)}
+          className="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-sidebar-hover cursor-pointer transition-colors group border border-transparent hover:border-sidebar-border/50"
+        >
+          {/* Avatar */}
+          <div className="w-8 h-8 rounded-full bg-accent/80 flex items-center justify-center text-white ring-1 ring-white/10 group-hover:ring-accent/40 transition-all shrink-0">
+            <span className="text-xs font-bold">{initials}</span>
+          </div>
+          {/* Name + role */}
+          <div className="flex-1 min-w-0 text-left">
+            <p className="text-sm font-medium text-white/90 truncate group-hover:text-white">{user.username}</p>
+            <p className="text-[10px] text-content-muted truncate capitalize">{user.role}</p>
+          </div>
+          {/* Chevron */}
+          <svg
+            className={`w-4 h-4 text-content-muted/60 shrink-0 transition-transform duration-200 ${menuOpen ? 'rotate-180' : ''}`}
+            fill="none" viewBox="0 0 24 24" stroke="currentColor"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+          </svg>
+        </button>
+
+        {/* Dropdown menu */}
+        {menuOpen && (
+          <div className="absolute bottom-full left-3 right-3 mb-1 bg-[#1e293b] border border-sidebar-border/70 rounded-xl shadow-xl overflow-hidden z-50">
+            <button
+              type="button"
+              onClick={() => { setMenuOpen(false); setShowChangePassword(true); }}
+              className="w-full flex items-center gap-3 px-4 py-3 text-sm text-content-muted hover:text-white hover:bg-sidebar-hover transition-colors"
+            >
+              <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
+              </svg>
+              Change Password
+            </button>
+            <div className="border-t border-sidebar-border/50" />
+            <button
+              type="button"
+              onClick={() => { setMenuOpen(false); onLogout(); }}
+              className="w-full flex items-center gap-3 px-4 py-3 text-sm text-red-400 hover:text-red-300 hover:bg-red-500/10 transition-colors"
+            >
+              <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+              </svg>
+              Sign Out
+            </button>
+          </div>
+        )}
+      </div>
+    </>
+  );
+}
+
+export default function ConversationList({ conversations, currentId, onSelect, onCreate, loading, user, onLogout }) {
   const [hoverId, setHoverId] = useState(null);
 
   return (
     <div className="flex flex-col h-full bg-sidebar-bg text-content-inverse">
       {/* Logo Section */}
       <div className="flex items-center gap-3 px-5 py-6 border-b border-sidebar-border/50">
-        {/* <div className="w-9 h-9 rounded-xl bg-accent bg-gradient-to-br from-accent to-accent-hover flex items-center justify-center shadow-lg shadow-accent/20">
-          <svg className="w-5 h-5 text-accent-fg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
-          </svg>
-        </div> */}
         <div className="w-12 h-12 rounded-2xl bg-accent border border-[#29323dff] flex items-center justify-center">
           <img
             src="../../public/images/logo_white.png"
@@ -90,17 +153,7 @@ export default function ConversationList({ conversations, currentId, onSelect, o
         )}
       </div>
 
-      <div className="p-4 border-t border-sidebar-border/50 mt-auto bg-sidebar-bg">
-        {/* <div className="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-sidebar-hover cursor-pointer transition-colors group border border-transparent hover:border-sidebar-border/50">
-          <div className="w-8 h-8 rounded-full bg-surface/5 flex items-center justify-center text-secondary ring-1 ring-white/10 group-hover:ring-accent/40 transition-all">
-            <span className="text-xs font-bold">US</span>
-          </div>
-          <div className="flex-1 min-w-0">
-            <p className="text-sm font-medium text-white/90 truncate group-hover:text-white">User Account</p>
-            <p className="text-[10px] text-content-muted truncate group-hover:text-accent-light/80">Pro Plan Active</p>
-          </div>
-        </div> */}
-      </div>
+      {user && <UserSection user={user} onLogout={onLogout} />}
     </div>
   );
 }
