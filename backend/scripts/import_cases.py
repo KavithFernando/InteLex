@@ -324,12 +324,12 @@ def main():
                 print(f"Processed {i}/{len(cases)}...")
 
         conn.commit()
-        print(f"✅ Import complete. Processed {inserted} cases.")
+        print(f"Import complete. Processed {inserted} cases.")
 
     except Exception as e:
         if conn:
             conn.rollback()
-        print("❌ Import failed. Rolled back transaction.")
+        print("Import failed. Rolled back transaction.")
         raise e
     finally:
         if conn:

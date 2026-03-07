@@ -17,7 +17,7 @@ class CaseSearchService:
             top_chunks_per_case=3,
         )
         results = retrieval.get("results", [])
-
+        
         # Fetch case summaries and merge with retrieval scores
         case_ids = [r["case_id"] for r in results]
         summaries: List[Dict[str, Any]] = self._case_repo.fetch_case_summaries(case_ids)

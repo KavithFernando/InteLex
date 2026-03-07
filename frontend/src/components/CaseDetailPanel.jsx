@@ -82,8 +82,8 @@ export default function CaseDetailPanel({ caseDetail, onClose }) {
       {/* Content */}
       <div className="flex-1 overflow-y-auto min-h-0 py-6 px-8 scrollbar-hide">
         <div className="max-w-3xl mx-auto">
-          <Section title="Legal Issue" content={legal_issue} isText />
           <Section title="Interpretation Summary" content={interpretation_summary} isText />
+          <Section title="Legal Issue" content={legal_issue} isText />
           <Section title="Outcome" content={outcome} isText />
           <Section title="Petitioner's Claim" content={petitioner_claim} />
           <Section title="Respondent's Argument" content={respondent_argument} />
