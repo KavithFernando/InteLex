@@ -56,6 +56,21 @@ class ConversationRepository:
         finally:
             conn.close()
 
+    def list_by_user(self, user_id: int) -> List[Dict[str, Any]]:
+        conn = get_connection()
+        try:
+            cur = conn.cursor(dictionary=True)
+            cur.execute(
+                "SELECT conversation_id, title, created_at, updated_at FROM conversations "
+                "WHERE user_id = %s ORDER BY updated_at DESC",
+                (user_id,),
+            )
+            rows = cur.fetchall()
+            cur.close()
+            return rows
+        finally:
+            conn.close()
+
     def get_messages_by_conversation_id(self, conversation_id: str) -> List[Dict[str, Any]]:
         conv = self.get_by_conversation_id(conversation_id)
         if not conv:
