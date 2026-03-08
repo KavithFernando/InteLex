@@ -17,6 +17,7 @@ import LoadingMessage from './components/LoadingMessage';
 import MessageInput from './components/MessageInput';
 import RetrievalResults from './components/RetrievalResults';
 import CaseDetailPanel from './components/CaseDetailPanel';
+import AuditLogsPanel from './components/AuditLogsPanel';
 
 export default function App() {
   // ── Auth state ──────────────────────────────────────────────────────────────
@@ -32,6 +33,7 @@ export default function App() {
   const [selectedCaseId, setSelectedCaseId] = useState(null);
   const [caseDetail, setCaseDetail] = useState(null);
   const [caseDetailLoading, setCaseDetailLoading] = useState(false);
+  const [showAuditLogs, setShowAuditLogs] = useState(false);
 
   // ── Verify stored token on mount ─────────────────────────────────────────────
   useEffect(() => {
@@ -230,6 +232,10 @@ export default function App() {
       </aside>
 
       <main className="flex-1 min-w-0 flex flex-col h-screen overflow-hidden relative">
+        {showAuditLogs ? (
+          <AuditLogsPanel onClose={() => setShowAuditLogs(false)} />
+        ) : (
+          <>
         {/* Subtle background glow effect */}
         <div className="absolute inset-0 pointer-events-none bg-gradient-radial from-accent-light/40 to-transparent opacity-50 z-0" />
 
@@ -289,6 +295,8 @@ export default function App() {
               <MessageInput onSend={handleSendMessage} disabled={sending} />
             </div>
           </div>
+        )}
+          </>
         )}
       </main>
 

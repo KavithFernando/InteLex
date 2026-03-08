@@ -114,3 +114,22 @@ export async function sendMessage(conversationId, message) {
 export async function getCase(caseId) {
   return request(`/cases/${encodeURIComponent(caseId)}`);
 }
+
+// ---------- Admin ----------
+
+export async function listAdminUsers() {
+  return request('/admin/users');
+}
+
+/**
+ * @param {{ user_id?: number, action?: string, since?: string, limit?: number }} params
+ */
+export async function listAuditLogs(params = {}) {
+  const sp = new URLSearchParams();
+  if (params.user_id != null) sp.set('user_id', String(params.user_id));
+  if (params.action != null) sp.set('action', params.action);
+  if (params.since != null) sp.set('since', params.since);
+  if (params.limit != null) sp.set('limit', String(params.limit));
+  const qs = sp.toString();
+  return request(`/admin/audit-logs${qs ? `?${qs}` : ''}`);
+}
