@@ -66,7 +66,7 @@ async def get_conversation_messages(
     conversation_repo=Depends(get_conversation_repo),
 ) -> list[MessageItem]:
     conv = conversation_repo.get_by_conversation_id(conversation_id)
-    if not conv:
+    if not conv or not conv.get("active"):
         raise HTTPException(status_code=404, detail="Conversation not found.")
     if conv.get("user_id") != current_user.user_id:
         raise HTTPException(status_code=403, detail="Access denied.")
@@ -80,6 +80,17 @@ async def get_conversation_messages(
         )
         for m in messages
     ]
+
+
+@router.delete("/conversations/{conversation_id}", status_code=204)
+async def delete_conversation(
+    conversation_id: str,
+    current_user: User = Depends(get_current_user),
+    conversation_repo=Depends(get_conversation_repo),
+) -> None:
+    deleted = conversation_repo.deactivate(conversation_id, current_user.user_id)
+    if not deleted:
+        raise HTTPException(status_code=404, detail="Conversation not found.")
 
 
 @router.post("/conversations/", response_model=CreateConversationResponse)
