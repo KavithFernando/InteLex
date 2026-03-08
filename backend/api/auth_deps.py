@@ -1,3 +1,5 @@
+from typing import Optional
+
 from fastapi import Depends, HTTPException, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 
@@ -6,6 +8,7 @@ from db.repositories import user_repo
 from services.auth import decode_token
 
 security = HTTPBearer()
+security_optional = HTTPBearer(auto_error=False)
 
 
 def get_current_user(
@@ -27,6 +30,19 @@ def get_current_user(
             headers={"WWW-Authenticate": "Bearer"},
         )
     return user
+
+
+def get_current_user_optional(
+    credentials: HTTPAuthorizationCredentials | None = Depends(security_optional),
+) -> Optional[User]:
+    """Return current user if authenticated, else None. Does not raise on missing/invalid token."""
+    if credentials is None:
+        return None
+    payload = decode_token(credentials.credentials)
+    if payload is None:
+        return None
+    user_id = int(payload["sub"])
+    return user_repo.get_by_id(user_id)
 
 
 def require_admin(current_user: User = Depends(get_current_user)) -> User:

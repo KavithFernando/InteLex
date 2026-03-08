@@ -1,7 +1,7 @@
 import uuid
 from typing import Any, Dict, List
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Request
 from loguru import logger
 
 from api.auth_deps import get_current_user
@@ -14,6 +14,7 @@ from api.schemas import (
     UserInput,
 )
 from db.models.user import User
+from services.audit import log_audit
 from services.chat import SYSTEM_PROMPT
 
 router = APIRouter()
@@ -84,6 +85,7 @@ async def get_conversation_messages(
 
 @router.delete("/conversations/{conversation_id}", status_code=204)
 async def delete_conversation(
+    request: Request,
     conversation_id: str,
     current_user: User = Depends(get_current_user),
     conversation_repo=Depends(get_conversation_repo),
@@ -91,15 +93,34 @@ async def delete_conversation(
     deleted = conversation_repo.deactivate(conversation_id, current_user.user_id)
     if not deleted:
         raise HTTPException(status_code=404, detail="Conversation not found.")
+    log_audit(
+        "chat.delete_conversation",
+        user_id=current_user.user_id,
+        username=current_user.username,
+        resource_type="conversation",
+        resource_id=conversation_id,
+        success=True,
+        request=request,
+    )
 
 
 @router.post("/conversations/", response_model=CreateConversationResponse)
 async def create_conversation(
+    request: Request,
     current_user: User = Depends(get_current_user),
     conversation_repo=Depends(get_conversation_repo),
 ) -> CreateConversationResponse:
     conversation_id = str(uuid.uuid4())
     row = conversation_repo.create(conversation_id, user_id=current_user.user_id)
+    log_audit(
+        "chat.create_conversation",
+        user_id=current_user.user_id,
+        username=current_user.username,
+        resource_type="conversation",
+        resource_id=conversation_id,
+        success=True,
+        request=request,
+    )
     return CreateConversationResponse(
         conversation_id=row["conversation_id"],
         created_at=row.get("created_at"),
@@ -108,6 +129,7 @@ async def create_conversation(
 
 @router.post("/chat/", response_model=ChatResponse)
 async def chat(
+    request: Request,
     input: UserInput,
     current_user: User = Depends(get_current_user),
     conversation_repo=Depends(get_conversation_repo),
@@ -146,6 +168,16 @@ async def chat(
             "assistant",
             response_text,
             retrieval_result=retrieval_result if retrieval_result else None,
+        )
+
+        log_audit(
+            "chat.send_message",
+            user_id=current_user.user_id,
+            username=current_user.username,
+            resource_type="conversation",
+            resource_id=input.conversation_id,
+            success=True,
+            request=request,
         )
 
         return ChatResponse(
