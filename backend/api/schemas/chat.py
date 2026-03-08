@@ -19,6 +19,7 @@ class ConversationItem(BaseModel):
 class MessageItem(BaseModel):
     role: str
     content: str
+    created_at: Optional[datetime] = None
     retrieval_result: Optional[List["CaseSummary"]] = Field(
         default=None,
         description="Case results for this assistant message, if any.",

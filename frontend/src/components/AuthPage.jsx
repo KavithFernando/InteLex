@@ -69,7 +69,7 @@ export default function AuthPage({ onAuthenticated }) {
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-accent shadow-lg shadow-accent/30 mb-4">
             <img
-              src="/images/logo_white.png"
+              src="../public/images/logo_white.png"
               alt="InteLex"
               className="w-10 h-10 object-contain"
             />

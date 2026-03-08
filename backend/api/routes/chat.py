@@ -75,6 +75,7 @@ async def get_conversation_messages(
         MessageItem(
             role=m["role"],
             content=m["content"],
+            created_at=m.get("created_at"),
             retrieval_result=m.get("retrieval_result"),
         )
         for m in messages

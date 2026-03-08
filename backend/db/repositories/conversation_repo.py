@@ -82,7 +82,7 @@ class ConversationRepository:
         try:
             cur = conn.cursor(dictionary=True)
             cur.execute(
-                "SELECT role, content, retrieval_result FROM messages WHERE conversation_id = %s ORDER BY created_at ASC",
+                "SELECT role, content, retrieval_result, created_at FROM messages WHERE conversation_id = %s ORDER BY created_at ASC",
                 (conversation_internal_id,),
             )
             rows = cur.fetchall()
@@ -105,6 +105,7 @@ class ConversationRepository:
                     "role": r["role"],
                     "content": r["content"],
                     "retrieval_result": retrieval,
+                    "created_at": r.get("created_at"),
                 })
             return out
         finally:

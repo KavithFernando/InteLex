@@ -1,7 +1,21 @@
 import ReactMarkdown from 'react-markdown';
 
-export default function ChatMessage({ role, content }) {
+function formatTimestamp(iso) {
+  if (!iso) return null;
+  const d = new Date(iso);
+  if (isNaN(d.getTime())) return null;
+  const now = new Date();
+  const isToday = d.toDateString() === now.toDateString();
+  if (isToday) {
+    return d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+  }
+  return d.toLocaleDateString([], { month: 'short', day: 'numeric' }) +
+    ', ' + d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+}
+
+export default function ChatMessage({ role, content, created_at }) {
   const isUser = role === 'user';
+  const timestamp = formatTimestamp(created_at);
 
   return (
     <div className={`group w-full text-left animate-slide-in ${isUser ? 'flex justify-end' : 'flex justify-start'}`}>
@@ -24,19 +38,28 @@ export default function ChatMessage({ role, content }) {
           )}
         </div>
 
-        {/* Message bubble */}
-        <div
-          className={`relative px-5 py-3.5 rounded-2xl text-[0.95rem] leading-relaxed shadow-sm transition-all duration-200 ${isUser
-            ? 'bg-accent text-white rounded-tr-sm shadow-accent/20'
-            : 'bg-white border border-border-subtle/60 text-content-primary rounded-tl-sm shadow-sm'
-            }`}
-        >
-          {isUser ? (
-            <div className="whitespace-pre-wrap">{content}</div>
-          ) : (
-            <div className="prose prose-sm prose-slate max-w-none">
-              <ReactMarkdown>{content}</ReactMarkdown>
-            </div>
+        {/* Message bubble + timestamp */}
+        <div className={`flex flex-col gap-1 ${isUser ? 'items-end' : 'items-start'}`}>
+          <div
+            className={`relative px-5 py-3.5 rounded-2xl text-[0.95rem] leading-relaxed shadow-sm transition-all duration-200 ${isUser
+              ? 'bg-accent text-white rounded-tr-sm shadow-accent/20'
+              : 'bg-white border border-border-subtle/60 text-content-primary rounded-tl-sm shadow-sm'
+              }`}
+          >
+            {isUser ? (
+              <div className="whitespace-pre-wrap">{content}</div>
+            ) : (
+              <div className="prose prose-sm prose-slate max-w-none">
+                <ReactMarkdown>{content}</ReactMarkdown>
+              </div>
+            )}
+          </div>
+
+          {/* Timestamp */}
+          {timestamp && (
+            <span className="text-[10px] text-content-muted px-1">
+              {timestamp}
+            </span>
           )}
         </div>
       </div>

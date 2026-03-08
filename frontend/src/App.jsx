@@ -139,14 +139,14 @@ export default function App() {
       const cid = currentConversationId;
       if (!cid) return;
 
-      setMessages((prev) => [...prev, { role: 'user', content: text }]);
+      setMessages((prev) => [...prev, { role: 'user', content: text, created_at: new Date().toISOString() }]);
 
       setSending(true);
       try {
         const res = await apiSendMessage(cid, text);
         setMessages((prev) => [
           ...prev,
-          { role: 'assistant', content: res.response, retrieval_result: res.retrieval_result ?? [] },
+          { role: 'assistant', content: res.response, retrieval_result: res.retrieval_result ?? [], created_at: new Date().toISOString() },
         ]);
         if (messages.length === 0) {
           await refreshConversations();
@@ -253,7 +253,7 @@ export default function App() {
           <div className="flex-1 min-h-0 overflow-y-auto py-6 space-y-6 scrollbar-hide">
             {messages.map((msg, i) => (
               <div key={i} className="max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8">
-                <ChatMessage role={msg.role} content={msg.content} />
+                <ChatMessage role={msg.role} content={msg.content} created_at={msg.created_at} />
                 {msg.role === 'assistant' && (msg.retrieval_result?.length ?? 0) > 0 && (
                   <RetrievalResults results={msg.retrieval_result} onSelectCase={handleSelectCase} />
                 )}
