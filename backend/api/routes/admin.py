@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import Optional
 
-from fastapi import APIRouter, Depends, Request
+from fastapi import APIRouter, Depends
 
 from api.auth_deps import require_admin
 from api.schemas.audit import AuditLogResponse
@@ -14,10 +14,7 @@ router = APIRouter(prefix="/admin", tags=["admin"])
 
 
 @router.get("/users", response_model=list[AdminUserResponse])
-def list_users(
-    request: Request,
-    admin: User = Depends(require_admin),
-) -> list[AdminUserResponse]:
+def list_users(admin: User = Depends(require_admin)) -> list[AdminUserResponse]:
     """Return all registered users. Admin only."""
     users = user_repo.list_all()
     log_audit(
@@ -25,7 +22,6 @@ def list_users(
         user_id=admin.user_id,
         username=admin.username,
         success=True,
-        request=request,
     )
     return [
         AdminUserResponse(

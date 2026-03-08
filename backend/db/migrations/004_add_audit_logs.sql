@@ -10,8 +10,6 @@ CREATE TABLE audit_logs (
   resource_type VARCHAR(64) NULL,
   resource_id VARCHAR(255) NULL,
   details JSON NULL,
-  ip_address VARCHAR(45) NULL,
-  user_agent VARCHAR(512) NULL,
   success TINYINT(1) NOT NULL DEFAULT 1,
   PRIMARY KEY (id),
   KEY idx_audit_user (user_id),

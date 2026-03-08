@@ -25,8 +25,6 @@ class AuditLog(Base):
     resource_type: Mapped[Optional[str]] = mapped_column(String(64), nullable=True)
     resource_id: Mapped[Optional[str]] = mapped_column(String(255), nullable=True)
     details: Mapped[Optional[dict[str, Any]]] = mapped_column(JSON, nullable=True)
-    ip_address: Mapped[Optional[str]] = mapped_column(String(45), nullable=True)
-    user_agent: Mapped[Optional[str]] = mapped_column(String(512), nullable=True)
     success: Mapped[bool] = mapped_column(Boolean(), nullable=False, default=True)
 
     def __repr__(self) -> str:

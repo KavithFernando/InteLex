@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException, Request
+from fastapi import APIRouter, Depends, HTTPException
 
 from api.auth_deps import get_current_user
 from api.deps import get_case_repo
@@ -11,7 +11,6 @@ router = APIRouter()
 
 @router.get("/cases/{case_id}", response_model=CaseDetail)
 def get_case_by_id(
-    request: Request,
     case_id: str,
     current_user: User = Depends(get_current_user),
     case_repo=Depends(get_case_repo),
@@ -26,6 +25,5 @@ def get_case_by_id(
         resource_type="case",
         resource_id=case_id,
         success=True,
-        request=request,
     )
     return CaseDetail(**case)

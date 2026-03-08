@@ -1,7 +1,7 @@
 import uuid
 from typing import Any, Dict, List
 
-from fastapi import APIRouter, Depends, HTTPException, Request
+from fastapi import APIRouter, Depends, HTTPException
 from loguru import logger
 
 from api.auth_deps import get_current_user
@@ -85,7 +85,6 @@ async def get_conversation_messages(
 
 @router.delete("/conversations/{conversation_id}", status_code=204)
 async def delete_conversation(
-    request: Request,
     conversation_id: str,
     current_user: User = Depends(get_current_user),
     conversation_repo=Depends(get_conversation_repo),
@@ -100,13 +99,11 @@ async def delete_conversation(
         resource_type="conversation",
         resource_id=conversation_id,
         success=True,
-        request=request,
     )
 
 
 @router.post("/conversations/", response_model=CreateConversationResponse)
 async def create_conversation(
-    request: Request,
     current_user: User = Depends(get_current_user),
     conversation_repo=Depends(get_conversation_repo),
 ) -> CreateConversationResponse:
@@ -119,7 +116,6 @@ async def create_conversation(
         resource_type="conversation",
         resource_id=conversation_id,
         success=True,
-        request=request,
     )
     return CreateConversationResponse(
         conversation_id=row["conversation_id"],
@@ -129,7 +125,6 @@ async def create_conversation(
 
 @router.post("/chat/", response_model=ChatResponse)
 async def chat(
-    request: Request,
     input: UserInput,
     current_user: User = Depends(get_current_user),
     conversation_repo=Depends(get_conversation_repo),

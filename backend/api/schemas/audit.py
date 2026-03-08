@@ -13,6 +13,4 @@ class AuditLogResponse(BaseModel):
     resource_type: Optional[str] = None
     resource_id: Optional[str] = None
     details: Optional[dict[str, Any]] = None
-    ip_address: Optional[str] = None
-    user_agent: Optional[str] = None
     success: bool

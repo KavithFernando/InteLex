@@ -12,8 +12,6 @@ def create(
     resource_type: Optional[str] = None,
     resource_id: Optional[str] = None,
     details: Optional[dict[str, Any]] = None,
-    ip_address: Optional[str] = None,
-    user_agent: Optional[str] = None,
     success: bool = True,
 ) -> AuditLog:
     session = SessionLocal()
@@ -25,8 +23,6 @@ def create(
             resource_type=resource_type,
             resource_id=resource_id,
             details=details,
-            ip_address=ip_address,
-            user_agent=user_agent,
             success=success,
         )
         session.add(log)
@@ -63,8 +59,6 @@ def list_logs(
                 "resource_type": r.resource_type,
                 "resource_id": r.resource_id,
                 "details": r.details,
-                "ip_address": r.ip_address,
-                "user_agent": r.user_agent,
                 "success": r.success,
             }
             for r in rows
