@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import {
   listConversations,
   createConversation,
+  deleteConversation,
   getConversationMessages,
   sendMessage as apiSendMessage,
   getCase,
@@ -174,6 +175,21 @@ export default function App() {
     }
   }, []);
 
+  const handleDeleteConversation = useCallback(async (conversationId) => {
+    try {
+      await deleteConversation(conversationId);
+      if (currentConversationId === conversationId) {
+        setCurrentConversationId(null);
+        setMessages([]);
+        setSelectedCaseId(null);
+        setCaseDetail(null);
+      }
+      await refreshConversations();
+    } catch (err) {
+      console.error('Failed to delete conversation', err);
+    }
+  }, [currentConversationId, refreshConversations]);
+
   const handleCloseCaseDetail = useCallback(() => {
     setSelectedCaseId(null);
     setCaseDetail(null);
@@ -206,6 +222,7 @@ export default function App() {
           currentId={currentConversationId}
           onSelect={handleSelectConversation}
           onCreate={handleCreateConversation}
+          onDelete={handleDeleteConversation}
           loading={loading}
           user={user}
           onLogout={handleLogout}

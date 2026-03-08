@@ -86,6 +86,10 @@ export async function changePassword(currentPassword, newPassword) {
 
 // ---------- Conversations & Chat ----------
 
+export async function deleteConversation(conversationId) {
+  return request(`/conversations/${encodeURIComponent(conversationId)}`, { method: 'DELETE' });
+}
+
 export async function listConversations() {
   return request('/conversations/');
 }
