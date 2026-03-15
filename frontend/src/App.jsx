@@ -6,6 +6,7 @@ import {
   getConversationMessages,
   sendMessage as apiSendMessage,
   getCase,
+  generateCaseInterpretation,
   getMe,
   logout as apiLogout,
   getStoredToken,
@@ -31,6 +32,7 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [sending, setSending] = useState(false);
   const [selectedCaseId, setSelectedCaseId] = useState(null);
+  const [selectedTriggeringQuery, setSelectedTriggeringQuery] = useState(null);
   const [caseDetail, setCaseDetail] = useState(null);
   const [caseDetailLoading, setCaseDetailLoading] = useState(false);
   const [showAuditLogs, setShowAuditLogs] = useState(false);
@@ -54,6 +56,9 @@ export default function App() {
       setConversations([]);
       setCurrentConversationId(null);
       setMessages([]);
+      setSelectedCaseId(null);
+      setSelectedTriggeringQuery(null);
+      setCaseDetail(null);
     }
     window.addEventListener('auth:logout', handleForcedLogout);
     return () => window.removeEventListener('auth:logout', handleForcedLogout);
@@ -75,6 +80,7 @@ export default function App() {
     setCurrentConversationId(null);
     setMessages([]);
     setSelectedCaseId(null);
+    setSelectedTriggeringQuery(null);
     setCaseDetail(null);
   }
 
@@ -123,6 +129,7 @@ export default function App() {
       await refreshConversations();
       setCurrentConversationId(conversation_id);
       setSelectedCaseId(null);
+      setSelectedTriggeringQuery(null);
       setCaseDetail(null);
     } catch (err) {
       console.error('Failed to create conversation', err);
@@ -134,6 +141,7 @@ export default function App() {
   const handleSelectConversation = useCallback((conversationId) => {
     setCurrentConversationId(conversationId);
     setSelectedCaseId(null);
+    setSelectedTriggeringQuery(null);
     setCaseDetail(null);
   }, []);
 
@@ -163,8 +171,9 @@ export default function App() {
     [currentConversationId, messages.length, refreshConversations]
   );
 
-  const handleSelectCase = useCallback(async (caseId) => {
+  const handleSelectCase = useCallback(async (caseId, triggeringQuery = null) => {
     setSelectedCaseId(caseId);
+    setSelectedTriggeringQuery(triggeringQuery ?? null);
     setCaseDetailLoading(true);
     setCaseDetail(null);
     try {
@@ -184,6 +193,7 @@ export default function App() {
         setCurrentConversationId(null);
         setMessages([]);
         setSelectedCaseId(null);
+        setSelectedTriggeringQuery(null);
         setCaseDetail(null);
       }
       await refreshConversations();
@@ -194,6 +204,7 @@ export default function App() {
 
   const handleCloseCaseDetail = useCallback(() => {
     setSelectedCaseId(null);
+    setSelectedTriggeringQuery(null);
     setCaseDetail(null);
     setCaseDetailLoading(false);
   }, []);
@@ -278,7 +289,11 @@ export default function App() {
               <div key={i} className="max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8">
                 <ChatMessage role={msg.role} content={msg.content} created_at={msg.created_at} />
                 {msg.role === 'assistant' && (msg.retrieval_result?.length ?? 0) > 0 && (
-                  <RetrievalResults results={msg.retrieval_result} onSelectCase={handleSelectCase} />
+                  <RetrievalResults
+                    results={msg.retrieval_result}
+                    triggeringUserMessage={messages[i - 1]?.content}
+                    onSelectCase={handleSelectCase}
+                  />
                 )}
               </div>
             ))}
@@ -321,7 +336,12 @@ export default function App() {
             </div>
           )}
           {caseDetail && (
-            <CaseDetailPanel caseDetail={caseDetail} onClose={handleCloseCaseDetail} />
+            <CaseDetailPanel
+              caseDetail={caseDetail}
+              triggeringQuery={selectedTriggeringQuery}
+              onGenerateInterpretation={generateCaseInterpretation}
+              onClose={handleCloseCaseDetail}
+            />
           )}
         </aside>
       )}

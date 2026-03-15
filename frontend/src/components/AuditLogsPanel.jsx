@@ -165,7 +165,6 @@ export default function AuditLogsPanel({ onClose }) {
                   <th className="text-left py-3 px-3 font-semibold text-content-secondary">Action</th>
                   <th className="text-left py-3 px-3 font-semibold text-content-secondary">Resource</th>
                   <th className="text-left py-3 px-3 font-semibold text-content-secondary">Success</th>
-                  <th className="text-left py-3 px-3 font-semibold text-content-secondary">IP</th>
                 </tr>
               </thead>
               <tbody>

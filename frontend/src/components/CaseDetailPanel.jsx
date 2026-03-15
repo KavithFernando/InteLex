@@ -1,6 +1,28 @@
 import { useState } from 'react';
 
-export default function CaseDetailPanel({ caseDetail, onClose }) {
+export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerateInterpretation, onClose }) {
+  const [generatedInterpretation, setGeneratedInterpretation] = useState(null);
+  const [interpretationLoading, setInterpretationLoading] = useState(false);
+  const [interpretationError, setInterpretationError] = useState(null);
+
+  const canGenerateInterpretation = Boolean(
+    triggeringQuery?.trim() && onGenerateInterpretation && caseDetail?.case_id
+  );
+
+  const handleGenerateInterpretation = async () => {
+    if (!canGenerateInterpretation) return;
+    setInterpretationLoading(true);
+    setInterpretationError(null);
+    try {
+      const { interpretation } = await onGenerateInterpretation(caseDetail.case_id, triggeringQuery);
+      setGeneratedInterpretation(interpretation);
+    } catch (err) {
+      setInterpretationError(err?.body?.detail ?? err?.message ?? 'Failed to generate interpretation.');
+    } finally {
+      setInterpretationLoading(false);
+    }
+  };
+
   if (!caseDetail) return null;
 
   const {
@@ -68,21 +90,41 @@ export default function CaseDetailPanel({ caseDetail, onClose }) {
             <p className="text-sm text-content-secondary mt-1 font-medium">{court_name}</p>
           )}
         </div>
-        <button
-          onClick={onClose}
-          className="shrink-0 p-2 rounded-lg text-content-muted hover:bg-surface-hover hover:text-content-primary transition-colors focus:outline-none focus:ring-2 focus:ring-accent/20"
-          aria-label="Close panel"
-        >
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-          </svg>
-        </button>
+        <div className="flex items-center gap-2 shrink-0">
+            {canGenerateInterpretation && (
+              <button
+                type="button"
+                onClick={handleGenerateInterpretation}
+                disabled={interpretationLoading}
+                className="px-3 py-1.5 rounded-lg text-sm font-medium bg-accent text-accent-fg hover:opacity-90 disabled:opacity-60 transition-opacity focus:outline-none focus:ring-2 focus:ring-accent/30"
+              >
+                {interpretationLoading ? 'Generating…' : 'Generate interpretation'}
+              </button>
+            )}
+            <button
+              onClick={onClose}
+              className="p-2 rounded-lg text-content-muted hover:bg-surface-hover hover:text-content-primary transition-colors focus:outline-none focus:ring-2 focus:ring-accent/20"
+              aria-label="Close panel"
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
       </div>
 
       {/* Content */}
       <div className="flex-1 overflow-y-auto min-h-0 py-6 px-8 scrollbar-hide">
         <div className="max-w-3xl mx-auto">
-          <Section title="Interpretation Summary" content={interpretation_summary} isText />
+          {(generatedInterpretation != null) && (
+          <Section title="Generated interpretation (from your query)" content={generatedInterpretation} isText />
+        )}
+        {interpretationError && (
+          <section className="mb-8 border-b border-border-subtle pb-6">
+            <p className="text-sm text-red-600 dark:text-red-400">{interpretationError}</p>
+          </section>
+        )}
+        <Section title="Interpretation Summary" content={interpretation_summary} isText />
           <Section title="Legal Issue" content={legal_issue} isText />
           <Section title="Outcome" content={outcome} isText />
           <Section title="Petitioner's Claim" content={petitioner_claim} />

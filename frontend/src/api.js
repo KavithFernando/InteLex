@@ -109,6 +109,19 @@ export async function sendMessage(conversationId, message) {
   });
 }
 
+/**
+ * Generate an interpretation of a case in light of the user query that triggered its retrieval.
+ * @param {string} caseId - Case ID
+ * @param {string} userQuery - The last user message that triggered the LLM to retrieve cases
+ * @returns {{ interpretation: string }}
+ */
+export async function generateCaseInterpretation(caseId, userQuery) {
+  return request('/chat/interpret-case/', {
+    method: 'POST',
+    body: JSON.stringify({ case_id: caseId, user_query: userQuery }),
+  });
+}
+
 // ---------- Cases ----------
 
 export async function getCase(caseId) {

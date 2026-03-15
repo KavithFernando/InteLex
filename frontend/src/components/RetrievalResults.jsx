@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function RetrievalResults({ results, onSelectCase }) {
+export default function RetrievalResults({ results, triggeringUserMessage, onSelectCase }) {
   if (!results?.length) return null;
 
   return (
@@ -18,7 +18,7 @@ export default function RetrievalResults({ results, onSelectCase }) {
         {results.map((c) => (
           <button
             key={c.case_id}
-            onClick={() => onSelectCase(c.case_id)}
+            onClick={() => onSelectCase(c.case_id, triggeringUserMessage ?? undefined)}
             className="group flex flex-col items-start text-left bg-surface hover:bg-surface-hover border border-border/80 hover:border-accent/40 rounded-xl p-4 transition-all duration-200 shadow-sm hover:shadow-md active:scale-[0.99]"
           >
             <div className="w-full flex justify-between items-start gap-3 mb-2">
