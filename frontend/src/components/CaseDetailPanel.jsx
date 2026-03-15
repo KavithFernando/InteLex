@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import ReactMarkdown from 'react-markdown';
 
 export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerateInterpretation, onClose }) {
   const [generatedInterpretation, setGeneratedInterpretation] = useState(null);
@@ -96,9 +97,24 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
                 type="button"
                 onClick={handleGenerateInterpretation}
                 disabled={interpretationLoading}
-                className="px-3 py-1.5 rounded-lg text-sm font-medium bg-accent text-accent-fg hover:opacity-90 disabled:opacity-60 transition-opacity focus:outline-none focus:ring-2 focus:ring-accent/30"
+                className="group flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-accent text-white shadow-sm hover:shadow-md hover:-translate-y-px disabled:shadow-none disabled:transform-none disabled:opacity-60 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30"
               >
-                {interpretationLoading ? 'Generating…' : 'Generate interpretation'}
+                {interpretationLoading ? (
+                  <>
+                    <svg className="w-4 h-4 animate-spin" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    <span>Generating…</span>
+                  </>
+                ) : (
+                  <>
+                    <svg className="w-4 h-4 text-white/80 group-hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                    <span>Generate interpretation</span>
+                  </>
+                )}
               </button>
             )}
             <button
@@ -117,8 +133,22 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
       <div className="flex-1 overflow-y-auto min-h-0 py-6 px-8 scrollbar-hide">
         <div className="max-w-3xl mx-auto">
           {(generatedInterpretation != null) && (
-          <Section title="Generated interpretation (from your query)" content={generatedInterpretation} isText />
-        )}
+            <div className="mb-8 p-6 rounded-xl bg-surface-active/10 border border-border scrollbar-hide shadow-sm transition-all duration-300">
+              <div className="flex items-center gap-2 mb-4 pb-3 border-b border-border/60">
+                <div className="p-1.5 rounded-md bg-accent/10 text-accent">
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                </div>
+                <h4 className="text-xs font-bold uppercase tracking-wider text-accent font-sans m-0">
+                  AI Generated Interpretation
+                </h4>
+              </div>
+              <div className="prose prose-sm md:prose-base prose-slate dark:prose-invert max-w-none font-serif text-[0.95rem] leading-relaxed text-content-primary">
+                <ReactMarkdown>{generatedInterpretation}</ReactMarkdown>
+              </div>
+            </div>
+          )}
         {interpretationError && (
           <section className="mb-8 border-b border-border-subtle pb-6">
             <p className="text-sm text-red-600 dark:text-red-400">{interpretationError}</p>
