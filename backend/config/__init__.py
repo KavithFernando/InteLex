@@ -19,6 +19,7 @@ from config.settings import (
     JWT_SECRET,
     JWT_ALGORITHM,
     JWT_EXPIRE_MINUTES,
+    FRONTEND_ORIGIN,
 )
 
 __all__ = [
@@ -35,4 +36,5 @@ __all__ = [
     "JWT_SECRET",
     "JWT_ALGORITHM",
     "JWT_EXPIRE_MINUTES",
+    "FRONTEND_ORIGIN",
 ]

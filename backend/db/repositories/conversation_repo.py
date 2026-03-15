@@ -48,11 +48,43 @@ class ConversationRepository:
         try:
             cur = conn.cursor(dictionary=True)
             cur.execute(
-                "SELECT conversation_id, title, created_at, updated_at FROM conversations ORDER BY updated_at DESC"
+                "SELECT conversation_id, title, created_at, updated_at FROM conversations "
+                "WHERE active = 1 ORDER BY updated_at DESC"
             )
             rows = cur.fetchall()
             cur.close()
             return rows
+        finally:
+            conn.close()
+
+    def list_by_user(self, user_id: int) -> List[Dict[str, Any]]:
+        conn = get_connection()
+        try:
+            cur = conn.cursor(dictionary=True)
+            cur.execute(
+                "SELECT conversation_id, title, created_at, updated_at FROM conversations "
+                "WHERE user_id = %s AND active = 1 ORDER BY updated_at DESC",
+                (user_id,),
+            )
+            rows = cur.fetchall()
+            cur.close()
+            return rows
+        finally:
+            conn.close()
+
+    def deactivate(self, conversation_id: str, user_id: int) -> bool:
+        """Soft-delete a conversation by setting active = 0. Returns True if a row was updated."""
+        conn = get_connection()
+        try:
+            cur = conn.cursor()
+            cur.execute(
+                "UPDATE conversations SET active = 0 WHERE conversation_id = %s AND user_id = %s AND active = 1",
+                (conversation_id, user_id),
+            )
+            conn.commit()
+            affected = cur.rowcount
+            cur.close()
+            return affected > 0
         finally:
             conn.close()
 
@@ -67,7 +99,7 @@ class ConversationRepository:
         try:
             cur = conn.cursor(dictionary=True)
             cur.execute(
-                "SELECT role, content, retrieval_result FROM messages WHERE conversation_id = %s ORDER BY created_at ASC",
+                "SELECT role, content, retrieval_result, created_at FROM messages WHERE conversation_id = %s ORDER BY created_at ASC",
                 (conversation_internal_id,),
             )
             rows = cur.fetchall()
@@ -90,6 +122,7 @@ class ConversationRepository:
                     "role": r["role"],
                     "content": r["content"],
                     "retrieval_result": retrieval,
+                    "created_at": r.get("created_at"),
                 })
             return out
         finally:

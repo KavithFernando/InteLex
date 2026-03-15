@@ -19,6 +19,7 @@ class ConversationItem(BaseModel):
 class MessageItem(BaseModel):
     role: str
     content: str
+    created_at: Optional[datetime] = None
     retrieval_result: Optional[List["CaseSummary"]] = Field(
         default=None,
         description="Case results for this assistant message, if any.",
@@ -50,3 +51,12 @@ class ChatResponse(BaseModel):
         default_factory=list,
         description="Top cases: case_id, case_title, decision_date, clauses. Full case via separate API when user clicks.",
     )
+
+
+class InterpretCaseRequest(BaseModel):
+    case_id: str = Field(..., min_length=1, description="Case to interpret.")
+    user_query: str = Field(..., min_length=1, description="The user message that triggered retrieval of this case.")
+
+
+class InterpretCaseResponse(BaseModel):
+    interpretation: str = Field(..., description="Generated interpretation of the case in light of the user's query.")

@@ -1,4 +1,4 @@
--- Migration: add retrieval_result to messages (for persisting case results per assistant message).
+-- Migration 003: add retrieval_result to messages (for persisting case results per assistant message).
 -- Run this on existing databases that were created before this column was added.
 
 ALTER TABLE messages

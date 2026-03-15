@@ -1,4 +1,4 @@
--- Migration: add title column to conversations table (for auto-generated conversation titles).
+-- Migration 002: add title column to conversations table (for auto-generated conversation titles).
 -- Run this on existing databases that were created before this column was added.
 
 ALTER TABLE conversations

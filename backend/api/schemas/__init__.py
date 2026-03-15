@@ -10,6 +10,8 @@ from api.schemas.chat import (
     ClauseSummary,
     ConversationItem,
     CreateConversationResponse,
+    InterpretCaseRequest,
+    InterpretCaseResponse,
     MessageItem,
 )
 
@@ -20,6 +22,8 @@ __all__ = [
     "ClauseSummary",
     "ConversationItem",
     "CreateConversationResponse",
+    "InterpretCaseRequest",
+    "InterpretCaseResponse",
     "MessageItem",
     "CaseDetail",
     "ClauseItem",

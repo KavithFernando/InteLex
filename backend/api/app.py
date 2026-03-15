@@ -1,15 +1,23 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from slowapi import _rate_limit_exceeded_handler
+from slowapi.errors import RateLimitExceeded
 
+from api.limiter import limiter
 from api.routes import auth as auth_router
 from api.routes import chat as chat_router
 from api.routes import cases as cases_router
+from api.routes import admin as admin_router
+from config import FRONTEND_ORIGIN
 
 app = FastAPI(title="Legal Assistant (Groq + Retrieval)")
 
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[FRONTEND_ORIGIN],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -18,3 +26,4 @@ app.add_middleware(
 app.include_router(auth_router.router)
 app.include_router(chat_router.router, tags=["chat"])
 app.include_router(cases_router.router, tags=["cases"])
+app.include_router(admin_router.router)
