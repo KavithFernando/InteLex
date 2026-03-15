@@ -5,11 +5,13 @@ from fastapi import APIRouter, Depends, HTTPException
 from loguru import logger
 
 from api.auth_deps import get_current_user
-from api.deps import get_chat_service, get_conversation_repo
+from api.deps import get_chat_service, get_conversation_repo, get_case_repo
 from api.schemas import (
     ChatResponse,
     ConversationItem,
     CreateConversationResponse,
+    InterpretCaseRequest,
+    InterpretCaseResponse,
     MessageItem,
     UserInput,
 )
@@ -171,8 +173,7 @@ async def chat(
             username=current_user.username,
             resource_type="conversation",
             resource_id=input.conversation_id,
-            success=True,
-            request=request,
+            success=True
         )
 
         return ChatResponse(
@@ -185,4 +186,58 @@ async def chat(
         raise
     except Exception as e:
         logger.exception("Unexpected server error")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+def _case_text_for_interpretation(case: dict) -> str:
+    """Build a single text block from case fields for LLM interpretation."""
+    parts = []
+    if case.get("case_title"):
+        parts.append(f"Title: {case['case_title']}")
+    if case.get("legal_issue"):
+        parts.append(f"Legal issue: {case['legal_issue']}")
+    if case.get("interpretation_summary"):
+        parts.append(f"Interpretation summary: {case['interpretation_summary']}")
+    if case.get("outcome"):
+        parts.append(f"Outcome: {case['outcome']}")
+    if case.get("petitioner_claim"):
+        parts.append(f"Petitioner's claim: {case['petitioner_claim']}")
+    if case.get("respondent_argument"):
+        parts.append(f"Respondent's argument: {case['respondent_argument']}")
+    if case.get("full_text"):
+        parts.append(f"Full text:\n{case['full_text']}")
+    if case.get("principles_established"):
+        principles = case["principles_established"]
+        if isinstance(principles, list):
+            parts.append("Principles: " + "; ".join(principles))
+        else:
+            parts.append(f"Principles: {principles}")
+    return "\n\n".join(parts) if parts else ""
+
+
+@router.post("/chat/interpret-case/", response_model=InterpretCaseResponse)
+async def interpret_case(
+    body: InterpretCaseRequest,
+    current_user: User = Depends(get_current_user),
+    case_repo=Depends(get_case_repo),
+    chat_service=Depends(get_chat_service),
+) -> InterpretCaseResponse:
+    """Generate an interpretation of a case in light of the user query that triggered its retrieval."""
+    case = case_repo.fetch_case_by_id(body.case_id)
+    if not case:
+        raise HTTPException(status_code=404, detail="Case not found.")
+    case_text = _case_text_for_interpretation(case)
+    if not case_text.strip():
+        raise HTTPException(
+            status_code=400,
+            detail="Case has no text available for interpretation.",
+        )
+    try:
+        interpretation = chat_service.generate_case_interpretation(
+            case_text=case_text,
+            user_query=body.user_query.strip(),
+        )
+        return InterpretCaseResponse(interpretation=interpretation)
+    except Exception as e:
+        logger.exception("Interpret case failed")
         raise HTTPException(status_code=500, detail=str(e))

@@ -134,3 +134,33 @@ class ChatService:
 
         logger.info("No tool calls")
         return (msg.content or ""), None
+
+    def generate_case_interpretation(self, case_text: str, user_query: str) -> str:
+        """Generate an interpretation of the case text in light of the user's query."""
+        client = self._get_client()
+        prompt = f"""You are a legal assistant. The reader asked a question or provided context, and the system retrieved this legal case as relevant. Write an interpretation that directly addresses what they asked. The case details (title, parties, outcome) are already shown elsewhere—do NOT repeat a summary of the case.
+
+What the reader asked or provided:
+---
+{user_query}
+---
+
+Relevant case text:
+---
+{case_text[:12000]}
+---
+
+Write a clear, concise interpretation (a few paragraphs) that:
+1. Explains how this case relates to or answers what the reader asked—address the reader as "you" (e.g. "Your question about…", "For you, the important point is…"). Never refer to "the user" or "the user's question".
+2. Highlights the key legal principles and facts from the case that are most relevant to what they asked.
+3. Keeps a professional but direct tone; avoid filler like "In summary, this case provides…" unless it adds value.
+
+Do not invent facts. Use only the case text above. Write as if speaking to the reader ("you"), not about "the user"."""
+
+        resp = client.chat.completions.create(
+            model="llama-3.1-8b-instant",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.4,
+            max_tokens=1500,
+        )
+        return (resp.choices[0].message.content or "").strip()
