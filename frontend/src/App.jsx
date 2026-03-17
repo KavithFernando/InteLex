@@ -239,6 +239,8 @@ export default function App() {
           loading={loading}
           user={user}
           onLogout={handleLogout}
+          isAdmin={user?.role === 'admin'}
+          onOpenAuditLogs={() => setShowAuditLogs(true)}
         />
       </aside>
 
