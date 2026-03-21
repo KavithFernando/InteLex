@@ -142,7 +142,7 @@ class CaseRepository:
 
         cur.execute(
             """
-            SELECT DISTINCT cc.article, cc.clause_text AS text
+            SELECT DISTINCT cc.article, cc.subclause, cc.clause_text AS text
             FROM interpretation_frames intf
             JOIN constitution_clauses cc ON cc.clause_id = intf.clause_id
             WHERE intf.case_id = %s
@@ -188,11 +188,12 @@ class CaseRepository:
 
         cur.execute(
             """
-            SELECT DISTINCT fp.principle_text
+            SELECT DISTINCT fp.principle_text, MIN(fp.id) AS first_id
             FROM frame_principles fp
             JOIN interpretation_frames intf ON intf.id = fp.interpretation_frame_id
             WHERE intf.case_id = %s
-            ORDER BY fp.id
+            GROUP BY fp.principle_text
+            ORDER BY first_id
             LIMIT 200
             """,
             (case_pk,),

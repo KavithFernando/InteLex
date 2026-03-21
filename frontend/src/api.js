@@ -137,6 +137,29 @@ export async function getFrame(frameId) {
   return request(`/frames/${encodeURIComponent(frameId)}`);
 }
 
+/**
+ * Fetch the PDF for a case as a Blob. Use URL.createObjectURL(blob) to display or download.
+ * @param {string} caseId - Internal case id string
+ * @returns {Promise<Blob>}
+ */
+export async function getCasePdf(caseId) {
+  const token = getStoredToken();
+  const headers = {};
+  if (token) headers['Authorization'] = `Bearer ${token}`;
+  const res = await fetch(`${BASE}/cases/${encodeURIComponent(caseId)}/pdf`, { headers });
+  if (!res.ok) {
+    const err = new Error(res.statusText);
+    err.status = res.status;
+    try { err.body = await res.json(); } catch { err.body = {}; }
+    if (res.status === 401) {
+      clearToken();
+      window.dispatchEvent(new Event('auth:logout'));
+    }
+    throw err;
+  }
+  return res.blob();
+}
+
 // ---------- Admin ----------
 
 export async function listAdminUsers() {

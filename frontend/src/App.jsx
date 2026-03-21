@@ -11,6 +11,7 @@ import {
   getMe,
   logout as apiLogout,
   getStoredToken,
+  getCasePdf,
 } from './api';
 import AuthPage from './components/AuthPage';
 import ConversationList from './components/ConversationList';
@@ -203,6 +204,8 @@ export default function App() {
     }
   }, [currentConversationId, refreshConversations]);
 
+  const handleGetPdf = useCallback((caseId) => getCasePdf(caseId), []);
+
   const handleCloseCaseDetail = useCallback(() => {
     setSelectedCaseId(null);
     setSelectedTriggeringQuery(null);
@@ -384,6 +387,7 @@ export default function App() {
               caseDetail={caseDetail}
               triggeringQuery={selectedTriggeringQuery}
               onGenerateInterpretation={generateCaseInterpretation}
+              onGetPdf={handleGetPdf}
               onClose={handleCloseCaseDetail}
             />
           )}

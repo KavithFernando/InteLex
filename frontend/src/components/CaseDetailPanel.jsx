@@ -1,14 +1,52 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 
-export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerateInterpretation, onClose }) {
+export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerateInterpretation, onGetPdf, onClose }) {
   const [generatedInterpretation, setGeneratedInterpretation] = useState(null);
   const [interpretationLoading, setInterpretationLoading] = useState(false);
   const [interpretationError, setInterpretationError] = useState(null);
 
+  const [showPdf, setShowPdf] = useState(false);
+  const [pdfBlobUrl, setPdfBlobUrl] = useState(null);
+  const [pdfLoading, setPdfLoading] = useState(false);
+  const [pdfError, setPdfError] = useState(null);
+
+  // Revoke blob URL when the modal closes to free memory
+  useEffect(() => {
+    if (!showPdf && pdfBlobUrl) {
+      URL.revokeObjectURL(pdfBlobUrl);
+      setPdfBlobUrl(null);
+    }
+  }, [showPdf]);
+
+  // Also revoke on unmount
+  useEffect(() => {
+    return () => { if (pdfBlobUrl) URL.revokeObjectURL(pdfBlobUrl); };
+  }, [pdfBlobUrl]);
+
   const canGenerateInterpretation = Boolean(
     triggeringQuery?.trim() && onGenerateInterpretation && caseDetail?.case_id
   );
+
+  const canViewPdf = Boolean(caseDetail?.pdf_relative_path && onGetPdf && caseDetail?.case_id);
+
+  const handleViewPdf = async () => {
+    if (!canViewPdf) return;
+    setPdfLoading(true);
+    setPdfError(null);
+    try {
+      const blob = await onGetPdf(caseDetail.case_id);
+      const url = URL.createObjectURL(blob);
+      setPdfBlobUrl(url);
+      setShowPdf(true);
+    } catch (err) {
+      setPdfError(err?.body?.detail ?? err?.message ?? 'Failed to load PDF.');
+    } finally {
+      setPdfLoading(false);
+    }
+  };
+
+  const closePdf = () => setShowPdf(false);
 
   const handleGenerateInterpretation = async () => {
     if (!canGenerateInterpretation) return;
@@ -40,6 +78,7 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
     outcome,
     source,
     source_citation,
+    pdf_relative_path,
     full_text,
     judges,
     clauses,
@@ -83,6 +122,7 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
   };
 
   return (
+    <>
     <div className="flex flex-col h-full bg-surface shadow-2xl relative">
       {/* Header */}
       <div className="shrink-0 flex items-start justify-between gap-4 py-5 px-6 border-b border-border bg-white/50 backdrop-blur-md sticky top-0 z-10">
@@ -104,6 +144,34 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
           )}
         </div>
         <div className="flex items-center gap-2 shrink-0">
+          {canViewPdf && (
+            <button
+              type="button"
+              onClick={handleViewPdf}
+              disabled={pdfLoading}
+              className="group flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-surface border border-border text-content-primary shadow-sm hover:border-accent hover:text-accent hover:shadow-md hover:-translate-y-px disabled:opacity-60 disabled:transform-none transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30"
+            >
+              {pdfLoading ? (
+                <>
+                  <svg className="w-4 h-4 animate-spin" viewBox="0 0 24 24" fill="none">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                  </svg>
+                  <span>Loading…</span>
+                </>
+              ) : (
+                <>
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                  </svg>
+                  <span>View PDF</span>
+                </>
+              )}
+            </button>
+          )}
+          {pdfError && (
+            <span className="text-xs text-red-500 max-w-[160px] truncate" title={pdfError}>{pdfError}</span>
+          )}
           {canGenerateInterpretation && (
             <button
               type="button"
@@ -202,5 +270,46 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
         </div>
       </div>
     </div>
+
+    {/* PDF viewer modal */}
+    {showPdf && pdfBlobUrl && (
+      <div className="fixed inset-0 z-50 flex flex-col bg-black/90 animate-fade-in">
+        {/* Modal header */}
+        <div className="shrink-0 flex items-center justify-between gap-4 px-6 py-3 bg-surface border-b border-border">
+          <p className="font-serif font-semibold text-content-primary text-sm truncate max-w-[60%]">
+            {case_title || case_id}
+          </p>
+          <div className="flex items-center gap-3">
+            <a
+              href={pdfBlobUrl}
+              download={`${case_identifier || case_id}.pdf`}
+              className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-accent text-white hover:bg-accent/90 hover:-translate-y-px transition-all duration-200 shadow-sm hover:shadow-md"
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
+              Download
+            </a>
+            <button
+              onClick={closePdf}
+              className="p-2 rounded-lg text-content-muted hover:bg-surface-hover hover:text-content-primary transition-colors focus:outline-none focus:ring-2 focus:ring-accent/20"
+              aria-label="Close PDF viewer"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        {/* PDF iframe */}
+        <iframe
+          src={pdfBlobUrl}
+          title={`PDF: ${case_title || case_id}`}
+          className="flex-1 w-full border-0"
+        />
+      </div>
+    )}
+    </>
   );
 }
