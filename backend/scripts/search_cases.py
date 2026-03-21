@@ -22,7 +22,12 @@ def main() -> None:
         description="Search corpus by legal text (clause-frame FAISS + DB).",
     )
     parser.add_argument("query", help="Legal text or query to search for.")
-    parser.add_argument("--top", type=int, default=10, help="Max cases (default 10).")
+    parser.add_argument(
+        "--top",
+        type=int,
+        default=10,
+        help="Max interpretation frames to return (default 10).",
+    )
     args = parser.parse_args()
 
     svc = CaseSearchService(ClauseFrameRetrievalService(), case_repo)
@@ -33,14 +38,21 @@ def main() -> None:
         print("No matches.")
         return
 
-    print(f"Found {len(results)} case(s):\n")
+    print(f"Found {len(results)} frame(s):\n")
     for i, r in enumerate(results, 1):
-        print(f"  {i}. [case id={r.get('case_id')}] {r.get('case_title') or '(no title)'}")
+        fid = r.get("interpretation_frame_id")
+        print(
+            f"  {i}. frame_id={fid}  case_id={r.get('case_id')}  "
+            f"{r.get('case_title') or '(no title)'}"
+        )
         if r.get("case_identifier"):
-            print(f"     identifier: {r['case_identifier'][:80]}...")
+            cid = r["case_identifier"]
+            print(f"     identifier: {(cid[:80] + '…') if len(cid) > 80 else cid}")
         print(f"     score={r.get('score', 0):.4f}  date={r.get('decision_date') or '—'}")
         if r.get("matched_article"):
-            print(f"     matched article: {r['matched_article']}")
+            sub = r.get("matched_subclause")
+            art = r["matched_article"] + (f" ({sub})" if sub else "")
+            print(f"     matched article: {art}")
         if r.get("matched_clause_text"):
             sn = (r["matched_clause_text"] or "")[:180].replace("\n", " ")
             print(f"     clause: {sn}...")
