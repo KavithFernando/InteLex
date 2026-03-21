@@ -24,7 +24,7 @@ TOOLS = [
         "type": "function",
         "function": {
             "name": "search_cases",
-            "description": "Search the case database and return the most relevant case examples.",
+            "description": "Search the case database and return the most relevant interpretation frames (constitution-clause scoped hits), ranked globally.",
             "parameters": {
                 "type": "object",
                 "properties": {
