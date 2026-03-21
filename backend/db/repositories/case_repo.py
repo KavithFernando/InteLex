@@ -217,5 +217,122 @@ class CaseRepository:
         conn.close()
         return out
 
+    def fetch_frame_by_id(self, interpretation_frame_id: int) -> Optional[Dict[str, Any]]:
+        """Single interpretation frame with case shell, clause row, and frame-scoped children."""
+        conn = get_connection()
+        cur = conn.cursor(dictionary=True)
+        cur.execute(
+            """
+            SELECT intf.id AS interpretation_frame_id,
+                   intf.frame_identifier,
+                   intf.case_id,
+                   intf.legal_issue,
+                   intf.petitioner_claim,
+                   intf.respondent_argument,
+                   intf.interpretation_summary,
+                   intf.application_to_facts,
+                   intf.holding,
+                   intf.disposition,
+                   intf.remedy_or_orders,
+                   c.case_identifier,
+                   c.case_title,
+                   c.court_name,
+                   c.decision_date,
+                   c.source_citation,
+                   c.pdf_relative_path,
+                   cc.article,
+                   cc.subclause,
+                   cc.clause_text
+            FROM interpretation_frames intf
+            JOIN cases c ON c.id = intf.case_id
+            JOIN constitution_clauses cc ON cc.clause_id = intf.clause_id
+            WHERE intf.id = %s
+            """,
+            (interpretation_frame_id,),
+        )
+        row = cur.fetchone()
+        if not row:
+            cur.close()
+            conn.close()
+            return None
+
+        frame_pk = int(row["interpretation_frame_id"])
+        case_pk = int(row["case_id"])
+
+        parts = []
+        if row.get("interpretation_summary"):
+            parts.append(row["interpretation_summary"])
+        if row.get("application_to_facts"):
+            parts.append(row["application_to_facts"])
+        interpretation_merged = "\n\n".join(parts) if parts else None
+
+        oh = []
+        if row.get("holding"):
+            oh.append(row["holding"])
+        if row.get("disposition"):
+            oh.append(f"Disposition: {row['disposition']}")
+        if row.get("remedy_or_orders"):
+            oh.append(row["remedy_or_orders"])
+        outcome = "\n".join(oh) if oh else None
+
+        cur.execute(
+            """
+            SELECT fact_text FROM frame_key_facts
+            WHERE interpretation_frame_id = %s
+            ORDER BY sort_order, id
+            """,
+            (frame_pk,),
+        )
+        key_facts = [r["fact_text"] for r in cur.fetchall()]
+
+        cur.execute(
+            """
+            SELECT principle_text FROM frame_principles
+            WHERE interpretation_frame_id = %s
+            ORDER BY sort_order, id
+            """,
+            (frame_pk,),
+        )
+        principles = [r["principle_text"] for r in cur.fetchall()]
+
+        cur.execute(
+            """
+            SELECT DISTINCT pc.citation
+            FROM frame_precedent_links fpl
+            JOIN precedent_citations pc ON pc.precedent_id = fpl.precedent_id
+            WHERE fpl.interpretation_frame_id = %s
+            ORDER BY pc.citation
+            LIMIT 200
+            """,
+            (frame_pk,),
+        )
+        precedents = [r["citation"] for r in cur.fetchall()]
+
+        cur.close()
+        conn.close()
+
+        return {
+            "interpretation_frame_id": frame_pk,
+            "frame_identifier": row.get("frame_identifier"),
+            "case_id": str(case_pk),
+            "case_identifier": row.get("case_identifier"),
+            "case_title": row.get("case_title"),
+            "court_name": row.get("court_name"),
+            "decision_date": str(row["decision_date"]) if row.get("decision_date") else None,
+            "source_citation": row.get("source_citation"),
+            "pdf_relative_path": row.get("pdf_relative_path"),
+            "article": row.get("article"),
+            "subclause": row.get("subclause"),
+            "clause_text": row.get("clause_text"),
+            "legal_issue": row.get("legal_issue"),
+            "petitioner_claim": row.get("petitioner_claim"),
+            "respondent_argument": row.get("respondent_argument"),
+            "interpretation_summary": interpretation_merged,
+            "outcome": outcome,
+            "key_facts": key_facts,
+            "principles_established": principles,
+            "precedents_cited": precedents,
+        }
+
 
 case_repo = CaseRepository()
