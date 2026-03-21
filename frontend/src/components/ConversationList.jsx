@@ -29,7 +29,7 @@ function UserSection({ user, onLogout }) {
           onClick={() => setMenuOpen((o) => !o)}
           className="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-sidebar-hover cursor-pointer transition-colors group border border-transparent hover:border-sidebar-border/50"
         >
-          <div className="w-8 h-8 rounded-full bg-accent/80 flex items-center justify-center text-white ring-1 ring-white/10 group-hover:ring-accent/40 transition-all shrink-0">
+          <div className="w-8 h-8 rounded-full bg-indigo-gradient flex items-center justify-center text-white ring-1 ring-accent/20 group-hover:ring-accent/50 group-hover:shadow-glow-sm transition-all shrink-0">
             <span className="text-xs font-bold">{initials}</span>
           </div>
           <div className="flex-1 min-w-0 text-left">
@@ -85,6 +85,8 @@ export default function ConversationList({
   onLogout,
   isAdmin,
   onOpenAuditLogs,
+  isDark,
+  onToggleTheme,
 }) {
   const [hoverId, setHoverId] = useState(null);
   const [confirmDeleteId, setConfirmDeleteId] = useState(null);
@@ -109,23 +111,43 @@ export default function ConversationList({
     <div className="flex flex-col h-full bg-sidebar-bg text-content-inverse">
       {/* Logo Section */}
       <div className="flex items-center gap-3 px-5 py-6 border-b border-sidebar-border/50">
-        <div className="w-12 h-12 rounded-2xl bg-accent border border-[#29323dff] flex items-center justify-center">
+        <div className="w-12 h-12 rounded-2xl bg-indigo-gradient flex items-center justify-center shadow-glow-sm shrink-0">
           <img
             src="../../public/images/logo_white.png"
             alt="InteLex Logo"
             className="w-8 h-8 object-contain drop-shadow-md"
           />
         </div>
-        <div>
-          <h1 className="text-surface text-3xl font-serif font-bold tracking-tight">InteLex</h1>
+        <div className="flex-1 min-w-0">
+          <h1 className="text-white text-3xl font-serif font-bold tracking-tight">InteLex</h1>
         </div>
+        {/* Theme toggle */}
+        <button
+          type="button"
+          onClick={onToggleTheme}
+          title={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
+          className="shrink-0 w-8 h-8 flex items-center justify-center rounded-lg text-white/50 hover:text-white hover:bg-white/10 transition-colors"
+        >
+          {isDark ? (
+            /* Sun icon */
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <circle cx="12" cy="12" r="5" />
+              <path strokeLinecap="round" d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+            </svg>
+          ) : (
+            /* Moon icon */
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+            </svg>
+          )}
+        </button>
       </div>
 
       <div className="p-4 px-3 space-y-2">
         <button
           onClick={onCreate}
           disabled={loading}
-          className="w-full flex items-center justify-center gap-2 bg-accent hover:bg-accent-hover disabled:opacity-50 disabled:cursor-not-allowed text-white py-3 px-4 rounded-xl transition-all duration-200 shadow-md hover:shadow-lg shadow-accent/20 font-medium group"
+          className="w-full flex items-center justify-center gap-2 bg-indigo-gradient hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed text-white py-3 px-4 rounded-xl transition-all duration-200 shadow-glow-sm hover:shadow-glow font-medium group"
         >
           <svg className="w-5 h-5 transition-transform group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
@@ -219,7 +241,7 @@ export default function ConversationList({
                       {formatDate(conv.updated_at || conv.created_at)}
                     </div>
                     {isActive && (
-                      <div className="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-8 bg-accent rounded-r-full shadow-[0_0_10px_rgba(37,99,235,0.5)]" />
+                      <div className="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-8 bg-indigo-gradient rounded-r-full shadow-glow-sm" />
                     )}
                   </button>
 

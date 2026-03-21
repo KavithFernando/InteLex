@@ -94,7 +94,7 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
   const Section = ({ title, content, isText = false }) => {
     if (content == null || (Array.isArray(content) && content.length === 0)) return null;
     return (
-      <section className="mb-8 border-b border-border-subtle pb-6 last:border-0 last:pb-0">
+      <section className="mb-8 border-b border-border/50 pb-6 last:border-0 last:pb-0">
         <h4 className="flex items-center gap-2 mb-3 text-xs font-bold uppercase tracking-wider text-accent font-sans">
           {title}
         </h4>
@@ -103,19 +103,19 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
             ? content.map((item, i) => (
               <div key={i} className="mb-2 last:mb-0">
                 {typeof item === 'object' && item?.article != null ? (
-                  <div className="bg-surface-active/30 p-3 rounded-lg border border-border-subtle">
-                    <span className="font-semibold block text-sm mb-1">{item.article}</span>
+                  <div className="bg-surface-hover/60 p-3 rounded-lg border border-border/60">
+                    <span className="font-semibold block text-sm mb-1 text-content-primary">{item.article}</span>
                     <span className="text-content-secondary">{item.text}</span>
                   </div>
                 ) : (
                   <div className="flex gap-2">
                     <span className="text-accent">•</span>
-                    <span>{String(item)}</span>
+                    <span className="text-content-secondary">{String(item)}</span>
                   </div>
                 )}
               </div>
             ))
-            : <div className="whitespace-pre-wrap">{content}</div>}
+            : <div className="whitespace-pre-wrap text-content-secondary">{content}</div>}
         </div>
       </section>
     );
@@ -125,10 +125,10 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
     <>
     <div className="flex flex-col h-full bg-surface shadow-2xl relative">
       {/* Header */}
-      <div className="shrink-0 flex items-start justify-between gap-4 py-5 px-6 border-b border-border bg-white/50 backdrop-blur-md sticky top-0 z-10">
+      <div className="shrink-0 flex items-start justify-between gap-4 py-5 px-6 border-b border-border bg-surface/90 backdrop-blur-md sticky top-0 z-10">
         <div>
           <div className="flex items-center gap-2 mb-1">
-            <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-accent text-white uppercase tracking-wider">Case Details</span>
+            <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-indigo-gradient text-white uppercase tracking-wider">Case Details</span>
             {decision_date && <span className="text-xs text-content-muted font-mono">{decision_date}</span>}
           </div>
           <h2 className="text-xl font-serif font-bold text-content-primary leading-snug">
@@ -149,7 +149,7 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
               type="button"
               onClick={handleViewPdf}
               disabled={pdfLoading}
-              className="group flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-surface border border-border text-content-primary shadow-sm hover:border-accent hover:text-accent hover:shadow-md hover:-translate-y-px disabled:opacity-60 disabled:transform-none transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30"
+              className="group flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-surface-hover border border-border text-content-primary shadow-sm hover:border-accent/60 hover:text-accent hover:shadow-glow-sm hover:-translate-y-px disabled:opacity-60 disabled:transform-none transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30"
             >
               {pdfLoading ? (
                 <>
@@ -170,14 +170,14 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
             </button>
           )}
           {pdfError && (
-            <span className="text-xs text-red-500 max-w-[160px] truncate" title={pdfError}>{pdfError}</span>
+            <span className="text-xs text-error max-w-[160px] truncate" title={pdfError}>{pdfError}</span>
           )}
           {canGenerateInterpretation && (
             <button
               type="button"
               onClick={handleGenerateInterpretation}
               disabled={interpretationLoading}
-              className="group flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-accent text-white shadow-sm hover:shadow-md hover:-translate-y-px disabled:shadow-none disabled:transform-none disabled:opacity-60 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30"
+              className="group flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-indigo-gradient text-white shadow-glow-sm hover:shadow-glow hover:-translate-y-px disabled:shadow-none disabled:transform-none disabled:opacity-60 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30"
             >
               {interpretationLoading ? (
                 <>
@@ -213,9 +213,9 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
       <div className="flex-1 overflow-y-auto min-h-0 py-6 px-8 scrollbar-hide">
         <div className="max-w-3xl mx-auto">
           {(generatedInterpretation != null) && (
-            <div className="mb-8 p-6 rounded-xl bg-surface-active/10 border border-border scrollbar-hide shadow-sm transition-all duration-300">
-              <div className="flex items-center gap-2 mb-4 pb-3 border-b border-border/60">
-                <div className="p-1.5 rounded-md bg-accent/10 text-accent">
+            <div className="mb-8 p-6 rounded-xl bg-accent/5 border border-accent/20 shadow-glow-sm transition-all duration-300">
+              <div className="flex items-center gap-2 mb-4 pb-3 border-b border-accent/20">
+                <div className="p-1.5 rounded-md bg-indigo-gradient text-white">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
@@ -224,14 +224,14 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
                   AI Generated Interpretation
                 </h4>
               </div>
-              <div className="prose prose-sm md:prose-base prose-slate dark:prose-invert max-w-none font-serif text-[0.95rem] leading-relaxed text-content-primary">
+              <div className="prose prose-sm md:prose-base max-w-none font-serif text-[0.95rem] leading-relaxed text-content-primary prose-headings:text-content-primary prose-strong:text-accent prose-a:text-accent">
                 <ReactMarkdown>{generatedInterpretation}</ReactMarkdown>
               </div>
             </div>
           )}
           {interpretationError && (
-            <section className="mb-8 border-b border-border-subtle pb-6">
-              <p className="text-sm text-red-600 dark:text-red-400">{interpretationError}</p>
+            <section className="mb-8 border-b border-border pb-6">
+              <p className="text-sm text-error">{interpretationError}</p>
             </section>
           )}
           {interpretation_frame_id != null && (article || clause_text) && (
@@ -256,7 +256,7 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
           {full_text && (
             <div className="mt-8 pt-6 border-t border-border">
               <h4 className="mb-4 text-xs font-bold uppercase tracking-wider text-content-muted">Full Text</h4>
-              <div className="font-serif text-sm leading-relaxed text-content-secondary/80 max-h-96 overflow-y-auto p-4 bg-surface-hover rounded-xl border border-border-subtle">
+              <div className="font-serif text-sm leading-relaxed text-content-secondary/80 max-h-96 overflow-y-auto p-4 bg-surface-hover/50 rounded-xl border border-border custom-scrollbar">
                 {full_text}
               </div>
             </div>
@@ -273,7 +273,7 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
 
     {/* PDF viewer modal */}
     {showPdf && pdfBlobUrl && (
-      <div className="fixed inset-0 z-50 flex flex-col bg-black/90 animate-fade-in">
+      <div className="fixed inset-0 z-50 flex flex-col bg-black/95 animate-fade-in">
         {/* Modal header */}
         <div className="shrink-0 flex items-center justify-between gap-4 px-6 py-3 bg-surface border-b border-border">
           <p className="font-serif font-semibold text-content-primary text-sm truncate max-w-[60%]">
@@ -283,7 +283,7 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
             <a
               href={pdfBlobUrl}
               download={`${case_identifier || case_id}.pdf`}
-              className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-accent text-white hover:bg-accent/90 hover:-translate-y-px transition-all duration-200 shadow-sm hover:shadow-md"
+              className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-indigo-gradient text-white hover:opacity-90 hover:-translate-y-px transition-all duration-200 shadow-glow-sm hover:shadow-glow"
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />

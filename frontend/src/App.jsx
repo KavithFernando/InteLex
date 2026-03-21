@@ -23,6 +23,22 @@ import CaseDetailPanel from './components/CaseDetailPanel';
 import AuditLogsPanel from './components/AuditLogsPanel';
 
 export default function App() {
+  // ── Theme state ───────────────────────────────────────────────────────────────
+  const [isDark, setIsDark] = useState(() => {
+    return localStorage.getItem('inteLex-theme') !== 'light';
+  });
+
+  useEffect(() => {
+    if (isDark) {
+      document.documentElement.classList.remove('theme-light');
+    } else {
+      document.documentElement.classList.add('theme-light');
+    }
+    localStorage.setItem('inteLex-theme', isDark ? 'dark' : 'light');
+  }, [isDark]);
+
+  const toggleTheme = () => setIsDark((prev) => !prev);
+
   // ── Auth state ──────────────────────────────────────────────────────────────
   const [user, setUser] = useState(null);
   const [authLoading, setAuthLoading] = useState(true); // true while verifying stored token
@@ -216,8 +232,10 @@ export default function App() {
   // ── Render: loading splash ────────────────────────────────────────────────────
   if (authLoading) {
     return (
-      <div className="min-h-screen bg-main-bg flex items-center justify-center">
-        <div className="flex flex-col items-center gap-4">
+      <div className="min-h-screen bg-main-bg flex items-center justify-center relative overflow-hidden">
+        <div className="absolute inset-0 aurora-bg opacity-60" />
+        <div className="absolute inset-0 grid-overlay" />
+        <div className="relative flex flex-col items-center gap-4">
           <div className="w-10 h-10 border-2 border-accent/30 border-t-accent rounded-full animate-spin" />
           <p className="text-content-muted text-sm">Loading InteLex…</p>
         </div>
@@ -245,6 +263,8 @@ export default function App() {
           onLogout={handleLogout}
           isAdmin={user?.role === 'admin'}
           onOpenAuditLogs={() => setShowAuditLogs(true)}
+          isDark={isDark}
+          onToggleTheme={toggleTheme}
         />
       </aside>
 
@@ -253,15 +273,19 @@ export default function App() {
           <AuditLogsPanel onClose={() => setShowAuditLogs(false)} />
         ) : (
           <>
-            {/* Subtle background glow effect */}
-            <div className="absolute inset-0 pointer-events-none bg-gradient-radial from-accent-light/40 to-transparent opacity-50 z-0" />
+            {/* Animated aurora glow background — always shown; adapts via CSS vars */}
+            <div className="absolute inset-0 pointer-events-none z-0 aurora-bg" />
+            {/* Subtle dot-grid overlay */}
+            <div className="absolute inset-0 pointer-events-none z-0 grid-overlay" />
+            {/* Radial vignette */}
+            <div className="absolute inset-0 pointer-events-none z-0 bg-gradient-radial from-transparent via-transparent to-main-bg/60" />
 
             {/* Logo Watermark */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0 overflow-hidden">
               <img
                 src="../public/images/logo.png"
                 alt=""
-                className="w-[500px] h-[500px] object-contain opacity-[0.07] grayscale brightness-125"
+                className="w-[480px] h-[480px] object-contain opacity-[0.03] brightness-200"
               />
             </div>
 
@@ -269,26 +293,27 @@ export default function App() {
               {messages.length === 0 && !loading && (
                 <div className="flex-1 overflow-y-auto scrollbar-hide w-full relative z-10">
                   <div className="min-h-full flex flex-col items-center justify-center px-4 py-8 sm:px-8 w-full max-w-4xl mx-auto animate-fade-in-up">
-                    <div className="w-16 h-16 sm:w-20 sm:h-20 bg-white rounded-2xl shadow-sm border border-border-subtle/60 flex items-center justify-center mb-6 shrink-0">
+                    {/* Glowing logo */}
+                    <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-indigo-gradient flex items-center justify-center mb-6 shrink-0 shadow-glow animate-ai-pulse">
                       <img
-                        src="../public/images/logo.png"
+                        src="../public/images/logo_white.png"
                         alt="InteLex Logo"
                         className="w-10 h-10 sm:w-14 sm:h-14 object-contain"
                       />
                     </div>
-                    <h1 className="m-0 mb-3 text-3xl sm:text-4xl font-serif font-bold text-content-primary tracking-tight text-center">InteLex AI</h1>
+                    <h1 className="m-0 mb-3 text-3xl sm:text-4xl font-serif font-bold tracking-tight text-center gradient-text">InteLex AI</h1>
                     <p className="m-0 mb-8 text-content-secondary max-w-[32rem] text-base sm:text-lg leading-relaxed text-center">
                       Your AI-powered legal assistant. Select an example query below or type your own.
                     </p>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full text-left">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3 w-full text-left">
                       {[
                         { title: "Optional Retirement", desc: "Can a public corporation refuse to grant an extension of service after an employee reaches the optional retirement age of 55? I need cases on discretionary extension and Article 12." },
                         { title: "Political Discrimination", desc: "Find cases where a public officer was transferred or discriminated against because of political opinion or membership of a local authority." },
                         { title: "Trade Union Action", desc: "I need precedents on probationary public officers whose services were terminated for participating in trade union action or work-to-rule." },
-                        { title: "Dealer Agreement Cancellation", desc: "Cases where the Ceylon Petroleum Corporation terminated or cancelled a dealer’s agreement and the dealer challenged it under fundamental rights." },
+                        { title: "Dealer Agreement Cancellation", desc: "Cases where the Ceylon Petroleum Corporation terminated or cancelled a dealer's agreement and the dealer challenged it under fundamental rights." },
                         { title: "Arbitrary Promotion Scheme", desc: "Similar cases on denial of promotion or arbitrary promotional criteria for public officers under Article 12." },
-                        { title: "Land Alienation", desc: "Cases where the Land Reform Commission alienated land to someone else while rejecting the petitioner’s application." }
+                        { title: "Land Alienation", desc: "Cases where the Land Reform Commission alienated land to someone else while rejecting the petitioner's application." }
                       ].map((suggestion, i) => (
                         <button
                           key={i}
@@ -316,12 +341,12 @@ export default function App() {
                               handleSendMessage(suggestion.desc);
                             }
                           }}
-                          className="group flex flex-col items-start p-4 sm:p-5 bg-white border border-border/80 rounded-xl hover:border-accent hover:shadow-lg transition-all duration-600 active:scale-[0.98] disabled:opacity-50 text-left"
+                          className="group flex flex-col items-start p-4 sm:p-5 glass border border-white/5 hover:border-accent/40 rounded-xl hover:shadow-glow-sm transition-all duration-300 active:scale-[0.98] disabled:opacity-50 text-left"
                         >
-                          <span className="font-semibold text-content-primary text-sm mb-1.5 flex items-center gap-1.5">
-                            {suggestion.title} <span className="text-accent">&rarr;</span>
+                          <span className="font-semibold text-content-primary text-sm mb-1.5 flex items-center gap-1.5 group-hover:text-accent transition-colors">
+                            {suggestion.title} <span className="text-accent opacity-60 group-hover:opacity-100">&rarr;</span>
                           </span>
-                          <span className="text-content-secondary text-xs leading-relaxed line-clamp-2 group-hover:line-clamp-none transition-all duration-600" title={suggestion.desc}>{suggestion.desc}</span>
+                          <span className="text-content-secondary text-xs leading-relaxed line-clamp-2 group-hover:line-clamp-none transition-all duration-300">{suggestion.desc}</span>
                         </button>
                       ))}
                     </div>
@@ -333,7 +358,7 @@ export default function App() {
                 <div className="flex-1 min-h-0 overflow-y-auto py-6 space-y-6 scrollbar-hide">
                   {messages.map((msg, i) => (
                     <div key={i} className="max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8">
-                      <ChatMessage role={msg.role} content={msg.content} created_at={msg.created_at} />
+                      <ChatMessage role={msg.role} content={msg.content} created_at={msg.created_at} isDark={isDark} />
                       {msg.role === 'assistant' && (msg.retrieval_result?.length ?? 0) > 0 && (
                         <RetrievalResults
                           results={msg.retrieval_result}
@@ -352,7 +377,7 @@ export default function App() {
               )}
             </div>
             {currentConversationId && (
-              <div className="shrink-0 z-20 p-4 bg-gradient-to-t from-main-bg via-main-bg/90 to-transparent">
+              <div className="shrink-0 z-20 p-4 bg-gradient-to-t from-main-bg via-main-bg/95 to-transparent">
                 <div className="max-w-4xl mx-auto w-full">
                   <MessageInput onSend={handleSendMessage} disabled={sending} />
                 </div>
@@ -367,7 +392,7 @@ export default function App() {
           {caseDetailLoading && !caseDetail && (
             <div className="h-full flex flex-col items-center justify-center text-content-secondary">
               <div className="w-8 h-8 border-2 border-accent/30 border-t-accent rounded-full animate-spin mb-4" />
-              <p>Loading case details...</p>
+              <p className="text-sm">Loading case details...</p>
             </div>
           )}
           {!caseDetailLoading && selectedCaseId && !caseDetail && (
@@ -375,7 +400,7 @@ export default function App() {
               <p className="mb-6 text-lg">Unable to load case details.</p>
               <button
                 type="button"
-                className="py-2.5 px-6 border border-border rounded-lg bg-surface hover:bg-surface-hover text-content-primary transition-colors duration-400 font-medium"
+                className="py-2.5 px-6 border border-border rounded-lg bg-surface hover:bg-surface-hover text-content-primary transition-colors duration-200 font-medium"
                 onClick={handleCloseCaseDetail}
               >
                 Close Panel

@@ -57,8 +57,8 @@ export default function ChangePasswordModal({ onClose }) {
 
         {success ? (
           <div className="text-center py-4">
-            <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-3">
-              <svg className="w-6 h-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="w-12 h-12 rounded-full bg-success/15 border border-success/30 flex items-center justify-center mx-auto mb-3">
+              <svg className="w-6 h-6 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
             </div>
@@ -67,7 +67,7 @@ export default function ChangePasswordModal({ onClose }) {
             <button
               type="button"
               onClick={onClose}
-              className="py-2 px-6 rounded-xl bg-accent hover:bg-accent-hover text-white text-sm font-medium transition-colors"
+              className="py-2 px-6 rounded-xl bg-indigo-gradient hover:opacity-90 text-white text-sm font-medium transition-all shadow-glow-sm"
             >
               Done
             </button>
@@ -75,7 +75,7 @@ export default function ChangePasswordModal({ onClose }) {
         ) : (
           <>
             {error && (
-              <div className="mb-4 p-3 rounded-lg bg-red-50 border border-red-200 text-red-700 text-sm">
+              <div className="mb-4 p-3 rounded-lg bg-error-light border border-error/30 text-error text-sm">
                 {error}
               </div>
             )}
@@ -135,7 +135,7 @@ export default function ChangePasswordModal({ onClose }) {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="flex-1 py-2.5 rounded-xl bg-accent hover:bg-accent-hover disabled:opacity-60 disabled:cursor-not-allowed text-white text-sm font-medium transition-colors flex items-center justify-center gap-2"
+                  className="flex-1 py-2.5 rounded-xl bg-indigo-gradient hover:opacity-90 disabled:opacity-60 disabled:cursor-not-allowed text-white text-sm font-medium transition-all shadow-glow-sm flex items-center justify-center gap-2"
                 >
                   {loading && <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />}
                   {loading ? 'Saving…' : 'Save'}

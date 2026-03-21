@@ -3,7 +3,6 @@ import { login, register } from '../api';
 
 function parseApiError(err) {
   if (!err.body) return err.message || 'Something went wrong.';
-  // Pydantic 422 validation errors come back as an array in detail
   if (Array.isArray(err.body.detail)) {
     return err.body.detail.map((d) => d.msg).join(' ');
   }
@@ -60,34 +59,40 @@ export default function AuthPage({ onAuthenticated }) {
   }
 
   return (
-    <div className="min-h-screen bg-main-bg flex items-center justify-center p-4">
-      {/* Background glow */}
-      <div className="absolute inset-0 pointer-events-none bg-gradient-radial from-accent-light/40 to-transparent opacity-60" />
+    <div className="min-h-screen bg-main-bg flex items-center justify-center p-4 relative overflow-hidden">
+      {/* Animated aurora background */}
+      <div className="absolute inset-0 aurora-bg" />
+      <div className="absolute inset-0 grid-overlay" />
+
+      {/* Glowing orbs */}
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full bg-accent/10 blur-3xl pointer-events-none animate-float" />
+      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full bg-blue-500/10 blur-3xl pointer-events-none animate-float" style={{ animationDelay: '3s' }} />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-accent/5 blur-3xl pointer-events-none" />
 
       <div className="relative w-full max-w-md">
         {/* Logo & Branding */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-accent shadow-lg shadow-accent/30 mb-4">
+          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-indigo-gradient shadow-glow mb-4 animate-ai-pulse">
             <img
               src="../public/images/logo_white.png"
               alt="InteLex"
               className="w-10 h-10 object-contain"
             />
           </div>
-          <h1 className="text-3xl font-serif font-bold text-content-primary tracking-tight">InteLex</h1>
+          <h1 className="text-3xl font-serif font-bold tracking-tight gradient-text">InteLex</h1>
           <p className="text-content-secondary text-sm mt-1">AI-Powered Legal Assistant</p>
         </div>
 
         {/* Card */}
-        <div className="bg-surface rounded-2xl shadow-xl border border-border p-8">
+        <div className="glass-panel rounded-2xl border border-white/10 p-8">
           {/* Tab switcher */}
-          <div className="flex rounded-xl bg-surface-hover p-1 mb-6">
+          <div className="flex rounded-xl bg-main-bg/60 border border-border p-1 mb-6">
             <button
               type="button"
               onClick={() => switchMode('login')}
               className={`flex-1 py-2 px-4 rounded-lg text-sm font-medium transition-all duration-200 ${
                 !isRegister
-                  ? 'bg-surface shadow-sm text-content-primary'
+                  ? 'bg-accent text-white shadow-sm shadow-accent/30'
                   : 'text-content-secondary hover:text-content-primary'
               }`}
             >
@@ -98,7 +103,7 @@ export default function AuthPage({ onAuthenticated }) {
               onClick={() => switchMode('register')}
               className={`flex-1 py-2 px-4 rounded-lg text-sm font-medium transition-all duration-200 ${
                 isRegister
-                  ? 'bg-surface shadow-sm text-content-primary'
+                  ? 'bg-accent text-white shadow-sm shadow-accent/30'
                   : 'text-content-secondary hover:text-content-primary'
               }`}
             >
@@ -108,7 +113,7 @@ export default function AuthPage({ onAuthenticated }) {
 
           {/* Error */}
           {error && (
-            <div className="mb-5 p-3 rounded-lg bg-red-50 border border-red-200 text-red-700 text-sm flex items-start gap-2">
+            <div className="mb-5 p-3 rounded-lg bg-error-light border border-error/30 text-error text-sm flex items-start gap-2">
               <svg className="w-4 h-4 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
               </svg>
@@ -130,7 +135,7 @@ export default function AuthPage({ onAuthenticated }) {
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
                 placeholder={isRegister ? '3–32 characters, letters/numbers/_/-' : 'Enter your username'}
-                className="w-full px-3.5 py-2.5 rounded-xl border border-border bg-surface text-content-primary placeholder:text-content-muted focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent transition-all duration-200 text-sm"
+                className="w-full px-3.5 py-2.5 rounded-xl border border-border bg-main-bg/60 text-content-primary placeholder:text-content-muted focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent transition-all duration-200 text-sm"
               />
             </div>
 
@@ -147,7 +152,7 @@ export default function AuthPage({ onAuthenticated }) {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder={isRegister ? 'At least 8 characters' : 'Enter your password'}
-                className="w-full px-3.5 py-2.5 rounded-xl border border-border bg-surface text-content-primary placeholder:text-content-muted focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent transition-all duration-200 text-sm"
+                className="w-full px-3.5 py-2.5 rounded-xl border border-border bg-main-bg/60 text-content-primary placeholder:text-content-muted focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent transition-all duration-200 text-sm"
               />
             </div>
 
@@ -165,7 +170,7 @@ export default function AuthPage({ onAuthenticated }) {
                   value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
                   placeholder="Repeat your password"
-                  className="w-full px-3.5 py-2.5 rounded-xl border border-border bg-surface text-content-primary placeholder:text-content-muted focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent transition-all duration-200 text-sm"
+                  className="w-full px-3.5 py-2.5 rounded-xl border border-border bg-main-bg/60 text-content-primary placeholder:text-content-muted focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent transition-all duration-200 text-sm"
                 />
               </div>
             )}
@@ -174,7 +179,7 @@ export default function AuthPage({ onAuthenticated }) {
             <button
               type="submit"
               disabled={loading}
-              className="w-full py-2.5 px-4 rounded-xl bg-accent hover:bg-accent-hover disabled:opacity-60 disabled:cursor-not-allowed text-white font-medium text-sm transition-all duration-200 shadow-md hover:shadow-lg shadow-accent/20 flex items-center justify-center gap-2 mt-2"
+              className="w-full py-2.5 px-4 rounded-xl bg-indigo-gradient hover:opacity-90 disabled:opacity-60 disabled:cursor-not-allowed text-white font-medium text-sm transition-all duration-200 shadow-glow-sm hover:shadow-glow flex items-center justify-center gap-2 mt-2"
             >
               {loading ? (
                 <>

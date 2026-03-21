@@ -4,6 +4,35 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ── Theme tokens (space-separated RGB so Tailwind opacity modifiers work) ── */
+:root {
+  /* Dark mode — default */
+  --color-main-bg:         7 13 27;
+  --color-surface:         15 24 41;
+  --color-surface-hover:   26 38 64;
+  --color-surface-active:  36 51 82;
+  --color-border:          30 45 71;
+  --color-border-strong:   42 63 94;
+  --color-border-subtle:   17 30 48;
+  --color-content-primary: 226 232 240;
+  --color-content-secondary: 148 163 184;
+  --color-content-muted:   74 85 104;
+}
+
+:root.theme-light {
+  /* Light mode overrides */
+  --color-main-bg:         240 245 255;
+  --color-surface:         255 255 255;
+  --color-surface-hover:   241 245 249;
+  --color-surface-active:  226 232 240;
+  --color-border:          226 232 240;
+  --color-border-strong:   203 213 225;
+  --color-border-subtle:   241 245 249;
+  --color-content-primary: 15 23 42;
+  --color-content-secondary: 71 85 105;
+  --color-content-muted:   148 163 184;
+}
+
 @layer base {
   body {
     @apply bg-main-bg text-content-primary font-sans antialiased min-w-[320px] min-h-screen leading-normal font-normal;
@@ -27,6 +56,10 @@
     @apply text-content-muted;
   }
 
+  input::placeholder {
+    @apply text-content-muted;
+  }
+
   h1,
   h2,
   h3,
@@ -38,14 +71,28 @@
 }
 
 @layer utilities {
+  /* Dark frosted glass */
   .glass {
-    @apply bg-surface-glass backdrop-blur-md border border-white/20 shadow-glass;
+    @apply bg-surface-glass backdrop-blur-md border border-white/5 shadow-glass;
   }
 
+  /* Heavier glass panel */
   .glass-panel {
-    @apply bg-white/60 backdrop-blur-xl border border-white/40 shadow-xl;
+    @apply bg-surface/80 backdrop-blur-xl border border-white/10 shadow-xl;
   }
 
+  /* Glowing accent border */
+  .glow-border {
+    @apply border border-accent/30 shadow-glow-sm;
+  }
+
+  /* Gradient text — light indigo to deep indigo */
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, #818cf8, #6366f1);
+  }
+
+  /* Scrollbar hide */
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
@@ -58,4 +105,54 @@
   .outline-accent {
     outline-color: theme('colors.accent.DEFAULT');
   }
+
+  /* Aurora animated background */
+  .aurora-bg {
+    background: theme('backgroundImage.aurora');
+    background-size: 200% 200%;
+    animation: aurora 10s ease infinite;
+  }
+
+  /* Subtle grid pattern overlay for depth */
+  .grid-overlay {
+    background-image:
+      linear-gradient(rgba(99, 102, 241, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(99, 102, 241, 0.04) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+}
+
+/* Light mode: adjust glass and overlay to suit white surfaces */
+:root.theme-light .glass {
+  background: rgba(255, 255, 255, 0.75);
+  border-color: rgba(99, 102, 241, 0.12);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+}
+
+:root.theme-light .glass-panel {
+  background: rgba(255, 255, 255, 0.9);
+  border-color: rgba(99, 102, 241, 0.1);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.08), 0 8px 10px -6px rgb(0 0 0 / 0.06);
+}
+
+:root.theme-light .grid-overlay {
+  background-image:
+    linear-gradient(rgba(99, 102, 241, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(99, 102, 241, 0.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Custom scrollbar for case detail panel */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(99, 102, 241, 0.2);
+  border-radius: 2px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 102, 241, 0.4);
 }
