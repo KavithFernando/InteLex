@@ -236,7 +236,7 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
           )}
           {interpretation_frame_id != null && (article || clause_text) && (
             <Section title="Matched Constitution Clause" content={[
-              { article: `Article ${article || ''} ${subclause ? `(${subclause})` : ''}`.trim(), text: clause_text }
+              { article: `Article ${article || ''} ${subclause ? `${subclause}` : ''}`.trim(), text: clause_text }
             ]} />
           )}
           {interpretation_frame_id != null && (

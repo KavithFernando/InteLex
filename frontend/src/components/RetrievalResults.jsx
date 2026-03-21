@@ -45,7 +45,7 @@ export default function RetrievalResults({ results, triggeringUserMessage, onSel
             {c.matched_article != null && c.matched_article !== '' && (
               <p className="text-[11px] text-accent/90 font-medium mb-1">
                 Article {c.matched_article}
-                {c.matched_subclause ? `(${c.matched_subclause})` : ''}
+                {c.matched_subclause ? `${c.matched_subclause}` : ''}
               </p>
             )}
             {c.matched_clause_text && (
