@@ -10,6 +10,7 @@ class ClauseItem(BaseModel):
 
 class CaseDetail(BaseModel):
     case_id: str
+    case_identifier: Optional[str] = None
     case_title: Optional[str] = None
     court_name: Optional[str] = None
     decision_date: Optional[str] = None
@@ -20,6 +21,7 @@ class CaseDetail(BaseModel):
     outcome: Optional[str] = None
     source: Optional[str] = None
     full_text: Optional[str] = None
+    pdf_relative_path: Optional[str] = None
     judges: List[str] = Field(default_factory=list)
     clauses: List[ClauseItem] = Field(default_factory=list)
     keywords: List[str] = Field(default_factory=list)

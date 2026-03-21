@@ -38,10 +38,15 @@ class ClauseSummary(BaseModel):
 
 class CaseSummary(BaseModel):
     case_id: str
+    case_identifier: Optional[str] = None
     case_title: Optional[str] = None
     decision_date: Optional[str] = None
     clauses: List[ClauseSummary] = Field(default_factory=list)
     score: Optional[float] = None
+    interpretation_frame_id: Optional[int] = None
+    frame_identifier: Optional[str] = None
+    matched_article: Optional[str] = None
+    matched_clause_text: Optional[str] = None
 
 
 class ChatResponse(BaseModel):

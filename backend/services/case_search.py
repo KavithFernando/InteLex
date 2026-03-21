@@ -17,16 +17,37 @@ class CaseSearchService:
             top_chunks_per_case=3,
         )
         results = retrieval.get("results", [])
-        
-        # Fetch case summaries and merge with retrieval scores
-        case_ids = [r["case_id"] for r in results]
-        summaries: List[Dict[str, Any]] = self._case_repo.fetch_case_summaries(case_ids)
+        if not results:
+            return {
+                "tool_content": {
+                    "message": "Found 0 matching case(s) based on the context provided.",
+                    "count": 0,
+                },
+                "retrieval_result": [],
+            }
 
-        score_by_id = {r["case_id"]: r["score"] for r in results}
-        retrieval_result = [
-            {**s, "score": score_by_id.get(s["case_id"])}
-            for s in summaries
-        ]
+        case_internal_ids = [r["case_internal_id"] for r in results]
+        summaries: List[Dict[str, Any]] = self._case_repo.fetch_corpus_case_summaries(
+            case_internal_ids
+        )
+        summary_by_id = {int(s["case_id"]): s for s in summaries}
+
+        retrieval_result: List[Dict[str, Any]] = []
+        for r in results:
+            cid = r["case_internal_id"]
+            s = summary_by_id.get(cid)
+            if not s:
+                continue
+            retrieval_result.append(
+                {
+                    **s,
+                    "score": r.get("score"),
+                    "interpretation_frame_id": r.get("interpretation_frame_id"),
+                    "frame_identifier": r.get("frame_identifier"),
+                    "matched_article": r.get("article"),
+                    "matched_clause_text": r.get("clause_text"),
+                }
+            )
 
         count = len(retrieval_result)
         tool_content = {
