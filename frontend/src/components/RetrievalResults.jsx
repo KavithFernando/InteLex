@@ -15,10 +15,10 @@ export default function RetrievalResults({ results, triggeringUserMessage, onSel
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-        {results.map((c) => (
+        {results.map((c, idx) => (
           <button
-            key={c.case_id}
-            onClick={() => onSelectCase(c.case_id, triggeringUserMessage ?? undefined)}
+            key={c.interpretation_frame_id || c.frame_identifier || `${c.case_id}-${c.matched_article || ''}-${idx}`}
+            onClick={() => onSelectCase(c.case_id, c.interpretation_frame_id, triggeringUserMessage ?? undefined)}
             className="group flex flex-col items-start text-left bg-surface hover:bg-surface-hover border border-border/80 hover:border-accent hover:shadow-lg rounded-xl p-5 transition-all duration-300 active:scale-[0.98] relative overflow-hidden"
           >
             {/* Subtle left border accent on hover */}
@@ -39,9 +39,20 @@ export default function RetrievalResults({ results, triggeringUserMessage, onSel
               )}
             </div>
 
-            <h4 className="font-serif font-semibold text-content-primary text-[0.95rem] leading-snug mb-3 line-clamp-2 group-hover:text-accent transition-colors">
+            <h4 className="font-serif font-semibold text-content-primary text-[0.95rem] leading-snug mb-2 line-clamp-2 group-hover:text-accent transition-colors">
               {c.case_title || `Case ${c.case_id}`}
             </h4>
+            {c.matched_article != null && c.matched_article !== '' && (
+              <p className="text-[11px] text-accent/90 font-medium mb-1">
+                Article {c.matched_article}
+                {c.matched_subclause ? `(${c.matched_subclause})` : ''}
+              </p>
+            )}
+            {c.matched_clause_text && (
+              <p className="text-[11px] text-content-muted line-clamp-2 mb-2 leading-relaxed">
+                {c.matched_clause_text}
+              </p>
+            )}
 
             <div className="mt-auto w-full pt-3 border-t border-border/40 flex justify-between items-center text-xs text-content-muted">
               <span className="font-mono bg-surface-active/30 px-2 py-0.5 rounded text-[10px]">{c.decision_date || 'Unknown Date'}</span>

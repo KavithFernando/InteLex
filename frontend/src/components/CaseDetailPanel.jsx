@@ -15,7 +15,7 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
     setInterpretationLoading(true);
     setInterpretationError(null);
     try {
-      const { interpretation } = await onGenerateInterpretation(caseDetail.case_id, triggeringQuery);
+      const { interpretation } = await onGenerateInterpretation(caseDetail.case_id, triggeringQuery, caseDetail.interpretation_frame_id);
       setGeneratedInterpretation(interpretation);
     } catch (err) {
       setInterpretationError(err?.body?.detail ?? err?.message ?? 'Failed to generate interpretation.');
@@ -28,6 +28,8 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
 
   const {
     case_id,
+    interpretation_frame_id,
+    case_identifier,
     case_title,
     court_name,
     decision_date,
@@ -43,6 +45,10 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
     keywords,
     precedents_cited,
     principles_established,
+    article,
+    subclause,
+    clause_text,
+    key_facts,
   } = caseDetail;
 
   const Section = ({ title, content, isText = false }) => {
@@ -87,6 +93,11 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
           <h2 className="text-xl font-serif font-bold text-content-primary leading-snug">
             {case_title || case_id}
           </h2>
+          {case_identifier && (
+            <p className="text-xs text-content-muted font-mono mt-1 line-clamp-2" title={case_identifier}>
+              {case_identifier}
+            </p>
+          )}
           {court_name && (
             <p className="text-sm text-content-secondary mt-1 font-medium">{court_name}</p>
           )}
@@ -153,6 +164,14 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
             <section className="mb-8 border-b border-border-subtle pb-6">
               <p className="text-sm text-red-600 dark:text-red-400">{interpretationError}</p>
             </section>
+          )}
+          {interpretation_frame_id != null && (article || clause_text) && (
+            <Section title="Matched Constitution Clause" content={[
+              { article: `Article ${article || ''} ${subclause ? `(${subclause})` : ''}`.trim(), text: clause_text }
+            ]} />
+          )}
+          {interpretation_frame_id != null && (
+            <Section title="Key Facts" content={key_facts} />
           )}
           <Section title="Case Summary" content={interpretation_summary} isText />
           <Section title="Legal Issue" content={legal_issue} isText />

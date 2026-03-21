@@ -6,6 +6,7 @@ import {
   getConversationMessages,
   sendMessage as apiSendMessage,
   getCase,
+  getFrame,
   generateCaseInterpretation,
   getMe,
   logout as apiLogout,
@@ -171,16 +172,16 @@ export default function App() {
     [currentConversationId, messages.length, refreshConversations]
   );
 
-  const handleSelectCase = useCallback(async (caseId, triggeringQuery = null) => {
-    setSelectedCaseId(caseId);
+  const handleSelectCase = useCallback(async (caseId, frameId = null, triggeringQuery = null) => {
+    setSelectedCaseId(caseId || frameId);
     setSelectedTriggeringQuery(triggeringQuery ?? null);
     setCaseDetailLoading(true);
     setCaseDetail(null);
     try {
-      const detail = await getCase(caseId);
+      const detail = frameId != null ? await getFrame(frameId) : await getCase(caseId);
       setCaseDetail(detail);
     } catch (err) {
-      console.error('Failed to load case', err);
+      console.error('Failed to load detail', err);
     } finally {
       setCaseDetailLoading(false);
     }

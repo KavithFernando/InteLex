@@ -113,19 +113,28 @@ export async function sendMessage(conversationId, message) {
  * Generate an interpretation of a case in light of the user query that triggered its retrieval.
  * @param {string} caseId - Case ID
  * @param {string} userQuery - The last user message that triggered the LLM to retrieve cases
+ * @param {number} [interpretationFrameId] - Optional interpretation frame ID
  * @returns {{ interpretation: string }}
  */
-export async function generateCaseInterpretation(caseId, userQuery) {
+export async function generateCaseInterpretation(caseId, userQuery, interpretationFrameId = null) {
+  const body = { case_id: caseId, user_query: userQuery };
+  if (interpretationFrameId != null) {
+    body.interpretation_frame_id = interpretationFrameId;
+  }
   return request('/chat/interpret-case/', {
     method: 'POST',
-    body: JSON.stringify({ case_id: caseId, user_query: userQuery }),
+    body: JSON.stringify(body),
   });
 }
 
-// ---------- Cases ----------
+// ---------- Cases & Frames ----------
 
 export async function getCase(caseId) {
   return request(`/cases/${encodeURIComponent(caseId)}`);
+}
+
+export async function getFrame(frameId) {
+  return request(`/frames/${encodeURIComponent(frameId)}`);
 }
 
 // ---------- Admin ----------
