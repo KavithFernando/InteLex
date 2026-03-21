@@ -23,6 +23,12 @@ MIN_CHUNK_TOKENS = 100
 
 DATA_JSON_PATH = os.path.join(_BACKEND_DIR, "data", "casedata.json")
 
+# Corpus import: frame JSONs + manifest (PDF filenames)
+FRAMES_DIR = os.path.join(_BACKEND_DIR, "data", "frames")
+MANIFEST_PATH = os.path.join(_BACKEND_DIR, "data", "manifest.json")
+# Stored in cases.pdf_relative_path; app resolves against PDF_ROOT or static mount
+PDF_RELATIVE_PREFIX = os.getenv("PDF_RELATIVE_PREFIX", "")
+
 JWT_SECRET = os.getenv("JWT_SECRET", "change-me-in-production")
 JWT_ALGORITHM = "HS256"
 JWT_EXPIRE_MINUTES = 60 * 24

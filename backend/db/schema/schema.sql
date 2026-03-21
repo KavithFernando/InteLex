@@ -66,37 +66,34 @@ CREATE TABLE cases (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- -----------------------------------------------------------------------------
--- 3) Interpretation frames: one row per ranked unit
+-- 3) Interpretation frames
 -- -----------------------------------------------------------------------------
 CREATE TABLE interpretation_frames (
-  frame_id VARCHAR(255) NOT NULL,
-  case_id BIGINT UNSIGNED NOT NULL COMMENT 'FK cases.id — use this for backend joins and GET-by-internal-id',
-  clause_id BIGINT UNSIGNED NOT NULL COMMENT 'FK constitution_clauses: which article/subclause this frame interprets',
+  id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+  frame_identifier VARCHAR(512) NOT NULL COMMENT 'Visible id from frame JSON (corpus key); use for display / search',
+  case_id BIGINT UNSIGNED NOT NULL COMMENT 'FK cases.id',
+  clause_id BIGINT UNSIGNED NOT NULL COMMENT 'FK constitution_clauses',
   created_at DATE NULL,
   annotator_id VARCHAR(255) NULL,
   source_dataset VARCHAR(255) NULL,
   source_notes TEXT NULL,
-  -- case_context
   legal_issue TEXT NULL,
   petitioner_claim TEXT NULL,
   respondent_argument TEXT NULL,
-  -- reasoning (scalar)
   interpretation_summary TEXT NULL,
   application_to_facts TEXT NULL,
-  -- outcome
   holding TEXT NULL,
   disposition VARCHAR(32) NULL COMMENT 'e.g. dismissed, granted, allowed_in_part, other',
   remedy_or_orders TEXT NULL,
-  -- link_explanation
   why_this_clause_matters TEXT NULL,
   relevance_level VARCHAR(16) NULL COMMENT 'high | medium | low',
   match_type VARCHAR(32) NULL COMMENT 'direct_interpretation | application_only | mentioned_only',
-  -- evidence
   evidence_excerpt TEXT NULL,
   evidence_field VARCHAR(64) NULL COMMENT 'e.g. full_text, interpretation_summary, principles_established',
   evidence_start_char INT NULL,
   evidence_end_char INT NULL,
-  PRIMARY KEY (frame_id),
+  PRIMARY KEY (id),
+  UNIQUE KEY uq_frames_frame_identifier (frame_identifier),
   KEY idx_frames_case (case_id),
   KEY idx_frames_clause (clause_id),
   CONSTRAINT fk_frames_case
@@ -111,31 +108,30 @@ CREATE TABLE interpretation_frames (
 
 CREATE TABLE frame_key_facts (
   id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
-  frame_id VARCHAR(255) NOT NULL,
+  interpretation_frame_id BIGINT UNSIGNED NOT NULL,
   sort_order INT UNSIGNED NOT NULL DEFAULT 0,
   fact_text TEXT NOT NULL,
   PRIMARY KEY (id),
-  KEY idx_frame_key_facts_frame (frame_id),
+  KEY idx_frame_key_facts_frame (interpretation_frame_id),
   CONSTRAINT fk_frame_key_facts_frame
-    FOREIGN KEY (frame_id) REFERENCES interpretation_frames (frame_id)
+    FOREIGN KEY (interpretation_frame_id) REFERENCES interpretation_frames (id)
     ON UPDATE CASCADE
     ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE frame_principles (
   id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
-  frame_id VARCHAR(255) NOT NULL,
+  interpretation_frame_id BIGINT UNSIGNED NOT NULL,
   sort_order INT UNSIGNED NOT NULL DEFAULT 0,
   principle_text TEXT NOT NULL,
   PRIMARY KEY (id),
-  KEY idx_frame_principles_frame (frame_id),
+  KEY idx_frame_principles_frame (interpretation_frame_id),
   CONSTRAINT fk_frame_principles_frame
-    FOREIGN KEY (frame_id) REFERENCES interpretation_frames (frame_id)
+    FOREIGN KEY (interpretation_frame_id) REFERENCES interpretation_frames (id)
     ON UPDATE CASCADE
     ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Normalized precedent citations (dedupe across frames)
 CREATE TABLE precedent_citations (
   precedent_id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
   citation VARCHAR(512) NOT NULL,
@@ -144,13 +140,13 @@ CREATE TABLE precedent_citations (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE frame_precedent_links (
-  frame_id VARCHAR(255) NOT NULL,
+  interpretation_frame_id BIGINT UNSIGNED NOT NULL,
   precedent_id BIGINT UNSIGNED NOT NULL,
   sort_order INT UNSIGNED NOT NULL DEFAULT 0,
-  PRIMARY KEY (frame_id, precedent_id),
+  PRIMARY KEY (interpretation_frame_id, precedent_id),
   KEY idx_frame_precedent_precedent (precedent_id),
   CONSTRAINT fk_frame_prec_frame
-    FOREIGN KEY (frame_id) REFERENCES interpretation_frames (frame_id)
+    FOREIGN KEY (interpretation_frame_id) REFERENCES interpretation_frames (id)
     ON UPDATE CASCADE
     ON DELETE CASCADE,
   CONSTRAINT fk_frame_prec_precedent
