@@ -16,6 +16,10 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 INDEX_PATH = os.path.join(_BACKEND_DIR, "index_store", "case_chunks.index")
 CHUNK_MAP_PATH = os.path.join(_BACKEND_DIR, "index_store", "case_chunks_map.json")
 
+# Clause / interpretation-frame index (FAISS over constitution clause text per frame)
+CLAUSE_INDEX_PATH = os.path.join(_BACKEND_DIR, "index_store", "clause_frames.index")
+CLAUSE_MAP_PATH = os.path.join(_BACKEND_DIR, "index_store", "clause_frames_map.json")
+
 EMBED_MODEL = "bhavyagiri/InLegal-Sbert"
 CHUNK_TOKENS_APPROX = 400
 OVERLAP_TOKENS_APPROX = 80
