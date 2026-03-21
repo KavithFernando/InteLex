@@ -13,6 +13,7 @@ DB_CONFIG = {
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
+# Legacy chunk index (only used by backend/legacy/index_cases.py if you still run that pipeline)
 INDEX_PATH = os.path.join(_BACKEND_DIR, "index_store", "case_chunks.index")
 CHUNK_MAP_PATH = os.path.join(_BACKEND_DIR, "index_store", "case_chunks_map.json")
 
