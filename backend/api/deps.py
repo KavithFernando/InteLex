@@ -35,5 +35,5 @@ def get_case_search_service() -> CaseSearchService:
 def get_chat_service() -> ChatService:
     global _chat_service
     if _chat_service is None:
-        _chat_service = ChatService(get_case_search_service())
+        _chat_service = ChatService(get_case_search_service(), case_repo)
     return _chat_service

@@ -12,6 +12,9 @@ DB_CONFIG = {
 }
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_TOOL_MODEL = os.getenv("OPENAI_TOOL_MODEL", "gpt-4o-mini")
+OPENAI_SYNTHESIS_MODEL = os.getenv("OPENAI_SYNTHESIS_MODEL", "gpt-4o-mini")
 
 # Legacy chunk index (only used by backend/legacy/index_cases.py if you still run that pipeline)
 INDEX_PATH = os.path.join(_BACKEND_DIR, "index_store", "case_chunks.index")

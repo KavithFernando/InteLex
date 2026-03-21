@@ -39,6 +39,7 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
     interpretation_summary,
     outcome,
     source,
+    source_citation,
     full_text,
     judges,
     clauses,
@@ -193,9 +194,9 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
             </div>
           )}
 
-          {source && (
+          {(source || source_citation) && (
             <div className="mt-4 text-xs text-content-muted text-center font-mono">
-              Source: {typeof source === 'string' ? source : JSON.stringify(source)}
+              Source: {typeof (source || source_citation) === 'string' ? (source || source_citation) : JSON.stringify(source || source_citation)}
             </div>
           )}
         </div>
