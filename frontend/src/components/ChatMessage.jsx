@@ -1,5 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
+
+const WORDS_PER_SECOND = 30; // typing speed
+const INTERVAL_MS = Math.round(1000 / WORDS_PER_SECOND);
 
 function formatTimestamp(iso) {
   if (!iso) return null;
@@ -14,10 +17,37 @@ function formatTimestamp(iso) {
     ', ' + d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 }
 
-export default function ChatMessage({ role, content, created_at, isDark = true }) {
+export default function ChatMessage({ role, content, created_at, isDark = true, animateIn = false }) {
   const [copied, setCopied] = useState(false);
   const isUser = role === 'user';
   const timestamp = formatTimestamp(created_at);
+  const shouldAnimate = animateIn && !isUser;
+
+  // Streaming state — start empty when animating, full content otherwise
+  const [displayed, setDisplayed] = useState(() => shouldAnimate ? '' : content);
+  const [isTyping, setIsTyping] = useState(shouldAnimate);
+  const wordIndexRef = useRef(0);
+
+  useEffect(() => {
+    if (!shouldAnimate) return;
+
+    const words = content.split(' ');
+    wordIndexRef.current = 0;
+    setDisplayed('');
+    setIsTyping(true);
+
+    const timer = setInterval(() => {
+      wordIndexRef.current += 1;
+      const next = words.slice(0, wordIndexRef.current).join(' ');
+      setDisplayed(next);
+      if (wordIndexRef.current >= words.length) {
+        clearInterval(timer);
+        setIsTyping(false);
+      }
+    }, INTERVAL_MS);
+
+    return () => clearInterval(timer);
+  }, [shouldAnimate, content]);
 
   const handleCopy = () => {
     navigator.clipboard.writeText(content);
@@ -55,14 +85,22 @@ export default function ChatMessage({ role, content, created_at, isDark = true }
               }`}
           >
             {isUser ? (
-              <div className="whitespace-pre-wrap">{content}</div>
+              <div className="whitespace-pre-wrap select-text cursor-text">{content}</div>
+            ) : isTyping ? (
+              /* During streaming: render plain text so partial markdown markers never show as raw ** */
+              <div className="whitespace-pre-wrap text-[0.95rem] leading-relaxed text-content-primary">
+                {displayed}
+                <span className="inline-block w-[2px] h-[1em] bg-accent align-middle ml-0.5 animate-pulse" />
+              </div>
             ) : (
+              /* After streaming (or for history messages): full markdown with bold/blue styling */
               <div className={`prose prose-sm max-w-none prose-strong:text-accent prose-strong:font-bold prose-blockquote:border-l-accent prose-blockquote:bg-surface-hover/40 prose-blockquote:py-1 prose-blockquote:px-3 prose-blockquote:rounded-r-md prose-blockquote:font-serif prose-blockquote:not-italic prose-blockquote:text-content-secondary prose-a:text-accent hover:prose-a:text-accent-hover text-content-primary prose-headings:text-content-primary prose-code:text-accent prose-code:bg-surface-active/50 prose-code:rounded prose-code:px-1 ${isDark ? 'prose-invert' : 'prose-slate'}`}>
                 <ReactMarkdown>{content}</ReactMarkdown>
               </div>
             )}
 
-            {!isUser && (
+            {/* Copy button — only shown when message is fully rendered */}
+            {!isUser && !isTyping && (
                <button
                  onClick={handleCopy}
                  className="absolute top-2 right-2 p-1.5 rounded-md text-content-muted bg-surface-hover border border-border opacity-0 group-hover:opacity-100 transition-opacity hover:bg-surface-active hover:text-content-primary shadow-sm"
@@ -81,8 +119,8 @@ export default function ChatMessage({ role, content, created_at, isDark = true }
             )}
           </div>
 
-          {/* Timestamp */}
-          {timestamp && (
+          {/* Timestamp — only shown when done typing */}
+          {timestamp && !isTyping && (
             <span className="text-[10px] text-content-muted px-1">
               {timestamp}
             </span>
