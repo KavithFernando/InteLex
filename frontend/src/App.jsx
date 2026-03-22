@@ -359,12 +359,12 @@ export default function App() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3 w-full text-left">
                       {[
-                        { title: "Optional Retirement", desc: "Can a public corporation refuse to grant an extension of service after an employee reaches the optional retirement age of 55? I need cases on discretionary extension and Article 12." },
-                        { title: "Political Discrimination", desc: "Find cases where a public officer was transferred or discriminated against because of political opinion or membership of a local authority." },
-                        { title: "Trade Union Action", desc: "I need precedents on probationary public officers whose services were terminated for participating in trade union action or work-to-rule." },
-                        { title: "Dealer Agreement Cancellation", desc: "Cases where the Ceylon Petroleum Corporation terminated or cancelled a dealer's agreement and the dealer challenged it under fundamental rights." },
-                        { title: "Arbitrary Promotion Scheme", desc: "Similar cases on denial of promotion or arbitrary promotional criteria for public officers under Article 12." },
-                        { title: "Land Alienation", desc: "Cases where the Land Reform Commission alienated land to someone else while rejecting the petitioner's application." }
+                        { title: "Equality & State Action (Art. 12)", desc: "I'm revising Article 12(1). How have the courts decided whether discrimination by a public corporation in employment counts as an infringement—especially when the body says its decision was commercial, not government policy?" },
+                        { title: "Religious Freedom & Assembly (Art. 10)", desc: "For my essay on Article 10: how have judges treated protests or assemblies in religious precincts when authorities or police intervene? I need examples where the court explains whose rights prevail and on what basis." },
+                        { title: "Arrest & Reasons Requirement (Art. 13)", desc: "I'm trying to learn Article 13(1) properly. What do reported cases say about informing a person of the reason for arrest, and how strict is that requirement in the case law we have?" },
+                        { title: "Access to Information (Art. 14A)", desc: "For my research note on RTI-style rights: how does our case law treat access to information held by public authorities, and what kinds of restrictions does the court treat as acceptable?" },
+                        { title: "Pre-Constitution Laws & Savings Clause (Art. 16)", desc: "I don't fully understand Article 16 in practice. Can you point me to judgments that explain whether pre-Constitution laws can still apply even if they look inconsistent with fundamental rights—and how the court justifies that?" },
+                        { title: "Standing & Supreme Court Route (Art. 17)", desc: "As a junior researcher I need clarity on Article 17: who may apply to the Supreme Court for infringement of fundamental rights, and what do cases say \"infringement or imminent infringement\" requires in practice?" }
                       ].map((suggestion, i) => (
                         <button
                           key={i}
