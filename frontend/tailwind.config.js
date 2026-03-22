@@ -93,10 +93,10 @@ export default {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'aurora': 'linear-gradient(135deg, rgba(99,102,241,0.15) 0%, transparent 40%, rgba(59,130,246,0.1) 70%, transparent 100%)',
-        'aurora-intense': 'linear-gradient(135deg, rgba(99,102,241,0.25) 0%, rgba(59,130,246,0.15) 50%, rgba(14,165,233,0.08) 100%)',
-        'indigo-gradient': 'linear-gradient(135deg, #6366f1, #4f46e5)',
-        'user-bubble': 'linear-gradient(135deg, #6366f1 0%, #4338ca 100%)',
+        'aurora': 'linear-gradient(135deg, rgba(59,130,246,0.15) 0%, transparent 40%, rgba(37,99,235,0.1) 70%, transparent 100%)',
+        'aurora-intense': 'linear-gradient(135deg, rgba(59,130,246,0.25) 0%, rgba(37,99,235,0.15) 50%, rgba(14,165,233,0.08) 100%)',
+        'indigo-gradient': 'linear-gradient(135deg, #1d4ed8, #3b82f6)',
+        'user-bubble': 'linear-gradient(135deg, #1e40af 0%, #3b82f6 100%)',
       },
       animation: {
         'aurora': 'aurora 10s ease infinite',
@@ -113,8 +113,8 @@ export default {
           '50%': { backgroundPosition: '100% 50%', opacity: '1' },
         },
         'ai-pulse': {
-          '0%, 100%': { boxShadow: '0 0 0 0 rgba(99, 102, 241, 0.4)' },
-          '50%': { boxShadow: '0 0 0 6px rgba(99, 102, 241, 0)' },
+          '0%, 100%': { boxShadow: '0 0 0 0 rgba(59, 130, 246, 0.4)' },
+          '50%': { boxShadow: '0 0 0 6px rgba(59, 130, 246, 0)' },
         },
         'glow-pulse': {
           '0%, 100%': { opacity: '0.5' },
