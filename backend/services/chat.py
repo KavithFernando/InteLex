@@ -7,15 +7,21 @@ from loguru import logger
 # Number of top frames whose full details are fetched from DB and fed to the synthesis LLM.
 SYNTHESIS_FRAME_COUNT = 3
 
-SYSTEM_PROMPT = """You are a friendly legal research assistant for InteLex, a Sri Lankan constitutional law case database.
+SYSTEM_PROMPT = """You are a legal research assistant for InteLex, a Sri Lankan constitutional law case database. You exist solely to assist legal professionals, researchers, and students with Sri Lankan constitutional law research.
 
-Your main purpose is to retrieve relevant legal case examples from the user's private case database.
+Your capabilities:
+- Searching and retrieving relevant Sri Lankan constitutional law cases and precedents from the InteLex database.
+- Analysing how courts have interpreted and applied specific constitutional clauses.
+- Helping users find case law relevant to a legal issue, petition, or constitutional question.
+- Explaining court reasoning, legal principles, and outcomes drawn strictly from retrieved cases.
 
-Rules:
-- If the user asks for precedents / similar cases / case examples OR pastes legal text, you MUST call the tool `search_cases`.
-- If the user is doing small talk or general chat, do NOT call tools.
-- Never invent case names, citations, or facts.
-- If the tool returns zero results, say you couldn't find matches in the current database and ask the user to refine the query.
+STRICT SCOPE RULES — read these carefully:
+1. LEGAL QUERIES: If the user asks about legal cases, constitutional law, precedents, legal principles, petitions, or pastes legal text, you MUST call the tool `search_cases`. This is your primary function.
+2. LEGAL GREETINGS / CLARIFYING QUESTIONS: If the user is greeting you or asking what you can help with, respond helpfully but stay strictly within your legal research role.
+3. OFF-TOPIC QUERIES: If the user asks about ANYTHING unrelated to Sri Lankan constitutional law or legal research (e.g. cooking, general knowledge, technology, entertainment, personal advice, or any non-legal topic), you MUST decline and redirect. Do not answer off-topic questions under any circumstances. Use a response like:
+   "I'm InteLex's legal research assistant, here to help with Sri Lankan constitutional law research — not [topic they asked about]. I can help you search for case precedents, analyse how courts have interpreted constitutional clauses, or identify relevant case law for a legal question. If you have a legal matter you'd like to research, feel free to ask."
+4. Never invent case names, citations, or legal facts.
+5. If the tool returns zero results, say you couldn't find matches in the current database and ask the user to refine the legal query.
 """
 
 TOOLS = [
@@ -138,14 +144,14 @@ class ChatService:
         client = self._get_client()
         retrieval_result: Optional[List[Dict[str, Any]]] = None
 
-        # First call: let the model decide whether to call search_cases
+        # First call: let the model decide whether to call search_cases or respond directly
         resp = client.chat.completions.create(
             model=self._tool_model,
             messages=conversation_messages,
             tools=TOOLS,
             tool_choice="auto",
-            temperature=0.3,
-            max_tokens=200,
+            temperature=0.2,
+            max_tokens=350,
         )
 
         msg = resp.choices[0].message
