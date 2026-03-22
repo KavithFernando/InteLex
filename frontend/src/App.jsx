@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import {
   listConversations,
   createConversation,
@@ -229,6 +229,57 @@ export default function App() {
     setCaseDetailLoading(false);
   }, []);
 
+  // ── Resizable case detail panel ───────────────────────────────────────────────
+  const SIDEBAR_WIDTH = 280;   // fixed sidebar width in px
+  const PANEL_MIN_PX  = 580;   // narrowest usable panel
+  const CHAT_MIN_PX   = 420;   // minimum chat area that must stay visible
+
+  const clampPanelWidth = (w) => {
+    const max = Math.max(PANEL_MIN_PX, window.innerWidth - SIDEBAR_WIDTH - CHAT_MIN_PX);
+    return Math.max(PANEL_MIN_PX, Math.min(w, max));
+  };
+
+  const [panelWidth, setPanelWidth] = useState(() => {
+    const stored = localStorage.getItem('inteLex-panel-width');
+    const n = stored ? parseInt(stored, 10) : NaN;
+    const initial = !isNaN(n) ? n : Math.round(window.innerWidth * 0.42);
+    return clampPanelWidth(initial);
+  });
+
+  const isDraggingPanel = useRef(false);
+
+  const handlePanelDragStart = useCallback((e) => {
+    e.preventDefault();
+    isDraggingPanel.current = true;
+    document.body.style.cursor = 'col-resize';
+    document.body.style.userSelect = 'none';
+  }, []);
+
+  useEffect(() => {
+    function onMouseMove(e) {
+      if (!isDraggingPanel.current) return;
+      const desired = window.innerWidth - e.clientX;
+      const max = Math.max(PANEL_MIN_PX, window.innerWidth - SIDEBAR_WIDTH - CHAT_MIN_PX);
+      setPanelWidth(Math.max(PANEL_MIN_PX, Math.min(desired, max)));
+    }
+    function onMouseUp() {
+      if (!isDraggingPanel.current) return;
+      isDraggingPanel.current = false;
+      document.body.style.cursor = '';
+      document.body.style.userSelect = '';
+      setPanelWidth((prev) => {
+        localStorage.setItem('inteLex-panel-width', String(Math.round(prev)));
+        return prev;
+      });
+    }
+    window.addEventListener('mousemove', onMouseMove);
+    window.addEventListener('mouseup', onMouseUp);
+    return () => {
+      window.removeEventListener('mousemove', onMouseMove);
+      window.removeEventListener('mouseup', onMouseUp);
+    };
+  }, []); // primitive constants + refs — empty dep array is correct here
+
   // ── Render: loading splash ────────────────────────────────────────────────────
   if (authLoading) {
     return (
@@ -388,7 +439,26 @@ export default function App() {
       </main>
 
       {(selectedCaseId || caseDetailLoading || caseDetail) && (
-        <aside className="w-[45vw] h-screen shrink-0 flex flex-col overflow-hidden border-l border-border bg-surface shadow-2xl z-30 transition-shadow">
+        <aside
+          style={{ width: panelWidth }}
+          className="h-screen shrink-0 flex flex-col overflow-hidden border-l border-border bg-surface shadow-2xl z-30 relative"
+        >
+          {/* Drag-to-resize handle on the left edge */}
+          <div
+            onMouseDown={handlePanelDragStart}
+            title="Drag to resize"
+            className="absolute left-0 top-0 bottom-0 w-2 z-40 cursor-col-resize group"
+          >
+            {/* Thin accent line that glows on hover */}
+            <div className="absolute inset-y-0 left-0 w-px bg-border group-hover:bg-accent/50 group-active:bg-accent transition-colors duration-150" />
+            {/* Grip dots centred on the handle */}
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-[4px] opacity-0 group-hover:opacity-100 transition-opacity duration-150">
+              {[0,1,2,3,4].map((i) => (
+                <div key={i} className="w-[3px] h-[3px] rounded-full bg-accent/60" />
+              ))}
+            </div>
+          </div>
+
           {caseDetailLoading && !caseDetail && (
             <div className="h-full flex flex-col items-center justify-center text-content-secondary">
               <div className="w-8 h-8 border-2 border-accent/30 border-t-accent rounded-full animate-spin mb-4" />
