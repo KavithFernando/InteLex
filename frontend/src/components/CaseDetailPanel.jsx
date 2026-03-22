@@ -130,7 +130,7 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
         {/* Row 1: badge + date + close */}
         <div className="flex items-center justify-between gap-2">
           <div className="flex items-center gap-2">
-            <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-indigo-gradient text-white uppercase tracking-wider">Case Details</span>
+            <span className="px-2 py-0.5 rounded text-[10px] font-bold accent-gradient-bg text-white uppercase tracking-wider">Case Details</span>
             {decision_date && <span className="text-xs text-content-muted font-mono">{decision_date}</span>}
           </div>
           <button
@@ -192,7 +192,7 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
                 type="button"
                 onClick={handleGenerateInterpretation}
                 disabled={interpretationLoading}
-                className="group flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium bg-indigo-gradient text-white shadow-glow-sm hover:shadow-glow hover:-translate-y-px disabled:shadow-none disabled:transform-none disabled:opacity-60 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30"
+                className="group flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium accent-gradient-bg text-white shadow-glow-sm hover:shadow-glow hover:-translate-y-px disabled:shadow-none disabled:transform-none disabled:opacity-60 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30"
               >
                 {interpretationLoading ? (
                   <>
@@ -225,7 +225,7 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
           {(generatedInterpretation != null) && (
             <div className="mb-8 p-6 rounded-xl bg-accent/5 border border-accent/20 shadow-glow-sm transition-all duration-300">
               <div className="flex items-center gap-2 mb-4 pb-3 border-b border-accent/20">
-                <div className="p-1.5 rounded-md bg-indigo-gradient text-white">
+                <div className="p-1.5 rounded-md accent-gradient-bg text-white">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
@@ -293,7 +293,7 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
             <a
               href={pdfBlobUrl}
               download={`${case_identifier || case_id}.pdf`}
-              className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-indigo-gradient text-white hover:opacity-90 hover:-translate-y-px transition-all duration-200 shadow-glow-sm hover:shadow-glow"
+              className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium accent-gradient-bg text-white hover:opacity-90 hover:-translate-y-px transition-all duration-200 shadow-glow-sm hover:shadow-glow"
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />

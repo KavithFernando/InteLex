@@ -345,7 +345,7 @@ export default function App() {
                 <div className="flex-1 overflow-y-auto scrollbar-hide w-full relative z-10">
                   <div className="min-h-full flex flex-col items-center justify-center px-4 py-8 sm:px-8 w-full max-w-4xl mx-auto animate-fade-in-up">
                     {/* Glowing logo */}
-                    <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-indigo-gradient flex items-center justify-center mb-6 shrink-0 shadow-glow animate-ai-pulse">
+                    <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl accent-gradient-bg flex items-center justify-center mb-6 shrink-0 shadow-glow animate-ai-pulse">
                       <img
                         src="../public/images/logo_white.png"
                         alt="InteLex Logo"

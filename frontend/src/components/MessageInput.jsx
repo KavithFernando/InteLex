@@ -64,7 +64,7 @@ export default function MessageInput({ onSend, disabled }) {
               ? 'bg-surface-active text-content-muted shadow-none'
               : disabled
                 ? 'bg-surface-hover hover:bg-surface-active text-content-secondary'
-                : 'bg-indigo-gradient hover:opacity-90 text-white shadow-glow-sm hover:shadow-glow'
+                : 'accent-gradient-bg hover:opacity-90 text-white shadow-glow-sm hover:shadow-glow'
           }`}
           title={disabled ? "Stop generating" : "Send message"}
         >

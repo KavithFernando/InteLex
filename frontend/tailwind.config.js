@@ -35,19 +35,22 @@ export default {
           system: '#64748b',
         },
 
-        // Static: same in both themes
+        // Sidebar: theme-sensitive via CSS variables
         sidebar: {
-          bg: '#050a14',
-          hover: '#0f1829',
-          active: '#1a2640',
-          border: '#0f1829',
+          bg: 'rgb(var(--color-sidebar-bg) / <alpha-value>)',
+          hover: 'rgb(var(--color-sidebar-hover) / <alpha-value>)',
+          active: 'rgb(var(--color-sidebar-active) / <alpha-value>)',
+          border: 'rgb(var(--color-sidebar-border) / <alpha-value>)',
+          text: 'rgb(var(--color-sidebar-text) / <alpha-value>)',
+          muted: 'rgb(var(--color-sidebar-muted) / <alpha-value>)',
         },
+        // Accent: theme-sensitive via CSS variables (dark = indigo, light = royal blue)
         accent: {
-          DEFAULT: '#6366f1',
-          hover: '#818cf8',
-          light: 'rgba(99, 102, 241, 0.12)',
+          DEFAULT: 'rgb(var(--color-accent) / <alpha-value>)',
+          hover: 'rgb(var(--color-accent-hover) / <alpha-value>)',
+          light: 'rgb(var(--color-accent) / 0.12)',
           fg: '#ffffff',
-          glow: 'rgba(99, 102, 241, 0.35)',
+          glow: 'rgb(var(--color-accent) / 0.35)',
         },
         secondary: {
           DEFAULT: '#f59e0b',
@@ -78,9 +81,9 @@ export default {
         'md': '0 4px 6px -1px rgb(0 0 0 / 0.4), 0 2px 4px -2px rgb(0 0 0 / 0.4)',
         'lg': '0 10px 15px -3px rgb(0 0 0 / 0.4), 0 4px 6px -4px rgb(0 0 0 / 0.4)',
         'xl': '0 20px 25px -5px rgb(0 0 0 / 0.5), 0 8px 10px -6px rgb(0 0 0 / 0.5)',
-        'glow': '0 0 20px rgba(99, 102, 241, 0.4), 0 0 40px rgba(99, 102, 241, 0.15)',
-        'glow-sm': '0 0 10px rgba(99, 102, 241, 0.3)',
-        'glow-lg': '0 0 30px rgba(99, 102, 241, 0.5), 0 0 60px rgba(99, 102, 241, 0.2)',
+        'glow': 'var(--shadow-glow)',
+        'glow-sm': 'var(--shadow-glow-sm)',
+        'glow-lg': 'var(--shadow-glow-lg)',
         'glass': '0 8px 32px 0 rgba(0, 0, 0, 0.4)',
         'glass-light': '0 8px 32px 0 rgba(31, 38, 135, 0.08)',
       },

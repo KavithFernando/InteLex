@@ -67,7 +67,7 @@ export default function ChangePasswordModal({ onClose }) {
             <button
               type="button"
               onClick={onClose}
-              className="py-2 px-6 rounded-xl bg-indigo-gradient hover:opacity-90 text-white text-sm font-medium transition-all shadow-glow-sm"
+              className="py-2 px-6 rounded-xl accent-gradient-bg hover:opacity-90 text-white text-sm font-medium transition-all shadow-glow-sm"
             >
               Done
             </button>
@@ -135,7 +135,7 @@ export default function ChangePasswordModal({ onClose }) {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="flex-1 py-2.5 rounded-xl bg-indigo-gradient hover:opacity-90 disabled:opacity-60 disabled:cursor-not-allowed text-white text-sm font-medium transition-all shadow-glow-sm flex items-center justify-center gap-2"
+                  className="flex-1 py-2.5 rounded-xl accent-gradient-bg hover:opacity-90 disabled:opacity-60 disabled:cursor-not-allowed text-white text-sm font-medium transition-all shadow-glow-sm flex items-center justify-center gap-2"
                 >
                   {loading && <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />}
                   {loading ? 'Saving…' : 'Save'}

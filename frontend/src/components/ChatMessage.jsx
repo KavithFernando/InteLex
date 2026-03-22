@@ -30,7 +30,7 @@ export default function ChatMessage({ role, content, created_at, isDark = true }
       <div className={`flex gap-4 max-w-[85%] ${isUser ? 'flex-row-reverse' : 'flex-row'}`}>
         {/* Avatar */}
         <div className={`shrink-0 w-8 h-8 rounded-full flex items-center justify-center shadow-sm mt-1 transition-transform group-hover:scale-105 ${isUser
-          ? 'bg-indigo-gradient text-white shadow-glow-sm'
+          ? 'accent-gradient-bg text-white shadow-glow-sm'
           : 'bg-surface border border-accent/30 text-accent animate-ai-pulse'
           }`}>
           {isUser ? (
@@ -50,7 +50,7 @@ export default function ChatMessage({ role, content, created_at, isDark = true }
         <div className={`flex flex-col gap-1 ${isUser ? 'items-end' : 'items-start'}`}>
           <div
             className={`relative px-5 py-3.5 rounded-2xl text-[0.95rem] leading-relaxed transition-all duration-200 ${isUser
-              ? 'bg-user-bubble text-white rounded-tr-sm shadow-glow-sm'
+              ? 'accent-bubble-bg text-white rounded-tr-sm shadow-glow-sm'
               : 'bg-surface border border-border text-content-primary rounded-tl-sm shadow-md'
               }`}
           >

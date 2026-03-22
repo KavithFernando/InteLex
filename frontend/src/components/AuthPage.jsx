@@ -72,7 +72,7 @@ export default function AuthPage({ onAuthenticated }) {
       <div className="relative w-full max-w-md">
         {/* Logo & Branding */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-indigo-gradient shadow-glow mb-4 animate-ai-pulse">
+          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl accent-gradient-bg shadow-glow mb-4 animate-ai-pulse">
             <img
               src="../public/images/logo_white.png"
               alt="InteLex"
@@ -179,7 +179,7 @@ export default function AuthPage({ onAuthenticated }) {
             <button
               type="submit"
               disabled={loading}
-              className="w-full py-2.5 px-4 rounded-xl bg-indigo-gradient hover:opacity-90 disabled:opacity-60 disabled:cursor-not-allowed text-white font-medium text-sm transition-all duration-200 shadow-glow-sm hover:shadow-glow flex items-center justify-center gap-2 mt-2"
+              className="w-full py-2.5 px-4 rounded-xl accent-gradient-bg hover:opacity-90 disabled:opacity-60 disabled:cursor-not-allowed text-white font-medium text-sm transition-all duration-200 shadow-glow-sm hover:shadow-glow flex items-center justify-center gap-2 mt-2"
             >
               {loading ? (
                 <>

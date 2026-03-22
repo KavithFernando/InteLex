@@ -22,7 +22,7 @@ export default function RetrievalResults({ results, triggeringUserMessage, onSel
             className="group flex flex-col items-start text-left glass border border-white/5 hover:border-accent/40 hover:shadow-glow-sm rounded-xl p-5 transition-all duration-300 active:scale-[0.98] relative overflow-hidden"
           >
             {/* Indigo left accent bar on hover */}
-            <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-indigo-gradient transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 rounded-r-full"></div>
+            <div className="absolute left-0 top-0 bottom-0 w-0.5 accent-gradient-bg transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 rounded-r-full"></div>
 
             <div className="w-full flex justify-between items-start gap-3 mb-3">
               <span className="flex items-center gap-1.5 px-2 py-1 rounded-md text-[10px] font-bold bg-accent/10 text-accent border border-accent/20 tracking-wide uppercase">
