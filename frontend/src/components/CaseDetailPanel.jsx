@@ -125,12 +125,27 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
     <>
     <div className="flex flex-col h-full bg-surface shadow-2xl relative">
       {/* Header */}
-      <div className="shrink-0 flex items-start justify-between gap-4 py-5 px-6 border-b border-border bg-surface/90 backdrop-blur-md sticky top-0 z-10">
-        <div>
-          <div className="flex items-center gap-2 mb-1">
+      <div className="shrink-0 py-4 px-6 border-b border-border bg-surface/90 backdrop-blur-md sticky top-0 z-10 space-y-3">
+
+        {/* Row 1: badge + date + close */}
+        <div className="flex items-center justify-between gap-2">
+          <div className="flex items-center gap-2">
             <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-indigo-gradient text-white uppercase tracking-wider">Case Details</span>
             {decision_date && <span className="text-xs text-content-muted font-mono">{decision_date}</span>}
           </div>
+          <button
+            onClick={onClose}
+            className="p-1.5 rounded-lg text-content-muted hover:bg-surface-hover hover:text-content-primary transition-colors focus:outline-none focus:ring-2 focus:ring-accent/20"
+            aria-label="Close panel"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+
+        {/* Row 2: case title + meta — full width, no competition */}
+        <div>
           <h2 className="text-xl font-serif font-bold text-content-primary leading-snug">
             {case_title || case_id}
           </h2>
@@ -143,70 +158,65 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
             <p className="text-sm text-content-secondary mt-1 font-medium">{court_name}</p>
           )}
         </div>
-        <div className="flex items-center gap-2 shrink-0">
-          {canViewPdf && (
-            <button
-              type="button"
-              onClick={handleViewPdf}
-              disabled={pdfLoading}
-              className="group flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-surface-hover border border-border text-content-primary shadow-sm hover:border-accent/60 hover:text-accent hover:shadow-glow-sm hover:-translate-y-px disabled:opacity-60 disabled:transform-none transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30"
-            >
-              {pdfLoading ? (
-                <>
-                  <svg className="w-4 h-4 animate-spin" viewBox="0 0 24 24" fill="none">
-                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-                  </svg>
-                  <span>Loading…</span>
-                </>
-              ) : (
-                <>
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                  </svg>
-                  <span>View PDF</span>
-                </>
-              )}
-            </button>
-          )}
-          {pdfError && (
-            <span className="text-xs text-error max-w-[160px] truncate" title={pdfError}>{pdfError}</span>
-          )}
-          {canGenerateInterpretation && (
-            <button
-              type="button"
-              onClick={handleGenerateInterpretation}
-              disabled={interpretationLoading}
-              className="group flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-indigo-gradient text-white shadow-glow-sm hover:shadow-glow hover:-translate-y-px disabled:shadow-none disabled:transform-none disabled:opacity-60 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30"
-            >
-              {interpretationLoading ? (
-                <>
-                  <svg className="w-4 h-4 animate-spin" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                  </svg>
-                  <span>Generating…</span>
-                </>
-              ) : (
-                <>
-                  <svg className="w-4 h-4 text-white/80 group-hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                  </svg>
-                  <span>Generate interpretation</span>
-                </>
-              )}
-            </button>
-          )}
-          <button
-            onClick={onClose}
-            className="p-2 rounded-lg text-content-muted hover:bg-surface-hover hover:text-content-primary transition-colors focus:outline-none focus:ring-2 focus:ring-accent/20"
-            aria-label="Close panel"
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
+
+        {/* Row 3: action buttons */}
+        {(canViewPdf || canGenerateInterpretation || pdfError) && (
+          <div className="flex items-center gap-2 flex-wrap">
+            {canViewPdf && (
+              <button
+                type="button"
+                onClick={handleViewPdf}
+                disabled={pdfLoading}
+                className="group flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium bg-surface-hover border border-border text-content-primary shadow-sm hover:border-accent/60 hover:text-accent hover:shadow-glow-sm hover:-translate-y-px disabled:opacity-60 disabled:transform-none transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30"
+              >
+                {pdfLoading ? (
+                  <>
+                    <svg className="w-4 h-4 animate-spin" viewBox="0 0 24 24" fill="none">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                    </svg>
+                    <span>Loading…</span>
+                  </>
+                ) : (
+                  <>
+                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                    </svg>
+                    <span>View PDF</span>
+                  </>
+                )}
+              </button>
+            )}
+            {canGenerateInterpretation && (
+              <button
+                type="button"
+                onClick={handleGenerateInterpretation}
+                disabled={interpretationLoading}
+                className="group flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium bg-indigo-gradient text-white shadow-glow-sm hover:shadow-glow hover:-translate-y-px disabled:shadow-none disabled:transform-none disabled:opacity-60 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30"
+              >
+                {interpretationLoading ? (
+                  <>
+                    <svg className="w-4 h-4 animate-spin" viewBox="0 0 24 24" fill="none">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    <span>Generating…</span>
+                  </>
+                ) : (
+                  <>
+                    <svg className="w-4 h-4 text-white/80 group-hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                    <span>Generate interpretation</span>
+                  </>
+                )}
+              </button>
+            )}
+            {pdfError && (
+              <span className="text-xs text-error truncate" title={pdfError}>{pdfError}</span>
+            )}
+          </div>
+        )}
       </div>
 
       {/* Content */}
