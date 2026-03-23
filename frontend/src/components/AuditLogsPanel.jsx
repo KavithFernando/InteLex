@@ -64,7 +64,7 @@ export default function AuditLogsPanel({ onClose }) {
   return (
     <div className="flex flex-col h-full bg-surface overflow-hidden">
       {/* Header */}
-      <div className="shrink-0 flex items-center justify-between gap-4 py-4 px-6 border-b border-border bg-white/50 backdrop-blur-sm">
+      <div className="shrink-0 flex items-center justify-between gap-4 py-4 px-6 border-b border-border bg-surface/90 backdrop-blur-sm">
         <div className="flex items-center gap-3">
           <h2 className="text-xl font-serif font-semibold text-content-primary">Audit logs</h2>
           <button
@@ -144,7 +144,7 @@ export default function AuditLogsPanel({ onClose }) {
       {/* Content */}
       <div className="flex-1 min-h-0 overflow-auto p-6">
         {error && (
-          <div className="mb-4 p-4 rounded-xl bg-red-50 border border-red-200 text-red-700 text-sm">
+          <div className="mb-4 p-4 rounded-xl bg-error-light border border-error/30 text-error text-sm">
             {error}
           </div>
         )}
@@ -190,8 +190,8 @@ export default function AuditLogsPanel({ onClose }) {
                       <span
                         className={
                           log.success
-                            ? 'text-emerald-600 dark:text-emerald-400'
-                            : 'text-red-600 dark:text-red-400'
+                            ? 'text-success'
+                            : 'text-error'
                         }
                       >
                         {log.success ? 'Yes' : 'No'}

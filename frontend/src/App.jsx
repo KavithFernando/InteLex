@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import {
   listConversations,
   createConversation,
@@ -6,10 +6,12 @@ import {
   getConversationMessages,
   sendMessage as apiSendMessage,
   getCase,
+  getFrame,
   generateCaseInterpretation,
   getMe,
   logout as apiLogout,
   getStoredToken,
+  getCasePdf,
 } from './api';
 import AuthPage from './components/AuthPage';
 import ConversationList from './components/ConversationList';
@@ -21,6 +23,22 @@ import CaseDetailPanel from './components/CaseDetailPanel';
 import AuditLogsPanel from './components/AuditLogsPanel';
 
 export default function App() {
+  // ── Theme state ───────────────────────────────────────────────────────────────
+  const [isDark, setIsDark] = useState(() => {
+    return localStorage.getItem('inteLex-theme') !== 'light';
+  });
+
+  useEffect(() => {
+    if (isDark) {
+      document.documentElement.classList.remove('theme-light');
+    } else {
+      document.documentElement.classList.add('theme-light');
+    }
+    localStorage.setItem('inteLex-theme', isDark ? 'dark' : 'light');
+  }, [isDark]);
+
+  const toggleTheme = () => setIsDark((prev) => !prev);
+
   // ── Auth state ──────────────────────────────────────────────────────────────
   const [user, setUser] = useState(null);
   const [authLoading, setAuthLoading] = useState(true); // true while verifying stored token
@@ -157,7 +175,7 @@ export default function App() {
         const res = await apiSendMessage(cid, text);
         setMessages((prev) => [
           ...prev,
-          { role: 'assistant', content: res.response, retrieval_result: res.retrieval_result ?? [], created_at: new Date().toISOString() },
+          { role: 'assistant', content: res.response, retrieval_result: res.retrieval_result ?? [], created_at: new Date().toISOString(), animateIn: true },
         ]);
         if (messages.length === 0) {
           await refreshConversations();
@@ -171,16 +189,16 @@ export default function App() {
     [currentConversationId, messages.length, refreshConversations]
   );
 
-  const handleSelectCase = useCallback(async (caseId, triggeringQuery = null) => {
-    setSelectedCaseId(caseId);
+  const handleSelectCase = useCallback(async (caseId, frameId = null, triggeringQuery = null) => {
+    setSelectedCaseId(caseId || frameId);
     setSelectedTriggeringQuery(triggeringQuery ?? null);
     setCaseDetailLoading(true);
     setCaseDetail(null);
     try {
-      const detail = await getCase(caseId);
+      const detail = frameId != null ? await getFrame(frameId) : await getCase(caseId);
       setCaseDetail(detail);
     } catch (err) {
-      console.error('Failed to load case', err);
+      console.error('Failed to load detail', err);
     } finally {
       setCaseDetailLoading(false);
     }
@@ -202,6 +220,8 @@ export default function App() {
     }
   }, [currentConversationId, refreshConversations]);
 
+  const handleGetPdf = useCallback((caseId) => getCasePdf(caseId), []);
+
   const handleCloseCaseDetail = useCallback(() => {
     setSelectedCaseId(null);
     setSelectedTriggeringQuery(null);
@@ -209,11 +229,64 @@ export default function App() {
     setCaseDetailLoading(false);
   }, []);
 
+  // ── Resizable case detail panel ───────────────────────────────────────────────
+  const SIDEBAR_WIDTH = 280;   // fixed sidebar width in px
+  const PANEL_MIN_PX  = 580;   // narrowest usable panel
+  const CHAT_MIN_PX   = 420;   // minimum chat area that must stay visible
+
+  const clampPanelWidth = (w) => {
+    const max = Math.max(PANEL_MIN_PX, window.innerWidth - SIDEBAR_WIDTH - CHAT_MIN_PX);
+    return Math.max(PANEL_MIN_PX, Math.min(w, max));
+  };
+
+  const [panelWidth, setPanelWidth] = useState(() => {
+    const stored = localStorage.getItem('inteLex-panel-width');
+    const n = stored ? parseInt(stored, 10) : NaN;
+    const initial = !isNaN(n) ? n : Math.round(window.innerWidth * 0.42);
+    return clampPanelWidth(initial);
+  });
+
+  const isDraggingPanel = useRef(false);
+
+  const handlePanelDragStart = useCallback((e) => {
+    e.preventDefault();
+    isDraggingPanel.current = true;
+    document.body.style.cursor = 'col-resize';
+    document.body.style.userSelect = 'none';
+  }, []);
+
+  useEffect(() => {
+    function onMouseMove(e) {
+      if (!isDraggingPanel.current) return;
+      const desired = window.innerWidth - e.clientX;
+      const max = Math.max(PANEL_MIN_PX, window.innerWidth - SIDEBAR_WIDTH - CHAT_MIN_PX);
+      setPanelWidth(Math.max(PANEL_MIN_PX, Math.min(desired, max)));
+    }
+    function onMouseUp() {
+      if (!isDraggingPanel.current) return;
+      isDraggingPanel.current = false;
+      document.body.style.cursor = '';
+      document.body.style.userSelect = '';
+      setPanelWidth((prev) => {
+        localStorage.setItem('inteLex-panel-width', String(Math.round(prev)));
+        return prev;
+      });
+    }
+    window.addEventListener('mousemove', onMouseMove);
+    window.addEventListener('mouseup', onMouseUp);
+    return () => {
+      window.removeEventListener('mousemove', onMouseMove);
+      window.removeEventListener('mouseup', onMouseUp);
+    };
+  }, []); // primitive constants + refs — empty dep array is correct here
+
   // ── Render: loading splash ────────────────────────────────────────────────────
   if (authLoading) {
     return (
-      <div className="min-h-screen bg-main-bg flex items-center justify-center">
-        <div className="flex flex-col items-center gap-4">
+      <div className="min-h-screen bg-main-bg flex items-center justify-center relative overflow-hidden">
+        <div className="absolute inset-0 aurora-bg opacity-60" />
+        <div className="absolute inset-0 grid-overlay" />
+        <div className="relative flex flex-col items-center gap-4">
           <div className="w-10 h-10 border-2 border-accent/30 border-t-accent rounded-full animate-spin" />
           <p className="text-content-muted text-sm">Loading InteLex…</p>
         </div>
@@ -239,6 +312,10 @@ export default function App() {
           loading={loading}
           user={user}
           onLogout={handleLogout}
+          isAdmin={user?.role === 'admin'}
+          onOpenAuditLogs={() => setShowAuditLogs(true)}
+          isDark={isDark}
+          onToggleTheme={toggleTheme}
         />
       </aside>
 
@@ -247,15 +324,19 @@ export default function App() {
           <AuditLogsPanel onClose={() => setShowAuditLogs(false)} />
         ) : (
           <>
-            {/* Subtle background glow effect */}
-            <div className="absolute inset-0 pointer-events-none bg-gradient-radial from-accent-light/40 to-transparent opacity-50 z-0" />
+            {/* Animated aurora glow background — always shown; adapts via CSS vars */}
+            <div className="absolute inset-0 pointer-events-none z-0 aurora-bg" />
+            {/* Subtle dot-grid overlay */}
+            <div className="absolute inset-0 pointer-events-none z-0 grid-overlay" />
+            {/* Radial vignette */}
+            <div className="absolute inset-0 pointer-events-none z-0 bg-gradient-radial from-transparent via-transparent to-main-bg/60" />
 
             {/* Logo Watermark */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0 overflow-hidden">
               <img
                 src="../public/images/logo.png"
                 alt=""
-                className="w-[500px] h-[500px] object-contain opacity-[0.07] grayscale brightness-125"
+                className="w-[480px] h-[480px] object-contain opacity-[0.03] brightness-200"
               />
             </div>
 
@@ -263,26 +344,27 @@ export default function App() {
               {messages.length === 0 && !loading && (
                 <div className="flex-1 overflow-y-auto scrollbar-hide w-full relative z-10">
                   <div className="min-h-full flex flex-col items-center justify-center px-4 py-8 sm:px-8 w-full max-w-4xl mx-auto animate-fade-in-up">
-                    <div className="w-16 h-16 sm:w-20 sm:h-20 bg-white rounded-2xl shadow-sm border border-border-subtle/60 flex items-center justify-center mb-6 shrink-0">
+                    {/* Glowing logo */}
+                    <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl accent-gradient-bg flex items-center justify-center mb-6 shrink-0 shadow-glow animate-ai-pulse">
                       <img
-                        src="../public/images/logo.png"
+                        src="../public/images/logo_white.png"
                         alt="InteLex Logo"
                         className="w-10 h-10 sm:w-14 sm:h-14 object-contain"
                       />
                     </div>
-                    <h1 className="m-0 mb-3 text-3xl sm:text-4xl font-serif font-bold text-content-primary tracking-tight text-center">InteLex AI</h1>
+                    <h1 className="m-0 mb-3 text-3xl sm:text-4xl font-serif font-bold tracking-tight text-center gradient-text">InteLex AI</h1>
                     <p className="m-0 mb-8 text-content-secondary max-w-[32rem] text-base sm:text-lg leading-relaxed text-center">
                       Your AI-powered legal assistant. Select an example query below or type your own.
                     </p>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full text-left">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3 w-full text-left">
                       {[
-                        { title: "Optional Retirement", desc: "Can a public corporation refuse to grant an extension of service after an employee reaches the optional retirement age of 55? I need cases on discretionary extension and Article 12." },
-                        { title: "Political Discrimination", desc: "Find cases where a public officer was transferred or discriminated against because of political opinion or membership of a local authority." },
-                        { title: "Trade Union Action", desc: "I need precedents on probationary public officers whose services were terminated for participating in trade union action or work-to-rule." },
-                        { title: "Dealer Agreement Cancellation", desc: "Cases where the Ceylon Petroleum Corporation terminated or cancelled a dealer’s agreement and the dealer challenged it under fundamental rights." },
-                        { title: "Arbitrary Promotion Scheme", desc: "Similar cases on denial of promotion or arbitrary promotional criteria for public officers under Article 12." },
-                        { title: "Land Alienation", desc: "Cases where the Land Reform Commission alienated land to someone else while rejecting the petitioner’s application." }
+                        { title: "Equality & State Action (Art. 12)", desc: "I'm revising Article 12(1). How have the courts decided whether discrimination by a public corporation in employment counts as an infringement—especially when the body says its decision was commercial, not government policy?" },
+                        { title: "Religious Freedom & Assembly (Art. 10)", desc: "For my essay on Article 10: how have judges treated protests or assemblies in religious precincts when authorities or police intervene? I need examples where the court explains whose rights prevail and on what basis." },
+                        { title: "Arrest & Reasons Requirement (Art. 13)", desc: "I'm trying to learn Article 13(1) properly. What do reported cases say about informing a person of the reason for arrest, and how strict is that requirement in the case law we have?" },
+                        { title: "Access to Information (Art. 14A)", desc: "For my research note on RTI-style rights: how does our case law treat access to information held by public authorities, and what kinds of restrictions does the court treat as acceptable?" },
+                        { title: "Pre-Constitution Laws & Savings Clause (Art. 16)", desc: "I don't fully understand Article 16 in practice. Can you point me to judgments that explain whether pre-Constitution laws can still apply even if they look inconsistent with fundamental rights—and how the court justifies that?" },
+                        { title: "Standing & Supreme Court Route (Art. 17)", desc: "As a junior researcher I need clarity on Article 17: who may apply to the Supreme Court for infringement of fundamental rights, and what do cases say \"infringement or imminent infringement\" requires in practice?" }
                       ].map((suggestion, i) => (
                         <button
                           key={i}
@@ -310,12 +392,12 @@ export default function App() {
                               handleSendMessage(suggestion.desc);
                             }
                           }}
-                          className="group flex flex-col items-start p-4 sm:p-5 bg-white border border-border/80 rounded-xl hover:border-accent hover:shadow-lg transition-all duration-600 active:scale-[0.98] disabled:opacity-50 text-left"
+                          className="group flex flex-col items-start p-4 sm:p-5 glass border border-white/5 hover:border-accent/40 rounded-xl hover:shadow-glow-sm transition-all duration-300 active:scale-[0.98] disabled:opacity-50 text-left"
                         >
-                          <span className="font-semibold text-content-primary text-sm mb-1.5 flex items-center gap-1.5">
-                            {suggestion.title} <span className="text-accent">&rarr;</span>
+                          <span className="font-semibold text-content-primary text-sm mb-1.5 flex items-center gap-1.5 group-hover:text-accent transition-colors">
+                            {suggestion.title} <span className="text-accent opacity-60 group-hover:opacity-100">&rarr;</span>
                           </span>
-                          <span className="text-content-secondary text-xs leading-relaxed line-clamp-2 group-hover:line-clamp-none transition-all duration-600" title={suggestion.desc}>{suggestion.desc}</span>
+                          <span className="text-content-secondary text-xs leading-relaxed line-clamp-2 group-hover:line-clamp-none transition-all duration-300">{suggestion.desc}</span>
                         </button>
                       ))}
                     </div>
@@ -327,7 +409,7 @@ export default function App() {
                 <div className="flex-1 min-h-0 overflow-y-auto py-6 space-y-6 scrollbar-hide">
                   {messages.map((msg, i) => (
                     <div key={i} className="max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8">
-                      <ChatMessage role={msg.role} content={msg.content} created_at={msg.created_at} />
+                      <ChatMessage role={msg.role} content={msg.content} created_at={msg.created_at} isDark={isDark} animateIn={msg.animateIn ?? false} />
                       {msg.role === 'assistant' && (msg.retrieval_result?.length ?? 0) > 0 && (
                         <RetrievalResults
                           results={msg.retrieval_result}
@@ -346,7 +428,7 @@ export default function App() {
               )}
             </div>
             {currentConversationId && (
-              <div className="shrink-0 z-20 p-4 bg-gradient-to-t from-main-bg via-main-bg/90 to-transparent">
+              <div className="shrink-0 z-20 p-4 bg-gradient-to-t from-main-bg via-main-bg/95 to-transparent">
                 <div className="max-w-4xl mx-auto w-full">
                   <MessageInput onSend={handleSendMessage} disabled={sending} />
                 </div>
@@ -357,11 +439,30 @@ export default function App() {
       </main>
 
       {(selectedCaseId || caseDetailLoading || caseDetail) && (
-        <aside className="w-[45vw] h-screen shrink-0 flex flex-col overflow-hidden border-l border-border bg-surface shadow-2xl z-30 transition-shadow">
+        <aside
+          style={{ width: panelWidth }}
+          className="h-screen shrink-0 flex flex-col overflow-hidden border-l border-border bg-surface shadow-2xl z-30 relative"
+        >
+          {/* Drag-to-resize handle on the left edge */}
+          <div
+            onMouseDown={handlePanelDragStart}
+            title="Drag to resize"
+            className="absolute left-0 top-0 bottom-0 w-2 z-40 cursor-col-resize group"
+          >
+            {/* Thin accent line that glows on hover */}
+            <div className="absolute inset-y-0 left-0 w-px bg-border group-hover:bg-accent/50 group-active:bg-accent transition-colors duration-150" />
+            {/* Grip dots centred on the handle */}
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-[4px] opacity-0 group-hover:opacity-100 transition-opacity duration-150">
+              {[0,1,2,3,4].map((i) => (
+                <div key={i} className="w-[3px] h-[3px] rounded-full bg-accent/60" />
+              ))}
+            </div>
+          </div>
+
           {caseDetailLoading && !caseDetail && (
             <div className="h-full flex flex-col items-center justify-center text-content-secondary">
               <div className="w-8 h-8 border-2 border-accent/30 border-t-accent rounded-full animate-spin mb-4" />
-              <p>Loading case details...</p>
+              <p className="text-sm">Loading case details...</p>
             </div>
           )}
           {!caseDetailLoading && selectedCaseId && !caseDetail && (
@@ -369,7 +470,7 @@ export default function App() {
               <p className="mb-6 text-lg">Unable to load case details.</p>
               <button
                 type="button"
-                className="py-2.5 px-6 border border-border rounded-lg bg-surface hover:bg-surface-hover text-content-primary transition-colors duration-400 font-medium"
+                className="py-2.5 px-6 border border-border rounded-lg bg-surface hover:bg-surface-hover text-content-primary transition-colors duration-200 font-medium"
                 onClick={handleCloseCaseDetail}
               >
                 Close Panel
@@ -381,6 +482,7 @@ export default function App() {
               caseDetail={caseDetail}
               triggeringQuery={selectedTriggeringQuery}
               onGenerateInterpretation={generateCaseInterpretation}
+              onGetPdf={handleGetPdf}
               onClose={handleCloseCaseDetail}
             />
           )}

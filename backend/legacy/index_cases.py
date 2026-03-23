@@ -1,3 +1,8 @@
+"""
+Legacy: build case_chunks table + case_chunks FAISS index. Superseded by scripts/index_clauses.py.
+
+Run from backend/:  python -m legacy.index_cases
+"""
 import os
 import re
 import sys
@@ -10,7 +15,7 @@ _backend_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if _backend_dir not in sys.path:
     sys.path.insert(0, _backend_dir)
 
-from config import (
+from config.settings import (
     CHUNK_MAP_PATH,
     CHUNK_TOKENS_APPROX,
     EMBED_MODEL,
@@ -19,22 +24,19 @@ from config import (
     OVERLAP_TOKENS_APPROX,
 )
 from db.connection import get_connection
-from db.repositories import case_repo, chunk_repo
+from db.repositories.case_repo import case_repo
+from legacy.chunk_repo import chunk_repo
+
 
 def clean_text(text: str) -> str:
     if not text:
         return ""
-    # replace all types of newlines and carriage returns with a single space
     text = text.replace("\n", " ").replace("\r", " ")
-    # collapse all whitespace to single space (chunking is word-based)
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 
+
 def chunk_by_words(text: str, chunk_words: int, overlap_words: int, min_words: int):
-    """
-    Simple, beginner-friendly chunker: splits by words with overlap.
-    Also tracks approximate character offsets for later snippet highlighting.
-    """
     words = text.split()
     if len(words) < min_words:
         return []
@@ -47,18 +49,13 @@ def chunk_by_words(text: str, chunk_words: int, overlap_words: int, min_words: i
         chunk_text = " ".join(chunk_words_list).strip()
 
         if len(chunk_words_list) >= min_words:
-            # Approximate char offsets by searching within the original text.
-            # For robustness, we store offsets as None if not found.
-            # (Offsets are "nice to have", not required for retrieval.)
             start_char = None
             end_char = None
             try:
-                # Find first occurrence of chunk_text prefix to locate it
                 probe = " ".join(chunk_words_list[: min(30, len(chunk_words_list))])
                 idx = text.find(probe)
                 if idx != -1:
                     start_char = idx
-                    # best-effort end_char
                     end_probe = " ".join(chunk_words_list[-min(30, len(chunk_words_list)):])
                     idx2 = text.find(end_probe, idx)
                     if idx2 != -1:
@@ -81,6 +78,7 @@ def chunk_by_words(text: str, chunk_words: int, overlap_words: int, min_words: i
 
     return chunks
 
+
 def build_case_representation(row: dict) -> str:
     header_parts = []
     if row.get("case_title"):
@@ -102,6 +100,7 @@ def build_case_representation(row: dict) -> str:
     if header and body:
         return header + "\n\n" + body
     return header or body
+
 
 def main():
     rows = case_repo.fetch_cases_with_full_text()
@@ -131,7 +130,7 @@ def main():
         )
 
         for ch in chunks:
-            faiss_id = len(chunk_map)  # 0-based index: FAISS row i <-> DB faiss_id = i
+            faiss_id = len(chunk_map)
             chunk_map.append({
                 "case_id": case_id,
                 "start_word": ch["start_word"],
@@ -167,7 +166,7 @@ def main():
     embeddings = np.asarray(embeddings, dtype="float32")
 
     dim = embeddings.shape[1]
-    index = faiss.IndexFlatIP(dim)   # cosine similarity when normalized
+    index = faiss.IndexFlatIP(dim)
     index.add(embeddings)
 
     faiss.write_index(index, INDEX_PATH)
@@ -185,6 +184,7 @@ def main():
     print(f"Saved chunk map to:   {CHUNK_MAP_PATH}")
     print(f"Populated case_chunks table (faiss_id 0..{len(chunk_map) - 1} in same order as FAISS)")
     print(f"Total chunks indexed: {len(chunk_map)}")
+
 
 if __name__ == "__main__":
     main()

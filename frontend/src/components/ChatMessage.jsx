@@ -1,5 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
+
+const WORDS_PER_SECOND = 30; // typing speed
+const INTERVAL_MS = Math.round(1000 / WORDS_PER_SECOND);
 
 function formatTimestamp(iso) {
   if (!iso) return null;
@@ -14,10 +17,37 @@ function formatTimestamp(iso) {
     ', ' + d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 }
 
-export default function ChatMessage({ role, content, created_at }) {
+export default function ChatMessage({ role, content, created_at, isDark = true, animateIn = false }) {
   const [copied, setCopied] = useState(false);
   const isUser = role === 'user';
   const timestamp = formatTimestamp(created_at);
+  const shouldAnimate = animateIn && !isUser;
+
+  // Streaming state — start empty when animating, full content otherwise
+  const [displayed, setDisplayed] = useState(() => shouldAnimate ? '' : content);
+  const [isTyping, setIsTyping] = useState(shouldAnimate);
+  const wordIndexRef = useRef(0);
+
+  useEffect(() => {
+    if (!shouldAnimate) return;
+
+    const words = content.split(' ');
+    wordIndexRef.current = 0;
+    setDisplayed('');
+    setIsTyping(true);
+
+    const timer = setInterval(() => {
+      wordIndexRef.current += 1;
+      const next = words.slice(0, wordIndexRef.current).join(' ');
+      setDisplayed(next);
+      if (wordIndexRef.current >= words.length) {
+        clearInterval(timer);
+        setIsTyping(false);
+      }
+    }, INTERVAL_MS);
+
+    return () => clearInterval(timer);
+  }, [shouldAnimate, content]);
 
   const handleCopy = () => {
     navigator.clipboard.writeText(content);
@@ -30,8 +60,8 @@ export default function ChatMessage({ role, content, created_at }) {
       <div className={`flex gap-4 max-w-[85%] ${isUser ? 'flex-row-reverse' : 'flex-row'}`}>
         {/* Avatar */}
         <div className={`shrink-0 w-8 h-8 rounded-full flex items-center justify-center shadow-sm mt-1 transition-transform group-hover:scale-105 ${isUser
-          ? 'bg-accent text-white'
-          : 'bg-white border border-accent/20 text-accent'
+          ? 'accent-gradient-bg text-white shadow-glow-sm'
+          : 'bg-surface border border-accent/30 text-accent animate-ai-pulse'
           }`}>
           {isUser ? (
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -49,31 +79,39 @@ export default function ChatMessage({ role, content, created_at }) {
         {/* Message bubble + timestamp */}
         <div className={`flex flex-col gap-1 ${isUser ? 'items-end' : 'items-start'}`}>
           <div
-            className={`relative px-5 py-3.5 rounded-2xl text-[0.95rem] leading-relaxed shadow-sm transition-all duration-200 ${isUser
-              ? 'bg-accent text-white rounded-tr-sm shadow-accent/20'
-              : 'bg-white border border-border-subtle/60 text-content-primary rounded-tl-sm shadow-sm'
+            className={`relative px-5 py-3.5 rounded-2xl text-[0.95rem] leading-relaxed transition-all duration-200 ${isUser
+              ? 'accent-bubble-bg text-white rounded-tr-sm shadow-glow-sm'
+              : 'bg-surface border border-border text-content-primary rounded-tl-sm shadow-md'
               }`}
           >
             {isUser ? (
-              <div className="whitespace-pre-wrap">{content}</div>
+              <div className="whitespace-pre-wrap select-text cursor-text">{content}</div>
+            ) : isTyping ? (
+              /* During streaming: render plain text so partial markdown markers never show as raw ** */
+              <div className="whitespace-pre-wrap text-[0.95rem] leading-relaxed text-content-primary">
+                {displayed}
+                <span className="inline-block w-[2px] h-[1em] bg-accent align-middle ml-0.5 animate-pulse" />
+              </div>
             ) : (
-              <div className="prose prose-sm prose-slate max-w-none prose-strong:text-accent prose-strong:font-bold prose-blockquote:border-l-accent prose-blockquote:bg-surface-active/10 prose-blockquote:py-1 prose-blockquote:px-3 prose-blockquote:rounded-r-md prose-blockquote:font-serif prose-blockquote:not-italic prose-blockquote:text-content-secondary prose-a:text-accent hover:prose-a:text-accent-hover text-content-primary">
+              /* After streaming (or for history messages): full markdown with bold/blue styling */
+              <div className={`prose prose-sm max-w-none prose-strong:text-accent prose-strong:font-bold prose-blockquote:border-l-accent prose-blockquote:bg-surface-hover/40 prose-blockquote:py-1 prose-blockquote:px-3 prose-blockquote:rounded-r-md prose-blockquote:font-serif prose-blockquote:not-italic prose-blockquote:text-content-secondary prose-a:text-accent hover:prose-a:text-accent-hover text-content-primary prose-headings:text-content-primary prose-code:text-accent prose-code:bg-surface-active/50 prose-code:rounded prose-code:px-1 ${isDark ? 'prose-invert' : 'prose-slate'}`}>
                 <ReactMarkdown>{content}</ReactMarkdown>
               </div>
             )}
-            
-            {!isUser && (
+
+            {/* Copy button — only shown when message is fully rendered */}
+            {!isUser && !isTyping && (
                <button
                  onClick={handleCopy}
-                 className="absolute top-2 right-2 p-1.5 rounded-md text-content-muted bg-white border border-border opacity-0 group-hover:opacity-100 transition-opacity hover:bg-surface-active/50 hover:text-content-primary shadow-sm"
+                 className="absolute top-2 right-2 p-1.5 rounded-md text-content-muted bg-surface-hover border border-border opacity-0 group-hover:opacity-100 transition-opacity hover:bg-surface-active hover:text-content-primary shadow-sm"
                  title="Copy to clipboard"
                >
                  {copied ? (
-                   <svg className="w-4 h-4 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                   <svg className="w-4 h-4 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                    </svg>
                  ) : (
-                   <svg className="w-4 h-4 text-content-muted" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
                    </svg>
                  )}
@@ -81,8 +119,8 @@ export default function ChatMessage({ role, content, created_at }) {
             )}
           </div>
 
-          {/* Timestamp */}
-          {timestamp && (
+          {/* Timestamp — only shown when done typing */}
+          {timestamp && !isTyping && (
             <span className="text-[10px] text-content-muted px-1">
               {timestamp}
             </span>

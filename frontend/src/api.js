@@ -113,19 +113,51 @@ export async function sendMessage(conversationId, message) {
  * Generate an interpretation of a case in light of the user query that triggered its retrieval.
  * @param {string} caseId - Case ID
  * @param {string} userQuery - The last user message that triggered the LLM to retrieve cases
+ * @param {number} [interpretationFrameId] - Optional interpretation frame ID
  * @returns {{ interpretation: string }}
  */
-export async function generateCaseInterpretation(caseId, userQuery) {
+export async function generateCaseInterpretation(caseId, userQuery, interpretationFrameId = null) {
+  const body = { case_id: caseId, user_query: userQuery };
+  if (interpretationFrameId != null) {
+    body.interpretation_frame_id = interpretationFrameId;
+  }
   return request('/chat/interpret-case/', {
     method: 'POST',
-    body: JSON.stringify({ case_id: caseId, user_query: userQuery }),
+    body: JSON.stringify(body),
   });
 }
 
-// ---------- Cases ----------
+// ---------- Cases & Frames ----------
 
 export async function getCase(caseId) {
   return request(`/cases/${encodeURIComponent(caseId)}`);
+}
+
+export async function getFrame(frameId) {
+  return request(`/frames/${encodeURIComponent(frameId)}`);
+}
+
+/**
+ * Fetch the PDF for a case as a Blob. Use URL.createObjectURL(blob) to display or download.
+ * @param {string} caseId - Internal case id string
+ * @returns {Promise<Blob>}
+ */
+export async function getCasePdf(caseId) {
+  const token = getStoredToken();
+  const headers = {};
+  if (token) headers['Authorization'] = `Bearer ${token}`;
+  const res = await fetch(`${BASE}/cases/${encodeURIComponent(caseId)}/pdf`, { headers });
+  if (!res.ok) {
+    const err = new Error(res.statusText);
+    err.status = res.status;
+    try { err.body = await res.json(); } catch { err.body = {}; }
+    if (res.status === 401) {
+      clearToken();
+      window.dispatchEvent(new Event('auth:logout'));
+    }
+    throw err;
+  }
+  return res.blob();
 }
 
 // ---------- Admin ----------

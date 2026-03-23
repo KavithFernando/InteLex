@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from datetime import datetime
 from typing import List, Optional
 
@@ -20,9 +22,9 @@ class MessageItem(BaseModel):
     role: str
     content: str
     created_at: Optional[datetime] = None
-    retrieval_result: Optional[List["CaseSummary"]] = Field(
+    retrieval_result: Optional[List["FrameSummary"]] = Field(
         default=None,
-        description="Case results for this assistant message, if any.",
+        description="Ranked interpretation frames for this assistant message, if any.",
     )
 
 
@@ -36,25 +38,43 @@ class ClauseSummary(BaseModel):
     text: Optional[str] = None
 
 
-class CaseSummary(BaseModel):
+class FrameSummary(BaseModel):
+    """One retrieval row: a ranked interpretation frame plus case metadata for display."""
+
+    interpretation_frame_id: Optional[int] = Field(
+        None,
+        description="Primary corpus unit for this hit; omit on legacy stored messages.",
+    )
     case_id: str
+    case_identifier: Optional[str] = None
     case_title: Optional[str] = None
     decision_date: Optional[str] = None
     clauses: List[ClauseSummary] = Field(default_factory=list)
     score: Optional[float] = None
+    frame_identifier: Optional[str] = None
+    matched_article: Optional[str] = None
+    matched_subclause: Optional[str] = None
+    matched_clause_text: Optional[str] = None
+
+
+CaseSummary = FrameSummary
 
 
 class ChatResponse(BaseModel):
     response: str
     conversation_id: str
-    retrieval_result: List[CaseSummary] = Field(
+    retrieval_result: List[FrameSummary] = Field(
         default_factory=list,
-        description="Top cases: case_id, case_title, decision_date, clauses. Full case via separate API when user clicks.",
+        description="Top interpretation frames: frame id, case id, matched clause, score. Case detail via GET /cases/{id}; frame detail via GET /frames/{id}.",
     )
 
 
 class InterpretCaseRequest(BaseModel):
-    case_id: str = Field(..., min_length=1, description="Case to interpret.")
+    case_id: str = Field(..., min_length=1, description="Case to interpret (internal id or case_identifier).")
+    interpretation_frame_id: Optional[int] = Field(
+        None,
+        description="If set, interpretation uses this frame's narrative fields; must belong to the given case.",
+    )
     user_query: str = Field(..., min_length=1, description="The user message that triggered retrieval of this case.")
 
 

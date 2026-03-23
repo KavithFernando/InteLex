@@ -1,5 +1,5 @@
 import uuid
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 from fastapi import APIRouter, Depends, HTTPException
 from loguru import logger
@@ -215,6 +215,45 @@ def _case_text_for_interpretation(case: dict) -> str:
     return "\n\n".join(parts) if parts else ""
 
 
+def _frame_text_for_interpretation(frame: dict) -> str:
+    """Build interpretation prompt text from one interpretation frame + case shell."""
+    parts = []
+    if frame.get("case_title"):
+        parts.append(f"Title: {frame['case_title']}")
+    if frame.get("article"):
+        sub = frame.get("subclause") or ""
+        parts.append(f"Constitution article: {frame['article']}" + (f" {sub}" if sub else ""))
+    if frame.get("clause_text"):
+        parts.append(f"Clause text:\n{frame['clause_text']}")
+    if frame.get("legal_issue"):
+        parts.append(f"Legal issue: {frame['legal_issue']}")
+    if frame.get("interpretation_summary"):
+        parts.append(f"Interpretation summary: {frame['interpretation_summary']}")
+    if frame.get("outcome"):
+        parts.append(f"Outcome: {frame['outcome']}")
+    if frame.get("petitioner_claim"):
+        parts.append(f"Petitioner's claim: {frame['petitioner_claim']}")
+    if frame.get("respondent_argument"):
+        parts.append(f"Respondent's argument: {frame['respondent_argument']}")
+    if frame.get("key_facts"):
+        kf = frame["key_facts"]
+        if isinstance(kf, list) and kf:
+            parts.append("Key facts: " + "; ".join(kf))
+    if frame.get("principles_established"):
+        pr = frame["principles_established"]
+        if isinstance(pr, list) and pr:
+            parts.append("Principles: " + "; ".join(pr))
+    return "\n\n".join(parts) if parts else ""
+
+
+def _case_ref_matches(request_case_id: str, frame_case_id: str, frame_case_identifier: Optional[str]) -> bool:
+    if request_case_id == frame_case_id:
+        return True
+    if frame_case_identifier and request_case_id == frame_case_identifier:
+        return True
+    return False
+
+
 @router.post("/chat/interpret-case/", response_model=InterpretCaseResponse)
 async def interpret_case(
     body: InterpretCaseRequest,
@@ -223,10 +262,25 @@ async def interpret_case(
     chat_service=Depends(get_chat_service),
 ) -> InterpretCaseResponse:
     """Generate an interpretation of a case in light of the user query that triggered its retrieval."""
-    case = case_repo.fetch_case_by_id(body.case_id)
-    if not case:
-        raise HTTPException(status_code=404, detail="Case not found.")
-    case_text = _case_text_for_interpretation(case)
+    if body.interpretation_frame_id is not None:
+        frame = case_repo.fetch_frame_by_id(body.interpretation_frame_id)
+        if not frame:
+            raise HTTPException(status_code=404, detail="Interpretation frame not found.")
+        if not _case_ref_matches(
+            body.case_id.strip(),
+            frame["case_id"],
+            frame.get("case_identifier"),
+        ):
+            raise HTTPException(
+                status_code=400,
+                detail="interpretation_frame_id does not belong to the given case_id.",
+            )
+        case_text = _frame_text_for_interpretation(frame)
+    else:
+        case = case_repo.fetch_case_by_id(body.case_id)
+        if not case:
+            raise HTTPException(status_code=404, detail="Case not found.")
+        case_text = _case_text_for_interpretation(case)
     if not case_text.strip():
         raise HTTPException(
             status_code=400,
