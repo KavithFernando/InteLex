@@ -21,7 +21,7 @@ from services.chat import SYSTEM_PROMPT
 
 router = APIRouter()
 
-KEEP_LAST_MESSAGES = 10
+KEEP_LAST_MESSAGES = 12 # 6 full turns (user + assistant) × 2 messages each
 MAX_TITLE_LENGTH = 50
 
 
