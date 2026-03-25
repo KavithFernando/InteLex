@@ -1,23 +1,43 @@
 from typing import Any, Dict, List
 
 from services.interfaces import RetrievalServiceInterface
+from services.query_parser import parse_query
 
 
 class CaseSearchService:
 
-    def __init__(self, retrieval_service: RetrievalServiceInterface, case_repository):
+    def __init__(
+        self,
+        retrieval_service: RetrievalServiceInterface,
+        case_repository,
+        openai_client=None, # enables query parsing
+    ):
         self._retrieval = retrieval_service
         self._case_repo = case_repository
+        self._openai_client = openai_client
 
     def run_case_search(self, query_text: str, top_k: int = 10) -> Dict[str, Any]:
         """
         Frame-first retrieval: top_k globally ranked interpretation frames, merged with
         corpus case summaries (clauses list, identifiers) from the DB.
         """
+        # Parse the query to detect article references before hitting FAISS
+        parsed = parse_query(query_text, self._openai_client)
+
+        article_filter = None
+        article_base_filter = None
+        if parsed.query_type == "clause_first":
+            if parsed.article:
+                article_filter = parsed.article
+            if parsed.article_base:
+                article_base_filter = parsed.article_base
+
         retrieval = self._retrieval.search_frames(
             query_text=query_text,
             top_k=top_k,
             frame_recall=None,
+            article_filter=article_filter,
+            article_base_filter=article_base_filter,
         )
         results = retrieval.get("results", [])
         if not results:
