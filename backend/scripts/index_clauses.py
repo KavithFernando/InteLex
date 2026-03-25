@@ -39,7 +39,7 @@ from db.connection import get_connection
 
 def build_embedding_text(row: dict) -> str:
     """
-    RQ1: Build a semantically rich embedding from all meaningful case-frame fields.
+    Building a semantically rich embedding from all meaningful case-frame fields.
     Ordering: legal issue first (most query-relevant), then petitioner claim,
     then court's reasoning and principles (most substantive), then clause text
     (anchors the embedding to the constitutional provision).
@@ -122,7 +122,7 @@ def main() -> None:
     texts = []
     row_map = []
     for r in rows:
-        t = build_embedding_text(r)   # ← pass full row, not individual fields
+        t = build_embedding_text(r)
         texts.append(t)
         dd = r.get("decision_date")
         art = str(r["article"]).strip()
@@ -137,12 +137,12 @@ def main() -> None:
             "decision_date": str(dd) if dd is not None else None,
             "clause_id": int(r["clause_id"]),
             "article": art,
-            "article_base": art.split("(")[0].strip(),   # ← NEW: e.g. "12" from "12(2)"
+            "article_base": art.split("(")[0].strip(),
             "subclause": sub,
             "clause_text": (r.get("clause_text") or "").strip(),
-            "disposition": (r.get("disposition") or "").strip(),     # ← NEW
-            "relevance_level": (r.get("relevance_level") or "").strip(), # ← NEW
-            "match_type": (r.get("match_type") or "").strip(),      # ← NEW
+            "disposition": (r.get("disposition") or "").strip(),
+            "relevance_level": (r.get("relevance_level") or "").strip(),
+            "match_type": (r.get("match_type") or "").strip(),
         })
 
     print(f"Loaded {len(rows)} interpretation_frame row(s) for indexing.")

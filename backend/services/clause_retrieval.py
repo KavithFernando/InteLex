@@ -30,6 +30,9 @@ class ClauseFrameRetrievalService(RetrievalServiceInterface):
         self._embedder = None
         self._row_map: List[Dict[str, Any]] = []
         self._embed_model: Optional[str] = None
+        # For pre-filtering by article
+        self._article_to_ids: Dict[str, List[int]] = {}
+        self._article_base_to_ids: Dict[str, List[int]] = {}
 
     def _load_assets(self) -> None:
         if self._index is None:
@@ -42,11 +45,23 @@ class ClauseFrameRetrievalService(RetrievalServiceInterface):
         if self._embedder is None and self._embed_model:
             self._embedder = SentenceTransformer(self._embed_model)
 
+        # Build article -> FAISS row index lookup
+        if not self._article_to_ids:
+            self._article_to_ids = {}
+            self._article_base_to_ids = {}
+            for i, row in enumerate(self._row_map):
+                art = row.get("article", "")
+                base = row.get("article_base") or art.split("(")[0].strip()
+                self._article_to_ids.setdefault(art, []).append(i)
+                self._article_base_to_ids.setdefault(base, []).append(i)
+
     def search_frames(
         self,
         query_text: str,
         top_k: int = 10,
         frame_recall: int | None = None,
+        article_filter: str | None = None, # exact match like "12(2)"
+        article_base_filter: str | None = None, # base article like "12"
     ) -> Dict[str, Any]:
         """
         Globally rank interpretation frames: each FAISS row is one frame; keep the best
@@ -65,14 +80,27 @@ class ClauseFrameRetrievalService(RetrievalServiceInterface):
                 FRAME_RECALL_MIN,
                 min(FRAME_RECALL_MAX, ntotal // FRAME_RECALL_DIVISOR),
             )
-        else:
-            frame_recall = frame_recall
 
-        frame_recall = min(frame_recall, ntotal)
+        # Determine eligible FAISS row indices (article pre-filtering, RQ2)
+        valid_ids: set | None = None
+        if article_filter and article_filter in self._article_to_ids:
+            valid_ids = set(self._article_to_ids[article_filter])
+        elif article_base_filter and article_base_filter in self._article_base_to_ids:
+            valid_ids = set(self._article_base_to_ids[article_base_filter])
+
+        # Compensate: expand recall so filtering doesn't starve top_k
+        effective_recall = frame_recall
+        if valid_ids is not None:
+            filtered_count = len(valid_ids)
+            if filtered_count == 0:
+                return {"results": []}
+            effective_recall = min(FRAME_RECALL_MAX, max(frame_recall, filtered_count * 4))
+
+        effective_recall = min(effective_recall, ntotal)
         top_k = max(1, top_k)
 
         q = self._embedder.encode([query_text], normalize_embeddings=True).astype("float32")
-        scores, idxs = self._index.search(q, frame_recall)
+        scores, idxs = self._index.search(q, effective_recall)
 
         # frame_id -> (best_score, faiss_idx, row)
         best_by_frame: Dict[int, tuple] = {}
@@ -81,6 +109,8 @@ class ClauseFrameRetrievalService(RetrievalServiceInterface):
                 continue
             fi = int(idx)
             if fi >= len(self._row_map):
+                continue
+            if valid_ids is not None and fi not in valid_ids: # article pre-filter
                 continue
             row = self._row_map[fi]
             raw_fid = row.get("interpretation_frame_id")
@@ -123,9 +153,13 @@ def search_frames(
     query_text: str,
     top_k: int = 10,
     frame_recall: int | None = None,
+    article_filter: str | None = None,
+    article_base_filter: str | None = None,
 ) -> Dict[str, Any]:
     return _default_clause_service().search_frames(
         query_text=query_text,
         top_k=top_k,
         frame_recall=frame_recall,
+        article_filter=article_filter,
+        article_base_filter=article_base_filter,
     )
