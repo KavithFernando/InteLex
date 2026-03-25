@@ -138,6 +138,7 @@ class ClauseFrameRetrievalService(RetrievalServiceInterface):
                     "clause_text": row.get("clause_text"),
                     "case_title": row.get("case_title"),
                     "decision_date": row.get("decision_date"),
+                    "disposition": row.get("disposition"),
                     "best_faiss_id": fi,
                 }
             )

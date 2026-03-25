@@ -4,6 +4,30 @@ from services.interfaces import RetrievalServiceInterface
 from services.query_parser import parse_query
 
 
+def detect_divergence(results: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """
+    Detect when retrieved frames contain conflicting case outcomes.
+
+    A divergence exists when the result set contains both petition-granting
+    and petition-dismissing dispositions — indicating the clause has been
+    interpreted differently across cases.
+    """
+    GRANTING   = {"upheld", "granted", "allowed", "allowed_in_part"}
+    DISMISSING = {"dismissed", "refused"}
+
+    granted   = [r for r in results if (r.get("disposition") or "").lower() in GRANTING]
+    dismissed = [r for r in results if (r.get("disposition") or "").lower() in DISMISSING]
+
+    has_divergence = len(granted) > 0 and len(dismissed) > 0
+
+    return {
+        "has_divergence": has_divergence,
+        "granted_count": len(granted),
+        "dismissed_count": len(dismissed),
+        "majority_disposition": "granted" if len(granted) >= len(dismissed) else "dismissed",
+    }
+
+
 class CaseSearchService:
 
     def __init__(
@@ -72,6 +96,7 @@ class CaseSearchService:
                     "matched_article": r.get("article"),
                     "matched_subclause": r.get("subclause"),
                     "matched_clause_text": r.get("clause_text"),
+                    "disposition": r.get("disposition"),
                     # Prefer index map title/date when present (same as retrieval row)
                     "case_title": r.get("case_title") or s.get("case_title"),
                     "decision_date": decision_date,
@@ -87,4 +112,10 @@ class CaseSearchService:
             "count": count,
         }
 
-        return {"tool_content": tool_content, "retrieval_result": retrieval_result}
+        divergence = detect_divergence(retrieval_result)
+
+        return {
+            "tool_content": tool_content,
+            "retrieval_result": retrieval_result,
+            "divergence": divergence,
+        }
