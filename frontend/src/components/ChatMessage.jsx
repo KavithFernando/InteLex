@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 
-const WORDS_PER_SECOND = 30; // typing speed
+const WORDS_PER_SECOND = 45; // typing speed
 const INTERVAL_MS = Math.round(1000 / WORDS_PER_SECOND);
 
 // Closes any unclosed ** pair so ReactMarkdown never renders raw markers mid-type
