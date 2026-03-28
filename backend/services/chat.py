@@ -92,18 +92,40 @@ def _divergence_note(divergence: dict) -> str:
     )
 
 
-def _build_synthesis_prompt(user_query: str, frame_blocks: List[str], divergence_note: str = "") -> str:
+def _build_synthesis_prompt(user_query: str, frame_blocks: List[str], divergence_note: str = "", pinned_frame_blocks: Optional[List[str]] = None) -> str:
     n = len(frame_blocks)
-    cases_text = "\n\n".join(frame_blocks)
     div_section = f"\n{divergence_note}\n" if divergence_note else ""
+
+    if pinned_frame_blocks:
+        pinned_section = (
+            "The user has explicitly referenced the following case(s). "
+            "Ensure your analysis directly addresses these:\n\n"
+            + "\n\n".join(pinned_frame_blocks)
+        )
+        if n > 0:
+            cases_section = (
+                "Additionally, the database retrieved the following related case(s):\n\n"
+                + "\n\n".join(frame_blocks)
+            )
+            all_cases = f"{pinned_section}\n\n{cases_section}"
+        else:
+            all_cases = pinned_section
+        intro = (
+            f"The user has directly referenced {len(pinned_frame_blocks)} case(s)"
+            + (f", and the database retrieved {n} additional related frame(s)." if n > 0 else ".")
+        )
+    else:
+        all_cases = "\n\n".join(frame_blocks)
+        intro = f"The database retrieved the {n} most relevant interpretation frame(s) from the case corpus."
+
     return f"""You are a legal research assistant specialising in Sri Lankan constitutional law.
 
 The user asked:
 \"\"\"{user_query}\"\"\"
 
-The database retrieved the {n} most relevant interpretation frame(s) from the case corpus. Each frame represents how a specific case applied a specific constitutional clause.
+{intro} Each frame represents how a specific case applied a specific constitutional clause.
 
-{cases_text}
+{all_cases}
 {div_section}
 ---
 
@@ -154,10 +176,25 @@ class ChatService:
                 logger.warning("Failed to fetch frame %s for synthesis: %s", fid, e)
         return details
 
-    def run_chat_turn(self, conversation_messages: List[Dict[str, Any]]) -> Tuple[str, Optional[List[Dict[str, Any]]]]:
+    def _fetch_frames_by_ids(self, frame_ids: List[int]) -> List[Dict[str, Any]]:
+        """Fetch full FrameDetail for explicit frame IDs (user-pinned @-mention cases)."""
+        if not self._case_repo or not frame_ids:
+            return []
+        details = []
+        for fid in frame_ids:
+            try:
+                detail = self._case_repo.fetch_frame_by_id(fid)
+                if detail:
+                    details.append(detail)
+            except Exception as e:
+                logger.warning("Failed to fetch pinned frame %s: %s", fid, e)
+        return details
+
+    def run_chat_turn(self, conversation_messages: List[Dict[str, Any]], pinned_case_ids: Optional[List[int]] = None) -> Tuple[str, Optional[List[Dict[str, Any]]]]:
         client = self._get_client()
         retrieval_result: Optional[List[Dict[str, Any]]] = None
         divergence: Dict[str, Any] = {}
+        pinned_case_ids = [int(x) for x in (pinned_case_ids or []) if x is not None]
 
         # First call: let the model decide whether to call search_cases or respond directly
         resp = client.chat.completions.create(
@@ -173,46 +210,70 @@ class ChatService:
         logger.info("First call finish_reason: %s", resp.choices[0].finish_reason)
 
         tool_calls = getattr(msg, "tool_calls", None)
-        if not tool_calls:
+        # Only short-circuit to a direct reply when there are no pinned cases either
+        if not tool_calls and not pinned_case_ids:
             logger.info("No tool call — returning direct reply")
             return (msg.content or ""), None
 
-        logger.info("Tool call triggered")
+        logger.info("Tool call triggered" if tool_calls else "No tool call — synthesising from pinned cases")
 
         # Extract the user's query text from the tool call for synthesis
         user_query_for_synthesis = ""
-        for tc in tool_calls:
-            if tc.function.name == "search_cases":
-                try:
-                    args = json.loads(tc.function.arguments or "{}")
-                except json.JSONDecodeError:
-                    args = {}
-                user_query_for_synthesis = args.get("query_text", "")
+        if tool_calls:
+            for tc in tool_calls:
+                if tc.function.name == "search_cases":
+                    try:
+                        args = json.loads(tc.function.arguments or "{}")
+                    except json.JSONDecodeError:
+                        args = {}
+                    user_query_for_synthesis = args.get("query_text", "")
 
-                out = self._case_search_service.run_case_search(
-                    query_text=user_query_for_synthesis,
-                    top_k=int(args.get("top_k", 10)),
-                )
-                retrieval_result = out.get("retrieval_result", [])
-                divergence       = out.get("divergence", {})
+                    out = self._case_search_service.run_case_search(
+                        query_text=user_query_for_synthesis,
+                        top_k=int(args.get("top_k", 10)),
+                    )
+                    retrieval_result = out.get("retrieval_result", [])
+                    divergence       = out.get("divergence", {})
 
-        if not retrieval_result:
+        # If no tool call fired but the user pinned cases, fall back to the raw user message
+        if not tool_calls and pinned_case_ids:
+            for m in reversed(conversation_messages):
+                if m.get("role") == "user":
+                    user_query_for_synthesis = m.get("content", "")
+                    break
+
+        # Bail out only when there are truly no cases to work with
+        if not retrieval_result and not pinned_case_ids:
             return "I couldn't find any matching cases in the database for your query. Try rephrasing or narrowing the legal question.", []
 
-        # Fetch full frame details for synthesis
-        frame_details = self._fetch_frame_details(retrieval_result)
+        # Fetch full frame details for FAISS top results
+        frame_details = self._fetch_frame_details(retrieval_result or [])
 
-        if not frame_details:
-            # Fallback: no DB details available, return a plain count message
-            count = len(retrieval_result)
-            return f"I found {count} relevant interpretation frame(s) in the database. Click any card below to explore the details.", retrieval_result
+        # Fetch user-pinned frame details, excluding frames already in the FAISS results
+        pinned_details: List[Dict[str, Any]] = []
+        if pinned_case_ids:
+            faiss_ids = {fd.get("interpretation_frame_id") for fd in frame_details if fd.get("interpretation_frame_id")}
+            pinned_details = self._fetch_frames_by_ids(
+                [fid for fid in pinned_case_ids if fid not in faiss_ids]
+            )
+
+        if not frame_details and not pinned_details:
+            if retrieval_result:
+                count = len(retrieval_result)
+                return f"I found {count} relevant interpretation frame(s) in the database. Click any card below to explore the details.", retrieval_result
+            return "I couldn't find any matching cases in the database for your query. Try rephrasing or narrowing the legal question.", []
 
         # Build the synthesis
         frame_blocks = [_build_frame_context(fd, i + 1) for i, fd in enumerate(frame_details)]
+        pinned_frame_blocks = (
+            [_build_frame_context(fd, i + 1) for i, fd in enumerate(pinned_details)]
+            if pinned_details else None
+        )
         synthesis_prompt = _build_synthesis_prompt(
             user_query_for_synthesis,
             frame_blocks,
             divergence_note=_divergence_note(divergence),
+            pinned_frame_blocks=pinned_frame_blocks,
         )
 
         synthesis_resp = client.chat.completions.create(
@@ -224,7 +285,7 @@ class ChatService:
         synthesis = (synthesis_resp.choices[0].message.content or "").strip()
         logger.info("Synthesis complete (%d chars)", len(synthesis))
 
-        return synthesis, retrieval_result
+        return synthesis, retrieval_result or []
 
     def generate_case_interpretation(self, case_text: str, user_query: str) -> str:
         """Generate an interpretation of a specific case frame in light of the user's query."""

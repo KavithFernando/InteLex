@@ -102,10 +102,10 @@ export async function getConversationMessages(conversationId) {
   return request(`/conversations/${encodeURIComponent(conversationId)}/messages/`);
 }
 
-export async function sendMessage(conversationId, message) {
+export async function sendMessage(conversationId, message, pinnedCaseIds = []) {
   return request('/chat/', {
     method: 'POST',
-    body: JSON.stringify({ conversation_id: conversationId, message }),
+    body: JSON.stringify({ conversation_id: conversationId, message, pinned_case_ids: pinnedCaseIds }),
   });
 }
 

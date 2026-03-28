@@ -166,7 +166,10 @@ async def chat(
         messages_for_llm = _build_messages_for_llm(db_messages, user_text)
         logger.info("[Chat] Sending {} message(s) to LLM", len(messages_for_llm))
 
-        response_text, retrieval_result = chat_service.run_chat_turn(messages_for_llm)
+        response_text, retrieval_result = chat_service.run_chat_turn(
+            messages_for_llm,
+            pinned_case_ids=input.pinned_case_ids or [],
+        )
         logger.info(
             "[Chat] Turn complete | response_len={} retrieval_results={}",
             len(response_text),

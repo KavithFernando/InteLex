@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import {
   listConversations,
   createConversation,
@@ -163,8 +163,23 @@ export default function App() {
     setCaseDetail(null);
   }, []);
 
+  // All retrieved frames across the entire conversation, deduplicated by frame id.
+  // Made available to MessageInput so the user can @-mention them.
+  const availableCases = useMemo(() => {
+    const seen = new Set();
+    return messages
+      .filter((m) => m.role === 'assistant' && m.retrieval_result?.length)
+      .flatMap((m) => m.retrieval_result)
+      .filter(
+        (f) =>
+          f.interpretation_frame_id != null &&
+          !seen.has(f.interpretation_frame_id) &&
+          seen.add(f.interpretation_frame_id)
+      );
+  }, [messages]);
+
   const handleSendMessage = useCallback(
-    async (text) => {
+    async (text, pinnedCases = []) => {
       const cid = currentConversationId;
       if (!cid) return;
 
@@ -172,7 +187,10 @@ export default function App() {
 
       setSending(true);
       try {
-        const res = await apiSendMessage(cid, text);
+        const pinnedCaseIds = pinnedCases
+          .map((c) => c.interpretation_frame_id)
+          .filter((id) => id != null);
+        const res = await apiSendMessage(cid, text, pinnedCaseIds);
         setMessages((prev) => [
           ...prev,
           { role: 'assistant', content: res.response, retrieval_result: res.retrieval_result ?? [], created_at: new Date().toISOString(), animateIn: true },
@@ -430,7 +448,7 @@ export default function App() {
             {currentConversationId && (
               <div className="shrink-0 z-20 p-4 bg-gradient-to-t from-main-bg via-main-bg/95 to-transparent">
                 <div className="max-w-4xl mx-auto w-full">
-                  <MessageInput onSend={handleSendMessage} disabled={sending} />
+                  <MessageInput onSend={handleSendMessage} disabled={sending} availableCases={availableCases} maxMentions={3} />
                 </div>
               </div>
             )}
