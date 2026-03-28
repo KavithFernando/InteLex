@@ -23,7 +23,7 @@ function formatTimestamp(iso) {
     ', ' + d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 }
 
-export default function ChatMessage({ role, content, created_at, isDark = true, animateIn = false }) {
+export default function ChatMessage({ role, content, created_at, isDark = true, animateIn = false, pinnedCases }) {
   const [copied, setCopied] = useState(false);
   const isUser = role === 'user';
   const timestamp = formatTimestamp(created_at);
@@ -83,8 +83,25 @@ export default function ChatMessage({ role, content, created_at, isDark = true, 
         </div>
 
         {/* Message bubble + timestamp */}
-        <div className={`flex flex-col gap-1 ${isUser ? 'items-end' : 'items-start'}`}>
-          <div
+        <div className={`flex flex-col gap-1 ${isUser ? 'items-end' : 'items-start'}`}>            {/* Referenced-case chips — shown on user messages that had @-mentions */}
+            {isUser && pinnedCases?.length > 0 && (
+              <div className="flex flex-wrap gap-1.5 justify-end mb-1">
+                {pinnedCases.map((frame) => (
+                  <span
+                    key={frame.interpretation_frame_id ?? frame.case_title}
+                    className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-medium bg-accent/10 text-accent border border-accent/30"
+                    title={frame.case_title}
+                  >
+                    {frame.matched_article && (
+                      <span className="text-[0.6rem] font-bold opacity-70 leading-none">
+                        Art.{frame.matched_article}
+                      </span>
+                    )}
+                    <span className="max-w-[180px] truncate">{frame.case_title || 'Case'}</span>
+                  </span>
+                ))}
+              </div>
+            )}          <div
             className={`relative px-5 py-3.5 rounded-2xl text-[0.95rem] leading-relaxed transition-all duration-200 ${isUser
               ? 'accent-bubble-bg text-white rounded-tr-sm shadow-glow-sm'
               : 'bg-surface border border-border text-content-primary rounded-tl-sm shadow-md'

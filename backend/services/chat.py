@@ -196,37 +196,46 @@ class ChatService:
         divergence: Dict[str, Any] = {}
         pinned_case_ids = [int(x) for x in (pinned_case_ids or []) if x is not None]
 
-        # First call: let the model decide whether to call search_cases or respond directly
-        resp = client.chat.completions.create(
-            model=self._tool_model,
-            messages=conversation_messages,
-            tools=TOOLS,
-            tool_choice="auto",
-            temperature=0.2,
-            max_tokens=350,
-        )
-
-        msg = resp.choices[0].message
-        logger.info("First call finish_reason: %s", resp.choices[0].finish_reason)
-
-        tool_calls = getattr(msg, "tool_calls", None)
-        # Only short-circuit to a direct reply when there are no pinned cases either
-        if not tool_calls and not pinned_case_ids:
-            logger.info("No tool call — returning direct reply")
-            return (msg.content or ""), None
-
-        logger.info("Tool call triggered" if tool_calls else "No tool call — synthesising from pinned cases")
-
-        # Extract the user's query text from the tool call for synthesis
+        # Extract the last user message — needed as the synthesis query in all paths.
         user_query_for_synthesis = ""
-        if tool_calls:
+        for m in reversed(conversation_messages):
+            if m.get("role") == "user":
+                user_query_for_synthesis = m.get("content", "")
+                break
+
+        # When the user has pinned specific cases, skip retrieval entirely — we already
+        # know exactly which frames to use, so there is no need for the tool-calling step.
+        if pinned_case_ids:
+            logger.info("[Chat] Pinned cases present (%d) — skipping retrieval", len(pinned_case_ids))
+        else:
+            # First call: let the model decide whether to call search_cases or respond directly
+            resp = client.chat.completions.create(
+                model=self._tool_model,
+                messages=conversation_messages,
+                tools=TOOLS,
+                tool_choice="auto",
+                temperature=0.2,
+                max_tokens=350,
+            )
+
+            msg = resp.choices[0].message
+            logger.info("First call finish_reason: %s", resp.choices[0].finish_reason)
+
+            tool_calls = getattr(msg, "tool_calls", None)
+            if not tool_calls:
+                logger.info("No tool call — returning direct reply")
+                return (msg.content or ""), None
+
+            logger.info("Tool call triggered")
+
             for tc in tool_calls:
                 if tc.function.name == "search_cases":
                     try:
                         args = json.loads(tc.function.arguments or "{}")
                     except json.JSONDecodeError:
                         args = {}
-                    user_query_for_synthesis = args.get("query_text", "")
+                    # Use the LLM's extracted query for better semantic matching
+                    user_query_for_synthesis = args.get("query_text", "") or user_query_for_synthesis
 
                     out = self._case_search_service.run_case_search(
                         query_text=user_query_for_synthesis,
@@ -234,13 +243,6 @@ class ChatService:
                     )
                     retrieval_result = out.get("retrieval_result", [])
                     divergence       = out.get("divergence", {})
-
-        # If no tool call fired but the user pinned cases, fall back to the raw user message
-        if not tool_calls and pinned_case_ids:
-            for m in reversed(conversation_messages):
-                if m.get("role") == "user":
-                    user_query_for_synthesis = m.get("content", "")
-                    break
 
         # Bail out only when there are truly no cases to work with
         if not retrieval_result and not pinned_case_ids:

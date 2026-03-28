@@ -26,6 +26,10 @@ class MessageItem(BaseModel):
         default=None,
         description="Ranked interpretation frames for this assistant message, if any.",
     )
+    pinned_cases: Optional[List["FrameSummary"]] = Field(
+        default=None,
+        description="Cases @-referenced by the user in this message, if any.",
+    )
 
 
 class UserInput(BaseModel):

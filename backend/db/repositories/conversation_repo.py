@@ -99,29 +99,33 @@ class ConversationRepository:
         try:
             cur = conn.cursor(dictionary=True)
             cur.execute(
-                "SELECT role, content, retrieval_result, created_at FROM messages WHERE conversation_id = %s ORDER BY created_at ASC",
+                "SELECT role, content, retrieval_result, pinned_cases, created_at FROM messages WHERE conversation_id = %s ORDER BY created_at ASC",
                 (conversation_internal_id,),
             )
             rows = cur.fetchall()
             cur.close()
-            # Parse retrieval_result JSON if stored as string
+
+            def _parse_json_list(val):
+                if val is None:
+                    return None
+                if isinstance(val, list):
+                    return val
+                if isinstance(val, str):
+                    try:
+                        return json.loads(val) if val else []
+                    except (json.JSONDecodeError, TypeError):
+                        return []
+                return []
+
             out = []
             for r in rows:
-                retrieval = r.get("retrieval_result")
-                if retrieval is not None:
-                    if isinstance(retrieval, str):
-                        try:
-                            retrieval = json.loads(retrieval) if retrieval else []
-                        except (json.JSONDecodeError, TypeError):
-                            retrieval = []
-                    elif not isinstance(retrieval, list):
-                        retrieval = []
-                else:
-                    retrieval = None
+                retrieval = _parse_json_list(r.get("retrieval_result"))
+                pinned = _parse_json_list(r.get("pinned_cases"))
                 out.append({
                     "role": r["role"],
                     "content": r["content"],
                     "retrieval_result": retrieval,
+                    "pinned_cases": pinned if pinned else None,
                     "created_at": r.get("created_at"),
                 })
             return out
@@ -134,14 +138,16 @@ class ConversationRepository:
         role: str,
         content: str,
         retrieval_result: Optional[List[Dict[str, Any]]] = None,
+        pinned_cases: Optional[List[Dict[str, Any]]] = None,
     ) -> None:
         conn = get_connection()
         try:
             cur = conn.cursor()
-            json_val = json.dumps(retrieval_result) if retrieval_result else None
+            retrieval_json = json.dumps(retrieval_result) if retrieval_result else None
+            pinned_json = json.dumps(pinned_cases) if pinned_cases else None
             cur.execute(
-                "INSERT INTO messages (conversation_id, role, content, retrieval_result) VALUES (%s, %s, %s, %s)",
-                (conversation_internal_id, role, content, json_val),
+                "INSERT INTO messages (conversation_id, role, content, retrieval_result, pinned_cases) VALUES (%s, %s, %s, %s, %s)",
+                (conversation_internal_id, role, content, retrieval_json, pinned_json),
             )
             conn.commit()
             cur.close()
