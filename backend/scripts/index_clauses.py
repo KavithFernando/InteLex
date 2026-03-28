@@ -1,15 +1,14 @@
 """
-Build a FAISS index for clause-centric retrieval (RQ1/RQ2).
+Build a FAISS index for clause-centric retrieval.
 
 Each vector corresponds to one row in interpretation_frames, joined to
 constitution_clauses (article + subclause + clause text) and cases (identifiers).
 
-Embedding input (minimal, clause-first — no full judgment text):
-  Article: {article}
-  Subclause: {subclause or "—"}
-  Clause: {clause_text}
+Embedding input:
+  legal_issue, petitioner_claim, interpretation_summary, application_to_facts,
+  principles_agg, why_this_clause_matters, holding, clause_text (grounding anchor)
 
-Outputs (see config.settings):
+Outputs:
   - CLAUSE_INDEX_PATH: FAISS IndexFlatIP (cosine similarity with normalized embeddings)
   - CLAUSE_MAP_PATH: JSON with embed_model, row count, and row_map[i] metadata
 
@@ -38,15 +37,25 @@ from config.settings import CLAUSE_INDEX_PATH, CLAUSE_MAP_PATH, EMBED_MODEL
 from db.connection import get_connection
 
 
-def build_embedding_text(article: str, subclause: str, clause_text: str) -> str:
-    sub = (subclause or "").strip()
-    if not sub:
-        sub = "—"
-    return (
-        f"Article: {article}\n"
-        f"Subclause: {sub}\n"
-        f"Clause: {(clause_text or '').strip()}"
-    )
+def build_embedding_text(row: dict) -> str:
+    """
+    Building a semantically rich embedding from all meaningful case-frame fields.
+    Ordering: legal issue first (most query-relevant), then petitioner claim,
+    then court's reasoning and principles (most substantive), then clause text
+    (anchors the embedding to the constitutional provision).
+    """
+    parts = [
+        row.get("legal_issue") or "",
+        row.get("petitioner_claim") or "",
+        row.get("interpretation_summary") or "",
+        row.get("application_to_facts") or "",
+        row.get("principles_agg") or "",
+        row.get("why_this_clause_matters") or "",
+        row.get("holding") or "",
+        # Clause text last — provides constitutional grounding without dominating
+        f"Article {row.get('article', '')} {row.get('subclause', '')}: {row.get('clause_text', '')}",
+    ]
+    return " ".join(p.strip() for p in parts if p and p.strip())
 
 
 def fetch_frame_clause_rows():
@@ -55,16 +64,35 @@ def fetch_frame_clause_rows():
     cur.execute(
         """
         SELECT
-            intf.id AS interpretation_frame_id,
+            intf.id             AS interpretation_frame_id,
             intf.frame_identifier,
-            c.id AS case_id,
+            intf.legal_issue,
+            intf.petitioner_claim,
+            intf.interpretation_summary,
+            intf.application_to_facts,
+            intf.holding,
+            intf.disposition,
+            intf.why_this_clause_matters,
+            intf.relevance_level,
+            intf.match_type,
+            c.id                AS case_id,
             c.case_identifier,
             c.case_title,
             c.decision_date,
             cc.clause_id,
             cc.article,
             cc.subclause,
-            cc.clause_text
+            cc.clause_text,
+            (
+                SELECT GROUP_CONCAT(fp.principle_text ORDER BY fp.id SEPARATOR ' | ')
+                FROM frame_principles fp
+                WHERE fp.interpretation_frame_id = intf.id
+            ) AS principles_agg,
+            (
+                SELECT GROUP_CONCAT(fkf.fact_text ORDER BY fkf.id SEPARATOR ' | ')
+                FROM frame_key_facts fkf
+                WHERE fkf.interpretation_frame_id = intf.id
+            ) AS key_facts_agg
         FROM interpretation_frames AS intf
         INNER JOIN cases AS c ON c.id = intf.case_id
         INNER JOIN constitution_clauses AS cc ON cc.clause_id = intf.clause_id
@@ -94,14 +122,13 @@ def main() -> None:
     texts = []
     row_map = []
     for r in rows:
-        art = str(r["article"]).strip()
-        sub = (r.get("subclause") or "").strip()
-        ct = r.get("clause_text") or ""
-        t = build_embedding_text(art, sub, ct)
+        t = build_embedding_text(r)
         texts.append(t)
         dd = r.get("decision_date")
+        art = str(r["article"]).strip()
+        sub = (r.get("subclause") or "").strip()
         row_map.append({
-            "faiss_id": len(row_map),
+            "faiss_id": int(len(row_map)),
             "interpretation_frame_id": int(r["interpretation_frame_id"]),
             "frame_identifier": r.get("frame_identifier"),
             "case_id": int(r["case_id"]),
@@ -110,8 +137,12 @@ def main() -> None:
             "decision_date": str(dd) if dd is not None else None,
             "clause_id": int(r["clause_id"]),
             "article": art,
+            "article_base": art.split("(")[0].strip(),
             "subclause": sub,
-            "clause_text": ct.strip(),
+            "clause_text": (r.get("clause_text") or "").strip(),
+            "disposition": (r.get("disposition") or "").strip(),
+            "relevance_level": (r.get("relevance_level") or "").strip(),
+            "match_type": (r.get("match_type") or "").strip(),
         })
 
     print(f"Loaded {len(rows)} interpretation_frame row(s) for indexing.")

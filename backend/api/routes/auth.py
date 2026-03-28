@@ -1,5 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException, Request
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
+from loguru import logger
 
 from api.auth_deps import get_current_user, get_current_user_optional
 from api.limiter import limiter
@@ -28,6 +29,7 @@ DEFAULT_ROLE_NAME = "user"
 @router.post("/register", response_model=TokenResponse)
 def register(body: RegisterRequest) -> TokenResponse:
     if user_repo.get_by_username(body.username):
+        logger.warning("[Auth] Registration failed — username already taken: {}", body.username)
         log_audit("auth.register_failed", username=body.username, success=False, details={"reason": "username_taken"})
         raise HTTPException(status_code=400, detail="Username already taken.")
     role = role_repo.get_by_name(DEFAULT_ROLE_NAME)
@@ -35,6 +37,7 @@ def register(body: RegisterRequest) -> TokenResponse:
         raise HTTPException(status_code=500, detail="Default role not found.")
     user = user_repo.create_user(body.username, hash_password(body.password), role.role_id)
     log_audit("auth.register", user_id=user.user_id, username=user.username, success=True)
+    logger.info("[Auth] New user registered: {} (id={})", user.username, user.user_id)
     token = create_access_token(user.user_id, user.username)
     return TokenResponse(access_token=token)
 
@@ -44,10 +47,12 @@ def register(body: RegisterRequest) -> TokenResponse:
 def login(request: Request, body: LoginRequest) -> TokenResponse:
     user = user_repo.get_by_username(body.username)
     if not user or not verify_password(body.password, user.password_hash):
+        logger.warning("[Auth] Login failed for username: {}", body.username)
         log_audit("auth.login_failed", username=body.username, success=False)
         raise HTTPException(status_code=401, detail="Invalid username or password.")
     user_repo.update_last_login(user.user_id)
     log_audit("auth.login", user_id=user.user_id, username=user.username, success=True)
+    logger.info("[Auth] Login successful: {} (id={})", user.username, user.user_id)
     token = create_access_token(user.user_id, user.username)
     return TokenResponse(access_token=token)
 
@@ -79,8 +84,10 @@ def change_password(
     current_user: User = Depends(get_current_user),
 ) -> dict:
     if not verify_password(body.current_password, current_user.password_hash):
+        logger.warning("[Auth] Password change failed — wrong current password: {} (id={})", current_user.username, current_user.user_id)
         log_audit("auth.change_password_failed", user_id=current_user.user_id, username=current_user.username, success=False)
         raise HTTPException(status_code=400, detail="Current password is incorrect.")
     user_repo.update_password(current_user.user_id, hash_password(body.new_password))
     log_audit("auth.change_password", user_id=current_user.user_id, username=current_user.username, success=True)
+    logger.info("[Auth] Password changed: {} (id={})", current_user.username, current_user.user_id)
     return {"message": "Password changed successfully."}

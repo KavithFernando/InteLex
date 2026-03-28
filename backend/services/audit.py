@@ -4,6 +4,8 @@ Sensitive data (IP, user agent, etc.) is not collected or stored.
 """
 from typing import Any, Optional
 
+from loguru import logger
+
 from db.repositories import audit_repo
 
 
@@ -28,5 +30,5 @@ def log_audit(
             details=details,
             success=success,
         )
-    except Exception:
-        pass  # Do not fail the request if audit logging fails
+    except Exception as exc:  # Do not fail the request if audit logging fails
+        logger.warning("[Audit] Failed to persist audit event '{}' (user={}): {}", action, username, exc)

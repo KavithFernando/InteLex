@@ -2,6 +2,7 @@ import os
 
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import FileResponse
+from loguru import logger
 
 from api.auth_deps import get_current_user
 from api.deps import get_case_repo
@@ -60,6 +61,7 @@ def get_case_pdf(
 ) -> FileResponse:
     from config.settings import PDF_ROOT
     if not PDF_ROOT:
+        logger.warning("[Cases] PDF requested but PDF_ROOT is not configured")
         raise HTTPException(
             status_code=503,
             detail="PDF storage is not configured on this server. Set PDF_ROOT in the backend .env file.",
@@ -71,10 +73,12 @@ def get_case_pdf(
 
     pdf_rel = case.get("pdf_relative_path")
     if not pdf_rel:
+        logger.warning("[Cases] No pdf_relative_path for case {}", case_id)
         raise HTTPException(status_code=404, detail="No PDF is available for this case.")
 
     full_path = os.path.join(PDF_ROOT, pdf_rel)
     if not os.path.isfile(full_path):
+        logger.warning("[Cases] PDF file missing on disk for case {} | path={}", case_id, full_path)
         raise HTTPException(status_code=404, detail="PDF file not found on the server.")
 
     filename = os.path.basename(full_path)

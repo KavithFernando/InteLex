@@ -28,7 +28,14 @@ def get_retrieval_service() -> ClauseFrameRetrievalService:
 def get_case_search_service() -> CaseSearchService:
     global _case_search_service
     if _case_search_service is None:
-        _case_search_service = CaseSearchService(get_retrieval_service(), case_repo)
+        from config.settings import OPENAI_API_KEY
+        from openai import OpenAI
+        client = OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None
+        _case_search_service = CaseSearchService(
+            get_retrieval_service(),
+            case_repo,
+            openai_client=client,
+        )
     return _case_search_service
 
 

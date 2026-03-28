@@ -79,9 +79,23 @@ def _build_frame_context(frame: Dict[str, Any], rank: int) -> str:
     return "\n".join(lines)
 
 
-def _build_synthesis_prompt(user_query: str, frame_blocks: List[str]) -> str:
+def _divergence_note(divergence: dict) -> str:
+    if not divergence.get("has_divergence"):
+        return ""
+    granted   = divergence.get("granted_count", 0)
+    dismissed = divergence.get("dismissed_count", 0)
+    return (
+        f"NOTE: The retrieved cases contain divergent outcomes — "
+        f"{granted} petition(s) granted and {dismissed} dismissed. "
+        "Explain the dominant pattern first, then honestly note where interpretations "
+        "diverged and what distinguishes those cases."
+    )
+
+
+def _build_synthesis_prompt(user_query: str, frame_blocks: List[str], divergence_note: str = "") -> str:
     n = len(frame_blocks)
     cases_text = "\n\n".join(frame_blocks)
+    div_section = f"\n{divergence_note}\n" if divergence_note else ""
     return f"""You are a legal research assistant specialising in Sri Lankan constitutional law.
 
 The user asked:
@@ -90,7 +104,7 @@ The user asked:
 The database retrieved the {n} most relevant interpretation frame(s) from the case corpus. Each frame represents how a specific case applied a specific constitutional clause.
 
 {cases_text}
-
+{div_section}
 ---
 
 IMPORTANT RULES:
@@ -143,6 +157,7 @@ class ChatService:
     def run_chat_turn(self, conversation_messages: List[Dict[str, Any]]) -> Tuple[str, Optional[List[Dict[str, Any]]]]:
         client = self._get_client()
         retrieval_result: Optional[List[Dict[str, Any]]] = None
+        divergence: Dict[str, Any] = {}
 
         # First call: let the model decide whether to call search_cases or respond directly
         resp = client.chat.completions.create(
@@ -179,6 +194,7 @@ class ChatService:
                     top_k=int(args.get("top_k", 10)),
                 )
                 retrieval_result = out.get("retrieval_result", [])
+                divergence       = out.get("divergence", {})
 
         if not retrieval_result:
             return "I couldn't find any matching cases in the database for your query. Try rephrasing or narrowing the legal question.", []
@@ -193,7 +209,11 @@ class ChatService:
 
         # Build the synthesis
         frame_blocks = [_build_frame_context(fd, i + 1) for i, fd in enumerate(frame_details)]
-        synthesis_prompt = _build_synthesis_prompt(user_query_for_synthesis, frame_blocks)
+        synthesis_prompt = _build_synthesis_prompt(
+            user_query_for_synthesis,
+            frame_blocks,
+            divergence_note=_divergence_note(divergence),
+        )
 
         synthesis_resp = client.chat.completions.create(
             model=self._synthesis_model,

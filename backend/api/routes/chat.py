@@ -21,7 +21,7 @@ from services.chat import SYSTEM_PROMPT
 
 router = APIRouter()
 
-KEEP_LAST_MESSAGES = 10
+KEEP_LAST_MESSAGES = 12 # 6 full turns (user + assistant) × 2 messages each
 MAX_TITLE_LENGTH = 50
 
 
@@ -150,14 +150,28 @@ async def chat(
 
         internal_id = conv["id"]
         db_messages = conversation_repo.get_messages(internal_id)
+        logger.info(
+            "[Chat] New turn | user={} conversation={} history_depth={} msg_len={}",
+            current_user.username,
+            input.conversation_id,
+            len(db_messages),
+            len(user_text),
+        )
 
         if not conv.get("title") and len(db_messages) == 0:
             title = _generate_title_from_message(user_text)
             conversation_repo.update_title(internal_id, title)
+            logger.info("[Chat] Conversation title set: {!r}", title)
 
         messages_for_llm = _build_messages_for_llm(db_messages, user_text)
+        logger.info("[Chat] Sending {} message(s) to LLM", len(messages_for_llm))
 
         response_text, retrieval_result = chat_service.run_chat_turn(messages_for_llm)
+        logger.info(
+            "[Chat] Turn complete | response_len={} retrieval_results={}",
+            len(response_text),
+            len(retrieval_result) if retrieval_result else 0,
+        )
 
         conversation_repo.add_message(internal_id, "user", user_text)
         conversation_repo.add_message(
@@ -263,6 +277,7 @@ async def interpret_case(
 ) -> InterpretCaseResponse:
     """Generate an interpretation of a case in light of the user query that triggered its retrieval."""
     if body.interpretation_frame_id is not None:
+        logger.info("[Chat] interpret-case | user={} case={} frame={}", current_user.username, body.case_id, body.interpretation_frame_id)
         frame = case_repo.fetch_frame_by_id(body.interpretation_frame_id)
         if not frame:
             raise HTTPException(status_code=404, detail="Interpretation frame not found.")

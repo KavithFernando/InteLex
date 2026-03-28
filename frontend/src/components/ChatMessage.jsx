@@ -4,6 +4,12 @@ import ReactMarkdown from 'react-markdown';
 const WORDS_PER_SECOND = 30; // typing speed
 const INTERVAL_MS = Math.round(1000 / WORDS_PER_SECOND);
 
+// Closes any unclosed ** pair so ReactMarkdown never renders raw markers mid-type
+function safeMarkdown(text) {
+  const parts = text.split('**');
+  return parts.length % 2 === 0 ? text + '**' : text;
+}
+
 function formatTimestamp(iso) {
   if (!iso) return null;
   const d = new Date(iso);
@@ -87,9 +93,9 @@ export default function ChatMessage({ role, content, created_at, isDark = true, 
             {isUser ? (
               <div className="whitespace-pre-wrap select-text cursor-text">{content}</div>
             ) : isTyping ? (
-              /* During streaming: render plain text so partial markdown markers never show as raw ** */
-              <div className="whitespace-pre-wrap text-[0.95rem] leading-relaxed text-content-primary">
-                {displayed}
+              /* During streaming: render via markdown with safety-closed markers so case names stay blue */
+              <div className={`prose prose-sm max-w-none prose-strong:text-accent prose-strong:font-bold prose-blockquote:border-l-accent prose-blockquote:bg-surface-hover/40 prose-blockquote:py-1 prose-blockquote:px-3 prose-blockquote:rounded-r-md prose-blockquote:font-serif prose-blockquote:not-italic prose-blockquote:text-content-secondary prose-a:text-accent hover:prose-a:text-accent-hover text-content-primary prose-headings:text-content-primary prose-code:text-accent prose-code:bg-surface-active/50 prose-code:rounded prose-code:px-1 ${isDark ? 'prose-invert' : 'prose-slate'}`}>
+                <ReactMarkdown>{safeMarkdown(displayed)}</ReactMarkdown>
                 <span className="inline-block w-[2px] h-[1em] bg-accent align-middle ml-0.5 animate-pulse" />
               </div>
             ) : (

@@ -11,6 +11,7 @@ from typing import Any, Dict, List, Optional
 
 import faiss
 import numpy as np
+from loguru import logger
 from sentence_transformers import SentenceTransformer
 
 from config.settings import CLAUSE_INDEX_PATH, CLAUSE_MAP_PATH
@@ -30,23 +31,44 @@ class ClauseFrameRetrievalService(RetrievalServiceInterface):
         self._embedder = None
         self._row_map: List[Dict[str, Any]] = []
         self._embed_model: Optional[str] = None
+        # For pre-filtering by article
+        self._article_to_ids: Dict[str, List[int]] = {}
+        self._article_base_to_ids: Dict[str, List[int]] = {}
 
     def _load_assets(self) -> None:
         if self._index is None:
+            logger.info("[ClauseRetrieval] Loading FAISS index from {}", CLAUSE_INDEX_PATH)
             self._index = faiss.read_index(CLAUSE_INDEX_PATH)
+            logger.info("[ClauseRetrieval] FAISS index loaded | {} vectors", self._index.ntotal)
         if not self._row_map:
+            logger.info("[ClauseRetrieval] Loading clause map from {}", CLAUSE_MAP_PATH)
             with open(CLAUSE_MAP_PATH, "r", encoding="utf-8") as f:
                 meta = json.load(f)
             self._embed_model = meta.get("embed_model")
             self._row_map = meta.get("row_map") or []
+            logger.info("[ClauseRetrieval] Clause map loaded | {} rows | embed_model={}", len(self._row_map), self._embed_model)
         if self._embedder is None and self._embed_model:
+            logger.info("[ClauseRetrieval] Loading SentenceTransformer model: {}", self._embed_model)
             self._embedder = SentenceTransformer(self._embed_model)
+            logger.info("[ClauseRetrieval] SentenceTransformer ready")
+
+        # Build article -> FAISS row index lookup
+        if not self._article_to_ids:
+            self._article_to_ids = {}
+            self._article_base_to_ids = {}
+            for i, row in enumerate(self._row_map):
+                art = row.get("article", "")
+                base = row.get("article_base") or art.split("(")[0].strip()
+                self._article_to_ids.setdefault(art, []).append(i)
+                self._article_base_to_ids.setdefault(base, []).append(i)
 
     def search_frames(
         self,
         query_text: str,
         top_k: int = 10,
         frame_recall: int | None = None,
+        article_filter: str | None = None, # exact match like "12(2)"
+        article_base_filter: str | None = None, # base article like "12"
     ) -> Dict[str, Any]:
         """
         Globally rank interpretation frames: each FAISS row is one frame; keep the best
@@ -65,14 +87,34 @@ class ClauseFrameRetrievalService(RetrievalServiceInterface):
                 FRAME_RECALL_MIN,
                 min(FRAME_RECALL_MAX, ntotal // FRAME_RECALL_DIVISOR),
             )
-        else:
-            frame_recall = frame_recall
 
-        frame_recall = min(frame_recall, ntotal)
+        # Determine eligible FAISS row indices (article pre-filtering, RQ2)
+        valid_ids: set | None = None
+        if article_filter and article_filter in self._article_to_ids:
+            valid_ids = set(self._article_to_ids[article_filter])
+        elif article_base_filter and article_base_filter in self._article_base_to_ids:
+            valid_ids = set(self._article_base_to_ids[article_base_filter])
+
+        # Compensate: expand recall so filtering doesn't starve top_k
+        effective_recall = frame_recall
+        if valid_ids is not None:
+            filtered_count = len(valid_ids)
+            if filtered_count == 0:
+                return {"results": []}
+            effective_recall = min(FRAME_RECALL_MAX, max(frame_recall, filtered_count * 4))
+
+        effective_recall = min(effective_recall, ntotal)
         top_k = max(1, top_k)
 
         q = self._embedder.encode([query_text], normalize_embeddings=True).astype("float32")
-        scores, idxs = self._index.search(q, frame_recall)
+        logger.info(
+            "[ClauseRetrieval] Searching FAISS | top_k={} effective_recall={} article_filter={} article_base_filter={}",
+            top_k,
+            effective_recall,
+            article_filter or "(none)",
+            article_base_filter or "(none)",
+        )
+        scores, idxs = self._index.search(q, effective_recall)
 
         # frame_id -> (best_score, faiss_idx, row)
         best_by_frame: Dict[int, tuple] = {}
@@ -81,6 +123,8 @@ class ClauseFrameRetrievalService(RetrievalServiceInterface):
                 continue
             fi = int(idx)
             if fi >= len(self._row_map):
+                continue
+            if valid_ids is not None and fi not in valid_ids: # article pre-filter
                 continue
             row = self._row_map[fi]
             raw_fid = row.get("interpretation_frame_id")
@@ -93,6 +137,12 @@ class ClauseFrameRetrievalService(RetrievalServiceInterface):
                 best_by_frame[fid] = (sc, fi, row)
 
         ranked = sorted(best_by_frame.values(), key=lambda t: -t[0])[:top_k]
+        logger.info(
+            "[ClauseRetrieval] Dedup complete | raw_hits={} unique_frames={} returning={}",
+            sum(1 for idx in idxs[0] if idx >= 0),
+            len(best_by_frame),
+            len(ranked),
+        )
 
         results: List[Dict[str, Any]] = []
         for sc, fi, row in ranked:
@@ -108,6 +158,7 @@ class ClauseFrameRetrievalService(RetrievalServiceInterface):
                     "clause_text": row.get("clause_text"),
                     "case_title": row.get("case_title"),
                     "decision_date": row.get("decision_date"),
+                    "disposition": row.get("disposition"),
                     "best_faiss_id": fi,
                 }
             )
@@ -123,9 +174,13 @@ def search_frames(
     query_text: str,
     top_k: int = 10,
     frame_recall: int | None = None,
+    article_filter: str | None = None,
+    article_base_filter: str | None = None,
 ) -> Dict[str, Any]:
     return _default_clause_service().search_frames(
         query_text=query_text,
         top_k=top_k,
         frame_recall=frame_recall,
+        article_filter=article_filter,
+        article_base_filter=article_base_filter,
     )

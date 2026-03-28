@@ -11,6 +11,8 @@ class RetrievalServiceInterface(ABC):
         query_text: str,
         top_k: int = 10,
         frame_recall: int | None = None,
+        article_filter: str | None = None,
+        article_base_filter: str | None = None,
     ) -> Dict[str, Any]:
         """
         Return globally ranked interpretation frames.
