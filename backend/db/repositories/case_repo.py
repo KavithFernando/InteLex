@@ -1,4 +1,7 @@
+import time
 from typing import Any, Dict, List, Optional
+
+from loguru import logger
 
 from db.connection import get_connection
 
@@ -30,6 +33,7 @@ class CaseRepository:
         if not case_internal_ids:
             return []
 
+        t0 = time.perf_counter()
         conn = get_connection()
         cur = conn.cursor(dictionary=True)
         placeholders = ",".join(["%s"] * len(case_internal_ids))
@@ -83,12 +87,19 @@ class CaseRepository:
                     "clauses": clauses_by_case.get(cid, []),
                 }
             )
+        logger.info(
+            "[CaseRepo] fetch_corpus_case_summaries | ids={} returned={} elapsed={:.3f}s",
+            len(case_internal_ids),
+            len(out),
+            time.perf_counter() - t0,
+        )
         return out
 
     def fetch_case_by_id(self, case_id: str) -> Optional[Dict[str, Any]]:
         """
         Lookup by internal numeric id (string) or case_identifier.
         """
+        t0 = time.perf_counter()
         conn = get_connection()
         cur = conn.cursor(dictionary=True)
 
@@ -216,10 +227,17 @@ class CaseRepository:
 
         cur.close()
         conn.close()
+        logger.info(
+            "[CaseRepo] fetch_case_by_id | id={} found={} elapsed={:.3f}s",
+            case_id,
+            True,
+            time.perf_counter() - t0,
+        )
         return out
 
     def fetch_frame_by_id(self, interpretation_frame_id: int) -> Optional[Dict[str, Any]]:
         """Single interpretation frame with case shell, clause row, and frame-scoped children."""
+        t0 = time.perf_counter()
         conn = get_connection()
         cur = conn.cursor(dictionary=True)
         cur.execute(
@@ -312,7 +330,7 @@ class CaseRepository:
         cur.close()
         conn.close()
 
-        return {
+        result = {
             "interpretation_frame_id": frame_pk,
             "frame_identifier": row.get("frame_identifier"),
             "case_id": str(case_pk),
@@ -334,6 +352,12 @@ class CaseRepository:
             "principles_established": principles,
             "precedents_cited": precedents,
         }
+        logger.info(
+            "[CaseRepo] fetch_frame_by_id | frame_id={} elapsed={:.3f}s",
+            interpretation_frame_id,
+            time.perf_counter() - t0,
+        )
+        return result
 
 
 case_repo = CaseRepository()

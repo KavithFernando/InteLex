@@ -11,6 +11,8 @@ import re
 from dataclasses import dataclass
 from typing import Optional
 
+from loguru import logger
+
 from config.settings import OPENAI_TOOL_MODEL
 
 
@@ -97,9 +99,16 @@ def parse_query(query: str, client) -> ParsedQuery:
     """
     result = _regex_parse(query)
     if result is not None:
+        logger.info(
+            "[QueryParser] Regex path matched | article={} article_base={} type={}",
+            result.article or "(none)",
+            result.article_base or "(none)",
+            result.query_type,
+        )
         return result
 
     if client is None:
+        logger.info("[QueryParser] No regex match and no LLM client — falling back to fact_pattern")
         return ParsedQuery(article=None, article_base=None, query_type="fact_pattern")
 
     prompt = (
@@ -127,11 +136,19 @@ def parse_query(query: str, client) -> ParsedQuery:
             messages=[{"role": "user", "content": prompt}],
         )
         data = json.loads(response.choices[0].message.content or "{}")
-        return ParsedQuery(
+        parsed = ParsedQuery(
             article=data.get("article"),
             article_base=data.get("article_base"),
             query_type=data.get("query_type", "fact_pattern"),
         )
-    except Exception:
+        logger.info(
+            "[QueryParser] LLM path resolved | article={} article_base={} type={}",
+            parsed.article or "(none)",
+            parsed.article_base or "(none)",
+            parsed.query_type,
+        )
+        return parsed
+    except Exception as exc:
         # Never break the main chat flow due to a parse failure
+        logger.warning("[QueryParser] LLM parse failed — falling back to fact_pattern: {}", exc)
         return ParsedQuery(article=None, article_base=None, query_type="fact_pattern")

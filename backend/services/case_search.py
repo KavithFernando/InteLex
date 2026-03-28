@@ -1,5 +1,7 @@
 from typing import Any, Dict, List
 
+from loguru import logger
+
 from services.interfaces import RetrievalServiceInterface
 from services.query_parser import parse_query
 
@@ -46,7 +48,14 @@ class CaseSearchService:
         corpus case summaries (clauses list, identifiers) from the DB.
         """
         # Parse the query to detect article references before hitting FAISS
+        logger.info("[CaseSearch] Running case search | query_len={} top_k={}", len(query_text), top_k)
         parsed = parse_query(query_text, self._openai_client)
+        logger.info(
+            "[CaseSearch] Query parsed | type={} article={} article_base={}",
+            parsed.query_type,
+            parsed.article or "(none)",
+            parsed.article_base or "(none)",
+        )
 
         article_filter = None
         article_base_filter = None
@@ -56,6 +65,11 @@ class CaseSearchService:
             if parsed.article_base:
                 article_base_filter = parsed.article_base
 
+        logger.info(
+            "[CaseSearch] Calling FAISS retrieval | article_filter={} article_base_filter={}",
+            article_filter or "(none)",
+            article_base_filter or "(none)",
+        )
         retrieval = self._retrieval.search_frames(
             query_text=query_text,
             top_k=top_k,
@@ -64,7 +78,9 @@ class CaseSearchService:
             article_base_filter=article_base_filter,
         )
         results = retrieval.get("results", [])
+        logger.info("[CaseSearch] FAISS returned {} frame(s)", len(results))
         if not results:
+            logger.warning("[CaseSearch] No frames matched query — returning empty result")
             return {
                 "tool_content": {
                     "message": "Found 0 matching interpretation frame(s) based on the context provided.",
@@ -113,6 +129,13 @@ class CaseSearchService:
         }
 
         divergence = detect_divergence(retrieval_result)
+        logger.info(
+            "[CaseSearch] Search complete | results={} divergence={} granted={} dismissed={}",
+            count,
+            divergence["has_divergence"],
+            divergence["granted_count"],
+            divergence["dismissed_count"],
+        )
 
         return {
             "tool_content": tool_content,

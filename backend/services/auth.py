@@ -3,6 +3,7 @@ from typing import Any, Optional
 
 import bcrypt
 import jwt
+from loguru import logger
 
 from config import JWT_ALGORITHM, JWT_EXPIRE_MINUTES, JWT_SECRET
 
@@ -30,5 +31,6 @@ def create_access_token(user_id: int, username: str) -> str:
 def decode_token(token: str) -> Optional[dict[str, Any]]:
     try:
         return jwt.decode(token, JWT_SECRET, algorithms=[JWT_ALGORITHM])
-    except jwt.PyJWTError:
+    except jwt.PyJWTError as exc:
+        logger.debug("[Auth] Token decode failed: {}", exc)
         return None

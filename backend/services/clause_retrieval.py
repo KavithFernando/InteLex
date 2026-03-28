@@ -11,6 +11,7 @@ from typing import Any, Dict, List, Optional
 
 import faiss
 import numpy as np
+from loguru import logger
 from sentence_transformers import SentenceTransformer
 
 from config.settings import CLAUSE_INDEX_PATH, CLAUSE_MAP_PATH
@@ -36,14 +37,20 @@ class ClauseFrameRetrievalService(RetrievalServiceInterface):
 
     def _load_assets(self) -> None:
         if self._index is None:
+            logger.info("[ClauseRetrieval] Loading FAISS index from {}", CLAUSE_INDEX_PATH)
             self._index = faiss.read_index(CLAUSE_INDEX_PATH)
+            logger.info("[ClauseRetrieval] FAISS index loaded | {} vectors", self._index.ntotal)
         if not self._row_map:
+            logger.info("[ClauseRetrieval] Loading clause map from {}", CLAUSE_MAP_PATH)
             with open(CLAUSE_MAP_PATH, "r", encoding="utf-8") as f:
                 meta = json.load(f)
             self._embed_model = meta.get("embed_model")
             self._row_map = meta.get("row_map") or []
+            logger.info("[ClauseRetrieval] Clause map loaded | {} rows | embed_model={}", len(self._row_map), self._embed_model)
         if self._embedder is None and self._embed_model:
+            logger.info("[ClauseRetrieval] Loading SentenceTransformer model: {}", self._embed_model)
             self._embedder = SentenceTransformer(self._embed_model)
+            logger.info("[ClauseRetrieval] SentenceTransformer ready")
 
         # Build article -> FAISS row index lookup
         if not self._article_to_ids:
@@ -100,6 +107,13 @@ class ClauseFrameRetrievalService(RetrievalServiceInterface):
         top_k = max(1, top_k)
 
         q = self._embedder.encode([query_text], normalize_embeddings=True).astype("float32")
+        logger.info(
+            "[ClauseRetrieval] Searching FAISS | top_k={} effective_recall={} article_filter={} article_base_filter={}",
+            top_k,
+            effective_recall,
+            article_filter or "(none)",
+            article_base_filter or "(none)",
+        )
         scores, idxs = self._index.search(q, effective_recall)
 
         # frame_id -> (best_score, faiss_idx, row)
@@ -123,6 +137,12 @@ class ClauseFrameRetrievalService(RetrievalServiceInterface):
                 best_by_frame[fid] = (sc, fi, row)
 
         ranked = sorted(best_by_frame.values(), key=lambda t: -t[0])[:top_k]
+        logger.info(
+            "[ClauseRetrieval] Dedup complete | raw_hits={} unique_frames={} returning={}",
+            sum(1 for idx in idxs[0] if idx >= 0),
+            len(best_by_frame),
+            len(ranked),
+        )
 
         results: List[Dict[str, Any]] = []
         for sc, fi, row in ranked:
