@@ -1,6 +1,6 @@
 {
   "embed_model": "bhavyagiri/InLegal-Sbert",
-  "count_rows": 624,
+  "count_rows": 625,
   "row_map": [
     {
       "faiss_id": 0,
@@ -10609,6 +10609,23 @@
       "disposition": "dismissed",
       "relevance_level": "high",
       "match_type": "direct_interpretation"
+    },
+    {
+      "faiss_id": 624,
+      "interpretation_frame_id": 626,
+      "frame_identifier": "RQ1_001-SLLR-1984-V1-WIJERATNE-AND-ANOTHER-V_001_C03__12",
+      "case_id": 1,
+      "case_identifier": "S.C. 63/83 & 65/83",
+      "case_title": "Wijeratne and Another v. The People's Bank and Another",
+      "decision_date": "1984-01-12",
+      "clause_id": 3,
+      "article": "12",
+      "article_base": "12",
+      "subclause": "(1)",
+      "clause_text": "All persons are equal before the law and are entitled to the equal protection of the law.",
+      "disposition": "dismissed",
+      "relevance_level": "medium",
+      "match_type": "application_only"
     }
   ]
 }

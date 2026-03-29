@@ -44,3 +44,8 @@ JWT_ALGORITHM = "HS256"
 JWT_EXPIRE_MINUTES = 60 * 24
 
 FRONTEND_ORIGIN = os.getenv("FRONTEND_ORIGIN", "http://localhost:5173")
+
+# Ingest feature
+CONSTITUTION_PATH = os.path.join(_BACKEND_DIR, "data", "constitution", "articles.json")
+INGEST_WORK_DIR   = os.path.join(_BACKEND_DIR, "data", "_ingest_work")
+PDF_DIR           = os.path.join(_BACKEND_DIR, "data", "pdfs")

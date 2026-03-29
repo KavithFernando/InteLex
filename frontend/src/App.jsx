@@ -21,6 +21,7 @@ import MessageInput from './components/MessageInput';
 import RetrievalResults from './components/RetrievalResults';
 import CaseDetailPanel from './components/CaseDetailPanel';
 import AuditLogsPanel from './components/AuditLogsPanel';
+import IngestPanel from './components/IngestPanel';
 
 export default function App() {
   // ── Theme state ───────────────────────────────────────────────────────────────
@@ -54,6 +55,7 @@ export default function App() {
   const [caseDetail, setCaseDetail] = useState(null);
   const [caseDetailLoading, setCaseDetailLoading] = useState(false);
   const [showAuditLogs, setShowAuditLogs] = useState(false);
+  const [showIngestPanel, setShowIngestPanel] = useState(false);
 
   // ── Verify stored token on mount ─────────────────────────────────────────────
   useEffect(() => {
@@ -336,6 +338,7 @@ export default function App() {
           onLogout={handleLogout}
           isAdmin={user?.role === 'admin'}
           onOpenAuditLogs={() => setShowAuditLogs(true)}
+          onOpenIngest={() => setShowIngestPanel(true)}
           isDark={isDark}
           onToggleTheme={toggleTheme}
         />
@@ -344,6 +347,8 @@ export default function App() {
       <main className="flex-1 min-w-0 flex flex-col h-screen overflow-hidden relative">
         {showAuditLogs ? (
           <AuditLogsPanel onClose={() => setShowAuditLogs(false)} />
+        ) : showIngestPanel ? (
+          <IngestPanel onClose={() => setShowIngestPanel(false)} />
         ) : (
           <>
             {/* Animated aurora glow background — always shown; adapts via CSS vars */}
