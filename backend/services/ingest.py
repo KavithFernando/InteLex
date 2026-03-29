@@ -37,8 +37,9 @@ from config.settings import (
 )
 from scripts.import_frames_corpus import run_import
 from scripts.index_clauses import build_embedding_text, fetch_frame_clause_rows
+from db.repositories import ingest_job_repo
 
-# ── In-memory job store ────────────────────────────────────────────────────────
+# ── In-memory cache (fast log appends during execution) ────────────────────────
 _JOBS: Dict[str, "IngestJob"] = {}
 
 
@@ -71,14 +72,28 @@ class IngestJob:
 
 
 def get_job(job_id: str) -> Optional[IngestJob]:
-    return _JOBS.get(job_id)
+    """Return live in-memory job if running, otherwise load from DB."""
+    if job_id in _JOBS:
+        return _JOBS[job_id]
+    row = ingest_job_repo.get(job_id)
+    if row is None:
+        return None
+    return IngestJob(**row)
 
 
 def list_jobs() -> List[Dict[str, Any]]:
-    return [
-        j.as_dict()
-        for j in sorted(_JOBS.values(), key=lambda j: j.submitted_at, reverse=True)
-    ]
+    """List all jobs from DB (most recent first), overlaying any live running jobs."""
+    rows = ingest_job_repo.list_all()
+    # Overlay in-memory state for any currently-running jobs so the caller
+    # always sees the latest log lines without waiting for a flush.
+    live = {job_id: j.as_dict() for job_id, j in _JOBS.items()}
+    merged = [live.get(r["job_id"], r) for r in rows]
+    # Add any in-memory jobs not yet in DB rows (shouldn't happen, but be safe)
+    existing_ids = {r["job_id"] for r in rows}
+    for job_id, d in live.items():
+        if job_id not in existing_ids:
+            merged.insert(0, d)
+    return merged
 
 
 # ── Incremental FAISS update ───────────────────────────────────────────────────
@@ -221,10 +236,10 @@ def run_ingest_job(
             manifest = json.load(f)
         total_frames = sum(e.get("frame_count", 0) for e in manifest.get("files", []))
         job.log.append(f"[Stage 1] Complete. {total_frames} frame JSON(s) produced.")
-
+        _flush(job)
         # ── Stage 2: frame JSONs → DB ─────────────────────────────────────────
         job.log.append("[Stage 2] Importing frames into database...")
-        inserted, skipped, err_count, err_msgs = run_import(
+        inserted, skipped, err_count, err_msgs, skip_msgs = run_import(
             frames_dir=str(frame_work_dir / "json"),
             manifest_path=str(manifest_path),
         )
@@ -235,9 +250,11 @@ def run_ingest_job(
             f"[Stage 2] DB import complete: inserted={inserted}, "
             f"skipped={skipped}, errors={err_count}"
         )
+        for msg in skip_msgs:
+            job.log.append(f"[Stage 2] Skipped (clause not in constitution): {msg}")
         for msg in err_msgs:
             job.log.append(f"[Stage 2] ERROR: {msg}")
-
+        _flush(job)
         # ── Stage 3: incremental FAISS update ────────────────────────────────
         job.log.append("[Stage 3] Updating vector index (new frames only)...")
         added = append_new_frames_to_index(job)
@@ -285,6 +302,9 @@ def run_ingest_job(
         logger.exception("[Ingest] Job {} failed", job_id)
 
     finally:
+        _flush(job)
+        # Remove from memory — future reads go to DB
+        _JOBS.pop(job_id, None)
         # Clean up working dir on success; keep on failure for inspection
         if job.status == "done":
             try:
@@ -297,12 +317,32 @@ def run_ingest_job(
 
 def create_job(filenames: List[str], clauses: Optional[List[str]]) -> IngestJob:
     job_id = str(uuid.uuid4())
+    submitted_at = datetime.now(timezone.utc).isoformat()
     job = IngestJob(
         job_id=job_id,
         status="queued",
-        submitted_at=datetime.now(timezone.utc).isoformat(),
+        submitted_at=submitted_at,
         filenames=filenames,
         clauses=clauses,
     )
     _JOBS[job_id] = job
+    ingest_job_repo.create(
+        job_id=job_id,
+        filenames=filenames,
+        clauses=clauses,
+        submitted_at=submitted_at,
+    )
     return job
+
+
+def _flush(job: IngestJob) -> None:
+    """Persist current in-memory job state to the DB."""
+    ingest_job_repo.update(
+        job.job_id,
+        status=job.status,
+        log=job.log,
+        frames_created=job.frames_created,
+        frames_skipped=job.frames_skipped,
+        errors=job.errors,
+        error=job.error,
+    )

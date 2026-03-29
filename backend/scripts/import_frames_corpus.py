@@ -495,6 +495,7 @@ def run_import(frames_dir: str, manifest_path: str) -> Tuple[int, int, int, List
 
     ok_n = skip_n = 0
     errors: List[str] = []
+    clause_skips: List[str] = []  # frames skipped because clause not in constitution
 
     for fname in json_files:
         path = os.path.join(frames_dir, fname)
@@ -523,6 +524,10 @@ def run_import(frames_dir: str, manifest_path: str) -> Tuple[int, int, int, List
             if success:
                 conn.commit()
                 ok_n += 1
+            elif msg.startswith("no constitution_clauses row"):
+                conn.rollback()
+                clause_skips.append(f"{fname}: {msg}")
+                skip_n += 1
             else:
                 conn.rollback()
                 errors.append(f"{fname}: {msg}")
@@ -534,7 +539,7 @@ def run_import(frames_dir: str, manifest_path: str) -> Tuple[int, int, int, List
 
     cur.close()
     conn.close()
-    return ok_n, skip_n, len(errors), errors
+    return ok_n, skip_n, len(errors), errors, clause_skips
 
 
 def main() -> None:
@@ -586,8 +591,11 @@ def main() -> None:
     if not os.path.isfile(manifest_path):
         print(f"Warning: manifest not found at {manifest_path}; PDF paths will be NULL", file=sys.stderr)
 
-    inserted, skipped, err_count, err_msgs = run_import(frames_dir=frames_dir, manifest_path=manifest_path)
-    print(f"Done. Imported OK: {inserted}, skipped/errors: {skipped}")
+    inserted, skipped, err_count, err_msgs, skip_msgs = run_import(frames_dir=frames_dir, manifest_path=manifest_path)
+    print(f"Done. Imported OK: {inserted}, skipped: {skipped}")
+    if skip_msgs:
+        for msg in skip_msgs:
+            print(f"  [skipped] {msg}")
     if err_count:
         print(f"  {err_count} error(s) occurred:", file=sys.stderr)
         for msg in err_msgs:
