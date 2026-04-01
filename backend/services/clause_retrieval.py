@@ -35,6 +35,16 @@ class ClauseFrameRetrievalService(RetrievalServiceInterface):
         self._article_to_ids: Dict[str, List[int]] = {}
         self._article_base_to_ids: Dict[str, List[int]] = {}
 
+    def reload(self) -> None:
+        """Clear cached assets so they are re-read from disk on the next search_frames() call."""
+        self._index = None
+        self._embedder = None
+        self._row_map = []
+        self._embed_model = None
+        self._article_to_ids = {}
+        self._article_base_to_ids = {}
+        logger.info("[ClauseRetrieval] Cache cleared — assets will reload on next query")
+
     def _load_assets(self) -> None:
         if self._index is None:
             logger.info("[ClauseRetrieval] Loading FAISS index from {}", CLAUSE_INDEX_PATH)

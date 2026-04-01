@@ -34,13 +34,20 @@ DATA_JSON_PATH = os.path.join(_BACKEND_DIR, "data", "casedata.json")
 # Corpus import: frame JSONs + manifest (PDF filenames)
 FRAMES_DIR = os.path.join(_BACKEND_DIR, "data", "frames")
 MANIFEST_PATH = os.path.join(_BACKEND_DIR, "data", "manifest.json")
-# Stored in cases.pdf_relative_path; app resolves against PDF_ROOT or static mount
-PDF_RELATIVE_PREFIX = os.getenv("PDF_RELATIVE_PREFIX", "")
-# Absolute path to the directory on disk where PDF files are stored.
-PDF_ROOT = os.getenv("PDF_ROOT", "")
+# ── Cloudflare R2 object storage ──────────────────────────────────────────────
+R2_ACCOUNT_ID        = os.getenv("R2_ACCOUNT_ID", "")
+R2_ACCESS_KEY_ID     = os.getenv("R2_ACCESS_KEY_ID", "")
+R2_SECRET_ACCESS_KEY = os.getenv("R2_SECRET_ACCESS_KEY", "")
+R2_BUCKET_NAME       = os.getenv("R2_BUCKET_NAME", "intelex-pdfs")
+R2_PUBLIC_URL        = os.getenv("R2_PUBLIC_URL", "")  # e.g. https://pub-<hash>.r2.dev
 
 JWT_SECRET = os.getenv("JWT_SECRET", "change-me-in-production")
 JWT_ALGORITHM = "HS256"
 JWT_EXPIRE_MINUTES = 60 * 24
 
 FRONTEND_ORIGIN = os.getenv("FRONTEND_ORIGIN", "http://localhost:5173")
+
+# Ingest feature
+CONSTITUTION_PATH = os.path.join(_BACKEND_DIR, "data", "constitution", "articles.json")
+INGEST_WORK_DIR   = os.path.join(_BACKEND_DIR, "data", "_ingest_work")
+PDF_DIR           = os.path.join(_BACKEND_DIR, "data", "pdfs")

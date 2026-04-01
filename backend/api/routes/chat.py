@@ -80,6 +80,7 @@ async def get_conversation_messages(
             content=m["content"],
             created_at=m.get("created_at"),
             retrieval_result=m.get("retrieval_result"),
+            pinned_cases=m.get("pinned_cases"),
         )
         for m in messages
     ]
@@ -131,6 +132,7 @@ async def chat(
     current_user: User = Depends(get_current_user),
     conversation_repo=Depends(get_conversation_repo),
     chat_service=Depends(get_chat_service),
+    case_repo=Depends(get_case_repo),
 ) -> ChatResponse:
     conv = conversation_repo.get_or_create(input.conversation_id, user_id=current_user.user_id)
 
@@ -166,14 +168,59 @@ async def chat(
         messages_for_llm = _build_messages_for_llm(db_messages, user_text)
         logger.info("[Chat] Sending {} message(s) to LLM", len(messages_for_llm))
 
-        response_text, retrieval_result = chat_service.run_chat_turn(messages_for_llm)
+        response_text, retrieval_result = chat_service.run_chat_turn(
+            messages_for_llm,
+            pinned_case_ids=input.pinned_case_ids or [],
+        )
         logger.info(
             "[Chat] Turn complete | response_len={} retrieval_results={}",
             len(response_text),
             len(retrieval_result) if retrieval_result else 0,
         )
 
-        conversation_repo.add_message(internal_id, "user", user_text)
+        # Build pinned_summaries for persistence — fetch real frame data so titles/articles
+        # survive page refresh, regardless of whether FAISS retrieval ran or not.
+        pinned_summaries = None
+        if input.pinned_case_ids:
+            # Prefer data already in retrieval_result (free, no extra DB call needed)
+            retrieval_by_id = {
+                r.get("interpretation_frame_id"): r
+                for r in (retrieval_result or [])
+                if r.get("interpretation_frame_id") is not None
+            }
+            summaries = []
+            for fid in input.pinned_case_ids:
+                if fid in retrieval_by_id:
+                    summaries.append(retrieval_by_id[fid])
+                else:
+                    # Pinned-only path: fetch frame from DB to get proper title/article
+                    try:
+                        detail = case_repo.fetch_frame_by_id(fid)
+                        if detail:
+                            summaries.append({
+                                "interpretation_frame_id": int(detail["interpretation_frame_id"]),
+                                "case_id": str(detail.get("case_identifier") or detail.get("case_id", "")),
+                                "case_identifier": detail.get("case_identifier"),
+                                "case_title": detail.get("case_title"),
+                                "decision_date": str(detail["decision_date"]) if detail.get("decision_date") else None,
+                                "frame_identifier": detail.get("frame_identifier"),
+                                "matched_article": (
+                                    f"{detail['article']}({detail['subclause'].strip('()')})"
+                                    if detail.get("article") and detail.get("subclause")
+                                    else detail.get("article")
+                                ),
+                                "matched_subclause": detail.get("subclause"),
+                                "matched_clause_text": detail.get("clause_text"),
+                                "score": None,
+                            })
+                    except Exception as e:
+                        logger.warning("Failed to fetch pinned frame %s for summary: %s", fid, e)
+            pinned_summaries = summaries if summaries else None
+
+        conversation_repo.add_message(
+            internal_id, "user", user_text,
+            pinned_cases=pinned_summaries if pinned_summaries else None,
+        )
         conversation_repo.add_message(
             internal_id,
             "assistant",

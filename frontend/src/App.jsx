@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import {
   listConversations,
   createConversation,
@@ -21,6 +21,7 @@ import MessageInput from './components/MessageInput';
 import RetrievalResults from './components/RetrievalResults';
 import CaseDetailPanel from './components/CaseDetailPanel';
 import AuditLogsPanel from './components/AuditLogsPanel';
+import IngestPanel from './components/IngestPanel';
 
 export default function App() {
   // ── Theme state ───────────────────────────────────────────────────────────────
@@ -49,11 +50,18 @@ export default function App() {
   const [messages, setMessages] = useState([]);
   const [loading, setLoading] = useState(false);
   const [sending, setSending] = useState(false);
+  const messagesEndRef = useRef(null);
+
+  // Scroll to bottom whenever messages load or a new one arrives
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'instant' });
+  }, [messages, sending]);
   const [selectedCaseId, setSelectedCaseId] = useState(null);
   const [selectedTriggeringQuery, setSelectedTriggeringQuery] = useState(null);
   const [caseDetail, setCaseDetail] = useState(null);
   const [caseDetailLoading, setCaseDetailLoading] = useState(false);
   const [showAuditLogs, setShowAuditLogs] = useState(false);
+  const [showIngestPanel, setShowIngestPanel] = useState(false);
 
   // ── Verify stored token on mount ─────────────────────────────────────────────
   useEffect(() => {
@@ -127,7 +135,11 @@ export default function App() {
     setLoading(true);
     try {
       const msgs = await getConversationMessages(conversationId);
-      setMessages(msgs);
+      // Map API field pinned_cases → pinned_cases so ChatMessage can render the chips
+      setMessages(msgs.map((m) => ({
+        ...m,
+        pinned_cases: m.pinned_cases ?? undefined,
+      })));
     } catch (err) {
       console.error('Failed to load messages', err);
       setMessages([]);
@@ -163,16 +175,34 @@ export default function App() {
     setCaseDetail(null);
   }, []);
 
+  // All retrieved frames across the entire conversation, deduplicated by frame id.
+  // Made available to MessageInput so the user can @-mention them.
+  const availableCases = useMemo(() => {
+    const seen = new Set();
+    return messages
+      .filter((m) => m.role === 'assistant' && m.retrieval_result?.length)
+      .flatMap((m) => m.retrieval_result)
+      .filter(
+        (f) =>
+          f.interpretation_frame_id != null &&
+          !seen.has(f.interpretation_frame_id) &&
+          seen.add(f.interpretation_frame_id)
+      );
+  }, [messages]);
+
   const handleSendMessage = useCallback(
-    async (text) => {
+    async (text, pinnedCases = []) => {
       const cid = currentConversationId;
       if (!cid) return;
 
-      setMessages((prev) => [...prev, { role: 'user', content: text, created_at: new Date().toISOString() }]);
+      setMessages((prev) => [...prev, { role: 'user', content: text, created_at: new Date().toISOString(), pinned_cases: pinnedCases.length ? pinnedCases : undefined }]);
 
       setSending(true);
       try {
-        const res = await apiSendMessage(cid, text);
+        const pinnedCaseIds = pinnedCases
+          .map((c) => c.interpretation_frame_id)
+          .filter((id) => id != null);
+        const res = await apiSendMessage(cid, text, pinnedCaseIds);
         setMessages((prev) => [
           ...prev,
           { role: 'assistant', content: res.response, retrieval_result: res.retrieval_result ?? [], created_at: new Date().toISOString(), animateIn: true },
@@ -314,6 +344,7 @@ export default function App() {
           onLogout={handleLogout}
           isAdmin={user?.role === 'admin'}
           onOpenAuditLogs={() => setShowAuditLogs(true)}
+          onOpenIngest={() => setShowIngestPanel(true)}
           isDark={isDark}
           onToggleTheme={toggleTheme}
         />
@@ -322,6 +353,8 @@ export default function App() {
       <main className="flex-1 min-w-0 flex flex-col h-screen overflow-hidden relative">
         {showAuditLogs ? (
           <AuditLogsPanel onClose={() => setShowAuditLogs(false)} />
+        ) : showIngestPanel ? (
+          <IngestPanel onClose={() => setShowIngestPanel(false)} />
         ) : (
           <>
             {/* Animated aurora glow background — always shown; adapts via CSS vars */}
@@ -409,7 +442,7 @@ export default function App() {
                 <div className="flex-1 min-h-0 overflow-y-auto py-6 space-y-6 scrollbar-hide">
                   {messages.map((msg, i) => (
                     <div key={i} className="max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8">
-                      <ChatMessage role={msg.role} content={msg.content} created_at={msg.created_at} isDark={isDark} animateIn={msg.animateIn ?? false} />
+                      <ChatMessage role={msg.role} content={msg.content} created_at={msg.created_at} isDark={isDark} animateIn={msg.animateIn ?? false} pinnedCases={msg.pinned_cases} />
                       {msg.role === 'assistant' && (msg.retrieval_result?.length ?? 0) > 0 && (
                         <RetrievalResults
                           results={msg.retrieval_result}
@@ -424,13 +457,14 @@ export default function App() {
                       <LoadingMessage />
                     </div>
                   )}
+                  <div ref={messagesEndRef} />
                 </div>
               )}
             </div>
             {currentConversationId && (
               <div className="shrink-0 z-20 p-4 bg-gradient-to-t from-main-bg via-main-bg/95 to-transparent">
                 <div className="max-w-4xl mx-auto w-full">
-                  <MessageInput onSend={handleSendMessage} disabled={sending} />
+                  <MessageInput onSend={handleSendMessage} disabled={sending} availableCases={availableCases} maxMentions={3} />
                 </div>
               </div>
             )}
@@ -482,7 +516,6 @@ export default function App() {
               caseDetail={caseDetail}
               triggeringQuery={selectedTriggeringQuery}
               onGenerateInterpretation={generateCaseInterpretation}
-              onGetPdf={handleGetPdf}
               onClose={handleCloseCaseDetail}
             />
           )}

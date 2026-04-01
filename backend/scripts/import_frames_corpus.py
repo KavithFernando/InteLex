@@ -11,7 +11,7 @@ _backend_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if _backend_dir not in sys.path:
     sys.path.insert(0, _backend_dir)
 
-from config.settings import FRAMES_DIR, MANIFEST_PATH, PDF_RELATIVE_PREFIX
+from config.settings import CONSTITUTION_PATH, FRAMES_DIR, MANIFEST_PATH, R2_PUBLIC_URL
 from db.connection import get_connection
 
 
@@ -87,11 +87,12 @@ def build_manifest_lookup(manifest: Dict[str, Any]) -> Dict[str, Tuple[str, Dict
     return out
 
 
-def resolve_pdf_path(pdf_filename: str) -> str:
-    p = (PDF_RELATIVE_PREFIX or "").replace("\\", "/").strip()
-    if p and not p.endswith("/"):
-        p += "/"
-    return p + pdf_filename.replace("\\", "/")
+def resolve_pdf_path(pdf_filename: str) -> Optional[str]:
+    """Construct the R2 public URL for a PDF filename."""
+    if not R2_PUBLIC_URL or not pdf_filename:
+        return None
+    filename = pdf_filename.replace("\\", "/").lstrip("/")
+    return f"{R2_PUBLIC_URL.rstrip('/')}/pdfs/{filename}"
 
 
 def load_clause_map(cur) -> None:
@@ -107,6 +108,79 @@ def load_clause_map(cur) -> None:
 
 
 _CLAUSE_BY_ARTICLE_SUB: Dict[Tuple[str, str], int] = {}
+
+# (article, subclause) -> authoritative clause text loaded from articles.json
+_CONSTITUTION: Dict[Tuple[str, str], str] = {}
+
+
+def load_constitution(path: str) -> None:
+    """Populate module-level constitution cache from articles.json."""
+    global _CONSTITUTION
+    _CONSTITUTION = {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        for art in data.get("articles") or []:
+            article = str(art.get("article", "")).strip()
+            if not article:
+                continue
+            for row in art.get("clauses") or []:
+                sub = row.get("clause")
+                subclause = "" if sub is None else str(sub).strip()
+                if subclause and not subclause.startswith("("):
+                    subclause = f"({subclause})"
+                text = (row.get("text") or "").strip()
+                if text:
+                    _CONSTITUTION[(article, subclause)] = text
+    except (OSError, json.JSONDecodeError):
+        pass
+
+
+def get_or_create_clause_id(
+    cur, article: str, subclause: str, fallback_text: Optional[str]
+) -> Optional[int]:
+    """
+    Look up constitution_clauses id for (article, subclause).
+    On a miss, auto-seed the row from the pre-loaded articles.json cache
+    (falling back to the LLM-provided clause_text) and retry.
+    Returns None only when the clause cannot be found or created.
+    """
+    cid = resolve_constitution_clause_id(cur, article, subclause, fallback_text)
+    if cid is not None:
+        return cid
+
+    # Find text to seed with: authoritative constitution JSON first
+    text_to_insert: Optional[str] = None
+    sub_to_insert = subclause
+    for sub_variant in subclause_lookup_variants(subclause):
+        t = _CONSTITUTION.get((article, sub_variant))
+        if t:
+            text_to_insert = t
+            sub_to_insert = sub_variant
+            break
+    if text_to_insert is None:
+        # Article not present in articles.json — not a constitutional clause, don't insert
+        return None
+
+    # Auto-seed the missing constitution_clauses row
+    cur.execute(
+        """
+        INSERT INTO constitution_clauses (article, subclause, clause_text)
+        VALUES (%s, %s, %s)
+        ON DUPLICATE KEY UPDATE clause_text = VALUES(clause_text)
+        """,
+        (article, sub_to_insert, text_to_insert),
+    )
+    cur.execute(
+        "SELECT clause_id FROM constitution_clauses WHERE article = %s AND subclause = %s LIMIT 1",
+        (article, sub_to_insert),
+    )
+    row = cur.fetchone()
+    if not row:
+        return None
+    new_id = int(row[0])
+    _CLAUSE_BY_ARTICLE_SUB[(article, sub_to_insert)] = new_id
+    return new_id
 
 
 def resolve_constitution_clause_id(cur, article: str, subclause: str, clause_text: Optional[str]) -> Optional[int]:
@@ -242,7 +316,7 @@ def import_one_frame(
     article, subclause = parse_article_ref(art_raw)
     clause_text = clause_obj.get("text")
 
-    cc_id = resolve_constitution_clause_id(cur, article, subclause, clause_text)
+    cc_id = get_or_create_clause_id(cur, article, subclause, clause_text)
     if cc_id is None:
         return (
             False,
@@ -396,49 +470,33 @@ def import_one_frame(
     return True, "imported"
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description="Import frame JSON corpus into MySQL.")
-    parser.add_argument("--frames-dir", default=FRAMES_DIR, help="Directory containing *.json frames")
-    parser.add_argument("--manifest", default=MANIFEST_PATH, help="manifest.json path")
-    parser.add_argument("--dry-run", action="store_true", help="Parse only; no DB writes")
-    parser.add_argument("--limit", type=int, default=0, help="Max number of files (0 = all)")
-    args = parser.parse_args()
-
-    frames_dir = os.path.abspath(args.frames_dir)
+def run_import(frames_dir: str, manifest_path: str) -> Tuple[int, int, int, List[str]]:
+    """
+    Import all frame JSONs from frames_dir using the given manifest.
+    Returns (inserted, skipped, error_count).
+    Raises on fatal DB/IO errors; individual frame errors are counted in error_count.
+    """
+    frames_dir = os.path.abspath(frames_dir)
     if not os.path.isdir(frames_dir):
-        print(f"Frames directory not found: {frames_dir}", file=sys.stderr)
-        sys.exit(1)
+        raise FileNotFoundError(f"Frames directory not found: {frames_dir}")
 
-    manifest_path = os.path.abspath(args.manifest)
     manifest: Dict[str, Any] = {}
     if os.path.isfile(manifest_path):
         with open(manifest_path, "r", encoding="utf-8") as f:
             manifest = json.load(f)
-    else:
-        print(f"Warning: manifest not found at {manifest_path}; PDF paths will be NULL", file=sys.stderr)
 
     lookup = build_manifest_lookup(manifest)
+    json_files = sorted(f for f in os.listdir(frames_dir) if f.lower().endswith(".json"))
 
-    json_files = sorted(
-        f for f in os.listdir(frames_dir) if f.lower().endswith(".json")
-    )
-    if args.limit and args.limit > 0:
-        json_files = json_files[: args.limit]
-
-    if args.dry_run:
-        print(f"Dry-run: would process {len(json_files)} file(s) under {frames_dir}")
-
-    conn = None
-    if not args.dry_run:
-        conn = get_connection()
-        conn.autocommit = False
-        cur = conn.cursor()
-        load_clause_map(cur)
-    else:
-        cur = None
+    conn = get_connection()
+    conn.autocommit = False
+    cur = conn.cursor()
+    load_clause_map(cur)
+    load_constitution(CONSTITUTION_PATH)
 
     ok_n = skip_n = 0
     errors: List[str] = []
+    clause_skips: List[str] = []  # frames skipped because clause not in constitution
 
     for fname in json_files:
         path = os.path.join(frames_dir, fname)
@@ -462,21 +520,15 @@ def main() -> None:
             skip_n += 1
             continue
 
-        if args.dry_run:
-            art_raw = ((payload.get("clause") or {}).get("article") or "").strip()
-            a, s = parse_article_ref(art_raw)
-            print(f"  {fname} -> pdf={pdf_name or '?'} article_parsed=({a!r},{s!r})")
-            ok_n += 1
-            continue
-
-        assert conn is not None and cur is not None
         try:
-            success, msg = import_one_frame(
-                cur, payload, pdf_rel, m_entry, dry_run=False
-            )
+            success, msg = import_one_frame(cur, payload, pdf_rel, m_entry, dry_run=False)
             if success:
                 conn.commit()
                 ok_n += 1
+            elif msg.startswith("no constitution_clauses row"):
+                conn.rollback()
+                clause_skips.append(f"{fname}: {msg}")
+                skip_n += 1
             else:
                 conn.rollback()
                 errors.append(f"{fname}: {msg}")
@@ -486,17 +538,69 @@ def main() -> None:
             errors.append(f"{fname}: {e}")
             skip_n += 1
 
-    if conn:
-        cur.close()
-        conn.close()
+    cur.close()
+    conn.close()
+    return ok_n, skip_n, len(errors), errors, clause_skips
 
-    print(f"Done. Imported OK: {ok_n}, skipped/errors: {skip_n}")
-    if errors:
-        print("Issues (first 30):", file=sys.stderr)
-        for line in errors[:30]:
-            print(f"  {line}", file=sys.stderr)
-        if len(errors) > 30:
-            print(f"  ... and {len(errors) - 30} more", file=sys.stderr)
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Import frame JSON corpus into MySQL.")
+    parser.add_argument("--frames-dir", default=FRAMES_DIR, help="Directory containing *.json frames")
+    parser.add_argument("--manifest", default=MANIFEST_PATH, help="manifest.json path")
+    parser.add_argument("--dry-run", action="store_true", help="Parse only; no DB writes")
+    parser.add_argument("--limit", type=int, default=0, help="Max number of files (0 = all)")
+    args = parser.parse_args()
+
+    frames_dir = os.path.abspath(args.frames_dir)
+    if not os.path.isdir(frames_dir):
+        print(f"Frames directory not found: {frames_dir}", file=sys.stderr)
+        sys.exit(1)
+
+    manifest_path = os.path.abspath(args.manifest)
+
+    # Dry-run: print what would be imported, no DB writes
+    if args.dry_run:
+        manifest: Dict[str, Any] = {}
+        if os.path.isfile(manifest_path):
+            with open(manifest_path, "r", encoding="utf-8") as f:
+                manifest = json.load(f)
+        else:
+            print(f"Warning: manifest not found at {manifest_path}; PDF paths will be NULL", file=sys.stderr)
+        lookup = build_manifest_lookup(manifest)
+        json_files = sorted(f for f in os.listdir(frames_dir) if f.lower().endswith(".json"))
+        if args.limit and args.limit > 0:
+            json_files = json_files[: args.limit]
+        print(f"Dry-run: would process {len(json_files)} file(s) under {frames_dir}")
+        for fname in json_files:
+            path = os.path.join(frames_dir, fname)
+            key = normalize_basename(fname)
+            pdf_name = None
+            if key in lookup:
+                pdf_name, _ = lookup[key]
+            elif fname.lower() in lookup:
+                pdf_name, _ = lookup[fname.lower()]
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    payload = json.load(f)
+                art_raw = ((payload.get("clause") or {}).get("article") or "").strip()
+                a, s = parse_article_ref(art_raw)
+                print(f"  {fname} -> pdf={pdf_name or '?'} article_parsed=({a!r},{s!r})")
+            except Exception as e:
+                print(f"  {fname}: ERROR: {e}", file=sys.stderr)
+        return
+
+    if not os.path.isfile(manifest_path):
+        print(f"Warning: manifest not found at {manifest_path}; PDF paths will be NULL", file=sys.stderr)
+
+    inserted, skipped, err_count, err_msgs, skip_msgs = run_import(frames_dir=frames_dir, manifest_path=manifest_path)
+    print(f"Done. Imported OK: {inserted}, skipped: {skipped}")
+    if skip_msgs:
+        for msg in skip_msgs:
+            print(f"  [skipped] {msg}")
+    if err_count:
+        print(f"  {err_count} error(s) occurred:", file=sys.stderr)
+        for msg in err_msgs:
+            print(f"    {msg}", file=sys.stderr)
 
 
 if __name__ == "__main__":

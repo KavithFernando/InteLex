@@ -102,10 +102,10 @@ export async function getConversationMessages(conversationId) {
   return request(`/conversations/${encodeURIComponent(conversationId)}/messages/`);
 }
 
-export async function sendMessage(conversationId, message) {
+export async function sendMessage(conversationId, message, pinnedCaseIds = []) {
   return request('/chat/', {
     method: 'POST',
-    body: JSON.stringify({ conversation_id: conversationId, message }),
+    body: JSON.stringify({ conversation_id: conversationId, message, pinned_case_ids: pinnedCaseIds }),
   });
 }
 
@@ -177,4 +177,59 @@ export async function listAuditLogs(params = {}) {
   if (params.limit != null) sp.set('limit', String(params.limit));
   const qs = sp.toString();
   return request(`/admin/audit-logs${qs ? `?${qs}` : ''}`);
+}
+
+// ---------- Ingest (admin) ----------
+
+/**
+ * Upload PDFs for ingest. Starts a background job.
+ * @param {File[]} files - Array of File objects from a file input
+ * @param {string} [clauses] - Optional comma-separated clause whitelist e.g. "12(1),14(1)(a)"
+ * @param {string} [annotatorId] - Annotator label stored in DB (defaults to "admin")
+ * @returns {Promise<Object>} IngestJobResponse
+ */
+export async function uploadIngestPdfs(files, clauses = '', annotatorId = 'admin') {
+  const form = new FormData();
+  files.forEach((f) => form.append('pdfs', f));
+  if (clauses && clauses.trim()) form.append('clauses', clauses.trim());
+  form.append('annotator_id', annotatorId);
+
+  const token = getStoredToken();
+  const headers = {};
+  if (token) headers['Authorization'] = `Bearer ${token}`;
+
+  const res = await fetch(`${BASE}/admin/ingest/upload`, {
+    method: 'POST',
+    headers,
+    body: form,
+  });
+
+  if (!res.ok) {
+    const err = new Error(res.statusText);
+    err.status = res.status;
+    try { err.body = await res.json(); } catch { err.body = {}; }
+    if (res.status === 401) {
+      clearToken();
+      window.dispatchEvent(new Event('auth:logout'));
+    }
+    throw err;
+  }
+  return res.json();
+}
+
+/**
+ * Poll the status of a specific ingest job.
+ * @param {string} jobId
+ * @returns {Promise<Object>} IngestJobResponse
+ */
+export async function getIngestJob(jobId) {
+  return request(`/admin/ingest/jobs/${encodeURIComponent(jobId)}`);
+}
+
+/**
+ * List all ingest jobs, most recent first.
+ * @returns {Promise<Object[]>} Array of IngestJobResponse
+ */
+export async function listIngestJobs() {
+  return request('/admin/ingest/jobs');
 }

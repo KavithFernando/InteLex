@@ -3,7 +3,7 @@ from __future__ import annotations
 from datetime import datetime
 from typing import List, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 
 class CreateConversationResponse(BaseModel):
@@ -26,11 +26,26 @@ class MessageItem(BaseModel):
         default=None,
         description="Ranked interpretation frames for this assistant message, if any.",
     )
+    pinned_cases: Optional[List["FrameSummary"]] = Field(
+        default=None,
+        description="Cases @-referenced by the user in this message, if any.",
+    )
 
 
 class UserInput(BaseModel):
     message: str = Field(..., min_length=1, description="User message.")
     conversation_id: str = Field(..., min_length=1, description="Conversation identifier.")
+    pinned_case_ids: Optional[List[int]] = Field(
+        default_factory=list,
+        description="Up to 3 interpretation frame IDs explicitly referenced by the user via @-mention.",
+    )
+
+    @field_validator('pinned_case_ids')
+    @classmethod
+    def max_three_pinned(cls, v: Optional[List[int]]) -> Optional[List[int]]:
+        if v and len(v) > 3:
+            raise ValueError('Maximum 3 case references allowed per message.')
+        return v
 
 
 class ClauseSummary(BaseModel):

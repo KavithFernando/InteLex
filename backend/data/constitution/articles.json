@@ -1,0 +1,221 @@
+{
+    "meta": {
+        "version": 1,
+        "description": "Sri Lanka Constitution — Chapter III (fundamental rights) excerpt. Keys are derived from article + clause unless `canonical_key` is set on a row."
+    },
+    "articles": [
+      {
+        "article": "10",
+        "clauses": [
+          {
+            "clause": null,
+            "text": "Every person is entitled to freedom of thought, conscience and religion, including the freedom to have or to adopt a religion or belief of his choice."
+          }
+        ]
+      },
+      {
+        "article": "11",
+        "clauses": [
+          {
+            "clause": null,
+            "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+          }
+        ]
+      },
+      {
+        "article": "12",
+        "clauses": [
+          {
+            "clause": "1",
+            "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+          },
+          {
+            "clause": "2",
+            "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+          },
+          {
+            "clause": "2_proviso_1",
+            "text": "It shall be lawful to require a person to acquire within a reasonable time sufficient knowledge of any language as a qualification for employment or office where necessary."
+          },
+          {
+            "clause": "2_proviso_2",
+            "text": "It shall be lawful to require sufficient knowledge of any language where duties cannot be performed otherwise."
+          },
+          {
+            "clause": "3",
+            "text": "No person shall be subject to any disability or restriction regarding access to public places on the grounds of race, religion, language, caste or sex."
+          },
+          {
+            "clause": "4",
+            "text": "Special provisions may be made for the advancement of women, children or disabled persons."
+          }
+        ]
+      },
+      {
+        "article": "13",
+        "clauses": [
+          {
+            "clause": "1",
+            "text": "No person shall be arrested except according to law and must be informed of the reason."
+          },
+          {
+            "clause": "2",
+            "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+          },
+          {
+            "clause": "3",
+            "text": "Any accused person has the right to a fair trial and legal representation."
+          },
+          {
+            "clause": "4",
+            "text": "Punishment can only be imposed by a competent court and detention before trial is not punishment."
+          },
+          {
+            "clause": "5",
+            "text": "Every person is presumed innocent until proven guilty."
+          },
+          {
+            "clause": "5_proviso",
+            "text": "The burden of proving certain facts may be placed on the accused by law."
+          },
+          {
+            "clause": "6",
+            "text": "No person shall be guilty of an offence that was not an offence at the time it was committed, nor receive a heavier penalty."
+          },
+          {
+            "clause": "6_additional_1",
+            "text": "Acts considered criminal under general principles of international law can still be punished."
+          },
+          {
+            "clause": "6_additional_2",
+            "text": "Minimum penalties may be imposed as long as they do not exceed the maximum at the time."
+          },
+          {
+            "clause": "7",
+            "text": "Detention under immigration or deportation laws shall not be considered a violation."
+          }
+        ]
+      },
+      {
+        "article": "14",
+        "clauses": [
+          {
+            "clause": "1_a",
+            "text": "Freedom of speech and expression including publication."
+          },
+          {
+            "clause": "1_b",
+            "text": "Freedom of peaceful assembly."
+          },
+          {
+            "clause": "1_c",
+            "text": "Freedom of association."
+          },
+          {
+            "clause": "1_d",
+            "text": "Freedom to form and join a trade union."
+          },
+          {
+            "clause": "1_e",
+            "text": "Freedom to manifest religion or belief."
+          },
+          {
+            "clause": "1_f",
+            "text": "Freedom to enjoy and promote culture and language."
+          },
+          {
+            "clause": "1_g",
+            "text": "Freedom to engage in lawful occupation or business."
+          },
+          {
+            "clause": "1_h",
+            "text": "Freedom of movement and residence."
+          },
+          {
+            "clause": "1_i",
+            "text": "Freedom to return to Sri Lanka."
+          },
+          {
+            "clause": "2",
+            "text": "Certain long-term residents are entitled to these rights for ten years."
+          }
+        ]
+      },
+      {
+        "article": "14A",
+        "clauses": [
+          {
+            "clause": "1",
+            "text": "Every citizen has the right to access information held by public authorities and related institutions."
+          },
+          {
+            "clause": "2",
+            "text": "Restrictions on this right must be lawful and necessary in a democratic society."
+          },
+          {
+            "clause": "3",
+            "text": "Citizen includes bodies where at least three-fourths of members are citizens."
+          }
+        ]
+      },
+      {
+        "article": "15",
+        "clauses": [
+          {
+            "clause": "1",
+            "text": "Certain rights may be restricted for national security."
+          },
+          {
+            "clause": "2",
+            "text": "Freedom of speech may be restricted for harmony, defamation, or incitement."
+          },
+          {
+            "clause": "3",
+            "text": "Freedom of assembly may be restricted for harmony."
+          },
+          {
+            "clause": "4",
+            "text": "Freedom of association may be restricted for harmony or economy."
+          },
+          {
+            "clause": "5",
+            "text": "Freedom of occupation may be restricted by qualifications or state control."
+          },
+          {
+            "clause": "6",
+            "text": "Freedom of movement may be restricted for national economy."
+          },
+          {
+            "clause": "7",
+            "text": "General restrictions may apply for national security, public order, health, morality, and welfare."
+          },
+          {
+            "clause": "8",
+            "text": "Additional restrictions apply to armed forces and police for discipline and duty."
+          }
+        ]
+      },
+      {
+        "article": "16",
+        "clauses": [
+          {
+            "clause": "1",
+            "text": "Existing laws remain valid even if inconsistent with fundamental rights."
+          },
+          {
+            "clause": "2",
+            "text": "Punishments under existing law are not violations."
+          }
+        ]
+      },
+      {
+        "article": "17",
+        "clauses": [
+          {
+            "clause": null,
+            "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+          }
+        ]
+      }
+    ]
+  }
