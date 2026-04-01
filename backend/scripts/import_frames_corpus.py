@@ -11,7 +11,7 @@ _backend_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if _backend_dir not in sys.path:
     sys.path.insert(0, _backend_dir)
 
-from config.settings import CONSTITUTION_PATH, FRAMES_DIR, MANIFEST_PATH, PDF_RELATIVE_PREFIX
+from config.settings import CONSTITUTION_PATH, FRAMES_DIR, MANIFEST_PATH, R2_PUBLIC_URL
 from db.connection import get_connection
 
 
@@ -87,11 +87,12 @@ def build_manifest_lookup(manifest: Dict[str, Any]) -> Dict[str, Tuple[str, Dict
     return out
 
 
-def resolve_pdf_path(pdf_filename: str) -> str:
-    p = (PDF_RELATIVE_PREFIX or "").replace("\\", "/").strip()
-    if p and not p.endswith("/"):
-        p += "/"
-    return p + pdf_filename.replace("\\", "/")
+def resolve_pdf_path(pdf_filename: str) -> Optional[str]:
+    """Construct the R2 public URL for a PDF filename."""
+    if not R2_PUBLIC_URL or not pdf_filename:
+        return None
+    filename = pdf_filename.replace("\\", "/").lstrip("/")
+    return f"{R2_PUBLIC_URL.rstrip('/')}/pdfs/{filename}"
 
 
 def load_clause_map(cur) -> None:
