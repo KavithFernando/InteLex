@@ -509,7 +509,6 @@ export default function App() {
               caseDetail={caseDetail}
               triggeringQuery={selectedTriggeringQuery}
               onGenerateInterpretation={generateCaseInterpretation}
-              onGetPdf={handleGetPdf}
               onClose={handleCloseCaseDetail}
             />
           )}

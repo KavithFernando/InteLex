@@ -1,49 +1,22 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 
-export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerateInterpretation, onGetPdf, onClose }) {
+export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerateInterpretation, onClose }) {
   const [generatedInterpretation, setGeneratedInterpretation] = useState(null);
   const [interpretationLoading, setInterpretationLoading] = useState(false);
   const [interpretationError, setInterpretationError] = useState(null);
 
   const [showPdf, setShowPdf] = useState(false);
-  const [pdfBlobUrl, setPdfBlobUrl] = useState(null);
-  const [pdfLoading, setPdfLoading] = useState(false);
-  const [pdfError, setPdfError] = useState(null);
-
-  // Revoke blob URL when the modal closes to free memory
-  useEffect(() => {
-    if (!showPdf && pdfBlobUrl) {
-      URL.revokeObjectURL(pdfBlobUrl);
-      setPdfBlobUrl(null);
-    }
-  }, [showPdf]);
-
-  // Also revoke on unmount
-  useEffect(() => {
-    return () => { if (pdfBlobUrl) URL.revokeObjectURL(pdfBlobUrl); };
-  }, [pdfBlobUrl]);
 
   const canGenerateInterpretation = Boolean(
     triggeringQuery?.trim() && onGenerateInterpretation && caseDetail?.case_id
   );
 
-  const canViewPdf = Boolean(caseDetail?.pdf_relative_path && onGetPdf && caseDetail?.case_id);
+  const canViewPdf = Boolean(caseDetail?.pdf_relative_path);
 
-  const handleViewPdf = async () => {
+  const handleViewPdf = () => {
     if (!canViewPdf) return;
-    setPdfLoading(true);
-    setPdfError(null);
-    try {
-      const blob = await onGetPdf(caseDetail.case_id);
-      const url = URL.createObjectURL(blob);
-      setPdfBlobUrl(url);
-      setShowPdf(true);
-    } catch (err) {
-      setPdfError(err?.body?.detail ?? err?.message ?? 'Failed to load PDF.');
-    } finally {
-      setPdfLoading(false);
-    }
+    window.open(caseDetail.pdf_relative_path, '_blank', 'noopener,noreferrer');
   };
 
   const closePdf = () => setShowPdf(false);
@@ -160,31 +133,20 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
         </div>
 
         {/* Row 3: action buttons */}
-        {(canViewPdf || canGenerateInterpretation || pdfError) && (
+        {(canViewPdf || canGenerateInterpretation) && (
           <div className="flex items-center gap-2 flex-wrap">
             {canViewPdf && (
               <button
                 type="button"
                 onClick={handleViewPdf}
-                disabled={pdfLoading}
-                className="group flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium bg-surface-hover border border-border text-content-primary shadow-sm hover:border-accent/60 hover:text-accent hover:shadow-glow-sm hover:-translate-y-px disabled:opacity-60 disabled:transform-none transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30"
+                className="group flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium bg-surface-hover border border-border text-content-primary shadow-sm hover:border-accent/60 hover:text-accent hover:shadow-glow-sm hover:-translate-y-px transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30"
               >
-                {pdfLoading ? (
-                  <>
-                    <svg className="w-4 h-4 animate-spin" viewBox="0 0 24 24" fill="none">
-                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-                    </svg>
-                    <span>Loading…</span>
-                  </>
-                ) : (
                   <>
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                     </svg>
                     <span>View PDF</span>
                   </>
-                )}
               </button>
             )}
             {canGenerateInterpretation && (
@@ -211,9 +173,6 @@ export default function CaseDetailPanel({ caseDetail, triggeringQuery, onGenerat
                   </>
                 )}
               </button>
-            )}
-            {pdfError && (
-              <span className="text-xs text-error truncate" title={pdfError}>{pdfError}</span>
             )}
           </div>
         )}
