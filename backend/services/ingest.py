@@ -2,12 +2,12 @@
 PDF → Frame JSON → DB → incremental FAISS ingest service.
 
 Three stages run in a FastAPI BackgroundTask:
-  1. caseframe.pipeline.run_batch()   — PDF → frame JSONs (LLM calls)
+  1. caseframe.pipeline.run_batch()    — PDF → frame JSONs (LLM calls)
   2. import_frames_corpus.run_import() — frame JSONs → DB
   3. append_new_frames_to_index()      — new DB rows → FAISS append
 
-On success, PDFs and frame JSONs are moved to their permanent locations in
-backend/data/pdfs/ and backend/data/frames/ respectively.
+On success, PDFs are uploaded to Cloudflare R2 and frame JSONs are committed
+to backend/data/frames/.
 """
 from __future__ import annotations
 
@@ -20,8 +20,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
+import boto3
 import faiss
 import numpy as np
+from botocore.exceptions import ClientError
 from loguru import logger
 from sentence_transformers import SentenceTransformer
 
@@ -34,10 +36,50 @@ from config.settings import (
     FRAMES_DIR,
     INGEST_WORK_DIR,
     PDF_DIR,
+    R2_ACCOUNT_ID,
+    R2_ACCESS_KEY_ID,
+    R2_BUCKET_NAME,
+    R2_PUBLIC_URL,
+    R2_SECRET_ACCESS_KEY,
 )
 from scripts.import_frames_corpus import run_import
 from scripts.index_clauses import build_embedding_text, fetch_frame_clause_rows
 from db.repositories import ingest_job_repo
+
+# ── R2 helpers ───────────────────────────────────────────────────────────────────
+R2_CONFIGURED = bool(R2_ACCOUNT_ID and R2_ACCESS_KEY_ID and R2_SECRET_ACCESS_KEY and R2_PUBLIC_URL)
+
+
+def _get_r2_client():
+    return boto3.client(
+        "s3",
+        endpoint_url=f"https://{R2_ACCOUNT_ID}.r2.cloudflarestorage.com",
+        aws_access_key_id=R2_ACCESS_KEY_ID,
+        aws_secret_access_key=R2_SECRET_ACCESS_KEY,
+        region_name="auto",
+    )
+
+
+def _upload_pdf_to_r2(pdf_path: Path) -> str:
+    """
+    Upload a PDF file to R2 and return its public URL.
+    Raises RuntimeError if R2 is not configured.
+    """
+    if not R2_CONFIGURED:
+        raise RuntimeError(
+            "R2 credentials not configured. Set R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, "
+            "R2_SECRET_ACCESS_KEY, and R2_PUBLIC_URL in the environment."
+        )
+    s3 = _get_r2_client()
+    r2_key = f"pdfs/{pdf_path.name}"
+    with open(pdf_path, "rb") as f:
+        s3.put_object(
+            Bucket=R2_BUCKET_NAME,
+            Key=r2_key,
+            Body=f.read(),
+            ContentType="application/pdf",
+        )
+    return f"{R2_PUBLIC_URL.rstrip('/')}/{r2_key}"
 
 # ── In-memory cache (fast log appends during execution) ────────────────────────
 _JOBS: Dict[str, "IngestJob"] = {}
@@ -260,21 +302,18 @@ def run_ingest_job(
         added = append_new_frames_to_index(job)
         job.log.append(f"[Stage 3] Vector index updated: {added} new vector(s).")
 
-        # ── Stage 4: commit PDFs and frame JSONs to permanent data/ ──────────
-        job.log.append("[Stage 4] Moving files to data/ ...")
-        permanent_pdf_dir   = Path(PDF_DIR)
+        # ── Stage 4: upload PDFs to R2 and commit frame JSONs to permanent data/ ──
+        job.log.append("[Stage 4] Uploading PDFs to R2 and committing frame JSONs...")
         permanent_frame_dir = Path(FRAMES_DIR)
-        permanent_pdf_dir.mkdir(parents=True, exist_ok=True)
         permanent_frame_dir.mkdir(parents=True, exist_ok=True)
 
         for src_pdf in pdf_work_dir.glob("*.pdf"):
-            dst = permanent_pdf_dir / src_pdf.name
-            if dst.exists():
-                job.log.append(
-                    f"[Stage 4] WARNING: {src_pdf.name} already exists in data/pdfs/ — skipping"
-                )
-            else:
-                shutil.move(str(src_pdf), str(dst))
+            try:
+                r2_url = _upload_pdf_to_r2(src_pdf)
+                job.log.append(f"[Stage 4] Uploaded {src_pdf.name} → {r2_url}")
+            except Exception as upload_exc:
+                job.log.append(f"[Stage 4] ERROR uploading {src_pdf.name}: {upload_exc}")
+                raise
 
         json_work_dir = frame_work_dir / "json"
         if json_work_dir.is_dir():
@@ -283,7 +322,7 @@ def run_ingest_job(
                 if not dst.exists():
                     shutil.move(str(src_frame), str(dst))
 
-        job.log.append("[Stage 4] Files committed to data/.")
+        job.log.append("[Stage 4] PDFs in R2; frame JSONs committed to data/frames/.")
 
         # ── Stage 5: hot-reload retrieval service ────────────────────────────
         job.log.append("[Stage 5] Reloading retrieval service...")

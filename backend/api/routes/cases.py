@@ -1,7 +1,5 @@
-import os
-
 from fastapi import APIRouter, Depends, HTTPException
-from fastapi.responses import FileResponse
+from fastapi.responses import RedirectResponse
 from loguru import logger
 
 from api.auth_deps import get_current_user
@@ -58,32 +56,22 @@ def get_case_pdf(
     case_id: str,
     current_user: User = Depends(get_current_user),
     case_repo=Depends(get_case_repo),
-) -> FileResponse:
-    from config.settings import PDF_ROOT
-    if not PDF_ROOT:
-        logger.warning("[Cases] PDF requested but PDF_ROOT is not configured")
-        raise HTTPException(
-            status_code=503,
-            detail="PDF storage is not configured on this server. Set PDF_ROOT in the backend .env file.",
-        )
-
+) -> RedirectResponse:
     case = case_repo.fetch_case_by_id(case_id)
     if not case:
         raise HTTPException(status_code=404, detail="Case not found.")
 
-    pdf_rel = case.get("pdf_relative_path")
-    if not pdf_rel:
-        logger.warning("[Cases] No pdf_relative_path for case {}", case_id)
+    pdf_url = case.get("pdf_relative_path")
+    if not pdf_url or not pdf_url.startswith("http"):
+        logger.warning("[Cases] No R2 URL for case {}", case_id)
         raise HTTPException(status_code=404, detail="No PDF is available for this case.")
 
-    full_path = os.path.join(PDF_ROOT, pdf_rel)
-    if not os.path.isfile(full_path):
-        logger.warning("[Cases] PDF file missing on disk for case {} | path={}", case_id, full_path)
-        raise HTTPException(status_code=404, detail="PDF file not found on the server.")
-
-    filename = os.path.basename(full_path)
-    return FileResponse(
-        full_path,
-        media_type="application/pdf",
-        headers={"Content-Disposition": f'inline; filename="{filename}"'},
+    log_audit(
+        "cases.view_pdf",
+        user_id=current_user.user_id,
+        username=current_user.username,
+        resource_type="case",
+        resource_id=case_id,
+        success=True,
     )
+    return RedirectResponse(url=pdf_url, status_code=302)
