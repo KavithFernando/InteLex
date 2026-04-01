@@ -50,6 +50,12 @@ export default function App() {
   const [messages, setMessages] = useState([]);
   const [loading, setLoading] = useState(false);
   const [sending, setSending] = useState(false);
+  const messagesEndRef = useRef(null);
+
+  // Scroll to bottom whenever messages load or a new one arrives
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'instant' });
+  }, [messages, sending]);
   const [selectedCaseId, setSelectedCaseId] = useState(null);
   const [selectedTriggeringQuery, setSelectedTriggeringQuery] = useState(null);
   const [caseDetail, setCaseDetail] = useState(null);
@@ -451,6 +457,7 @@ export default function App() {
                       <LoadingMessage />
                     </div>
                   )}
+                  <div ref={messagesEndRef} />
                 </div>
               )}
             </div>
