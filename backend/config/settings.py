@@ -39,7 +39,7 @@ R2_ACCOUNT_ID        = os.getenv("R2_ACCOUNT_ID", "")
 R2_ACCESS_KEY_ID     = os.getenv("R2_ACCESS_KEY_ID", "")
 R2_SECRET_ACCESS_KEY = os.getenv("R2_SECRET_ACCESS_KEY", "")
 R2_BUCKET_NAME       = os.getenv("R2_BUCKET_NAME", "intelex-pdfs")
-R2_PUBLIC_URL        = os.getenv("R2_PUBLIC_URL", "")  # e.g. https://pub-<hash>.r2.dev
+R2_PUBLIC_URL        = os.getenv("R2_PUBLIC_URL", "")
 
 JWT_SECRET = os.getenv("JWT_SECRET", "change-me-in-production")
 JWT_ALGORITHM = "HS256"

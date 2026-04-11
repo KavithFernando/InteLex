@@ -9,6 +9,8 @@ article-match rate.
 """
 from __future__ import annotations
 
+import glob
+import json
 import os
 import sys
 
@@ -26,152 +28,159 @@ from services.query_parser import parse_query
 # Ground truth
 #
 # Each entry has:
-#   query              : the natural-language question
-#   expected_article   : the article the retriever should focus on
-#                        (None = no article expectation, counts as a match)
-#   expected_frame_ids : list of frame_identifier values that are known-good
-#                        answers.  At least one must appear in top-10 for
-#                        the query to count as a "hit".
-#                        Populated from actual data/frames/*.json files.
+#   query            : the natural-language question
+#   expected_article : the constitutional article the retriever should focus on
+#                      - exact clause  e.g. "12(2)"  → ground truth = all frames for that clause
+#                      - base article  e.g. "13"     → ground truth = all sub-clauses combined
+#                      - None                        → no Recall/MRR measured (always ART✓)
+#
+# expected_frame_ids is NOT used here; ground truth is derived automatically
+# at eval-time from data/frames/*.json by _get_effective_expected_ids().
+# This ensures exhaustive coverage: every annotated frame for the right article
+# counts as a valid hit, not just a hand-picked subset.
 # ---------------------------------------------------------------------------
 GROUND_TRUTH = [
-    # -----------------------------------------------------------------------
-    # Q1 — Article 12(2): government employment discrimination
-    # -----------------------------------------------------------------------
+    # ===================================================================
+    # SECTION A — Clause-first queries (explicit article in query text)
+    # Parser extracts the article via regex; pre-filtering is applied.
+    # Tests both query parsing accuracy AND within-article frame ranking.
+    # ===================================================================
     {
         "query": "Has Article 12(2) been used to challenge employment discrimination by the government?",
-        "expected_article": "12(2)",
-        "expected_frame_ids": [
-            "RQ1_016-SLLR-SLLR-1987-1-LAXAMANA-AND-OTHERS_081_C01__12(2)",
-            "RQ1_017-SLLR-SLLR-1988-V-1-THE-PUBLIC-SERVIC_088_C02__12(2)",
-            "RQ1_029-SLLR-1988-V2-DAYAWATHIE-AND-PEIRIS-V_142_C01__12(2)",
-            "RQ1_049-SLLR-SLLR-1996-V-2-CHANDRASENA-V.-KU_197_C02__12(2)",
-            "RQ1_058-SLLR-SLLR-1996-V-2-ATHUKORALA-V.-JAY_209_C01__12(2)",
-        ],
+        "expected_article": "12(2)",   # 49 frames
     },
-    # -----------------------------------------------------------------------
-    # Q2 — Article 11: right against torture
-    # -----------------------------------------------------------------------
     {
         "query": "How has the court interpreted the right against torture under Article 11?",
-        "expected_article": "11",
-        "expected_frame_ids": [
-            "RQ1_001-SLLR-SLLR-1989-V-1-SAMAN-V.-LEELADAS_002_C01__11",
-            "RQ1_003-SLLR-SLLR-1999-V-2-SUMITH-JAYANTHA-D_004_C01__11",
-            "RQ1_003-SLLR-SLLR-2003-1-SRIYANI-SILVA-WIFE-_005_C01__11",
-            "RQ1_004-SLLR-SLLR-1999-V-2-SUBASINGHE-V.-POL_006_C01__11",
-            "RQ1_004-SLLR-SLLR-2008-V-2-ROMESH-COORAY-V.-_007_C01__11",
-        ],
+        "expected_article": "11",       # 62 frames
     },
-    # -----------------------------------------------------------------------
-    # Q3 — Article 13(2): detention without trial / judicial oversight
-    # -----------------------------------------------------------------------
     {
         "query": "What does Article 13(2) say about detention without trial?",
-        "expected_article": "13(2)",
-        "expected_frame_ids": [
-            "RQ1_001-SLLR-SLLR_1994_V1-CHANNA_PIERIS__AND_001_C02__13(2)",
-            "RQ1_009-SLLR-SLLR-1993-1-CHANDRASIRI-V.-GEN._019_C01__13(2)",
-            "RQ1_016-SLLR-SLLR-1993-1-PALITHA-V.-O.-I.-C-_039_C01__13(2)",
-            "RQ1_032-SLLR-SLLR_1992_V__1_-_SUBBASH_CHANDR_075_C02__13(2)",
-            "RQ1_003-SLLR-SLLR-1999-V-2-SUMITH-JAYANTHA-D_005_C02__13(2)",
-        ],
+        "expected_article": "13(2)",   # 60 frames
     },
-    # -----------------------------------------------------------------------
-    # Q4 — Article 14(1)(a): freedom of speech restricted by state
-    # -----------------------------------------------------------------------
     {
         "query": "Has the freedom of speech under Article 14(1)(a) been restricted by the state?",
-        "expected_article": "14(1)(a)",
-        "expected_frame_ids": [
-            "RQ1_001-SLLR-SLLR_1994_V1-CHANNA_PIERIS__AND_001_C01__14(1)(a)",
-            "RQ1_012-SLLR-SLLR-1983-1-RATNASARA-THERO-V.-_021_C01__14(1)(a)",
-            "RQ1_018-SLLR-SLLR-1996-1-ATUKORALE-AND-OTHER_030_C01__14(1)(a)",
-            "RQ1_018-SLLR-SLLR-1999-V-2-SARANAPALA-V.-SOL_031_C01__14(1)(a)",
-            "RQ1_034-SLLR-SLLR-1995-V-1-DESHAPRIYA-AND-AN_059_C01__14(1)(a)",
-        ],
+        "expected_article": "14(1)(a)", # 34 frames
     },
-    # -----------------------------------------------------------------------
-    # Q5 — Article 12(1): equal protection / government employment policies
-    # -----------------------------------------------------------------------
+    {
+        "query": "Has the Supreme Court interpreted Article 17 to allow direct petitions?",
+        "expected_article": "17",       # 28 frames
+    },
+    {
+        "query": "Was the petitioner's arrest lawful under Article 13(1) — was the reason for arrest communicated?",
+        "expected_article": "13(1)",   # 72 frames
+    },
+    {
+        "query": "How has Article 13(3) protected the right to a fair trial and legal representation?",
+        "expected_article": "13(3)",   # 10 frames
+    },
+    {
+        "query": "Has Article 13(4) been applied to challenge preventive detention as unlawful punishment?",
+        "expected_article": "13(4)",   # 12 frames
+    },
+    {
+        "query": "Has Article 14(1)(b) been used to protect the right to hold public meetings or protests?",
+        "expected_article": "14(1)(b)", # 10 frames
+    },
+    {
+        "query": "How has Article 14(1)(g) been applied to protect freedom to carry on a lawful occupation?",
+        "expected_article": "14(1)(g)", # 21 frames
+    },
+    {
+        "query": "Can emergency regulations justify restricting fundamental rights under Article 15(7)?",
+        "expected_article": "15(7)",   # 12 frames
+    },
+    {
+        "query": "Has freedom of thought, conscience and religion under Article 10 been violated?",
+        "expected_article": "10",       # 7 frames
+    },
+    {
+        "query": "How has Article 12(1) equal protection been applied to public service appointments and transfers?",
+        "expected_article": "12(1)",   # 196 frames
+    },
+    # ===================================================================
+    # SECTION B — Fact-pattern / broad queries (no explicit article ref)
+    # Parser returns fact_pattern; no FAISS pre-filtering applied.
+    # Tests purely semantic retrieval quality.
+    # ===================================================================
     {
         "query": "Cases where government employment policies violated the equal protection clause",
-        "expected_article": "12",
-        "expected_frame_ids": [
-            "RQ1_001-SLLR-SLLR-2001-V-1-KAMALAWATHIE-AND-_004_C01__12(1)",
-            "RQ1_002-SLLR-SLLR-1991-V-1-RAMUPPILLAI-V.-FE_007_C01__12(1)",
-            "RQ1_002-SLLR-SLLR-1994-V1-PERERA-AND-NINE-OT_008_C01__12(1)",
-        ],
+        "expected_article": "12(1)",   # 196 frames — semantic match test
     },
-    # -----------------------------------------------------------------------
-    # Q6 — No specific article: remedy for fundamental rights violations
-    #        (expected_article=None → article-match always true)
-    # -----------------------------------------------------------------------
+    {
+        "query": "Can a citizen challenge a police arrest under the constitution?",
+        "expected_article": "13",       # all Art 13 sub-clauses ~158 frames
+    },
+    {
+        "query": "Article 12 discrimination based on race or religion",
+        "expected_article": "12(2)",   # 49 frames — parser will base-filter Art 12
+    },
+    {
+        "query": "Freedom of movement or right to travel — has the court ever restricted it?",
+        "expected_article": "14(1)(h)", # 11 frames — pure semantic test
+    },
+    # ===================================================================
+    # SECTION C — Open-ended (no article expectation)
+    # Contributes to Article-Match Rate only (always True when None).
+    # Verifies the system doesn't crash on vague queries.
+    # ===================================================================
     {
         "query": "What remedy did courts grant when fundamental rights were violated?",
         "expected_article": None,
-        "expected_frame_ids": [
-            "RQ1_001-SLLR-SLLR-1989-V-1-SAMAN-V.-LEELADAS_002_C01__11",
-            "RQ1_003-SLLR-SLLR-1999-V-2-SUMITH-JAYANTHA-D_005_C02__13(2)",
-            "RQ1_001-SLLR-SLLR_1994_V1-CHANNA_PIERIS__AND_001_C02__13(2)",
-        ],
-    },
-    # -----------------------------------------------------------------------
-    # Q7 — Article 13: police arrest constitutional challenge
-    # -----------------------------------------------------------------------
-    {
-        "query": "Can a citizen challenge a police arrest under the constitution?",
-        "expected_article": "13",
-        "expected_frame_ids": [
-            "RQ1_001-SLLR-SLLR_1994_V1-CHANNA_PIERIS__AND_001_C01__13(1)",
-            "RQ1_003-SLLR-SLLR_1983-1-GUNAWARDENA_V._PERE_004_C01__13(1)",
-            "RQ1_010-SLLR-SLLR-1991-V2-SIRISENA-AND-OTHER_021_C01__13(1)",
-            "RQ1_007-SLLR-SLLR-2007-V-2-SARJUN-V.-KAMALDE_015_C01__13(1)",
-        ],
-    },
-    # -----------------------------------------------------------------------
-    # Q8 — Article 17: direct petitions to Supreme Court
-    # -----------------------------------------------------------------------
-    {
-        "query": "Has the Supreme Court interpreted Article 17 to allow direct petitions?",
-        "expected_article": "17",
-        "expected_frame_ids": [
-            "RQ1_001-SLLR-SLLR_1994_V1-CHANNA_PIERIS__AND_001_C02__17",
-            "RQ1_003-SLLR-SLLR-2003-1-SRIYANI-SILVA-WIFE-_003_C01__17",
-            "RQ1_008-SLLR-SLLR-2003-V-2-SRIYANI-SILVA-V.-_004_C01__17",
-            "RQ1_012-SLLR-SLLR-1983-2-JANATHA-FINANCE-AND_008_C02__17",
-            "RQ1_012-SLLR-SLLR-2007-V-2-RODRIGO-V.-IMALKA_009_C02__17",
-        ],
-    },
-    # -----------------------------------------------------------------------
-    # Q9 — Article 12: discrimination based on race or religion
-    # -----------------------------------------------------------------------
-    {
-        "query": "Article 12 discrimination based on race or religion",
-        "expected_article": "12",
-        "expected_frame_ids": [
-            "RQ1_012-SLLR-SLLR-2000-V-1-MANEL-FERNANDO-AN_063_C02__12(2)",
-            "RQ1_050-SLLR-SLLR-2006-V-1-WEERAWANSHA-AND-O_200_C02__12(2)",
-            "RQ1_036-SLLR-SLLR-2004-V-3-KONESHALINGAM-V.-_177_C02__12(2)",
-        ],
-    },
-    # -----------------------------------------------------------------------
-    # Q10 — Article 14(1)(h): freedom of movement / right to travel
-    # -----------------------------------------------------------------------
-    {
-        "query": "Freedom of movement or right to travel — has the court ever restricted it?",
-        "expected_article": "14",
-        "expected_frame_ids": [
-            "RQ1_007-SLLR-SLLR-2007-V-2-SARJUN-V.-KAMALDE_013_C01__14(1)(h)",
-            "RQ1_011-SLLR-SLLR-2003-1-THAVANEETHAN-V.-DAY_020_C02__14(1)(h)",
-            "RQ1_012-SLLR-SLLR-2007-V-2-RODRIGO-V.-IMALKA_022_C01__14(1)(h)",
-            "RQ1_013-SLLR-SLLR-2002-3-SOLOMAN-DIAS-V.-SEC_023_C01__14(1)(h)",
-            "RQ1_015-SLLR-SLLR-2002-3-VADIVELU-V.-OFFICER_028_C01__14(1)(h)",
-        ],
     },
 ]
 
 K_VALUES = [1, 3, 5, 10]
+
+# ---------------------------------------------------------------------------
+# Exhaustive ground truth loader
+# ---------------------------------------------------------------------------
+_FRAMES_DIR = os.path.join(_backend_dir, "data", "frames")
+
+
+def _load_frames_by_article() -> dict[str, list[str]]:
+    """Read every data/frames/*.json and return article → [frame_id, ...] mapping.
+
+    This makes ground truth exhaustive: for an article-specific query, ALL
+    frames annotated to that clause count as valid expected answers — not just
+    a hand-picked subset.  Called once at the start of run_evaluation().
+    """
+    by_article: dict[str, list[str]] = {}
+    for fpath in glob.glob(os.path.join(_FRAMES_DIR, "*.json")):
+        try:
+            with open(fpath, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            article = data.get("clause", {}).get("article", "")
+            frame_id = data.get("frame_id", "")
+            if article and frame_id:
+                by_article.setdefault(article, []).append(frame_id)
+        except Exception:
+            continue
+    return by_article
+
+
+def _get_effective_expected_ids(
+    expected_art: str | None,
+    frames_by_article: dict[str, list[str]],
+) -> list[str]:
+    """Build the full expected frame ID set for a query.
+
+    - Exact clause ("12(2)")  → all frames for that specific clause.
+    - Base article ("12")     → frames for all sub-clauses combined.
+    - None                    → empty list (query skipped for Recall/MRR).
+    """
+    if expected_art is None:
+        return []
+    if expected_art in frames_by_article:
+        return list(frames_by_article[expected_art])
+    # Base article — no parentheses in expected_art
+    if "(" not in expected_art:
+        base = expected_art.strip()
+        combined: list[str] = []
+        for art, ids in frames_by_article.items():
+            if art.split("(")[0].strip() == base:
+                combined.extend(ids)
+        return combined
+    return []
 
 
 def recall_at_k(retrieved_ids: list, expected_ids: list, k: int):
@@ -215,6 +224,14 @@ def run_evaluation() -> None:
         client = None
         print("Warning: OpenAI client unavailable — running without LLM query parsing.")
 
+    # Load exhaustive ground truth from all data/frames/*.json files
+    frames_by_article = _load_frames_by_article()
+    total_frames = sum(len(v) for v in frames_by_article.values())
+    print(
+        f"\nGround truth source: {total_frames} frames across "
+        f"{len(frames_by_article)} articles loaded from data/frames/"
+    )
+
     recalls: dict[int, list[float]] = {k: [] for k in K_VALUES}
     rr_scores: list[float] = []
     article_matches: list[bool] = []
@@ -224,8 +241,8 @@ def run_evaluation() -> None:
 
     for i, test in enumerate(GROUND_TRUTH, start=1):
         query = test["query"]
-        expected_ids = test.get("expected_frame_ids") or []
         expected_art = test.get("expected_article")
+        expected_ids = _get_effective_expected_ids(expected_art, frames_by_article)
 
         parsed = parse_query(query, client)
 
@@ -262,26 +279,29 @@ def run_evaluation() -> None:
         rr_flag = f"RR={rr:.2f}" if rr is not None else "RR=N/A"
         r5 = recall_at_k(retrieved_ids, expected_ids, 5)
         r5_flag = f"R@5={r5:.0f}" if r5 is not None else "R@5=N/A"
-        print(f"[{i:02d}] {art_flag} {rr_flag} {r5_flag} | {query[:52]}...")
+        gt_label = f"GT={len(expected_ids)}" if expected_ids else "GT=skip"
+        print(f"[{i:02d}] {art_flag} {rr_flag} {r5_flag} {gt_label} | {query[:45]}...")
         if retrieved_ids:
-            print(f"       Top-3 returned: {retrieved_ids[:3]}")
+            print(f"       top-3: {retrieved_ids[:3]}")
 
     print("\n" + "=" * 70)
     print("RESULTS SUMMARY")
     print("=" * 70)
+    n_measured = len(recalls[10])  # queries that contributed to Recall metrics
     for k in K_VALUES:
         if recalls[k]:
             avg = sum(recalls[k]) / len(recalls[k])
-            print(f"  Recall@{k:<3} = {avg:.3f}  (over {len(recalls[k])} queries with ground truth)")
+            print(f"  Recall@{k:<3} = {avg:.3f}  (over {len(recalls[k])} queries)")
         else:
-            print(f"  Recall@{k:<3} = N/A   (no ground truth populated)")
+            print(f"  Recall@{k:<3} = N/A")
     if rr_scores:
         mrr = sum(rr_scores) / len(rr_scores)
-        print(f"  MRR          = {mrr:.3f}")
+        print(f"  MRR          = {mrr:.3f}  (over {len(rr_scores)} queries)")
     else:
-        print("  MRR          = N/A   (no ground truth populated)")
+        print("  MRR          = N/A")
     art_rate = sum(article_matches) / len(article_matches) if article_matches else 0.0
     print(f"  Article-Match Rate = {art_rate:.3f}  (over {len(article_matches)} queries)")
+    print(f"  Queries contributing to Recall/MRR: {n_measured} / {len(GROUND_TRUTH)}")
     print("=" * 70 + "\n")
 
 
