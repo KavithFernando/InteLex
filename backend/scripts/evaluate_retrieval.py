@@ -14,6 +14,8 @@ import json
 import os
 import sys
 
+from rank_bm25 import BM25Okapi
+
 _backend_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if _backend_dir not in sys.path:
     sys.path.insert(0, _backend_dir)
@@ -23,6 +25,43 @@ load_dotenv()
 
 from services.clause_retrieval import ClauseFrameRetrievalService
 from services.query_parser import parse_query
+
+
+class BM25Retriever:
+    """Sparse BM25 baseline over the same text corpus as FAISS.
+
+    Reads clause_frames_map.json (same source as ClauseFrameRetrievalService)
+    so both retrievers operate over an identical corpus.
+    """
+
+    def __init__(self) -> None:
+        map_path = os.path.join(_backend_dir, "index_store", "clause_frames_map.json")
+        with open(map_path, "r", encoding="utf-8") as f:
+            meta = json.load(f)
+        self._row_map = meta.get("row_map") or []
+        tokenised = [row["clause_text"].lower().split() for row in self._row_map]
+        self._bm25 = BM25Okapi(tokenised)
+
+    def search(self, query: str, top_k: int = 10) -> list[str]:
+        """Return top_k frame_identifier strings ranked by BM25 score.
+
+        Deduplicates by frame_identifier keeping highest-ranked occurrence,
+        matching the same dedup logic as ClauseFrameRetrievalService.
+        """
+        tokens = query.lower().split()
+        scores = self._bm25.get_scores(tokens)
+        ranked_indices = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)
+        seen: set[str] = set()
+        result: list[str] = []
+        for idx in ranked_indices:
+            fid = self._row_map[idx].get("frame_identifier", "")
+            if fid and fid not in seen:
+                seen.add(fid)
+                result.append(fid)
+            if len(result) >= top_k:
+                break
+        return result
+
 
 # ---------------------------------------------------------------------------
 # Ground truth
@@ -215,6 +254,7 @@ def article_match(parsed_article: str | None, expected_article: str | None) -> b
 
 def run_evaluation() -> None:
     service = ClauseFrameRetrievalService()
+    bm25 = BM25Retriever()
 
     try:
         from openai import OpenAI
@@ -224,7 +264,6 @@ def run_evaluation() -> None:
         client = None
         print("Warning: OpenAI client unavailable — running without LLM query parsing.")
 
-    # Load exhaustive ground truth from all data/frames/*.json files
     frames_by_article = _load_frames_by_article()
     total_frames = sum(len(v) for v in frames_by_article.values())
     print(
@@ -232,8 +271,9 @@ def run_evaluation() -> None:
         f"{len(frames_by_article)} articles loaded from data/frames/"
     )
 
-    recalls: dict[int, list[float]] = {k: [] for k in K_VALUES}
-    rr_scores: list[float] = []
+    conditions = ["bm25", "dense_nofilter", "dense_filtered"]
+    recalls = {cond: {k: [] for k in K_VALUES} for cond in conditions}
+    rr_scores: dict[str, list[float]] = {cond: [] for cond in conditions}
     article_matches: list[bool] = []
 
     print(f"\nRunning evaluation over {len(GROUND_TRUTH)} queries...\n")
@@ -245,8 +285,6 @@ def run_evaluation() -> None:
         expected_ids = _get_effective_expected_ids(expected_art, frames_by_article)
 
         parsed = parse_query(query, client)
-
-        # Only apply pre-filtering when the parser identified a specific clause
         if parsed.query_type == "clause_first":
             article_filter = parsed.article
             article_base_filter = parsed.article_base
@@ -254,54 +292,83 @@ def run_evaluation() -> None:
             article_filter = None
             article_base_filter = None
 
-        result = service.search_frames(
+        art_ok = article_match(parsed.article or parsed.article_base, expected_art)
+        article_matches.append(art_ok)
+
+        # Condition 1: BM25, no filtering
+        bm25_ids = bm25.search(query, top_k=10)
+
+        # Condition 2: Dense, no filtering
+        result_nofilter = service.search_frames(query_text=query, top_k=10)
+        dense_nofilter_ids = [
+            r.get("frame_identifier") or "" for r in result_nofilter.get("results", [])
+        ]
+
+        # Condition 3: Dense + article filter (full system)
+        result_filtered = service.search_frames(
             query_text=query,
             top_k=10,
             article_filter=article_filter,
             article_base_filter=article_base_filter,
         )
-        retrieved = result.get("results", [])
-        retrieved_ids = [r.get("frame_identifier") or "" for r in retrieved]
+        dense_filtered_ids = [
+            r.get("frame_identifier") or "" for r in result_filtered.get("results", [])
+        ]
 
-        art_ok = article_match(parsed.article or parsed.article_base, expected_art)
-        article_matches.append(art_ok)
+        retrieved_by_cond = {
+            "bm25": bm25_ids,
+            "dense_nofilter": dense_nofilter_ids,
+            "dense_filtered": dense_filtered_ids,
+        }
 
-        for k in K_VALUES:
-            v = recall_at_k(retrieved_ids, expected_ids, k)
-            if v is not None:
-                recalls[k].append(v)
-
-        rr = reciprocal_rank(retrieved_ids, expected_ids)
-        if rr is not None:
-            rr_scores.append(rr)
+        for cond in conditions:
+            ids = retrieved_by_cond[cond]
+            for k in K_VALUES:
+                v = recall_at_k(ids, expected_ids, k)
+                if v is not None:
+                    recalls[cond][k].append(v)
+            rr = reciprocal_rank(ids, expected_ids)
+            if rr is not None:
+                rr_scores[cond].append(rr)
 
         art_flag = "ART✓" if art_ok else "ART✗"
-        rr_flag = f"RR={rr:.2f}" if rr is not None else "RR=N/A"
-        r5 = recall_at_k(retrieved_ids, expected_ids, 5)
-        r5_flag = f"R@5={r5:.0f}" if r5 is not None else "R@5=N/A"
         gt_label = f"GT={len(expected_ids)}" if expected_ids else "GT=skip"
-        print(f"[{i:02d}] {art_flag} {rr_flag} {r5_flag} {gt_label} | {query[:45]}...")
-        if retrieved_ids:
-            print(f"       top-3: {retrieved_ids[:3]}")
+        r5_bm25 = recall_at_k(bm25_ids, expected_ids, 5)
+        r5_dnf = recall_at_k(dense_nofilter_ids, expected_ids, 5)
+        r5_dft = recall_at_k(dense_filtered_ids, expected_ids, 5)
+        r5_str = (
+            (f"BM25={r5_bm25:.0f}" if r5_bm25 is not None else "BM25=N/A") + "  "
+            + (f"DNF={r5_dnf:.0f}" if r5_dnf is not None else "DNF=N/A") + "  "
+            + (f"DFT={r5_dft:.0f}" if r5_dft is not None else "DFT=N/A")
+        )
+        print(f"[{i:02d}] {art_flag} {gt_label} R@5: {r5_str} | {query[:40]}...")
 
     print("\n" + "=" * 70)
     print("RESULTS SUMMARY")
-    print("=" * 70)
-    n_measured = len(recalls[10])  # queries that contributed to Recall metrics
+    print(f"{'Metric':<14} {'BM25':>12} {'Dense(no filt)':>15} {'Dense+Filter':>13}")
+    print("-" * 56)
     for k in K_VALUES:
-        if recalls[k]:
-            avg = sum(recalls[k]) / len(recalls[k])
-            print(f"  Recall@{k:<3} = {avg:.3f}  (over {len(recalls[k])} queries)")
+        row = f"  Recall@{k:<3}  "
+        for cond in conditions:
+            if recalls[cond][k]:
+                avg = sum(recalls[cond][k]) / len(recalls[cond][k])
+                n = len(recalls[cond][k])
+                row += f"  {avg:.3f}(n={n})"
+            else:
+                row += f"  {'N/A':>12}"
+        print(row)
+    row = "  MRR        "
+    for cond in conditions:
+        if rr_scores[cond]:
+            mrr = sum(rr_scores[cond]) / len(rr_scores[cond])
+            n = len(rr_scores[cond])
+            row += f"  {mrr:.3f}(n={n})"
         else:
-            print(f"  Recall@{k:<3} = N/A")
-    if rr_scores:
-        mrr = sum(rr_scores) / len(rr_scores)
-        print(f"  MRR          = {mrr:.3f}  (over {len(rr_scores)} queries)")
-    else:
-        print("  MRR          = N/A")
+            row += f"  {'N/A':>12}"
+    print(row)
     art_rate = sum(article_matches) / len(article_matches) if article_matches else 0.0
-    print(f"  Article-Match Rate = {art_rate:.3f}  (over {len(article_matches)} queries)")
-    print(f"  Queries contributing to Recall/MRR: {n_measured} / {len(GROUND_TRUTH)}")
+    print(f"\n  Article-Match Rate = {art_rate:.3f}  (over {len(article_matches)} queries)")
+    print("  (Article-Match is parser accuracy only; identical across all 3 conditions)")
     print("=" * 70 + "\n")
 
 
