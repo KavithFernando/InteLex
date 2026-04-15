@@ -136,6 +136,10 @@ GROUND_TRUTH = [
         "query": "How has Article 12(1) equal protection been applied to public service appointments and transfers?",
         "expected_article": "12(1)",   # 196 frames
     },
+    {
+        "query": "Has Article 14(1)(c) been used to challenge restrictions on forming civic organisations?",
+        "expected_article": "14(1)(c)", # 11 frames — previously uncovered article
+    },
     # ===================================================================
     # SECTION B — Fact-pattern / broad queries (no explicit article ref)
     # Parser returns fact_pattern; no FAISS pre-filtering applied.
@@ -156,6 +160,35 @@ GROUND_TRUTH = [
     {
         "query": "Freedom of movement or right to travel — has the court ever restricted it?",
         "expected_article": "14(1)(h)", # 11 frames — pure semantic test
+    },
+    {
+        "query": "A government official rejected a job application solely because of the applicant's religion",
+        "expected_article": "12(2)",   # 49 frames — discrimination fact-pattern, no article named
+    },
+    {
+        "query": "A person was held in police custody for three days without being produced before a court",
+        "expected_article": "13(2)",   # 60 frames — custodial detention fact-pattern
+    },
+    {
+        "query": "A journalist was arrested following the publication of reports critical of the government",
+        "expected_article": "14(1)(a)", # 34 frames — press freedom fact-pattern
+    },
+    {
+        "query": "Employees were prevented from forming a group to collectively represent their workplace interests",
+        "expected_article": "14(1)(c)", # 11 frames — freedom of association fact-pattern
+    },
+    # ===================================================================
+    # SECTION D — Ambiguous / edge-case queries
+    # No explicit article; semantically challenging or low-frequency.
+    # Tests robustness on harder semantic cases and sparse articles.
+    # ===================================================================
+    {
+        "query": "Can the government revoke a person's licence to practise their profession without justification?",
+        "expected_article": "14(1)(g)", # 21 frames — ambiguous phrasing; primary right is occupation
+    },
+    {
+        "query": "Is a person constitutionally entitled to be presumed innocent before their guilt is established?",
+        "expected_article": "13(5)",    # 2 frames — low-frequency article; edge case for sparse coverage
     },
     # ===================================================================
     # SECTION C — Open-ended (no article expectation)
