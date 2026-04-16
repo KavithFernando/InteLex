@@ -1,22 +1,9 @@
 """
-Build a FAISS index for clause-centric retrieval.
-
-Each vector corresponds to one row in interpretation_frames, joined to
-constitution_clauses (article + subclause + clause text) and cases (identifiers).
-
-Embedding input:
-  legal_issue, petitioner_claim, interpretation_summary, application_to_facts,
-  principles_agg, why_this_clause_matters, holding, clause_text (grounding anchor)
-
-Outputs:
-  - CLAUSE_INDEX_PATH: FAISS IndexFlatIP (cosine similarity with normalized embeddings)
-  - CLAUSE_MAP_PATH: JSON with embed_model, row count, and row_map[i] metadata
-
-Run from backend/:
+Run:
   python scripts/index_clauses.py
   python scripts/index_clauses.py --dry-run
 
-Requires: DB populated (interpretation_frames + cases + constitution_clauses), faiss, sentence-transformers.
+DB needs to be populated with interpreation frames
 """
 from __future__ import annotations
 
@@ -38,12 +25,6 @@ from db.connection import get_connection
 
 
 def build_embedding_text(row: dict) -> str:
-    """
-    Building a semantically rich embedding from all meaningful case-frame fields.
-    Ordering: legal issue first (most query-relevant), then petitioner claim,
-    then court's reasoning and principles (most substantive), then clause text
-    (anchors the embedding to the constitutional provision).
-    """
     parts = [
         row.get("legal_issue") or "",
         row.get("petitioner_claim") or "",
@@ -52,7 +33,7 @@ def build_embedding_text(row: dict) -> str:
         row.get("principles_agg") or "",
         row.get("why_this_clause_matters") or "",
         row.get("holding") or "",
-        # Clause text last — provides constitutional grounding without dominating
+        # Clause text last for keeping a grounding
         f"Article {row.get('article', '')} {row.get('subclause', '')}: {row.get('clause_text', '')}",
     ]
     return " ".join(p.strip() for p in parts if p and p.strip())

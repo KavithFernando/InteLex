@@ -29,12 +29,8 @@ DROP TABLE IF EXISTS audit_logs;
 DROP TABLE IF EXISTS users;
 DROP TABLE IF EXISTS user_roles;
 
--- -----------------------------------------------------------------------------
+
 -- 1) Constitution clauses
---    - article: e.g. "10", "12", "14A"
---    - subclause: JSON "clause" field; empty string when JSON clause is null
---    - clause_text: authoritative text for that sub-clause row
--- -----------------------------------------------------------------------------
 CREATE TABLE constitution_clauses (
   clause_id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
   article VARCHAR(16) NOT NULL,
@@ -46,9 +42,8 @@ CREATE TABLE constitution_clauses (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
 COMMENT='Sri Lanka Constitution FR excerpt; seed from articles.json';
 
--- -----------------------------------------------------------------------------
+
 -- 2) Cases
--- -----------------------------------------------------------------------------
 CREATE TABLE cases (
   id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
   case_identifier VARCHAR(512) NOT NULL COMMENT 'Visible corpus id from frame JSON (e.g. citation style); use for display / web search, not as join PK',
@@ -65,9 +60,8 @@ CREATE TABLE cases (
   KEY idx_cases_decision_date (decision_date)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- -----------------------------------------------------------------------------
+
 -- 3) Interpretation frames
--- -----------------------------------------------------------------------------
 CREATE TABLE interpretation_frames (
   id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
   frame_identifier VARCHAR(512) NOT NULL COMMENT 'Visible id from frame JSON (corpus key); use for display / search',
@@ -155,9 +149,8 @@ CREATE TABLE frame_precedent_links (
     ON DELETE RESTRICT
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- -----------------------------------------------------------------------------
+
 -- 4) Auth
--- -----------------------------------------------------------------------------
 CREATE TABLE user_roles (
   role_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
   name VARCHAR(64) NOT NULL,
@@ -183,9 +176,8 @@ CREATE TABLE users (
     ON DELETE RESTRICT
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- -----------------------------------------------------------------------------
+
 -- 5) Chat
--- -----------------------------------------------------------------------------
 CREATE TABLE conversations (
   id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
   conversation_id VARCHAR(255) NOT NULL COMMENT 'Client-facing id (e.g. UUID)',
@@ -218,9 +210,8 @@ CREATE TABLE messages (
     ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- -----------------------------------------------------------------------------
+
 -- 6) Audit logs
--- -----------------------------------------------------------------------------
 CREATE TABLE audit_logs (
   id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
   created_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),

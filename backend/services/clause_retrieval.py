@@ -80,10 +80,7 @@ class ClauseFrameRetrievalService(RetrievalServiceInterface):
         article_filter: str | None = None, # exact match like "12(2)"
         article_base_filter: str | None = None, # base article like "12"
     ) -> Dict[str, Any]:
-        """
-        Globally rank interpretation frames: each FAISS row is one frame; keep the best
-        score per interpretation_frame_id, then take top_k by score.
-        """
+
         self._load_assets()
         if self._index is None or self._embedder is None or not self._row_map:
             return {"results": []}
@@ -98,14 +95,13 @@ class ClauseFrameRetrievalService(RetrievalServiceInterface):
                 min(FRAME_RECALL_MAX, ntotal // FRAME_RECALL_DIVISOR),
             )
 
-        # Determine eligible FAISS row indices (article pre-filtering, RQ2)
+        # Determine eligible FAISS row indices
         valid_ids: set | None = None
         if article_filter and article_filter in self._article_to_ids:
             valid_ids = set(self._article_to_ids[article_filter])
         elif article_base_filter and article_base_filter in self._article_base_to_ids:
             valid_ids = set(self._article_base_to_ids[article_base_filter])
 
-        # Compensate: expand recall so filtering doesn't starve top_k
         effective_recall = frame_recall
         if valid_ids is not None:
             filtered_count = len(valid_ids)
@@ -126,7 +122,6 @@ class ClauseFrameRetrievalService(RetrievalServiceInterface):
         )
         scores, idxs = self._index.search(q, effective_recall)
 
-        # frame_id -> (best_score, faiss_idx, row)
         best_by_frame: Dict[int, tuple] = {}
         for score, idx in zip(scores[0], idxs[0]):
             if idx < 0:

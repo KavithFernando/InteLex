@@ -61,11 +61,7 @@ async def upload_pdfs_for_ingest(
     annotator_id: str = Form("admin"),
     admin: User = Depends(require_admin),
 ) -> IngestJobResponse:
-    """
-    Upload one or more PDFs and kick off the background ingest pipeline.
-    clauses: optional comma-separated whitelist e.g. '12(1),14(1)(a)'.
-    Leave blank to let the LLM extract all clauses it finds in each document.
-    """
+    
     if not pdfs:
         raise HTTPException(status_code=400, detail="No PDFs uploaded")
 
