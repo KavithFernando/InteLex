@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_015-SLLR-SLLR-1978-79-80-V1-THADCHANAMOO_019_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. NOS. 63 AND 68 OF 1980",
+    "case_title": "Thadchanamoorthi and Others v. Attorney-General and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1980-08-05",
+    "source_citation": "Sri Lanka Law Reports (1978-79-80) 1 SriL R 154"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners were subjected to torture or cruel, inhuman or degrading treatment or punishment by police officers, constituting an infringement of Article 11 of the Constitution, and whether such acts constituted executive or administrative action under Article 126.",
+    "petitioner_claim": "The petitioners alleged that they were severely assaulted and ill-treated by police officers to extort confessions, including being hung by wrists and beaten, constituting torture or cruel, inhuman or degrading treatment or punishment prohibited by Article 11.",
+    "respondent_argument": "The respondents denied the allegations, contending that any force used was reasonable and lawful in effecting arrest and preventing escape, that the injuries were minor and did not support claims of torture, and that the acts did not constitute executive or administrative action under Article 126.",
+    "key_facts": [
+      "Petitioners were arrested and alleged to have been assaulted by police officers at Eravur Police Station and elsewhere.",
+      "Petitioners filed fundamental rights applications alleging violations of Article 11.",
+      "Medical evidence showed only minor injuries inconsistent with severe assault claims.",
+      "There was an ongoing police inquiry into the complaints of assault.",
+      "The application by one petitioner was dismissed as out of time; the other was considered on merits."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 11 as prohibiting torture and cruel, inhuman or degrading treatment or punishment by the State. It recognized that unlawful acts by public officials may not always constitute State action unless they amount to an administrative practice tolerated or adopted by the executive or administration. The Court referred to international jurisprudence (Irish case) to explain the concept of administrative practice involving repetition and official tolerance of such acts.",
+    "application_to_facts": "The Court found the evidence insufficient to prove that the petitioners were subjected to torture or cruel, inhuman or degrading treatment as defined under Article 11. The minor injuries and lack of clear proof undermined the allegations. The ongoing police inquiry negated the existence of an administrative practice of torture or ill-treatment. The acts complained of were not established as executive or administrative action infringing fundamental rights.",
+    "principles_established": [
+      "Unlawful acts by public officials may not constitute State action unless part of an administrative practice.",
+      "An administrative practice requires repetition of acts and official tolerance.",
+      "The burden of proof lies on the petitioner to establish infringement of fundamental rights.",
+      "Ongoing investigations into complaints can negate claims of administrative practice."
+    ],
+    "precedents_cited": [
+      "Ireland v. United Kingdom (European Court of Human Rights)",
+      "Greek case (12 Y.B.E.C.H.R. Vol. p. 194)"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the fundamental rights application, holding that the petitioners failed to prove infringement of Article 11 rights by executive or administrative action.",
+    "disposition": "dismissed",
+    "remedy_or_orders": "The respondents were entitled to costs from the petitioners jointly and equally."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 is central as the petitioners alleged violations of the constitutional prohibition against torture and cruel, inhuman or degrading treatment by police officers. The Court’s reasoning and ultimate dismissal hinged on whether the acts alleged constituted such violations under Article 11.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Petitioners alleged severe assault and ill-treatment by police officers to extort confessions, but medical evidence showed only minor injuries; ongoing police inquiry negated existence of administrative practice of torture.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

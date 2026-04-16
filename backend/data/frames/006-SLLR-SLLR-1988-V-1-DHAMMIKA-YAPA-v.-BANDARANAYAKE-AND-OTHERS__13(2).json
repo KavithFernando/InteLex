@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_006-SLLR-SLLR-1988-V-1-DHAMMIKA-YAPA-V.-_012_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. 110/87",
+    "case_title": "Dhammiaka Yapa v. Bandaranayake and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1987-11-17",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. 110/87, decided on 17 November 1987"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether Wijesekera was produced before a Magistrate as required by Article 13(2) and whether his detention was lawful.",
+    "petitioner_claim": "The petitioner claimed Wijesekera was detained for 109 days without being produced before a Magistrate, violating Article 13(2).",
+    "respondent_argument": "Respondents denied mala fides and justified the detention orders under Emergency Regulations; they denied circumventing Magistrate's order.",
+    "key_facts": [
+      "Wijesekera was detained under two successive Detention Orders under Emergency Regulations.",
+      "He was not produced before a Magistrate within 30 days as required by Article 13(2).",
+      "An application was made in Magistrate's Court to produce him, but he was transferred to Magazine Prison before the hearing.",
+      "Respondents denied that the transfer was to circumvent the Magistrate's order.",
+      "Statements supporting detention were recorded during the detention period."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires detainees to be produced before a judge within a reasonable time. The court noted the procedural irregularity but accepted the detention orders under Emergency Regulations as lawful preventive detention.",
+    "application_to_facts": "Although Wijesekera was not produced before a Magistrate within 30 days, the court found the detention orders issued under Regulations 17(1) and 19(2) justified by the circumstances and evidence.",
+    "principles_established": [
+      "Detention under Emergency Regulations can be lawful even if procedural requirements under Article 13(2) are not strictly met.",
+      "Preventive detention orders under Emergency Regulations are not invalidated by non-production before Magistrate within 30 days."
+    ],
+    "precedents_cited": [
+      "Nanayakkara v. Henry Perera and others"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that despite non-production before a Magistrate, the detention was lawful under Emergency Regulations and did not violate Article 13(2).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) protects detainees from unlawful detention without judicial oversight. The court's reasoning addresses this procedural safeguard and justifies the detention orders under the Constitution.",
+    "relevance_level": "high",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "Wijesekera was detained for 109 days without being produced before a Magistrate; an application was made in Magistrate's Court but he was transferred to Magazine Prison under a new detention order.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

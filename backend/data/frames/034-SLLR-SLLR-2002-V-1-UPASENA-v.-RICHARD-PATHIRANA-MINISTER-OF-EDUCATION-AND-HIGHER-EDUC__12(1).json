@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_034-SLLR-SLLR-2002-V-1-UPASENA-V.-RICHAR_169_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_50_99",
+    "case_title": "Upasena v. Richard Pathirana, Minister of Education and Higher Education and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-05-31",
+    "source_citation": "Supreme Court of Sri Lanka, SC (FR) Application No. 50/99, decided on 31 May 2002"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the refusal to grant the petitioner a second extension of service beyond 56 years violated his fundamental rights under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the refusal to grant the second extension of service was arbitrary, unreasonable, and violated his right to equality and equal protection under Article 12(1).",
+    "respondent_argument": "The respondents contended that a Cabinet decision prohibited extensions of service beyond 55 years for persons appointed outside the approved scheme of recruitment, which applied to the petitioner as he lacked the required qualifications at appointment.",
+    "key_facts": [
+      "The petitioner was appointed President of Hapitigama College of Education subject to obtaining a postgraduate degree within three years.",
+      "The petitioner obtained a Master of Education degree within the stipulated period and was confirmed in the post.",
+      "The petitioner was granted a first extension of service beyond 55 years for one year.",
+      "A Cabinet decision dated 3 December 1997 prohibited extensions beyond 55 years for persons appointed outside the approved recruitment scheme.",
+      "The petitioner’s application for a second extension beyond 56 years was refused based on this Cabinet decision."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equality before the law and equal protection, and that the Cabinet decision should be applied prospectively, not retrospectively. Since the petitioner complied with the qualification condition and was confirmed in the post, the refusal to grant the second extension was arbitrary and violated his constitutional rights.",
+    "application_to_facts": "The petitioner had fulfilled the condition to obtain the postgraduate degree and was confirmed in his post. The first extension was granted, and the second extension was recommended by the Chief Commissioner. The Cabinet decision could not be applied retrospectively to deny the petitioner’s extension beyond 56 years, making the refusal unreasonable and discriminatory.",
+    "principles_established": [
+      "Cabinet decisions affecting service extensions must be applied prospectively, not retrospectively.",
+      "Article 12(1) protects against arbitrary and unreasonable discrimination in public service appointments and extensions.",
+      "Confirmation in post after fulfilling conditions strengthens the right to equal protection."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the refusal to grant the petitioner’s second extension of service beyond 56 years was arbitrary, unreasonable, and violated Article 12(1) of the Constitution. The petitioner was entitled to compensation.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioner was awarded Rs. 75,000 as compensation and Rs. 5,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court’s reasoning as the petitioner’s claim was based on the alleged violation of his right to equality and equal protection of the law by the arbitrary refusal of service extension.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the petitioner complied with the qualification condition, was confirmed in the post, and that the Cabinet decision should be applied prospectively. The refusal to grant the second extension was held to be arbitrary and violative of Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

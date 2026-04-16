@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_040-SLLR-SLLR-1998-1-SANGADASA-SILVA-V.-_184_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 251/95 (F.R.)",
+    "case_title": "Sangadasa Silva v. Anuruddha Ratwatte and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-02-11",
+    "source_citation": "Sri Lanka Law Reports (1998) 1 Sri LR. S.C. Application No. 251/95 (F.R.), decided on 11 February 1998"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the termination of the petitioner's dealership by the 2nd respondent Corporation was arbitrary, capricious, and violative of the petitioner's fundamental rights under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that the termination of his dealership was arbitrary, without notice or reasons, and violated his fundamental right to equality and equal protection under the law guaranteed by Article 12(1).",
+    "respondent_argument": "The 2nd respondent argued that the termination was pursuant to a special resolution of the Board of Directors for alleged violations of the dealership agreement, and that the 3rd respondent was awarded the dealership based on its capacity and suitability, denying any political motivation.",
+    "key_facts": [
+      "The petitioner was a long-standing dealer of petroleum products under an agreement with the 2nd respondent Corporation.",
+      "On 26.6.95, the petitioner's petrol station was forcibly taken over by persons acting for the 2nd respondent without serving the petitioner the termination letter.",
+      "No Board Paper, resolution, or reasons for termination were produced by the 2nd respondent.",
+      "The 3rd respondent company, incorporated shortly before the takeover, was awarded the dealership without disclosed material or application evidence.",
+      "The petitioner alleged political discrimination as the 2nd respondent's Board and the 3rd respondent's Directors were politically aligned with the ruling party, while he was a supporter of the opposition."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) prohibits arbitrary, capricious, and discriminatory executive or administrative action by the State or its agencies. The termination of the petitioner's dealership without notice, reasons, or due process violated the principle of equality before the law and equal protection.",
+    "application_to_facts": "The 2nd respondent failed to produce any material or evidence justifying the termination or the awarding of the dealership to the 3rd respondent. The absence of Board minutes or resolutions and the failure to serve the termination letter demonstrated arbitrariness. The political affiliations and timing supported the conclusion of discrimination and violation of Article 12(1).",
+    "principles_established": [
+      "Executive or administrative action involving contractual relationships must comply with constitutional guarantees of equality and non-arbitrariness.",
+      "The burden is on the State to justify termination decisions affecting fundamental rights.",
+      "Failure to produce relevant Board documents permits adverse inferences under the Evidence Ordinance.",
+      "Political discrimination in administrative decisions violates Article 12(1)."
+    ],
+    "precedents_cited": [
+      "Dahanayake v. de Silva (1978 - 79 - 80) 1 Sri LR 47",
+      "Kuruppuge Don Somapala Gunaratne et al v. Ceylon Petroleum Corporation et al SC Application 99/96",
+      "Wickrematunge v. Ceylon Petroleum Corporation et al 1998 1 Sri LR 201"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the 2nd respondent's termination of the petitioner's dealership was arbitrary, capricious, and violative of Article 12(1) of the Constitution, and declared the termination null and void.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 2nd respondent was ordered to reinstate the petitioner as dealer under the original agreement within one month and to pay Rs. 100,000 as compensation and Rs. 25,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it prohibits arbitrary and discriminatory executive action, which the Court found in the termination of the petitioner's dealership without due process or justification.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court noted the absence of any Board Paper, resolution, or reasons for termination, the failure to serve the termination letter, and the political affiliations of the parties involved as evidence of arbitrariness and violation of Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

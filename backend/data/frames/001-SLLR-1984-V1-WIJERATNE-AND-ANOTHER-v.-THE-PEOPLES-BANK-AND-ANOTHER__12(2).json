@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_001-SLLR-1984-V1-WIJERATNE-AND-ANOTHER-V_001_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. 63/83 & 65/83",
+    "case_title": "Wijeratne and Another v. The People's Bank and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1984-01-12",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. 63/83 & 65/83, decided on 12 January 1984"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners were discriminated against by the People's Bank in violation of Article 12(2) of the Constitution, and whether such discrimination was by executive or administrative action making it maintainable under Article 126.",
+    "petitioner_claim": "The petitioners claimed that the People's Bank discriminated against them in their appointment and promotion prospects, infringing their fundamental right to equality and non-discrimination under Article 12(2).",
+    "respondent_argument": "The People's Bank argued that the alleged discrimination was not by executive or administrative action of the State but part of its commercial activities, and thus the Supreme Court lacked jurisdiction under Article 126.",
+    "key_facts": [
+      "Petitioners placed in a lower inspector class despite higher salary than others in higher class.",
+      "Petitioners alleged discrimination affecting promotional prospects.",
+      "The People's Bank is a statutory corporation engaged mainly in commercial banking.",
+      "Supreme Court jurisdiction under Article 126 requires infringement by executive or administrative action.",
+      "Employment and reorganisation related to commercial functions, not governmental functions."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court recognized that Article 12(2) prohibits discrimination on specified grounds, but relief under Article 126 requires the infringement to be caused by executive or administrative action. The People's Bank's commercial activities and employment decisions do not constitute such State action. Therefore, even if discrimination occurred, it is not actionable under Article 126.",
+    "application_to_facts": "The Court found no nexus between the State and the Bank's commercial activities involving the petitioners. The alleged discrimination in appointment and promotion was not by executive or administrative action, so the petitioners' claim under Article 12(2) was not maintainable in the Supreme Court under Article 126.",
+    "principles_established": [
+      "Discrimination claims under Article 12(2) require executive or administrative action for relief under Article 126.",
+      "Statutory corporations performing commercial functions are not State actors for such claims.",
+      "The nature of the function (governmental vs commercial) determines applicability of fundamental rights enforcement.",
+      "The cumulative effect of factors determines whether a corporation's action is State action."
+    ],
+    "precedents_cited": [
+      "Wijetunga v. Insurance Corporation of Sri Lanka (1982) 1 S.L.R. 1",
+      "Trendtex Trading Corporation v. Central Bank (1977) 1 All E.R. 881",
+      "Pfizer v. Minister of Health (1963) 3 All E.R. 779",
+      "New York v. United States (1945) 326 U.S. 572",
+      "Ramana v. I.A. Authority of India A.I.R. (1979) S.C. 1628",
+      "Jackson v. Metropolitan Edition Co. (1974) 419 U.S. 365"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court upheld the preliminary objection and dismissed the applications, holding that the alleged discrimination was not by executive or administrative action and thus not actionable under Article 126 for violation of Article 12(2).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was directly invoked by the petitioners alleging discrimination. The Court's reasoning focused on whether the alleged discrimination was by executive or administrative action, a prerequisite for relief under Article 126, thus directly interpreting the scope of Article 12(2) rights in the context of State action.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the People's Bank's commercial activities and employment decisions do not constitute executive or administrative action of the State, and therefore the petitioners' claim of discrimination under Article 12(2) is not maintainable under Article 126.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

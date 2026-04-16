@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_014-SLLR-SLLR-2001-V-1-MEDIWAKE-AND-OTHE_071_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_412_99",
+    "case_title": "Mediwake and Others v. Dayananda Dissanayake, Commissioner of Elections and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-12-05",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 412/99, decided on 17 Oct, 14, 16 Nov and 4, 5 Dec 2000"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the failure of the Commissioner of Elections to annul the poll and order a re-poll at 23 polling stations where ballot-stuffing and intimidation occurred infringed the petitioners' fundamental right to equality and equal protection under Article 12(1).",
+    "petitioner_claim": "The petitioners claimed that the failure to declare the poll void and to order a re-poll at the affected polling stations violated their fundamental rights under Article 12(1) and 14(1)(a), as the irregularities prevented a genuine, free, equal and secret poll.",
+    "respondent_argument": "The respondents argued that the Commissioner had discretionary power under section 46A(2) of the Provincial Council Elections Act and that annulment was limited to specific objective grounds such as failure to commence or continue the poll at the scheduled times, and that the irregularities did not affect the overall election result.",
+    "key_facts": [
+      "Ballot stuffing and intimidation occurred at 23 polling stations in Kandy District during the 1998 Provincial Council elections.",
+      "The Commissioner annulled the poll only at one polling station (Polwatta) but did not order a re-poll.",
+      "The petitioners were members and candidates of the United National Party and alleged infringement of their fundamental rights.",
+      "The Commissioner failed to make adequate inquiries into the incidents despite having sufficient notice.",
+      "The irregularities affected the free, equal and secret nature of the poll and likely affected the election result."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) guarantees equality before the law and equal protection, which includes the right to a genuine, free, equal and secret poll. The Commissioner’s discretionary power to annul a poll under section 46A(2) is coupled with a duty to act when non-compliance affects the poll’s integrity. The failure to annul and order a re-poll at the affected stations infringed the petitioners' right to equality and equal protection.",
+    "application_to_facts": "The Court found prima facie evidence of ballot stuffing and intimidation at 23 polling stations, which prevented a genuine poll. The Commissioner had sufficient notice but failed to inquire or annul the polls except at one station. This failure denied the petitioners and the electorate equal protection under the law by allowing an unfair poll to stand.",
+    "principles_established": [
+      "The right to a free, equal and secret poll is integral to the right to equality under Article 12(1).",
+      "The Commissioner of Elections has a duty to annul polls where irregularities affect the integrity of the election.",
+      "Failure to act on known irregularities that affect the poll constitutes a violation of equal protection rights.",
+      "The collective nature of voting rights means infringement of others' voting rights can also infringe an individual's fundamental rights."
+    ],
+    "precedents_cited": [
+      "Edrisinha v. Dissanayake SC No. 265/99",
+      "Bandaranaike v. Premadasa (1992) 2 Sri L.R. 1 at 54",
+      "Karunatilleke v. Dissanayake (1999) 1 Sri L.R. 157",
+      "Amaratunga v. Sirimal",
+      "Faiz v. Attorney-General",
+      "Don Alexander v. Fernando (1948) 49 NLR 202"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court declared that the petitioners' fundamental rights under Article 12(1) were infringed by the failure of the Commissioner of Elections to conduct a proper poll, to inquire into the incidents, to annul the poll at the 23 polling stations (other than Polwatta), and to order a re-poll.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of infringement of fundamental rights and costs awarded to petitioners; no order for re-poll due to impracticality of ordering a re-poll after two years."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it protects the right to equality and equal protection under the law, which includes the right to a genuine and fair election process. The failure to annul and order a re-poll at stations with proven irregularities was a direct violation of this constitutional guarantee.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found prima facie evidence of ballot stuffing and intimidation at 23 polling stations, and that the Commissioner failed to make adequate inquiries or annul the polls except at one station, thereby infringing the petitioners' rights under Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

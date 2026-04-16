@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-2000-V-1-BANDARA-AND-OTHER_040_C02__14(1)(b)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION Nos. 687/97, 688/97, 689/97 AND 690/97",
+    "case_title": "Bandara and Others v. Jagoda Arachchi, Officer in Charge, Police Station, Fort and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-02-09",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application Nos. 687/97-690/97, decided on 9 February 2000"
+  },
+  "clause": {
+    "article": "14(1)(b)",
+    "text": "Freedom of peaceful assembly."
+  },
+  "case_context": {
+    "legal_issue": "Whether the police action in dispersing the picketing university students infringed their fundamental right to freedom of peaceful assembly under Article 14(1)(b).",
+    "petitioner_claim": "The petitioners claimed their right to peaceful assembly was violated when police used force to disperse their protest.",
+    "respondent_argument": "The police argued that the assembly ceased to be peaceful when protesters obstructed traffic and caused damage, justifying dispersal under statutory powers and constitutional restrictions.",
+    "key_facts": [
+      "University students organized a picketing campaign protesting government educational reforms.",
+      "Protesters initially assembled peacefully without obstructing the road.",
+      "Protesters moved onto the main road causing obstruction and congestion.",
+      "Police ordered dispersal and used tear gas, batons, and water cannon after protesters did not comply.",
+      "Some protesters caused damage to shops and injured police officers."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court explained that the freedom of peaceful assembly is fundamental but not absolute. It is subject to restrictions necessary to maintain public order. An assembly ceases to be peaceful when it causes a reasonable apprehension of disturbance to public peace, justifying police intervention.",
+    "application_to_facts": "The court found the initial assembly was peaceful and lawful. However, when protesters obstructed the road and caused damage, the police lawfully commanded dispersal under Section 95(1) and used reasonable force under Section 95(2) of the Code of Criminal Procedure, thus not infringing the right.",
+    "principles_established": [
+      "Freedom of peaceful assembly is vital but limited to assemblies that remain peaceful.",
+      "Police have authority to disperse assemblies that threaten public peace and order.",
+      "Reasonable force may be used if dispersal orders are disobeyed."
+    ],
+    "precedents_cited": [
+      "Bernard Zoysa v. The Attorney General (1991) 2 Sri L.R. 56",
+      "Hague, Mayor et al vs Committee for Industrial Organisation 307 US 496"
+    ]
+  },
+  "outcome": {
+    "holding": "The court dismissed the petitioners' claim, holding that the police action in dispersing the assembly was lawful and did not infringe their right to peaceful assembly.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(b) guarantees freedom of peaceful assembly, which was directly challenged by the police dispersal. The court's analysis of when an assembly ceases to be peaceful and the lawful police powers to disperse was central to the decision.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that the assembly was peaceful initially but ceased to be so when protesters obstructed the road and caused damage, justifying police dispersal under statutory powers.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

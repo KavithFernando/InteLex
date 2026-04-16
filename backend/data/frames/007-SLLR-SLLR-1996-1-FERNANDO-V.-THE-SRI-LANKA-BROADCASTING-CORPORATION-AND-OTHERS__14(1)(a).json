@@ -1,0 +1,76 @@
+{
+  "frame_id": "RQ1_007-SLLR-SLLR-1996-1-FERNANDO-V.-THE-SRI_012_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application No. 81/95",
+    "case_title": "Fernando v. The Sri Lanka Broadcasting Corporation and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-01-30",
+    "source_citation": "Sri Lanka Law Reports [1996] 1 Sri L.R. 157"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the sudden stoppage of the Non-Formal Education Programme (NFEP) by the Sri Lanka Broadcasting Corporation infringed the petitioner's fundamental right to freedom of speech and expression under Article 14(1)(a) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that as a participatory listener who actively engaged in NFEP broadcasts, his fundamental right to freedom of speech and expression, including the right to receive and impart information, was infringed by the arbitrary stoppage of the NFEP.",
+    "respondent_argument": "The respondents contended that the stoppage was justified due to irrelevance of programme content, possible legal liabilities, inappropriate criticisms aired, and public complaints. They also argued that a listener has no independent right to receive broadcasts if the broadcaster chooses not to speak.",
+    "key_facts": [
+      "The NFEP was a regular, planned series of educational programmes covering diverse social, political, and cultural topics.",
+      "The petitioner participated actively in NFEP programmes, including live discussions and questioning resource persons.",
+      "The NFEP was abruptly stopped on 6 February 1995 during a live programme involving a government minister and workers' strike issues.",
+      "Respondents failed to produce evidence of resumption of the NFEP after stoppage.",
+      "Justifications for stoppage were found to be without merit by the court."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 14(1)(a) guarantees freedom of speech and expression broadly, including every form of expression and implied rights necessary to make the guarantee meaningful, such as the right to obtain and record information by various means. The right extends to participatory listeners who actively communicate views through broadcasts. However, the right to receive information simpliciter (for private edification only) is doubtful under this article.",
+    "application_to_facts": "The court found that the petitioner’s freedom of speech was infringed as a participatory listener because the stoppage of the NFEP prevented his further participation and communication of views. The justifications offered by respondents for stopping the NFEP were rejected as baseless and arbitrary. The petitioner’s right to receive and impart information through the NFEP was thus unlawfully curtailed.",
+    "principles_established": [
+      "Article 14(1)(a) includes every form of expression and implied rights necessary to make the freedom meaningful.",
+      "Freedom of speech includes the right of participatory listeners to communicate views, not just passive reception.",
+      "Arbitrary stoppage of a broadcast programme that prevents participation infringes freedom of speech.",
+      "Justifications for restricting freedom of speech must be bona fide and supported by evidence.",
+      "The right to receive information simpliciter is not clearly included under Article 14(1)(a)."
+    ],
+    "precedents_cited": [
+      "Ekanayake v. Herath Banda S.C. 25/91",
+      "Secretary, Ministry of Information v. Cricket Association of Bengal (1995) 2 SCC 161",
+      "Red Lion Broadcasting Co. v. F.C.C. (1969) 395 US 367",
+      "Prabha Dutt v. Union of India AIR 1982 SC 6",
+      "Leander v. Sweden 26 March 1987, Series A No. 116",
+      "Open Door Counselling and Dublin Well Woman Centre v. Ireland 29 October 1992, Series A No. 246",
+      "Stanley v. Georgia 394 US 557",
+      "Martin v. City of Struthers 319 US 141",
+      "Griswold v. Connecticut (1965) 381 US 479",
+      "Joseph Perera v. AG (1992) 1 Sri LR 199",
+      "Visuvalingam v. Liyanage (1984) 2 Sri LR 123",
+      "Narayanan v. Kerala AIR 1973 Kerala 97",
+      "Lamont v. Postmaster General (1969) 331 US 301"
+    ]
+  },
+  "outcome": {
+    "holding": "The court declared that the 1st and 2nd respondents infringed the petitioner's fundamental right under Article 14(1)(a) by arbitrarily stopping the NFEP, thereby infringing his freedom of speech as a participatory listener. The court awarded Rs. 15,000 as compensation and Rs. 5,000 as costs to the petitioner.",
+    "disposition": "granted",
+    "remedy_or_orders": "Payment of Rs. 15,000 as compensation and Rs. 5,000 as costs to the petitioner; no order to resume NFEP due to expiry of schedule and timing of hearing."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) is central to the court's reasoning as it guarantees freedom of speech and expression, which the petitioner claimed was infringed by the stoppage of the NFEP. The court's detailed interpretation and application of this clause to the facts led directly to the finding of infringement and the remedy granted.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The NFEP was a regular, high-quality broadcast programme allowing listener participation, which was abruptly stopped without valid justification, preventing the petitioner from further participation and expression.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

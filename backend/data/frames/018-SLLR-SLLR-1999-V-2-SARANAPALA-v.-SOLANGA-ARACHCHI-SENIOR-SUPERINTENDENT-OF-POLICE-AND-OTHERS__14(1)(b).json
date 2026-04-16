@@ -1,0 +1,66 @@
+{
+  "frame_id": "RQ1_018-SLLR-SLLR-1999-V-2-SARANAPALA-V.-SOL_031_C02__14(1)(b)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 470/96 (FR)",
+    "case_title": "Saranapala v. Solanga Arachchi, Senior Superintendent of Police and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-06-18",
+    "source_citation": "Sri Lanka Law Reports [1999] 2 Sri LR."
+  },
+  "clause": {
+    "article": "14(1)(b)",
+    "text": "Freedom of peaceful assembly."
+  },
+  "case_context": {
+    "legal_issue": "Whether the police prohibition of the NSSP May Day procession infringed the petitioner's right to freedom of peaceful assembly under Article 14(1)(b) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that the police unlawfully denied the right to peacefully assemble and march in procession, a traditional method of political expression on May Day.",
+    "respondent_argument": "The respondents argued that the prohibition was lawful under section 77(3) of the Police Ordinance and emergency regulations, justified by national security and public order concerns.",
+    "key_facts": [
+      "NSSP was initially permitted to hold a procession and meeting on May Day.",
+      "Permission was revoked shortly before May Day citing security reasons.",
+      "Other political parties were allowed to hold processions or meetings.",
+      "The NSSP procession was stopped by police; only a few leaders were allowed to proceed.",
+      "Emergency regulations banned all processions for 24 hours starting midnight 30 April 1996."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court recognized that freedom of peaceful assembly includes the right to hold processions and meetings in public places. Restrictions must be lawful, necessary, and not aimed at suppressing political expression.",
+    "application_to_facts": "The court found the police selectively enforced restrictions against the NSSP, allowing other parties to assemble and march, indicating the prohibition was not genuinely for public order or security but to suppress the petitioner's political expression.",
+    "principles_established": [
+      "Peaceful assembly includes processions and public meetings.",
+      "Restrictions must be prescribed by law and justified by substantial government interest.",
+      "Police powers to restrict assembly are subject to constitutional safeguards.",
+      "Selective enforcement violating equality rights is impermissible."
+    ],
+    "precedents_cited": [
+      "Hague v. CIO",
+      "Shuttlesworth v. City of Birmingham",
+      "Goonewardena v. Perera",
+      "Joseph Perera v. The Attorney-General"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the prohibition of the NSSP procession violated the petitioner's fundamental right to freedom of peaceful assembly under Article 14(1)(b).",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was ordered to pay the petitioner Rs. 15,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(b) is central because the case concerns whether the police unlawfully restricted the petitioner's right to peacefully assemble and march in a political procession.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court noted that the police used section 77(3) and emergency regulations to deny the petitioner the right to peaceful assembly, while allowing other parties to march, showing suppression of political expression.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

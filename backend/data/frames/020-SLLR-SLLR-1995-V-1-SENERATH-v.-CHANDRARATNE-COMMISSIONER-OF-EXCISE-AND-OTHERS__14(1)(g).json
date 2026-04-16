@@ -1,0 +1,56 @@
+{
+  "frame_id": "RQ1_020-SLLR-SLLR-1995-V-1-SENERATH-V.-CHAND_033_C01__14(1)(g)",
+  "created_at": "2024-06-10",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "RQ1_020-SLLR-SLLR-1995-V-1-SENERATH-V.-CHANDRARATNE-COMMISSIONER-OF-EXCISE-AND-OTHERS",
+    "case_title": "Senerath v. Chandraratne, Commissioner of Excise and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-08-03",
+    "source_citation": "Supreme Court of Sri Lanka, Senerath v. Chandraratne, Commissioner of Excise and Others, 1995"
+  },
+  "clause": {
+    "article": "14(1)(g)",
+    "text": "Freedom to engage in lawful occupation or business."
+  },
+  "case_context": {
+    "legal_issue": "Whether the failure to renew the petitioner's liquor licences infringed his fundamental rights under Article 14(1)(g) relating to freedom to engage in lawful occupation or business.",
+    "petitioner_claim": "The petitioner claimed that the refusal to renew his liquor licences was discriminatory and violated his fundamental rights under Article 14(1)(g), alleging that the refusal was due to political animus and instigation by the President.",
+    "respondent_argument": "The respondents argued that the petitioner did not press for relief under Article 14(1)(g) and that the refusal to renew licences was lawful and not an infringement of fundamental rights. They also raised a preliminary objection that the proceedings were barred by the President's immunity under Article 35.",
+    "key_facts": [
+      "The petitioner’s liquor licences for 1995 were not renewed by the Commissioner of Excise and other officials.",
+      "The petitioner alleged the refusal was instigated by the President due to political reasons.",
+      "Leave to proceed was initially granted by the Supreme Court on 21 July 1995 for alleged infringements of Articles 12(1) and 12(2), but the petitioner did not press relief under Article 14(1)(g).",
+      "The Attorney-General objected to the continuation of the application on grounds of presidential immunity under Article 35.",
+      "The petitioner sought an interim order for renewal of licences to avoid irreparable loss to his business."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court noted that the petitioner did not press for relief under Article 14(1)(g) and thus the Court did not engage substantively with this clause. The Court focused on the issues under Articles 12(1) and 12(2) and the immunity of the President under Article 35. The Court held that the refusal to renew licences was a matter involving officials and not the President personally, and that the petitioner bore the burden of proof for allegations of mala fide conduct.",
+    "application_to_facts": "Since the petitioner did not press relief under Article 14(1)(g), the Court did not apply this clause to the facts. The Court instead addressed the procedural and immunity issues related to the President and the officials involved in the licence renewal process.",
+    "principles_established": [],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court did not grant relief under Article 14(1)(g) as the petitioner did not press for it. The preliminary objection based on presidential immunity was overruled, and the petition was set down for hearing on the merits regarding other fundamental rights claims.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(g) was raised by the petitioner as a basis for claiming infringement of his right to engage in lawful business due to non-renewal of liquor licences. However, the petitioner did not press for relief under this clause, so it was not central to the Court's reasoning or outcome.",
+    "relevance_level": "low",
+    "match_type": "mentioned_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner sought relief under Articles 12(1), 12(2) and 14(1)(g), but did not press for relief under Article 14(1)(g). The Court granted leave to proceed only for Articles 12(1) and 12(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2100,
+      "end_char": 2200
+    }
+  }
+}

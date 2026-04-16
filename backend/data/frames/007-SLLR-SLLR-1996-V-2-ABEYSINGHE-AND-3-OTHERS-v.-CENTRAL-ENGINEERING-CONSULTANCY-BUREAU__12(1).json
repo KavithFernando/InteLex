@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_007-SLLR-SLLR-1996-V-2-ABEYSINGHE-AND-3-_037_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. 356/93 (FR)",
+    "case_title": "Abeysinghe and 3 Others v. Central Engineering Consultancy Bureau and 6 Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-05-03",
+    "source_citation": "[1996] 2 Sri L.R. 36"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the appointment of the 5th Respondent as Deputy General Manager (Projects) violated the Petitioners' fundamental rights under Article 12(1) on grounds of eligibility and flaws in the interview process.",
+    "petitioner_claim": "The Petitioners claimed that the 5th Respondent was not eligible due to insufficient engineering qualifications and experience, and that the interview process was flawed and discriminatory.",
+    "respondent_argument": "The Respondents argued that the 5th Respondent met the eligibility criteria, that the Leningrad Diploma was equivalent to a recognized engineering degree, and that the interview process, though not fully transparent, was not discriminatory or unlawful.",
+    "key_facts": [
+      "The 5th Respondent held a Leningrad Diploma with Honours and a Ph.D. in Geology and Mineralogy.",
+      "He was registered as a Chartered Engineer by the UK Council of Engineering Institutions with effective membership date no later than March 24, 1981.",
+      "The recruitment scheme required a degree in Engineering or equivalent, full membership of a recognized Institution of Engineers, and 18 years engineering experience after graduation, including 11 years after full membership.",
+      "The interview marking scheme and job descriptions were not disclosed to candidates prior to the interview.",
+      "The Petitioners alleged improper apportionment of marks and lack of transparency in the interview process."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(1) as requiring equality and non-discrimination in appointments. It held that the 5th Respondent's qualifications and experience met the recruitment criteria, including recognition of his Leningrad Diploma as equivalent to an engineering degree. The Court found that the interview process's non-disclosure of marking schemes and job descriptions was undesirable but not inherently discriminatory or unlawful. The principle of promotion by merit and seniority must consider the institution's needs and the post's demands.",
+    "application_to_facts": "The Court found that the 5th Respondent had full membership and sufficient engineering experience by the relevant dates. It accepted the 1st Respondent's and Interview Board's reasonable conclusion on the equivalence of the Leningrad Diploma. The Court noted that all candidates were equally disadvantaged by the non-disclosure of interview criteria and that there was no evidence the Petitioners' performance was affected. The alleged irregularities did not amount to a violation of Article 12(1).",
+    "principles_established": [
+      "Engineering qualifications and experience should be assessed reasonably and not narrowly.",
+      "Non-disclosure of interview marking schemes and job descriptions is not per se discriminatory if all candidates are equally affected.",
+      "Promotion decisions can consider suitability for the post beyond seniority and merit marks.",
+      "The Court will not substitute its view for a reasonable administrative decision absent perversity or procedural error."
+    ],
+    "precedents_cited": [
+      "Perera v Ranatunga, S.C. 121/92, SCM 27.5.92"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that there was no proven infringement of Article 12(1) and dismissed the Petitioners' fundamental rights application.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Petitioners' claim that the appointment process violated their right to equality and equal protection under the law. The Court's reasoning and ultimate dismissal hinged on whether the appointment and interview process complied with this constitutional guarantee.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the 5th Respondent had obtained full membership by March 24, 1981, and that the interview process's non-disclosure of marking schemes was not per se discriminatory. The Petitioners failed to show any disadvantage affecting their performance or that the appointment was unlawful.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

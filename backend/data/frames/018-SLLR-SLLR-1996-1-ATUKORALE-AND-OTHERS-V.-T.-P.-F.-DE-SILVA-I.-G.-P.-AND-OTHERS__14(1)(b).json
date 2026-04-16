@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_018-SLLR-SLLR-1996-1-ATUKORALE-AND-OTHER_030_C02__14(1)(b)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 137/95(F/R)",
+    "case_title": "Atukorale and Others v. T.P.F. De Silva - I.G.P. and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-05-02",
+    "source_citation": "[1996] 1 Sri L.R. 280"
+  },
+  "clause": {
+    "article": "14(1)(b)",
+    "text": "Freedom of peaceful assembly."
+  },
+  "case_context": {
+    "legal_issue": "Whether the refusal by the 1st Respondent to allow the UNP May Day procession and meeting in Kandy violated the Petitioners' fundamental right to freedom of peaceful assembly under Article 14(1)(b) of the Constitution.",
+    "petitioner_claim": "The Petitioners claimed that the refusal to permit their peaceful assembly for the May Day rally was discriminatory and violated their constitutional right to freedom of peaceful assembly.",
+    "respondent_argument": "The 1st Respondent contended that permission was refused due to security, logistical, and administrative imperatives and offered alternative venues and a reduced scale meeting without procession.",
+    "key_facts": [
+      "The Petitioners sought to hold a peaceful May Day procession and meeting in Kandy, which was refused.",
+      "Permission was granted to other political parties to hold May Day events in other towns.",
+      "The 1st Respondent offered only a meeting without procession in the parking area of Bogambara Grounds.",
+      "The Petitioners argued that the refusal was arbitrary and discriminatory.",
+      "No valid security or logistical reasons were substantiated by the 1st Respondent."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 14(1)(b) protects the right to peaceful assembly, including processions. The refusal to allow the Petitioners to hold their peaceful assembly without valid reasons was a violation of this right.",
+    "application_to_facts": "The court found that the 1st Respondent's refusal was not justified by any valid security or logistical concerns and that offering only a meeting without procession was insufficient and discriminatory, thus violating the Petitioners' right to peaceful assembly.",
+    "principles_established": [
+      "Freedom of peaceful assembly includes the right to hold processions.",
+      "Restrictions on peaceful assembly must be justified by valid and substantiated grounds.",
+      "Arbitrary or discriminatory refusals violate constitutional rights."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the refusal to allow the Petitioners to hold their May Day procession and meeting in Kandy violated their right to freedom of peaceful assembly under Article 14(1)(b).",
+    "disposition": "granted",
+    "remedy_or_orders": "The refusal order was quashed and costs awarded to the Petitioners."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(b) was central because the case involved the Petitioners' right to hold a peaceful assembly and procession, which was denied without valid justification, directly infringing this constitutional protection.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Petitioners were unreasonably and without valid grounds refused permission to hold their meeting and procession in Kandy, thus violating their entitlement to freedom of peaceful assembly (Article 14(1)(b)).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "frame_id": "RQ1_018-SLLR-SLLR-1983-2-SIRIWARDENA-AND-OTH_029_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION 120/82",
+    "case_title": "Siriwardena and Others v. Liyanage and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1983-01-27",
+    "source_citation": "Sri Lanka Law Reports [1983] 2 Sri L.R. 164"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the orders prohibiting the printing, publication, and distribution of the newspaper 'Aththa' and sealing the press violated the fundamental right to freedom of speech and expression including publication under Article 14(1)(a) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that the orders were unlawful, mala fide, made in abuse of power for an ulterior purpose to silence political criticism against the referendum and the ruling party, and thus violated their fundamental right to freedom of speech and expression including publication.",
+    "respondent_argument": "The respondents contended that the orders were validly made under Regulation 14(3) of the Emergency Regulations pursuant to the Public Security Ordinance, as the publications were calculated to be prejudicial to national security, public order, and incited violence. They argued the restrictions were lawful and justified under Articles 15(2) and 15(7) of the Constitution.",
+    "key_facts": [
+      "A state of Emergency was declared after the 1982 Presidential Election.",
+      "The competent authority issued orders under Regulation 14(3) prohibiting publication of 'Aththa' and sealing the Mahajana Press.",
+      "The 'Aththa' newspaper had published articles and cartoons critical of the government, some deemed inflammatory and inciting violence.",
+      "Petitioners claimed the orders were made mala fide to suppress opposition campaign against the referendum.",
+      "Respondents produced samples of publications to justify the orders as necessary to preserve public order."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the freedom of speech and expression including publication under Article 14(1)(a) is subject to restrictions prescribed by law in the interests of national security, public order, and other specified grounds. The Emergency Regulations made under the Public Security Ordinance constitute 'law' for this purpose. The phrase 'preservation of public order' was interpreted as 'prevention of disorder'. The competent authority's opinion under Regulation 14(3) must be reasonable and based on facts that publications were calculated to be prejudicial to public order or inciting violence.",
+    "application_to_facts": "The court examined the publications relied upon by the competent authority and found that some could incite breaches of peace, others were defamatory or used extremely bad language. Considering the post-election violence and mounting tension before the referendum, the court found the competent authority's opinion reasonable. Therefore, the orders prohibiting publication were valid and did not violate Article 14(1)(a).",
+    "principles_established": [
+      "Freedom of speech and expression is subject to reasonable restrictions prescribed by law.",
+      "Emergency Regulations under the Public Security Ordinance qualify as law for imposing restrictions.",
+      "The phrase 'preservation of public order' means prevention of disorder.",
+      "The competent authority's opinion must be reasonable and based on factual publications.",
+      "Courts will not substitute their opinion for that of the competent authority but can inquire into reasonableness."
+    ],
+    "precedents_cited": [
+      "Jaggannath Misra v. The State of Orissa AIR 1966 SC 1140",
+      "Ras Behan Lal v. King Emperor (1933) 60 Indian Appeals 354",
+      "Romesh Thapar v. State of Madras AIR 1950 SC 124",
+      "Virendra v. State of Punjab AIR 1957 SC 896",
+      "The Supdt. Central Prisons v. Dr. Lohia AIR 1960 SC 633",
+      "Ram Manohar Lohia v. The State of Bihar AIR 1966 SC 704",
+      "Yasapala v. Ranil Wickremasinghe S.C. Application No. 103 of 1980",
+      "Rameshwar Shaw v. District Magistrate, Burdwan AIR 1964 SC 334",
+      "Hirdaramani v. Ratnavale (1971) 75 NLR 67",
+      "Liversidge v. Anderson (1942) AC 206",
+      "Greene v. Secretary of State for Home Affairs (1942) AC 284",
+      "Carltona Ltd v. Commissioner of Works (1943) 2 All ER 560",
+      "Padfield v. Minister of Agriculture, Fisheries & Food (1968) AC 997",
+      "Breen v. Amalgamated Engineering Union (1971) 2 QB 175",
+      "Secretary of State v. Tameside (1976) 3 All ER 665",
+      "Land Commissioner v. Ladamuttu 62 NLR 126",
+      "Perera v. Peoples' Bank (1975) 78 NLR 239",
+      "Nokes v. Doncaster Amalgamated Collieries Ltd. (1940) AC 1014",
+      "Regina v. Medical Appeal Tribunal Ex parte Gilmore (1957) QB 583",
+      "Nakkuda Ali v. Jayaratne (Controller of Textiles) 51 NLR 462",
+      "Smith v. East Elloe Rural District (1956) AC 736",
+      "Gunasekera v. Ratnavel 76 NLR 316",
+      "Anisminic Ltd. v. Foreign Compensation Commission (1969) 2 AC 147"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the orders prohibiting the publication of the 'Aththa' newspaper were validly made under Regulation 14(3) of the Emergency Regulations and did not violate the fundamental right to freedom of speech and expression under Article 14(1)(a).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) guarantees freedom of speech and expression including publication, which was directly challenged by the orders prohibiting the newspaper's publication. The court's reasoning centered on whether these restrictions were lawful and reasonable under this constitutional guarantee and its permitted limitations.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court reviewed numerous publications from the 'Aththa' newspaper, finding some incited breaches of peace and others were defamatory or inflammatory. Considering the post-election violence and tension, the competent authority's opinion was reasonable and justified the orders under Regulation 14(3).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1640,
+      "end_char": 1935
+    }
+  }
+}

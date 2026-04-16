@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_003-SLLR-SLLR-2003-1-SRIYANI-SILVA-WIFE-_006_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_No_471_2000",
+    "case_title": "Sriyani Silva (Wife of Jagath Kumara-Deceased) v. Iddamalgoda, Officer-in-Charge, Police Station, Payagala and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-12-10",
+    "source_citation": "[2003] 1 Sri L.R"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the detention of the deceased complied with Article 13(2) and whether the widow has locus standi to claim redress for any violation after the detainee’s death.",
+    "petitioner_claim": "The petitioner argued that the deceased was unlawfully detained without proper legal order and that she is entitled to continue the application for redress as his legal representative.",
+    "respondent_argument": "The respondents contended that the right to apply for relief under Article 13(2) is personal to the detainee and does not survive death; thus, the widow has no locus standi and the application is time barred.",
+    "key_facts": [
+      "The deceased was arrested on 12.06.2000 and detained until produced before the Magistrate on 17.06.2000.",
+      "He was remanded to prison and died on 20.06.2000 while in custody.",
+      "There is evidence of assault and torture during police custody.",
+      "The initial petition was filed on 18.07.2000 by an attorney-at-law on behalf of the deceased.",
+      "The widow was substituted as petitioner on 23.08.2000."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 13(2) as guaranteeing the right of detainees to be brought before a judge and not held without legal order. The right to seek redress for infringement of this right does not cease with death if death results from the infringement. The widow, having a legitimate interest, may prosecute the right under Article 126(2).",
+    "application_to_facts": "The deceased was detained and remanded, but evidence showed assault in custody leading to death. The Court found a causal link between the infringement of Article 13(2) rights and the death, allowing the widow to continue the application.",
+    "principles_established": [
+      "Article 13(2) rights survive death when death results from infringement.",
+      "Legitimate interested parties may prosecute fundamental rights violations posthumously.",
+      "Strict literal interpretation should not deny redress in such circumstances."
+    ],
+    "precedents_cited": [
+      "Somawathie v Weerasinghe and Others (1990) 2 Sri LR 121 (distinguished)",
+      "Premalal de Silva v Inspector Rodrigo and Others (1991) 2 Sri LR 301"
+    ]
+  },
+  "outcome": {
+    "holding": "The preliminary objection on locus standi and time bar was overruled, allowing the widow to continue the application claiming infringement of Article 13(2) rights of the deceased.",
+    "disposition": "granted",
+    "remedy_or_orders": "Registrar directed to list the application for hearing; no costs ordered."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) protects detainees from unlawful detention without judicial order. The Court’s decision hinged on whether this right, allegedly violated causing death, can be claimed by the widow, making the clause central to the reasoning and outcome.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The deceased was detained from 12.06.2000, produced before the Magistrate on 17.06.2000, remanded to prison, and died on 20.06.2000. Medical evidence showed injuries from assault during custody.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

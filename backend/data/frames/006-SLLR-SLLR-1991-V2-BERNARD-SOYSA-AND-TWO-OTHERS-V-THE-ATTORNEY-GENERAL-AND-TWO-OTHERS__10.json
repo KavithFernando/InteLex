@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_006-SLLR-SLLR-1991-V2-BERNARD-SOYSA-AND-_001_C01__10",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 2/91",
+    "case_title": "Bernard Soysa and Two Others v. The Attorney-General and Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1991-08-29",
+    "source_citation": "[1991] 2 Sri L.R."
+  },
+  "clause": {
+    "article": "10",
+    "text": "Every person is entitled to freedom of thought, conscience and religion, including the freedom to have or to adopt a religion or belief of his choice."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' right to freedom of religion under Article 10 was infringed by the police dispersal of their satyagraha at the Maha Maluwa of the Dalada Maligawa, a place used for religious worship.",
+    "petitioner_claim": "The petitioners claimed that the Maha Maluwa was a public place where they had a right to hold a satyagraha without permission, and that their fundamental rights including freedom of religion were infringed when the police dispersed them.",
+    "respondent_argument": "The respondents argued that the Maha Maluwa is not a public place but property of the Dalada Maligawa under the control of the Diyawadana Nilame, and that the petitioners had no permission to hold a political satyagraha there. The police action was justified to maintain public order and protect the peaceful religious atmosphere.",
+    "key_facts": [
+      "The Maha Maluwa is a place to which the public has access for worship but is not a public forum for political protest without permission.",
+      "The petitioners held a satyagraha without obtaining permission from the Maligawa authorities.",
+      "The Diyawadana Nilame requested police intervention due to disturbance caused by the satyagraha.",
+      "Police dispersed the gathering citing public order concerns and lack of permission.",
+      "The petitioners alleged police assault and infringement of fundamental rights."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court recognized that freedom of religion under Article 10 protects the right to worship in a calm and serene atmosphere. Political protests in religious precincts require express permission to avoid disturbing religious freedoms of others. The Maha Maluwa, though accessible to the public for worship, is not a public forum for political assembly without permission.",
+    "application_to_facts": "The petitioners did not obtain permission from the Maligawa authorities and their satyagraha disturbed the peaceful religious environment. The police acted on the request of the Diyawadana Nilame to restore order. Thus, the petitioners' conduct was not a legitimate exercise of their freedom of religion rights under Article 10.",
+    "principles_established": [
+      "Freedom of religion includes the right to worship in a peaceful environment.",
+      "Political protests in religious precincts require express permission to avoid infringing others' religious freedoms.",
+      "Access to a place for religious purposes does not imply a right to hold political assemblies there.",
+      "Police have authority to disperse assemblies disturbing public order in religious places."
+    ],
+    "precedents_cited": [
+      "Whitney v. California (1927)",
+      "Schenck v. U.S. (1949)",
+      "Perry Education Association v. Perry Local Educators Association (1983)",
+      "Haque v. C.I.O. (1939)",
+      "Railway Board v. Niranjan Singh (1969)"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioners did not have the right to conduct a satyagraha at the Maha Maluwa without prior permission and that the police action to disperse the gathering did not infringe their fundamental rights under Article 10.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 10 protects freedom of religion, which includes the right to worship peacefully. The court's reasoning centered on balancing this right against the petitioners' political protest in a religious precinct, concluding that the protest without permission disturbed religious freedoms.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the Maha Maluwa is accessible for religious worship but not a public forum for political protest without permission, and that the petitioners' satyagraha disturbed the peaceful atmosphere, justifying police dispersal.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-2000-V-1-BANDARA-AND-OTHER_022_C01__15(7)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION Nos. 687/97, 688/97, 689/97 AND 690/97",
+    "case_title": "Bandara and Others v. Jagoda Arachchi, Officer in Charge, Police Station, Fort and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-02-09",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application Nos. 687/97-690/97, decided on 9 February 2000"
+  },
+  "clause": {
+    "article": "15(7)",
+    "text": "General restrictions may apply for national security, public order, health, morality, and welfare."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Police action to disperse a large picketing campaign of university students protesting educational reforms was a lawful restriction on the fundamental rights of freedom of speech, expression, and peaceful assembly under Article 15(7) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that their fundamental rights to freedom of speech, expression, and peaceful assembly guaranteed by Article 14(1)(a) and (b) were infringed by the Police's use of force to disperse the protest.",
+    "respondent_argument": "The Police contended that their actions were lawful under sections 95(1) and 95(2) of the Code of Criminal Procedure Act to prevent a breach of the peace and maintain public order, which is a permissible restriction under Article 15(7).",
+    "key_facts": [
+      "University students organized a picketing campaign on 30.07.1997 with over 3000 persons assembled outside Fort Railway Station.",
+      "Protesters displayed placards against proposed educational reforms and initially assembled peacefully without obstructing traffic.",
+      "Protesters moved onto the main road, causing obstruction and congestion.",
+      "Police ordered the assembly to disperse; upon non-compliance, used tear gas, batons, and water cannon to disperse the crowd.",
+      "Some protesters caused damage to shops and injured Police officers by pelting stones."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the freedoms of speech, expression, and peaceful assembly are vital but not absolute and are subject to restrictions prescribed by law in the interest of public order under Article 15(7). The right to peaceful assembly ceases when the assembly becomes unruly and causes a breach of the peace.",
+    "application_to_facts": "The Court found that the assembly was initially peaceful and lawful but ceased to be peaceful when protesters obstructed the road and caused damage. The Police acted lawfully under statutory powers to disperse the assembly to maintain public order, thus the restrictions imposed were justified under Article 15(7).",
+    "principles_established": [
+      "Fundamental freedoms of speech and peaceful assembly are subject to lawful restrictions in the interest of public order.",
+      "An assembly loses its protection when it ceases to be peaceful and causes a breach of the peace.",
+      "Police have statutory authority to disperse unlawful assemblies using reasonable force.",
+      "Restrictions under Article 15(7) are necessary to preserve peace and order in a democratic society."
+    ],
+    "precedents_cited": [
+      "Bernard Soysa v. The Attorney-General (1991) 2 Sri L.R. 56",
+      "Hague, Mayor et al. v. Committee for Industrial Organisation 307 US 496"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the applications, holding that the Police action to disperse the protesters was lawful and did not infringe the petitioners' fundamental rights as the restrictions were justified under Article 15(7).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 15(7) was central to the Court's reasoning as it provides the constitutional basis for lawful restrictions on fundamental freedoms in the interest of public order, which justified the Police's dispersal of the assembly.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that the freedoms of speech and peaceful assembly are not absolute and are subject to restrictions prescribed by law in the interest of public order as provided by Article 15(7). The Police acted lawfully under sections 95(1) and 95(2) of the Code of Criminal Procedure to disperse the assembly when it ceased to be peaceful and caused obstruction and damage.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

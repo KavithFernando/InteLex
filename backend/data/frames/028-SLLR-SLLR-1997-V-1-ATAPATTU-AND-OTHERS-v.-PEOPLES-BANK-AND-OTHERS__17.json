@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_028-SLLR-SLLR-1997-V-1-ATAPATTU-AND-OTHE_028_C02__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPEAL_20_96_AND_76_96",
+    "case_title": "Atapattu and Others v. People's Bank and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-09-23",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Appeal Nos. 20/96 and 76/96, decided on 23 September 1996"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Court of Appeal's writ jurisdiction under Article 140 is subject to ouster clauses in pre-Constitution laws, and the extent of constitutional protection of rights to judicial review.",
+    "petitioner_claim": "The appellants argued that the constitutional writ jurisdiction, including under Article 17 and Article 140, cannot be ousted by pre-Constitution laws and that they have a right to judicial review of the Bank's decisions.",
+    "respondent_argument": "The respondents argued that the ouster clause in section 71(3) excludes judicial review and that the Court of Appeal lacks jurisdiction to entertain substitution applications.",
+    "key_facts": [
+      "Section 71(3) contains an ouster clause barring court review of Bank decisions.",
+      "Article 17 and Article 140 of the Constitution confer jurisdiction on courts to enforce fundamental rights and issue writs.",
+      "The Court considered the relationship between constitutional provisions and pre-existing laws."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court reasoned that Articles 17 and 140 constitute express constitutional provisions that confer unfettered jurisdiction on courts to review administrative decisions, overriding any inconsistent ouster clauses in pre-Constitution laws. The Court cited precedents establishing that such constitutional provisions are broad enough to cover judicial review despite ouster clauses.",
+    "application_to_facts": "Applying this principle, the Court held that the ouster clause in section 71(3) does not prevent the Court of Appeal from reviewing the Bank's refusal of substitution, as the constitutional writ jurisdiction prevails.",
+    "principles_established": [
+      "Constitutional provisions granting writ jurisdiction override inconsistent pre-Constitution ouster clauses.",
+      "Courts have a constitutional duty to protect the rule of law and fundamental rights.",
+      "Ouster clauses cannot be presumed to restrict constitutional jurisdiction."
+    ],
+    "precedents_cited": [
+      "Wickremabandu v. Herath",
+      "Shanmugam v. Commissioner for Registration of Indian and Pakistani Residents",
+      "Jailabdeen v. Danina Umma"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the constitutional writ jurisdiction under Article 17 and Article 140 overrides the ouster clause in section 71(3), allowing judicial review of the Bank's decisions including substitution.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Court quashed the Bank's refusal of substitution and directed reconsideration with notice to heirs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 is central to the Court's reasoning that constitutional writ jurisdiction cannot be ousted by pre-Constitution laws, ensuring access to judicial review and protection of fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that Articles 17 and 140 confer express jurisdiction overriding ouster clauses, citing Wickremabandu v. Herath and Shanmugam v. Commissioner, and that the ouster clause in section 71(3) does not bar judicial review of substitution decisions.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2200,
+      "end_char": 2350
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_034-SLLR-SLLR-1995-V-1-DESHAPRIYA-AND-AN_059_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 884/92",
+    "case_title": "Deshapriya and Another v. Municipal Council, Nuwara Eliya and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-03-10",
+    "source_citation": "[1995] 1 Sri L.R. 362"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the seizure of about 450 copies of the weekly newspaper 'Yukthiya' by the Mayoress of Nuwara Eliya Municipal Council infringed the petitioners' fundamental right to freedom of speech and expression under Article 14(1)(a) of the Constitution.",
+    "petitioner_claim": "The petitioners, Editor and Proprietor of 'Yukthiya', claimed that the 2nd respondent forcibly took away four bundles containing about 450 copies of the newspaper, preventing its distribution and thus abridging their freedom of speech and expression including publication.",
+    "respondent_argument": "The 2nd respondent denied seizing the newspapers, stating she only instructed cleaning of the stall premises and that the newspapers were not seized by her. She also claimed the telephone call alleging seizure was threatening and unverified.",
+    "key_facts": [
+      "The 2nd respondent, Mayoress of Nuwara Eliya, allegedly seized about 450 copies of 'Yukthiya' on 10.10.92 from a newspaper stall owned by the Municipal Council.",
+      "The seizure was claimed to be motivated by political reasons, as 'Yukthiya' was an anti-government newspaper.",
+      "There was conflicting evidence about the seizure, but the court found the petitioners' evidence more credible.",
+      "The seizure was an executive or administrative action by the Mayoress under colour of office.",
+      "The seizure prevented distribution of the newspaper in a small part of Sri Lanka, abridging freedom of speech and expression."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 14(1)(a) guarantees freedom of speech and expression including publication, and that infringement can occur by executive or administrative action in various forms, direct or indirect. Suppression of anti-government views, whether by force or discrimination, constitutes a serious infringement of this fundamental right.",
+    "application_to_facts": "The court found that the 2nd respondent, acting under colour of her office, seized the newspapers to discourage an anti-government publication, thus abridging the petitioners' freedom of speech and expression. The seizure was deliberate, politically motivated, and aggravated by threats to use government-controlled media power to suppress the newspaper.",
+    "principles_established": [
+      "Infringement of freedom of speech and expression includes acts that prevent publication or distribution of newspapers.",
+      "Executive or administrative actions motivated by political antagonism that suppress dissenting views violate Article 14(1)(a).",
+      "The gravity of infringement is assessed by context, including political discrimination and intent.",
+      "Compensation for infringement of fundamental rights must be measured by liberty principles, not mere commercial loss."
+    ],
+    "precedents_cited": [
+      "Ratnasara Thero v. Udugampola (1983) 1 Sri LR 461",
+      "De Jonge v. Oregon (1937) 299 U.S. 353",
+      "Amaratunga v. Sirimal (1993) 1 Sri L.R. 264",
+      "Wijeratne v. Perera S.C. 379/93 SCM of 2.3.1994",
+      "Pieris v. A.G. S.C. 156-155 LC 166/92 SCM of 17.6.1994"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the seizure of the newspapers by the 2nd respondent was a grave and deliberate infringement of the petitioners' fundamental right to freedom of speech and expression under Article 14(1)(a). The petitioners were entitled to compensation.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 2nd respondent was ordered to pay Rs. 100,000 as compensation and Rs. 10,000 as costs to the petitioners."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) directly protects the freedom of speech and expression including publication, which was infringed by the seizure of the petitioners' newspaper. The court's reasoning and decision centrally relied on this constitutional guarantee.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The 2nd respondent forcibly took away four bundles containing about 450 copies of the 'Yukthiya' newspaper from a municipal stall, preventing its distribution and abridging the petitioners' freedom of speech and expression.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

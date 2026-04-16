@@ -1,0 +1,69 @@
+{
+  "frame_id": "RQ1_036-SLLR-SLLR-2004-V-2-LALITH-DESHAPRIYA_054_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "C.A. 968/2002",
+    "case_title": "Lalith Deshapriya v Captain Weerakoon and others",
+    "court_name": "Court of Appeal of Sri Lanka",
+    "decision_date": "2004-05-27",
+    "source_citation": "[2004] 2 Sri L.R 314"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment in violation of Article 11, and whether the summary trial and conviction by the commanding officer who ordered the torture violated fundamental rights.",
+    "petitioner_claim": "The petitioner claimed he was tortured and subjected to cruel and inhuman treatment while in custody under the orders of the 1st respondent, and that the summary trial conducted by the same officer was unfair and violated his fundamental rights under Article 11.",
+    "respondent_argument": "The respondents did not dispute the summary trial procedure but argued that the trial was conducted properly and that the petitioner was offered the option of court martial or summary trial after pleading. They also contested the extent of torture allegations.",
+    "key_facts": [
+      "Petitioner was arrested on suspicion of loss of a pistol from the main armory.",
+      "Petitioner was kept under close arrest from 4th September 2001 to 8th January 2002.",
+      "Petitioner was subjected to torture methods including suspension and assault, use of heated iron, insertion of barbed wire, and application of chili powder while blindfolded.",
+      "The Supreme Court previously found that the petitioner’s fundamental rights under Article 11 were violated by the 1st respondent and his subordinates.",
+      "The summary trial was conducted by the same commanding officer who ordered the torture, without a fair hearing or proper procedure."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court recognized Article 11 as prohibiting torture and cruel, inhuman or degrading treatment. It emphasized that the petitioner was subjected to such treatment under the orders of the 1st respondent, violating his fundamental rights. The court also stressed the importance of fair trial principles and natural justice, which were breached as the commanding officer who ordered the torture also conducted the summary trial.",
+    "application_to_facts": "The court found that the petitioner was tortured while in custody, as established by the Supreme Court, and that the summary trial was conducted unfairly by the same officer responsible for the torture. This violated the nemo judex in causa sua principle and the right to a fair hearing, rendering the proceedings null and void.",
+    "principles_established": [
+      "Article 11 prohibits torture and cruel, inhuman or degrading treatment.",
+      "A person who orders or is responsible for torture violates fundamental rights under Article 11.",
+      "Natural justice principles (audi alteram partem and nemo judex in causa sua) require a fair hearing by an impartial tribunal.",
+      "A summary trial conducted by an officer responsible for torture is invalid.",
+      "Procedural fairness includes serving a charge sheet and allowing defense representation."
+    ],
+    "precedents_cited": [
+      "Lindara Mudiyanselage Lalith Deshapriya v. Captain Weerakoon, SCFR 42/2002",
+      "Board of Education v Rice, 1911 AC 179",
+      "De Vertend v Knaggs, 1918 AC 557",
+      "Chulabadra v University of Colombo, 1985 1 Sri LR 244",
+      "R. v Sussex Justice, 2 KB 256",
+      "Needra Fernando v Ceylon Tourist Board, 2002 2 Sri LR 169"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental rights under Article 11 were violated by the torture inflicted under the 1st respondent’s orders and that the summary trial conducted by the same officer was a nullity. The conviction, imprisonment, and dismissal from service were quashed, and the petitioner was ordered to be re-enlisted with back pay.",
+    "disposition": "granted",
+    "remedy_or_orders": "Writs of certiorari and mandamus granted to quash the conviction and reinstate the petitioner to the rank of Petty Officer with back wages and allowances."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 is central to the court’s reasoning as it directly addresses the petitioner’s claim of torture and cruel treatment, which was found to have been inflicted under the 1st respondent’s orders, leading to the violation of fundamental rights and invalidation of the summary trial.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was blindfolded, tied, suspended and assaulted; a heated iron was placed on his back; barbed wire was inserted in his anus; chili powder was applied to sensitive areas; and the Supreme Court found these acts violated Article 11 under the 1st respondent’s orders.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3200,
+      "end_char": 3500
+    }
+  }
+}

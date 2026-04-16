@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1978-79-80-V1-WICKRAMANATA_006_C01__10",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPEAL NO. 58/79",
+    "case_title": "Wickramanayaka v. The State",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1979-09-24",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Appeal No. 58/79, decided on 24 September 1979"
+  },
+  "clause": {
+    "article": "10",
+    "text": "Every person is entitled to freedom of thought, conscience and religion, including the freedom to have or to adopt a religion or belief of his choice."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Essential Public Service Bill infringes fundamental rights including freedom of thought, conscience and religion under Article 10 of the Constitution.",
+    "petitioner_claim": "The petitioner challenged the Bill's clauses as contravening fundamental rights, including those entrenched under Article 83, arguing that the Bill restricts freedoms guaranteed by the Constitution.",
+    "respondent_argument": "The State argued that the Bill's restrictions are reasonable, lawful, and fall within the permitted limitations under Articles 15(5) and 15(7), and that the Cabinet certificate is not conclusive on constitutional conflict.",
+    "key_facts": [
+      "The Bill declares certain public services as essential and imposes restrictions on employees to ensure uninterrupted service.",
+      "The Bill includes penalties for non-compliance, including compulsory service and criminal sanctions.",
+      "The Bill is intended to be invoked only in emergency situations by Presidential order.",
+      "The petitioner relied on Article 83 to argue that entrenched fundamental rights, including Article 10, require special protection.",
+      "The Court examined the Bill's provisions in light of constitutional restrictions and the scope of fundamental rights."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court noted that fundamental rights, including those in Article 10, are subject to restrictions permitted by the Constitution, particularly under Articles 15(5) and 15(7). The Bill's restrictions are justified as necessary for national economy, public order, and the general welfare of a democratic society, especially in emergencies.",
+    "application_to_facts": "The Court found that the Bill's provisions, including compulsory service and penalties, are reasonable and lawful limitations on fundamental rights to ensure essential public services are maintained without disruption. The Court emphasized the emergency context and the President's discretionary power to declare essential services.",
+    "principles_established": [
+      "Fundamental rights under Article 10 can be limited by law enacted under Articles 15(5) and 15(7).",
+      "Restrictions must be reasonable and serve legitimate public interests such as national security and public order.",
+      "Emergency legislation ensuring essential services is permissible even if it restricts certain freedoms.",
+      "The Cabinet certificate is not conclusive on constitutional validity; the Court must independently assess.",
+      "The exercise of rights is inseparable from duties and obligations under Article 28."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that the Bill's restrictions on fundamental rights, including those related to freedom of thought, conscience, and religion under Article 10, are reasonable and lawful within constitutional limits.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 10 guarantees freedom of thought, conscience, and religion, which the petitioner argued were infringed by the Bill. The Court's reasoning centered on whether these rights could be lawfully restricted under constitutional provisions, making Article 10 central to the analysis.",
+    "relevance_level": "high",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that fundamental rights, including those in Article 10, must be read in light of permitted restrictions under Articles 15(5) and 15(7), and that the Bill's restrictions are reasonable to maintain essential services in emergencies.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1200,
+      "end_char": 1600
+    }
+  }
+}

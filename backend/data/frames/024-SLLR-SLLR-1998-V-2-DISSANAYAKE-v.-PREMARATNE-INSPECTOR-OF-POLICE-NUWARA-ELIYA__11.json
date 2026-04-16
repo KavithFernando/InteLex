@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_024-SLLR-SLLR-1998-V-2-DISSANAYAKE-V.-PR_036_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (Special) No. 117/97 with S.C. Application No. 858/97",
+    "case_title": "Dissanayake v. Premaratne, Inspector of Police, Nuwara-Eliya",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-05-04",
+    "source_citation": "Sri Lanka Law Reports (1998) 2 Sri L.R. 211"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture and cruel, inhuman or degrading treatment by police officers in violation of Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that he was unlawfully arrested and detained, and subjected to torture and inhuman treatment by police officers while in custody, including being tied up, assaulted with clubs and batons, hung up, kicked, and having water poured on him.",
+    "respondent_argument": "The respondents denied the allegations of torture, arguing that the petitioner did not complain to medical or superior police authorities about any assault or torture, and that the arrest and detention were lawful based on reasonable suspicion and were within 24 hours.",
+    "key_facts": [
+      "Petitioner was called to the police station on 8 May 1997 and detained until 9 May 1997 without being produced before a Magistrate.",
+      "Petitioner was tied up with hands and feet bound, assaulted with a club and batons, hung up, kicked, and had water poured on him by police officers.",
+      "Petitioner was admitted to the Base Hospital with injuries consistent with assault and torture.",
+      "Respondents did not produce petitioner before Magistrate and released him on police bail after more than 24 hours.",
+      "Medical and admission reports confirmed injuries consistent with petitioner's account."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 11 as prohibiting torture and cruel, inhuman or degrading treatment or punishment, and found that the petitioner was subjected to such treatment by police officers while in custody.",
+    "application_to_facts": "The court accepted the petitioner's version of events as consistent with the medical evidence, including the medico-legal report and hospital admission form, and rejected the respondents' denial due to lack of evidence and the improbability of the petitioner complaining to superior officers under the circumstances.",
+    "principles_established": [
+      "Article 11 protects individuals from torture and cruel, inhuman or degrading treatment by state actors.",
+      "Medical evidence consistent with allegations can substantiate claims of torture even if complaints to authorities are absent.",
+      "Unlawful detention and failure to produce detainees before a Magistrate violate fundamental rights."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner was subjected to torture and cruel, inhuman or degrading treatment in violation of Article 11 of the Constitution and granted relief accordingly.",
+    "disposition": "granted",
+    "remedy_or_orders": "The court ordered compensation payments by the respondents and the State to the petitioner and directed the Registrar to send a copy of the judgment to the Inspector-General of Police."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the court's finding that the petitioner was subjected to torture and inhuman treatment by police officers, which constituted a violation of his fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was tied up, assaulted with clubs and batons, hung up, kicked, and had water poured on him; medical reports confirmed injuries consistent with these allegations.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

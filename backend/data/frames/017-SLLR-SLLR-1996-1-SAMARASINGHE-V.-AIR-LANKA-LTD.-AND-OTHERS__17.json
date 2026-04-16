@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_017-SLLR-SLLR-1996-1-SAMARASINGHE-V.-AIR_016_C01__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO 275/93",
+    "case_title": "Samarasinghe v. Air Lanka Ltd. and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-06-02",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 275/93, decided on 2 & 7 March 1994"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Petitioner's fundamental rights under Article 12(1) of the Constitution were violated by the appointment of the 13th Respondent to the post of International Relations Manager, and whether the Petitioner was entitled to relief under Article 17 for such violation.",
+    "petitioner_claim": "The Petitioner claimed that his fundamental right to equality was violated by being denied promotion to International Relations Manager despite being recommended by a panel and having a legitimate expectation to be appointed, while the 13th Respondent was appointed through an irregular process without meeting experience requirements.",
+    "respondent_argument": "The Respondents argued that Air Lanka was not an instrument of the State and the appointment was proper, valid, and not a violation of fundamental rights. They contended the Petitioner was unsuitable for promotion and that the appointment of the 13th Respondent was on merit and contract basis for a limited period.",
+    "key_facts": [
+      "The Petitioner was the Senior International Relations Executive and had been recommended for promotion by a panel including the Consultant.",
+      "The 13th Respondent was appointed without a public advertisement and lacked the required experience.",
+      "The Petitioner had a legitimate expectation of promotion as the post was created by upgrading his position.",
+      "The Board deferred the Petitioner's appointment and later appointed the 13th Respondent through a non-transparent process.",
+      "The Petitioner filed a fundamental rights application alleging discrimination and violation of equality rights."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 17 grants every person the right to apply to the Supreme Court for violations of fundamental rights, including equality under Article 12(1). The principle of equality applies to recruitment and promotion in public sector employment, requiring honesty, openness, and transparency without bias or prejudice.",
+    "application_to_facts": "The Court found that the Petitioner was unfairly denied promotion despite being recommended and having a legitimate expectation. The appointment of the 13th Respondent was made without following proper procedures, lacked rational connection to merit, and was tainted by undue partiality, thus violating the Petitioner's fundamental rights.",
+    "principles_established": [
+      "Fundamental rights applications under Article 17 include claims of discrimination in public employment.",
+      "Equality under Article 12(1) applies to recruitment and promotion in state sector employment.",
+      "Recruitment and promotion must be free from caprice, bias, or prejudice and conducted with transparency.",
+      "Legitimate expectation arises when a post is created by upgrading an existing position and a candidate is recommended by a proper panel.",
+      "Appointments made without following recognized procedures and based on undue favour violate fundamental rights."
+    ],
+    "precedents_cited": [
+      "Rajaratne v. Air Lanka Ltd."
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the Petitioner's fundamental rights under Article 12(1) were violated and that the appointment of the 13th Respondent was invalid. The Court directed termination of the 13th Respondent's appointment and ordered the vacancy to be filled according to proper procedures. The Petitioner was awarded solatium and costs but was not directly appointed.",
+    "disposition": "granted",
+    "remedy_or_orders": "The appointment of the 13th Respondent is terminated forthwith. The vacancy shall be filled within three months by following Air Lanka's policy and promotion/recruitment procedures. The Petitioner’s application shall be considered on its merits disregarding prior opinions. The Petitioner is awarded Rs. 50,000 as solatium and Rs. 5,000 as costs payable by the 1st Respondent."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 is central as it empowers the Petitioner to bring the fundamental rights violation claim before the Supreme Court. The Court's reasoning and relief directly arise from the exercise of this constitutional right to seek redress for discrimination in public employment.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Petitioner applied under Article 17 for relief for infringement of fundamental rights due to discriminatory denial of promotion, and the Court found a violation of Article 12(1) equality rights, ordering relief accordingly.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

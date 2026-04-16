@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_032-SLLR-SLLR-1995-2-SIRISUMANA-V.-ILLAN_158_C01__12(1)",
+  "created_at": "2024-06-10",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "RQ1_032-SLLR-SLLR-1995-2-SIRISUMANA-V.-ILLANGARATNE-AND-OTHERS",
+    "case_title": "Sirisumana v. Illangaratne and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-07-27",
+    "source_citation": "[1995] 2 Sri L.R. 158"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the promotion of the 6th Respondent to a Senior Administrative Officer post was discriminatory and violated Article 12(1) of the Constitution regarding equality and equal protection of the law.",
+    "petitioner_claim": "The petitioner claimed that based on merit and seniority, he should have been promoted instead of the 6th Respondent, alleging discrimination violating Article 12(1).",
+    "respondent_argument": "The 6th Respondent argued that there was no mala fides or political motive in his appointment, and that the final selection was based on combined marks including interview performance, which favored him.",
+    "key_facts": [
+      "Both petitioner and 6th Respondent joined the Tea Control Department on the same date and later the Tea Small Holdings Development Authority.",
+      "They alternated seniority in different grades during their careers.",
+      "In the selection for Senior Administrative Officer Grade IV, both scored equally on the written test; petitioner had higher seniority marks, but 6th Respondent scored higher in the interview.",
+      "Final scores were 63.4 for 6th Respondent and 62.8 for petitioner, resulting in the 6th Respondent's appointment.",
+      "Petitioner did not allege mala fides or political motive against the 6th Respondent."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) requires absence of intentional or purposeful discrimination. The State is entitled to set conditions of efficiency and qualifications, and the classification need not be scientifically perfect or logically complete.",
+    "application_to_facts": "The court found no evidence of mala fides or intentional discrimination in the appointment. The difference in interview marks justified the 6th Respondent's higher final score and appointment, despite the petitioner's seniority claims.",
+    "principles_established": [
+      "Article 12(1) prohibits intentional or purposeful discrimination.",
+      "The State can set merit-based conditions for appointments.",
+      "Equal protection does not require perfect or complete classification."
+    ],
+    "precedents_cited": [
+      "Wijesinghe v. Attorney-General",
+      "Gunatileke v. Attorney-General",
+      "Weligodapola v. Secretary, Ministry of Women's Affairs"
+    ]
+  },
+  "outcome": {
+    "holding": "The court dismissed the petitioner's claim of violation of Article 12(1), holding that no discriminatory violation was established.",
+    "disposition": "dismissed",
+    "remedy_or_orders": "Petitioner ordered to pay Rs. 750/- as costs to the 6th Respondent."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner's claim of discriminatory promotion. The court's reasoning focused on whether the appointment violated the constitutional guarantee of equality and equal protection under the law.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner did not allege mala fides or political motive against the 6th Respondent’s appointment. There is no intentional or purposeful discrimination which vitiates the impugned appointment.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1480,
+      "end_char": 1600
+    }
+  }
+}

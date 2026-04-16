@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_030-SLLR-SLLR-1983-2-VISUVALINGAM-AND-OT_148_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Applications Nos. 47/83, 53/83 and 61/83",
+    "case_title": "Visuvalingam and Others v. Liyanage and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1983-11-18",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Applications Nos. 47/83, 53/83 and 61/83, decided on 18 November 1983"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the closure of the newspaper Saturday Review and related orders violated the fundamental right to equality before the law and equal protection of the law under Article 12(1).",
+    "petitioner_claim": "The petitioners claimed that the orders made under Emergency Regulations to prohibit printing, publishing, and distribution of the Saturday Review violated their fundamental rights including equality before the law under Article 12(1).",
+    "respondent_argument": "The respondents argued that the orders were lawfully made under Emergency Regulations to protect national security and public order, and that the company publishing the newspaper is a separate legal entity with no fundamental rights under Article 14, but has locus standi under Article 12(1) as a legal person.",
+    "key_facts": [
+      "The Saturday Review was a weekly newspaper published by New Era Publications Ltd., a company limited by guarantee.",
+      "The 1st respondent, as Competent Authority under Emergency Regulations, ordered the closure of the newspaper and printing press.",
+      "The orders were made under Regulation 14(3) of the Emergency Regulations due to content considered prejudicial to national security and public order.",
+      "The petitioners are shareholders and directors of the company and citizens of Sri Lanka.",
+      "The company is a legal person and claimed locus standi under Article 12(1) for equality before the law."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 12(1) guarantees equality before the law and equal protection of the law to all persons, including legal persons such as companies. The Court recognized that the company, as a legal person, has locus standi to claim protection under Article 12(1). However, the exercise of this right is subject to restrictions prescribed by law, including Emergency Regulations enacted in the interests of national security and public order.",
+    "application_to_facts": "The Court examined the content of the Saturday Review and found that the Competent Authority had reasonable grounds to believe the publication was prejudicial to national security and public order, especially in the context of the declared Emergency and recent violence. The orders to prohibit publication and close the press were made bona fide and within the powers granted by law. Therefore, the restrictions on the company’s rights under Article 12(1) were justified and lawful.",
+    "principles_established": [
+      "Companies as legal persons have locus standi under Article 12(1) to claim equality before the law.",
+      "Fundamental rights under Article 12(1) are subject to lawful restrictions including those for national security and public order.",
+      "Emergency powers must be given sufficient leeway and courts should not substitute their opinion for that of the competent authority if the latter’s decision is reasonably supported by material.",
+      "Judicial review of emergency orders is limited and must consider the context of national crisis."
+    ],
+    "precedents_cited": [
+      "Janatha Press Case S.C. Application No. 134/1982",
+      "American Communication Association v. Dodds",
+      "Liversidge v. Anderson",
+      "R. C. Cooper v. Union of India (Bank Nationalisation case)",
+      "Bennett Coleman & Co. Ltd. v. Union of India"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the orders made under the Emergency Regulations did not violate the fundamental right to equality before the law under Article 12(1) as the restrictions were lawful, reasonable, and justified in the circumstances of national emergency.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning because the company, as a legal person, claimed equality before the law against the emergency orders. The Court analyzed whether the restrictions imposed were lawful and justified under the Constitution, making Article 12(1) dispositive for the claim.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court reviewed the contents of the Saturday Review and the Competent Authority's affidavit stating the publication was prejudicial to national security and public order, justifying the orders under Regulation 14(3) of the Emergency Regulations.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

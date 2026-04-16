@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_046-SLLR-SLLR-2005-V-1-RATNAYAKE-AND-ANO_063_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (FR) 231/2003",
+    "case_title": "Ratnayake and Another vs Mediwaka, Deputy Inspector General of Police, Kandy and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2005-02-24",
+    "source_citation": "Sri Lanka Law Reports (2005) 1 Sri L. R."
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the police raid and search of the petitioners' hotel, including the manner and circumstances of the search, violated the petitioners' fundamental right under Article 11 against torture or cruel, inhuman or degrading treatment.",
+    "petitioner_claim": "The petitioners claimed that the police raid was conducted in a humiliating and degrading manner, causing fear, alarm, and distress to them and their guests, amounting to cruel, inhuman or degrading treatment in violation of Article 11.",
+    "respondent_argument": "The respondents argued that the raid was conducted lawfully on the basis of credible information and a valid search warrant, without any intention to humiliate or cause distress, and that the police acted within the law and procedure.",
+    "key_facts": [
+      "On 10.04.2003, about 30 persons in camouflage uniform with rifles entered the petitioners' hotel with a search warrant.",
+      "The police acted on an anonymous letter alleging the hotel was used as a brothel and involved in drug sales.",
+      "The search warrant was issued by the Magistrate based on credible information and preliminary investigation.",
+      "The petitioners alleged humiliation and distress caused by the raid, including guests leaving without lunch and the 2nd petitioner fainting.",
+      "The court found discrepancies in the petitioners' affidavits and accepted the respondents' version that the police acted lawfully."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 11 protects individuals from torture and cruel, inhuman or degrading treatment, but the police conduct must be assessed in context. A lawful search carried out on reasonable suspicion with judicial authorization does not per se constitute a violation of Article 11.",
+    "application_to_facts": "The court found that the police acted on credible information, obtained a valid search warrant, and conducted the search according to law. Although the petitioners claimed distress, the court found no evidence of torture or cruel, inhuman or degrading treatment by the police.",
+    "principles_established": [
+      "Lawful police action under judicially authorized search warrants does not violate Article 11 absent evidence of torture or degrading treatment.",
+      "The balance between individual rights and societal interest in crime prevention is essential.",
+      "Discrepancies in evidence and affidavits affect credibility of claims of mistreatment."
+    ],
+    "precedents_cited": [
+      "Anura Bandaranaike v The IGP (1999) 1 Sri LR 104",
+      "Fernando v Parwathi Radan (1908) 1 Weerakoon's Report 15",
+      "L.C.H. Peiris v The Commissioner of Inland Revenue (1963) 65 NLR 457",
+      "Chick Fashions (West Wales) Ltd. v Jones 1968 (2) OB 299"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that there was no violation of the petitioners' fundamental right under Article 11 as the police acted lawfully and without cruel, inhuman or degrading treatment.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the petitioners' claim that the police raid subjected them to cruel, inhuman or degrading treatment. The court directly interpreted and applied this clause to assess whether the police conduct violated fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the police acted on credible information, obtained a valid search warrant, and conducted the search lawfully without evidence of cruel or degrading treatment, dismissing the petitioners' claim under Article 11.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_034-SLLR-SLLR_1989_V_1-NAMASIVAYAM_V._GU_078_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 166/86",
+    "case_title": "Namasivayam v. Gunawardena",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1987-09-04",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 166/86, decided on 4 September 1987"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s detention from 4.8.86 onwards was lawful under Article 13(2) given the detention orders and Emergency Regulations.",
+    "petitioner_claim": "The petitioner claimed unlawful detention without valid orders and denial of access to his lawyer.",
+    "respondent_argument": "Respondents argued detention was authorized under Emergency Regulations with valid detention orders, and the petitioner was produced before a Magistrate and remanded on 18.9.86.",
+    "key_facts": [
+      "Petitioner detained from 4.8.86 under detention orders issued under Emergency Regulations.",
+      "Detention orders were challenged as invalid after expiry of Emergency Regulations.",
+      "Petitioner was produced before Magistrate on 18.9.86 and remanded.",
+      "Petitioner was denied access to his lawyer during detention.",
+      "Respondents filed affidavits late but were granted extension by the court."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that detention orders made under Emergency Regulations remain valid despite expiry of the regulations, supported by Article 155(5) and the Public Security Ordinance, and that the petitioner’s detention was lawful until remanded by Magistrate.",
+    "application_to_facts": "The petitioner’s detention from 4.8.86 was lawful under valid detention orders and Emergency Regulations; the expiry of the regulations did not invalidate the detention order.",
+    "principles_established": [
+      "Detention orders under Emergency Regulations remain valid after expiry of the regulations as per Article 155(5) and Public Security Ordinance.",
+      "A person detained must be produced before a court before expiry of 90 days or released.",
+      "The court has discretion to grant extensions for filing affidavits to ensure justice."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s detention from 4.8.86 was lawful under the detention orders and Emergency Regulations, and no violation of Article 13(2) was established.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was materially engaged to assess the legality of the petitioner’s detention and whether it was supported by valid legal orders, which the court upheld.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was detained under detention orders made under Emergency Regulations from 4.8.86 until remanded by Magistrate on 18.9.86; the court held these orders valid despite expiry of the regulations.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1200,
+      "end_char": 1600
+    }
+  }
+}

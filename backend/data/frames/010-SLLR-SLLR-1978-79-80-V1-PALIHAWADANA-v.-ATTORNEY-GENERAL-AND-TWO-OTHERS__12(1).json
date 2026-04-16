@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_010-SLLR-SLLR-1978-79-80-V1-PALIHAWADANA_047_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_NO_12_1979",
+    "case_title": "PalihaWadana v. Attorney-General and Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1979-04-27",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. No. 12 of 1979, decided on 27 April 1979"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Job Bank Scheme, which vests power in Members of Parliament to select unemployed persons for State employment, violates the equality guarantee under Article 12(1) by allowing arbitrary and discriminatory selection.",
+    "petitioner_claim": "The petitioner argued that the Job Bank Scheme is discriminatory and unconstitutional as it vests absolute, unfettered discretion in Members of Parliament to select persons for employment, denying equality of opportunity and equal protection of the law.",
+    "respondent_argument": "The respondents contended that the Members of Parliament must act according to eligibility criteria set by the scheme, and their discretion is not arbitrary but guided by policy. The petitioner was also argued to be ineligible under the scheme's criteria and thus had no locus standi.",
+    "key_facts": [
+      "The Job Bank Scheme requires MPs to nominate 1,000 unemployed persons from their electorate based on eligibility criteria.",
+      "The petitioner was denied a Job Bank application form by the MP for Hewaheta, allegedly due to political bias.",
+      "The scheme allows MPs to determine eligibility and select nominees without clear guidelines for the final selection of 1,000 persons.",
+      "The petitioner’s family assets and income disqualified him from the eligibility criteria of the scheme.",
+      "The scheme was challenged as permitting arbitrary and discriminatory executive action violating Article 12(1)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) guarantees equality before the law and equal protection, but allows reasonable classification based on real and substantial distinctions related to the object of the law. Arbitrary selection without guidelines is prohibited as it amounts to class legislation and violates equality.",
+    "application_to_facts": "The Court found that while the scheme’s eligibility criteria for unemployment were valid, the unfettered discretion given to MPs to select 1,000 persons from a larger eligible class was arbitrary and discriminatory, violating Article 12(1). However, since the petitioner did not meet the eligibility criteria, he had no standing to claim infringement.",
+    "principles_established": [
+      "Equality before the law requires similarly situated persons to be treated alike.",
+      "Reasonable classification is permissible; arbitrary selection is not.",
+      "Discretion vested in executive officers must be exercised fairly and guided by policy.",
+      "A scheme that vests absolute discretion without safeguards violates the equality guarantee.",
+      "Article 12(1) does not confer a right to State employment but guarantees equality of opportunity."
+    ],
+    "precedents_cited": [
+      "State of West Bengal v. Anwar Ali Savkar AIR 1952 (SC) 75",
+      "Budhan Chowdhury v. State of Bihar AIR 1955 (SC) 191",
+      "Yick Wo v. Hopkins (1886) 118 U.S. 356",
+      "Ex parte Virginia 100 US 339",
+      "Louisville Gas and Electric Co. v. Coleman (1928) 72 JS LE 770"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the Job Bank Scheme’s provision vesting MPs with absolute discretion to select 1,000 persons is unconstitutional as it violates Article 12(1). However, since the petitioner was not eligible under the scheme’s criteria, he had no locus standi and the petition was dismissed.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) is central to the Court’s analysis of equality and reasonable classification, directly informing the assessment of the Job Bank Scheme’s constitutionality and the petitioner’s claim.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court explained that Article 12(1) requires all persons similarly circumstanced to be treated alike and prohibits arbitrary selection, holding that the Job Bank Scheme’s unfettered discretion vested in MPs violates this principle.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

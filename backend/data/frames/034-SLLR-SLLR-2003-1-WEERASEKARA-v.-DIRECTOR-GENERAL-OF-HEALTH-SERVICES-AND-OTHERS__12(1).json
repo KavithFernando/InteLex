@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_034-SLLR-SLLR-2003-1-WEERASEKARA-V.-DIRE_170_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_86_2002",
+    "case_title": "Weerasekara v. Director-General of Health Services and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2003-02-14",
+    "source_citation": "Supreme Court of Sri Lanka, SC FR Application No. 86/2002, decided on 14 February 2003"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was denied equal protection of the law under Article 12(1) by being excluded from appointment as a trainee pharmacist due to an unclear bond completion requirement.",
+    "petitioner_claim": "The petitioner argued that although she had not completed the full bond period at the closing date of applications, by the time of the examination and selection the bond period had expired, and thus she had a legitimate expectation to be appointed.",
+    "respondent_argument": "The respondents contended that the eligibility criteria required completion of the full bond period by the closing date of applications, which the petitioner had not met, thus disqualifying her from appointment.",
+    "key_facts": [
+      "Petitioner was a dispenser under a five-year bond from 3 July 1995 to 3 July 2000.",
+      "Applications for trainee pharmacist posts required completion of the full bond period.",
+      "The advertisement did not specify the relevant date for bond completion (closing date, exam date, or appointment date).",
+      "Petitioner’s first application was misplaced; a second application was accepted and she was allowed to sit the exam.",
+      "Petitioner was not called for interview despite scoring higher marks than some appointed candidates, due to incomplete bond at application closing date."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the ambiguity in the advertisement regarding the relevant date for bond completion created a legitimate expectation for the petitioner, especially since her application was accepted and she was permitted to sit the examination. The requirement to have completed the bond period was not a suitability criterion but a bar that could be waived or substituted. The respondents’ failure to specify the date and their acceptance of the petitioner’s application made it unreasonable and arbitrary to deny her appointment.",
+    "application_to_facts": "Given the lack of clarity in the notice and the respondents’ acceptance of the petitioner’s application and examination participation, the court found that the petitioner was entitled to appointment. The denial was arbitrary and violated the equal protection guarantee under Article 12(1).",
+    "principles_established": [
+      "Eligibility criteria must be clearly stated, especially regarding timing requirements.",
+      "Acceptance of an application and permitting participation can create a legitimate expectation of appointment.",
+      "Arbitrary and unreasonable denial of appointment violates Article 12(1) equal protection rights.",
+      "Bond requirements can be waived or substituted and should be applied realistically."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s denial of appointment was arbitrary and violative of Article 12(1). The petitioner was entitled to be appointed and to follow the pharmacist training course immediately if she wished.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 1st respondent was directed to permit the petitioner to follow the pharmacist course immediately. The State was ordered to pay Rs. 25,000 as costs to the petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court’s reasoning as the petitioner claimed she was denied equal protection of the law by arbitrary application of bond completion criteria. The court found the denial violated the constitutional guarantee of equality and equal protection.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court noted the ambiguity in the notice and the respondents’ acceptance of the petitioner’s application and allowing her to sit the exam created a legitimate expectation. Denying appointment on the basis of bond completion at application closing date was arbitrary and violated Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

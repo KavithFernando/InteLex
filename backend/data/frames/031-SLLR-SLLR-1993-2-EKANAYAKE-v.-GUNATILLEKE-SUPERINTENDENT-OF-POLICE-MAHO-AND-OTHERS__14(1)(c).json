@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_031-SLLR-SLLR-1993-2-EKANAYAKE-V.-GUNATI_057_C01__14(1)(c)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 1007/92",
+    "case_title": "Ekanayake v. Gunatilleke, Superintendent of Police, Maho and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1993-09-24",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 1007/92, decided on 24 September 1993"
+  },
+  "clause": {
+    "article": "14(1)(c)",
+    "text": "Freedom of association."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s fundamental right to freedom of association under Article 14(1)(c) was infringed by the 1st respondent’s conduct in arresting, detaining, and obstructing the petitioner from carrying on lawful political activities.",
+    "petitioner_claim": "The petitioner claimed that his arrest and detention were illegal and mala fide, done solely because of his association with the SLFP and his lawful political activities, thus infringing his freedom of association guaranteed by Article 14(1)(c).",
+    "respondent_argument": null,
+    "key_facts": [
+      "Petitioner was Organizer of the SLFP for Yapahuwa since 1988 and a candidate in 1989 Parliamentary Election.",
+      "1st respondent, Superintendent of Police, Maho, allegedly arrested petitioner without warrant or reason and detained him without a detention order.",
+      "Petitioner was threatened and obstructed from continuing political activities by the 1st respondent.",
+      "Petitioner was detained for over 80 days without charge and released unconditionally.",
+      "Petitioner’s political activities included holding meetings and propaganda for the SLFP despite threats."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the right to join a political party under Article 14(1)(c) includes the right to participate fully in lawful activities of that party. The 1st respondent’s conduct in arresting and detaining the petitioner without lawful justification and preventing him from continuing political activities constituted an infringement of this right.",
+    "application_to_facts": "The Court found that the petitioner was arrested without warrant or reason, detained without a valid detention order, and threatened by the 1st respondent to cease political activities. These acts directly impeded the petitioner’s freedom to participate in the SLFP’s lawful activities, violating Article 14(1)(c).",
+    "principles_established": [
+      "Freedom of association includes the right to participate fully in lawful political activities.",
+      "Arrest and detention without lawful cause that obstruct political participation violate Article 14(1)(c).",
+      "Threats and obstruction by state officials against political activities infringe fundamental rights."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner’s freedom of association under Article 14(1)(c) was infringed by the 1st respondent’s conduct and awarded compensation accordingly.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation of Rs. 65,000/- awarded, Rs. 15,000/- payable by 1st respondent and Rs. 50,000/- by the State; Rs. 5,000/- costs payable by the State."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(c) guarantees freedom of association, which the Court found was directly infringed by the 1st respondent’s actions preventing the petitioner from engaging in lawful political activities. This clause was central to the Court’s reasoning and ultimate decision to grant relief.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court noted the petitioner was arrested without warrant or reason, detained without a detention order, threatened by the 1st respondent to cease political activities, and prevented from participating fully in the SLFP’s lawful activities, constituting an infringement of Article 14(1)(c).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

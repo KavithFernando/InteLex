@@ -1,0 +1,69 @@
+{
+  "frame_id": "RQ1_056-SLLR-SLLR-2005-V-2-TYRON-PERERA-VS-A_206_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "CA (PHC) APN 7/2005",
+    "case_title": "Tyron Perera vs Attorney General",
+    "court_name": "Court of Appeal, Sri Lanka",
+    "decision_date": "2005-06-28",
+    "source_citation": "Sri Lanka Law Reports (2005) 2 Sri L R"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the delay in hearing the appeal and the time taken to prepare the appeal brief constitute exceptional circumstances warranting bail pending appeal under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the hearing of the appeal will take a considerable period of time, and it would be unreasonable for him to remain on remand for such a long period, thus seeking bail pending appeal.",
+    "respondent_argument": "The State argued that the mere delay in hearing the appeal is not sufficient ground for bail and that no exceptional circumstances exist to justify bail pending appeal.",
+    "key_facts": [
+      "The accused was convicted of attempted murder and sentenced to 7 years rigorous imprisonment.",
+      "The accused applied for bail pending appeal citing delay in hearing the appeal as the main ground.",
+      "The High Court refused bail on 16.12.2004, finding no exceptional circumstances.",
+      "The accused had been on remand for less than three months at the time of bail refusal.",
+      "The Court of Appeal treated the bail application as a revision application."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equality before the law and equal protection, but the mere delay in hearing an appeal does not amount to exceptional circumstances justifying bail pending appeal. Exceptional circumstances must be demonstrated to warrant bail.",
+    "application_to_facts": "The court found that the accused failed to establish exceptional circumstances. The delay in hearing the appeal and preparation of appeal briefs, without more, does not violate the accused's right to equal protection under Article 12(1). The court relied on precedents emphasizing that bail pending appeal is an exceptional remedy and must be granted only in extraordinary cases.",
+    "principles_established": [
+      "Bail pending appeal is an exceptional remedy requiring exceptional circumstances.",
+      "Delay in hearing an appeal alone does not constitute exceptional circumstances.",
+      "The accused must demonstrate that bail will not prejudice the administration of justice and that he will present himself to serve the sentence if the appeal fails.",
+      "Article 12(1) protects fundamental rights but does not guarantee bail absent exceptional circumstances."
+    ],
+    "precedents_cited": [
+      "Benwell vs. Attorney General - 1988 1 SLLR 1",
+      "Kamal Addararachchi vs. State - 2000-3 Sri LR 393",
+      "Queen vs. Cornells Silva - 74 NLR 113",
+      "Queen vs. Perera - 62 NLR 238",
+      "Thomodaram Pillai vs. Attorney General - CA 141/75",
+      "Ranatunga Arachchilage Peter vs. Attorney General - CA 450/95",
+      "Salahudeen vs. Attorney General - 77 NLR 262"
+    ]
+  },
+  "outcome": {
+    "holding": "The court dismissed the bail application pending appeal, holding that no exceptional circumstances were shown and the delay in hearing the appeal was insufficient to grant bail under Article 12(1).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as the petitioner invoked it to claim a violation of equal protection rights due to delay in appeal hearing. The court analyzed whether the delay constituted a breach of this constitutional guarantee and concluded it did not.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court stated that the serious and transparent lapses which deprived the accused of a fair trial enshrined in Article 12(1) prompted bail in other cases, but here no such lapses or exceptional circumstances were shown. The mere delay in hearing the appeal is no ground for bail.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3100,
+      "end_char": 3500
+    }
+  }
+}

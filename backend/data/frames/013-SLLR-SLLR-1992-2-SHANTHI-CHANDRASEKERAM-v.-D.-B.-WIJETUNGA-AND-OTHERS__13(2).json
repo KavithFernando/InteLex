@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_013-SLLR-SLLR-1992-2-SHANTHI-CHANDRASEKE_031_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. 1/92, 2/92, 3/92",
+    "case_title": "Shanthi Chandrasekeram v. D. B. Wijetunga and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1992-05-04",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. 1/92, 2/92, 3/92, decided on 4 May 1992"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the detention of the detenues complied with Article 13(2) of the Constitution.",
+    "petitioner_claim": "The petitioners claimed that the detenues were unlawfully detained without valid detention orders and without proper judicial oversight.",
+    "respondent_argument": "The respondents argued that detention orders under Emergency Regulations were issued and the detenues were produced before a Magistrate within 30 days as required.",
+    "key_facts": [
+      "Detention Orders under Emergency Regulation 19(2) were issued on 4 July 1991 for 90 days.",
+      "Detenues were produced before a Magistrate within 30 days of detention.",
+      "Subsequent Detention Orders under Emergency Regulation 17 were issued on 1 October 1991.",
+      "Respondents failed to produce material or affidavits explaining the basis for the detention orders.",
+      "The Court found the detention orders unreasonable and void due to lack of material."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires that any person detained be brought before a judge and that detention must be authorized by a legal order. The Court held that detention orders must be supported by credible material and not be arbitrary or unreasonable.",
+    "application_to_facts": "Although detention orders were issued and the detenues were produced before a Magistrate, the respondents failed to provide any material or explanation to justify the detention orders. The Court found the detention orders void for being unreasonable and lacking evidential basis.",
+    "principles_established": [
+      "Detention must be authorized by a valid legal order and subject to judicial oversight.",
+      "The authority issuing detention orders must have credible material to justify detention.",
+      "Unexplained or unsupported detention orders violate Article 13(2)."
+    ],
+    "precedents_cited": [
+      "Hirdaramani v. Ratnavel 75 NLR 67",
+      "Wickremabandu v. Herath [1990] 2 Sri L.R. 348"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the detention of the detenues violated Article 13(2) due to the absence of credible material supporting the detention orders.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration that the detenu had been detained in violation of Article 13(2), compensation of Rs. 2,500/- plus Rs. 2,500/- costs to each petitioner, and directions for custody pending trial to be determined by the High Court."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) is central to the Court's decision as it protects against unlawful detention without legal order and judicial oversight, which was not satisfied here, leading to the detention being declared unlawful.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Detention Orders were issued but no material was produced to justify them. The Court held the Detention Orders were unreasonable and void, and the detenues were detained in violation of Article 13(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

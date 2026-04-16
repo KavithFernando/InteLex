@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_036-SLLR-SLLR-1988-V-1-GAMAETHIGE-V.-SIR_173_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 73/87",
+    "case_title": "Gamaethige v. Siriwardena and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1988-03-24",
+    "source_citation": "[1988] 1 SriL.R. 384"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the removal of the petitioner's name from the waiting list for Government Quarters upon vacation of post constituted discrimination violating Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that his fundamental rights under Article 12(1) were violated by discriminatory treatment in that his name was removed from the waiting list for Government Quarters while others, including persons not on the waiting list, were allocated quarters.",
+    "respondent_argument": "The respondents argued that the circumstances relating to other officers who received quarters were different, that the petitioner was not eligible at the relevant time as he was not in service, and that there was no invidious discrimination or unequal treatment of equals.",
+    "key_facts": [
+      "Petitioner was on the waiting list for Government Quarters since 1973.",
+      "Petitioner was treated as having vacated his post due to participation in a strike from 17.7.80 to 12.8.80 and was reinstated only on 1.11.85.",
+      "Petitioner's name was deleted from the waiting list in June 1984 upon report that he was not in service.",
+      "Petitioner requested restoration to the waiting list after reinstatement but was refused.",
+      "Petitioner alleged preferential treatment to others not on the waiting list."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) prohibits invidious discrimination and requires equal treatment of equals and unequal treatment of unequals. The petitioner and others cited were not similarly situated; the petitioner was not eligible for quarters at the relevant time as he was not in service, whereas others who received quarters were in different categories or had different circumstances.",
+    "application_to_facts": "The Court found that the petitioner's removal from the waiting list was in accordance with the rules since he was not in service, and the preferential treatment alleged was either explained by different categories or proper exercise of discretion. The petitioner failed to prove discrimination under Article 12(1).",
+    "principles_established": [
+      "Discrimination under Article 12(1) requires unequal treatment of equals or equal treatment of unequals.",
+      "Administrative decisions made in accordance with established rules and eligibility criteria do not constitute discrimination.",
+      "Allegations of wrongful allocation must be proven with evidence of equal status and unequal treatment."
+    ],
+    "precedents_cited": [
+      "Elmore Perera v. Jayawickrema",
+      "Jayasena v. Soysa",
+      "Velmurugu v. Attorney-General",
+      "Mackie & Co. v. Molagoda"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner's fundamental rights under Article 12(1) were not violated and dismissed the application.",
+    "disposition": "dismissed",
+    "remedy_or_orders": "Costs fixed at Rs. 500"
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's analysis of whether the petitioner was subjected to unlawful discrimination in the allocation of government quarters, which was the core of the petitioner's claim.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found no invidious discrimination as the petitioner was not eligible for quarters at the relevant time and the preferential treatment to others was either justified by different categories or proper discretion.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3900,
+      "end_char": 4300
+    }
+  }
+}

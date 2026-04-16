@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_005-SLLR-SLLR-1994-V2-JAYASINGHE-V.-THE-_024_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 86/94",
+    "case_title": "Jayasinghe v. The Attorney General and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-11-04",
+    "source_citation": "Sri Lanka Law Reports [1994] 2 Sri L.R. 74"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether unexplained and inordinate delay by a co-operative society in commencing and concluding disciplinary proceedings against an employee interdicted without pay amounts to a denial of the equal protection of the law guaranteed by Article 12(1).",
+    "petitioner_claim": "The petitioner claimed that the prolonged delay of over 14 years in serving a charge sheet and concluding disciplinary proceedings denied him the equal protection of the law under Article 12(1).",
+    "respondent_argument": "The 2nd respondent argued that the application was time barred and that the petitioner failed to prove denial of equal protection as he did not produce evidence of similar delays in other cases.",
+    "key_facts": [
+      "Petitioner was interdicted without pay in 1977 and no charge sheet was served until 1992.",
+      "Disciplinary proceedings concluded only in 1994 after court intervention.",
+      "Two criminal prosecutions were launched but withdrawn; arbitration held petitioner responsible for shortages.",
+      "Petitioner alleged political victimization under Article 12(2), but this was not entertained due to non-retroactivity.",
+      "Petitioner had no remedy in Labour Tribunal due to statutory exclusion until 1992 amendment."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) extends beyond protection of liberty to include protection of livelihood. The law provides safeguards for livelihood through statutory provisions governing disciplinary proceedings. Delay in such proceedings can amount to denial of the substance of protection of the law, as justice delayed is justice denied.",
+    "application_to_facts": "The court found the 16-year delay in serving charges and concluding disciplinary proceedings manifestly excessive and unjustified. This delay deprived the petitioner of the protection of the law regarding his livelihood, effectively denying him equal protection. The petitioner was not required to produce evidence of other similar cases because the delay was so extraordinary and contrary to regulatory expectations.",
+    "principles_established": [
+      "Article 12(1) protects both liberty and livelihood.",
+      "Disciplinary action by a co-operative society is administrative action subject to constitutional protections.",
+      "Excessive delay in disciplinary proceedings can constitute denial of equal protection of the law.",
+      "Reasonable time for disciplinary inquiries is measured in months, not years.",
+      "Lack of evidence of similar cases is not fatal where delay is manifestly excessive."
+    ],
+    "precedents_cited": [
+      "Sebastian Fernando v. Katana MPCS [1990] 1 Sri LR 342",
+      "Hakmana MPCS v. Fernando [1985] 1 Sri LR 272",
+      "Perera v. Jayawickreme [1985] 1 Sri LR 285",
+      "Weligama MPCS v. Daluwatte [1984] 1 Sri LR 195"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental right to equal protection of the law under Article 12(1) was infringed by the inordinate delay in disciplinary proceedings and granted relief including compensation and costs.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of infringement of Article 12(1); Rs. 100,000 compensation; Rs. 5,000 costs payable by 2nd respondent."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court’s reasoning as it guarantees equal protection of the law, which the petitioner was found to have been denied due to the excessive delay in disciplinary proceedings affecting his livelihood.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the delay of 16 years in serving charges and concluding disciplinary proceedings was manifestly excessive and denied the petitioner the protection of the law regarding his livelihood, thus infringing Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

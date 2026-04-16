@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_042-SLLR-SLLR-1998-1-TRINITA-PERERA-V.-J_187_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 8/96",
+    "case_title": "Trinita Perera v. Jayaratne and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-03-05",
+    "source_citation": "Sri Lanka Law Reports (1998) 1 Sri L.R. 372"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the appointment of the 3rd respondent as Sub Post Mistress without following the recruitment scheme violated the petitioner's fundamental rights under Article 12(1).",
+    "petitioner_claim": "The petitioner argued that the 3rd respondent was appointed without an interview and contrary to the recruitment scheme, and that this appointment was arbitrary, unfair, and violated her right to equal protection under Article 12(1).",
+    "respondent_argument": "The respondents argued that the 3rd respondent's appointment was based on a Cabinet decision following a Political Victimization Committee recommendation, and that she was entitled to appointment due to prior satisfactory service, thus no violation of Article 12(1) occurred.",
+    "key_facts": [
+      "Applications were called for the post of Sub Post Master at Bowela with specified qualifications and an interview process.",
+      "The notice calling for applications was cancelled and the 3rd respondent was appointed by Cabinet decision without an interview.",
+      "The petitioner had applied and met the qualifications but was not considered.",
+      "The 3rd respondent had prior acting service and was politically victimized previously.",
+      "The appointment was challenged as arbitrary and contrary to the recruitment scheme."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the 'pleasure principle' under Article 55(1) is subject to the equality guarantee under Article 12(1), and that appointments must comply with the rule of law and fairness. Article 12(1) mandates equal protection and prohibits arbitrary appointments.",
+    "application_to_facts": "The Court found that the appointment of the 3rd respondent without following the recruitment scheme, including the interview process, was arbitrary, unfair, and violated the petitioner's right to equal protection under Article 12(1). The Cabinet's power to appoint is limited by constitutional equality principles.",
+    "principles_established": [
+      "The 'pleasure principle' in Article 55(1) is subject to Article 12(1) equality provisions.",
+      "Appointments must not be arbitrary or unfair and must comply with the recruitment scheme.",
+      "Fundamental rights under Article 12(1) protect against unequal treatment in public appointments."
+    ],
+    "precedents_cited": [
+      "Bandara and another v. Premachandra, Secretary, Ministry of Lands, Irrigation and Mahaweli Development and others (1994) 1 Sri L.R. 301",
+      "Wijesinghe v. Attorney-General and Others (1978 - 1980) 1 Sri L.R. 102"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the appointment of the 3rd respondent was null and void as it violated Article 12(1). The respondents were directed to make the appointment according to law.",
+    "disposition": "granted",
+    "remedy_or_orders": "The appointment of the 3rd respondent is declared null and void; the 1st and 2nd respondents are directed to appoint according to law; no compensation or costs ordered."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it guarantees equality before the law and equal protection, which the Court found was violated by the arbitrary appointment process.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The appointment of the 3rd respondent was contrary to the scheme of recruitment, arbitrary, unfair, unreasonable and violative of Article 12(1). The Court held the appointment null and void.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3720,
+      "end_char": 3830
+    }
+  }
+}

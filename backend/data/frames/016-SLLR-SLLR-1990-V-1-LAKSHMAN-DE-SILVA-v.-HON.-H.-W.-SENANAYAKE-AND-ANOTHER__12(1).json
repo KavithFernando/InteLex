@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_016-SLLR-SLLR-1990-V-1-LAKSHMAN-DE-SILVA_083_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (SLA) APPLICATION NO.51 OF 1989",
+    "case_title": "Lakshman de Silva v. Hon. H. W. Senanayake and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1989-12-04",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (SLA) Application No.51 of 1989, decided on 4 December 1989"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the accused petitioner was denied equal protection of the law under Article 12(1) by being refused facilities (table and chair) to conduct his own defence during the trial, and whether the refusal and treatment by the High Court Judge violated his fundamental rights.",
+    "petitioner_claim": "The petitioner argued that he was denied equal opportunity and facilities afforded to the learned Counsel for the Prosecution, including a chair and table to take notes and place documents during the trial, and that the High Court Judge addressed him humiliatingly as 'prisoner', violating his fundamental rights under Articles 12(1) and 13(3) of the Constitution.",
+    "respondent_argument": "The respondents contended that the trial had not commenced as per section 196 of the Code of Criminal Procedure, and therefore there was no violation of the undertaking to provide facilities. They also denied the allegations of humiliating treatment and argued that the petitioner was not entitled to the facilities before the trial commenced.",
+    "key_facts": [
+      "The indictment was received on 15.9.88 and the accused was served on 16.9.88 but not called to plead on that date.",
+      "The trial date was fixed for 29.11.88, but the petitioner was absent and later conducted his own defence from 1.3.89 onwards.",
+      "The petitioner requested facilities (table and chair) on 11.5.89 which were refused by the High Court Judge.",
+      "A settlement was reached on 5.10.89 that the petitioner would be provided a table and chair during the trial, either inside or outside the dock.",
+      "The petitioner alleged breach of this undertaking on 30.10.89, claiming the facilities were not provided."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the commencement of the trial occurs only when the indictment is read to the accused and the accused is called upon to plead, as per section 196 of the Code of Criminal Procedure. Since this had not occurred, the trial had not commenced and the undertaking to provide facilities during the trial was not yet triggered. The Court did not express an opinion on whether the petitioner had a legal or constitutional right to such facilities but noted it was desirable for an undefended accused to have reasonable facilities to conduct his defence.",
+    "application_to_facts": "The Court found that the dates on which the petitioner claimed to have been denied facilities were not trial dates but merely calling or mention dates. The petitioner was not called to plead on 16.9.88, and the trial had not commenced by 30.10.89. Therefore, the failure to provide a table and chair on those dates did not breach the undertaking. The Court also found no evidence supporting the petitioner's allegations of humiliating treatment by the Judge.",
+    "principles_established": [
+      "Trial commencement is defined by the indictment being read and the accused pleading (section 196).",
+      "Facilities for an undefended accused are desirable but not constitutionally guaranteed before trial commencement.",
+      "An undertaking to provide facilities applies only during the actual trial, not during preliminary or calling dates."
+    ],
+    "precedents_cited": [
+      "Mohan v. Carson Cumberbatch & Co - [1988] 2 Sri L.R. 75"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the petitioner's application, holding there was no violation of the undertaking or denial of equal protection under Article 12(1).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner's claim that he was denied equal protection of the law by being refused facilities to conduct his defence and by humiliating treatment. The Court's reasoning focused on whether the petitioner was entitled to such protection at the relevant stage of proceedings, making the clause highly relevant.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that the trial had not commenced as the indictment was not read and the accused was not called to plead, so the undertaking to provide facilities during the trial was not breached. The petitioner was not denied equal protection under Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

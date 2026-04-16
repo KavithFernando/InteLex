@@ -1,0 +1,72 @@
+{
+  "frame_id": "RQ1_002-SLLR-SLLR-1991-V-1-RAMUPPILLAI-V.-FE_007_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 49/90",
+    "case_title": "Ramuppillai v. Festus Perera, Minister of Public Administration, Provincial Councils and Home Affairs and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1991-01-07",
+    "source_citation": "Sri Lanka Law Reports (1991) 1 Sri L.R."
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the ethnic quota system in promotion discriminates against the petitioner on the ground of race, violating Article 12(2).",
+    "petitioner_claim": "The petitioner claimed that the ethnic quota system discriminates against him solely on the ground of his race, denying him promotion despite merit and seniority.",
+    "respondent_argument": "The respondents argued that the ethnic quota system is a reasonable measure to ensure fair representation of all ethnic groups and does not constitute unlawful discrimination under Article 12(2).",
+    "key_facts": [
+      "Ethnic quota system allocates fixed proportions of promotions to ethnic groups.",
+      "Petitioner is a Tamil officer denied promotion in favor of less senior Sinhalese officers due to quota.",
+      "No evidence of past discrimination or imbalance in the Customs Service was presented.",
+      "The quota system was introduced by Cabinet decision and implemented by Public Administration Circulars.",
+      "The petitioner seeks promotion without reference to ethnic quotas."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 12(2) prohibits discrimination on specified grounds including race. The court held that the ethnic quota system imposes a classification solely on race, which is prima facie odious and unconstitutional unless justified by proof of past discrimination or special circumstances.",
+    "application_to_facts": "The petitioner and other officers form a single class similarly circumstanced. The ethnic quota system denies promotion to the petitioner based solely on race without justification, constituting impermissible discrimination under Article 12(2).",
+    "principles_established": [
+      "Discrimination on grounds enumerated in Article 12(2) is prima facie unconstitutional.",
+      "Classification based solely on race for promotion requires strong justification which was absent.",
+      "The right protected is personal to the individual citizen, not to any community or group.",
+      "Ethnic quotas without proof of past discrimination violate equality of opportunity.",
+      "The State cannot justify discrimination on race by reference to group interests alone."
+    ],
+    "precedents_cited": [
+      "Palihawadana v. Attorney-General",
+      "Perera v. University Grants Commission",
+      "Seneviratne v. University Grants Commission",
+      "State of Kerala v. Thomas",
+      "Madras v. Champakam Durairajah",
+      "Triloki Nath v. Jammu & Kashmir",
+      "Kumari v. State of Mysore",
+      "Abeywickrema v. Pathirana",
+      "The Public Services United Nurses Union v. M. Jayawickreme"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the ethnic quota system discriminates against the petitioner on the ground of race in violation of Article 12(2) and is therefore unconstitutional as applied to his promotion.",
+    "disposition": "granted",
+    "remedy_or_orders": "Respondents ordered to consider the petitioner's promotion application without reference to ethnic quotas."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) is central to the court's decision as it explicitly prohibits discrimination on grounds of race, which the ethnic quota system imposed on the petitioner, thus violating his fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the ethnic quota system classifies and discriminates against the petitioner solely on the ground of race, denying him promotion despite merit and seniority, violating Article 12(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

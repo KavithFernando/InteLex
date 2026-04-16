@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_031-SLLR-SLLR-1987-1-NALLANAYAGAM-V.-GUN_072_C03__13(4)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 59/85",
+    "case_title": "Nallanayagam v Gunatilake and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-07-25",
+    "source_citation": "Sri Lanka Law Reports [1987] 1 Sri L.R. 293"
+  },
+  "clause": {
+    "article": "13(4)",
+    "text": "Punishment can only be imposed by a competent court and detention before trial is not punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s detention pending investigation constituted unlawful punishment in violation of Article 13(4).",
+    "petitioner_claim": "The petitioner argued that his continued detention was illegal and amounted to punishment without trial.",
+    "respondent_argument": "Respondents stated the detention was authorized for further investigation under Emergency Regulations.",
+    "key_facts": [
+      "Petitioner detained from 22 May 1985 to at least 11 June 1985 pending investigation.",
+      "No affidavits from respondents explicitly stated detention was for further investigation.",
+      "Magistrate was informed on 25 June 1985 that investigation was ongoing and extracts were submitted to Attorney-General.",
+      "Court relied on previous case Yasapalitha Nanayakkara v. Henry Perera regarding lawful detention for investigation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(4) prohibits detention as punishment before trial; detention pending investigation is not punishment if lawful and for investigation purposes.",
+    "application_to_facts": "The court found the detention was for further investigation as authorized by the Inspector-General of Police under Emergency Regulations, thus not unlawful punishment.",
+    "principles_established": [
+      "Detention pending investigation is lawful and not punishment if authorized and for investigation.",
+      "Detention without a specified purpose or unknown purpose is unlawful and violates Article 13(4)."
+    ],
+    "precedents_cited": [
+      "Yasapalitha Nanayakkara v. Henry Perera and Others"
+    ]
+  },
+  "outcome": {
+    "holding": "The petitioner’s detention was lawful pending investigation and did not violate Article 13(4).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The court addressed whether detention pending investigation constituted unlawful punishment, concluding it did not under Article 13(4) when properly authorized.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Inspector-General of Police authorized detention for offences under Regulation 26, and the Magistrate was informed that investigation was ongoing with extracts submitted to the Attorney-General.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1200,
+      "end_char": 1400
+    }
+  }
+}

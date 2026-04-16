@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_034-SLLR-SLLR-1995-2-BANDARA-V.-WICKRAMA_052_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. 190/94",
+    "case_title": "Bandara v Wickremasinghe",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-06-05",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. 190/94, decided on 5 June 1995"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the assault on the petitioner, a student, by school authorities during school hours constituted a violation of Article 11 of the Constitution prohibiting cruel, inhuman or degrading treatment.",
+    "petitioner_claim": "The petitioner alleged that he was assaulted by the Principal, Deputy Principal, Vice Principal, and a teacher during school hours, which violated his rights under Article 11.",
+    "respondent_argument": "The respondents argued that the assault was a private act not involving the coercive power of the State, that school teachers are prohibited from physical punishment, and that the acts did not constitute executive or administrative action violating fundamental rights. They also claimed the petition was instigated by the petitioner’s father out of malice.",
+    "key_facts": [
+      "The petitioner was a 17-year-old student with a good conduct record and held several leadership positions at school.",
+      "The petitioner was assaulted by school authorities during school hours after an incident involving the petitioner’s father detecting contraband at a school event.",
+      "The respondents admitted to some physical contact but denied the extent of the assault claimed by the petitioner.",
+      "Medical evidence showed the petitioner suffered contusions, abrasions, and mental illness requiring hospitalization after the assault.",
+      "The court found the respondents acted under the colour of office and exceeded their disciplinary powers."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 11 prohibits torture and cruel, inhuman or degrading treatment, and that school authorities acting under colour of office who exceed their disciplinary powers can violate this right. The court rejected the argument that the acts were private and not executive or administrative action.",
+    "application_to_facts": "The court found the assault on the petitioner was excessive, cruel, and degrading, supported by medical evidence and the petitioner’s good character. The respondents’ conduct was under colour of office and thus constituted executive action violating Article 11.",
+    "principles_established": [
+      "Disciplinary actions by school authorities are executive actions when done under colour of office.",
+      "Excessive disciplinary measures can amount to cruel, inhuman or degrading treatment under Article 11.",
+      "The State is liable for fundamental rights violations committed by public officials acting under colour of office."
+    ],
+    "precedents_cited": [
+      "Theachanamoorthi v. Attorney-General",
+      "Velmurugu v. Attorney-General",
+      "Samanthilaka v. Perera",
+      "Vivienne Goonewardena v. Perera"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s rights under Article 11 were violated by the assault and awarded compensation and costs to the petitioner.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioner was awarded Rs. 50,000 as compensation by the State, and costs totaling Rs. 10,000 to be paid by the respondents. The Ministry of Education was directed to ensure payment and report compliance."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the court’s reasoning as it directly prohibits cruel, inhuman or degrading treatment, which the petitioner alleged and the court found was committed by the school authorities acting under colour of office.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found the assault was excessive and cruel, supported by medical evidence of injury and mental illness, and that the respondents acted under colour of office exceeding their disciplinary powers, violating Article 11.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

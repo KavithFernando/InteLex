@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_025-SLLR-SLLR-1998-V-2-GALAPATHTHI-V.-KU_127_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 829/96",
+    "case_title": "Galapaththi v. Kudaligama, Chairman, Education Service Committee of the Public Service Commission and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-02-03",
+    "source_citation": "Sri Lanka Law Reports (1998) 2 Sri LR. Supreme Court of Sri Lanka, S.C. Application No. 829/96, decided on 3 February 1998"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the termination of the petitioner's appointment as a teacher violated Article 12(1) of the Constitution regarding equality before the law and equal protection.",
+    "petitioner_claim": "The petitioner argued that the termination was arbitrary and violative of Article 12(1) because the Gazette Notification calling for applications did not specify a pass in Arithmetic as a required qualification, and she met the qualifications stated therein.",
+    "respondent_argument": "The respondents contended that the petitioner was terminated because she did not possess a pass in Arithmetic at the National Certificate of General Education examination, which was a requirement according to the policy of the Education Department.",
+    "key_facts": [
+      "Petitioner was appointed as a Dancing Teacher effective 1.11.1990 and confirmed in 1994.",
+      "Termination letter dated 13.9.1996 cited lack of pass in Arithmetic as the reason.",
+      "Petitioner had passed seven subjects including Aesthetic Studies (Dancing) at the N.C.G.E. examination.",
+      "Gazette Notification (P1) did not specify a pass in Arithmetic as a qualification requirement.",
+      "Petitioner’s appeal against termination was rejected by the Education Service Committee."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as prohibiting arbitrary termination that lacks equal protection under the law. The Gazette Notification's specified qualifications govern the appointment criteria, and additional undisclosed requirements cannot justify termination.",
+    "application_to_facts": "Since the Gazette Notification did not require a pass in Arithmetic and the petitioner met the stated qualifications, terminating her on that ground was arbitrary and violated her right to equal protection under Article 12(1).",
+    "principles_established": [
+      "Employment termination must comply with publicly stated qualification criteria.",
+      "Arbitrary decisions violating equal protection under the law are unconstitutional."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the termination of the petitioner’s services was arbitrary and violated Article 12(1) of the Constitution. The termination letter was quashed, and the petitioner was allowed to continue in service.",
+    "disposition": "granted",
+    "remedy_or_orders": "The termination letter dated 13.9.1996 was quashed; the petitioner was directed to be permitted to continue in service without interruption; Rs. 15,000/- costs awarded to the petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court’s reasoning as it protects against arbitrary state action and ensures equal protection under the law, which was violated by the termination based on undisclosed qualification requirements.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the termination was untenable, arbitrary and violative of Article 12(1) because the Gazette Notification did not specify a pass in Arithmetic as a requirement, and the petitioner met the qualifications stated therein.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_031-SLLR-SLLR_1997_V3-NALIKA_KUMUDINI,_A_046_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION (F.R.) NO. 615/95",
+    "case_title": "Nalika Kumudini, Attorney-at-Law, (on behalf of Malsha Kumari) v. Nihal Mahinda, O.I.C. Hungama Police and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-08-28",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application (F.R.) No. 615/95, decided on 28 August 1997"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner, a 14-year-old girl, was subjected to torture and cruel, inhuman or degrading treatment by police officers, in violation of Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioner alleged unlawful arrest, detention without production before a Magistrate, and torture including being beaten with a hose-pipe, trampled, tied and hung from a tree, causing serious injuries.",
+    "respondent_argument": "The 1st respondent denied the petitioner was at the police station or assaulted by police; claimed injuries were caused by the petitioner’s father and that the matter was settled without police misconduct.",
+    "key_facts": [
+      "Petitioner was arrested at home and taken to Hungama Police Station on 5.9.95.",
+      "She was assaulted by police officers including the 1st respondent with a hose-pipe and beaten severely.",
+      "Her hands were tied behind her back and she was hung from a tree while being beaten.",
+      "She sustained injuries on her body, spine, and wrists consistent with her allegations.",
+      "Petitioner was unlawfully detained without being produced before a Magistrate."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 11 as prohibiting torture and cruel, inhuman or degrading treatment, which includes physical abuse and unlawful detention by police officers.",
+    "application_to_facts": "The Court found the petitioner’s version more probable based on medical evidence and contradictions in the respondents’ affidavits, concluding that the petitioner was subjected to torture and cruel treatment by the 1st respondent and others.",
+    "principles_established": [
+      "Unlawful arrest and detention without production before a Magistrate violates fundamental rights.",
+      "Physical abuse including beating, tying, and hanging constitutes torture and cruel, inhuman or degrading treatment under Article 11.",
+      "Police officers are responsible for preventing and not condoning such violations.",
+      "Victims incapacitated by injury or intimidation may have delayed filing without losing rights."
+    ],
+    "precedents_cited": [
+      "Lakshman v. Fernando, S.C. 324/90",
+      "Premadasa v. Officer-in-Charge of the Hakmana Police, S.C. 127/94"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the 1st respondent infringed the petitioner’s fundamental rights under Article 11 by subjecting her to torture and cruel, inhuman or degrading treatment and unlawful detention.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was ordered to pay Rs. 150,000 as compensation deposited in a fixed deposit for the petitioner, the 1st respondent to pay Rs. 50,000 personally in installments, and Rs. 5,000 as costs. The 2nd respondent was directed to prevent harassment of the petitioner and her family."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the Court’s determination that the petitioner was subjected to torture and cruel, inhuman or degrading treatment by police officers, which formed the basis for granting relief and compensation.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was beaten with a hose-pipe, trampled, tied behind her back and hung from a tree by police officers, sustaining injuries corroborated by medical evidence; the 1st respondent failed to produce credible contrary evidence.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

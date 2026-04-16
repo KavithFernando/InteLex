@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_014-SLLR-SLLR-1999-V-1-ANURA-BANDARANAIK_070_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 239/97",
+    "case_title": "Anura Bandaranaike v. W. B. Rajaguru, Inspector-General of Police and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-12-08",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 239/97, decided on 8 December 1998"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the forced entry and search of the petitioner's residence by police officers without a warrant or sufficient credible information violated the petitioner's fundamental right to equal protection of the law under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the police officers unlawfully entered and searched his residence without a warrant or his permission, based on unreliable and unverified information, thereby violating his fundamental rights under Article 12(1).",
+    "respondent_argument": "The respondents contended that they acted under sections 24 and 25 of the Code of Criminal Procedure Act, having 'reason to believe' that the suspect Punchi Nilame had entered the petitioner's residence, based on information from a long-standing private informant. They relied on section 125 of the Evidence Ordinance to withhold the informant's identity.",
+    "key_facts": [
+      "Police entered the petitioner's residence at about 2:15 am on 12.02.1997 without a warrant or permission.",
+      "The entry was based on information from a private informant who allegedly saw the suspect enter the petitioner's house at 9 pm on 11.02.1997.",
+      "The informant refused to disclose his identity and no evidence was provided to verify his credibility.",
+      "The petitioner was a prominent Member of Parliament with high security at his residence.",
+      "No other houses in the vicinity were searched, and the police found no suspect in the petitioner's residence."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equal protection of the law to all persons, and that the police must have credible and verifiable grounds before infringing on a person's fundamental rights. The court emphasized the duty to scrutinize the material and not allow officials to hide behind section 125 of the Evidence Ordinance to justify actions based on undisclosed informants.",
+    "application_to_facts": "The court found that the respondents failed to prove the existence or reliability of the informant or that they had reasonable grounds to believe the suspect was in the petitioner's residence. The lack of verification, absence of details about the informant's observations, and failure to question the informant on critical points led the court to conclude the search was unlawful and violated the petitioner's right to equal protection under the law.",
+    "principles_established": [
+      "Officials cannot rely on undisclosed informants without credible verification when fundamental rights are at stake.",
+      "Section 125 of the Evidence Ordinance does not shield police from scrutiny in fundamental rights violations.",
+      "Equal protection under the law requires that all persons, regardless of status, be protected from unlawful searches and intrusions."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the 1st to 3rd respondents violated the petitioner's fundamental right to equal protection of the law under Article 12(1) of the Constitution and granted relief accordingly.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 1st, 2nd, and 3rd respondents were ordered to pay the petitioner Rs. 40,000 each as compensation and Rs. 10,000 as costs; the State was ordered to pay Rs. 200,000 as compensation, totaling Rs. 350,000 to be paid within one month."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects individuals from unlawful and unequal treatment by the state, which was directly implicated by the police's unauthorized search of the petitioner's residence.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the respondents failed to satisfy the court that they had 'reason to believe' the suspect had entered the petitioner's premises and that the informant's existence and reliability were unproven, thus violating Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

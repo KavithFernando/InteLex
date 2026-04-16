@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_024-SLLR-SLLR-1998-V-3-MARIAN-AND-ANOTHE_058_C01__13(1)",
+  "created_at": "2024-06-10",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NOS. 495 AND 496/96",
+    "case_title": "Marian and Another v. Upasena",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-06-26",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application Nos. 495 and 496/96, decided on 26 June 1998"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners were lawfully arrested and informed of the reason for their arrest under Article 13(1).",
+    "petitioner_claim": "The petitioners argued that their arrest was unlawful as the posters were a legitimate exercise of freedom of expression and that they were not properly informed or justified in their arrest.",
+    "respondent_argument": "The 1st respondent claimed the arrest was lawful under emergency regulations because the posters incited violence and attempted to influence the Armed Forces and public against the government.",
+    "key_facts": [
+      "Petitioners were arrested for possession of political posters under emergency regulations.",
+      "The 1st respondent explained the reason for arrest as the posters inciting violence and influencing Armed Forces.",
+      "Petitioners were initially taken to Cinnamon Gardens Police but handed over to Kollupitiya Police.",
+      "Police delayed producing petitioners before a Magistrate beyond the legally prescribed period."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) requires lawful arrest with proper justification and informing the arrested person of the reason. The posters appeared to be a legitimate exercise of freedom of expression, thus no lawful basis for arrest existed.",
+    "application_to_facts": "The court found the arrest was not justified as the posters did not constitute an offence. The explanation given by the police was insufficient and the delay in producing the petitioners before a Magistrate was unjustified.",
+    "principles_established": [
+      "Arrest must be according to law with valid grounds.",
+      "Persons arrested must be informed promptly of the reason for arrest.",
+      "Freedom of expression protects political posters unless they constitute a clear offence."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held the arrest was unlawful under Article 13(1) as the petitioners were not lawfully arrested and informed of the reason.",
+    "disposition": "granted",
+    "remedy_or_orders": "Ordered respondents to pay Rs. 5,000 as compensation to each petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to determining the lawfulness of the arrest and whether the petitioners were properly informed of the reason for their arrest, which the court found was not met.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court noted the posters appeared to be a legitimate exercise of freedom of expression and no offence was committed; the police explanation for arrest was insufficient and the delay in producing petitioners before a Magistrate was unjustified.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

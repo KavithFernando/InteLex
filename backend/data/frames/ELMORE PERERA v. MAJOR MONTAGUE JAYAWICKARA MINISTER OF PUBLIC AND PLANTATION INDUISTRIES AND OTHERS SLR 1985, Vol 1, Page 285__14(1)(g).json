@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_ELMORE_PERERA_V._MAJOR_MONTAGUE_JAYAWICK_076_C01__14(1)(g)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 134/84",
+    "case_title": "Elmore Perera v. Major Montague Jayawickrema Minister of Public Administration and Plantation Industries and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-05-21",
+    "source_citation": "SLR 1985, Vol 1, Page 285; [1985] LKSC 6"
+  },
+  "clause": {
+    "article": "14(1)(g)",
+    "text": "Freedom to engage in lawful occupation or business."
+  },
+  "case_context": {
+    "legal_issue": "Whether the compulsory retirement of the petitioner from public service infringed his fundamental right under Article 14(1)(g) to freedom to engage in lawful occupation or business.",
+    "petitioner_claim": "The petitioner claimed that his compulsory retirement violated his fundamental rights including Article 14(1)(g), alleging that he was denied the right to engage in his lawful occupation due to personal animosity and arbitrary administrative action.",
+    "respondent_argument": "The respondents argued that the compulsory retirement affected only the petitioner's particular employment and did not infringe his right to carry on the occupation of surveyor. They contended that Article 14(1)(g) does not guarantee the right to hold a particular job or post.",
+    "key_facts": [
+      "The petitioner was compulsorily retired from public service at age 51, with 9 years remaining to compulsory retirement age.",
+      "The petitioner was a Deputy Surveyor-General and had an unblemished record of public service.",
+      "The petitioner was seconded to SLIDA and later reverted to his substantive post before retirement.",
+      "The petitioner alleged personal animosity by the Minister led to his retirement.",
+      "The petitioner was not struck off the roll of his profession and could still work as a surveyor."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 14(1)(g) guarantees a general right to do work of a particular kind and choice but does not confer the right to hold a particular job or occupy a particular post. The right to pursue a profession is distinct from the right to a specific employment.",
+    "application_to_facts": "The compulsory retirement affected only the petitioner's particular employment in the public service but did not affect his right to work as a surveyor in general. Since he was not barred from practicing his profession, there was no infringement of Article 14(1)(g).",
+    "principles_established": [
+      "Article 14(1)(g) protects the right to engage in lawful occupation generally, not the right to a specific job.",
+      "Termination of employment does not necessarily infringe the right to carry on an occupation.",
+      "The right to work in a particular post is not guaranteed as a fundamental right."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that there was no violation of the fundamental right under Article 14(1)(g) by the compulsory retirement of the petitioner.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioner claimed infringement of his right to engage in lawful occupation under Article 14(1)(g), but the court found that the compulsory retirement only affected his particular employment and not his general right to work as a surveyor, making this clause central to the court's reasoning and outcome.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court stated that Article 14(1)(g) recognises a general right in every citizen to do work of a particular kind and of his choice but does not confer the right to hold a particular job or occupy a particular post. The compulsory retirement complained of may at the highest affect his particular employment but does not affect his right to work as a Surveyor.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

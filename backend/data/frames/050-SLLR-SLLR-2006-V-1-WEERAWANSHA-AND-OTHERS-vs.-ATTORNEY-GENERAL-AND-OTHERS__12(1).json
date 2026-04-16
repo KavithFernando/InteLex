@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_050-SLLR-SLLR-2006-V-1-WEERAWANSHA-AND-O_200_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_228_2005",
+    "case_title": "Weerawansha and others vs. Attorney-General and others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2005-07-15",
+    "source_citation": "Sri Lanka Law Reports (2006) 1 Sri L R. SC FR 228/2005, decided on 15 July 2005"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Memorandum of Understanding (MoU) for the Tsunami Operation Management Structure infringed Article 12(1) by denying equal protection of the law through its committee structure and financial arrangements.",
+    "petitioner_claim": "The petitioners argued that the MoU infringed Article 12(1) as it set up committees not authorized by law, conferred governmental powers unlawfully, and established a Regional Fund and Committee that denied equal protection of law.",
+    "respondent_argument": "The respondents contended that the MoU was valid, entered into lawfully by the President and Government, and that the committee structure was lawful even without specific statutory authority, designed to ensure effective tsunami relief.",
+    "key_facts": [
+      "The MoU established a three-level management structure for tsunami relief in six districts.",
+      "The Regional Committee exercises governmental powers including project approval and fund management.",
+      "The Regional Fund was to be managed jointly by Government and LTTE nominees.",
+      "The petitioners challenged the legality and constitutionality of the MoU and its committees.",
+      "The President and Government had authorized the MoU and it was tabled in Parliament."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as guaranteeing equal protection of the law and found that governmental powers and financial management must comply with constitutional safeguards including audit and central control. The committee structure without statutory backing was lawful if it did not infringe rights or detract from government functions.",
+    "application_to_facts": "The court found that while the MoU and its committees were generally lawful, the Regional Committee's exercise of governmental powers and management of the Regional Fund without proper constitutional controls violated Article 12(1). The establishment of the Regional Committee in Kilinochchi, an LTTE-controlled area, also infringed equal protection rights.",
+    "principles_established": [
+      "Governmental powers must be exercised subject to constitutional controls and accountability.",
+      "Committee structures without statutory authority can be lawful if they do not infringe constitutional rights.",
+      "Equal protection requires non-discriminatory access and control over governmental functions and funds."
+    ],
+    "precedents_cited": [
+      "Billimoria vs. Minister of Lands and Mahaweli Development (78-79)1 Sri LR 10",
+      "Jinadasa vs. Weerasinghe 31 NLR 33"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the MoU infringed Article 12(1) in respect of the Regional Committee's governmental powers and fund management, and the location of the Regional Committee in Kilinochchi. Interim relief was granted to stay these provisions pending final determination.",
+    "disposition": "allowed_in_part",
+    "remedy_or_orders": "Interim stay on operation of Sections 6(b)(ii), 6(b)(iv), 6(b)(f), 6(1), and 7 of the MoU; funds to be deposited in a constitutionally authorized account; parties to decide a suitable site for the Regional Committee."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as the petitioners claimed the MoU denied equal protection of the law by unlawfully conferring governmental powers and discriminating in fund management and committee location.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the powers of the Regional Committee and the provision for a Regional Fund and its administration are contrary to Article 149(1) and 154 of the Constitution and infringe rights under Articles 12(1) and 12(2). The establishment of the Regional Committee in Kilinochchi is also unconstitutional.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "frame_id": "RQ1_DANNY-V.-SIRINIMAL-SILVA-INSPECTOR-OF-PO_098_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_488_98",
+    "case_title": "Danny v. Sirinimal Silva, Inspector of Police, Police Station, Chilaw and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-09-12",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 488/98, decided on 12 September 2000"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s detention without immediate production before a judge violated Article 13(2) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that his detention from about 2:30 a.m. until around 12 noon without being brought before a judge violated Article 13(2).",
+    "respondent_argument": "The respondents did not explicitly contest the timing but implied the detention was lawful as the petitioner was produced before the Magistrate on the same day.",
+    "key_facts": [
+      "Petitioner was taken into custody around 2:30 a.m. on 23 July 1998.",
+      "Petitioner was produced before the Magistrate around 12 noon on the same day.",
+      "Petitioner was remanded after bail was refused."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(2) requires detainees to be brought before a judge and not held without legal order. However, the petitioner was produced before the Magistrate within the same day, approximately 9.5 hours after detention, which the court found did not violate Article 13(2).",
+    "application_to_facts": "Since the petitioner was produced before the Magistrate on the same day of detention, the court concluded there was no breach of Article 13(2) despite the hours spent in custody prior to production.",
+    "principles_established": [
+      "Detention without production before a judge must be within reasonable time to comply with Article 13(2).",
+      "Production before a Magistrate on the same day satisfies the constitutional requirement."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that there was no violation of Article 13(2) of the Constitution in the petitioner’s detention and production before the Magistrate.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was considered to determine if the petitioner’s detention without immediate judicial oversight was lawful. The court found the petitioner was produced before a judge within the same day, so no violation occurred.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was taken into custody around 2:30 a.m. and produced before the Magistrate around 12 noon on the same day; the court held this did not violate Article 13(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

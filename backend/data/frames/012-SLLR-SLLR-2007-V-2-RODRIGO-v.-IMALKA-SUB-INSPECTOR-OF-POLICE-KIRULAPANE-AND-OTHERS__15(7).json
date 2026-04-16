@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-2007-V-2-RODRIGO-V.-IMALKA_009_C01__15(7)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_297_2007",
+    "case_title": "Rodrigo v Imalka Sub-Inspector of Police, Kirulapone and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2007-11-28",
+    "source_citation": "Supreme Court of Sri Lanka, SC FR 297/2007, decided on 28 November 2007"
+  },
+  "clause": {
+    "article": "15(7)",
+    "text": "General restrictions may apply for national security, public order, health, morality, and welfare."
+  },
+  "case_context": {
+    "legal_issue": "Whether the restrictions and actions taken at police 'Check Points' and other executive measures purportedly in the interest of national security and public order were lawful under Article 15(7) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the executive actions including permanent 'Check Points', unlawful obstructions, and stoppage of traffic were not prescribed by law and thus violated fundamental rights, including freedom of movement and equal protection of the law.",
+    "respondent_argument": "Respondents relied on emergency regulations and powers under the Public Security Ordinance to justify the restrictions as necessary for national security and public order.",
+    "key_facts": [
+      "Petitioner was stopped at a police 'Check Point' and detained based on suspicion of a forged driving licence, which was later found genuine.",
+      "Permanent 'Check Points' have been established on public roads without legal authority, causing obstructions and harassment.",
+      "Emergency regulations allow search and arrest on reasonable suspicion of offences related to national security.",
+      "The police and armed forces have powers under section 12 of the Public Security Ordinance to maintain public order.",
+      "The Court noted that any restriction of fundamental rights must be prescribed by law and reasonable suspicion is essential for searches and arrests."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 15(7) permits restrictions on fundamental rights only if prescribed by law in the interests of national security. The establishment of permanent 'Check Points' and obstructions without legal basis are not authorized by law and thus unlawful. Reasonable suspicion is essential to justify searches and arrests under emergency regulations.",
+    "application_to_facts": "The Court found that the permanent 'Check Points' and related executive actions were not authorized by any law and caused unlawful infringement of fundamental rights. The police actions lacked reasonable grounds of suspicion and were abusive, corrupt, and arbitrary, thus violating constitutional protections.",
+    "principles_established": [
+      "Restrictions on fundamental rights must be prescribed by law and justified by reasonable suspicion.",
+      "Police and armed forces must act within legal authority and respect constitutional rights.",
+      "Unlawful obstructions and permanent barriers on public roads violate freedom of movement and equal protection guarantees.",
+      "Superior officers are liable for infringements by subordinates if precautions are not taken."
+    ],
+    "precedents_cited": [
+      "Sarjun v Kamaldeen PC 39573 Police Station Habarana SCFR 559-03",
+      "Liyanage v. Gampaha Urban Council 1991 1 Sri LR 8"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court declared that the executive actions including permanent 'Check Points' and obstructions were unlawful and infringed the fundamental rights guaranteed by the Constitution. Directions were issued to discontinue such actions and remove illegal signs.",
+    "disposition": "granted",
+    "remedy_or_orders": "Directions under Article 126(4) to discontinue unlawful 'Check Points', remove illegal parking prohibition signs, and ensure any security measures minimize inconvenience and respect fundamental rights."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 15(7) was central to the Court's reasoning as it sets the constitutional standard that any restriction on fundamental rights for national security must be prescribed by law. The Court found the executive actions lacked such legal basis, making the restrictions unlawful.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court noted that the erection of virtually permanent barriers on public roads as done at these 'Check Points' is not authorized by any law and that any restriction of fundamental rights should only be as prescribed by law in the interests of national security.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

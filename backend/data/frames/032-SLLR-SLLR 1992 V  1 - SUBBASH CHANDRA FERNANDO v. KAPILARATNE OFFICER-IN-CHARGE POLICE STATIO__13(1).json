@@ -1,0 +1,57 @@
+{
+  "frame_id": "RQ1_032-SLLR-SLLR_1992_V__1_-_SUBBASH_CHANDR_075_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 1/91",
+    "case_title": "Subbash Chandra Fernando v. Kapilaratne, Officer-in-Charge, Police Station, Gampaha and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1991-08-02",
+    "source_citation": "Sri Lanka Law Reports [1992] 1 Sri L.R. 305"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was arrested without being informed of the reason, violating Article 13(1).",
+    "petitioner_claim": "The petitioner claimed he was arrested without being informed of the reason, breaching Article 13(1).",
+    "respondent_argument": "The police had informed the petitioner of the charge against him, so there was no violation of Article 13(1).",
+    "key_facts": [
+      "Petitioner was arrested on 19.07.89 on a complaint of assault under Emergency Regulations.",
+      "Petitioner alleged he was not informed of the reason for arrest when he went to the police station to complain.",
+      "Police notes and petitioner’s statement show he was informed of the charge."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 13(1) as requiring that a person arrested must be informed of the reason for arrest.",
+    "application_to_facts": "The court found from the police investigation notes and petitioner’s statement that the petitioner was informed of the charge, so no violation occurred.",
+    "principles_established": [
+      "Arrest must be according to law and the arrested person must be informed of the reason.",
+      "Evidence such as police notes and statements are relevant to determine if the person was informed."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "No violation of Article 13(1) was found as the petitioner was informed of the reason for arrest.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) is central to the claim that the petitioner was arrested without being informed of the reason, which the court rejected based on evidence.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "It is clear from the notes of investigation and the petitioner’s statement to the police that the police had informed him of the charge against him; and as such there has been no violation of Article 13(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

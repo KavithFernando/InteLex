@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_011-SLLR-SLLR-1984-2-KAPUGEEKIYANA-V.-HE_024_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. No. 80/84",
+    "case_title": "Kapugeekiyana v. Hettiarachchi and Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1984-08-08",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. No. 80/84, decided on 8 August 1984"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was arrested in contravention of the procedure established by law and whether he was informed of the reason for his arrest as required by Article 13(1).",
+    "petitioner_claim": "The petitioner claimed he was arrested without a warrant and was not informed of the reason for his arrest, constituting a violation of Article 13(1).",
+    "respondent_argument": "The respondents argued that the petitioner was lawfully arrested under police powers and impliedly informed of the reason; no complaint of illegal arrest could be entertained.",
+    "key_facts": [
+      "Petitioner was taken into custody at about 9:00 a.m. on 13 June 1984 without a warrant.",
+      "Respondents denied arrest on 13 June, claiming arrest on 16 June.",
+      "Petitioner and wife stated no information was given about reason for arrest.",
+      "No independent evidence established that petitioner was informed of reason for arrest."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 13(1) requires arrest according to procedure established by law and that the arrested person must be informed of the reason for arrest. The procedure established by law is the Code of Criminal Procedure Act No. 15 of 1979.",
+    "application_to_facts": "The Court found the petitioner was lawfully arrested under police powers but there was no independent evidence that he was informed of the reason for his arrest. Due to lack of evidence, the Court held that the petitioner had not established a violation of Article 13(1).",
+    "principles_established": [
+      "Arrest must be according to procedure established by law.",
+      "The arrested person must be informed of the reason for arrest.",
+      "Burden of proof lies on petitioner to establish violation."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "No violation of Article 13(1) was established as the petitioner failed to prove he was not informed of the reason for his arrest.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to determining whether the arrest was lawful and whether the petitioner was informed of the reason for arrest, which the petitioner claimed was violated.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found no independent evidence that the petitioner was informed of the reason for his arrest, and thus held that the petitioner had not established an infringement of Article 13(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

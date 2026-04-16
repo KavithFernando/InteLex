@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_039-SLLR-SLLR-2002-V-1-ABEYRATNE-BANDA-V_086_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_653_2000",
+    "case_title": "Abeyratne Banda v. Gajanayake, Director, Criminal Investigation Department and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-06-11",
+    "source_citation": "Supreme Court of Sri Lanka, SC (FR) No. 653/2000, decided on 11 June 2002"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s arrest on 26.10.2000 was lawful and complied with Article 13(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that his arrest was unlawful, without reasonable suspicion, and violated his fundamental rights under Article 13(1).",
+    "respondent_argument": "The respondents contended that the arrest was justified under Emergency Regulations due to the petitioner’s alleged role in creating communal disharmony and failure to control the mob attack.",
+    "key_facts": [
+      "Petitioner was captain in charge of Bindunuwewa Rehabilitation Camp with no authority over Police.",
+      "On 26.10.2000, petitioner was arrested by Police under Emergency Regulation 18 on charges of creating communal disharmony.",
+      "There was no material or reasonable suspicion justifying the arrest.",
+      "Petitioner had pleaded with Police and mob to maintain calm and had no power to control Police.",
+      "Petitioner was not informed of any credible evidence against him at arrest."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) requires lawful arrest with reasonable suspicion and proper authority. Arrest without such suspicion or legal basis violates the constitutional right.",
+    "application_to_facts": "The court found no material to justify suspicion against the petitioner. The petitioner lacked authority over Police and had taken reasonable steps to maintain order. The arrest was not bona fide and was unlawful under Article 13(1).",
+    "principles_established": [
+      "Arrest must be based on reasonable suspicion supported by material evidence.",
+      "Authority to arrest must be exercised bona fide and according to law.",
+      "Lack of authority over Police negates liability for their omissions."
+    ],
+    "precedents_cited": [
+      "Sirisena v. Perera (1991) 2 Sri LR 97",
+      "Padmanathan v. Paranagama (1999) 2 Sri LR 225"
+    ]
+  },
+  "outcome": {
+    "holding": "The court declared the petitioner’s arrest under Emergency Regulation 18 unlawful and violative of Article 13(1).",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of infringement of Article 13(1) and Rs. 30,000 compensation to be paid by the 1st, 2nd and 3rd respondents personally in equal shares."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) directly governs the legality of arrest and requires that no person be arrested except according to law and be informed of the reason. The court’s reasoning and holding centrally rely on this clause to find the arrest unlawful.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found no material whatsoever objectively justifying a suspicion that the petitioner had caused disaffection or committed offences. The arrest was illegal on both objective and subjective grounds and was not bona fide.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 360,
+      "end_char": 380
+    }
+  }
+}

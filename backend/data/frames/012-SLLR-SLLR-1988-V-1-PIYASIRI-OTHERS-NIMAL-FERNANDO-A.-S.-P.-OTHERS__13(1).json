@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-1988-V-1-PIYASIRI-OTHERS-N_026_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATIONS Nos. 221-234/86",
+    "case_title": "Piyasiri & Others v. Nimal Fernando, A.S.P. & Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1988-03-17",
+    "source_citation": "Sri Lanka Law Reports [1988] 1 SriLR 173"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners were lawfully arrested according to Article 13(1) of the Constitution, and whether they were informed of the reason for their arrest.",
+    "petitioner_claim": "The petitioners claimed that they were arrested without lawful procedure and were not informed of the reason for their arrest, thus violating their fundamental rights under Article 13(1).",
+    "respondent_argument": "The 1st respondent denied that an arrest was made, asserting the petitioners were only temporarily detained for questioning and searching, and were allowed to leave after statements were recorded.",
+    "key_facts": [
+      "Petitioners were Customs Officers stopped near Seeduwa Police Station after duty at the airport.",
+      "They were questioned, searched, and money taken without acknowledgment.",
+      "They were escorted to the Bribery Commissioner's Department where statements were recorded.",
+      "They were released after giving written undertakings to appear in Magistrate's Court the next day.",
+      "The 1st respondent acted on a general complaint alleging bribery by Customs Officers but had no specific credible information against the petitioners."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that an arrest includes not only physical confinement but also deprivation of freedom of movement through coercion or threat, which can be inferred from circumstances. The arrest must be lawful, meaning it must be based on credible information or reasonable suspicion of a specific offence, and the arrested person must be informed of the reason for arrest at the time it is made.",
+    "application_to_facts": "The court found that the petitioners were effectively under arrest from the time they were stopped and compelled to go to the police station and then to the Bribery Commissioner's Department, under police control and coercion. The arrest was not lawful because it was based on vague and general suspicion without credible information against any specific petitioner. Furthermore, the petitioners were not informed of any specific charge at the time of arrest, violating Article 13(1).",
+    "principles_established": [
+      "Arrest includes deprivation of liberty by coercion, not just physical confinement.",
+      "Lawful arrest requires credible information or reasonable suspicion against the specific person.",
+      "The arrested person must be informed of the reason for arrest at the time of arrest.",
+      "Arrest on vague or general suspicion without specific charge is unlawful."
+    ],
+    "precedents_cited": [
+      "Muthuweeran Namasivayam v. H. G. Gunawardene et al (S.C. 166/86)",
+      "Christie v. Leachinsky [1947] A.C. 573",
+      "Muttusamy v. Kannangara (1951) 52 N.L.R. 324",
+      "Mariadas Raj v. A.G. Vol. 2 Fundamental Rights Cases, pg. 397",
+      "Corea v. Queen (1954) 55 N.L.R. 457"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioners were arrested in violation of Article 13(1) of the Constitution because the arrest was unlawful and they were not informed of the reason for arrest. The applications were allowed and compensation was awarded to each petitioner.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation of Rs. 500 awarded to each petitioner; moneys and articles taken to await results of any proceedings or be returned if no proceedings are taken."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) directly protects individuals from unlawful arrest and requires that any arrested person be informed of the reason, which was central to the court's finding that the petitioners' fundamental rights were violated.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioners were stopped, questioned, searched, and taken under police control without being informed of any specific charge, and were released only after giving written undertakings to appear in court, constituting an arrest without lawful procedure or information of reason.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

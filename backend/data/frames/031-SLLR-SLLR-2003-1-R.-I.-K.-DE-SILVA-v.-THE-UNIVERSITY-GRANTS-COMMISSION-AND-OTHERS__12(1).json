@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_031-SLLR-SLLR-2003-1-R.-I.-K.-DE-SILVA-V_156_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_642_2002",
+    "case_title": "R.I.K. de Silva v The University Grants Commission and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-09-09",
+    "source_citation": "Supreme Court of Sri Lanka, SC (FR) Application No. 642/2002, decided on 9 September 2002"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the rejection of the petitioner's request for a mutual transfer to the Law Faculty, while allowing a similar transfer for another student with a lower 'Z' score, violated the petitioner's right to equality and equal protection under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the rejection of her transfer request was discriminatory and violated her fundamental right to equality guaranteed by Article 12(1), especially since a student with a lower 'Z' score was admitted to the Law Faculty on the basis of excelling in the sport 'Kabadi', and a transfer from Law to Arts was allowed without similar scrutiny.",
+    "respondent_argument": "The University Grants Commission (UGC) contended that their actions were in accordance with the admission rules and the Handbook, including provisions for special admissions based on achievements in fields other than studies, and that the filling of vacancies was done strictly according to the relevant provisions.",
+    "key_facts": [
+      "The petitioner scored a 'Z' score of 1.6517 but was admitted to the Arts Faculty, not Law.",
+      "The petitioner applied for a mutual transfer to the Law Faculty, supported by the Deans of both Faculties.",
+      "The UGC rejected the petitioner's transfer request but allowed a student with a lower 'Z' score (1.6109) to transfer from Arts to Law based on excelling in 'Kabadi'.",
+      "There were vacancies in the Law Faculty due to non-registration of some admitted students.",
+      "The UGC's admission and transfer decisions were challenged as discriminatory and contrary to the rules for filling vacancies."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(1) as guaranteeing equal protection of the law, requiring that admission and transfer decisions be made on rational, non-arbitrary criteria. The vague and discretionary criteria used by the UGC for special admissions, such as excelling in 'Kabadi', were insufficient and inconsistent with the constitutional guarantee of equality.",
+    "application_to_facts": "The Court found that the UGC's rejection of the petitioner's transfer request, while allowing a similar transfer for a student with a lower 'Z' score on the basis of sports achievement, constituted unequal treatment. The UGC also violated its own rules by reserving a special admission place during the filling of vacancies process, which was not permitted. The Court held that the petitioner was denied equal protection under the law.",
+    "principles_established": [
+      "Admission and transfer decisions must be based on rational and transparent criteria consistent with constitutional equality.",
+      "Discretionary powers must be exercised with adequate guidelines to prevent arbitrary decisions.",
+      "Special admissions should be reserved at the commencement of the admission process, not during vacancy filling.",
+      "Filling of vacancies must comply strictly with the rules, including timing relative to the academic program start."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that the rejection of the petitioner's transfer request was discriminatory and violated Article 12(1) of the Constitution. The petitioner was granted relief, including the transfer to the Law Faculty, and costs were awarded.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioner was allowed the transfer to the Law Faculty as prayed, and the 1st Respondent was ordered to pay Rs. 15,000/- as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it guarantees equality before the law and equal protection, which the petitioner argued was violated by the discriminatory admission and transfer decisions of the UGC. The Court's decision directly addressed the application of this constitutional right.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the UGC's admission of a student with a lower 'Z' score based on excelling in 'Kabadi' and the rejection of the petitioner's transfer request constituted unequal treatment violating Article 12(1). The UGC's own rules were not followed in filling vacancies, and the discretionary criteria were vague and arbitrary.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

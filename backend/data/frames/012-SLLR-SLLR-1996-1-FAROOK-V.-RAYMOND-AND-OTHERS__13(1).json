@@ -1,0 +1,69 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-1996-1-FAROOK-V.-RAYMOND-A_028_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application No. 156/95",
+    "case_title": "Farook v. Raymond and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-06-20",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 156/95, decided on 20 June 1996"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the arrest and detention of the petitioner by police officers and subsequent actions were in accordance with procedure established by law under Article 13(1).",
+    "petitioner_claim": "The petitioner argued that his arrest, detention, and confiscation of his passport were not authorized by law and violated his fundamental rights under Article 13(1).",
+    "respondent_argument": "The respondents contended that the police acted under the Customs Ordinance and proper procedure was followed.",
+    "key_facts": [
+      "Petitioner was arrested by police on suspicion of Customs Ordinance offences.",
+      "Petitioner was detained in a police cell and his passport was confiscated without lawful authority.",
+      "Petitioner was produced before a Magistrate who ordered further detention.",
+      "Police failed to produce petitioner 'with all convenient despatch' before the nearest Customs officer as required by law.",
+      "Magistrate's order for detention was not authorized by the Customs Ordinance or Code of Criminal Procedure."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 13(1) guarantees freedom from arrest except according to procedure established by law, which includes lawful authority and informing the person of the reason. The police actions, including arrest, detention, and confiscation of passport, must strictly comply with legal procedures.",
+    "application_to_facts": "The 1st Respondent police officer acted beyond his lawful powers by imprisoning the petitioner, confiscating his passport, and failing to produce him promptly before the proper Customs authority, thus violating Article 13(1).",
+    "principles_established": [
+      "Arrest and detention must strictly follow procedures prescribed by law.",
+      "Police officers cannot arrogate powers not expressly conferred by law.",
+      "Confiscation of personal documents like passports must be authorized by law.",
+      "Failure to produce detainee promptly before authorized officials violates Article 13(1)."
+    ],
+    "precedents_cited": [
+      "Naresh Mirajkar v. Maharashtra AIR 1967 SC 1",
+      "Budan Choudhary v. Bihar AIR 1955 SC 191",
+      "Snowden v. Hughes (1944) 321 US 1",
+      "Perera v. University Grants Commission 1 FRD 103",
+      "Velmurugu v. A. G. 1 FRD 180, 223",
+      "Goonewardena v. Perera 2 FRD 246",
+      "Saman v. Leeladasa [1989] 1 Sri LR 1"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court declared that the 1st Respondent violated the fundamental rights of the petitioner guaranteed by Article 13(1) of the Constitution.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was ordered to pay the petitioner Rs. 7,500/- as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the Court's reasoning as it protects against unlawful arrest and detention, which the Court found was violated by the police's failure to follow legal procedures.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The 1st Respondent acted in contravention of the petitioner’s fundamental right guaranteed by Article 13(1) of the Constitution of freedom from arrest except according to procedure established by law.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

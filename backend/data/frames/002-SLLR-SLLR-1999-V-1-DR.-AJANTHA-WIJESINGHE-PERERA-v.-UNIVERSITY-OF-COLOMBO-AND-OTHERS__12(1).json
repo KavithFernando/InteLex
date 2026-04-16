@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_002-SLLR-SLLR-1999-V-1-DR.-AJANTHA-WIJES_011_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. F.R. NO. 738/96",
+    "case_title": "Dr. Ajantha Wijesinghe Perera v. University of Colombo and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-09-23",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. F.R. No. 738/96, decided on 23 September 1998"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the termination of the petitioner's services by the University of Colombo violated her fundamental rights under Article 12(1) of the Constitution, specifically regarding equality before the law and equal protection of the law.",
+    "petitioner_claim": "The petitioner alleged that her fundamental rights under Article 12(1) were violated by the University council's decision to terminate her services as a lecturer.",
+    "respondent_argument": "The respondents argued that the petitioner was repeatedly warned about unsatisfactory work and conduct, the procedures followed were fair and adequate, and there was no violation of her fundamental rights.",
+    "key_facts": [
+      "The petitioner was employed as a Senior Lecturer on probation with terms allowing termination for unsatisfactory service.",
+      "She was repeatedly warned in writing and orally about unsatisfactory work and conduct, including unauthorized outside activities.",
+      "Her salary increments were suspended and deferred due to poor performance and insubordination.",
+      "The University conducted inquiries and obtained reports from multiple authorities before deciding to terminate her services.",
+      "The petitioner was given the option to resign but refused; the termination decision was made after due process."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as requiring that the petitioner be treated fairly and not arbitrarily, with due process in decisions affecting her employment. Equal protection means that the petitioner should not be discriminated against or treated unfairly compared to others in similar circumstances.",
+    "application_to_facts": "The court found that the petitioner was given repeated warnings, opportunities to improve, and that the University followed fair procedures including inquiries and reports from various officials. The termination was based on substantiated grounds and not arbitrary or discriminatory treatment.",
+    "principles_established": [
+      "Fair and adequate procedures must be followed before terminating employment affecting fundamental rights under Article 12(1).",
+      "Repeated warnings and opportunities to improve are relevant to assessing fairness.",
+      "Equal protection requires non-arbitrary treatment based on evidence and due inquiry."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the termination of the petitioner's services was not in violation of Article 12(1) of the Constitution and dismissed the petition.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's assessment of whether the petitioner was treated fairly and equally under the law in the termination process. The court's reasoning and ultimate dismissal of the petition relied on the application of this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was repeatedly and in the clearest of terms both in writing and orally warned that her work and conduct were less than satisfactory in several specified ways. The procedures adopted by the university were adequate and fair and there was no violation of petitioner's fundamental rights.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

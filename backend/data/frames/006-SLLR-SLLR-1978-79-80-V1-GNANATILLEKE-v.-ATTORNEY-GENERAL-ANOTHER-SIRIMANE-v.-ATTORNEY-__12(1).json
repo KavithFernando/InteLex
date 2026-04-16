@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_006-SLLR-SLLR-1978-79-80-V1-GNANATILLEKE_030_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "006-SLLR-SLLR-1978-79-80-V1-GNANATILLEKE",
+    "case_title": "Gnanatilleke v. Attorney-General & Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1979-10-12",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application Nos. 47 and 48 of 1979, decided on 12 October 1979"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners were denied their fundamental right to equality before the law under Article 12(1) due to administrative rejection of their applications for State land allotment based on alleged land possession.",
+    "petitioner_claim": "The petitioners argued that the allegations that they possessed land were untrue, and as a result, they were wrongly rejected and deprived of equal treatment compared to other applicants.",
+    "respondent_argument": "The Government Agent acted bona fide in making a factual determination that the petitioners possessed land, which justified their exclusion from allotment; a bona fide wrong decision on facts does not violate Article 12(1).",
+    "key_facts": [
+      "Petitioners applied for State land allotment under a scheme to distribute land to deserving persons.",
+      "Applications were rejected based on allegations that petitioners possessed land, which they denied.",
+      "There was insufficient land to allot to all qualified applicants.",
+      "The Government Agent used a 'Land Kachcheri' method to select recipients aiming for fairness.",
+      "Petitioners did not challenge the bona fides of the Government Agent."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equality before the law and equal protection, but a bona fide administrative decision made on a question of fact, even if wrong, does not constitute a breach of this fundamental right.",
+    "application_to_facts": "Since the petitioners were placed in a different category due to a factual finding that they possessed land, and this finding was made bona fide, the court found no violation of equality rights despite the error.",
+    "principles_established": [
+      "A bona fide wrong decision on facts by an administrative authority does not breach Article 12(1).",
+      "Errors of judgment on disputed facts are not grounds for fundamental rights relief under Article 12(1)."
+    ],
+    "precedents_cited": [
+      "Wijesinghe v. Attorney-General & Others, (1978-79) 1 Sri L.R. 65"
+    ]
+  },
+  "outcome": {
+    "holding": "The court dismissed the applications, holding that the petitioners' fundamental right to equality under Article 12(1) was not infringed by the bona fide factual determination.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioners' claim of unequal treatment; the court directly interpreted the clause to determine that a bona fide factual error does not violate the right to equality before the law.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court stated that a wrong decision bona fide made on a question of fact cannot constitute a breach of the fundamental right of equality in the eye of the law, and dismissed the applications accordingly.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

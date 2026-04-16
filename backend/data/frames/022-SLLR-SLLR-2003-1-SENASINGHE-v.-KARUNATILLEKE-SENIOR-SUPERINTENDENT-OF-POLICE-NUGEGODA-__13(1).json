@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_022-SLLR-SLLR-2003-1-SENASINGHE-V.-KARUN_053_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_NO_431_2001_FR",
+    "case_title": "Senasinghe v. Karunatilleke, Senior Superintendent of Police, Nugegoda and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2003-01-06",
+    "source_citation": "[2003] 1 Sri L.R. 172, Supreme Court of Sri Lanka, SC No. 431/2001 (FR), decided 3rd December 2002 and 6th January 2003"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the arrest of the petitioner by police officers on orders of the 1st Respondent violated Article 13(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that his arrest was unlawful and violated his fundamental right under Article 13(1) because he was arrested without lawful cause and without being informed of the reason.",
+    "respondent_argument": "The 1st Respondent argued that the petitioner was not arrested or that if arrested, it was done in good faith and in the reasonable belief that the protest march was unlawful under section 45 of the Referendum Act, thus not violating fundamental rights.",
+    "key_facts": [
+      "The petitioner was shot with rubber bullets by police and injured during a protest march.",
+      "The petitioner was ordered by the 1st Respondent to move towards protesters and was subsequently shot and arrested.",
+      "The petitioner was released shortly after arrest and hospitalized for injuries.",
+      "The 1st Respondent ordered the arrest after the petitioner questioned the police about being shot.",
+      "The protest march was held during a period when section 45 of the Referendum Act prohibited processions, but the validity of that prohibition was challenged."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 13(1) protects individuals from unlawful arrest and requires that any arrest be according to law and that the person be informed of the reason. The Court found that the arrest of the petitioner was ordered by the 1st Respondent without lawful basis, as the protest march was lawful and the police acted contrary to the law and departmental orders.",
+    "application_to_facts": "The petitioner was arrested on the 1st Respondent’s orders after being shot, despite being a bystander and not a participant in the protest. The arrest was not justified by any lawful grounds and was part of the unlawful police conduct violating fundamental rights.",
+    "principles_established": [
+      "Arrest must be lawful and the person arrested must be informed of the reason as per Article 13(1).",
+      "Police actions including arrest must comply with constitutional protections and departmental rules.",
+      "Unlawful arrest in the context of peaceful protest violates fundamental rights."
+    ],
+    "precedents_cited": [
+      "Wickramabandu v Herath (1990) 2 Sri LR 348",
+      "Premachandra v Jayawickrama (1994) 2 Sri LR 90",
+      "Karunatilleke v Dissanayake (1999) 1 Sri LR 157"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the 1st Respondent infringed the petitioner’s fundamental right under Article 13(1) by ordering his unlawful arrest.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioner was awarded Rs 10,000 compensation for the infringement of Article 13(1) along with costs. The 1st Respondent was ordered to pay Rs 20,000 personally and the State to pay the balance."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the Court’s finding that the petitioner’s arrest was unlawful and violated his fundamental rights, directly underpinning the remedy granted.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was arrested on the 1st Respondent’s orders after questioning the police about being shot, but was released shortly thereafter. The Court found this arrest violated Article 13(1) as it was not lawful and the petitioner was not informed of any lawful reason.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

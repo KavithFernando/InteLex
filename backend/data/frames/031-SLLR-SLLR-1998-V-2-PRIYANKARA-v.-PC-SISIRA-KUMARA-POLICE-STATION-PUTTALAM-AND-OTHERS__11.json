@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_031-SLLR-SLLR-1998-V-2-PRIYANKARA-V.-PC-_048_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_214_96",
+    "case_title": "Priyankara v. PC Sisira Kumara, Police Station, Puttalam and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-05-21",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No 214/96 (SPL.), decided on 21 May 1998"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment or punishment by police officers, violating Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that he was unlawfully arrested, detained, and assaulted by the 1st, 2nd, and 3rd respondents (police officers), constituting inhuman and degrading treatment in violation of Article 11.",
+    "respondent_argument": "The respondents denied the allegations of assault and unlawful detention, claiming the petitioner was involved in a fight with the 1st respondent and that no arrest or assault took place as alleged.",
+    "key_facts": [
+      "Petitioner was assaulted by a passenger on a bus who was later identified as the 1st respondent police officer.",
+      "Petitioner went to the Puttalam Police Station to complain but was assaulted by the 3rd respondent and locked in a cell.",
+      "The 2nd respondent also assaulted the petitioner while in custody.",
+      "Petitioner was hospitalized for injuries sustained from the assault.",
+      "Petitioner was detained without being produced before a Magistrate as required by law."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 11 as prohibiting torture and cruel, inhuman or degrading treatment, which includes unlawful assault and mistreatment by police officers during arrest and detention.",
+    "application_to_facts": "The court found credible evidence that the petitioner was assaulted by police officers at the police station and detained unlawfully, constituting a violation of Article 11's protection against cruel and inhuman treatment.",
+    "principles_established": [
+      "Police officers must treat persons with care and courtesy when they have legitimate business at police stations.",
+      "Unlawful assault and detention by police officers violate Article 11 of the Constitution.",
+      "Victims of such violations are entitled to compensation."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental rights under Article 11 were infringed by the 1st, 2nd, and 3rd respondents and awarded compensation accordingly.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 3rd respondent was ordered to pay Rs. 20,000, the 1st and 2nd respondents Rs. 7,500 each, and the state Rs. 15,000 as compensation. Costs of Rs. 6,000 were also awarded."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 is central to the court’s reasoning as the petitioner’s claim of assault and degrading treatment by police officers directly invokes the constitutional prohibition against torture and cruel, inhuman or degrading treatment.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was assaulted by police officers at the police station, locked in a cell, and hospitalized for injuries, establishing a violation of Article 11.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

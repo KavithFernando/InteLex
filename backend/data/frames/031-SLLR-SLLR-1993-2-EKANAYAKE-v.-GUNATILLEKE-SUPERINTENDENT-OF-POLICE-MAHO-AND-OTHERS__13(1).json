@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_031-SLLR-SLLR-1993-2-EKANAYAKE-V.-GUNATI_073_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 1007/92",
+    "case_title": "Ekanayake v. Gunatilleke, Superintendent of Police, Maho and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1993-09-24",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 1007/92, decided on 24 September 1993"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s arrest without being informed of the reason violated Article 13(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that he was arrested without a warrant and was not informed of the reason for his arrest, making the arrest illegal and violative of Article 13(1).",
+    "respondent_argument": null,
+    "key_facts": [
+      "Petitioner was arrested on 30.8.92 without a warrant by police officers acting on instructions of the 1st respondent.",
+      "Petitioner was not informed of the reason for his arrest.",
+      "Petitioner was released unconditionally on 19.11.92 without any charges filed against him.",
+      "Petitioner denied any involvement in any offence under Emergency Regulations or other laws.",
+      "No material was placed by the 1st respondent opposing the petitioner’s claims."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) requires that no person be arrested except according to law and that the person must be informed of the reason for the arrest. The petitioner’s arrest without informing him of the reason and without a warrant violated this constitutional guarantee.",
+    "application_to_facts": "Since the petitioner was arrested without a warrant and was not informed of the reason for his arrest, and no lawful justification was provided, the court found the arrest to be in violation of Article 13(1).",
+    "principles_established": [
+      "Arrest without informing the person of the reason is unconstitutional under Article 13(1).",
+      "Absence of lawful justification or warrant invalidates the arrest."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s arrest violated Article 13(1) of the Constitution.",
+    "disposition": "granted",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the court’s determination that the petitioner’s arrest was unlawful because he was not informed of the reason for his arrest, a direct violation of the constitutional protection.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was arrested without a warrant and was not informed of the reason for his arrest; no lawful reason was provided and he was released unconditionally without charges.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

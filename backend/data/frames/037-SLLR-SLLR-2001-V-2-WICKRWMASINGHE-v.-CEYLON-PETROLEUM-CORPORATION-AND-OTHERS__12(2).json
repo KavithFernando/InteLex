@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_037-SLLR-SLLR-2001-V-2-WICKRWMASINGHE-V._180_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO 304/98(FR)",
+    "case_title": "Wickremasinghe v. Ceylon Petroleum Corporation and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-12-06",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 304/98(FR), decided on 6 December 2000"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was discriminated against on the ground of political opinion in violation of Article 12(2) of the Constitution by the termination of his dealership.",
+    "petitioner_claim": "The petitioner alleged discrimination based on his political opinion, being a member of the United National Party and active in politics for 22 years.",
+    "respondent_argument": "The respondents denied discrimination, showing the petitioner continued to hold another dealership without hindrance, had received commendations, and that the termination was not politically motivated.",
+    "key_facts": [
+      "Petitioner was a member of the United National Party and active in politics.",
+      "Petitioner held another dealership at Kalutara without disruption.",
+      "Petitioner continued business for almost 4 years after a government change without adverse reports.",
+      "The termination letter gave 8 months' notice and was couched in temperate language.",
+      "A committee including a political opponent commended the petitioner shortly before termination."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court considered whether the petitioner was discriminated against on political grounds as prohibited by Article 12(2). The Court required evidence of discrimination on such grounds and found the petitioner failed to establish this.",
+    "application_to_facts": "The petitioner’s continued operation of another dealership, absence of adverse reports, the commendation by a committee member, and the temperate language of the termination letter negated the claim of political discrimination.",
+    "principles_established": [
+      "Allegations of discrimination under Article 12(2) require clear evidence.",
+      "Political opinion discrimination claims must be substantiated beyond mere assertion.",
+      "The Court discourages unnecessary politicization of disputes."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner failed to establish any infringement of Article 12(2) and dismissed the claim of discrimination on political grounds.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was considered because the petitioner alleged discrimination on political grounds. The Court analyzed the evidence and found no violation, making the clause relevant but not dispositive.",
+    "relevance_level": "medium",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner continued to operate another dealership without hindrance, received commendations, and the termination letter was temperate and gave extended notice, negating discrimination claims.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "frame_id": "RQ1_006-SLLR-SLLR-1992-2-MOHOTTIIGE-AND-OTHE_008_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATIONS NOS. 23/92, 24/92 AND 25/92",
+    "case_title": "Mohottige and Others v. Gunatilleke and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1992-11-13",
+    "source_citation": "[1992] 2 Sri L.R."
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the imposition of conditions on the use of a loudspeaker at a public meeting, including naming permitted speakers and prohibiting criticism of the Government, violated the fundamental right to freedom of speech and expression under Article 14(1)(a) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that the conditions imposed by the police—specifically the requirement to name speakers in advance and the prohibition on criticizing the Government—were unlawful restrictions infringing their fundamental right to freedom of speech and expression.",
+    "respondent_argument": "The respondents contended that the permit and its conditions were lawful under the Police Ordinance, that no actual interference with speech occurred since speakers criticized the Government, and that the conditions were necessary to preserve public peace.",
+    "key_facts": [
+      "The Homagama Branch of the Democratic People's Organization sought permission to use a loudspeaker at a public seminar on 04.01.1992.",
+      "The police issued a permit allowing use of the loudspeaker but imposed conditions: speakers must refrain from criticizing the Government, any organization or individual, and only named speakers were permitted.",
+      "Petitioner Mohottige was not named as a speaker and refrained from speaking, claiming infringement of his right.",
+      "Some speakers did criticize the Government despite the prohibition, and the police did not stop them.",
+      "The Inspector General of Police acknowledged the prohibition on criticism was unlawful and disciplinary action was taken against the officer who imposed it."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that freedom of speech and expression under Article 14(1)(a) includes the right to fairly and reasonably criticize the Government. Restrictions that amount to a blanket prohibition on criticism nullify democratic governance and are unlawful. The requirement to name speakers in advance and limit the permit to those named is an unlawful restriction on free speech as it silences potential speakers and lacks legal sanction.",
+    "application_to_facts": "The court found that the 1st respondent police officer deliberately imposed a condition restricting speakers to those named in the permit, which unlawfully infringed Mohottige’s right to free speech since he was excluded and refrained from speaking. The prohibition on criticism imposed by the 2nd respondent was also unlawful and infringed Mohottige’s rights. However, since other petitioners either spoke or were mistakenly excluded, no violation was found as to them.",
+    "principles_established": [
+      "Freedom of speech includes the right to criticize the Government within reasonable limits.",
+      "Police may impose conditions on loudspeaker use to preserve public peace but cannot impose unlawful restrictions that silence speakers arbitrarily.",
+      "A blanket prohibition on criticism of the Government is unconstitutional.",
+      "Demanding names of speakers in advance and limiting permits to those named is an unlawful restriction on free speech."
+    ],
+    "precedents_cited": [
+      "Joseph Perera v. Attorney General",
+      "Ratnasara Thero v. Udagampola",
+      "Visvalingam v. Liyanage",
+      "Austin v. Keele",
+      "Terminello v. Chicago",
+      "Palco v. Connecticut",
+      "Francis v. Chief of Police",
+      "Grisswold v. Connecticut",
+      "Thornehill v. State of Alabama",
+      "West Virginia State Board v. Barnette"
+    ]
+  },
+  "outcome": {
+    "holding": "The court allowed the application, holding that the conditions imposed by the police unlawfully infringed the fundamental right to freedom of speech and expression of petitioner Mohottige. Compensation was awarded to him. No violation was found as to the other petitioners.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was ordered to pay Rs. 7,500 as compensation and Rs. 2,000 as costs to petitioner Dharmadasa Mohottige."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) guarantees freedom of speech and expression, which was directly infringed by the police conditions restricting speakers and prohibiting criticism of the Government. The court’s reasoning and holding centrally relied on this constitutional protection.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that the endorsement made by the 1st respondent restricting speakers to named persons was unlawful and infringed Mohottige’s right to free speech. The prohibition on criticism of the Government was a blanket ban nullifying democratic government and was also unlawful. The police did not stop speakers who criticized the Government, but the conditions themselves unlawfully restrained free speech.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

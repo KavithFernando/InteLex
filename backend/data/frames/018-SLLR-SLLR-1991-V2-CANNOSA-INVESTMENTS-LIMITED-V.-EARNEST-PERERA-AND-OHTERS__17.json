@@ -1,0 +1,70 @@
+{
+  "frame_id": "RQ1_018-SLLR-SLLR-1991-V2-CANNOSA-INVESTMENT_017_C01__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION 12/90",
+    "case_title": "Cannosa Investments Limited v. Earnest Perera and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1990-10-10",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application 12/90, decided on 10 October 1990"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the entry and search of the petitioner's casino premises by police officers pursuant to a magistrate's search warrant, allegedly obtained mala fide and without compliance with statutory requirements, constituted executive or administrative action infringing fundamental rights under Article 17.",
+    "petitioner_claim": "The petitioner argued that the police officers acted mala fide in collusion with a business rival, obtained the search warrant by misrepresenting the premises as a social club, and executed the search and seizure to advance a rival's business interests, thus violating fundamental rights under Article 17.",
+    "respondent_argument": "The respondents contended that the police acted pursuant to a judicial order (search warrant) issued by the Magistrate, and such action was judicial in nature, not executive or administrative, and therefore outside the scope of Article 17. They further argued that mala fides did not convert judicial action into executive or administrative action.",
+    "key_facts": [
+      "The petitioner is a Hong Kong registered company running a casino at the Galadari Meridien Hotel.",
+      "Police entered the casino on 6 April 1990 with a search warrant issued by the Magistrate.",
+      "The Magistrate later admitted issuing the warrant inadvertently without complying with Section 5(1) of the Gaming Ordinance.",
+      "Petitioner alleged mala fide conduct by police officers in obtaining and executing the warrant to benefit a business rival.",
+      "The Magistrate acted honestly and in purported exercise of jurisdiction."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that actions taken pursuant to judicial orders, even if maliciously obtained or based on false material, do not constitute executive or administrative action under Article 17. The liability for violation of fundamental rights does not extend to judicial acts or their consequences, including police executing judicial orders in good faith. The Court reaffirmed established precedents that wrongful exercise of judicial discretion is not actionable under Article 17.",
+    "application_to_facts": "The Court found that the Magistrate's issuance of the search warrant was a judicial act immune from challenge under Article 17, despite the admitted procedural irregularity. The police officers acted pursuant to this judicial order, and mala fides on their part did not convert their actions into executive or administrative action. Therefore, the petitioner's claim of fundamental rights violation failed.",
+    "principles_established": [
+      "Judicial acts, including orders issued in exercise of judicial discretion, are not subject to fundamental rights claims under Article 17 even if obtained maliciously.",
+      "Police or officers acting in obedience to judicial orders are protected from liability under Article 17 if acting in good faith.",
+      "Mala fides by police officers executing judicial orders do not transform such acts into executive or administrative action under Article 17.",
+      "The test for executive or administrative action involves the nature of the function and degree of government control, which does not apply to judicial acts."
+    ],
+    "precedents_cited": [
+      "Leo Fernando v. Attorney-General [1985] 2 Sri LR 341",
+      "Kumarasinghe v. Attorney-General SC Minutes of 06.09.1982",
+      "Dayananda v. Weerasinghe 2 FRD 292",
+      "Dharmatilleke v. Abeyanayake and Others SC 156/86 - SC Minutes of 15.12.1988",
+      "Velmurugu v. Attorney-General IFRD 180",
+      "Perera v. U.G.C. 1 FRD 103",
+      "Wijetunga v. Insurance Corporation [1982] 1 Sri LR 374",
+      "Saman v. Leeladasa and Another [1989] 1 Sri LR 1"
+    ]
+  },
+  "outcome": {
+    "holding": "The application alleging violation of fundamental rights under Article 17 was dismissed as the actions complained of were judicial acts or consequences thereof, not executive or administrative action.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 provides the right to apply to the Supreme Court for violations of fundamental rights by executive or administrative action. The Court's reasoning centered on whether the police action was executive/administrative or judicial, making Article 17 central to the decision.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that a violation arising in consequence of a judicial order even if maliciously obtained would not attract liability under Article 126 of the Constitution (which is linked to Article 17). The police acted pursuant to a judicial order and mala fides did not convert their action into executive or administrative action.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2100,
+      "end_char": 2800
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_019-SLLR-SLLR-2001-V-1-SIRIMAWATHIE-FERN_047_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_255_98",
+    "case_title": "Sirimawathie Fernando v. Wickremaratne, Officer in Charge, Police Station, Dehiwela and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-12-07",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 255/98, decided on 7 December 1999"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was lawfully arrested and informed of the reason for arrest in accordance with Article 13(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed she was arrested without lawful reason, in defiance of a Court stay order protecting her possession of the shop, and was not properly informed or justified in the arrest.",
+    "respondent_argument": "The police respondents denied knowledge of the stay order at the time of arrest and claimed the petitioner obstructed official duties, justifying the arrest.",
+    "key_facts": [
+      "Petitioner was forcibly evicted from her sister's shop despite a Court of Appeal stay order restraining ejectment.",
+      "Petitioner produced a certified copy of the stay order at the scene, which the Officer-in-Charge crumpled and discarded.",
+      "Petitioner was arrested by police officers without verification of the stay order and taken to the police station.",
+      "The police failed to produce any lawful order authorizing the ejectment or arrest.",
+      "Petitioner was assaulted and humiliated during arrest and detention."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that under Article 13(1), no person can be arrested except according to law and must be informed of the reason. The police failed to verify the legality of the arrest and ignored the Court stay order presented by the petitioner, thus violating this constitutional protection.",
+    "application_to_facts": "The petitioner was arrested without a lawful order, and despite presenting a certified stay order, the police disregarded it and proceeded with the arrest and detention unlawfully. The Court found the police conduct violated Article 13(1).",
+    "principles_established": [
+      "Arrest must be lawful and based on verified legal authority.",
+      "Police must respect and act in accordance with Court orders.",
+      "Ignoring a valid Court order and arresting a person without lawful cause violates Article 13(1)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner’s fundamental rights under Article 13(1) were violated by the police respondents.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 1st Respondent (Officer-in-Charge) was ordered to pay Rs. 30,000 personally as compensation."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) is central to the Court’s finding that the petitioner was unlawfully arrested without proper legal authority or respect for the stay order, thus violating her fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner produced a certified copy of the stay order which the 1st Respondent crumpled and threw away, and she was arrested without verification of the order, then taken to the police station.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

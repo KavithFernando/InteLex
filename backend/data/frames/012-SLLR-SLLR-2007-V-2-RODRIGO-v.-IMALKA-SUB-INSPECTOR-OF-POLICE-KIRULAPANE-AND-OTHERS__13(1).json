@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-2007-V-2-RODRIGO-V.-IMALKA_030_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_297_2007",
+    "case_title": "Rodrigo v Imalka Sub-Inspector of Police, Kirulapone and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2007-11-28",
+    "source_citation": "[2007] 2 Sri L.R 100"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was arbitrarily arrested and detained without lawful grounds, violating the constitutional guarantee under Article 13(1).",
+    "petitioner_claim": "The petitioner argued that he was stopped without reasonable suspicion, falsely accused of possessing a forged temporary driving licence, detained overnight, and remanded without lawful cause, thus violating his freedom from arbitrary arrest under Article 13(1).",
+    "respondent_argument": "The respondents claimed the petitioner was subjected to a routine inspection, entertained suspicion due to his demeanour, and that the petitioner confessed to bribery related to obtaining the licence, justifying the arrest.",
+    "key_facts": [
+      "Petitioner was stopped at a police check point and asked for his driving licence.",
+      "Petitioner produced a genuine temporary driving licence and receipt for duplicate licence.",
+      "Police officers accused the licence of being forged and demanded bribes.",
+      "Petitioner was detained overnight at the Fraud Bureau and remanded by Magistrate based on a false report.",
+      "Magistrate discharged petitioner after verification that the licence was genuine."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 13(1) protects individuals from arbitrary arrest and requires that any arrest be according to law and based on reasonable suspicion. The police must have lawful grounds and inform the person of the reason for arrest.",
+    "application_to_facts": "The Court found no reasonable suspicion or lawful basis for the petitioner’s arrest. The detention was based on fabricated charges and abuse of power by police officers. The petitioner was not informed properly and was unlawfully detained overnight without legal justification.",
+    "principles_established": [
+      "Arrest must be based on reasonable suspicion and lawful grounds.",
+      "Police officers must not abuse power or fabricate charges to detain individuals.",
+      "Detention without informing the reason or lawful basis violates Article 13(1)."
+    ],
+    "precedents_cited": [
+      "Sarjun v Kamaldeen PC 39573 Police Station Habarana SCFR 559-03"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court declared that the petitioner’s fundamental right under Article 13(1) was infringed by the unlawful arrest and detention.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation of Rs. 75,000/- awarded to the petitioner by each of the first four respondents."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) is central to the Court’s reasoning as the case concerns unlawful arrest and detention without reasonable suspicion or lawful basis, directly implicating the petitioner’s right to be free from arbitrary arrest.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was stopped without reasonable suspicion, falsely accused of forgery, detained overnight, and remanded without lawful cause; the Magistrate discharged him after confirming the licence was genuine.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1020,
+      "end_char": 1600
+    }
+  }
+}

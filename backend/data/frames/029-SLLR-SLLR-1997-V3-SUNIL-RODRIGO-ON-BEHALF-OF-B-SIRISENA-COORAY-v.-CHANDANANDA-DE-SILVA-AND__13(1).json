@@ -1,0 +1,79 @@
+{
+  "frame_id": "RQ1_029-SLLR-SLLR-1997-V3-SUNIL-RODRIGO-ON-B_069_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION (F.R.) 478/97",
+    "case_title": "Sunil Rodrigo (on behalf of B. Sirisena Cooray) v. Chandananda De Silva and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-08-19",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application (F.R.) 478/97, decided on 19 August 1997"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the arrest and detention of Mr. B. Sirisena Cooray was according to procedure established by law and whether he was informed of the reason for his arrest as required by Article 13(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that Mr. Cooray was arrested on vague suspicion without proper grounds, the detention order was defective as it did not specify the period of detention initially, and that Mr. Cooray was not informed of the specific reasons for his arrest, violating Article 13(1).",
+    "respondent_argument": "The respondents argued that the Secretary of Defence acted on reliable intelligence reports from senior police officers, was satisfied that detention was necessary for national security, and that the arrest and detention were lawful under Emergency Regulation 17(1). They also contended that reasons for arrest need not be given at the time of arrest under the Emergency Regulations.",
+    "key_facts": [
+      "Mr. Cooray was arrested on 16 June 1997 under an order by the Secretary, Ministry of Defence, under Emergency Regulation 17(1).",
+      "The initial detention order did not specify the period of detention; an amending order was issued on 2 July 1997 specifying a three-month period starting 16 June 1997.",
+      "The Secretary acted on unverified and vague intelligence reports alleging conspiracy to assassinate the President.",
+      "Mr. Cooray was not informed of the specific grounds or reasons for his arrest at the time of arrest or during interrogation.",
+      "The Secretary did not personally satisfy himself of the material facts and abdicated his authority by mechanically signing the detention order."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 13(1) requires that a person shall not be arrested except according to procedure established by law and must be informed of the reason for arrest. The Secretary must be reasonably satisfied on proper material before issuing a detention order. The Secretary's satisfaction must be based on reasonable grounds and not mere suspicion or unverified reports. The Secretary failed to call for additional material or verify the intelligence and did not personally apply his mind, resulting in self-misdirection. The detention order was defective for not specifying the period initially and the amendment did not cure the defect retrospectively. Informing the detainee of the purpose of arrest is insufficient; the detainee must be informed of the specific grounds or reasons for arrest promptly to enable meaningful challenge.",
+    "application_to_facts": "The Secretary relied on vague, unverified intelligence reports from police officers without proper verification or inquiry. The detention order was mechanically issued without the Secretary's personal satisfaction. Mr. Cooray was not informed of the specific reasons for his arrest at the time of arrest or during interrogation, only the general purpose. The initial detention order lacked the required specification of detention period, rendering the arrest and detention from 16 June to 2 July unconstitutional. The Secretary's failure to satisfy himself on reasonable grounds and failure to inform Mr. Cooray of the reasons violated Article 13(1).",
+    "principles_established": [
+      "Arrest must be according to procedure established by law and based on reasonable satisfaction of the authority.",
+      "The authority must personally apply its mind and not act mechanically or on mere suspicion.",
+      "A detainee must be informed of the specific reasons for arrest promptly, not merely the general purpose.",
+      "A detention order must specify the period of detention at the time of issuance; belated amendments do not cure prior defects.",
+      "Emergency Regulations do not override the constitutional right to be informed of reasons for arrest at the time of arrest."
+    ],
+    "precedents_cited": [
+      "Secretary of State for Education and Science v. Tameside Borough Council (1977) AC 1014",
+      "Nakkuda Ali v. Jayaratne 51 NLR 457 (P.C.)",
+      "Attorney-General of St. Christopher, Nevis and Anguilla v. Reynolds (1979) 3 All ER 129 (P.C.)",
+      "Director of Public Prosecutions v. Head (1959) A.C. 83",
+      "Dumbell v. Roberts (1944) 1 All ER 326",
+      "Muttusamy v. Kannangara (1951) 52 NLR 324",
+      "Faiz v. Attorney-General (1995) 1 Sri L.R. 372",
+      "Faurdeen v. Jayetilleke and Others S.C. Application 366/93",
+      "Channa Pieris v. Attorney-General (1994) 1 Sri L.R. 1",
+      "Sasanasiritissa Thero and Others v. De Silva and Others (1989) 2 Sri L.R. 356",
+      "Janatha Finance and Investments v. D. J. Francis Liyanage (1983) FRD (2) 373",
+      "Liversidge v. Anderson (1941) 3 All ER 338",
+      "Ridge v. Baldwin (1963) 2 All ER 66",
+      "Brogan v. U.K. ECHR 29 November 1988",
+      "Fox, Campbell & Hartley v. U.K. ECHR 30 August 1990",
+      "Shalini Soni and Others v. The Union of India and Others (1980) 4 SCC 544"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court declared that the arrest and detention of Mr. Cooray from 16 June to 2 July 1997 was unconstitutional and unlawful as it violated Article 13(1) of the Constitution. The Secretary was not reasonably satisfied on proper grounds and failed to inform Mr. Cooray of the reasons for his arrest as required. The detention order was defective and the arrest was not according to procedure established by law.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Court directed the Secretary, Ministry of Defence, to forthwith order the release of Mr. Bulathsinghalage Sirisena Cooray from custody and detention and awarded Rs. 200,000/- as compensation and costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) is central to the Court's reasoning as it guarantees the right against unlawful arrest and the right to be informed of the reasons for arrest. The Court found that the Secretary's failure to be reasonably satisfied on proper grounds and failure to inform the detainee of the reasons violated this constitutional safeguard, rendering the arrest and detention unlawful.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Secretary acted on unverified and vague intelligence reports, mechanically signed the detention order without personal satisfaction, failed to specify the detention period initially, and Mr. Cooray was not informed of the specific reasons for his arrest at the time of arrest or during interrogation.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

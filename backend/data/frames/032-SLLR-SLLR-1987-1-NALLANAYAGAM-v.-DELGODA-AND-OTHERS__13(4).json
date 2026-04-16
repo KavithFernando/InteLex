@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_032-SLLR-SLLR-1987-1-NALLANAYAGAM-V.-DEL_076_C03__13(4)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 95/85",
+    "case_title": "Nallanayagam v. Delgoda and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-10-18",
+    "source_citation": "Sri Lanka Law Reports [1987] 1 SriLR 299"
+  },
+  "clause": {
+    "article": "13(4)",
+    "text": "Punishment can only be imposed by a competent court and detention before trial is not punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner's detention pending investigation and trial constituted unlawful punishment in violation of Article 13(4).",
+    "petitioner_claim": "The petitioner argued that his detention was illegal and amounted to punishment without trial, violating Article 13(4).",
+    "respondent_argument": "The respondents contended that detention pending investigation or trial is not punishment under Article 13(4) and is authorized by Emergency Regulations.",
+    "key_facts": [
+      "Investigations concluded by 25.7.85 with sufficient material to indict petitioner.",
+      "Petitioner detained in police custody then Fiscal custody pending trial.",
+      "Indictment filed on 30.7.85 and trial scheduled for 8.1.86.",
+      "Emergency Regulations provide for detention pending trial and remand procedures."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(4) permits detention pending investigation or trial without constituting punishment. Detention must be converted to Fiscal custody when trial is contemplated. If no trial is contemplated after investigation, the detainee must be released.",
+    "application_to_facts": "Since the Attorney-General decided to indict the petitioner and trial was pending, detention in Fiscal custody was lawful and not punishment. The petitioner was released on bail after indictment was filed.",
+    "principles_established": [
+      "Detention pending investigation or trial is not punishment under Article 13(4).",
+      "Detention must be converted to Fiscal custody when trial is contemplated.",
+      "If no trial is contemplated after investigation, detainee must be released promptly."
+    ],
+    "precedents_cited": [
+      "Yasapalitha Nanayakkara v. Henry Perera"
+    ]
+  },
+  "outcome": {
+    "holding": "The court found no violation of Article 13(4) as the detention was pending trial and not punishment, and the petitioner was lawfully detained and later released on bail.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(4) was central to determining whether the petitioner's detention was lawful pending trial and not an unlawful punishment, which the court affirmed.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Article 13(4) clearly implies detention pending investigation or trial is not punishment; the petitioner was detained lawfully pending trial and released on bail after indictment.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

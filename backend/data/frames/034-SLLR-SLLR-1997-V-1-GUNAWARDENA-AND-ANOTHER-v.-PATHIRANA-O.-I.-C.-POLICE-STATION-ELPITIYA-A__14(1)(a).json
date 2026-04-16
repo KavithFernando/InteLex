@@ -1,0 +1,80 @@
+{
+  "frame_id": "RQ1_034-SLLR-SLLR-1997-V-1-GUNAWARDENA-AND-A_060_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION 519/95",
+    "case_title": "Gunawardana and Another v. Pathirana, O.I.C., Police Station, Elpitiya and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-01-13",
+    "source_citation": "Sri Lanka Law Reports (1997) 1 Sri L.R. 265"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the seizure of a political booklet and the arrest and detention of the petitioners infringed their fundamental rights under Article 14(1)(a) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that the seizure of the booklet and their arrest were unlawful and violated their fundamental right to freedom of speech and expression, as the booklet contained political criticism of the government.",
+    "respondent_argument": "The respondents initially alleged that the petitioners were distributing illegal and obscene literature likely to cause a breach of the peace, justifying the seizure and arrest. Later, the learned DSG conceded violation of Article 14(1)(a) but contested liability and compensation.",
+    "key_facts": [
+      "The booklet contained extracts of parliamentary speeches critical of the government.",
+      "The police seized the booklet and arrested the petitioners without examining the booklet beforehand.",
+      "The petitioners were detained overnight and charged under section 118 of the Penal Code.",
+      "The respondents failed to produce evidence justifying the arrest or seizure.",
+      "The learned DSG conceded violation of Article 14(1)(a) but disputed liability and compensation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 14(1)(a) protects the freedom of speech and expression, including political criticism. The seizure of the booklet and arrest without prior examination or justification violated this right. The Court emphasized that lawful dissent and criticism of the government are fundamental to democracy and must be protected.",
+    "application_to_facts": "The police acted hastily without examining the booklet or obtaining a copy, and arrested the petitioners without lawful cause. The booklet contained only political criticism, not illegal or obscene material. The detention was prolonged without prompt production before a Magistrate, further violating constitutional rights.",
+    "principles_established": [
+      "Freedom of speech includes the right to criticize the government and political parties.",
+      "Police must not suppress lawful dissent or political expression.",
+      "Arrest and detention must be justified and comply with constitutional safeguards.",
+      "Compensation for infringement of fundamental rights must consider the importance of liberty, not just pecuniary loss."
+    ],
+    "precedents_cited": [
+      "Attorney-General v. Siriwardena",
+      "Attorney-General v. Nadesan",
+      "Faiz v. Attorney-General",
+      "Tennakoon v. De Silva",
+      "Joseph Perera v. Attorney-General",
+      "Ekanayake v. Herath Banda",
+      "Amaratunga v. Sirimalm",
+      "De Jonge v. Oregon",
+      "Wijeratne v. Perera",
+      "West Virginia State Board of Education v. Barbette",
+      "Peiris v. Attorney-General",
+      "Deshapriya v. Municipal Council, Nuwara Eliya",
+      "Ratnasara Thero v. Udugampola",
+      "Ratnapala v. Dharmasiri",
+      "Hulangamuwa v. Weerasinghe",
+      "Abasin Banda v. Gunaratne",
+      "Wickramabandu v. Herath",
+      "Sirisena v. Perera"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court declared that the petitioners' fundamental rights under Article 14(1)(a) were infringed by the seizure of the booklet and their unlawful arrest and detention. Compensation was awarded to the petitioners.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was ordered to pay Rs. 60,000 each to the petitioners, and the 1st and 2nd respondents were ordered to pay Rs. 5,000 each to each petitioner personally."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) was central to the Court's reasoning as the case concerned the fundamental right to freedom of speech and expression, specifically political criticism, which was unlawfully suppressed by the seizure and arrest.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the booklet contained political criticism and that the police seized it and arrested the petitioners without prior examination or lawful justification, violating Article 14(1)(a). The learned DSG conceded the violation.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

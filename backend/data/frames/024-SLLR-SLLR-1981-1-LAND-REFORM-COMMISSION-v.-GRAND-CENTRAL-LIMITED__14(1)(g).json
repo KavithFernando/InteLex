@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_024-SLLR-SLLR-1981-1-LAND-REFORM-COMMISS_044_C01__14(1)(g)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPEALS NO. 36/81 and 37/81",
+    "case_title": "Land Reform Commission v. Grand Central Limited",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1981-09-16",
+    "source_citation": "(1981) 1 S.L.R. 250, Supreme Court of Sri Lanka"
+  },
+  "clause": {
+    "article": "14(1)(g)",
+    "text": "Freedom to engage in lawful occupation or business."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Attorney-General, holding public office, has a fundamental right under Article 14(1)(g) to appear in private capacity as an Attorney-at-Law and practice his profession in private litigation.",
+    "petitioner_claim": "The Defendant (Land Reform Commission) argued that the Attorney-General was denied his fundamental right under Article 14(1)(g) to practice his profession as a private Attorney-at-Law when the Court of Appeal refused him right of audience in his private capacity.",
+    "respondent_argument": "The Plaintiff contended that the Attorney-General, as Chief Legal Officer of the State, cannot appear in private capacity in litigation and that the Court of Appeal was correct in denying him right of audience in that capacity.",
+    "key_facts": [
+      "The Attorney-General appeared in Court of Appeal as private Counsel for the Defendant, not in official capacity.",
+      "Court of Appeal denied the Attorney-General right of audience in private capacity.",
+      "The Attorney-General and Legal Officers were granted permission by government fiat in 1980 to engage in private practice, but legal constraints exist.",
+      "The Attorney-General has extensive official duties and powers, including advising the State and representing it in civil and criminal matters.",
+      "The Attorney-General's private practice in civil or criminal cases is constrained by tradition, law, and potential conflicts of interest."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 14(1)(g) grants a citizen the freedom to engage in any lawful profession, including the legal profession, but this right is subject to legal restrictions and professional qualifications. The right to practice law is not absolute and can be limited by law and professional rules. The Attorney-General's office carries duties and responsibilities that impose constraints on private practice, especially to avoid conflicts of interest and maintain impartiality.",
+    "application_to_facts": "The Court found that although the Attorney-General has the general right to practice law, he cannot appear in private capacity while holding the office because it would conflict with his duties as Chief Legal Officer of the State. The Court emphasized the long-standing tradition and legal framework that restricts the Attorney-General from private practice to preserve the integrity of the office and justice administration. The refusal of right of audience in this case did not deny the Attorney-General's fundamental right to practice law generally, only his private practice while in office.",
+    "principles_established": [
+      "The right to be heard in Court is a right of the party, not the Attorney-at-Law.",
+      "The Attorney-General cannot serve both the State and private litigants simultaneously.",
+      "The Attorney-General's office requires impartiality and independence incompatible with private practice.",
+      "Courts have inherent power to regulate their proceedings and may refuse right of audience for good reason.",
+      "Government fiat permitting private practice does not override legal and traditional constraints."
+    ],
+    "precedents_cited": [
+      "In the matter of a Proctor of the Supreme Court (1927) 30 NLR 65",
+      "O'Toole v. Scott [1965] 2 All ER 240",
+      "Collier v. Hicks (1831) 2 B & Ad. 1290",
+      "Simus v. Moore [1970] 3 All ER 1",
+      "Le Mesurier v. Layard (1898) 3 NLR 227"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the appeal, holding that the Attorney-General cannot appear as private Counsel while holding office, and the Court of Appeal was correct to refuse him right of audience in that capacity. The Attorney-General's fundamental right to practice law is not denied generally but is subject to the constraints of his office.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(g) was central to the Attorney-General's claim that his fundamental right to practice law was infringed by denial of right of audience in private capacity. The Court's reasoning directly engaged with the scope and limits of this constitutional freedom in the context of public office.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that Article 14(1)(g) grants freedom to engage in any lawful profession but the Attorney-General's office imposes constraints preventing private practice; refusal of right of audience in private capacity does not deny the fundamental right to practice law generally.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

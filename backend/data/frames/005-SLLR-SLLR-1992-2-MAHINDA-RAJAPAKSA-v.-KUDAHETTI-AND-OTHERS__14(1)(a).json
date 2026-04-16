@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_005-SLLR-SLLR-1992-2-MAHINDA-RAJAPAKSA-V_006_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "005-SLLR-SLLR-1992-2-MAHINDA-RAJAPAKSA-V-KUDAHETTI-AND-OTHERS",
+    "case_title": "Mahinda Rajapaksa v. Kudahetti and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1992-07-28",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 005/1992, decided on 28 July 1992"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s fundamental right to freedom of speech and expression under Article 14(1)(a) was violated by the confiscation of documents at the airport which prevented him from fully presenting his case at the Working Group meeting in Geneva.",
+    "petitioner_claim": "The petitioner claimed that by taking custody of his documents containing information about missing persons, he was prevented from presenting, distributing, and publishing them at the Geneva conference, thus violating his fundamental right to freedom of speech and expression.",
+    "respondent_argument": "The respondent argued that the petitioner was not invited to address or attend the Working Group meeting, that the documents taken were of individual evidential value irrelevant to the meeting’s general agenda, and that the petitioner was free to submit such reports at other times. Therefore, there was no violation of the petitioner’s right to free speech.",
+    "key_facts": [
+      "Petitioner was a Member of Parliament and Secretary of an informal opposition group on human rights.",
+      "Petitioner was invited to submit information for the Working Group’s annual report, not to address or attend the meeting.",
+      "At Katunayake Airport, police requested to examine petitioner’s baggage for documents suspected to be prejudicial to national security.",
+      "Petitioner initially refused search, then allowed it after consulting a lawyer and opposition leader.",
+      "533 documents and 19 pages of photographs were taken by police with a receipt issued and countersigned by petitioner.",
+      "The Working Group meeting was from 10-14 September 1990; documents were taken on 11 September, after the meeting started.",
+      "Most documents were returned to petitioner by 14 October 1990, with two forms returned after Attorney-General’s advice in February 1991."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 14(1)(a) guarantees freedom of speech and expression but this right is subject to context and occasion. The right to speak is not absolute and may be limited to particular subjects, times, and forms. The court emphasized that expression must be relevant and admissible to the occasion. The petitioner’s inability to take certain evidential documents to the meeting did not amount to a violation because the meeting concerned general issues and the documents were not necessary or admissible for that purpose.",
+    "application_to_facts": "The court found no evidence that the petitioner actually spoke at the meeting or that the documents were necessary for his speech. The invitation was to submit general information before a deadline, not to present individual cases during the meeting. The documents taken were individual case reports irrelevant to the meeting’s agenda. The petitioner was free to submit these reports at other times. The temporary confiscation did not chill or impair the petitioner’s right to free speech in a concrete or palpable way.",
+    "principles_established": [
+      "Freedom of speech under Article 14(1)(a) is not absolute and must be tailored to the occasion.",
+      "Not all expression or materials are admissible or relevant at every occasion.",
+      "Temporary confiscation of evidential documents irrelevant to the occasion does not necessarily violate freedom of speech.",
+      "The right to free speech includes the right to speak on particular subjects at appointed times and in appropriate forms."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court dismissed the petitioner’s claim under Article 14(1)(a), holding that there was no violation of his fundamental right to freedom of speech and expression.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) was central to the petitioner’s claim that his freedom of speech was violated by the confiscation of documents. The court’s reasoning focused on interpreting the scope and limits of this right in the context of the Working Group meeting and the nature of the documents taken, making the clause dispositive of the outcome.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the petitioner was not invited to address the Working Group, the documents taken were individual case reports irrelevant to the meeting’s general agenda, and the petitioner was free to submit such reports at other times. The petitioner failed to show that the confiscation impaired his right to free speech in a concrete way.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1985-V2-PREMALAL-PERERA-V._036_C01__14(1)(e)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 18 OF 1985",
+    "case_title": "Premalal Perera v. Weerasuriya and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-07-10",
+    "source_citation": "Sri Lanka Law Reports [1985] 2 Sri LR"
+  },
+  "clause": {
+    "article": "14(1)(e)",
+    "text": "Freedom to manifest religion or belief."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Circular P2 requiring deduction of a contribution to the National Security Fund from employees' salaries unless they expressly object violates the Fundamental Right of freedom to manifest religion or belief under Article 14(1)(e) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the deduction funds the purchase of arms used in violence contrary to his Buddhist beliefs, and that requiring express objection forces him to disclose his religious beliefs publicly, exposing him to harassment, thus infringing his freedom to manifest religion or belief.",
+    "respondent_argument": "The respondents argued that the Circular P2 was neutral, did not intend to harass or victimize any employee, and that the requirement to object does not interfere with the free exercise of religion since no penalty or disability is attached to objection or non-contribution.",
+    "key_facts": [
+      "The petitioner is a Buddhist who objects to contributing to a fund used for military purposes.",
+      "Circular 1R2 required consent for deduction; Circular P2 requires objection to avoid deduction.",
+      "Deduction was made from petitioner's salary without prior notice under Circular P2.",
+      "No penal sanctions or disabilities are imposed for objecting to the deduction.",
+      "The petitioner fears harassment if he objects, but no evidence supports this."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the freedom to manifest religion or belief under Article 14(1)(e) is absolute and protects sincerely held religious beliefs regardless of their logical or comprehensible nature. The Court emphasized that the requirement to express objection does not violate this freedom as it does not compel the petitioner to act against his religion or impose penalties for non-compliance.",
+    "application_to_facts": "The Court found that the petitioner was free to object to the deduction without penalty or disability, and that the act of objecting does not violate his religious precepts. The Court rejected the claim that the requirement to object publicly causes harassment, noting lack of evidence. The deduction itself, not the objection requirement, is the matter affecting religious freedom, but since objection prevents deduction, the petitioner’s rights were not infringed.",
+    "principles_established": [
+      "Religious beliefs need not be logical or consistent to be protected.",
+      "Courts are not arbiters of religious doctrine or scriptural interpretation.",
+      "A regulation neutral on its face may still violate religious freedom if it unduly burdens it.",
+      "Compulsion to express objection does not violate religious freedom if no penalty or disability results.",
+      "Freedom to manifest religion is absolute except where inconsistent with pre-existing laws."
+    ],
+    "precedents_cited": [
+      "Reynolds v. U.S.",
+      "West Virginia State Board of Education v. Barnette",
+      "Braunfeld v. Brown",
+      "Sherbert v. Verner",
+      "Wisconsin v. Yoder",
+      "Thomas v. Review Board of the Indiana Employment Security Division",
+      "Gillette v. United States",
+      "United States v. Seeger",
+      "Welsh v. United States",
+      "Gallagher's case",
+      "Elmore Perera v. Montague Jayawickreme"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the petitioner's claim that Circular P2 infringed his Fundamental Right under Article 14(1)(e), holding that the requirement to object does not interfere with the free exercise of religion.",
+    "disposition": "dismissed",
+    "remedy_or_orders": "The 1st respondent was ordered to refund the Rs. 19 deducted from the petitioner’s salary if not already refunded."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(e) guarantees the freedom to manifest religion or belief, which was central to the petitioner's claim that the deduction and objection requirement infringed his religious freedom. The Court’s reasoning and decision directly engaged with this clause to determine the scope and limits of religious freedom in this context.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that the expression of objection required by Circular P2 does not interfere with the full and free exercise of religion, as no penalty or disability is attached to objecting, and the petitioner’s religious precepts do not forbid making such an objection.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

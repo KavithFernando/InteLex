@@ -1,0 +1,58 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1978-79-80-V1-WICKRAMANATA_035_C02__14(1)(h)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPEAL NO. 58/79",
+    "case_title": "Wickramanayaka v. The State",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1979-09-24",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Appeal No. 58/79, decided on 24 September 1979"
+  },
+  "clause": {
+    "article": "14(1)(h)",
+    "text": "Freedom of movement and residence."
+  },
+  "case_context": {
+    "legal_issue": "Whether clause 2(2)(a) of the Essential Public Service Bill, which compels employees to serve at their existing places of work and prohibits non-attendance, violates the freedom of movement and residence under Article 14(1)(h).",
+    "petitioner_claim": "The petitioner contended that compulsory service at existing workplaces and prohibition of non-attendance restricts freedom of movement and residence guaranteed by Article 14(1)(h).",
+    "respondent_argument": "The State argued that such restrictions are permissible under constitutional limitations, particularly Article 15, and are justified to maintain essential services.",
+    "key_facts": [
+      "Clause 2(2)(a) mandates compulsory service at existing workplaces during essential service declarations.",
+      "Non-attendance is prohibited and punishable under the Bill.",
+      "The Bill is invoked only in emergency situations with safeguards.",
+      "The Court had already found the restrictions under Article 14(1)(g) reasonable."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the restriction on freedom of movement and residence under Article 14(1)(h) by compulsory service provisions is not substantial and is permissible under constitutional restrictions, particularly Article 15.",
+    "application_to_facts": "Given the emergency context and the necessity to maintain essential services, the Court found the restriction on movement and residence reasonable and not violative of Article 14(1)(h).",
+    "principles_established": [
+      "Fundamental rights under Article 14(1)(h) can be restricted by law under Article 15.",
+      "Compulsory service requirements in emergencies do not violate freedom of movement if justified."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court dismissed the claim that clause 2(2)(a) violates Article 14(1)(h), holding the restriction permissible under constitutional limitations.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(h) is directly engaged by the petitioner's claim about compulsory service restricting movement. The Court applies constitutional restrictions to uphold the Bill's provisions.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The submission that clause 2(2)(a) which provides for compulsory service at the existing places of work and prohibits non-attendance, violates the freedom of movement and of choosing one's residence guaranteed by Article 14(1)(h) is without substance. In any event, such restriction could have been imposed under Article 15.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1405,
+      "end_char": 1435
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_027-SLLR-SLLR-2006-V-3-SUMANADASA-AND-20_064_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_SPL_1-199-200-206_2006",
+    "case_title": "Sumanadasa and 205 Others vs. Attorney General",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2006-06-19",
+    "source_citation": "Sri Lanka Law Reports (2006) 3 Sri L. R. SC SPL 1-199-200-206, decided on 19 June 2006"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners were informed of the reasons for their arrest as required by Article 13(1) of the Constitution.",
+    "petitioner_claim": "Petitioners alleged infringement of their fundamental rights including the right to be informed of the reason for arrest under Article 13(1).",
+    "respondent_argument": "Respondent did not dispute compliance with informing the accused of the nature of the charge at arrest as required by law.",
+    "key_facts": [
+      "Petitioners were arrested under Section 45 of the Immigration and Emigration Act.",
+      "Section 23(1) of the Code of Criminal Procedure requires informing the arrested person of the nature of the charge.",
+      "Petitioners were produced before a Magistrate as persons accused of offences.",
+      "The Court found no dispute that the procedure under Section 23(1) was complied with."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(1) requires that every person arrested be informed of the reasons for the arrest. The Court noted that Section 23(1) of the Code of Criminal Procedure mandates informing the arrested person of the charge, which was complied with in this case.",
+    "application_to_facts": "Since the petitioners were informed of the nature of the charge upon arrest and produced before a Magistrate accordingly, the Court found no violation of Article 13(1).",
+    "principles_established": [
+      "The right to be informed of the reason for arrest is satisfied by compliance with Section 23(1) of the Code of Criminal Procedure.",
+      "The terms 'accused' and 'suspect' are used interchangeably in the Code, and a person is considered accused from the point of arrest."
+    ],
+    "precedents_cited": [
+      "Attorney General vs. Nilanthi"
+    ]
+  },
+  "outcome": {
+    "holding": "No infringement of Article 13(1) was found as the petitioners were informed of the reasons for their arrest according to law.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to determining whether the petitioners' arrest complied with constitutional requirements, specifically whether they were informed of the reasons for arrest.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Section 23(1) of the Code of Criminal Procedure Act require that the person arrested be informed of the nature of the charge or allegation upon which he is arrested. It is not in dispute that this procedure has been complied with.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1033,
+      "end_char": 1100
+    }
+  }
+}

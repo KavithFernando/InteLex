@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_004-SLLR-SLLR-1994-V2-PIYASENA-AND-ANOTH_001_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "admin",
+  "source": {
+    "dataset": "admin_upload",
+    "notes": "Admin PDF ingest"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 359/93",
+    "case_title": "Piyasena and Another v. The People's Bank and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-11-04",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 359/93, decided on 4 November 1994"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the selection and promotion process used by the People's Bank violated the fundamental right to equality guaranteed by Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that the criteria for promotion were not disclosed, the marking scheme was flawed, seniority was inadequately considered, and the interview and selection process was unfair and misleading, thus violating their fundamental right to equality.",
+    "respondent_argument": "The respondents contended that the Bank was entitled to change the basis of promotion, seniority was never the sole criterion for promotion to corporate management, and that the interview process and marking scheme were valid.",
+    "key_facts": [
+      "The Bank invited Grade I officers to apply for Assistant General Manager vacancies with a request for a short presentation on achievements and strategies.",
+      "No clear criteria for selection were disclosed to candidates.",
+      "The marking scheme allocated 5 marks for seniority, 25 for interview performance, 50 for performance in the present grade, and other marks for qualifications.",
+      "The interview board formulated the marking scheme and conducted interviews without clear guidelines on assessment.",
+      "The petitioners were not promoted despite having higher qualifications and marks in some categories."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) requires that criteria relevant to promotion should be publicised to ensure equal opportunity. A drastic change in promotion criteria that diminishes objective factors like seniority must be disclosed. The marking scheme and selection process must be clear, fair, and uniform to avoid misleading candidates and infringing equality rights.",
+    "application_to_facts": "The Court found that the Bank's failure to disclose criteria, the inadequate weight given to seniority, the lack of assessment of the quality of presentations, and the flawed marking scheme led to a fatally flawed selection process. The statistical anomalies in marks and the non-assessment of the 11th respondent further demonstrated unfairness and violation of equality.",
+    "principles_established": [
+      "Promotion criteria should be publicised to ensure fairness and equal opportunity.",
+      "Objective factors like seniority must be adequately considered or disclosed if changed.",
+      "A marking scheme must be clear, fair, and uniformly applied if used.",
+      "Failure to assess candidates uniformly and transparently can violate Article 12(1)."
+    ],
+    "precedents_cited": [
+      "Perera v. Ranatunga S.C. 121/91",
+      "Perera v. Monetary Board S.C. 246/93"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the fundamental right to equality under Article 12(1) was infringed by the People's Bank's defective selection process and directed fresh interviews on the basis of a published scheme.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Bank was ordered to hold fresh interviews with a published scheme of promotion and to pay each petitioner Rs. 10,000 as compensation and Rs. 5,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it guarantees equality before the law and equal protection, which the Court found was violated by the non-transparent and unfair promotion process.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the failure to disclose promotion criteria, inadequate consideration of seniority, and flawed marking scheme misled candidates and violated Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_036-SLLR-SLLR-2004-V-2-LALITH-DESHAPRIYA_079_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "C.A. 968/2002",
+    "case_title": "Lalith Deshapriya v Captain Weerakoon and Others",
+    "court_name": "Court of Appeal of Sri Lanka",
+    "decision_date": "2004-06-11",
+    "source_citation": "[2004] 2 Sri L.R 314"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was lawfully arrested and informed of the reason for his arrest in accordance with Article 13(1).",
+    "petitioner_claim": "The petitioner claimed violation of his fundamental rights under Article 13(1) due to unlawful arrest and detention without proper legal procedure and information.",
+    "respondent_argument": "The respondents did not specifically contest the legality of the arrest under Article 13(1) in detail but relied on Navy Act provisions and summary trial procedures.",
+    "key_facts": [
+      "Petitioner was arrested on suspicion of loss of a pistol from the main armory on 4th September 2001.",
+      "Petitioner was kept under close arrest from 4th September 2001 to 8th January 2002.",
+      "Petitioner was not served with a charge sheet prior to summary trial.",
+      "Petitioner was subjected to assault and torture while in custody on orders of the 1st respondent.",
+      "Petitioner was not afforded a fair hearing or proper legal protections during detention and trial."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(1) requires that no person be arrested except according to law and that the person be informed of the reason for arrest. The court recognized that the petitioner was detained without proper legal safeguards and was not informed or served with charges in a lawful manner.",
+    "application_to_facts": "The petitioner was held under close arrest for several months without proper charge notification or legal process, and was subjected to torture and coercion, violating the protections guaranteed by Article 13(1).",
+    "principles_established": [
+      "Arrest and detention must comply with legal procedures and the detainee must be informed of reasons.",
+      "Detention without lawful process and information violates fundamental rights under Article 13(1)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court found that the petitioner’s arrest and detention violated Article 13(1) rights and contributed to the nullity of the subsequent proceedings.",
+    "disposition": "granted",
+    "remedy_or_orders": "The conviction, imprisonment, and dismissal from service were quashed and the petitioner was ordered to be re-enlisted."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) is central because it protects against unlawful arrest and requires informing the detainee of the reason, which was not followed in this case, underpinning the court’s decision to quash the proceedings.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was kept under close arrest from 4th September 2001 to 8th January 2002 without being served a charge sheet or informed properly, and was subjected to torture on orders of the 1st respondent.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 25,
+      "end_char": 850
+    }
+  }
+}

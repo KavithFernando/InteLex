@@ -1,0 +1,95 @@
+{
+  "frame_id": "RQ1_028-SLLR-SLLR-2000-V-1-SUNILA-ABEYSEKERA_052_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application No. 994/99",
+    "case_title": "Sunila Abeysekera v. Ariya Rubasinghe, Competent Authority and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-06-15",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 994/99, decided on 15 June 2000"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Emergency (Prohibition on Publication and Transmission of Sensitive Military Information) Regulation No. 1 of 1998, as amended, violated the petitioner's fundamental right to freedom of speech and expression under Article 14(1)(a) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the regulation imposed unwarranted, discriminatory, and arbitrary restrictions on her right to receive and impart information about the ethnic conflict and war in the North and East, thus violating her rights under Article 14(1)(a). She claimed the regulation was overbroad, vague, and not necessary in a democratic state.",
+    "respondent_argument": "The respondents contended that the restrictions were prescribed by law under the Public Security Ordinance, were necessary in the interests of national security as permitted by Article 15(7), and that the petitioner’s rights under Article 14(1)(a) were not infringed.",
+    "key_facts": [
+      "The regulation prohibited publication of sensitive military information related to operations in the Northern and Eastern provinces.",
+      "The petitioner was a social/human rights activist engaged in debates on the ethnic conflict and war.",
+      "The regulation was made under section 5 of the Public Security Ordinance by the President.",
+      "The petitioner alleged the regulation was a pretext to suppress embarrassing information rather than protect national security.",
+      "The Court acknowledged the existence of a serious civil war and terrorism in Sri Lanka at the time."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that freedom of speech and expression under Article 14(1)(a) is a fundamental right essential to democracy, including the right to receive and impart information. However, this right is subject to restrictions prescribed by law in the interests of national security under Article 15(7). Such restrictions must be narrowly and strictly construed, prescribed by law with sufficient precision, and necessary and proportionate to the legitimate aim pursued.",
+    "application_to_facts": "The Court found the impugned regulations had a legal basis under the Public Security Ordinance, were accessible and formulated with sufficient precision to enable compliance, and the discretion given to the Competent Authority was reviewable and not arbitrary. The Court accepted the existence of a pressing social need to protect national security during a serious civil war and terrorism. The regulations were interpreted restrictively to apply only to information concerning military operations in the North and East. The petitioner failed to prove that the regulations were a pretext to protect the government from embarrassment. The Court concluded the restrictions were proportionate and necessary, striking a fair balance between freedom of speech and national security.",
+    "principles_established": [
+      "Freedom of speech includes the right to receive information regardless of its social worth.",
+      "Restrictions on freedom of speech must be prescribed by law, accessible, and formulated with sufficient precision.",
+      "Restrictions must have a legitimate aim, such as national security, and be necessary and proportionate in a democratic society.",
+      "Prior restraint is not per se unconstitutional but requires a heavy burden of justification.",
+      "Discretionary powers vested in authorities must be guided by clear standards and be subject to judicial review to prevent arbitrariness.",
+      "The existence of a serious civil war and terrorism justifies certain restrictions on freedom of speech."
+    ],
+    "precedents_cited": [
+      "Joseph Perera alias Bruten Perera v. The Attorney-General and Others (1992) 1 Sri L. R. 199",
+      "Re Compulsory membership of journalists association (1986) 8 E. H. R. R. 165",
+      "Channa Pieris and Others v. The Attorney-General and Others (1994) 1 Sri L. R. 1",
+      "Palko v. Connecticut 302 U. S. 319 (1937)",
+      "Fernando v. The S. L. B. C. and Others (1996) 1 Sri L. R. 157",
+      "Sumith-Jayantha Dias v. Reggie Ranatunge (1999) 2 Sri L. R. 8",
+      "Stanley v. State of Georgia 394 U. S. 557 (1969)",
+      "Whitney v. California 274 U. S. 357 (1927)",
+      "Handyside v. The United Kingdom (1976) 1 E. H. R. R. 737",
+      "The Sunday Times v. The United Kingdom (1979) 2 E. H. R. R. 245",
+      "Barthold v. Germany (1985) 7 E. H. R. R. 383",
+      "Hodgson, Woolf Productions and National Union of Journalists and Channel Four Television v. United Kingdom (1988) 10 E. H. R. R. 503",
+      "App. No. 11508/85 v. Denmark (1989) 11 E. H. R. R. 543",
+      "Muller v. Switzerland (1991) 13 E. H. R. R. 212",
+      "The Observer and the Guardian v. United Kingdom (1992) 14 E. H. R. R. 153",
+      "The Sunday Times v. United Kingdom (No. 2) (1992) 14 E. H. R. R. 229",
+      "Castells v. Spain (1992) 14 E. H. R. R. 445",
+      "Thorgeirson v. Iceland (1992) 14 E. H. R. R. 843",
+      "Brind and Others v. United Kingdom (1994) 18 E. H. R. R. C. D. 76",
+      "Jersild v. Denmark (1995) 19 E. H. R. R. 1",
+      "Otto Preminger Institute v. Austria (1995) 19 E. H. R. R. 34",
+      "Oberschlick v. Austria (1995) 19 E. H. R. R. 389",
+      "Piermont v. France (1995) 20 E. H. R. R. 301",
+      "Goodwin v. United Kingdom (1996) 22 E. H. R. R. 123",
+      "Adams and Benn v. United Kingdom (1997) 23 E. H. R. R. C. D. 160",
+      "Wingrove v. United Kingdom (1997) 24 E. H. R. R. 1",
+      "Wickremasinghe v. Edmund Jayasinghe (1995) 1 Sri L. R. 300",
+      "Dennis v. United States 341 U. S. 495 (1951)",
+      "New York Times Co. v. U. S. 403 U. S. 713 (1971)",
+      "Joseph Perera v. The Attorney General (1992) 1 Sri L. R. 199",
+      "Klass and Others v. Federal Republic of Germany (1979-80) 2 E. H. R. R. 214"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner’s fundamental rights under Article 14(1)(a) were not violated by the impugned regulations as they were prescribed by law, necessary, and proportionate restrictions in the interests of national security.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) guarantees freedom of speech and expression including publication, which was the core right alleged to be infringed by the emergency regulations restricting publication of sensitive military information. The Court’s reasoning and ultimate dismissal of the petition directly hinged on the interpretation and application of this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the impugned regulations were framed with sufficient precision, had a legal basis under the Public Security Ordinance, and were necessary and proportionate to protect national security during a serious civil war, thus not violating Article 14(1)(a).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

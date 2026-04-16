@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_009-SLLR-SLLR-1985-V1-MALLIKARACHCHI-V.-_014_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 107/04",
+    "case_title": "Mallikarachchi v. Shiva Pasupati, Attorney-General",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1984-11-20",
+    "source_citation": "Sri Lanka Law Reports [1985] 1 SriLR 74"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the proscription orders made by the President under Emergency Regulations infringed the petitioner's fundamental rights under Article 14(1)(a) relating to freedom of speech and expression.",
+    "petitioner_claim": "The petitioner claimed that the proscription of the Jathika Vimukthi Peramuna (J.V.P.) infringed his fundamental rights under Article 14(1)(a) by preventing the party and its members from freely expressing their political views and participating in elections.",
+    "respondent_argument": "The Attorney-General argued that the President enjoys absolute immunity under Article 35(1) of the Constitution and that the proscription order was made under powers vested by law (Emergency Regulations), not under Article 44(2), thus the Attorney-General was not the proper respondent and the petition was not maintainable.",
+    "key_facts": [
+      "The petitioner was a member of the J.V.P., a recognized political party.",
+      "The J.V.P. was proscribed by the President on 30 July 1983 under Emergency Regulations.",
+      "The petitioner alleged mala fide motives behind the proscription to eliminate political opposition.",
+      "The proscription prevented the petitioner and others from contesting elections and functioning as a political party.",
+      "The petitioner cited infringement of fundamental rights under Article 14(1)(a), among others."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court recognized that Article 14(1)(a) guarantees freedom of speech and expression, including political expression. However, the court focused on the procedural and jurisdictional issue of whether the Attorney-General was the proper respondent given the President's immunity under Article 35(1). The court held that the proscription order was made under Emergency Regulations, not under powers assigned to the President under Article 44(2), and thus the Attorney-General could not be sued in this matter.",
+    "application_to_facts": "Since the proscription order was not an exercise of power assigned to the President under Article 44(2), the immunity under Article 35(1) applied absolutely, and the Attorney-General was not the proper respondent. Therefore, the petition alleging infringement of Article 14(1)(a) rights failed in limine due to improper party and lack of jurisdiction.",
+    "principles_established": [
+      "The President has absolute immunity under Article 35(1) for acts not covered by Article 44(2).",
+      "Proceedings against the President for acts under Article 44(2) must be instituted against the Attorney-General.",
+      "Proscription under Emergency Regulations is not an act under Article 44(2) and thus not subject to challenge against the Attorney-General.",
+      "Fundamental rights claims must be properly constituted with the correct respondent."
+    ],
+    "precedents_cited": [
+      "Satyapala v. The Attorney-General - S.C. Application No. 40/84"
+    ]
+  },
+  "outcome": {
+    "holding": "The application alleging infringement of Article 14(1)(a) rights was dismissed because the Attorney-General was not the proper respondent and the petition was not maintainable.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) was central to the petitioner's claim that the proscription order infringed his freedom of speech and expression. The court's reasoning on immunity and proper party affected the ability to adjudicate on this right.",
+    "relevance_level": "high",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner claimed infringement of fundamental rights under Article 14(1)(a) due to proscription orders preventing political expression; the court held the Attorney-General was not the proper respondent as the President's immunity applied.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 74,
+      "end_char": 82
+    }
+  }
+}

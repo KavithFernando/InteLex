@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_039-SLLR-SLLR-2002-V-1-ABEYRATNE-BANDA-V_086_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_653_2000",
+    "case_title": "Abeyratne Banda v. Gajanayake, Director, Criminal Investigation Department and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-06-11",
+    "source_citation": "Supreme Court of Sri Lanka, SC (FR) No. 653/2000, decided on 11 June 2002"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s detention under Emergency Regulation 19(2) was lawful and complied with Article 13(2) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed his detention was unlawful, not based on proper legal authority, and violated Article 13(2).",
+    "respondent_argument": "Respondents argued detention was authorized by detention orders under Emergency Regulations for investigation purposes.",
+    "key_facts": [
+      "Petitioner was detained under two detention orders issued by the 4th respondent for 90 days starting 26.10.2000.",
+      "Petitioner was not produced before a Magistrate until 19.01.2001, and was released on bail on 21.03.2001.",
+      "Detention orders were based solely on petitioner’s own statement with no incriminating material.",
+      "Procedural irregularities included failure to hand petitioner to nearest Police station and lack of credible grounds for detention.",
+      "Detention was found to be an abuse of power and not for proper investigation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires that any detained person be brought before a judge within a reasonable time and that detention be authorized by law. Detention without lawful arrest or proper legal order violates this right.",
+    "application_to_facts": "The court held that since the petitioner’s arrest was unlawful, the detention orders under ER 19(2) were invalid. The detention was not for proper investigation, lacked credible grounds, and was an abuse of power violating Article 13(2).",
+    "principles_established": [
+      "Detention must be based on lawful arrest and proper legal authority.",
+      "Detention orders must be supported by credible material and follow prescribed procedure.",
+      "Failure to produce detainee before a Magistrate within reasonable time is a violation."
+    ],
+    "precedents_cited": [
+      "Sirisena v. Perera (1991) 2 Sri LR 97",
+      "Padmanathan v. Paranagama (1999) 2 Sri LR 225"
+    ]
+  },
+  "outcome": {
+    "holding": "The court declared the petitioner’s detention under Emergency Regulation 19(2) unlawful and violative of Article 13(2).",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of infringement of Article 13(2) and Rs. 120,000 compensation, half payable by the State and half by the 4th respondent personally."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) directly addresses the legality and procedural safeguards of detention. The court’s reasoning and holding rely centrally on this clause to find the detention unlawful and violative of fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was not lawfully arrested; therefore, detention orders under ER 19(2) did not apply. Detention was not for investigation, lacked credible grounds, and was an abuse of power.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 370,
+      "end_char": 410
+    }
+  }
+}

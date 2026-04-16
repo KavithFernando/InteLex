@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_017-SLLR-SLLR-1996-1-SAMARASINGHE-V.-AIR_090_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO 275/93",
+    "case_title": "Samarasinghe v. Air Lanka Ltd. and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-06-02",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 275/93, decided on 2 June 1994"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Petitioner's fundamental right to equality under Article 12(1) of the Constitution was violated by the appointment of the 13th Respondent to the post of International Relations Manager, bypassing the Petitioner who had been recommended for the post.",
+    "petitioner_claim": "The Petitioner claimed that he was unfairly denied promotion to the post of International Relations Manager despite being recommended by a duly constituted panel and having a legitimate expectation to be appointed. He argued that the appointment of the 13th Respondent, who lacked the stipulated experience and was appointed through a non-transparent process, violated his right to equality and amounted to unwarranted and invidious discrimination.",
+    "respondent_argument": "The Respondents argued that Air Lanka was not an instrument or agent of the State and that the appointment of the 13th Respondent was proper and valid. They contended the Petitioner was unsuitable for promotion due to lack of competence and experience, and that the appointment of the 13th Respondent was based on merit and justified by exigencies of service. They also argued that the decision not to promote the Petitioner did not amount to a violation of fundamental rights.",
+    "key_facts": [
+      "The Petitioner was Senior International Relations Executive and had been recommended for promotion by an interview panel including the Consultant.",
+      "The post was created by upgrading the Petitioner's existing post and was to be filled by internal recruitment.",
+      "The Petitioner lacked one year of the stipulated five years experience but this was not an insuperable obstacle as others had been appointed with similar deficiencies.",
+      "The 13th Respondent was appointed without advertisement or following the recognized procedure and had no relevant experience.",
+      "The appointment process was non-transparent and the Petitioner was denied promotion despite legitimate expectation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) guarantees equality before the law and equal protection, which applies to recruitment and promotion in the public sector. The principle of equality prohibits caprice, bias, prejudice, favouritism, and discrimination. Proper procedures must be followed with honesty, openness, and transparency. The Court emphasized that the Petitioner's legitimate expectation and recommendation by a proper panel must be respected unless there is a rational and justifiable reason to the contrary.",
+    "application_to_facts": "The Court found that the Petitioner was unfairly denied promotion despite being recommended and having qualifications and experience close to the requirements. The appointment of the 13th Respondent was made secretly, without advertisement, and without regard to experience requirements. The management's justifications were unsubstantiated and contradicted by the lack of contemporaneous records. The Court concluded that the Petitioner was discriminated against in an unwarranted and invidious manner, violating Article 12(1).",
+    "principles_established": [
+      "Equality under Article 12(1) applies to recruitment and promotion in public sector employment.",
+      "Legitimate expectation arises from proper procedures and recommendations.",
+      "Appointments must be made transparently and based on merit, not favouritism or secrecy.",
+      "Lack of contemporaneous evidence to justify adverse treatment leads to presumption of no valid grounds.",
+      "Discrimination that is unwarranted and invidious violates constitutional equality rights."
+    ],
+    "precedents_cited": [
+      "Rajaratne v. Air Lanka Ltd."
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the Petitioner's fundamental rights under Article 12(1) were violated by the discriminatory and arbitrary appointment of the 13th Respondent. The appointment of the 13th Respondent was declared invalid and ordered to be terminated forthwith. The Court directed that the vacancy be filled according to proper procedures and that the Petitioner’s application be considered on its merits. The Petitioner was awarded Rs. 50,000 as solatium and Rs. 5,000 as costs.",
+    "disposition": "granted",
+    "remedy_or_orders": "The appointment of the 13th Respondent is terminated. The vacancy must be filled within three months by proper internal recruitment procedures. The Petitioner’s application is to be considered on its merits disregarding prior adverse opinions."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it guarantees equality before the law and equal protection, which the Court found was violated by the discriminatory appointment process and denial of promotion to the Petitioner.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the Petitioner was recommended by a duly constituted panel, had a legitimate expectation of promotion, and that the 13th Respondent was appointed without advertisement and lacked the required experience. The management failed to provide contemporaneous evidence justifying the Petitioner’s non-appointment, and the appointment was made under a veil of secrecy.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

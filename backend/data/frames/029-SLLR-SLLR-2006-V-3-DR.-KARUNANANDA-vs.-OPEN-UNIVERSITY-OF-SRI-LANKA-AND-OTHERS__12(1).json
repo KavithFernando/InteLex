@@ -1,0 +1,69 @@
+{
+  "frame_id": "RQ1_029-SLLR-SLLR-2006-V-3-DR.-KARUNANANDA-V_146_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_450_2003",
+    "case_title": "Dr. Karunanada vs. Open University of Sri Lanka and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2006-05-31",
+    "source_citation": "Supreme Court of Sri Lanka, SC FR 450/2003, decided on 31 May 2006"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the non-appointment of the petitioner as Professor/Associate Professor despite meeting required marks violated Article 12(1) equality rights.",
+    "petitioner_claim": "The petitioner argued that his non-appointment was unreasonable, mala fide, discriminatory, arbitrary and violated his fundamental rights under Article 12(1).",
+    "respondent_argument": "Respondents contended that academic decisions are specialized and should be made by qualified academic peers, not courts, and that the court should not interfere absent serious mala fides or grave procedural impropriety.",
+    "key_facts": [
+      "Petitioner was a senior lecturer with requisite academic qualifications and extensive research.",
+      "Petitioner applied for promotion under UGC Circular No. 723 and was evaluated by external experts and panels.",
+      "Initial evaluation did not recommend promotion due to marks below minimum in research and creative work.",
+      "A grievance committee recommended a third external expert due to high variance in marks.",
+      "Despite third expert's evaluation, the selection committee did not recommend promotion, allegedly ignoring some positive marks.",
+      "Petitioner alleged procedural unfairness and violation of equality rights under Article 12(1)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that universities are statutory bodies subject to judicial review, especially where fundamental rights are alleged to be infringed. Academic decisions are not beyond challenge if they infringe constitutional rights. Article 12(1) guarantees equality and equal protection under the law, which applies to university promotion decisions.",
+    "application_to_facts": "The court found that the selection committee acted arbitrarily and unfairly by ignoring the high variance in expert evaluations and failing to consider the positive marks from two external experts. This procedural unfairness violated the petitioner's right to equality under Article 12(1).",
+    "principles_established": [
+      "Universities as statutory bodies are subject to judicial review in fundamental rights matters.",
+      "Academic decisions purely of academic nature may not be interfered with, but decisions infringing constitutional rights can be challenged.",
+      "Procedural fairness is a cornerstone of individual liberty and equality rights.",
+      "Article 12(1) applies to university promotion decisions and requires non-arbitrary, fair procedures."
+    ],
+    "precedents_cited": [
+      "Regina vs. Higher Education Funding Council Ex-parte Institute of Dental Surgery",
+      "Phillips vs. Bury",
+      "Clark vs. University of Lincolnshire",
+      "W. K. C. Perera vs. Prof. Daya Edirisinghe",
+      "McNabb vs. United States",
+      "Shaughnessy vs. United States"
+    ]
+  },
+  "outcome": {
+    "holding": "The court allowed the petition, holding that the respondents violated Article 12(1) by acting arbitrarily and unfairly in the promotion process. The selection committee was directed to reconsider the petitioner's application in accordance with the law and the assessments of all three external experts.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 2nd and 3rd-10th respondents are directed to reconsider the petitioner's promotion application according to UGC Circular No. 723 and the expert assessments."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as the petitioner claimed violation of equality rights in the promotion decision. The court analyzed whether the non-appointment was arbitrary and discriminatory, thus infringing the constitutional guarantee of equal protection under the law.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the procedure followed was unfair and arbitrary, ignoring positive evaluations and failing to adhere to procedural fairness, thus violating Article 12(1) rights.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

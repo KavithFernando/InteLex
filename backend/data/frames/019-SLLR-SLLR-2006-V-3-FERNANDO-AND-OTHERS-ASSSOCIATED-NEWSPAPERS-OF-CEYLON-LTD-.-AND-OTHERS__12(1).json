@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_019-SLLR-SLLR-2006-V-3-FERNANDO-AND-OTHE_105_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_274_2004",
+    "case_title": "Fernando and Others vs. Associated Newspapers of Ceylon Ltd. and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2005-02-24",
+    "source_citation": "Sri Lanka Law Reports (2006) 3 Sri L R 141"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the termination of contract employees without absorption into permanent cadre violated their fundamental right to equal protection of the law under Article 12(1).",
+    "petitioner_claim": "The petitioners argued that the termination violated their right to equal protection because there was a practice of absorbing contract employees into permanent cadre and the Chairman had assured them in writing of such absorption, creating a legitimate expectation.",
+    "respondent_argument": "The respondents denied any established practice of absorption into permanent cadre and contended that the petitioners were employed through ministerial nomination, not regular recruitment, and that the termination was lawful under contract terms.",
+    "key_facts": [
+      "Petitioners were employed on fixed-term contracts (mostly six months) at ANCL.",
+      "Petitioners claimed a practice of absorption into permanent cadre after six months and a written assurance from the Chairman.",
+      "Board decisions showed no consistent past practice of absorption for contract employees.",
+      "Petitioners were nominated by the Minister, not recruited through normal application and interview process.",
+      "Termination letters were issued based on contract clauses allowing termination with notice or payment in lieu."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equal protection of the law, which requires that similarly circumstanced persons be treated alike. A legitimate expectation alone, without proof of differential treatment or denial of equal protection, does not constitute a violation.",
+    "application_to_facts": "The court found no evidence of a settled practice to absorb contract employees into permanent cadre. The Board decisions cited were to safeguard certain employees and did not establish a general practice. The petitioners failed to prove they were treated differently from similarly situated employees. The Chairman's letter created only a legitimate expectation, not a legally enforceable right.",
+    "principles_established": [
+      "Legitimate expectation is not equivalent to a legal right under Article 12(1).",
+      "To prove violation of equal protection, there must be evidence of differential treatment of similarly situated persons.",
+      "Board decisions inconsistent with a claimed past practice negate the existence of such practice."
+    ],
+    "precedents_cited": [
+      "Council of Central Service Union (CCSU) vs. Minister of Civil Service, 1984 3 All ER 935 at 944"
+    ]
+  },
+  "outcome": {
+    "holding": "The petitioners failed to establish a violation of their right to equal protection under Article 12(1). The application was dismissed.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioners' claim that their termination without absorption into permanent cadre violated their constitutional right to equal protection of the law. The court's reasoning and dismissal directly addressed this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found no evidence of a past practice to absorb contract employees and held that the Chairman's letter created only a legitimate expectation, insufficient to establish a violation of Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_001-SLLR-SLLR-1993-2-DON-KARUNARATNE-V.-_003_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_144_91",
+    "case_title": "Don Karunaratne v. The Monetary Board of the Central Bank of Sri Lanka and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1992-06-17",
+    "source_citation": "Sri Lanka Law Reports [1993] 2 Sri LR"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the revised scheme of promotion at the Central Bank, which introduced a written test for promotion to non-staff class Grade IV, violated the petitioner's fundamental rights under Article 12(1) by discriminating against him and other old entrants.",
+    "petitioner_claim": "The petitioner argued that the new promotion scheme was discriminatory as it placed old entrants like him, who joined with lower qualifications and without a written test, at a disadvantage compared to graduate officers; that the written test was a colorable device to deny promotions to union members like himself.",
+    "respondent_argument": "The respondents contended that the promotion scheme was a legitimate revision necessary in the interest of service, that the written test was a fair and rational method to assess merit for a supervisory grade, and that the petitioner had failed to meet the requisite standards for promotion even under the old scheme.",
+    "key_facts": [
+      "The petitioner joined the Bank in 1963 as a non-staff class Grade II clerk.",
+      "The Bank introduced a revised promotion scheme in 1990 requiring a written test for promotion to Grade IV.",
+      "The petitioner claimed the test disadvantaged him compared to graduates and was discriminatory.",
+      "The petitioner failed to produce evidence that the test was unreasonable or discriminatory.",
+      "The petitioner was not suitable for promotion even under the existing scheme."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the Bank has the right to alter promotion schemes if necessary in the interest of service, provided such changes do not infringe Article 12(1). The introduction of a written test as part of the promotion criteria was a legitimate and rational method to assess merit for a supervisory grade. Past promotions without a written test do not establish discrimination. The petitioner failed to prove that the test was unreasonable or discriminatory.",
+    "application_to_facts": "The Court found that the petitioner had no vested right to promotion under the old scheme and that the Bank's revised scheme was not per se discriminatory. The petitioner did not provide sufficient evidence to show that the written test placed him at an unreasonable disadvantage compared to graduates. The petitioner also failed to produce the examination syllabus or specimen questions to substantiate his claim. The Court accepted the respondents' evidence that the petitioner was not suitable for promotion even under the old scheme.",
+    "principles_established": [
+      "Employers may revise promotion schemes if done in the interest of service and without infringing constitutional equality rights.",
+      "Introduction of a written test as a merit assessment tool is a legitimate and rational method for promotion.",
+      "Past absence of a written test does not imply discrimination if the new scheme is reasonable.",
+      "Burden lies on the petitioner to prove discrimination with sufficient material."
+    ],
+    "precedents_cited": [
+      "Perera v. University Grants Commission 1 FRD 103",
+      "Gunaratne et al v. Sri Lanka Telecom SC Application No. 70/92"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the petitioner's claim that the revised promotion scheme violated Article 12(1). The application was dismissed with costs.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's analysis as the petitioner claimed discrimination in promotion violating the constitutional guarantee of equality before the law and equal protection. The Court's reasoning and final dismissal hinged on whether the revised scheme infringed this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that the petitioner failed to establish discrimination under Article 12(1) and that the Bank's alteration of the promotion scheme was legitimate and not violative of the Constitution.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

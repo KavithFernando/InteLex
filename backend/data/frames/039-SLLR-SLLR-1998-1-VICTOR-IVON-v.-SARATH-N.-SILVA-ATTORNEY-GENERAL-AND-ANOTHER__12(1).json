@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_039-SLLR-SLLR-1998-1-VICTOR-IVON-V.-SARA_182_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 89/98",
+    "case_title": "Victor Ivon v. Sarath N. Silva, Attorney-General and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-03-19",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 89/98, decided on 19 March 1998"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Attorney-General's discretion to prosecute for criminal defamation was exercised in violation of the petitioner's fundamental right to equality before the law under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the Attorney-General and his officers had indiscriminately, arbitrarily, and for collateral purposes indicted him without proper assessment of facts, violating his rights under Article 12(1) by not affording equal protection of the law.",
+    "respondent_argument": "The Attorney-General contended that the discretion to prosecute is statutory, discretionary but not absolute or unfettered, and that the indictments were properly exercised with due consideration of the facts and public interest.",
+    "key_facts": [
+      "The petitioner, editor of the 'Ravaya' newspaper, faced multiple indictments for criminal defamation over several years.",
+      "The Attorney-General has statutory discretion to grant or refuse sanction for prosecution and to file indictments.",
+      "The petitioner alleged selective and arbitrary prosecution violating equality rights.",
+      "The Attorney-General declined to prosecute on nine other complaints against the petitioner.",
+      "The court examined whether the discretion was exercised in a manner consistent with constitutional guarantees."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the Attorney-General's discretion to prosecute is a statutory, executive discretion that is neither absolute nor unfettered. It must be exercised in good faith, for proper purposes, and not in violation of fundamental rights such as equality under Article 12(1). The discretion is subject to judicial review if exercised arbitrarily, capriciously, or on impermissible grounds.",
+    "application_to_facts": "The court found no prima facie case that the Attorney-General's discretion was exercised in violation of Article 12(1). The petitioner failed to prove that the indictments were arbitrary or discriminatory. The Attorney-General had declined to prosecute on multiple other complaints, indicating no selective harassment. Defects in investigation were attributed to investigating officers, not the Attorney-General. The court emphasized that prosecutorial discretion must be exercised in the public interest and not merely to benefit complainants.",
+    "principles_established": [
+      "Prosecutorial discretion is subject to constitutional limits and judicial review under Article 126 if fundamental rights are infringed.",
+      "Equality before the law requires that prosecutorial decisions not be arbitrary or discriminatory.",
+      "The constitutional jurisdiction of the Supreme Court to review fundamental rights violations is distinct and takes precedence over High Court jurisdiction on indictments.",
+      "Freedom of the press is part of freedom of speech and expression under Article 14(1)(a) but does not confer immunity from prosecution."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "Leave to proceed with the fundamental rights application was refused as the petitioner failed to establish a prima facie violation of Article 12(1).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner's claim that the Attorney-General's prosecutorial discretion was exercised in a discriminatory and arbitrary manner, violating the right to equality before the law. The court's reasoning and ultimate dismissal hinged on interpreting and applying this clause to the facts.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner alleged arbitrary and indiscriminate prosecution violating Article 12(1). The court held that prosecutorial discretion is reviewable if exercised in violation of fundamental rights and found no prima facie case of such violation here.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

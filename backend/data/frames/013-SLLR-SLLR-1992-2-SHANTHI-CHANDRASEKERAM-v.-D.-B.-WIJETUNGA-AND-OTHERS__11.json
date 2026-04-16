@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_013-SLLR-SLLR-1992-2-SHANTHI-CHANDRASEKE_016_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. 1/92, 2/92, 3/92",
+    "case_title": "Shanthi Chandrasekeram v. D. B. Wijetunga and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1992-05-04",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. 1/92, 2/92, 3/92, decided on 4 May 1992"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the alleged treatment of the detenues constituted a violation of Article 11 prohibiting torture or cruel, inhuman or degrading treatment.",
+    "petitioner_claim": "The petitioners alleged that the detenues were blindfolded for three days and subjected to torture and cruel, inhuman and degrading treatment, including a merciless assault.",
+    "respondent_argument": "The respondents did not provide evidence or particulars of the treatment, nor did they link the alleged acts to any party to the habeas corpus applications.",
+    "key_facts": [
+      "Detenues were blindfolded for three days after arrest.",
+      "Allegations of torture and cruel, inhuman and degrading treatment were made by the detenues.",
+      "No particulars or evidence were provided to substantiate the allegations.",
+      "No evidence that the respondents were responsible for the alleged treatment.",
+      "No prima facie evidence of infringement of Article 11 was found."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 11 prohibits torture and cruel, inhuman or degrading treatment, but the allegations must be supported by prima facie evidence and linked to the respondents or parties to the application.",
+    "application_to_facts": "The Court found only assertions without particulars or evidence, and no connection to the respondents, thus no basis to find infringement of Article 11.",
+    "principles_established": [
+      "Allegations of torture or cruel treatment require prima facie evidence.",
+      "Responsibility must be linked to a party to the application for Article 11 to be engaged."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The petitioners were not entitled to relief under Article 11 as there was no prima facie evidence of infringement.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the petitioners' claim of torture and cruel treatment, but the Court found no prima facie evidence to uphold that claim, leading to dismissal of relief under this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court noted the allegations of blindfolding and assault but found no particulars or evidence linking the respondents to the alleged torture or cruel treatment.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2880,
+      "end_char": 3100
+    }
+  }
+}

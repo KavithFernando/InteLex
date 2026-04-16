@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_034-SLLR-SLLR_1989_V_1-NAMASIVAYAM_V._GU_078_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 166/86",
+    "case_title": "Namasivayam v. Gunawardena",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1987-09-04",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 166/86, decided on 4 September 1987"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was unlawfully arrested without being informed of the reason, violating Article 13(1).",
+    "petitioner_claim": "The petitioner claimed he was arrested on 28.7.86 without being informed of the reason, was unlawfully detained, assaulted, and forced to make a statement under duress.",
+    "respondent_argument": "The respondents denied arrest on 28.7.86, stating the petitioner was asked to accompany police for questioning and released after statement; later arrested on 4.8.86 under Emergency Regulations with valid detention orders.",
+    "key_facts": [
+      "Petitioner was traveling by bus on 28.7.86 when arrested by 3rd respondent without being informed of reason.",
+      "Petitioner was taken to a security camp, assaulted, and forced to make a statement.",
+      "Respondents admit taking petitioner on 28.7.86 but claim it was for questioning and release after statement.",
+      "Petitioner was detained from 4.8.86 under Emergency Regulations with detention orders.",
+      "Petitioner was not allowed access to his lawyer during detention."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that arrest includes being taken to the police station and deprived of liberty even without physical force, and that the failure to inform the petitioner of the reason for arrest violated Article 13(1).",
+    "application_to_facts": "The 3rd respondent's act of taking the petitioner to the police station without informing him of the reason constituted an unlawful arrest violating Article 13(1). The explanation given by the respondent did not justify the arrest.",
+    "principles_established": [
+      "Arrest includes deprivation of liberty without actual use of force if submission is procured.",
+      "Failure to inform the arrested person of the reason for arrest violates Article 13(1).",
+      "Liberty is a fundamental constitutional right that cannot be arbitrarily interfered with."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental rights under Article 13(1) were violated by the unlawful arrest and failure to inform the reason.",
+    "disposition": "granted",
+    "remedy_or_orders": "Ordered the State to pay the petitioner Rs. 3000/- as compensation for the violation."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the court’s finding that the petitioner’s arrest was unlawful because he was not informed of the reason, directly leading to the violation and remedy.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was arrested on 28.7.86 and was not informed the reason for his arrest; the 3rd respondent admitted taking him to the police station but did not inform the reason, constituting unlawful arrest under Article 13(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 390,
+      "end_char": 1420
+    }
+  }
+}

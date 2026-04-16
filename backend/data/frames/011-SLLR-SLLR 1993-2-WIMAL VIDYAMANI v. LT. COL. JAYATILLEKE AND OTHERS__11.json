@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_011-SLLR-SLLR_1993-2-WIMAL_VIDYAMANI_V.__012_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 852/91 SPL",
+    "case_title": "Wimal Vidyamani v. Lt. Col. Jayatilleke and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1992-06-16",
+    "source_citation": "Sri Lanka Law Reports [1993] 2 Sri L.R."
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment in police custody, violating Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioner claimed he was unlawfully arrested, detained, and subjected to torture by police officers while in custody, causing multiple injuries.",
+    "respondent_argument": "The respondents denied the assault allegations and claimed the petitioner had links with the JVP and was involved in subversive attacks at the Mill.",
+    "key_facts": [
+      "Petitioner was arrested and detained under emergency regulations without sufficient material linking him to subversive activities.",
+      "Judicial Medical Officer found 16 injuries on the petitioner consistent with assault by police while in custody.",
+      "Respondents did not dispute that petitioner had injuries at the time of arrest.",
+      "Petitioner had an exemplary service record and was not absent from work during subversive attacks as alleged by respondents.",
+      "Court found the arrest, detention, and torture unlawful and violative of fundamental rights."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 11 as prohibiting torture and cruel, inhuman or degrading treatment, and found that the injuries and circumstances indicated the petitioner was subjected to such treatment while in police custody.",
+    "application_to_facts": "The court relied on the JMO's medical report and the petitioner's consistent affidavit to conclude that the injuries were caused by police assault during detention, constituting a violation of Article 11.",
+    "principles_established": [
+      "Torture and cruel, inhuman or degrading treatment by police officers violate Article 11 of the Constitution.",
+      "Medical evidence and consistent affidavits can establish violations of Article 11 even if the injuries are old wounds.",
+      "Unlawful detention accompanied by torture aggravates the infringement of fundamental rights."
+    ],
+    "precedents_cited": [
+      "Amal Sudath Silva v. Kodituwakku",
+      "Geekiyanage Premalal Silva v. Rodrigo",
+      "Jayaratne v. Tennakoon",
+      "Gamlath v. Neville Silva"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s rights under Article 11 were infringed due to torture and cruel treatment by police officers during unlawful detention.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioner was awarded Rs. 20,000 as compensation for the infringement of his rights under Article 11."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the court’s reasoning as it directly addresses the prohibition of torture and cruel treatment, which the petitioner alleged and the court found to have occurred during police custody.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Judicial Medical Officer found 16 injuries on the petitioner consistent with assault by police officers while in custody; the petitioner’s affidavit described assaults with batons, wires, rubber pipes and clubs.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "frame_id": "RQ1_027-SLLR-SLLR-1992-V-1-JOSEPH-PERERA-ALI_026_C01__15(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. 107/86",
+    "case_title": "Joseph Perera Alias Bruten Perera v. The Attorney-General and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1987-05-25",
+    "source_citation": "Sri Lanka Law Reports [1992] 1 SriL.R."
+  },
+  "clause": {
+    "article": "15(2)",
+    "text": "Freedom of speech may be restricted for harmony, defamation, or incitement."
+  },
+  "case_context": {
+    "legal_issue": "Whether the arrest and detention of the petitioners for distributing leaflets and posters without police permission violated their fundamental right to freedom of speech under Article 15(2).",
+    "petitioner_claim": "The petitioners argued that their freedom of speech and expression was violated as the leaflets and posters distributed were innocuous political expression and did not incite hatred or contempt against the government, and that Regulation 28(1) requiring police permission was ultra vires and unconstitutional.",
+    "respondent_argument": "The respondents contended that the petitioners had committed offences under Emergency Regulations including distributing materials that brought the government into hatred and contempt, justifying arrest and detention under Regulations 26(a), 26(d), 28 and 33, and that Regulation 28(1) was a valid restriction under Article 15(2) and (7).",
+    "key_facts": [
+      "Petitioners were members of the Revolutionary Communist League and organized a public meeting.",
+      "Leaflets and posters were distributed without police permission as required by Regulation 28(1).",
+      "Police arrested petitioners on suspicion of inciting hatred and contempt against the government.",
+      "Regulation 28(1) required prior police permission for distribution of any posters, handbills or leaflets.",
+      "Petitioners detained from 26 June 1986 to 7 August 1986."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that freedom of speech is not absolute but any restriction must be narrowly tailored and justified under Article 15(2) or (7). Regulation 28(1) imposed a prior restraint requiring police permission for distribution of all posters and leaflets regardless of content, granting unfettered discretion to police without objective standards, thus violating Article 12 equality and freedom of expression. The regulation lacked a rational nexus to national security or public order and was overbroad and unconstitutional.",
+    "application_to_facts": "The court found that the petitioners' leaflets and posters did not incite hatred or contempt against the government and were legitimate political expression. The blanket requirement of police permission was an unconstitutional prior restraint. Therefore, the arrest and detention based on violation of Regulation 28(1) was not justified under Article 15(2).",
+    "principles_established": [
+      "Freedom of speech may be restricted only on grounds enumerated in Article 15(2) and (7).",
+      "Prior restraint requiring police permission must have narrow, objective, and definite standards.",
+      "Regulations granting unguided discretion to officials violate equality before the law and freedom of expression.",
+      "Overbroad restrictions that chill free speech are unconstitutional.",
+      "There must be a proximate and rational nexus between restriction and interests of national security or public order."
+    ],
+    "precedents_cited": [
+      "Yasapala v. Wickremasinghe",
+      "Yick Wo v. Hopkins",
+      "New York Times v. US",
+      "Bantan Books v. Sullivan",
+      "Organisation for a Better Austin v. Kiefe",
+      "Stant v. Banter",
+      "Shuttleworth v. City of Birmingham"
+    ]
+  },
+  "outcome": {
+    "holding": "Regulation 28(1) was declared invalid as it violated Article 15(2) and the petitioners' fundamental right to freedom of speech and expression. The arrest and detention based on this regulation were unlawful.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioners were awarded compensation of Rs. 25,000 each and costs of Rs. 3,000 each."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 15(2) sets the permissible grounds for restricting freedom of speech, which the court used to assess the validity of Regulation 28(1) and the justification for the petitioners' arrest and detention. The court found no valid restriction under this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that Regulation 28(1) requiring police permission for distribution of any posters or leaflets was an unconstitutional prior restraint violating Article 15(2) as it conferred unguided discretion on police and lacked a rational nexus to public order or national security.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

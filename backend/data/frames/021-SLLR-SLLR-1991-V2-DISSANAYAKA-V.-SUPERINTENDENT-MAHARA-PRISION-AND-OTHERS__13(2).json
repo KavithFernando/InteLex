@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1991-V2-DISSANAYAKA-V.-SUP_051_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (Spl.) 6/90",
+    "case_title": "Dissanayaka v. Superintendent Mahara Prison and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1991-03-28",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (Spl.) 6/90, decided on 28 March 1991"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s detention complied with Article 13(2) of the Constitution, specifically regarding lawful detention orders, place of detention, and timely production before a judge.",
+    "petitioner_claim": "The petitioner claimed unlawful detention from 08.03.89 to 25.05.89 at Galnewa Police Station without valid detention order, failure to transfer to Boossa Detention Camp as ordered, and unlawful extensions of detention beyond lawful periods without court order.",
+    "respondent_argument": "The respondents argued initial detention was lawful under PTA sections 6(1) and 7(1), detention orders were valid, and extensions were proper. They claimed difficulties in transferring petitioner to Boossa justified delay.",
+    "key_facts": [
+      "Petitioner arrested on 08.03.89 but detention order applied only on 04.04.89 and issued on 06.04.89.",
+      "Petitioner kept at Galnewa Police Station until 23.05.89 despite detention order specifying Boossa as place of detention.",
+      "Detention orders extended multiple times but some extensions lacked proper justification.",
+      "Petitioner produced before High Court on 12.02.90 and remanded to Fiscal Custody.",
+      "Court found detention at Galnewa before transfer and detention after 25.09.89 unlawful."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires detention to be lawful, with valid detention orders and compliance with conditions including place of detention and timely production before a judge. The Court held that the entire detention order including place and conditions is mandatory and non-compliance cannot be excused except on exceptional grounds.",
+    "application_to_facts": "The Court found the petitioner was unlawfully detained at Galnewa Police Station for nearly a month before the detention order was made and unlawfully kept there despite the order specifying Boossa. Extensions of detention after 25.09.89 were not supported by objective grounds and thus unlawful. The petitioner’s detention infringed Article 13(2).",
+    "principles_established": [
+      "Detention orders and conditions including place of detention are mandatory under Article 13(2).",
+      "Non-compliance with detention order conditions is unlawful unless exceptional circumstances exist.",
+      "Detention must be supported by objective grounds and rational basis; mere expediency is insufficient.",
+      "Detention without lawful order or beyond lawful period violates fundamental rights."
+    ],
+    "precedents_cited": [
+      "Senthilnayagam v. Seneviratne [1981] 2 Sri LR 187",
+      "Somasiri v. Sub-Inspector Jayasena SC Application No. 147/88",
+      "Wickremabandu v. Cyril Herat SC Application No. 27/88"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner’s detention from 08.03.89 to 25.05.89 and from 25.09.89 to 12.02.90 was unlawful and infringed Article 13(2) of the Constitution, entitling him to compensation.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation of Rs. 14,000/- ordered to be paid to the petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was central to the Court’s determination that the petitioner’s detention was unlawful due to failure to comply with mandatory detention order conditions and lack of lawful authority for extended detention, leading to a finding of fundamental rights infringement.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was detained unlawfully at Galnewa Police Station before transfer to Boossa despite detention order specifying Boossa, and detention extensions after 25.09.89 lacked objective justification, violating Article 13(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2700,
+      "end_char": 3200
+    }
+  }
+}

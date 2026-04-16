@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_044-SLLR-SLLR-1998-V-2-DISSANAYAKE-ATTON_061_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 524/96",
+    "case_title": "Dissanayake, Attorney-at-Law on Behalf of K.M. Lai v. Sujeewa, Sub Inspector of Police, Meetiyagoda Police Station and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-12-17",
+    "source_citation": "Sri Lanka Law Reports (1998) 2 Sri L.R. 413"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to cruel, inhuman or degrading treatment by the police in violation of Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that he was assaulted by police officers with hands, feet, and a club while unconscious after being arrested at his home, constituting a violation of Article 11 rights.",
+    "respondent_argument": "The respondents claimed the petitioner was arrested on a complaint of threatening bodily harm, was under the influence of liquor, and that the injury was caused by another individual, Tillakaratne, not the police.",
+    "key_facts": [
+      "Petitioner was asleep at home when police arrived and arrested him.",
+      "Petitioner was assaulted by police officers causing a fatal injury requiring surgery.",
+      "Medical reports confirmed the injury was fatal in the ordinary course of nature but petitioner survived.",
+      "Respondents' version that injury was caused by a third party was rejected by the court.",
+      "Petitioner was unconscious at the time of hospital admission with no external injuries noted by hospital but police noted an abrasion."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 11 as prohibiting torture or cruel, inhuman or degrading treatment, and found that the assault by police officers on the petitioner constituted such a violation.",
+    "application_to_facts": "The court found the petitioner's credible evidence and medical reports supported that the police caused the injury, rejecting the respondents' version, thus establishing a violation of Article 11 rights.",
+    "principles_established": [
+      "Police officers are prohibited from inflicting cruel, inhuman or degrading treatment under Article 11.",
+      "Medical evidence and credible affidavits are critical in establishing violations of fundamental rights.",
+      "Injuries fatal in the ordinary course of nature caused by police assault constitute a breach of Article 11."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental rights under Article 11 were violated by the police assault.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioner was awarded Rs. 50,000 compensation payable by the State, Rs. 5,000 costs from the State, and Rs. 5,000 compensation payable personally by the 1st respondent."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the court’s reasoning as the petitioner’s claim was that police assault constituted cruel, inhuman or degrading treatment, which the court found to be true and thus violated the Constitution.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found the respondents' version incredible and accepted the petitioner’s credible evidence and medical reports showing police caused fatal injury, violating Article 11 rights.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

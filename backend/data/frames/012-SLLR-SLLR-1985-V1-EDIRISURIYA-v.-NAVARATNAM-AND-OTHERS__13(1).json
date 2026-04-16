@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-1985-V1-EDIRISURIYA-V.-NAV_025_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 109/84",
+    "case_title": "Edirisuriya v. Navaratnam and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-01-15",
+    "source_citation": "Sri Lanka Law Reports (1985) 1 SriL.R."
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was lawfully arrested and informed of the reason for arrest in compliance with Article 13(1).",
+    "petitioner_claim": "The petitioner claimed he was not informed of the reason for his arrest and that the arrest was not according to procedure established by law, thus violating Article 13(1).",
+    "respondent_argument": "The respondents argued that the petitioner was lawfully arrested on suspicion of involvement in the burning of the Magistrate's Court, the reason for arrest was explained, and the arrest complied with legal procedures.",
+    "key_facts": [
+      "Petitioner was taken from his home on 20 July 1984 by police officers.",
+      "Detention Order was served on 21 July 1984 under Emergency Regulations.",
+      "Petitioner alleged he was not informed of the reason for arrest at any time.",
+      "Respondents stated the reason for arrest was explained as related to investigation of court burning.",
+      "Petitioner was detained at old Police Station, Galle, and questioned about the incident."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that an arrest must be according to law and the person arrested must be informed of the reason. However, the Court found that the petitioner was in fact arrested on 20 July 1984, and whether or not he was informed at that time, the arrest was established by the circumstances and the petitioner, a lawyer, would have realized he was under arrest by 27 July 1984.",
+    "application_to_facts": "The Court examined the facts including the police officers' conduct, the detention order, and the petitioner's own statements. It concluded the petitioner was arrested according to law and the objection that he was not informed of the reason was unsustainable given the evidence.",
+    "principles_established": [
+      "An arrest must be according to law and the arrested person must be informed of the reason.",
+      "The Court will consider the circumstances and conduct to determine if an arrest occurred even if the person claims not to have been informed.",
+      "The time limit for filing a fundamental rights application runs from the date of arrest, whether or not the person was explicitly informed."
+    ],
+    "precedents_cited": [
+      "Vadivet Mahenthiran v. A.G.",
+      "B. M. Jayawardena v. A.G.",
+      "Gunawardena et al v. E. L. Senanayake et al.",
+      "Hewakuruppu v. G. A. de Silva, Tea Commissioner et al.",
+      "Janatha Finance and Investments Ltd. v. D. J. F. Liyanage",
+      "Yasapala v. Ranil Wickremasinghe et al.",
+      "Kumaranatunga v. Samarasinghe and Others"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court upheld the respondents' objection that the petitioner's claim under Article 13(1) was out of time and that the arrest was lawful and in accordance with procedure established by law.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) is central to the petitioner's claim of unlawful arrest and failure to inform him of the reason, which the Court directly addressed in its reasoning and holding.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the petitioner was arrested on 20 July 1984, and despite his claim of not being informed, the circumstances and evidence showed the arrest was lawful and the petitioner was aware of it by 27 July 1984.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_031-SLLR-SLLR-1998-V-2-PRIYANKARA-V.-PC-_074_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_214_96",
+    "case_title": "Priyankara v. PC Sisira Kumara, Police Station, Puttalam and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-05-21",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No 214/96 (Spl.), decided on 21 May 1998"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was unlawfully arrested without being informed of the reason, violating Article 13(1).",
+    "petitioner_claim": "The petitioner claimed he was unlawfully arrested at the police station when he came to make a complaint, assaulted by police officers, and detained without lawful cause or being informed of the reason.",
+    "respondent_argument": "The respondents denied the arrest and assault allegations, claiming no arrest was made and that the petitioner was involved in a fight with a police officer, thus justifying their actions.",
+    "key_facts": [
+      "Petitioner was assaulted by a police officer on a bus and at the bus stand.",
+      "Petitioner went to the police station to complain but was assaulted by the Officer-in-Charge (3rd respondent) and other police officers.",
+      "Petitioner was locked up in a cell without lawful arrest procedure or being informed of the reason.",
+      "Petitioner was hospitalized due to injuries sustained from the assault.",
+      "Respondents denied arrest and assault, claiming no arrest was made and investigation was ongoing."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 13(1) as prohibiting any arrest except according to law and requiring that the arrested person be informed of the reason for arrest. The petitioner’s detention and assault at the police station without lawful arrest procedure violated this constitutional protection.",
+    "application_to_facts": "The petitioner came to the police station on legitimate business but was assaulted and locked up without lawful arrest or being informed of the reason, breaching Article 13(1). The respondents’ denial was disbelieved based on the evidence and conduct of the police officers.",
+    "principles_established": [
+      "Arrest must be lawful and the person arrested must be informed of the reason.",
+      "Police officers must treat persons with legitimate business at police stations with care and courtesy.",
+      "Unlawful arrest and detention constitute a violation of fundamental rights under Article 13(1)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s rights under Article 13(1) were infringed by the respondents due to unlawful arrest and assault.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 3rd respondent was ordered to pay Rs. 20,000, the 1st and 2nd respondents Rs. 7,500 each, and the state Rs. 15,000 as compensation, with costs fixed at Rs. 6,000."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) directly protects against unlawful arrest and requires informing the arrested person of the reason, which was central to the court’s finding that the petitioner was unlawfully arrested and assaulted at the police station.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was locked up in a cell at the police station without lawful arrest procedure and was assaulted by police officers, breaching Article 13(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

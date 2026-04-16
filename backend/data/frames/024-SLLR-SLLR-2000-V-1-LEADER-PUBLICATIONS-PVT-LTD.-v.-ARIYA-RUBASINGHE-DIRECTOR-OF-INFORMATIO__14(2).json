@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_024-SLLR-SLLR-2000-V-1-LEADER-PUBLICATIO_046_C01__14(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC(FR)362/2000",
+    "case_title": "Leader Publications (Pvt) Ltd. v. Ariya Rubasinghe, Director of Information and Competent Authority and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-06-19",
+    "source_citation": "Supreme Court of Sri Lanka, SC (FR) No. 362/2000, decided on 19 June 2000"
+  },
+  "clause": {
+    "article": "14(2)",
+    "text": "Certain long-term residents are entitled to these rights for ten years."
+  },
+  "case_context": {
+    "legal_issue": "Whether the 1st respondent was validly appointed as the Competent Authority under Regulation 14 of the Emergency Regulations and thus had the power to prohibit the petitioner from printing, publishing, and distributing its newspaper under Regulation 14(2).",
+    "petitioner_claim": "The petitioner argued that the 1st respondent was not validly appointed as Competent Authority under Regulation 14, and therefore the orders prohibiting publication and taking possession of the printing press were null and void and violated fundamental rights.",
+    "respondent_argument": "The respondents argued that the 1st respondent was validly appointed by the President as Competent Authority under the Emergency Regulations and the Public Security Ordinance, and that the appointment and orders were lawful and valid.",
+    "key_facts": [
+      "The petitioner is a company publishing newspapers including The Sunday Leader.",
+      "The President appointed the 1st respondent as Competent Authority by Gazette notification under Regulation 14(1).",
+      "The 1st respondent issued orders under Regulation 14(2) prohibiting the petitioner from publishing for six months and took possession of the printing press.",
+      "The petitioner challenged the validity of the 1st respondent's appointment and orders as violating fundamental rights.",
+      "The court examined the validity of the appointment under the Public Security Ordinance and Emergency Regulations."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the appointment of the Competent Authority under Regulation 14 must comply with section 6 of the Public Security Ordinance, which requires a substantive enactment empowering the authority to make orders. The definition of 'Competent Authority' in Regulation 2(1) was a drafting error and did not have substantive effect to empower the 1st respondent. The President's appointment by Gazette notification was insufficient to validly empower the 1st respondent under the delegated legislation scheme.",
+    "application_to_facts": "Since no regulation specifically empowered the 1st respondent as Competent Authority for Regulation 14, and the appointment did not comply with the required substantive enactment under section 6 of the Public Security Ordinance, the 1st respondent had no power to make the orders prohibiting publication and taking possession of the printing press. Therefore, the orders were null and void.",
+    "principles_established": [
+      "Delegated powers must be exercised strictly in accordance with the enabling legislation.",
+      "A definition in regulations cannot be construed as substantive empowerment if it conflicts with the enabling statute.",
+      "The President's power to appoint Competent Authorities under emergency regulations must comply with section 6 of the Public Security Ordinance.",
+      "Publicity and identification of the Competent Authority are essential for the exercise of emergency powers affecting fundamental rights."
+    ],
+    "precedents_cited": [
+      "Pargan Singh v. Secretary of State for the Home Department (1992) 1 W.L.R. 1052",
+      "Blackpool Corporation v. Locker (1948) 1 K.B. 349",
+      "Wakefield Board of Health v. West Riding & Grimsby Railway Co. (1865) LR 1 QB 84"
+    ]
+  },
+  "outcome": {
+    "holding": "The court declared that the 1st respondent had no power or authority to act under Regulation 14 and that the order dated 22 May 2000 prohibiting the petitioner from printing, publishing, and distributing newspapers and taking possession of the printing press was null and void and of no legal effect.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declared the 1st respondent's appointment as Competent Authority a nullity.\nDeclared the 22 May 2000 order null and void.\nOrdered the Inspector-General of Police to restore possession of the printing press and premises to the petitioner.\nOrdered the State to pay Rs. 100,000 as costs to the petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Regulation 14(2) of the Emergency Regulations, which the 1st respondent purported to act under, is directly related to the rights and powers concerning control of publications. The court's reasoning focused on whether the 1st respondent was validly appointed as Competent Authority under this regulation, making the clause central to the decision.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the 1st respondent was not empowered by the regulations to act under Regulation 14 within the meaning of section 6 of the Public Security Ordinance, and the appointment by Gazette notification was not an effective exercise of delegated power.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

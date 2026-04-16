@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_023-SLLR-SLLR_1998_V_2-JAYASINGHE_V._SUB_056_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 66/97",
+    "case_title": "Jayasinghe v. Sub Inspector of Police, Jayakody and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-02-06",
+    "source_citation": "Sri Lanka Law Reports (1998) 2 Sri LR. 204"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was lawfully arrested and informed of the reason for arrest as required by Article 13(1).",
+    "petitioner_claim": "The petitioner claimed he was arrested on 22.12.1996 without being informed of the reason for his arrest.",
+    "respondent_argument": "The respondents claimed the petitioner was arrested on 25.12.1996 and that the arrest was lawful with use of minimum force.",
+    "key_facts": [
+      "Petitioner was arrested on 22.12.1996 according to petitioner and witnesses; respondents claimed arrest on 25.12.1996.",
+      "Petitioner was not informed of the reason for arrest at the time of arrest.",
+      "Petitioner was produced before a Magistrate only on 26.12.1996.",
+      "Police records (IB extracts) were self-serving and not fully credible.",
+      "Petitioner was subjected to physical abuse while in custody."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) requires that no person be arrested except according to law and that the person must be informed of the reason for arrest. The petitioner was not informed of the reason at the time of arrest, violating this constitutional guarantee.",
+    "application_to_facts": "The court found the petitioner was arrested on 22.12.1996 and was not informed of the reason for arrest, contrary to the respondents' claim. The police records were not credible to rebut the petitioner’s evidence. Therefore, the arrest was unlawful under Article 13(1).",
+    "principles_established": [
+      "Arrest must be according to law and the arrested person must be informed of the reason immediately.",
+      "Self-serving police records may be given little weight if contradicted by credible evidence."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner was unlawfully arrested on 22.12.1996 without being informed of the reason, violating Article 13(1).",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation awarded to petitioner from respondents and the state."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the court's determination that the petitioner’s arrest was unlawful because he was not informed of the reason for arrest, directly violating the constitutional protection.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was arrested on 22.12.1996 and was not informed of the reason for arrest; police records stating arrest on 25.12.1996 were self-serving and not credible.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2040,
+      "end_char": 2300
+    }
+  }
+}

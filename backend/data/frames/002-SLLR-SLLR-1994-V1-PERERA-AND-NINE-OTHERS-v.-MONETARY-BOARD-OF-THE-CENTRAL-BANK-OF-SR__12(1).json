@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_002-SLLR-SLLR-1994-V1-PERERA-AND-NINE-OT_008_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATIONS_FR_246_93",
+    "case_title": "Perera and Nine Others v. Monetary Board of the Central Bank of Sri Lanka & Twenty-Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-11-16",
+    "source_citation": "[1994] 1 SriL.R. 152"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the appointment of the 11th to 22nd respondents as Staff Class Grade 1 Officers violated the petitioners' fundamental right to equality under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners claimed that their right to equality was violated because they were unfairly excluded and the 11th to 22nd respondents, who were of lower rank, were promoted instead.",
+    "respondent_argument": "The respondents argued that the Central Bank had statutory authority under section 10 of the Monetary Law Act to recruit staff and that the selection was made according to their own schemes of recruitment and discretion. They also contended that the power of recruitment was not unlimited and that the Public Administration Circulars did not apply to the Bank.",
+    "key_facts": [
+      "Petitioners and respondents were employees of the Central Bank of Sri Lanka.",
+      "The Bank used schemes of recruitment and promotion, including amendments not publicized.",
+      "Four petitioners were in Non-Staff Class Grade 5, a higher grade than the 11th to 22nd respondents who were in Grade 4.",
+      "The selection process involved a single interview panel instead of the prescribed three interviews.",
+      "The interview process was brief, lacked transparency, and used undisclosed ad hoc criteria."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) guarantees equal treatment before the law and equal protection. The power of recruitment by the Bank is subject to the law, including Article 12(1). The selection process must be justifiable, transparent, and based on rational criteria related to the institution's objectives. Treating unequals equally is unjust, and distinctions must be rational and not arbitrary or biased.",
+    "application_to_facts": "The Court found that the Bank failed to publicize amendments to the recruitment scheme, used ad hoc and undisclosed criteria, and conducted a single, brief interview that did not adhere to the Board's own scheme requiring three interviews. Grade 5 officers were treated as inferior to Grade 4 officers without rational basis, violating their legitimate expectations. The selection process lacked transparency and fairness, resulting in arbitrary discrimination against the petitioners.",
+    "principles_established": [
+      "Recruitment powers of statutory bodies are subject to constitutional equality guarantees.",
+      "Selection schemes must be publicized and based on intelligible differentia rationally related to recruitment objectives.",
+      "Discretion in recruitment must be exercised justly, without invidious discrimination or favouritism.",
+      "Transparency in recruitment promotes public confidence and industrial peace.",
+      "Treating unequals equally is a violation of equality rights."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court declared that the selection of the 11th to 22nd respondents in preference to the petitioners violated Article 12(1) of the Constitution and that their appointments were null and void.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Court directed the Central Bank to make promotions to Staff Class Grade 1 within two months and awarded solatium payments to the petitioners for the violation of their fundamental rights."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it guarantees equality before the law and equal protection, which the petitioners claimed was violated by arbitrary and discriminatory recruitment and promotion practices by the Central Bank.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the Bank's recruitment process was arbitrary, lacked transparency, used undisclosed ad hoc criteria, and treated higher grade officers unequally, violating Article 12(1). The appointments of the 11th to 22nd respondents were declared null and void.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

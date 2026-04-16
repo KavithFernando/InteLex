@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_025-SLLR-SLLR-2001-V-1-VICTOR-IVAN-AND-O_049_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_898_99_FR",
+    "case_title": "Victor Ivan and Others v. Hon. Sarath N. Silva and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2001-06-20",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application Nos. 898/99 (FR), 901/99 (FR), 902/99 (FR), decided on 20 June 2001"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the appointment of the 1st Respondent as Chief Justice infringed the petitioners' fundamental rights under Article 14(1)(a) relating to freedom of speech and expression.",
+    "petitioner_claim": "The petitioner in SC Application 901/99(F/R) claimed that his fundamental right to freedom of speech and expression was infringed by the appointment of the 1st Respondent as Chief Justice due to allegations of moral turpitude against the Chief Justice.",
+    "respondent_argument": "The Attorney-General argued that the petitioner did not show how or in what manner his right to freedom of speech was infringed, and that the petitioner was appearing freely in court without restrictions.",
+    "key_facts": [
+      "The petitioner is a senior journalist and Deputy Editor of the Sunday Times.",
+      "No allegation was made that the petitioner was prevented from practicing his profession or expressing himself.",
+      "The appointment of the Chief Justice was challenged but no executive or administrative act violating fundamental rights was alleged.",
+      "The petitioner did not claim to be a contender for the office of Chief Justice."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the petitioner failed to demonstrate any actual infringement of his freedom of speech or expression by the appointment of the Chief Justice. Mere allegations without showing how the right was affected are insufficient.",
+    "application_to_facts": "Since the petitioner was able to appear and make submissions freely in court, and no evidence showed any restriction on his speech or profession, the court found no violation of Article 14(1)(a).",
+    "principles_established": [
+      "A petitioner must show how and in what manner the fundamental right was infringed.",
+      "Allegations without evidence or material showing infringement are insufficient.",
+      "Freedom of speech includes the ability to express oneself without restrictions."
+    ],
+    "precedents_cited": [
+      "Somawathie v. Weerasinghe (1990) 2 SRI LR 121"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that there was no violation of the petitioner's fundamental right to freedom of speech and expression under Article 14(1)(a).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioner claimed infringement of his freedom of speech and expression rights due to the appointment of the Chief Justice, making Article 14(1)(a) central to the claim and court's analysis.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner did not allege any restriction on his speech or profession and appeared freely in court; no material showed infringement of his freedom of speech or expression.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3490,
+      "end_char": 3570
+    }
+  }
+}

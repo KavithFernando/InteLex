@@ -1,0 +1,66 @@
+{
+  "frame_id": "RQ1_003-SLLR-SLLR_1983-1-GUNAWARDENA_V._PERE_004_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO.20/83",
+    "case_title": "Gunawardena v. Perera and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1983-06-08",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 20/83, decided on 8 June 1983"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was arrested in violation of Article 13(1) of the Constitution, i.e., arrested not according to law and without being informed of the reason.",
+    "petitioner_claim": "The petitioner claimed she was illegally arrested inside the Police Station by the 1st respondent without being informed of the reason, violating Article 13(1).",
+    "respondent_argument": "The respondents argued that the petitioner was arrested outside the Police Station by Sub-Inspector Ganeshananthan for conducting a procession without a lawful permit and obstructing police duty, and that the arrest was lawful under section 32(1)(f) of the Code of Criminal Procedure.",
+    "key_facts": [
+      "Petitioner participated in a demonstration and procession on 8 March 1983.",
+      "Sub-Inspector Ganeshananthan arrested the petitioner and others on Galle Road for conducting a procession without a permit and obstructing police.",
+      "Petitioner was allegedly arrested inside the Police Station by the 1st respondent, who denied arresting her.",
+      "The petitioner was not informed of the reason for arrest at the Police Station.",
+      "The legality of the procession and the arrest procedure was disputed."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) prohibits arrest except according to law and requires informing the arrested person of the reason. The court interpreted that the arrest must comply with legal procedure and the reason must be communicated to the person arrested.",
+    "application_to_facts": "The court found that the petitioner was not arrested by the 1st respondent inside the Police Station but by Sub-Inspector Ganeshananthan outside during the procession. However, the arrest by Ganeshananthan was unlawful because the procession was not illegal under the Police Ordinance as no permit was required, only notice, which was not proven to be absent. Therefore, the arrest was not according to law and violated Article 13(1). The State was held liable for this infringement as the arrest was executive action by a public officer.",
+    "principles_established": [
+      "Arrest must be according to procedure established by law and the arrested person must be informed of the reason.",
+      "A police officer acting under color of office commits executive action for which the State is liable.",
+      "Conducting a procession without a permit is not an offence if notice is given or not required; absence of permit does not justify arrest without warrant.",
+      "The burden of proof in fundamental rights infringement cases is a high degree of probability."
+    ],
+    "precedents_cited": [
+      "Velmurugu v. The Attorney General and another",
+      "Maharaj v. The Attorney General of Trinidad and Tobago (No. 2)",
+      "Thornhill v. Attorney General of Trinidad and Tobago",
+      "Mariyadas Raj v. Attorney General and another"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner was unlawfully arrested in contravention of Article 13(1) of the Constitution and that the State is liable for this infringement. The petitioner was awarded Rs. 2500/- as compensation.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was ordered to pay compensation of Rs. 2500/- to the petitioner. No costs were ordered."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) is central to the court's reasoning as the case concerns the legality of the petitioner's arrest and whether she was informed of the reason, which the court found was violated, leading to the State's liability and compensation order.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was arrested by Sub-Inspector Ganeshananthan during a procession without a lawful permit, but the court found no legal basis for the arrest as no permit was required, and the petitioner was not informed of the reason for arrest, violating Article 13(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

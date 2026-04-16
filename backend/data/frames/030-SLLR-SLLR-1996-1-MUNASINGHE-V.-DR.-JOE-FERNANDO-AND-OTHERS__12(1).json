@@ -1,0 +1,66 @@
+{
+  "frame_id": "RQ1_030-SLLR-SLLR-1996-1-MUNASINGHE-V.-DR.-J_149_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C.APPLICATION NO. 365/93",
+    "case_title": "Munasinghe v. Dr. Joe Fernando and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-12-06",
+    "source_citation": "[1996] 1 Sri L.R. 378"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the tender procedure calling for bids for Lambda-Cyhalothrin insecticide infringed the petitioner's fundamental right under Article 12(1) by discriminating against other potential suppliers.",
+    "petitioner_claim": "The petitioner argued that the tender process was discriminatory and violated Article 12(1) because (1) all other comparable anti-malarial insecticides were excluded without due cause, and (2) only the 6th Respondent and its nominees could tender for Lambda-Cyhalothrin due to patent protection and tailored tender specifications.",
+    "respondent_argument": "The respondents contended that other insecticides were not excluded, the packaging specifications were for practical convenience, the selection process was proper and non-discriminatory, and that only qualified formulators could tender, which did not amount to discrimination against the petitioner who was not qualified.",
+    "key_facts": [
+      "Tender called for 25 metric tonnes of Lambda-Cyhalothrin 10% water dispersible powder for Anti-Malaria Campaign.",
+      "ICI was the sole tenderer; petitioner was an agent of a competing company.",
+      "Tender specifications required supply in 62.5 gram units for practical use.",
+      "Lambda-Cyhalothrin was selected after WHO-approved village scale trials.",
+      "Only qualified formulators could tender; only two ICI associate companies qualified."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as requiring equality before the law and equal protection, but recognized that classification based on qualification is permissible. The fact that only one qualified tenderer existed did not constitute discrimination against others who were not in the same class.",
+    "application_to_facts": "The court found that the tender specifications and selection process were not arbitrary or discriminatory. The petitioner failed to prove exclusion of other insecticides or improper testing. The limitation to qualified formulators was a proper classification, and the sole qualified tenderer did not deny equality to others outside that class.",
+    "principles_established": [
+      "Classification based on qualification does not violate Article 12(1) if the class is properly constituted.",
+      "A monopoly by a sole qualified tenderer does not amount to discrimination if the class includes only that person.",
+      "Tender procedures can be annulled or bids rejected to prevent financial loss from unduly high bids by lone tenderers.",
+      "Deviation from tender procedures under Financial Regulation 799(2) is discretionary, not mandatory."
+    ],
+    "precedents_cited": [
+      "Ceylon Paper Sacks v. JEDB - SC 220/92A SCM 2.7.93",
+      "Taffy de Silva v. Atukorale [1993] 1 Sri LR 283",
+      "Jayawardena v. Dharmaratna (1951) 54 NLR 424",
+      "Julius v. Bishop of Oxford (1880) 5 AC 214"
+    ]
+  },
+  "outcome": {
+    "holding": "The petitioner's claim of discrimination under Article 12(1) was rejected; the tender procedure was not found to violate the fundamental right to equality.",
+    "disposition": "dismissed",
+    "remedy_or_orders": "Petition dismissed with costs payable to the 6th Respondent."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner's claim that the tender process was discriminatory and violated the right to equality. The court's reasoning focused on whether the classification of qualified tenderers was lawful under this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that only qualified formulators could tender, and since the petitioner was not qualified, there was no discrimination. The selection of Lambda-Cyhalothrin followed proper testing and was not arbitrary or discriminatory.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3780,
+      "end_char": 3990
+    }
+  }
+}

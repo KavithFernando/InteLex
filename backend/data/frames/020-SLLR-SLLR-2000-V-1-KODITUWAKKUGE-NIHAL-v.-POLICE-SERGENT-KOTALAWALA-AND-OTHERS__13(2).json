@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_020-SLLR-SLLR-2000-V-1-KODITUWAKKUGE-NIH_049_C01__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_126_94",
+    "case_title": "Kodituwakkuge Nihal v. Police Sergeant Kotalawala and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-09-13",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 126/94, decided on 13 September 1994"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Magistrate's remand order transferring the petitioner from police custody to prison custody without physically producing him before the Magistrate violated Article 13(2) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that he was held in custody without being physically produced before a Magistrate, violating his constitutional right under Article 13(2).",
+    "respondent_argument": "The respondents contended that the remand order was made by the Magistrate based on a 'B' report and that the transfer to prison custody was lawful.",
+    "key_facts": [
+      "Petitioner was arrested on 04.03.1994 and assaulted in police custody.",
+      "Petitioner was admitted to Kalubowila Hospital under police custody from 05.03.1994 to 11.03.1994.",
+      "On 06.03.1994, the Magistrate issued a remand order directing transfer to prison custody without the petitioner being physically produced before him.",
+      "Petitioner was taken into prison custody on 11.03.1994 and produced before the Magistrate only on 16.03.1994.",
+      "The Magistrate's order and journal entries indicate the petitioner was not physically present when the remand order was made."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(2) requires that any detained person must be physically brought before a judge and cannot be held without a legal order made in their presence. The Magistrate's remand order made without the petitioner's physical presence was unlawful and violated the constitutional protection of liberty.",
+    "application_to_facts": "Since the petitioner was not physically produced before the Magistrate on 06.03.1994 when the remand order was made, the order was invalid and constituted an illegal deprivation of liberty under Article 13(2).",
+    "principles_established": [
+      "A remand order must be made with the detainee physically before the Magistrate to satisfy Article 13(2).",
+      "Any order made without physical production of the detainee is void and infringes fundamental rights.",
+      "The liberty of the subject cannot be eroded by procedural shortcuts or indirect orders."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the Magistrate's remand order of 06.03.1994 was unlawful and violated Article 13(2) of the Constitution.",
+    "disposition": "granted",
+    "remedy_or_orders": "The court directed the Registrar to notify the Judicial Service Commission for appropriate action regarding the Magistrate's conduct."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was central to the court's reasoning as it protects detainees from being held without a legal order made in their presence. The court found the Magistrate's order violated this clause, directly impacting the outcome.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Magistrate's remand order dated 06.03.1994 was made without the petitioner being physically present, violating Article 13(2) which requires detainees to be brought before a judge.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

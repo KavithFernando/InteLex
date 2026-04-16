@@ -1,0 +1,80 @@
+{
+  "frame_id": "RQ1_017-SLLR-SLLR-2006-V-3-PIYASENA-VS.-ASSO_095_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "FR_390_2005",
+    "case_title": "Piyasena vs. Associated Newspapers of Ceylon Ltd. and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2006-10-25",
+    "source_citation": "Sri Lanka Law Reports (2006) 3 Sri L R"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the promotion granted by the 2nd respondent (ANCL) violated the petitioner's fundamental right under Article 12(1) of the Constitution, and whether ANCL is amenable to fundamental rights jurisdiction as an instrumentality or agency of the State.",
+    "petitioner_claim": "The petitioner alleged that the promotion granted to the 7th respondent by ANCL violated his fundamental right to equality guaranteed under Article 12(1).",
+    "respondent_argument": "The respondents contended that ANCL is not amenable to fundamental rights jurisdiction as it is a company and not an instrumentality of the State, and that the petitioner failed to comply with procedural requirements under Rule 44(1)(c) of the Supreme Court Rules.",
+    "key_facts": [
+      "ANCL is a company whose status was changed by statute (Special Provisions Law No. 28 of 1973).",
+      "At least 75% of ANCL shares are vested in the Public Trustee on behalf of the Government.",
+      "The Minister has regulatory powers over ANCL under the statute.",
+      "The petitioner is an employee of ANCL alleging violation of equality rights due to a promotion given to another employee.",
+      "Preliminary objections raised questioned ANCL's status as a State agency and compliance with procedural rules."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(1) as guaranteeing equality before the law and equal protection, applicable against executive or administrative action by State agencies or instrumentalities. The Court adopted a broad view of 'executive or administrative action' to include acts by State agencies, including statutory corporations under government control.",
+    "application_to_facts": "The Court found that ANCL, being a statutory body with at least 75% government shareholding, subject to ministerial control and audit by the Auditor General, is an instrumentality or agency of the State. Therefore, its actions constitute executive or administrative action amenable to fundamental rights jurisdiction under Article 12(1).",
+    "principles_established": [
+      "A statutory corporation with government control and regulatory oversight qualifies as a State agency for fundamental rights purposes.",
+      "The fundamental rights jurisdiction cannot be restricted by technicalities or narrow interpretations of 'executive or administrative action'.",
+      "The 'deep and pervasive control' test is relevant but not exclusive; the character and control of the institution must be examined.",
+      "The State remains accountable for actions of its instrumentalities even if they operate commercially."
+    ],
+    "precedents_cited": [
+      "Thadchanamurthi vs. Attorney General",
+      "Velmurugu vs. Attorney General",
+      "Ireland vs. United Kingdom",
+      "Marriadas vs. Attorney General",
+      "Wijetunga vs. Insurance Corporation",
+      "Gunawardane vs. Perera",
+      "Perera vs. University Grants Commission",
+      "Peter Leo Fernando vs. Attorney General",
+      "Rajaratne vs. Air Lanka",
+      "Leo Samson vs. Air Lanka",
+      "Jayakody vs. Sri Lanka Insurance and Robinson Hotel Company Ltd.",
+      "Som Prakash Rekhi vs. Union of India",
+      "Sukhdev Singh vs. Bhagatram",
+      "Ramana Dayaram Shetty vs. The International Airport Authority of India",
+      "Ajay Hasia vs. Khalid Kujid",
+      "Romesh Thappar vs. State of Madras",
+      "Prem Chanr Gag vs. Excise Commissioner UP",
+      "B.V.M. Fernando and others vs. Associated Newspapers of Ceylon Ltd."
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that ANCL is an instrumentality or agency of the State and its actions constitute executive or administrative action amenable to fundamental rights jurisdiction under Article 12(1). The preliminary objection that ANCL is not subject to fundamental rights jurisdiction was overruled.",
+    "disposition": "granted",
+    "remedy_or_orders": "Preliminary objections overruled with costs of Rs. 10,000 payable by ANCL to the petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) guarantees equality before the law and equal protection, which the petitioner claimed was violated by ANCL's promotion decision. The Court's determination that ANCL is a State agency made Article 12(1) directly applicable to the case, forming the basis for fundamental rights jurisdiction and the Court's decision.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that ANCL is a statutory body with government control, including 75% shares vested in the Public Trustee on behalf of the Government, ministerial regulatory powers, and audit by the Auditor General, thus qualifying as a State agency subject to fundamental rights jurisdiction.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_014-SLLR-SLLR-1993-2-TILAK-KARUNARATNE-V_024_C02__14(1)(c)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_SLLR_1993_2_014",
+    "case_title": "Tilak Karunaratne v. Mrs. Sirimavo Bandaranaike and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1993-08-03",
+    "source_citation": "Supreme Court of Sri Lanka, SC (Spl.) 3/93, decided on 3 August 1993"
+  },
+  "clause": {
+    "article": "14(1)(c)",
+    "text": "Freedom of association."
+  },
+  "case_context": {
+    "legal_issue": "Whether the expulsion of a party member for public criticism violated the constitutional freedom of association and how freedom of association limits freedom of speech within a political party.",
+    "petitioner_claim": "The petitioner claimed that as a member of a voluntary association (the SLFP), he had a right to express his views and that the freedom of association under Article 14(1)(c) entails reciprocal obligations including reasonable self-limitation on speech, which the party leadership failed to respect by not providing internal forums for discussion.",
+    "respondent_argument": "The respondents argued that freedom of association allows a political party to impose discipline on its members, including restrictions on public criticism, and that the petitioner breached these obligations by going public without exhausting internal party mechanisms.",
+    "key_facts": [
+      "SLFP is a voluntary association with a party constitution creating contractual obligations for members.",
+      "No intra-party elections had been held since 1986, despite the petitioner's repeated requests.",
+      "Petitioner was suspended and later expelled after making public statements criticizing party leadership and lack of democracy.",
+      "Petitioner was denied effective internal forums to express his views due to non-convening of meetings and leadership resistance."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court explained that freedom of association under Article 14(1)(c) inherently involves voluntary self-limitation on freedom of speech to maintain party cohesion and discipline. This self-limitation is the foundation of the freedom of association. The court recognized that political party membership is contractual, with express or implied obligations.",
+    "application_to_facts": "The petitioner had attempted to use internal party fora to express his views but was prevented by the leadership's failure to convene meetings and by injunctions against dissent. Given this, the petitioner’s public statements were made in good faith and in the interest of the party, thus protected under the constitutional freedoms.",
+    "principles_established": [
+      "Freedom of association entails reciprocal obligations among members, including self-limitation on speech.",
+      "Political party discipline is a legitimate limitation on freedom of speech within the association.",
+      "Where internal mechanisms are unavailable or ineffective, public expression may be justified.",
+      "Expulsion for exercising constitutional freedoms in good faith and in the party's interest is invalid."
+    ],
+    "precedents_cited": [
+      "Yapa Abeywardena v. Harsha Abeywardene and another",
+      "Dissanayake and Others v. Kaleel and Others"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the expulsion violated the petitioner's constitutional freedom of association as the petitioner had fulfilled his obligations and the party failed to provide internal forums for expression, making the expulsion invalid.",
+    "disposition": "granted",
+    "remedy_or_orders": "The expulsion of the petitioner from the SLFP was declared invalid."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(c) is central because it defines the nature of political party membership as a voluntary association with mutual obligations, which limits freedom of speech but also protects members when internal forums are denied.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Article 14 (1) (c) of the Constitution guarantees to every citizen the freedom of association. Freedom of association places a voluntary self-limitation on the freedom of speech and expression guaranteed under Article 14 (1) (a) and that self-limitation is the foundation of the freedom of association. Petitioner took every possible step within the party fora to persuade the party leadership to hold elections in terms of the party constitution and when his persistent pleas brought no results, in the interest of the party he spoke to the media.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1020,
+      "end_char": 1080
+    }
+  }
+}

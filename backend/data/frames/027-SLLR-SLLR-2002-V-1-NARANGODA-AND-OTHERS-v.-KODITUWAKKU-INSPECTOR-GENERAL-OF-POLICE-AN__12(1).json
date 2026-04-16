@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_027-SLLR-SLLR-2002-V-1-NARANGODA-AND-OTH_137_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_397_2000",
+    "case_title": "Narangoda and Others v. Kodituwakku, Inspector-General of Police and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-02-11",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application Nos. 397, 398, 400, 703 and 704 of 2000, decided on 11 February 2002"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' fundamental rights under Article 12(1) were infringed by the discriminatory and unfair promotion process for appointment to the rank of Superintendent of Police.",
+    "petitioner_claim": "The petitioners, Assistant Superintendents of Police, claimed discrimination in the promotion process, challenging the authenticity of the interview mark sheet, the selection criteria, the procedure for verifying service records, and the allocation of marks. They alleged very short interviews and irrelevant questions, resulting in denial of a fair and equal selection process.",
+    "respondent_argument": "The respondents argued that the Board made a joint assessment without individual mark sheets, that the criteria and procedure were proper, and that pending disciplinary inquiries justified withholding promotion for some candidates. They denied the petitioners' allegations of unfairness and manipulation.",
+    "key_facts": [
+      "185 ASPs were called for interview; 179 interviewed by a Board of five members including the Inspector-General of Police and senior public officers.",
+      "The original interview mark sheets were not produced; only a computer printout was available, raising doubts about authenticity and possible manipulation.",
+      "The selection criteria omitted important qualities such as leadership, management skills, initiative, independence, and resistance to improper influence.",
+      "Marks for 'service record' were allocated despite some candidates not being entitled to rewards or good entries, and there were discrepancies and unauthenticated alterations in service records.",
+      "Some candidates with pending disciplinary inquiries were promoted, contrary to the stated policy."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(1) as guaranteeing a right to a fair, equal, and reasonable selection process free from discrimination and arbitrariness. The promotion process must be transparent, based on authentic records, and include relevant criteria reflecting the qualities required for the post.",
+    "application_to_facts": "The Court found the failure to produce original mark sheets, the flawed criteria and allocation of marks, the inadequate verification of service records, and the manipulation of marks to be a grave denial of the petitioners' rights under Article 12(1). The short and superficial interviews and the inconsistent application of rules regarding pending disciplinary inquiries further evidenced discrimination and unfairness.",
+    "principles_established": [
+      "A promotion process must be fair, transparent, and based on authentic and contemporaneous records.",
+      "Selection criteria must include all relevant qualities necessary for the post.",
+      "Pending disciplinary inquiries must be properly considered in assessing eligibility.",
+      "Manipulation or arbitrary allocation of marks violates the right to equal protection under the law."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioners' fundamental rights under Article 12(1) were infringed by the respondents through an unfair, discriminatory, and manipulated promotion process. The promotions made pursuant to the flawed interviews were quashed (except one), and fresh interviews were ordered.",
+    "disposition": "granted",
+    "remedy_or_orders": "Awarded Rs. 10,000 compensation to each petitioner; quashed all promotions made pursuant to the interviews except one; directed fresh interviews to be held and completed by 31 May 2002; directed investigation into possible corruption by certain respondents."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it guarantees equality before the law and equal protection, which the petitioners argued was violated by the discriminatory promotion process. The Court's findings of manipulation, arbitrariness, and unfairness directly relate to breaches of this constitutional guarantee.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the original mark sheets were not produced, the criteria omitted important qualities, marks were manipulated, and some candidates with pending disciplinary inquiries were promoted, leading to a grave denial of the petitioners' rights to a fair, equal and reasonable selection process.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

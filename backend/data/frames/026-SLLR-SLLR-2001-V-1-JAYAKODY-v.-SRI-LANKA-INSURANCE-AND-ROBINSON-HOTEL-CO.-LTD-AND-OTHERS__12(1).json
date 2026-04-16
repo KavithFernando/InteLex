@@ -1,0 +1,66 @@
+{
+  "frame_id": "RQ1_026-SLLR-SLLR-2001-V-1-JAYAKODY-V.-SRI-L_128_C01__12(1)",
+  "created_at": "2024-06-10",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_769_98",
+    "case_title": "Jayakody v. Sri Lanka Insurance and Robinson Hotel Co. Ltd and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2001-07-13",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 769/98, decided on 13 July 2001"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the suspension of the petitioner by the 2nd Respondent or its agent constituted 'executive or administrative action' under Article 12(1) of the Constitution, thereby engaging fundamental rights protections.",
+    "petitioner_claim": "The petitioner argued that his suspension from service by the 2nd Respondent company violated his fundamental right to equality under Article 12(1) of the Constitution.",
+    "respondent_argument": "The respondents contended that the suspension was not 'executive or administrative action' because the petitioner was employed and suspended by Robinson (a private management company and not a State agency), and thus the fundamental rights jurisdiction did not apply.",
+    "key_facts": [
+      "The petitioner was employed as Cost Controller by the 2nd Respondent, Robinson Club Bentota Ltd.",
+      "The 2nd Respondent was 80% owned and controlled by the State through Sri Lanka Insurance Corporation Ltd. (SLIC).",
+      "Robinson Hotels GMBH & Co. KG was appointed as manager of the hotel under a Management Agreement but was not a State agency.",
+      "The suspension letter was signed by the Chief Accountant and General Manager of the 2nd Respondent, not Robinson.",
+      "The petitioner was suspended on allegations of fraud without a preliminary investigation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the 2nd Respondent was a State agency because it was effectively owned and controlled by the State. The appointment, transfer, dismissal, and disciplinary control of employees of State agencies constitute 'executive or administrative action' under Article 126, which includes protections under Article 12(1). The Court further held that acts done by agents of a State agency (such as Robinson) are legally acts of the State agency itself under the law of agency, and thus also constitute executive or administrative action.",
+    "application_to_facts": "Since the petitioner was an employee of the 2nd Respondent and the suspension was effected by its officers, the suspension was an executive or administrative act of a State agency. Even if Robinson had suspended the petitioner, Robinson was the agent of the 2nd Respondent, making the act attributable to the State agency. Therefore, the petitioner's fundamental rights under Article 12(1) were engaged.",
+    "principles_established": [
+      "A State agency includes entities effectively owned and controlled by the State, even through a chain of ownership.",
+      "Appointment, transfer, dismissal, and disciplinary control of employees of State agencies constitute executive or administrative action.",
+      "Acts of agents of State agencies are legally acts of the State agency itself for purposes of fundamental rights jurisdiction.",
+      "The fundamental rights jurisdiction under Article 126 applies to employees of State agencies regardless of whether the agency performs commercial functions."
+    ],
+    "precedents_cited": [
+      "Samson v. Sri Lankan Airlines Ltd. SC 791/98 and SC 798/98 SCM 11.01.2001 (D.B.)",
+      "Hewamallikage v. People’s Bank S.C. 291/93 SCM 14.10.1994",
+      "Carson Cumberbatch & Co. v. Nandasena (1973) 77 NLR 73",
+      "Rafaratne v. Air Lanka (1987) 2 SRI LR 128"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court overruled the preliminary objection and held that the suspension of the petitioner was executive or administrative action by a State agency, thus engaging fundamental rights protections under Article 12(1).",
+    "disposition": "granted",
+    "remedy_or_orders": "Preliminary objection dismissed with costs of Rs 5,000 payable by the 2nd Respondent to the petitioner. The matter was to proceed for hearing on the merits."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) guarantees equality before the law and equal protection, which the petitioner claimed was violated by his suspension. The Court's reasoning centered on whether the suspension constituted executive or administrative action by a State agency, thereby engaging Article 12(1) protections. The clause was central to the Court's decision to allow the fundamental rights application to proceed.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that the 2nd Respondent is a State agency and that the suspension by its officers or its agent Robinson was executive or administrative action engaging fundamental rights under Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

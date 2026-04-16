@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_016-SLLR-SLLR-2003-1-AUGUSTINE-PERERA-AN_085_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_453_97",
+    "case_title": "Augustine Perera and others v Richard Pathirana, Minister of Education and others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-12-11",
+    "source_citation": "Supreme Court of Sri Lanka, SC (FR) No. 453/97 with SC (FR) Nos. 454/97, 390/99 and 362/99, decided on 11 December 2002"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the failure to remedy the salary scale anomaly between school principals and teachers for the period 1.1.95 to 31.12.96 infringed the fundamental rights under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that the salary scales for principals were unfairly lower than those of teachers from 1.1.95 to 31.12.96, and that this discriminatory differential violated their fundamental rights under Article 12(1). They sought retrospective adjustment of salary scales and pension benefits.",
+    "respondent_argument": "The respondents contended that some categories of teachers had higher salaries than lower grade principals even before 1995, that the Sri Lanka Principal’s Service (SLPS) and Sri Lanka Teachers’ Service (SLTS) were separate services with different salary structures, and that the decision not to grant retrospective salary adjustments was a policy decision not subject to judicial review due to executive responsibility to Parliament under Articles 42 and 43.",
+    "key_facts": [
+      "Prior to 1995, principals had higher salary scales than teachers.",
+      "From 1.1.95, new teacher salary scales were adopted that were significantly higher than principals’ scales, creating an anomaly.",
+      "The anomaly persisted until 31.12.96; a small differential favoring principals was restored only from 1.1.97.",
+      "Cabinet acknowledged the anomaly and approved placing principals on teacher salary scales pending restructuring but did not make this retrospective.",
+      "Petitioners included serving principals and retired principals who retired between 6.10.94 and 31.12.96."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) guarantees equality before the law and equal protection, which includes protection against unjustified discriminatory salary differentials. The Court rejected the argument that separate service structures precluded comparison of salary scales and found no rational basis for the failure to remedy the anomaly for the period 1.1.95 to 31.12.96. The Court emphasized that executive responsibility to Parliament under Articles 42 and 43 does not exclude judicial review of executive decisions, including those relating to policy, especially when fundamental rights are infringed.",
+    "application_to_facts": "The Court compared the salary scales before and after 1.1.95 and found that the reversal of the salary differential was unjustified and discriminatory. It noted Cabinet memoranda acknowledging the anomaly and the temporary equalization measure, but found the failure to make the adjustment retrospective lacked rational basis. The Court ordered retrospective salary adjustments and pension recalculations for affected principals.",
+    "principles_established": [
+      "Article 12(1) protects against unjustified discriminatory treatment in salary scales.",
+      "Separate service structures do not preclude comparison for equality purposes.",
+      "Judicial review of executive decisions, including policy decisions, is not excluded by Articles 42 and 43.",
+      "Rational basis is required for differential treatment under Article 12(1)."
+    ],
+    "precedents_cited": [
+      "Kanagamoorthy v De Silva SC 352/99 SCM",
+      "Jayasinghe v Wickremanayake S.C. 770/97 SCM",
+      "Ramupillaiv Perera (1991) 1 Sri LR 11"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the failure to remedy the salary anomaly for the period 1.1.95 to 31.12.96 was an infringement of Article 12(1). It ordered that principals be placed on a salary scale with a differential equivalent to one increment above teachers for that period, and that pensions and retiral benefits of principals who retired between 6.10.94 and 31.12.96 be recalculated accordingly.",
+    "disposition": "granted",
+    "remedy_or_orders": "Principals to be paid arrears for 1.1.95 to 31.12.96; pensions recalculated; costs awarded to petitioners."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court’s reasoning as it protects against discriminatory treatment by the State, which the salary differential constituted. The Court’s finding of infringement and the remedy granted directly relied on this constitutional guarantee of equality before the law.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found no rational basis for the failure to remedy the anomaly for the period 1.1.95 to 31.12.96 and held that this was an infringement of Article 12(1). It ordered retrospective salary adjustments and pension recalculations for principals.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

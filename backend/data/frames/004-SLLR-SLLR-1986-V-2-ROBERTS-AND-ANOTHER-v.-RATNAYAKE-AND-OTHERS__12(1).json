@@ -1,0 +1,82 @@
+{
+  "frame_id": "RQ1_004-SLLR-SLLR-1986-V-2-ROBERTS-AND-ANOTH_001_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "admin",
+  "source": {
+    "dataset": "admin_upload",
+    "notes": "Admin PDF ingest"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 41/85",
+    "case_title": "Roberts and Another v. Ratnayake and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-11-07",
+    "source_citation": "[1986] 2 Sri L.R."
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the termination of the second petitioner's tenancies by the Kandy Municipal Council constituted a violation of the fundamental right to equality under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that the termination of the second petitioner's tenancies and leases by the respondents was discriminatory and violated their fundamental right to equality guaranteed under Article 12(1), as similarly situated tenants were treated differently without any rational basis.",
+    "respondent_argument": "The respondents contended that the termination was lawful under the terms of the tenancy agreements and the Municipal Councils Ordinance, and that Article 12(1) could not be invoked as the rights and obligations arose out of contract law, not statutory law. They also argued that the Municipal Council is not a State organ for the purposes of fundamental rights enforcement.",
+    "key_facts": [
+      "The second petitioner held tenancies of three stalls and two bare land leases from the Kandy Municipal Council at Jathika Pola, Kandy.",
+      "The tenancies were terminated on grounds of unauthorized structural alterations and use of stall premises for residence.",
+      "Other tenants who breached their agreements were treated differently and allowed to continue their tenancies.",
+      "The Municipal Council's 1982 by-laws were not confirmed by Parliament and thus not in force; the 1974 by-laws applied.",
+      "The Municipal Council is an organ of the State performing governmental functions."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) guarantees equality before the law and equal protection of the law, which applies only to statutory law as defined in Article 170. Acts done solely under contract terms without statutory origin do not attract Article 12(1). However, where a Municipal Council acts under statutory powers, its actions constitute executive or administrative action subject to fundamental rights. The Court found that the Municipal Council is a State organ performing governmental functions and thus its actions are subject to Article 12(1). The termination of the second petitioner's tenancies was discriminatory compared to other tenants similarly situated, violating Article 12(1).",
+    "application_to_facts": "The termination notices were issued under the tenancy agreements but the agreements were entered into under statutory powers of the Municipal Council. The Council treated the second petitioner differently from other tenants who committed similar breaches but were allowed to continue their tenancies. The discretionary power to terminate must be exercised fairly and without discrimination. The 1982 by-laws cited by the petitioners were not in force; the 1974 by-laws applied and did not justify termination for the breaches alleged. The Council's actions were executive or administrative and discriminatory, violating Article 12(1).",
+    "principles_established": [
+      "Article 12(1) applies only to statutory law and executive or administrative action by State organs.",
+      "Municipal Councils are State organs performing governmental functions and subject to fundamental rights.",
+      "Discretionary powers of public authorities must be exercised fairly, reasonably, and without discrimination.",
+      "Contractual breaches by the State acting under statutory powers can engage fundamental rights if discriminatory.",
+      "By-laws not confirmed by Parliament are not valid and cannot justify actions."
+    ],
+    "precedents_cited": [
+      "Bal Krishan Vaid v. The State of Himachal Pradesh and Others - A.I.R. 1975 Himachal Pradesh 10, 34",
+      "M/s. Radhakrishna Agarwal and Others v. The State of Bihar and Others - A.I.R. 1977 S.C. 1496",
+      "Wijetunge v. Insurance Corporation of Ceylon - [1982] 1 S.L.R. 1",
+      "Wijeratne and Another v. People's Bank and Another - [1984] 1 S.L.R. 1",
+      "Perera v. University Grants Commission - S.C. No. 57/80",
+      "D. F. O. South Kheri and Others v. Ram Sanehi Singh - A.I.R. 1973 S.C. 205",
+      "K. N. Guruswamy v. State of Mysore - 1955 1 S.C.R. 305",
+      "M/s. Shree Krishna Gyanoday Sugar Ltd. and Another v. The State of Bihar and Another - A.I.R. 1975 Patna 123",
+      "Ram Chandra Rai v. State of Madhya Pradesh - A.I.R. 1971 Q.C. 128",
+      "Erusian Equipment and Chemicals Ltd's Case - A.I.R. 1975 S.C. 266",
+      "Umakant Saran v. State of Bihar - A.I.R. 1973 S.C. 964",
+      "Lekhraj Sathram Das v. N. H. Shah - A.I.R. 1966 S.C. 334",
+      "B. K. Sinha v. State of Bihar - A.I.R. 1974 Patna 230",
+      "Morarjee v. Union of India - A.I.R. 1966 S.C. 1044",
+      "Elmore Perera v. Major Montague Jayawickrema and Others - (1985) 1 S.L.R. 285",
+      "State of Orissa v. Dr. (Miss) Binapani Dei - A.I.R. 1967 S.C. 1269",
+      "Sitla Prasad v. Saidullah and Others - A.I.R. 1975 Allahabad 344",
+      "Union of India v. M/s. Anglo-Afghan Agencies - A.I.R 1968 S.C. 718",
+      "C. K. Achutan v. State of Kerala - A.I.R 1959 S.C. 490"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court declared that the termination of the second petitioner's tenancies by the respondents violated her fundamental right to equality under Article 12(1) of the Constitution and was therefore void. The termination of the two bare land tenancies was unlawful due to insufficient notice. The petitioners were entitled to damages and costs.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration that the termination orders dated 12.3.85 and 22.3.85 are void; damages of Rs. 100,000 awarded to the second petitioner; costs awarded to the petitioners."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) is central to the Court's reasoning as it guarantees equality before the law and equal protection of the law, which the Court found was violated by the discriminatory termination of the second petitioner's tenancies by a State organ exercising statutory powers.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the Municipal Council is a State organ performing governmental functions and that the termination of the second petitioner's tenancies was discriminatory compared to other tenants similarly situated, violating Article 12(1). The 1982 by-laws cited by the petitioners were not in force; the 1974 by-laws applied and did not justify termination for the breaches alleged.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 0,
+      "end_char": 10000
+    }
+  }
+}

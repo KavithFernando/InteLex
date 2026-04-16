@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_053-SLLR-SLLR-1998-V-3-ALMEIDA-V.-CEYLON_204_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_310_1997",
+    "case_title": "Almeida v. Ceylon Fisheries Corporation and Others (1998)",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-06-08",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 310/97 (FR), decided on 8 June 1998"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the refusal by the 1st respondent corporation to grant the petitioner an extension of service after reaching the optional retirement age of 55 violated Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the refusal to grant an extension of service was arbitrary, capricious, discriminatory, and thus violated his fundamental rights under Article 12(1). He claimed a reasonable expectation of extension after over 30 years of service and pointed to his exoneration in a prior disciplinary inquiry.",
+    "respondent_argument": "The respondents argued that the Board had discretion to grant or refuse extensions after the optional retirement age, exercised according to a policy that extensions would be granted only to employees with satisfactory service records and whose services were indispensable. The petitioner’s application was refused due to a pending criminal prosecution and the non-indispensability of his services.",
+    "key_facts": [
+      "The petitioner was Marketing Manager of the 1st respondent corporation and reached age 55 on 1.1.1997.",
+      "The petitioner applied for a one-year extension of service which was rejected by the Board of Directors.",
+      "The Board had a policy to consider extensions only for indispensable employees with satisfactory records.",
+      "The petitioner had a pending criminal prosecution and his services were deemed not indispensable.",
+      "The petitioner had been promoted over the years and had a long service record exceeding 30 years."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equality before the law and equal protection, but the Board’s discretion to grant or refuse extensions after optional retirement age is lawful if exercised reasonably and not arbitrarily or capriciously.",
+    "application_to_facts": "The court found that the Board’s refusal was based on a policy decision and relevant considerations (pending prosecution and non-indispensability), and thus was not arbitrary or discriminatory. Therefore, the refusal did not violate Article 12(1).",
+    "principles_established": [
+      "Discretion vested in the Board to grant or refuse extension of service after optional retirement age.",
+      "Such discretion must be exercised within a policy framework and not arbitrarily.",
+      "Refusal based on relevant and reasonable grounds does not violate Article 12(1)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court dismissed the petitioner's claim under Article 12(1), holding that the refusal to grant an extension of service was not arbitrary or violative of the Constitution.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner’s claim of discrimination and arbitrary treatment in employment extension, and the court’s reasoning focused on whether the Board’s decision violated the equality and equal protection guarantees of this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court noted the Board's discretion to grant or refuse extensions after age 55 and found the refusal based on pending prosecution and non-indispensability was not arbitrary or capricious, thus not violating Article 12.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

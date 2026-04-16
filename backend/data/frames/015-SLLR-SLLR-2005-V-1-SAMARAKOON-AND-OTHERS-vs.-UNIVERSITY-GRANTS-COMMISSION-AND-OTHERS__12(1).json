@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_015-SLLR-SLLR-2005-V-1-SAMARAKOON-AND-OT_079_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_307_2001",
+    "case_title": "Samarakoon and Others VS University Grants Commission and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2004-10-25",
+    "source_citation": "Supreme Court of Sri Lanka, SC (FR) Application No. 307/2001, decided on 25 October 2004"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the University Grants Commission's failure to admit petitioners to the Medical Faculty according to the declared admission policy violated their fundamental rights under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that based on the UGC's Hand Book declaring 900 places for medical faculties and the district and all-island merit quotas, they had a legitimate expectation to be admitted. The UGC's use of a hypothetical figure of 800 instead of 900 to calculate admissions was arbitrary and violated their right to equal protection under Article 12(1).",
+    "respondent_argument": "The UGC contended that the actual number of admissions was based on a hypothetical figure of 800 due to practical constraints such as security issues limiting admissions to the University of Jaffna and clustering of marks. They argued that the 900 figure in the Hand Book was a maximum, not a fixed base for quota calculations.",
+    "key_facts": [
+      "The UGC Hand Book for 2001/2002 declared 900 places for medical faculties.",
+      "Petitioners from Kandy District had marks above the cut-off but were not admitted.",
+      "UGC admitted only 865 candidates, using a hypothetical base of 800 for quota calculations.",
+      "The petitioners fulfilled minimum qualifications and had district ranks within the expected quota.",
+      "UGC did not provide a rational basis or documentation for using 800 instead of 900."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) guarantees equal protection of the law, which includes adherence to declared policies that give rise to legitimate expectations. The UGC's deviation from the declared admission policy without rational basis was arbitrary and violated the petitioners' rights.",
+    "application_to_facts": "The Court found that the petitioners had a legitimate expectation based on the UGC's Hand Book that 900 places would be available and that district quotas would not fall below the 1993/1994 base. The UGC's use of a hypothetical figure of 800 was not supported by the Hand Book or evidence and was therefore arbitrary. This resulted in the petitioners being unfairly excluded despite meeting the criteria.",
+    "principles_established": [
+      "Legitimate expectation can arise from an authority's published policy even if not expressly promised.",
+      "Admission policies must be applied fairly and consistently to avoid arbitrary decisions.",
+      "Article 12(1) protects against arbitrary state action violating equal protection rights."
+    ],
+    "precedents_cited": [
+      "Council of Civil Service Union v. Minister for the Civil Service (1985) AC 374"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the UGC's failure to admit the petitioners according to the declared admission policy violated their fundamental rights under Article 12(1). The petitioners were entitled to relief.",
+    "disposition": "granted",
+    "remedy_or_orders": "The UGC was directed to admit the petitioners to the Medical Faculty for the academic year commencing in 2005 under the 2001/2002 admission criteria and to pay Rs. 30,000 to each petitioner as compensation and costs within three months."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it protects the petitioners from arbitrary state action and guarantees equal protection under the law, which was violated by the UGC's arbitrary admission decisions.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the UGC's decision to use a hypothetical figure of 800 instead of the declared 900 places in the Hand Book was arbitrary and irrational, violating the petitioners' rights under Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_011-SLLR-SLLR-1984-2-KAPUGEEKIYANA-V.-HE_018_C01__14(1)(g)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. No. 80/84",
+    "case_title": "Kapugeekiyana v. Hettiarachchi and Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1984-08-08",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. No. 80/84, decided on 8 August 1984"
+  },
+  "clause": {
+    "article": "14(1)(g)",
+    "text": "Freedom to engage in lawful occupation or business."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was denied the freedom to engage in his lawful occupation, profession and business due to his arrest and the seizure of documents.",
+    "petitioner_claim": "The petitioner claimed that he was denied the freedom to engage in his lawful occupation because documents and files necessary for his professional work were taken from his residence without a list or receipt, preventing him from entrusting his work to others.",
+    "respondent_argument": "The respondents argued that the documents taken were necessary for the investigation of the offences and that the petitioner’s right under Article 14(1)(g) was not violated.",
+    "key_facts": [
+      "Petitioner was arrested on 13 June 1984 and detained illegally for three days.",
+      "Documents and files relating to the petitioner’s professional work were taken from his residence without a search warrant.",
+      "Petitioner’s diary showed professional work scheduled for 15 June which could not be done due to detention.",
+      "No list or receipt was provided for the documents taken.",
+      "Respondents claimed documents were necessary for investigation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 14(1)(g) guarantees the freedom to engage in lawful occupation, but this right is subject to legal capacity and may be curtailed by lawful arrest or detention. The court held that if a citizen loses personal freedom due to lawful arrest or remand, the freedom to engage in occupation is necessarily curtailed. The seizure of documents necessary for investigation also justifies temporary restriction of this right.",
+    "application_to_facts": "The petitioner was illegally detained for three days, which prevented him from carrying out his professional work. However, since the detention was unlawful, the petitioner was entitled to relief for the denial of his occupational freedom during that period. The court found no violation of Article 14(1)(g) in the seizure of documents as they were necessary for investigation.",
+    "principles_established": [
+      "The right to engage in lawful occupation is subject to lawful restrictions such as arrest and detention.",
+      "Temporary denial of occupational freedom due to unlawful detention entitles the petitioner to relief.",
+      "Seizure of documents necessary for investigation does not violate Article 14(1)(g)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s right under Article 14(1)(g) was not violated by the seizure of documents, but he was denied the freedom to engage in his lawful occupation during the period of illegal detention and was entitled to compensation for that denial.",
+    "disposition": "allowed_in_part",
+    "remedy_or_orders": "The court ordered the respondents to pay the petitioner Rs. 10,000 as compensation for the illegal detention which denied him the freedom to engage in his lawful occupation. The petitioner may apply to the Magistrate for the return of documents not necessary for the investigation."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(g) was central to the petitioner’s claim that his professional freedom was denied due to illegal detention and seizure of documents. The court’s reasoning and partial relief directly involved interpretation and application of this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner’s diary showed professional work fixed for 15 June which he could not perform due to illegal detention. The court found no violation of Article 14(1)(g) in the seizure of documents as they were necessary for investigation but recognized denial of occupational freedom during illegal detention.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

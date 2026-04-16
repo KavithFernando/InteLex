@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_025-SLLR-SLLR-2001-V-1-VICTOR-IVAN-AND-O_049_C02__14(1)(g)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_898_99_FR",
+    "case_title": "Victor Ivan and Others v. Hon. Sarath N. Silva and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2001-06-20",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application Nos. 898/99 (FR), 901/99 (FR), 902/99 (FR), decided on 20 June 2001"
+  },
+  "clause": {
+    "article": "14(1)(g)",
+    "text": "Freedom to engage in lawful occupation or business."
+  },
+  "case_context": {
+    "legal_issue": "Whether the appointment of the 1st Respondent as Chief Justice infringed the petitioner's fundamental right under Article 14(1)(g) relating to freedom to engage in lawful occupation or business.",
+    "petitioner_claim": "The petitioner in SC Application 901/99(F/R) claimed that his right to practice his profession as an attorney-at-law was infringed by the appointment of the 1st Respondent as Chief Justice due to allegations of moral turpitude.",
+    "respondent_argument": "The Attorney-General argued that the petitioner did not show any actual restriction or hindrance to his practice of law and that he appeared freely in court without any impediment.",
+    "key_facts": [
+      "The petitioner is an attorney-at-law and senior journalist.",
+      "No allegation was made that the petitioner was prevented from practicing law or that his profession was hampered.",
+      "The petitioner did not claim to be a contender for the office of Chief Justice.",
+      "The appointment was challenged but no executive or administrative act violating fundamental rights was alleged."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the petitioner failed to demonstrate any actual infringement of his right to engage in his lawful profession. Mere allegations without showing how the right was affected are insufficient.",
+    "application_to_facts": "Since the petitioner was able to appear and make submissions freely in court and no evidence showed any restriction on his practice, the court found no violation of Article 14(1)(g).",
+    "principles_established": [
+      "A petitioner must show how and in what manner the fundamental right was infringed.",
+      "Allegations without evidence or material showing infringement are insufficient.",
+      "Freedom to engage in lawful occupation includes the ability to practice one's profession without hindrance."
+    ],
+    "precedents_cited": [
+      "Somawathie v. Weerasinghe (1990) 2 SRI LR 121"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that there was no violation of the petitioner's fundamental right to engage in lawful occupation under Article 14(1)(g).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioner claimed infringement of his right to practice his profession due to the appointment of the Chief Justice, making Article 14(1)(g) central to the claim and court's analysis.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner did not allege any restriction on his practice of law and appeared freely in court; no material showed infringement of his right to engage in lawful occupation.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3490,
+      "end_char": 3570
+    }
+  }
+}

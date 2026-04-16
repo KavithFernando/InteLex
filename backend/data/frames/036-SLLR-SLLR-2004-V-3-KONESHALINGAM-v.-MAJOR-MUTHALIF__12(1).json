@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_036-SLLR-SLLR-2004-V-3-KONESHALINGAM-V.-_177_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_555_2001",
+    "case_title": "Koneshalingam v Major Muthalif",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-12-12",
+    "source_citation": "[2004] 3 Sri L.R 226"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s fundamental right to equality before the law and equal protection was violated by his arrest and detention without valid reasons and due process.",
+    "petitioner_claim": "The petitioner claimed he was arrested without valid reasons, kept in custody without detention orders, assaulted, and denied equal protection under the law.",
+    "respondent_argument": "The respondents did not provide reasons for the initial arrest and did not dispute the detention period but denied assault allegations and claimed detention orders were issued after the arrest.",
+    "key_facts": [
+      "Petitioner was arrested on 19.04.2001 and detained until 26.06.2001.",
+      "No reasons for arrest were revealed by the arresting officers.",
+      "Detention orders were issued only after the petitioner was already detained for over a month.",
+      "Petitioner was assaulted during detention and interrogation.",
+      "Petitioner was produced before a Magistrate only on 26.06.2001."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equality before the law and equal protection, which includes lawful arrest and detention procedures. The absence of valid reasons and failure to inform the petitioner violated this principle.",
+    "application_to_facts": "Since no acceptable reasons for arrest were provided and the petitioner was detained without valid detention orders, the court found a violation of the petitioner’s right to equal protection under the law.",
+    "principles_established": [
+      "Arrest without reasonable grounds violates equal protection under Article 12(1).",
+      "Detention without valid orders breaches the right to equal protection.",
+      "State authorities must provide lawful reasons and follow due process to uphold equality before the law."
+    ],
+    "precedents_cited": [
+      "Vinayagamoorthy (AAL) on behalf of Wimalentharan v the Army Commander and others - 1997 1 Sri LR 113"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental right under Article 12(1) was violated by the unlawful arrest and detention without valid reasons or due process.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was directed to pay Rs. 15,000/- as compensation and costs to the petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court’s reasoning as it protects individuals from arbitrary arrest and detention, ensuring equality before the law and equal protection, which was breached in this case.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The silence of the 1st respondent and his officers and the non-availability of any material indicating the reasons for the arrest only leads to the conclusion that no acceptable reasons were available at the time he was arrested.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

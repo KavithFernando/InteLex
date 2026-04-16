@@ -1,0 +1,77 @@
+{
+  "frame_id": "RQ1_001-SLLR-SLLR-1993-1-LANKA-JATHIKA-SARVO_002_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 173/91",
+    "case_title": "Lanka Jathika Sarvodaya Shramadana Sangamaya v. Heengama Director General of Customs and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1993-02-12",
+    "source_citation": "Sri Lanka Law Reports (1993) 1 Sri L.R. SC Application No. 173/91, decided 12 February 1993"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the refusal by the Director General of Customs to mitigate the forfeiture of goods under the Customs Ordinance was discriminatory and violated the petitioner's right to equal protection of the law under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the refusal to mitigate the forfeiture was discriminatory compared to other importers whose similar requests were allowed, thus violating Article 12(1). The petitioner contended that the mitigation refusal was arbitrary and not fairly considered, despite similar or greater undervaluations in other cases where mitigation was granted.",
+    "respondent_argument": "The respondents argued that the forfeiture was automatic under Section 52 due to undervaluation, that the Director General had discretion to refuse mitigation based on the amount of undervaluation causing heavy revenue loss, and that the petitioner was not similarly circumstanced as other importers. They denied discrimination and contended that the petitioner’s application for mitigation was invalid as the goods were already seized.",
+    "key_facts": [
+      "The petitioner imported a printing press undervalued at Rs. 11 million, while Customs valued it at Rs. 18 million.",
+      "The goods were forfeited automatically under Section 52 of the Customs Ordinance due to undervaluation.",
+      "The petitioner applied for mitigation under Section 163, which was refused by the Director General.",
+      "The petitioner cited 15 other cases where mitigation was granted despite similar or greater undervaluations.",
+      "The refusal to mitigate was found to be unreasonable and discriminatory by the Court."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) guarantees equal protection of the law and prohibits arbitrary discrimination. The discretion to mitigate forfeiture under Section 163 must be exercised reasonably and fairly. Discrimination arises if similarly circumstanced persons are treated differently without reasonable basis. The Court found that the Director General's refusal to mitigate was arbitrary and discriminatory, violating Article 12(1).",
+    "application_to_facts": "The Court compared the petitioner's case with other importers who received mitigation despite similar or greater undervaluations. The Director General failed to fairly consider the petitioner's application and based refusal solely on the amount of undervaluation, which was not a rational or consistent basis. The petitioner was thus denied equal protection under the law.",
+    "principles_established": [
+      "Automatic forfeiture under Section 52 occurs by operation of law upon undervaluation.",
+      "Discretion to mitigate forfeiture under Section 163 must be exercised reasonably and without arbitrariness.",
+      "Unequal treatment of similarly circumstanced persons without reasonable justification violates Article 12(1).",
+      "The amount of undervaluation alone is not a sufficient or rational basis to refuse mitigation.",
+      "Failure to fairly consider an application for mitigation can constitute discrimination."
+    ],
+    "precedents_cited": [
+      "Moosajees v. Attorney-General, S.C. Appeal No. 62/87",
+      "C.W. Mackie & Co. v. Commissioner-General of Inland Revenue (1986) 1 Sri L.R. 300",
+      "Abeywardena v. The I.G.P., S.C. Appeal 92/91",
+      "Neville Fernando v. Liyanage, F.R.D. Vol. 2 p. 300",
+      "Yick Wo v. Hopkins, 118 US 356",
+      "Gooneratne v. Commissioner of Elections (1987) 2 Sri LR. 165",
+      "Jayanetti v. The Land Reform Commission (1984) 2 Sri LR. 172",
+      "Roberts v. Ratnayake (1986) 2 Sri LR. 36",
+      "Elmore Perera v. Jayawickrema (1985) 1 Sri LR. 285",
+      "Palasamy Nadar v. Lanktree, 51 N.LR. 520",
+      "The Anandale (1877) 38 L T. 139",
+      "De Keyser v. Harris (1936) 1 K.B. 224",
+      "Jayawardena v. Silva 72 NLR 25",
+      "Arumugaperumal v. The Attorney-General 48 N.LR. 510"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner's right to equal protection under Article 12(1) was infringed by the discriminatory refusal to mitigate the forfeiture. The forfeiture itself was valid, but the seizure was vitiated by discrimination. The Court ordered the release of the goods on payment of duty on the Rs. 18 million valuation, awarded compensation for interest on duty paid, and costs.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration that the petitioner's rights under Article 12(1) were infringed.\nOrder directing the Director General to release the printing press and accessories on payment of duty on Rs. 18 million valuation.\nCompensation of Rs. 662,664.24 for legal interest on duty paid.\nCosts of Rs. 5,500."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it protects against arbitrary discrimination and guarantees equal protection of the law. The Court found that the Director General's refusal to mitigate forfeiture was discriminatory and violated this constitutional guarantee, directly affecting the outcome.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the Director General failed to fairly consider the petitioner's mitigation application and treated the petitioner differently from other importers with similar undervaluations, constituting discrimination under Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

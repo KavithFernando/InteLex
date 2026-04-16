@@ -1,0 +1,70 @@
+{
+  "frame_id": "RQ1_027-SLLR-SLLR-2001-V-1-GUNARATNA-V.-PEOP_136_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_514_99",
+    "case_title": "Gunaratna v. People's Bank and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-12-06",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 514/99, decided on 6 December 2000"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was denied equal protection of the law under Article 12(1) of the Constitution by being treated differently from another employee, Rajendra, in disciplinary proceedings and termination of service.",
+    "petitioner_claim": "The petitioner argued that he was treated unequally compared to Rajendra, who faced the same charges but was not interdicted without pay and was allowed to retire with full benefits, whereas the petitioner was interdicted without pay and dismissed without opportunity to make representations.",
+    "respondent_argument": "The respondents argued that the petitioner and Rajendra were not similarly circumstanced; Rajendra's duties did not include the granting of credit facilities and he was only briefly acting in a relevant role. The difference in treatment was based on the degree of culpability and was reasonable and lawful.",
+    "key_facts": [
+      "The petitioner and four other employees faced disciplinary charges related to irregular transactions causing a loss of Rs. 72.85 million.",
+      "The petitioner was interdicted without pay and dismissed; Rajendra was not interdicted and was allowed to retire with benefits.",
+      "Petitioner was Assistant Regional Manager responsible for supervision of credit facilities; Rajendra was Regional Manager (Inspection and Branch Supervision) with limited involvement.",
+      "Petitioner found guilty of 4 out of 10 charges; Rajendra found guilty of 7 out of 10 charges.",
+      "Petitioner was not given opportunity to make representations before dismissal."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equal protection of the law but does not prohibit reasonable classification or differentiation. Inequality violates the principle only if it is unreasonable and arbitrary. Persons similarly circumstanced must be treated equally, but differences in culpability justify different punishments.",
+    "application_to_facts": "The court found that the petitioner and Rajendra were not similarly circumstanced because of differences in their roles and degree of culpability. The difference in treatment was based on these reasonable grounds and was not arbitrary or unreasonable, thus not violating Article 12(1).",
+    "principles_established": [
+      "Equal protection requires similarly circumstanced persons to be treated equally.",
+      "Reasonable classification based on intelligible differentia and rational relation to objectives is lawful.",
+      "Difference in punishment is permissible where discretion is exercised considering degree of culpability.",
+      "Inequality must be palpably unreasonable and arbitrary to violate equal protection."
+    ],
+    "precedents_cited": [
+      "Wyesinghe v. The Attorney-General",
+      "Ceylon Paper Sacks Ltd. v. Janatha Estate Development Board",
+      "Ratnayake v. The Attorney-General",
+      "Perera v. Montague Jayawickrama",
+      "Jayasinghe v. Attorney-General",
+      "Ram Krishna Dalmia v. Justice Tendolkar",
+      "Lachman Das Kewal Ram v. State of Bombay",
+      "Arkansas Gas Co. v. Railroad Commission"
+    ]
+  },
+  "outcome": {
+    "holding": "The court dismissed the petitioner's claim of violation of Article 12(1), holding that the difference in treatment was justified and did not breach the constitutional guarantee of equal protection.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner's claim of unequal treatment in disciplinary action and termination. The court's reasoning focused on whether the petitioner and Rajendra were similarly circumstanced and whether the difference in treatment was reasonable under the clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that although charges were the same, the degree of culpability differed, justifying different punishments without violating Article 12(1). The petitioner was not similarly circumstanced with Rajendra, and the difference in treatment was not arbitrary or unreasonable.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

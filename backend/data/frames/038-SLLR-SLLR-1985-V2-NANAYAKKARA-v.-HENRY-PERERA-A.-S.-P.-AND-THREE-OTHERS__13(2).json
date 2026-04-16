@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_038-SLLR-SLLR-1985-V2-NANAYAKKARA-V.-HEN_084_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application No. 19/85",
+    "case_title": "Nanayakkara v. Henry Perera, A.S.P. and Three Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-08-09",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 19/85, decided on 9 August 1985"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the detention of Vasudeva Nanayakkara complied with Article 13(2) given the Emergency Regulations and the requirement to produce detainees before a judge within a reasonable time.",
+    "petitioner_claim": "The petitioner claimed that his detention was unlawful and violated Article 13(2) because he was not brought before a judge promptly and was detained without proper legal order.",
+    "respondent_argument": "The respondents argued that under the Emergency Regulations, the detainee was to be produced before a Magistrate within 30 days, and that the detention was authorized under Regulations 18 and 19, consistent with Article 13(2).",
+    "key_facts": [
+      "The petitioner was detained at Harbour Police Station after arrest on 17 February 1985.",
+      "Regulation 19(1) requires production before a Magistrate within a reasonable time, not later than 30 days.",
+      "The petitioner was released on 18 March 1985, approximately 30 days after arrest.",
+      "The Magistrate has limited power to interfere with detention under Emergency Regulations but can investigate if detention is punishment.",
+      "Article 13(2) requires detainees to be brought before a judge of a competent court according to law."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 13(2) remains applicable despite Emergency Regulations. The detainee must be produced before a Magistrate within a reasonable time (not later than 30 days). The Magistrate cannot interfere with the detention itself but can investigate if the detention amounts to punishment.",
+    "application_to_facts": "The petitioner was produced before a Magistrate within the 30-day period as required. The detention was authorized under Regulations 18 and 19. Therefore, the detention complied with Article 13(2).",
+    "principles_established": [
+      "Emergency Regulations do not override the constitutional requirement to produce detainees before a judge within a reasonable time.",
+      "Magistrates have a supervisory role to ensure detention is not punitive."
+    ],
+    "precedents_cited": [
+      "Edirisuriya v. Navaratnam (1985) 1 S.L.R. 100",
+      "Wanasundera, J. in Edirisuriya v. Navaratnam"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the detention complied with Article 13(2) and was lawful.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) governs the procedural safeguards for detention, which the Court found were met under the Emergency Regulations and the facts of this case.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was produced before a Magistrate within 30 days as required by Regulation 19(1), satisfying the constitutional requirement under Article 13(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 900,
+      "end_char": 1200
+    }
+  }
+}

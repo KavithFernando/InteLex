@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_016-SLLR-SLLR-1993-1-PALITHA-V.-O.-I.-C-_039_C01__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_880_92",
+    "case_title": "Palitha v. O.I.C., Police Station, Polonnaruwa and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1993-05-04",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 880/92, decided on 4 May 1993"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s detention without proper rehabilitation and misinformation to the Court violated his rights under Article 13(2).",
+    "petitioner_claim": "The petitioner claimed that he was detained unlawfully without being sent for rehabilitation as previously stated to the Court, thus infringing his fundamental rights under Article 13(2).",
+    "respondent_argument": "Respondents initially provided incorrect information that the petitioner was due to be released after rehabilitation, which was later corrected to confirm continued detention.",
+    "key_facts": [
+      "Petitioner detained since 08.11.1989 at Pelawatta Detention Camp.",
+      "Court was misinformed that petitioner was released on 30.04.1992 due to typographical error.",
+      "Petitioner was not sent for rehabilitation despite earlier communication.",
+      "Petitioner was released on 30.04.1993 directly from detention.",
+      "Respondents did not file any objection to the application."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 13(2) as protecting detainees from being held without a legal order and requiring that any detention be properly authorized and communicated to the Court.",
+    "application_to_facts": "Since the petitioner was detained without proper rehabilitation and the Court was misled by incorrect information, the Court found an infringement of Article 13(2) rights.",
+    "principles_established": [
+      "Courts have inherent power to set aside orders made on wrong facts to remedy injustice.",
+      "Detention without proper legal process or misinformation to the Court violates Article 13(2)."
+    ],
+    "precedents_cited": [
+      "Wijeyesinghe v. Uluwita 34 NLR p. 362 at p. 364",
+      "Ganeshanathan v. Goonewardena [1984] 1 Sri LR p. 319 at p. 329"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner’s rights under Article 13(2) were infringed and set aside the previous dismissal order.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of infringement of rights and payment of Rs. 17,500 as compensation to the petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was central because the petitioner’s detention without proper legal order and misinformation to the Court directly violated the protections guaranteed by this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the petitioner was still in detention despite being informed otherwise, and that the order was made on wrong facts to the petitioner’s prejudice.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

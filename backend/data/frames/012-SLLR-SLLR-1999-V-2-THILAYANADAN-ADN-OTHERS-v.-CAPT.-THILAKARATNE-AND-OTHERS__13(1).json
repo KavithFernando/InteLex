@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-1999-V-2-THILAYANADAN-ADN-_029_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 970/97 and 971/97",
+    "case_title": "Thilayanadan and Others v. Capt. Thilakaratne and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-11-11",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application Nos. 970/97 and 971/97, decided on 11 November 1998"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the arrest and detention of the petitioners for transporting goods in breach of Emergency Regulations violated Article 13(1) of the Constitution.",
+    "petitioner_claim": "The petitioners claimed that their fundamental rights under Article 13(1) were infringed by their arrest and detention.",
+    "respondent_argument": "The respondents argued that the arrest and detention were lawful under Emergency Regulations and thus did not violate Article 13(1).",
+    "key_facts": [
+      "Petitioners transported goods on Mannar Island with permits issued by the Co-ordinating Officer.",
+      "Goods were seized and petitioners arrested by Army personnel based on suspicion of illegal transport to a remote village.",
+      "Petitioners were handed over to police and produced before a Magistrate.",
+      "The quantity of goods exceeded that authorized by permits and the destination was a known LTTE area.",
+      "The Court considered the arrest was based on reasonable grounds under Emergency Regulations."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 13(1) as requiring lawful arrest with reasonable grounds and proper procedure. The Court found the arrest lawful under Emergency Regulations given the circumstances and suspicion of illegal activity.",
+    "application_to_facts": "The Court held that the Commanding Officer had reasonable grounds to arrest the petitioners due to the excessive quantity of goods, lack of proper permits for transport within Mannar Island, and the destination being a LTTE area. The petitioners were informed and produced before a Magistrate as required.",
+    "principles_established": [
+      "Arrest must be according to law and based on reasonable grounds.",
+      "Emergency Regulations can provide lawful basis for arrest in certain circumstances.",
+      "Informing the arrested person of the reason and producing them before a Magistrate satisfies constitutional requirements."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held there was no violation of Article 13(1) and dismissed the petitioners' claim.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the Court's assessment of the lawfulness of the arrest and detention of the petitioners, determining whether their fundamental rights were infringed.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found the respondents had reasonable grounds to arrest and detain the petitioners in terms of Emergency Regulations and that there was no violation of Article 13(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

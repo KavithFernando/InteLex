@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_032-SLLR-SLLR-1987-1-NALLANAYAGAM-V.-DEL_076_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 95/85",
+    "case_title": "Nallanayagam v. Delgoda and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-10-18",
+    "source_citation": "Sri Lanka Law Reports [1987] 1 SriLR 299"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner's arrest and detention complied with Article 13(1) regarding lawful arrest and informing the reason.",
+    "petitioner_claim": "The petitioner claimed that his continued detention was illegal under Emergency Regulations and violated his fundamental rights including Article 13(1).",
+    "respondent_argument": "The respondents argued that the detention was lawful under Emergency Regulations and the petitioner was produced before a Magistrate with jurisdiction, thus complying with legal requirements.",
+    "key_facts": [
+      "Petitioner was taken from Slave Island Police Station and detained since 26.7.85.",
+      "Petitioner was produced before the Magistrate, Colombo Fort, on 26.7.85.",
+      "Petitioner was not produced before any judicial officer after 26.7.85.",
+      "Indictment was filed on 30.7.85 and trial scheduled for 8.1.86.",
+      "Magistrate ordered detention under Regulation 19(3) and petitioner was held in Fiscal custody."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the arrest and detention complied with the law as the petitioner was produced before a Magistrate of competent jurisdiction who ordered lawful detention. The Emergency Regulations modified ordinary arrest procedures in the interest of national security.",
+    "application_to_facts": "Since the petitioner was produced before the Magistrate of Colombo Fort, the nearest competent court to the place of detention, and the Magistrate ordered detention under the relevant regulations, the arrest and detention were lawful under Article 13(1).",
+    "principles_established": [
+      "Arrest must be according to law and the detainee must be produced before a competent court.",
+      "Emergency Regulations can modify arrest procedures in the interest of national security."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court found no violation of Article 13(1) and held the detention lawful.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to assessing the legality of the petitioner's arrest and initial detention, which the court found complied with the constitutional requirement of lawful arrest and informing the reason.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was produced before the Magistrate, Colombo Fort, who ordered detention under Regulation 19(3), establishing lawful arrest and detention under the law.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_011-SLLR-SLLR_1978-79-80_V1-WIJESINGHE___052_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. NO. 13 OF 1979",
+    "case_title": "Wijesinghe v. Attorney-General and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1979-04-24",
+    "source_citation": "Sri Lanka Law Reports (1978-79-80) 1 Sri. L.R. 102"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner's termination from the post of Sub-Postmistress without a hearing or charge violated her fundamental right to equality and equal protection under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that her dismissal without any charge or hearing violated her right to equal protection of the law under Article 12(1), alleging political victimization and discrimination.",
+    "respondent_argument": "The respondents contended that the dismissal was lawful under the Cabinet's constitutional power, that the petitioner held office at pleasure under Article 55(1), and that no fundamental right was infringed as there was no intentional or hostile discrimination.",
+    "key_facts": [
+      "Petitioner appointed Sub-Postmistress in April 1975 and terminated effective 31 January 1979 without hearing or charges.",
+      "Termination followed a Cabinet decision based on recommendations of a Political Victimization Committee.",
+      "Petitioner claimed discrimination on political grounds violating Articles 12(1) and 12(2).",
+      "The post is terminable at pleasure by the Cabinet under Article 55(1) of the Constitution.",
+      "The Political Victimization Committee's proceedings were ex parte and did not afford the petitioner a hearing."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) guarantees equality before the law and equal protection, but not every wrongful or unfair administrative act amounts to a breach of fundamental rights. The Court distinguished between ordinary rights and fundamental rights, emphasizing that only breaches of fundamental rights warrant constitutional remedies.",
+    "application_to_facts": "The Court found that the petitioner's dismissal, though possibly unjust, was lawful under the Cabinet's constitutional power to dismiss at pleasure. The absence of a hearing before the Political Victimization Committee did not invalidate the Cabinet's independent decision. There was no evidence of intentional or hostile discrimination violating Article 12(1).",
+    "principles_established": [
+      "Not every breach of law or wrongful act amounts to a violation of fundamental rights under Article 12(1).",
+      "The Cabinet's power to dismiss public officers at pleasure under Article 55(1) is subject to fundamental rights but cannot be lightly interfered with.",
+      "Procedural fairness in administrative inquiries does not necessarily translate into constitutional rights enforceable under Article 12(1).",
+      "Political victimization claims require proof of intentional discrimination to engage Article 12(1)."
+    ],
+    "precedents_cited": [
+      "Siddappa v. State of Mysore AIR 1967 (Mysore) 67",
+      "Budhan Chowdhary v. State of Bihar AIR 1955 (SC) 191",
+      "Snowden v. Hughes (1944) 321 US 1",
+      "The State of Jammu & Kashmir v. Ghulam Rasool AIR 1961 (SC) 1301",
+      "Fernando v. Jayaratna (1974) 78 NLR 123",
+      "R v. H.K. (Infant) (1967) 1 All ER 226"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the petitioner's claim under Article 12(1), holding that no fundamental right to equal protection was violated by the dismissal.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner's claim of equal protection and non-discrimination in her dismissal. The Court's reasoning focused on the scope and limits of this fundamental right in the context of administrative dismissal.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner complained that her services were terminated without any charge or hearing, alleging violation of equal protection under Article 12(1). The Court held that not every breach of law amounts to a violation of fundamental rights and found no evidence of intentional discrimination.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 102,
+      "end_char": 1180
+    }
+  }
+}

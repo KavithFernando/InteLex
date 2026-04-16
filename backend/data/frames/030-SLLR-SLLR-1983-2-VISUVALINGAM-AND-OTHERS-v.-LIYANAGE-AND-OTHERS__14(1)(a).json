@@ -1,0 +1,66 @@
+{
+  "frame_id": "RQ1_030-SLLR-SLLR-1983-2-VISUVALINGAM-AND-OT_056_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_030_1983",
+    "case_title": "Visuvalingam and Others v. Liyanage and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1983-11-18",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Applications Nos. 47/83, 53/83 and 61/83, decided on 18 November 1983"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the orders prohibiting the printing, publishing, and distribution of the newspaper 'Saturday Review' violated the fundamental right of freedom of speech and expression under Article 14(1)(a).",
+    "petitioner_claim": "The petitioners argued that the closure of the 'Saturday Review' and the prohibition orders violated their fundamental right to freedom of speech and expression including publication guaranteed by Article 14(1)(a). They claimed the orders were mala fide, made without proper consideration, and intended to stifle criticism of government policy.",
+    "respondent_argument": "The respondents contended that the orders were lawfully made under Regulation 14(3) of the Emergency Regulations as the newspaper published material prejudicial to national security and public order, including eulogizing terrorists and inciting communal feelings, justifying the restrictions.",
+    "key_facts": [
+      "The 'Saturday Review' was a weekly English newspaper published by New Era Publications Ltd., owned by the petitioners.",
+      "Emergency Regulations were in force due to a declared state of emergency from May 1983.",
+      "The Competent Authority ordered the closure of the newspaper and its printing press under Regulation 14(3) citing national security concerns.",
+      "Petitioners are citizens exercising their fundamental rights through the company as an institutional device.",
+      "The newspaper carried articles highlighting Tamil grievances and was alleged to implicitly support radical groups and terrorism."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court recognized that freedom of speech and expression, including publication, is a fundamental right but not absolute. It can be restricted under certain circumstances such as threats to national security and public order, especially during emergencies. The Court emphasized the need to give the executive leeway in emergency decisions and that the Competent Authority's opinion must be reasonably supported by material.",
+    "application_to_facts": "The Court examined the content of the 'Saturday Review' and found that it contained material that could incite communal disharmony and violence, and that the Competent Authority's decision to prohibit its publication was reasonable given the unsettled conditions and recent violence in the country. The Court held that the orders were not mala fide or unreasonable and thus did not violate Article 14(1)(a).",
+    "principles_established": [
+      "Freedom of speech and expression is essential but subject to reasonable restrictions in emergencies.",
+      "The executive has discretion in emergency matters which courts should not lightly override.",
+      "Fundamental rights are not absolute and can be limited to protect national security and public order.",
+      "The use of a company as an institutional device to exercise fundamental rights does not negate the rights of the citizen shareholders."
+    ],
+    "precedents_cited": [
+      "Bennett Coleman & Co. Ltd. v. Union of India",
+      "R. C. Cooper v. Union of India (Bank Nationalisation case)",
+      "American Communication Association v. Dodds",
+      "Terminiello v. Chicago"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the fundamental right of freedom of speech and expression under Article 14(1)(a) was not violated by the orders made under the Emergency Regulations. The petitions were dismissed.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) guarantees freedom of speech and expression including publication, which was the core right claimed by the petitioners. The Court's reasoning and outcome centrally hinged on whether this right was infringed by the emergency orders.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the 'Saturday Review' contained material that was prejudicial to national security and public order, including eulogizing terrorists and inciting communal feelings, justifying the Competent Authority's orders under Regulation 14(3).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

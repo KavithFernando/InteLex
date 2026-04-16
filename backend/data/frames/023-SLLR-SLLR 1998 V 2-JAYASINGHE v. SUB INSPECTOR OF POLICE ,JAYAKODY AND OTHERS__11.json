@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_023-SLLR-SLLR_1998_V_2-JAYASINGHE_V._SUB_034_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 66/97",
+    "case_title": "Jayasinghe v. Sub Inspector of Police, Jayakody and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-02-06",
+    "source_citation": "(1998) 2 Sri LR. 204"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment in police custody, violating Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioner claimed he was unlawfully arrested on 22.12.1996, detained illegally, and subjected to torture including being hung on a beam, assaulted, and having chillie powder applied to his nose and private parts while in police custody.",
+    "respondent_argument": "The respondents claimed the petitioner was arrested on 25.12.1996, injuries were caused by the use of minimum force during arrest, and medical evidence did not conclusively link injuries to police assault.",
+    "key_facts": [
+      "Petitioner arrested on 22.12.1996 without being informed of reason.",
+      "Petitioner was handcuffed, slapped, stripped, hung on a beam, assaulted with a club, and had chillie powder applied to sensitive areas.",
+      "Petitioner detained until 26.12.1996 before being produced before Magistrate.",
+      "Medical evidence showed abrasions, contusions, difficulty breathing, vomiting, and other injuries consistent with assault.",
+      "Respondents' claim of minimum force contradicted by petitioner’s detailed account and medical evidence."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 11 prohibits torture and cruel, inhuman or degrading treatment. The medical evidence and petitioner’s testimony were sufficient to establish that the petitioner was subjected to such treatment while in police custody.",
+    "application_to_facts": "The court found the injuries and treatment described by the petitioner consistent with torture and degrading treatment, rejecting the respondents' claim of minimum force. The illegal detention and treatment violated Article 11 rights.",
+    "principles_established": [
+      "Article 11 protects individuals from torture and cruel, inhuman or degrading treatment.",
+      "Medical evidence, even if not conclusively linking injuries to assault, can support claims of torture when consistent with petitioner’s account.",
+      "Unlawful arrest and illegal detention can accompany violations of Article 11."
+    ],
+    "precedents_cited": [
+      "Ansalin Fernando v. Sarath Perera and others (1992) 1 Sri LR. 411",
+      "Weerasinghe v. Premaratne and others S.C. Application No. 477/96"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner was unlawfully arrested and detained and was subjected to torture and degrading treatment, violating Article 11 of the Constitution.",
+    "disposition": "granted",
+    "remedy_or_orders": "The court ordered compensation payments totaling Rs. 12,000 and costs of Rs. 4,000 to the petitioner from the respondents and the state."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the court's determination that the petitioner was subjected to torture and degrading treatment in police custody, which formed the basis for granting relief.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was handcuffed, slapped, hung on a beam, assaulted with a club, and had chillie powder applied to his nose and private parts causing excruciating pain; medical evidence showed abrasions and contusions consistent with assault.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_023-SLLR-SLLR-1998-1-CYRIL-FERNANDO-V.-R_117_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (F.R.) APPLICATION NO. 324/96",
+    "case_title": "Cyril Fernando v. Ratnasiri Wickramanayake and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-12-17",
+    "source_citation": "Sri Lanka Law Reports (1998) 1 Sri L.R. 166"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner, an employee of a statutory corporation, was entitled under Article 12(1) to equal protection of the law in relation to the transfer of ownership of a vehicle assigned to him on retirement under Public Administration Circular 24/93.",
+    "petitioner_claim": "The petitioner claimed he was a 'senior public officer' as defined in the Circular and thus entitled to the transfer of ownership of the vehicle assigned to him at retirement, asserting a violation of his fundamental right under Article 12(1) due to refusal by respondents.",
+    "respondent_argument": "The respondents argued that the Circular's part three applies only to government officers (public officers) and not to employees of corporations or statutory bodies, thus the petitioner was not eligible for the transfer of ownership.",
+    "key_facts": [
+      "Petitioner was employed by a statutory corporation (3rd respondent) for over 19 years until retirement in August 1995.",
+      "Public Administration Circular 24/93 part three deals exclusively with transfer of ownership of government vehicles to senior public officers on retirement.",
+      "The Circular distinguishes between government officers and corporation employees.",
+      "The petitioner was not a government servant but a corporation employee.",
+      "The petitioner was denied transfer of ownership of the vehicle assigned to him on retirement."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted the term 'senior public officer' in part three of the Circular as referring exclusively to government officers holding paid office under the Republic, excluding employees of corporations, statutory boards, or local authorities. The Circular’s part three applies only to government vehicles and government servants, not to vehicles belonging to corporations or their employees.",
+    "application_to_facts": "Since the petitioner was an employee of a statutory corporation and not a government officer, he was ineligible for the transfer of ownership of the vehicle assigned to him on retirement under the Circular. Therefore, no violation of Article 12(1) occurred as the petitioner was not denied equal protection of the law but was simply outside the class entitled to the benefit.",
+    "principles_established": [
+      "The term 'public officer' means a government servant holding paid office under the Republic, excluding corporation employees.",
+      "Public Administration Circular 24/93 part three applies only to government vehicles and government officers.",
+      "Eligibility for transfer of ownership under the Circular is limited to senior public officers as defined by government service, not corporation employees."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner was not entitled to the transfer of ownership of the vehicle under the Circular and that there was no violation of his fundamental right under Article 12(1). The application was dismissed.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner's claim that he was denied equal protection of the law by being excluded from the benefit of the Circular. The court’s interpretation of the Circular and the definition of 'senior public officer' determined whether the petitioner’s Article 12(1) right was infringed.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that part three of the Circular relates only to government vehicles and government officers, excluding corporation employees like the petitioner, and thus no violation of Article 12(1) occurred.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1600,
+      "end_char": 2300
+    }
+  }
+}

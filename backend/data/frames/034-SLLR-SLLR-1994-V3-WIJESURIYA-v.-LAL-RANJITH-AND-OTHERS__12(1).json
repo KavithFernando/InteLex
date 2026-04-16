@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_034-SLLR-SLLR-1994-V3-WIJESURIYA-V.-LAL-_166_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 263/93",
+    "case_title": "Wijesuriya v. Lal Ranjith and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1993-12-17",
+    "source_citation": "Sri Lanka Law Reports [1994] 3 Sri LR. SC Application No. 263/93, decided on December 17, 1993"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the appointment of the 1st respondent over the petitioner to the post of Grama Niladhari violated Article 12(1) of the Constitution by discriminating against the petitioner on the basis of residence qualifications.",
+    "petitioner_claim": "The petitioner claimed discrimination under Article 12(1) because she was more qualified and resided within the Kottegoda Grama Niladhari Division, entitling her to priority in appointment over the 1st respondent who was less qualified and allegedly not entitled to residence preference.",
+    "respondent_argument": "The respondents argued that the petitioner failed to prove residence within the relevant Grama Niladhari Division boundaries as of the closing date, that the 1st respondent was properly appointed based on merit and residence qualifications, and that the Provincial Public Service Commission acted bona fide without discrimination.",
+    "key_facts": [
+      "The Provincial Public Service Commission (PPSC) called for applications for Grama Niladhari posts with residence and merit qualifications.",
+      "Petitioner scored second highest marks but was not appointed; 1st respondent scored lower but was appointed.",
+      "Residence qualification required residence within the Grama Niladhari Division or adjoining division for at least three years within six years preceding application closing date.",
+      "Petitioner failed to prove residence within the relevant 1990 boundaries of the Kottegoda Grama Niladhari Division.",
+      "PPSC gave priority to resident candidates and had discretion to exclude non-resident applicants from examination."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as prohibiting discrimination and requiring equal protection of the law, but found that the PPSC's residence qualification and priority system was reasonable and did not violate equality rights. Priority for residents was a legitimate criterion and the petitioner failed to prove she met the residence requirement at the relevant time.",
+    "application_to_facts": "The petitioner could not establish residence within the relevant Grama Niladhari Division boundaries as of the application date, and the PPSC acted in good faith relying on electoral registers and official documents. The priority given to resident candidates was upheld as reasonable and not discriminatory. The petitioner's higher marks and agricultural qualification did not override the residence priority rule.",
+    "principles_established": [
+      "Residence qualifications and priority in public service appointments are reasonable and do not violate Article 12(1) if applied bona fide.",
+      "Burden of proof to establish residence qualification lies on the candidate asserting discrimination.",
+      "Administrative subdivisions and electoral registers are valid bases for determining residence qualifications.",
+      "Special qualifications entitle candidates only to special consideration, not to displace residence priority."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The petitioner's claim of discrimination under Article 12(1) was dismissed as she failed to prove residence qualification and the PPSC did not discriminate in appointing the 1st respondent.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner's claim of discrimination in appointment based on residence qualifications. The court's reasoning focused on whether the PPSC's actions violated the equality and equal protection guarantees of this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner failed to prove residence within the September 1990 boundaries of the Kottegoda Grama Niladhari Division, and the PPSC acted bona fide relying on electoral registers and official correspondence in appointing the 1st respondent.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 900,
+      "end_char": 2300
+    }
+  }
+}

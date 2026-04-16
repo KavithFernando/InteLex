@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1989-V-2-VEERADAS-V.-CONTR_050_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 221/88",
+    "case_title": "Veeradas v. Controller of Immigration and Emigration and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1989-09-27",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 221/88, decided on 27 September 1989"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the detention of the petitioner was lawful and complied with the requirement to bring a detained person before a judge without undue delay under Article 13(2).",
+    "petitioner_claim": "The petitioner claimed unlawful detention without proper legal authority and delay in being brought before a judge.",
+    "respondent_argument": "The respondents contended that the petitioner was produced before the Magistrate promptly and remanded according to law, and that the detention was lawful under the relevant statutes.",
+    "key_facts": [
+      "Petitioner was detained at the airport and handed over to police.",
+      "He was produced before the Negombo Magistrate on 6.11.88 and remanded until 11.11.88.",
+      "On 11.11.88, the petitioner was discharged as no proceedings were instituted.",
+      "Petitioner later traveled to the UK on 24.11.88."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 13(2) as requiring that any detained person be brought before a judge without unnecessary delay and held only under legal authority. The petitioner was produced before the Magistrate within two days and remanded lawfully pending investigation.",
+    "application_to_facts": "The petitioner was produced before the Magistrate promptly and remanded according to law. The detention was lawful and complied with Article 13(2). The subsequent discharge did not affect the lawfulness of the detention period.",
+    "principles_established": [
+      "Detention must be followed by prompt production before a judicial authority.",
+      "Remand pending investigation is lawful if authorized by a judge.",
+      "Lawful detention under legal order does not violate Article 13(2)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the detention and remand of the petitioner complied with Article 13(2) and was lawful.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) protects against unlawful detention without judicial oversight. The court's analysis of the timing and legality of the petitioner's production before the Magistrate was central to dismissing the claim.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was produced before the Magistrate on 6.11.88 and remanded until 11.11.88, after which he was discharged due to lack of evidence, demonstrating compliance with Article 13(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

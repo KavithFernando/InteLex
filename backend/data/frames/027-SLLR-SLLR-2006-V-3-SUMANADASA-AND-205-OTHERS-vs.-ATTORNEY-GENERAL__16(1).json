@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_027-SLLR-SLLR-2006-V-3-SUMANADASA-AND-20_027_C02__16(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_SPL_1-199-200-206_2006",
+    "case_title": "Sumanadasa and 205 Others vs. Attorney General",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2006-06-19",
+    "source_citation": "Sri Lanka Law Reports (2006) 3 Sri L. R."
+  },
+  "clause": {
+    "article": "16(1)",
+    "text": "Existing laws remain valid even if inconsistent with fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether Section 47(1) of the Immigration and Emigration Act, as existing law, remains valid and operative despite inconsistency with fundamental rights under Article 13(2).",
+    "petitioner_claim": "The petitioners argued that Section 47(1) infringes their fundamental rights and should not be upheld as valid existing law.",
+    "respondent_argument": "The respondent submitted that Section 47(1) is existing law since 1961 and remains valid and operative under Article 16(1) despite any inconsistency with fundamental rights.",
+    "key_facts": [
+      "Section 47(1) was amended in 1961.",
+      "Petitioners detained under this provision without bail.",
+      "Article 16(1) preserves existing laws notwithstanding inconsistency with fundamental rights.",
+      "The Court was asked to consider the validity of Section 47(1) under Article 16(1)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court stated it was not required to pronounce on the validity of Section 47(1) as existing law under Article 16(1). Instead, the Court focused on the ambit of the fundamental right under Article 13(2) and the relief to be granted in absence of a procedure for adjudicating continued detention.",
+    "application_to_facts": "Although Section 47(1) is existing law, the Court found that the lack of a procedure to adjudicate continued detention violates Article 13(2), and thus relief must be granted notwithstanding Article 16(1).",
+    "principles_established": [
+      "Article 16(1) preserves existing laws despite inconsistency with fundamental rights.",
+      "The Court may grant relief for fundamental rights violations even if the law is existing law.",
+      "Focus is on the protection and enforcement of fundamental rights."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court did not invalidate Section 47(1) as existing law but held that the petitioners' fundamental rights were infringed due to absence of procedure for continued detention and granted relief accordingly.",
+    "disposition": "granted",
+    "remedy_or_orders": "Magistrate Courts directed to decide continued detention according to procedure applicable to non-bailable offences."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 16(1) was raised by the respondent to justify the validity of Section 47(1) despite inconsistency with fundamental rights. The Court addressed this argument to clarify the scope of existing law and fundamental rights protection, making the clause materially engaged.",
+    "relevance_level": "medium",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "Deputy Solicitor General submitted that Section 47(1) as interpreted by the Divisional Bench which denied to the Petitioners a procedure upon which their continued detention could be adjudicated upon, is existing law since the amendment was in 1961 and should be held as being valid and operative in terms of Article 16(1) of the Constitution as existing law.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2100,
+      "end_char": 2150
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-2007-V-2-RODRIGO-V.-IMALKA_022_C01__14(1)(h)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_297_2007",
+    "case_title": "Rodrigo v Imalka Sub-Inspector of Police, Kirulapone and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2007-11-28",
+    "source_citation": "Supreme Court of Sri Lanka, SC FR 297/2007, decided on 28 November 2007"
+  },
+  "clause": {
+    "article": "14(1)(h)",
+    "text": "Freedom of movement and residence."
+  },
+  "case_context": {
+    "legal_issue": "Whether the stopping, searching, detention, and obstruction of the petitioner at police 'check points' and related executive actions violated the fundamental right to freedom of movement guaranteed by Article 14(1)(h) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that he was unlawfully stopped, detained, and harassed at a police check point without reasonable suspicion, infringing his fundamental right to freedom of movement under Article 14(1)(h). He also claimed that the erection of permanent barriers and obstruction of public roads at check points unlawfully restricted freedom of movement.",
+    "respondent_argument": "The respondents contended that the petitioner was subjected to routine inspection based on suspicion regarding the genuineness of his temporary driving licence and denied allegations of bribery demands or unlawful detention. They justified actions under emergency regulations and police powers.",
+    "key_facts": [
+      "The petitioner was stopped at a police check point and asked for his driving licence.",
+      "He produced a genuine temporary driving licence which was initially alleged to be forged by police.",
+      "The petitioner was detained overnight and produced before a Magistrate on charges based on the alleged forgery.",
+      "The Magistrate discharged the petitioner after verification that the licence was genuine.",
+      "Permanent police check points obstruct public roads causing congestion and delays."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the fundamental right to freedom of movement under Article 14(1)(h) cannot be restricted arbitrarily and any restriction must be prescribed by law and based on reasonable suspicion. The erection of permanent barriers and unlawful obstruction of public roads at check points without legal authority violates this right. Police and armed forces must act within legal limits and respect constitutional rights.",
+    "application_to_facts": "The Court found that the petitioner was stopped and detained without reasonable suspicion or lawful authority, constituting an infringement of his freedom of movement. The permanent check points and obstruction of roads were not authorized by law and caused unlawful restrictions on movement. The Court emphasized the need for reasonable grounds for searches and arrests and condemned abuse of power at check points.",
+    "principles_established": [
+      "Reasonable suspicion is essential to justify stopping, searching, or detaining persons exercising freedom of movement.",
+      "Permanent barriers and obstruction of public roads by police check points without legal authority infringe the constitutional right to freedom of movement.",
+      "Police and armed forces must uphold the law and respect fundamental rights when exercising their powers.",
+      "Superior officers are liable for infringements by subordinates if they fail to prevent abuse of authority."
+    ],
+    "precedents_cited": [
+      "Sarjun v Kamaldeen PC 39573 Police Station Habarana SCFR 559-03",
+      "Liyanage v. Gampaha Urban Council 1991 1 Sri LR 8"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner’s fundamental right to freedom of movement under Article 14(1)(h) was infringed by unlawful stopping, detention, and obstruction at police check points. It issued directions to discontinue unlawful check points and obstructions and to respect constitutional rights.",
+    "disposition": "granted",
+    "remedy_or_orders": "Directions issued under Article 126(4) to discontinue unlawful permanent check points and obstructions; compensation awarded to petitioner; police officers directed to respect fundamental rights."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(h) guarantees freedom of movement, which was directly infringed by the unlawful police actions at check points and road obstructions. The Court’s reasoning and orders centrally rely on this clause to protect citizens’ constitutional rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court stated that 'a reasonable ground of suspicion is essential to warrant a search' and that 'there is no provision of law which permits arbitrary action in stopping and searching persons who travel on our public roads in the exercise of the fundamental right to the freedom of movement.' It further held that the erection of virtually permanent barriers on public roads at check points is not authorized by any law and amounts to an infringement of Article 14(1)(h).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_003-SLLR-SLLR-1997-2-RATNAYAKE-V.-ATTORN_017_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (FR) APPLICATION NO. 236/96",
+    "case_title": "Ratnayake v. Attorney-General",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-05-08",
+    "source_citation": "[1997] 2 Sri L.R. 98"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the transfer of the petitioner from Kalubowila Maha Vidyalaya violated Article 12(1) of the Constitution by denying her equal protection of the law.",
+    "petitioner_claim": "The petitioner argued that unlike other principals who participated in the same study leave course and were restored to their former schools without discrimination, she was transferred to a different school, constituting unequal treatment in violation of Article 12(1).",
+    "respondent_argument": "The respondents denied that all principals were restored to their former schools and stated that transfers depended on prior performance. They also argued the transfer decision was made before study leave was granted and was based on administrative deficiencies.",
+    "key_facts": [
+      "Petitioner was a Grade I principal granted one year study leave to pursue a postgraduate diploma.",
+      "Petitioner was transferred from Kalubowila Maha Vidyalaya to Dharmarama Vidyalaya after study leave.",
+      "Petitioner claimed other principals returned to their original schools without discrimination.",
+      "Respondents presented reports indicating administrative deficiencies during petitioner's tenure.",
+      "Burden of proof was on petitioner to show discriminatory treatment under Article 12(1)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) requires not only denial of protection of the law but also proof of unequal or discriminatory treatment compared to others similarly situated.",
+    "application_to_facts": "The petitioner failed to provide sufficient evidence that she was treated less favorably than other principals who took the same course. The respondents showed the transfer decision was based on administrative concerns and preceded the study leave. Thus, the petitioner did not establish a violation of equal protection.",
+    "principles_established": [
+      "Burden of proof lies on the petitioner to establish unequal treatment under Article 12(1).",
+      "A transfer alone does not constitute a violation of Article 12(1) unless discriminatory treatment is shown.",
+      "Evidence of administrative deficiencies can justify transfer decisions without violating equal protection."
+    ],
+    "precedents_cited": [
+      "Jayasinghe v. The Attorney-General and Others [1994] 2 Sri L.R. 74, 88"
+    ]
+  },
+  "outcome": {
+    "holding": "The court dismissed the petition, holding that the petitioner failed to establish a violation of Article 12(1) as there was no proof of unequal or discriminatory treatment.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's analysis as the petitioner claimed denial of equal protection through discriminatory transfer. The court's reasoning and dismissal hinged on the interpretation and application of this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The burden is squarely on the petitioner to establish the alleged violation of Article 12(1). It is not enough to show denial of protection of the law; unequal or discriminatory treatment must be shown. The petitioner failed to place sufficient material to establish this fact.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 0,
+      "end_char": 1000
+    }
+  }
+}

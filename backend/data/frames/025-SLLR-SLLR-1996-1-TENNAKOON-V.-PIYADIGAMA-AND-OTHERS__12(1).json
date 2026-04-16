@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_025-SLLR-SLLR-1996-1-TENNAKOON-V.-PIYADI_126_C01__12(1)",
+  "created_at": "2024-06-10",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 275/94",
+    "case_title": "Tennakoon v. Piyadigama and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-06-26",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 275/94, decided on 26 June 1995"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the compulsory and premature retirement of the petitioner violated his fundamental right to equality and equal protection under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that his compulsory retirement was arbitrary, discriminatory, mala fide, and violated his right to equal protection under the law as guaranteed by Article 12(1). He claimed he was subjected to selective discrimination and was not given the option to revert to his previous post or alternative employment.",
+    "respondent_argument": "The respondents argued that other officers holding similar posts were not similarly circumstanced and that the petitioner’s retirement was lawful based on the Cabinet decision to suppress the post.",
+    "key_facts": [
+      "The petitioner was prematurely retired following a Cabinet decision to abolish his post of Senior Assistant Secretary (Information).",
+      "The petitioner was not informed of the option to revert to his previous post, unlike another officer who was given that option and alternative employment.",
+      "The petitioner’s previous post still existed in other ministries, and appointments to similar posts were made after the Cabinet decision.",
+      "The petitioner applied to revert to his previous post but was denied and forced into retirement.",
+      "The petitioner was not provided any alternative employment."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as guaranteeing equal protection of the law, meaning that similarly situated public officers should be treated alike without arbitrary or discriminatory distinctions.",
+    "application_to_facts": "The court found that the petitioner and other officers were similarly situated as public officers entitled to serve until retirement age. The petitioner was treated differently without rational basis, as others were allowed to continue or revert to posts or given alternative employment. This selective discrimination violated Article 12(1).",
+    "principles_established": [
+      "Public officers in similar circumstances must be treated equally under the law.",
+      "Government decisions affecting public officers must be lawful and not arbitrary or discriminatory.",
+      "Options granted by Cabinet decisions (such as reversion to previous posts) must be communicated and honored.",
+      "Premature retirement without alternative employment or valid reason constitutes a violation of equal protection."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s compulsory and premature retirement violated his fundamental rights under Article 12(1) and declared the retirement null and void. The petitioner was entitled to be appointed to a comparable post and awarded compensation.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioner was to be appointed to another post of Senior Assistant Secretary (Information) or a comparable post. The State was ordered to pay Rs. 60,000 as compensation and Rs. 5,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court’s reasoning as it protects against arbitrary and discriminatory treatment by the State, which was the core issue in the petitioner’s claim of unlawful premature retirement.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was prematurely retired without being informed of the option to revert to his previous post, while others in similar positions were allowed to continue or revert, demonstrating selective discrimination violating Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

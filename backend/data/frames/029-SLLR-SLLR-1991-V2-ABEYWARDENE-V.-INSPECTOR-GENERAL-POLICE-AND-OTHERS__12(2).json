@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_029-SLLR-SLLR-1991-V2-ABEYWARDENE-V.-INS_143_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application No. 92/91",
+    "case_title": "Abeywardene v. Inspector General of Police and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1991-10-23",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 92/91, decided on 23 October 1991"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Emergency Regulations discriminated against the petitioner on the ground of political opinion in violation of Article 12(2).",
+    "petitioner_claim": "The petitioner alleged that the Regulations were made to affect his business because of his political opinions, constituting discrimination prohibited by Article 12(2).",
+    "respondent_argument": "The State denied any personal hostility or political discrimination, asserting the Regulations were made in good faith to preserve public order and security, and that the petitioner was treated according to law without vindictive motive.",
+    "key_facts": [
+      "Petitioner had previously supported the United National Party but did not support the incumbent President in the most recent election.",
+      "Petitioner claimed the Regulations were motivated by political revenge.",
+      "Newspaper reports and evidence showed no indication of personal hostility or political discrimination by the President or government.",
+      "Government took action against other forms of gambling after the jackpot seizure, indicating no targeted discrimination.",
+      "The petitioner bore the burden to prove bad faith or ulterior motive."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 12(2) prohibits discrimination on specified grounds including political opinion. However, to invalidate legislation on this basis, the petitioner must prove that the law was motivated by hostile or inimical intention. The court found no evidence of bad faith or political discrimination in the making or application of the Regulations.",
+    "application_to_facts": "The court examined the petitioner’s allegations and supporting newspaper reports but found no proof of personal hostility or political discrimination. The government’s subsequent actions against other gambling forms further negated claims of vindictiveness. The petitioner failed to establish that the Regulations were motivated by political opinion.",
+    "principles_established": [
+      "Discriminatory legislation is invalid under Article 12(2) only if motivated by hostile or inimical intention.",
+      "The burden of proof lies on the challenger to show bad faith or ulterior motive.",
+      "Government is entitled to address problems according to its own timetable without being deemed discriminatory.",
+      "Absence of evidence of personal hostility or political discrimination supports validity of legislation."
+    ],
+    "precedents_cited": [
+      "Yasapala v. Ranil Wickremasinghe and others (1980) 1 FRD 143",
+      "Carltona Ltd. v. Commissioner of Works and Others 1943 2 All ER 560",
+      "State of West Bengal v. Anwar Ali AIR 1952 SC 75"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner failed to prove that the Regulations were motivated by political discrimination or bad faith, and therefore there was no violation of Article 12(2).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was materially engaged because the petitioner alleged political discrimination in the making and application of the Emergency Regulations, which the court analyzed and rejected based on evidence.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found no evidence in newspaper reports or otherwise to show personal hostility or political discrimination by the President or government against the petitioner. The government’s actions against other gambling forms negated claims of vindictiveness.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

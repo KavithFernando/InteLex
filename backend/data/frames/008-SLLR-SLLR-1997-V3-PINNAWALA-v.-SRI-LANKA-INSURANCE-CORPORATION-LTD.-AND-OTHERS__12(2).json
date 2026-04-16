@@ -1,0 +1,54 @@
+{
+  "frame_id": "RQ1_008-SLLR-SLLR-1997-V3-PINNAWALA-V.-SRI-L_042_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 583/95(FR)",
+    "case_title": "Pinnawala v. Sri Lanka Insurance Corporation Ltd. and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-07-16",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 583/95(FR), decided on 16 July 1997"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the refusal of the petitioner's extension was discriminatory on grounds prohibited by Article 12(2), particularly political opinion.",
+    "petitioner_claim": "The petitioner impliedly claimed that the refusal was influenced by political considerations, referencing a newspaper allegation about his political affiliations.",
+    "respondent_argument": "The respondents denied any political motivation, asserting the refusal was solely due to the petitioner's poor performance and loss of confidence.",
+    "key_facts": [
+      "A newspaper article alleged the petitioner was involved in political fundraising for the UNP.",
+      "The petitioner denied the allegation and requested an inquiry, which was not held.",
+      "Respondents stated the refusal was based on a committee report about the petitioner's performance, not political grounds."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court found no evidence that the refusal was based on political opinion or any other prohibited ground under Article 12(2). The decision was based on performance-related allegations, albeit arbitrarily applied.",
+    "application_to_facts": "The court accepted the respondents' assertion that the refusal was due to loss of confidence from alleged negligence, not political opinion. The petitioner was not discriminated against on prohibited grounds under Article 12(2).",
+    "principles_established": [],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court did not find a violation of Article 12(2) as the refusal was not discriminatory on prohibited grounds.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was considered to assess whether the refusal was discriminatory on prohibited grounds, but the court found no such discrimination.",
+    "relevance_level": "low",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The 2nd respondent specifically avers that the petitioner was not granted his extension of service 'not because of his political affiliations but due to the fact that the Board of Directors took the view that he was found wanting in the discharge of his duties.'",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

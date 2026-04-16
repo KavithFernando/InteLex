@@ -1,0 +1,58 @@
+{
+  "frame_id": "RQ1_036-SLLR-SLLR-2004-V-2-LALITH-DESHAPRIYA_079_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "C.A. 968/2002",
+    "case_title": "Lalith Deshapriya v Captain Weerakoon and Others",
+    "court_name": "Court of Appeal of Sri Lanka",
+    "decision_date": "2004-06-11",
+    "source_citation": "[2004] 2 Sri L.R 314"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was detained without being brought before a judge or without a legal order, violating Article 13(2).",
+    "petitioner_claim": "The petitioner claimed that he was detained unlawfully without being produced before a judicial authority or having a legal order authorizing his detention.",
+    "respondent_argument": "Respondents did not provide evidence that the petitioner was brought before a judge or that his detention was authorized by a legal order.",
+    "key_facts": [
+      "Petitioner was detained from 4th September 2001 to 8th January 2002 under close arrest.",
+      "No evidence was presented that petitioner was brought before a judge during detention.",
+      "Petitioner was subjected to torture and coercion during detention.",
+      "Summary trial was conducted by the commanding officer without proper legal safeguards."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) mandates that any detained person must be brought before a judge and cannot be held without a legal order. The court found that the petitioner was detained for an extended period without judicial oversight or legal authorization.",
+    "application_to_facts": "The petitioner’s prolonged detention without being produced before a judge or having a legal order violated Article 13(2), undermining the legality of the detention and subsequent trial.",
+    "principles_established": [
+      "Detention without judicial oversight or legal order is unlawful under Article 13(2).",
+      "Prolonged detention without judicial review violates fundamental rights."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s detention violated Article 13(2) and contributed to the nullity of the summary trial and conviction.",
+    "disposition": "granted",
+    "remedy_or_orders": "The conviction and dismissal were quashed and the petitioner was ordered to be re-enlisted."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) is central because it protects detainees from unlawful detention without judicial oversight, which was a key factor in the court’s decision to quash the proceedings.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was kept under close arrest for months without being brought before a judge or having a legal order authorizing detention, violating Article 13(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 25,
+      "end_char": 850
+    }
+  }
+}

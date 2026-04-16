@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_038-SLLR-SLLR-1986-V-1-SIRIWARDENA-AND-O_181_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION 104/85",
+    "case_title": "Siriwardena and Others v. Brigadier J. Rodrigo and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1986-02-10",
+    "source_citation": "Sri Lanka Law Reports [1986] 1 SriL.R. 384"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the respondents' actions discriminated against the petitioners on the ground of political opinion in violation of Article 12(2).",
+    "petitioner_claim": "The petitioners alleged that the redistribution of Gallewatta land was motivated by political reasons, targeting them because they were politically opposed to the 3rd respondent.",
+    "respondent_argument": "The respondents denied any improper political motivation and asserted that the land redistribution was lawful and based on the change in legal status of the land.",
+    "key_facts": [
+      "Petitioners were politically opposed to the 3rd respondent.",
+      "The 3rd respondent allegedly instigated the redistribution to settle his political supporters.",
+      "No similar redistribution was done for two other lands with politically supportive occupants.",
+      "The Court found no evidence that the 1st and 2nd respondents acted under political pressure."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court recognized that discrimination on grounds such as political opinion is prohibited under Article 12(2), but requires proof of improper conduct or motivation.",
+    "application_to_facts": "The Court found no evidence that the 1st and 2nd respondents acted improperly or under the instigation of the 3rd respondent. The differentiation in treatment was due to the legal status of the land, not political discrimination.",
+    "principles_established": [
+      "Allegations of discrimination on political grounds must be supported by evidence.",
+      "Legal distinctions in land status can justify different treatment without constituting prohibited discrimination."
+    ],
+    "precedents_cited": [
+      "Edirisuriya v. Navaratnam and Others [1985] (1) SLR 100"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the claim of discrimination under Article 12(2), finding no violation of the fundamental right against discrimination on political grounds.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was directly engaged by the petitioners' claim that they were discriminated against on political grounds by the respondents' actions.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The material placed before the Court clearly established that the 1st and 2nd respondents resisted outside pressure and acted on their own, with no improper conduct or political discrimination.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3850,
+      "end_char": 3950
+    }
+  }
+}

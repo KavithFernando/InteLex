@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_001-SLLR-SLLR_1994_V1-CHANNA_PIERIS__AND_001_C03__13(4)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATIONS_146-155_92",
+    "case_title": "Channa Pieris and Others v. Attorney-General and Others (Ratawesi Peramuna Case)",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-02-17",
+    "source_citation": "Sri Lanka Law Reports [1994] 1 Sri LR."
+  },
+  "clause": {
+    "article": "13(4)",
+    "text": "Punishment can only be imposed by a competent court and detention before trial is not punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the detention of the petitioners before trial constituted punishment in violation of Article 13(4).",
+    "petitioner_claim": "The petitioners argued that their detention was punitive and thus violated Article 13(4) which prohibits punishment except by a competent court.",
+    "respondent_argument": "The respondents contended that detention before trial is not punishment and thus does not violate Article 13(4).",
+    "key_facts": [
+      "Petitioners were detained after arrest pending investigation and trial.",
+      "Detention was under Emergency Regulations and detention orders.",
+      "Petitioners claimed detention was punitive and unlawful.",
+      "Court examined whether detention was for investigation or punitive.",
+      "No evidence that detention was intended as punishment."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that detention before trial, including preventive detention, is not punishment within the meaning of Article 13(4). Detention becomes punitive only if it is not reasonably related to investigation, trial, or preventive detention purposes. The Court emphasized that deprivation of liberty without lawful purpose would amount to punitive imprisonment.",
+    "application_to_facts": "The Court found that the petitioners were detained pending investigation and trial, and that their detention was not punitive imprisonment. However, if detention is prolonged without lawful justification, it could amount to punishment. In this case, the detention was not found to be punitive per se.",
+    "principles_established": [
+      "Detention before trial is not punishment under Article 13(4).",
+      "Punishment can only be imposed by a competent court.",
+      "Detention without lawful purpose or prolonged detention may amount to punitive imprisonment.",
+      "Preventive detention is not punitive if lawful and justified."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that the detention of the petitioners before trial did not constitute punishment in violation of Article 13(4).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(4) was considered to clarify the nature of detention before trial and to distinguish lawful detention from punishment, which was relevant to the petitioners' claims.",
+    "relevance_level": "medium",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court noted that detention pending investigation or trial is not punishment, but detention without lawful purpose would be punitive imprisonment violating Article 13(4).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

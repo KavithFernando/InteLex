@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_051-SLLR-SLLR-1997-V-1-DHANAPALA-V.-DISS_201_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 145/95",
+    "case_title": "Dhanapala v. Dissanayake, Provincial Director of Education and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-04-04",
+    "source_citation": "[1997] 1 Sri LR. 400"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the transfer of the petitioner by the Secretary of the Education Service Board of the Public Service Commission to the Ministry of Education and Higher Education violated the petitioner's fundamental rights under Article 12(1) of the Constitution, specifically regarding legitimate expectation and equal protection of the law.",
+    "petitioner_claim": "The petitioner argued that he was serving the North Central Provincial Council under a release arrangement and that his transfer was made without his consent or the approval of the Provincial Council's Head of Department, thus violating his legitimate expectation and equal protection rights under Article 12(1).",
+    "respondent_argument": "The respondents contended that the petitioner was not seconded to the Provincial Council but belonged to a third group of officers whose services were made available to Provincial Councils to assist them without secondment, and thus remained subject to the Public Service Commission's authority, making the transfer valid and not discriminatory.",
+    "key_facts": [
+      "The petitioner was a member of the Sri Lanka Education Administrative Service and served in various posts including in the North Central Provincial Council.",
+      "There was no evidence that the petitioner was seconded to the Provincial Council as required by relevant circulars.",
+      "The petitioner was transferred by the Education Service Board of the Public Service Commission without his consent or approval from the Provincial Council.",
+      "The petitioner belonged to a category of officers whose services were made available to Provincial Councils but who remained under the Public Service Commission's control.",
+      "The court found no evidence of invidious discrimination in the transfer."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as guaranteeing equality before the law and equal protection, but found that the petitioner did not belong to the class of officers subject to the Provincial Council's transfer and disciplinary control. The petitioner was part of a third group who remained under the Public Service Commission's authority, and thus the transfer did not violate his constitutional rights.",
+    "application_to_facts": "Since the petitioner was not seconded and was not a member of the provincial public service, the Education Service Board had the authority to transfer him. The absence of evidence showing secondment or membership in the provincial public service meant the petitioner's legitimate expectation was not frustrated, and no discrimination was shown.",
+    "principles_established": [
+      "Distinction between officers seconded to Provincial Councils and those whose services are merely made available without secondment.",
+      "Only officers seconded or belonging to provincial public service are subject to Provincial Council's transfer and disciplinary control.",
+      "Officers in the third group remain under the Public Service Commission's authority and can be transferred by it.",
+      "Legitimate expectation under Article 12(1) requires evidence of proper secondment or membership in provincial public service."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner's fundamental rights under Article 12(1) were not violated and dismissed the application.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner's claim of violation of equal protection and legitimate expectation regarding his transfer. The court's reasoning focused on whether the petitioner was entitled to protection under this clause based on his employment status.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found no evidence that the petitioner was seconded to the Provincial Council and concluded that he remained subject to the Public Service Commission's authority, making the transfer valid and not discriminatory.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

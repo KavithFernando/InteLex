@@ -1,0 +1,66 @@
+{
+  "frame_id": "RQ1_011-SLLR-SLLR-1994-V1-JAYATILLAKE-AND-AN_019_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATIONS_1_2_92",
+    "case_title": "Jayatillake and Another v. Kaleel and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1992-02-28",
+    "source_citation": "Supreme Court of Sri Lanka, SC Applications 1 & 2/92, decided on 28 February 1992"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' conduct in signing and supporting an impeachment motion, associating with expelled party members, and their subsequent expulsion from the United National Party violated their constitutional right to freedom of speech and expression under Article 14(1)(a) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that their signing of the impeachment motion and their public criticism and association with dissidents were protected exercises of their constitutional right to freedom of speech and expression, and that disciplinary action by the party was invalid.",
+    "respondent_argument": "The respondents contended that the petitioners' conduct violated party discipline, that their freedom of speech was constrained by their contractual obligations to the party, and that their expulsion was valid as their conduct was not a legitimate exercise of constitutional rights.",
+    "key_facts": [
+      "Petitioners signed a notice of resolution to impeach the President without prior internal party discussion.",
+      "Petitioners later signed letters withdrawing their signatures but continued to support the impeachment motion.",
+      "Petitioners associated publicly with expelled party members and criticized party leadership and the Executive Presidential System.",
+      "Petitioners requested a free vote on a no-confidence motion against the Speaker but were denied and failed to vote with the party.",
+      "Petitioners were expelled by the party's Working Committee for misconduct violating party constitution provisions."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the right to freedom of speech and expression under Article 14(1)(a) is subject to lawful restrictions including party discipline. MPs' freedom of speech is constrained by their contractual obligations to the party. Public criticism and association with dissidents without prior internal discussion violated party discipline and forfeited constitutional protection under Article 14(1)(a).",
+    "application_to_facts": "The petitioners signed the impeachment motion without knowledge of its contents, continued to support it after retracting signatures, and publicly associated with expelled members campaigning against the party leadership. These acts were inconsistent and amounted to misconduct violating party rules, justifying expulsion. Their conduct was not a legitimate exercise of freedom of speech protected by the Constitution.",
+    "principles_established": [
+      "Freedom of speech of MPs is constrained by party discipline and contractual obligations.",
+      "Signing a constitutional notice without knowledge of contents is a misuse of constitutional rights.",
+      "Public criticism and association with dissidents without internal party discussion can justify disciplinary action.",
+      "Disciplinary proceedings and expulsion for such conduct do not violate constitutional freedom of speech."
+    ],
+    "precedents_cited": [
+      "Dissanayake v. Kaleel SC (Special) Nos. 4 to 11/91",
+      "Joseph Perera v. Attorney-General SC Applications No. 107 - 109/96",
+      "Ridge v. Baldwin [1964] AC 40",
+      "Austin v. Keefe 1971 US 402"
+    ]
+  },
+  "outcome": {
+    "holding": "The court upheld the validity of the petitioners' expulsion from the party, holding that their conduct was not protected by Article 14(1)(a) as it violated party discipline and contractual obligations, and thus disciplinary action was lawful.",
+    "disposition": "granted",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) was central to the court's analysis of whether the petitioners' conduct was constitutionally protected freedom of speech or subject to lawful party discipline. The court directly interpreted the scope and limits of this constitutional right in the context of party membership and parliamentary conduct.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioners signed the impeachment motion without reading it, later retracted their signatures but continued to support it, publicly associated with expelled members criticizing the party, and failed to vote with the party on a no-confidence motion, leading to their expulsion for violating party rules and discipline.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

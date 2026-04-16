@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_020-SLLR-SLLR-1998-V-3-RAJANAYAGAM-V.-BA_108_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 389/98",
+    "case_title": "Rajanayagam v. Bandula Wijayaratne, Commissioner-General of Excise and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-09-03",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 389/98, decided on 3 September 1998"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was denied equal protection of the law under Article 12(1) by the Commissioner-General of Excise's refusal to issue a liquor licence based on guidelines that lacked Parliamentary confirmation and were applied without statutory discretion or a hearing.",
+    "petitioner_claim": "The petitioner claimed that the refusal to issue the licence was illegal because the guidelines (Notification No. 833) had not acquired the force of law due to lack of Parliamentary confirmation, and that the Commissioner-General applied these guidelines arbitrarily, denied the petitioner a hearing, and thus infringed his fundamental right to equal protection of the law and his right to livelihood.",
+    "respondent_argument": "The respondent argued that the guidelines were valid rules confirmed by Parliament and that the refusal was lawful. The respondent also contended that the petitioner’s application was time-barred and that the guidelines applied uniformly and legitimately to all applicants.",
+    "key_facts": [
+      "The petitioner had held a liquor licence for the premises until 1994 and applied for renewal in 1995 but was refused.",
+      "Notification No. 833 containing guidelines for issuing liquor licences was published in November 1997 but lacked Gazette notification of Parliamentary confirmation at the time of the petitioner’s application in March 1998.",
+      "The Commissioner-General refused to issue an application form unless authorized by a Member of Parliament from the ruling party.",
+      "The petitioner was denied a hearing as required by clause 10 of the guidelines.",
+      "The Commissioner-General applied the guidelines as if they had the force of law without exercising independent discretion."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equal protection of the law, which requires that statutory powers be exercised fairly and in accordance with law. The Excise Ordinance mandates that rules affecting licences must be confirmed by Parliament to have the force of law. The guidelines (Notification No. 833) lacked such confirmation at the relevant time and thus could not be treated as binding law. The Commissioner-General’s abdication of discretion and denial of a hearing violated the petitioner’s right to equal protection.",
+    "application_to_facts": "The court found that the Commissioner-General applied the unconfirmed guidelines as if they were law, refused the petitioner a hearing, and treated the petitioner’s application unfairly and arbitrarily. This conduct denied the petitioner equal protection under the law and infringed his right to livelihood.",
+    "principles_established": [
+      "Rules made under the Excise Ordinance require Parliamentary confirmation to have the force of law.",
+      "Delegated legislation must be subject to Parliamentary control to ensure legality and fairness.",
+      "Statutory discretion must be exercised independently and not abdicated to unconfirmed guidelines.",
+      "Denial of an opportunity to be heard violates the right to equal protection under Article 12(1)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental right to equal protection under Article 12(1) was infringed by the Commissioner-General’s refusal to issue the licence based on unconfirmed guidelines and denial of a hearing. The refusal was illegal and arbitrary.",
+    "disposition": "granted",
+    "remedy_or_orders": "The court granted a declaration of infringement of fundamental rights under Article 12(1), awarded Rs. 200,000 as compensation and Rs. 20,000 as costs payable by the state, and ordered payment by 10 November 1998."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court’s reasoning because the petitioner’s claim was that he was denied equal protection of the law when the Commissioner-General applied unconfirmed guidelines arbitrarily and without due process, violating his fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the Commissioner-General applied Notification No. 833 as if it had the force of law despite lack of Parliamentary confirmation, denied the petitioner a hearing as required by clause 10, and thereby denied equal protection of the law and infringed the right to livelihood.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

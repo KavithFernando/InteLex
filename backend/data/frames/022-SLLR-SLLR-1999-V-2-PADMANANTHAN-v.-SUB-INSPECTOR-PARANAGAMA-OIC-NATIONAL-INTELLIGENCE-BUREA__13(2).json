@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_022-SLLR-SLLR-1999-V-2-PADMANANTHAN-V.-S_052_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 361/98",
+    "case_title": "Padmanathan v. Sub-Inspector Paranagama, OIC, National Intelligence Bureau, Vavuniya and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-02-15",
+    "source_citation": "Sri Lanka Law Reports [1999] 2 Sri LR 225"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner's detention complied with Article 13(2) requiring prompt production before a Magistrate and lawful detention order.",
+    "petitioner_claim": "The petitioner claimed he was detained for three days without being produced before a Magistrate and without a lawful detention order, violating Article 13(2).",
+    "respondent_argument": "Respondents relied on section 7(1) of the PTA to justify detention for 72 hours and subsequent remand by Magistrate.",
+    "key_facts": [
+      "Petitioner was detained from 7.6.98 and produced before Magistrate only on 10.6.98.",
+      "No lawful arrest under section 6(1) of PTA was made, so detention under section 7(1) was invalid.",
+      "Petitioner was remanded indefinitely without plaint or trial contemplated.",
+      "Attorney-General advised no evidence to proceed on 28.12.98 but petitioner remained detained until 13.1.99."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires that any detained person be produced before a Magistrate promptly and not held without legal order. Detention under section 7(1) of PTA applies only if arrest under section 6(1) was lawful. Since arrest was unlawful, detention was also unlawful.",
+    "application_to_facts": "The petitioner was not produced before the Magistrate within 72 hours as required, and the detention was without lawful basis. The Magistrate's remand was judicial but the indefinite detention without trial was unlawful executive action.",
+    "principles_established": [
+      "Detention must follow lawful arrest and prompt production before Magistrate.",
+      "Section 7(1) PTA detention rights depend on lawful arrest under section 6(1).",
+      "Indefinite detention without trial or legal basis violates Article 13(2)."
+    ],
+    "precedents_cited": [
+      "Jayathevan v. AG (1992) 2 Sri LR 356, 371",
+      "Farook v. Raymond (1996) 1 Sri LR 217",
+      "Perera v. AG (1992) 1 Sri LR 199, 247"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner's detention violated Article 13(2) due to non-production before Magistrate and unlawful detention.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of infringement of fundamental rights and Rs. 200,000 compensation."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was central to the Court's reasoning on the illegality of detention without prompt judicial oversight and lawful order, which was breached here.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was detained for three days without being produced before a Magistrate; arrest was not lawful under section 6(1), so detention under section 7(1) was invalid.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

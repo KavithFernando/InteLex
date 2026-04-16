@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_014-SLLR-SLLR-2007-V-2-DISSANAYAKE-V.-PR_072_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_256_2005",
+    "case_title": "Dissanayake v Priyal de Silva",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2007-07-02",
+    "source_citation": "[2007] 2 Sri L.R 134"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s fundamental right to equality and equal protection of the law under Article 12(1) was violated by not awarding marks for excellence in sports and by limiting the number of promotion vacancies.",
+    "petitioner_claim": "The petitioner claimed he was denied marks for excellence in sports despite officiating international and national cricket tournaments, and that there were actually seven vacancies for promotion to Inspector, but only four were considered.",
+    "respondent_argument": "The respondents argued that marks were only given for national level sports participation, not umpiring, and that only four vacancies existed at the time of calling applications as per the official notice. The petitioner’s challenge to the number of vacancies was out of time.",
+    "key_facts": [
+      "Petitioner was a Sub-Inspector eligible for promotion to Inspector after 7 years of service.",
+      "Applications for promotion were called in 2002 for four vacancies.",
+      "Petitioner scored 6th in merit and was not promoted.",
+      "Petitioner submitted certificates mainly for umpiring, which was not considered as sports for marks.",
+      "Petitioner alleged unequal treatment as another candidate received marks for sports without national level participation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equal protection of the law but does not require equal violation of the law. 'Sports' and 'umpiring' are distinct; marks for excellence in sports cannot be awarded for umpiring. The petitioner cannot compel illegal action based on alleged illegal acts towards others. The number of vacancies stated in the official notice was binding, and challenges to it after the time limit under Article 126(2) are not permissible.",
+    "application_to_facts": "The court found that the petitioner’s achievements were mostly in umpiring, which is not considered national level sports for marks allocation. The petitioner’s claim that another candidate was wrongly awarded marks did not justify awarding him marks. The petitioner’s challenge to the number of vacancies was out of time and thus not entertained.",
+    "principles_established": [
+      "Article 12(1) ensures equal protection of the law, not equal violation.",
+      "Marks for excellence in sports must be based on actual sports participation, not umpiring.",
+      "Time limits for constitutional applications under Article 126(2) are mandatory.",
+      "One cannot rely on illegal acts towards others to justify illegal relief."
+    ],
+    "precedents_cited": [
+      "Satish Chancier v Union of India AIR 1953 SC 250",
+      "Ram Prasad v State of Bihar AIR 1953 SC 219",
+      "C. W. Mackie and Company Ltd. v Hugh Molagoda, Commissioner General of Inland Revenue and Others 1986 1 Sri LR 300",
+      "Gamaethige v Siriwardane 1988 1 Sri LR 384",
+      "Jayasekera v Wipulasena and others 1988 2 Sri LR 237",
+      "R.P. Jayasuriya v R.C.A. Vandergert, Secretary, Ministry of Foreign Affairs and Others SC FR 620/97 SCM 30.10.1998"
+    ]
+  },
+  "outcome": {
+    "holding": "The court dismissed the petitioner's claim that his fundamental rights under Article 12(1) were violated, holding that the respondents lawfully allocated marks and correctly limited the number of vacancies.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner’s claim of unequal treatment in promotion and marks allocation. The court’s reasoning focused on the proper interpretation of equality under this clause and its limits, directly affecting the outcome.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that Article 12(1) provides for equal protection of the law and not equal violation, distinguishing sports from umpiring and rejecting the petitioner’s claim for marks. It also emphasized the mandatory time frame for constitutional applications.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1200,
+      "end_char": 1900
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_015-SLLR-SLLR-1992-2-PARAMESWARY-JAYATHE_076_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 192/91",
+    "case_title": "Parameswary Jayathevan v. Attorney-General and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1992-09-17",
+    "source_citation": "Sri Lanka Law Reports [1992] 2 Sri L.R. 356"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s transfer and deprivation of government quarters by Provincial Council officers violated her fundamental rights under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that her transfer was mala fide and discriminatory, infringing her right to equal protection under Article 12(1), as it was motivated by illwill due to her refusal to vacate government quarters.",
+    "respondent_argument": "The respondents contended that the transfer was justified for administrative reasons, that the petitioner was not entitled to occupy the medical quarters, and that no discrimination was shown as the petitioner had abused the facility and challenged authority.",
+    "key_facts": [
+      "The petitioner, a pharmacist, was allowed to occupy medical quarters temporarily due to civil disturbances, a facility not ordinarily granted to pharmacists.",
+      "The Regional Director of Health Services and the Secretary of the Provincial Council ordered her to vacate the quarters and transferred her to another hospital.",
+      "The petitioner resisted vacating the quarters and alleged discrimination and mala fide transfer.",
+      "The Attorney-General initially advised against dispossessing the petitioner but later declined to intervene, citing Provincial Council control.",
+      "The Supreme Court held that the petitioner was not entitled to the quarters and that the transfer was not discriminatory."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(1) as guaranteeing equality before the law and equal protection, but found that the petitioner’s transfer and deprivation of quarters did not constitute discrimination violating this right because she was not entitled to the quarters and had abused the facility granted to her.",
+    "application_to_facts": "The Court found that the petitioner’s occupation of medical quarters was a special favour due to exceptional circumstances, not a right. Her refusal to vacate and desire to retain a facility she was not entitled to did not amount to discrimination under Article 12(1). The transfer was held to be administrative and justified.",
+    "principles_established": [
+      "Temporary or exceptional occupation of government quarters does not create a right to such quarters.",
+      "Discrimination under Article 12(1) requires unjustified differential treatment of persons entitled to equal protection.",
+      "Administrative transfers made for legitimate reasons do not violate Article 12(1) even if the affected person alleges mala fides without proof."
+    ],
+    "precedents_cited": [
+      "Elmore Perera v. Jayawickrema",
+      "Karunaratne v. Rupasinghe",
+      "Sirisena v. Perera"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the petitioner’s fundamental rights application under Article 12(1), holding that no violation of the right to equality and equal protection was established.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner’s claim of discrimination and mala fide transfer. The Court’s reasoning focused on whether the petitioner was denied equal protection of the law by the administrative actions of the Provincial Council officers.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was allowed to occupy medical quarters on sympathetic grounds but had no right to them; her refusal to vacate and desire to enjoy a facility to which she was not entitled meant she failed to establish hostile discrimination under Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3560,
+      "end_char": 3730
+    }
+  }
+}

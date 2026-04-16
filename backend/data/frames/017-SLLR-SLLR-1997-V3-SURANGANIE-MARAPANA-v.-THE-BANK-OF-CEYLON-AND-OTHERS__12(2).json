@@ -1,0 +1,57 @@
+{
+  "frame_id": "RQ1_017-SLLR-SLLR-1997-V3-SURANGANIE-MARAPAN_092_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION 749/96 (F.R.)",
+    "case_title": "Suranganie Marapana v. The Bank of Ceylon and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-08-28",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application 749/96 (F.R.), decided on 28 August 1997"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the refusal to grant the petitioner an extension of service was discriminatory on the ground of political opinion, violating Article 12(2).",
+    "petitioner_claim": "The petitioner alleged that the refusal was politically motivated discrimination as she was identified as a supporter of the United National Party.",
+    "respondent_argument": "The Bank denied any political bias or discrimination and stated the refusal was bona fide and based on the Bank's needs.",
+    "key_facts": [
+      "Petitioner claimed political discrimination due to her political affiliations.",
+      "Bank denied political bias and asserted bona fide decision.",
+      "No sufficient material was placed before Court to prove political discrimination."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court found that the petitioner failed to establish the alleged political discrimination under Article 12(2) due to insufficient evidence. The Court distinguished between arbitrary discrimination and discrimination on prohibited grounds under Article 12(2).",
+    "application_to_facts": "Although the petitioner claimed political discrimination, the Court held that the material before it was insufficient to prove that the Board acted with political bias in refusing the extension.",
+    "principles_established": [
+      "Burden of proof lies on petitioner to establish discrimination on prohibited grounds.",
+      "Insufficient evidence results in failure to establish violation of Article 12(2)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner failed to establish infringement of Article 12(2) and dismissed that claim.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was considered to assess the claim of political discrimination, but the Court found no material to substantiate such discrimination, making the clause relevant but not dispositive.",
+    "relevance_level": "medium",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner failed to establish political discrimination; material was insufficient to find bias by the Board on political grounds.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

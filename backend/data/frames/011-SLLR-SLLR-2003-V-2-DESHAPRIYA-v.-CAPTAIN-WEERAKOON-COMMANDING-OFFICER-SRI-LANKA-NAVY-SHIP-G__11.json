@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_011-SLLR-SLLR-2003-V-2-DESHAPRIYA-V.-CAP_014_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_NO_42_2002_FR",
+    "case_title": "Deshapriya v Captain Weerakoon, Commanding Officer, Sri Lanka Navy Ship “Gemunu” and others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2003-07-21",
+    "source_citation": "Supreme Court of Sri Lanka, SC No. 42/2002 (FR), decided on 21 July 2003"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment in violation of Article 11 while in Navy custody, and whether the Commanding Officer is personally liable for such acts by subordinate officers.",
+    "petitioner_claim": "The petitioner claimed he was subjected to torture and cruel, inhuman, and degrading treatment while detained in Navy custody, including being handcuffed and suspended by wrists, insertion of barbed wire and chili powder into the rectum, burning with a hot iron, and assault with batons.",
+    "respondent_argument": "The respondents argued there was uncertainty about when the injuries were inflicted, denied knowledge or participation by the Commanding Officer, and contended that liability requires proof of knowledge and failure to act.",
+    "key_facts": [
+      "Petitioner was detained under close arrest from 4.9.2001 to 8.1.2002 on suspicion of missing pistol.",
+      "Petitioner was interrogated between 7 and 9 September 2001 and kept in custody until summary trial on 8.1.2002.",
+      "Petitioner alleged multiple forms of torture and ill-treatment during custody.",
+      "Medical examination confirmed scars consistent with petitioner’s allegations.",
+      "The Commanding Officer ordered the detention and was responsible for custody."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 11 prohibits torture and cruel, inhuman or degrading treatment or punishment. The Commanding Officer’s responsibility extends beyond direct participation or knowledge to a duty to take all reasonable steps to ensure humane treatment of detainees under his command.",
+    "application_to_facts": "The Court found the petitioner was subjected to torture and cruel treatment while in custody. The Commanding Officer was liable for failing to prevent or investigate the ill-treatment despite having command responsibility and a duty to monitor subordinates. Wilful ignorance or failure to act amounted to liability under Article 11.",
+    "principles_established": [
+      "Commanding officers have a duty to ensure humane treatment of detainees under their control.",
+      "Liability under Article 11 includes failure to prevent or investigate torture, not just direct participation.",
+      "Denial of medical treatment to detainees with injuries constitutes inhuman treatment.",
+      "Wilful ignorance due to want of care does not absolve command responsibility."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner’s fundamental right under Article 11 was infringed by torture and cruel treatment in Navy custody. The 1st, 4th, 5th, 6th, and 7th respondents were responsible, and the 1st respondent was personally liable for failing to prevent or investigate the ill-treatment.",
+    "disposition": "granted",
+    "remedy_or_orders": "Awarded Rs 150,000 compensation (Rs 130,000 by State, Rs 20,000 by 1st respondent). Directed Attorney-General and Navy Commander to consider legal proceedings and issue guidelines to ensure humane treatment in custody."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 is central to the Court’s reasoning as it directly prohibits the torture and cruel treatment suffered by the petitioner. The Court’s holding and remedy are based on the violation of this constitutional right and the command responsibility under this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was handcuffed and suspended by wrists, subjected to insertion of barbed wire and chili powder into the rectum, burned with a hot iron, and assaulted with batons. Medical examination confirmed scars consistent with these allegations. The Court found these acts violated Article 11.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

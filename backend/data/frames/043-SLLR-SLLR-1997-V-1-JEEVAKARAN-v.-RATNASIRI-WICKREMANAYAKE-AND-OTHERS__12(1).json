@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_043-SLLR-SLLR-1997-V-1-JEEVAKARAN-V.-RAT_189_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 623/96",
+    "case_title": "Jeevakaran v. Ratnasiri Wickremanayake and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-01-28",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 623/96, decided on 28 January 1997"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Government's decision to curtail certain public holidays, including Maha Sivarathri and Hadji, violated the petitioner's right to equality under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that the removal of Maha Sivarathri as a public holiday was arbitrary, unreasonable, and discriminatory against minority religions, violating the right to equality under Article 12(1).",
+    "respondent_argument": "The Government argued that the decision to reduce the number of public holidays was legitimate, based on economic and productivity considerations, and that the discretion to determine public holidays is not fettered by rigid principles. The grant of special holidays for Maha Sivarathri and Hadji mitigated any discrimination.",
+    "key_facts": [
+      "Maha Sivarathri and Hadji had been public holidays from 1971 to 1996 but were removed in 1997.",
+      "The Government reduced the number of public holidays to improve national productivity.",
+      "Special holidays were declared for followers of Hinduism and Islam for Maha Sivarathri and Hadji respectively.",
+      "There are multiple public holidays of religious significance for various religions.",
+      "The petitioner argued the removal was discriminatory against minority religions."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the Government has a legitimate discretion in determining public holidays considering various factors including economic and national interests. Article 12(1) does not require strict proportional religious representation in public holidays. The elimination of certain holidays was not shown to be unreasonable, arbitrary, or discriminatory.",
+    "application_to_facts": "The Court found that the Government's decision to reduce holidays was a reasonable exercise of discretion and not discriminatory. The grant of special holidays further softened the impact. The petitioner failed to prove unequal treatment or improper purpose.",
+    "principles_established": [
+      "Government discretion in public holiday determination is broad and not rigidly constrained by religious proportionality.",
+      "Economic and national productivity considerations are legitimate factors in such decisions.",
+      "Special holidays can mitigate claims of discrimination.",
+      "Article 12(1) protects against unreasonable or arbitrary discrimination but does not guarantee equal number of holidays per religion."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court dismissed the petitioner's claim that Article 12(1) was infringed by the removal of Maha Sivarathri and Hadji as public holidays.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner's claim of unequal treatment in the removal of certain public holidays. The Court's reasoning focused on whether the Government's action violated the right to equality, making this clause highly relevant.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Government was entitled to take a variety of matters into consideration in determining public holidays, and the material adduced by the petitioner is quite insufficient to show that the elimination of these two holidays was unreasonable, arbitrary, capricious or for an improper purpose. Article 12(1) has not been infringed.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

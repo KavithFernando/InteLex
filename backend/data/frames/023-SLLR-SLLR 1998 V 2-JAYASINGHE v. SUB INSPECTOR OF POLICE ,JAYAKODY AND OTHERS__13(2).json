@@ -1,0 +1,58 @@
+{
+  "frame_id": "RQ1_023-SLLR-SLLR_1998_V_2-JAYASINGHE_V._SUB_056_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 66/97",
+    "case_title": "Jayasinghe v. Sub Inspector of Police, Jayakody and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-02-06",
+    "source_citation": "Sri Lanka Law Reports (1998) 2 Sri LR. 204"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was detained lawfully and brought before a judge in accordance with Article 13(2).",
+    "petitioner_claim": "The petitioner claimed he was detained illegally from 22.12.1996 to 26.12.1996 without being produced before a Magistrate.",
+    "respondent_argument": "The respondents claimed the petitioner was arrested on 25.12.1996 and produced before the Magistrate on 26.12.1996, thus complying with the law.",
+    "key_facts": [
+      "Petitioner was detained in police custody from 22.12.1996 to 26.12.1996 according to petitioner and witnesses.",
+      "Petitioner was produced before the Magistrate only on 26.12.1996.",
+      "Respondents claimed arrest on 25.12.1996 and production on 26.12.1996.",
+      "Petitioner was subjected to torture and ill-treatment during detention."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires that any person detained be brought before a judge promptly and not held without legal authority. The court found the petitioner was held illegally for several days before being produced before a Magistrate, violating this constitutional right.",
+    "application_to_facts": "The court accepted the petitioner’s evidence and that of witnesses that he was detained from 22.12.1996 and only produced before a Magistrate on 26.12.1996. The respondents’ claim of arrest on 25.12.1996 was rejected. Thus, the detention was illegal under Article 13(2).",
+    "principles_established": [
+      "Detention without prompt production before a judicial authority is unlawful.",
+      "Delay in production before a judge violates constitutional protections."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner was illegally detained from 22.12.1996 to 26.12.1996 without being brought before a judge, violating Article 13(2).",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation awarded to petitioner from respondents and the state."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was central to the court’s finding that the petitioner’s detention was illegal because he was not brought before a judge promptly, directly violating the constitutional safeguard.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Petitioner was detained from 22.12.1996 and produced before the Magistrate only on 26.12.1996; respondents’ claim of arrest on 25.12.1996 was rejected.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2200,
+      "end_char": 2400
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_031-SLLR-SLLR-1989-V-2-WIJAYASIRIWARDENE_047_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "NO. 191 of 1988",
+    "case_title": "Wijayasiriwardene v. Kumara, Inspector of Police, Kandy and Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1989-09-20",
+    "source_citation": "Sri Lanka Law Reports [1989] 2 Sri LR 312"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to cruel, inhuman or degrading treatment in violation of Article 11 of the Constitution during his arrest and detention by the police.",
+    "petitioner_claim": "The petitioner claimed that he was assaulted by police officers during and after his arrest, suffering injuries including a slit lip and cheek injury, and was subjected to cruel, inhuman and degrading treatment.",
+    "respondent_argument": "The police denied assaulting the petitioner beyond necessary force; they argued the petitioner was inciting students to violence and that the force used was justified and not cruel, inhuman or degrading.",
+    "key_facts": [
+      "Petitioner was a 16-year-old student who joined student demonstrations at school.",
+      "Petitioner was arrested by police for incitement under Emergency Regulations.",
+      "Petitioner suffered admitted injuries: slit lip and cheek injury.",
+      "No medical evidence was presented to corroborate the injuries or treatment.",
+      "Petitioner alleged police assault in the police jeep and station, which police denied."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that while police are not entitled to use force on a person being arrested unless resisting or escaping, some force was justified given the circumstances. Excessive force was used but did not per se amount to cruel, inhuman or degrading treatment. The determination depends on the person and circumstances, including the petitioner's physical robustness and the tense environment.",
+    "application_to_facts": "The court found the petitioner was struck once by the police while attempting to return to the school premises, which was excessive force but did not show intent to cause cruel or degrading treatment. The court noted the absence of medical evidence and the context of an emergency situation with student unrest.",
+    "principles_established": [
+      "Excessive force in arrest may found a delictual claim but not necessarily a violation of Article 11.",
+      "Assessment of cruel, inhuman or degrading treatment depends on the person and circumstances.",
+      "Force that is cruel in one context may not be so in another (e.g., frail old lady vs. tough young man).",
+      "The court must draw a line between permissible force and cruel treatment, acknowledging some ambiguity."
+    ],
+    "precedents_cited": [
+      "Banco de Portugal v. Waterlow & Sons [1932] A.C. 452, 506",
+      "Hobbs v. London & S.W. Railway (1875) LR 10 QB 111, 121",
+      "Mayor of Southport v. Morriss (1893) 1 QB 359, 361"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the excessive force used did not amount to cruel, inhuman or degrading treatment under Article 11 and dismissed the petitioner's application.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the petitioner's claim that police treatment during arrest violated his fundamental rights by subjecting him to cruel, inhuman or degrading treatment. The court's reasoning and outcome directly addressed the scope and application of Article 11.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner suffered a slit lip and cheek injury during arrest; police admitted some force was used but denied cruel treatment. No medical evidence was presented. The court found the force excessive but not cruel or degrading under Article 11.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

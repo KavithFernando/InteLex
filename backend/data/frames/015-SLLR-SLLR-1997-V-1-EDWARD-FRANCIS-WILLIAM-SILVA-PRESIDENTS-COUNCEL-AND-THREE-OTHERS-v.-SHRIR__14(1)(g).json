@@ -1,0 +1,57 @@
+{
+  "frame_id": "RQ1_015-SLLR-SLLR-1997-V-1-EDWARD-FRANCIS-WI_027_C02__14(1)(g)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (F.R.) Applications Nos. 832, 833, 834 and 842 of 1996",
+    "case_title": "Edward Francis William Silva, President's Counsel and Three Others v. Shirani Bandaranayake and Three Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-12-16",
+    "source_citation": "Sri Lanka Law Reports {1997} 1 Sri L.R. 92"
+  },
+  "clause": {
+    "article": "14(1)(g)",
+    "text": "Freedom to engage in lawful occupation or business."
+  },
+  "case_context": {
+    "legal_issue": "Whether the appointment of the 1st respondent infringed the petitioners' fundamental rights under Article 14(1)(g) relating to freedom to engage in lawful occupation or business.",
+    "petitioner_claim": "The petitioners claimed that the appointment infringed their right to practice their profession.",
+    "respondent_argument": "The respondents argued that the appointment did not prevent the petitioners from practicing their profession and that no infringement occurred.",
+    "key_facts": [
+      "The petitioners challenged the appointment of the 1st respondent as a Judge of the Supreme Court.",
+      "The petitioners were not prevented from practicing their profession at the time of the application.",
+      "The petitioners could not show any actual restriction on their lawful occupation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 14(1)(g) protects the freedom to engage in lawful occupation but this right is operative only when the person is engaged in the occupation. The appointment of the 1st respondent did not prevent the petitioners from practicing their profession.",
+    "application_to_facts": "Since the petitioners were not prevented from practicing their profession and had not engaged in it in a way that was restricted, the Court found no violation of Article 14(1)(g).",
+    "principles_established": [
+      "Freedom to engage in lawful occupation under Article 14(1)(g) requires actual engagement and restriction.",
+      "Anticipatory claims of bias or partiality do not constitute infringement under Article 14(1)(g)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court refused leave to proceed on the claim of infringement of Article 14(1)(g).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioners alleged that their freedom to practice their profession was infringed by the appointment, but the Court found no actual restriction or deprivation of this right.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The appointment of the 1st respondent in our view cannot infringe the freedom of the petitioner to practice his profession. This provision becomes operative only on the petitioner engaging himself in the practice of his profession and not at this stage.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 10010,
+      "end_char": 10100
+    }
+  }
+}

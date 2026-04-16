@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_017-SLLR-SLLR-1999-V-1-ABDUL-RAZAK-AND-A_044_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 877/96 (FR)",
+    "case_title": "Abdul Razak and Another v. Dharmadasa, Chief Inspector of Police, Katugastota and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-12-17",
+    "source_citation": "Sri Lanka Law Reports [1999] 1 Sri LR. S.C. Application No. 877/96 (FR), decided on 17 December 1998"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the arrest of the petitioners was lawful and in accordance with Article 13(1) of the Constitution, including whether they were informed of the reason for arrest.",
+    "petitioner_claim": "The petitioners argued that they were arrested without a warrant, without being informed of the reason for arrest, and that the arrest was based on a false complaint, thus violating Article 13(1).",
+    "respondent_argument": "The respondents contended that the arrest was lawful under section 32(1)(b) of the Code of Criminal Procedure Act based on a complaint alleging a cognizable offence (wrongful restraint under section 332 of the Penal Code), and that the arrest procedure was in accordance with law.",
+    "key_facts": [
+      "Petitioners were arrested on 11 November 1996 without a warrant based on a complaint by the 3rd respondent.",
+      "The 'B' report alleged offences under sections 332, 480, and 484 of the Penal Code.",
+      "Section 332 is a cognizable offence; sections 480 and 484 are non-cognizable offences for which arrest without warrant is not permitted.",
+      "The petitioners were not informed of the reason for arrest at the time of arrest.",
+      "The 'B' report did not justify the allegation of a cognizable offence under section 332."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) requires that arrests be made according to law and that the person arrested be informed of the reason. Arrests without a warrant are only lawful if based on credible information of a cognizable offence. The 'B' report failed to disclose a cognizable offence justifying the arrest.",
+    "application_to_facts": "The court examined the 'B' report and found no material to support the commission of a cognizable offence under section 332. The other offences alleged were non-cognizable, making the warrantless arrest unlawful. The petitioners were not informed of the reason for arrest, violating Article 13(1).",
+    "principles_established": [
+      "Arrest without a warrant must be based on credible information of a cognizable offence.",
+      "A person arrested must be informed of the reason for arrest as required by Article 13(1).",
+      "False or fabricated allegations to justify arrest violate constitutional protections."
+    ],
+    "precedents_cited": [
+      "Faiz v. Attorney-General and Others (1995) 1 Sri LR 372"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the arrest of the petitioners was unlawful and violated Article 13(1) of the Constitution.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 1st and 2nd respondents were ordered to pay compensation to the petitioners for the violation of their fundamental rights."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) is central to the court's reasoning as it protects individuals from unlawful arrest and requires that the reason for arrest be communicated. The court found the arrest did not comply with these constitutional safeguards.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the 'B' report did not justify the allegation of a cognizable offence under section 332, and the arrest was made without a warrant and without informing the petitioners of the reason, violating Article 13(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "frame_id": "RQ1_015-SLLR-SLLR-1997-V-1-EDWARD-FRANCIS-WI_077_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (F.R.) Applications Nos. 832, 833, 834 and 842 of 1996",
+    "case_title": "Edward Francis William Silva, President's Counsel and Three Others v. Shirani Bandaranayake and Three Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-12-16",
+    "source_citation": "Sri Lanka Law Reports {1997} 1 Sri L.R. 92"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' fundamental rights under Article 12(1) were infringed by the appointment of the 1st respondent as a Judge of the Supreme Court.",
+    "petitioner_claim": "The petitioners claimed that the appointment of the 1st respondent violated their right to equality before the law under Article 12(1), alleging unequal treatment and lack of consultation with the Chief Justice.",
+    "respondent_argument": "The respondents argued that the petitioners had no locus standi to claim discrimination as they were not similarly placed or contenders for the office, and that no relevant allegation of infringement of Article 12(1) was made.",
+    "key_facts": [
+      "The petitioners challenged the appointment of the 1st respondent as a Supreme Court Judge by the President.",
+      "The petitioners did not allege discrimination in relation to themselves or claim to be contenders for the office.",
+      "The appointment power under Article 107 is at the sole discretion of the President without express requirement for consultation.",
+      "No evidence was presented to show any convention or practice requiring consultation with the Chief Justice.",
+      "The petitioners failed to establish any prima facie case of unequal treatment under Article 12(1)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) requires a grievance of discrimination between persons similarly placed. The petitioners did not allege discrimination directly related to themselves or the 1st respondent and thus had no standing under Article 12(1).",
+    "application_to_facts": "Since the petitioners were not contenders for the judicial office and did not claim unequal treatment in relation to the 1st respondent, their claim under Article 12(1) was not maintainable. The Court emphasized the need for a direct connection between the petitioner and the alleged discrimination.",
+    "principles_established": [
+      "Article 12(1) protects equality before the law and equal protection but requires a direct grievance of discrimination.",
+      "Petitioners must be similarly placed to the person they claim discrimination against to have locus standi.",
+      "Appointment of Judges under Article 107 is at the President's sole discretion without express consultation requirements.",
+      "No presumption of a constitutional convention requiring consultation with the Chief Justice for appointments."
+    ],
+    "precedents_cited": [
+      "Premachandra v. Jayawickreme S.C. (1994) 2 Sri L.R. 90",
+      "Premachandra v. Jayawickreme C.A. (1993) 2 Sri L.R. 294",
+      "Bandara v. Premachandra S.C. (1994) 1 Sri L.R. 301",
+      "Mallikarachchi v. Attorney General (1985) 1 SLR 74"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court refused leave to proceed on the Article 12(1) claim, holding that the petitioners had no standing and no relevant allegation of discrimination was made.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioners' claim of unequal treatment in the appointment process, but the Court found no direct discrimination affecting the petitioners and thus dismissed the claim.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Petitioners do not claim to have been contenders for the office to which the 1st respondent was appointed. They are not entitled in these applications under Article 126 to raise issues of alleged unequal treatment of third parties. Thus the petitions do not disclose any relevant allegation of the infringement of Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 9600,
+      "end_char": 9700
+    }
+  }
+}

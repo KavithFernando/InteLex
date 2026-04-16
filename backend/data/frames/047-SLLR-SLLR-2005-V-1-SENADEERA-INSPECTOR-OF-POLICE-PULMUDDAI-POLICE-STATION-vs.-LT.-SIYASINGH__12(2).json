@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_047-SLLR-SLLR-2005-V-1-SENADEERA-INSPECT_196_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_263_2001_FR",
+    "case_title": "Senadeera, Inspector of Police, Pulmuddai Police Station vs Lt. Siyasinghe and others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2005-01-20",
+    "source_citation": "Sri Lanka Law Reports (2005) 7 Sri L. R. 335"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was discriminated against by the respondents on prohibited grounds under Article 12(2).",
+    "petitioner_claim": "The petitioner claimed discrimination by army personnel infringing his fundamental rights under Article 12(2).",
+    "respondent_argument": "Respondents denied discrimination, emphasizing lack of evidence and contradictory accounts.",
+    "key_facts": [
+      "Petitioner alleged assault and discriminatory treatment by army officers and soldiers.",
+      "No independent evidence supporting claims of discrimination.",
+      "Medical and legal proceedings did not substantiate petitioner’s allegations.",
+      "Court found petitioner’s claims unsubstantiated and exaggerated."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 12(2) prohibits discrimination on specified grounds. The court requires clear evidence to prove discrimination. Mere allegations without credible support are insufficient.",
+    "application_to_facts": "The petitioner failed to provide independent or corroborative evidence of discrimination. The court found no proof that the petitioner was treated differently on any prohibited ground.",
+    "principles_established": [
+      "Discrimination claims under Article 12(2) require credible and independent evidence.",
+      "Unsubstantiated allegations do not meet the burden of proof.",
+      "Legal and medical findings are relevant to assessing discrimination claims."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner failed to prove discrimination under Article 12(2).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was directly invoked by the petitioner alleging discrimination, but the court’s dismissal was based on failure to prove such discrimination with credible evidence.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner’s allegations of discrimination were unsupported by independent affidavits or corroborative evidence, and the court found no material to substantiate the claim.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 335,
+      "end_char": 355
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_007-SLLR-SLLR-2008-V-1-NANDANA-V.-ATTORN_016_C01__13(5)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "CA 58/2005",
+    "case_title": "Nandana v Attorney-General",
+    "court_name": "Court of Appeal of Sri Lanka",
+    "decision_date": "2008-10-19",
+    "source_citation": "Sri Lanka Law Reports [2008] 1 Sri L.R 51"
+  },
+  "clause": {
+    "article": "13(5)",
+    "text": "Every person is presumed innocent until proven guilty."
+  },
+  "case_context": {
+    "legal_issue": "Whether the trial judge's misdirection in placing the burden of proof on the accused to prove innocence violated the presumption of innocence under Article 13(5) of the Constitution, and whether a retrial should be ordered given the evidence and time elapsed.",
+    "petitioner_claim": "The appellant argued that the trial judge committed a fundamental legal error by imposing a burden on the defence to rebut prosecution evidence, violating the presumption of innocence, which vitiated the conviction and necessitated a retrial; further, that due to flimsy evidence and long delay, a retrial would not meet the ends of justice.",
+    "respondent_argument": "The Attorney-General conceded the misdirection vitiated the conviction but argued that the eyewitness and corroborative evidence justified a conviction and that a retrial was appropriate.",
+    "key_facts": [
+      "The appellant was convicted of murdering his father and sentenced to death.",
+      "The trial judge misdirected by placing burden on the accused to prove innocence.",
+      "The only eyewitness gave a belated statement two days after the incident.",
+      "The incident occurred almost 10 years before the appeal decision.",
+      "The appellant had already been incarcerated for over 3.5 years."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that imposing a burden on the accused to prove innocence is contrary to the fundamental principle of presumption of innocence under Article 13(5). Such a misdirection is a fundamental error that vitiates the conviction. The court emphasized that the presumption of innocence means the prosecution must prove guilt beyond reasonable doubt without shifting the burden to the accused.",
+    "application_to_facts": "The trial judge's statements imposing a burden on the accused to disprove prosecution evidence were identified as misstatements of law violating Article 13(5). The court agreed with the appellant and the Attorney-General that this error vitiated the conviction and sentence. Considering the nature of the evidence, the belated eyewitness statement, and the long delay of nearly 10 years, the court exercised its discretion not to order a retrial as it would not meet the ends of justice.",
+    "principles_established": [
+      "Burden of proof lies solely on the prosecution; accused is presumed innocent until proven guilty.",
+      "A misdirection on burden of proof is a fundamental error that vitiates conviction.",
+      "The court has discretion to order retrial but must consider evidence quality, delay, incarceration period, and trauma to accused and family.",
+      "Long delays weigh against ordering retrials."
+    ],
+    "precedents_cited": [
+      "In Re M.A.S. de Alwis (1972) 75 NLR 337",
+      "Keerthi Bandara v Attorney General 2 SLR 245 at 261",
+      "Peter Singho v Warapitiya 55 NLR 157",
+      "Queen v Jayasinghe 69 NLR 413",
+      "L.C. Fernando v Republic of Sri Lanka 79(2) 313 at 374"
+    ]
+  },
+  "outcome": {
+    "holding": "The appeal was allowed; the conviction and death sentence were set aside due to the fundamental misdirection violating Article 13(5). The appellant was acquitted and no retrial was ordered as it would not meet the ends of justice given the evidence and delay.",
+    "disposition": "granted",
+    "remedy_or_orders": "Conviction and sentence set aside; appellant acquitted; certified copy of order sent to High Court of Panadura."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(5) enshrines the presumption of innocence, which was directly violated by the trial judge's misdirection imposing a burden on the accused. This fundamental constitutional right was central to the court's reasoning and outcome in setting aside the conviction.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The trial judge imposed a burden on the accused to prove innocence, which the court held was foreign to fundamental criminal law principles and violated Article 13(5). The court cited the misstatements at pages 150-151 and 154 of the original record and agreed with the appellant and Attorney-General that this vitiated the conviction.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1000,
+      "end_char": 2300
+    }
+  }
+}

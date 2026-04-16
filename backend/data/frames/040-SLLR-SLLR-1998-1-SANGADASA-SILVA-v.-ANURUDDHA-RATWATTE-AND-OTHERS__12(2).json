@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_040-SLLR-SLLR-1998-1-SANGADASA-SILVA-V.-_184_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 251/95 (F.R.)",
+    "case_title": "Sangadasa Silva v. Anuruddha Ratwatte and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-02-11",
+    "source_citation": "Sri Lanka Law Reports (1998) 1 Sri LR. S.C. Application No. 251/95 (F.R.), decided on 11 February 1998"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the termination of the petitioner's dealership was motivated by political discrimination in violation of Article 12(2) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that his dealership was terminated solely on political grounds because he was a supporter of the opposition United National Party and a close friend of the late President Premadasa, while the 2nd respondent's Board and the 3rd respondent company were politically aligned with the ruling People's Alliance.",
+    "respondent_argument": "The 2nd and 3rd respondents denied political motivation, asserting the termination and awarding of dealership were based on legitimate business considerations and compliance with the agreement.",
+    "key_facts": [
+      "The petitioner was a known supporter of the opposition United National Party and had close personal ties with the late President Premadasa.",
+      "The 2nd respondent's Board of Directors and the 3rd respondent company Directors were politically appointed supporters of the ruling People's Alliance.",
+      "The 3rd respondent company was incorporated shortly before the takeover and awarded the dealership without disclosed application or Board approval documents.",
+      "No reasons or material were produced by the 2nd respondent to justify the termination or to rebut the allegation of political discrimination."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(2) as prohibiting discrimination on grounds including political opinion. The absence of any justification for termination combined with the political affiliations of the parties and timing of the takeover supported the conclusion that the petitioner was discriminated against on political grounds.",
+    "application_to_facts": "The Court found that the 2nd respondent's failure to produce any material or reasons for termination, the political alignment of the Board and the 3rd respondent, and the petitioner's political opposition status established a violation of Article 12(2).",
+    "principles_established": [
+      "Political opinion is a protected ground against discrimination under Article 12(2).",
+      "Administrative decisions motivated by political discrimination violate fundamental rights.",
+      "The burden is on the State to justify actions alleged to be politically discriminatory.",
+      "Failure to produce supporting material permits adverse inferences against the State."
+    ],
+    "precedents_cited": [
+      "Dahanayake v. de Silva (1978 - 79 - 80) 1 Sri LR 47",
+      "Kuruppuge Don Somapala Gunaratne et al v. Ceylon Petroleum Corporation et al SC Application 99/96",
+      "Wickrematunge v. Ceylon Petroleum Corporation et al 1998 1 Sri LR 201"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the 2nd respondent violated the petitioner's fundamental right under Article 12(2) by terminating his dealership on account of political opinion and discrimination.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Court declared the termination null and void and ordered reinstatement of the petitioner as dealer, along with compensation and costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was central to the Court's finding that the termination was politically motivated discrimination, which is prohibited by the Constitution, directly affecting the outcome.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner demonstrated his political opposition affiliation and close ties to the late President, while the 2nd respondent's Board and the 3rd respondent company were politically aligned with the ruling party; no evidence was produced to justify the termination, supporting the finding of political discrimination.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

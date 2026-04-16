@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-1978-79-80-V1-PERERA-V.-PR_060_C01__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. NO. 23 OF 1979",
+    "case_title": "Perera v. Premadasa",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1979-07-25",
+    "source_citation": "Sri Lanka Law Reports (1978-79-80) 1 Sri L.R. 118"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the acquisition of the petitioners' land under the Land Acquisition Act constituted discrimination on the ground of political opinion in violation of Article 12(2) of the Constitution.",
+    "petitioner_claim": "The petitioners alleged that the acquisition order was motivated by political revenge and harassment due to the 1st petitioner’s opposition to the current Member of Parliament and his political convictions as pro Sri Lanka Freedom Party, thus infringing their fundamental right under Article 12(2).",
+    "respondent_argument": "The respondents argued that the acquisition was a bona fide executive and administrative action for a public purpose, not motivated by political opinion, and that no deliberate discrimination on political grounds occurred.",
+    "key_facts": [
+      "The petitioners are husband and wife whose land was subject to an acquisition order under the Land Acquisition Act.",
+      "The acquisition was for a public playground for the Town Council of Wennappuwa.",
+      "The 6th respondent, the local MP, recommended the acquisition but did not participate in executive or administrative action.",
+      "Some lots were abandoned from acquisition due to budget and layout considerations, not political favoritism.",
+      "Affidavits and documents showed objections to other acquisitions and that the acquisition process was bona fide and not politically motivated."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that discrimination on the ground of political opinion under Article 12(2) requires deliberate executive or administrative action motivated solely by political revenge or harassment.",
+    "application_to_facts": "The court found no evidence that the acquisition order was made for the sole purpose of political revenge. The responsible officials acted bona fide, and the abandonment of certain lots was due to practical and budgetary reasons, not political favoritism. The 6th respondent’s involvement was limited to recommendation without executive power.",
+    "principles_established": [
+      "Discrimination on political grounds must be deliberate and by persons with executive or administrative power.",
+      "Allegations of political discrimination must be substantiated with evidence showing sole purpose of political revenge.",
+      "Executive decisions made for bona fide public purposes do not violate Article 12(2) even if politically connected persons are involved."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The petitioners' claim of discrimination on political grounds under Article 12(2) was rejected and the petition was dismissed with costs.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was central to the court’s analysis as the petitioners claimed their fundamental right against discrimination on political grounds was infringed by the land acquisition order. The court’s reasoning and final dismissal directly hinged on the interpretation and application of this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the acquisition was a bona fide administrative action for a public playground, that abandonment of certain lots was due to budget and layout reasons, and that no deliberate political discrimination was proven.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 100,
+      "end_char": 3500
+    }
+  }
+}

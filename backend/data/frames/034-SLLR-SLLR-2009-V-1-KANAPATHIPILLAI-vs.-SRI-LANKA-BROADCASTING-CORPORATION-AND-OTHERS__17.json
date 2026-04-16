@@ -1,0 +1,72 @@
+{
+  "frame_id": "RQ1_034-SLLR-SLLR-2009-V-1-KANAPATHIPILLAI-V_033_C01__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_145_2007",
+    "case_title": "Kanapathipilli vs. Sri Lanka Broadcasting Corporation and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2009-01-22",
+    "source_citation": "Supreme Court of Sri Lanka, SC 145/2007, decided on 22 January 2009"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the appointment of the 4th respondent to the post of Director Tamil Service violated the petitioner's fundamental rights, and whether the petitioner is entitled to relief under Article 17 for such violation.",
+    "petitioner_claim": "The petitioner claimed that the 4th respondent's appointment was illegal and violated his fundamental rights guaranteed under Article 12(1) because the 4th respondent was disqualified from re-employment under Administrative Circular 44/90, and that the petitioner had scored the highest marks among eligible candidates.",
+    "respondent_argument": "The respondents argued that the Corporation was unaware of the 4th respondent's disqualification, the interviews were held over two years ago, and the petitioner’s marks did not reflect an extremely high degree of competence. The 4th respondent was later discharged from the proceedings as he was no longer interested in the position.",
+    "key_facts": [
+      "The petitioner was a Programme Producer with nearly 12 years experience and had applied for the post of Director Tamil Service.",
+      "The 4th respondent was disqualified from re-employment under Public Administration Circular No. 44/90.",
+      "The 4th respondent scored the highest marks at the interview, the petitioner second highest.",
+      "The 4th respondent was under interdiction for fraud but reinstated after repayment.",
+      "The 4th respondent was later discharged from the case as he obtained other employment."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 17 provides the right to apply to the Supreme Court for violations of fundamental rights and that such rights would be meaningless without remedies or independent enforcement mechanisms. The Court emphasized that the Supreme Court has wide discretion under Article 126(4) to grant relief or directions it deems just and equitable in fundamental rights cases.",
+    "application_to_facts": "The Court found that the 4th respondent was disqualified from re-employment and should not have been called for the interview, thus the petitioner and 4th respondent were not equals under Article 12(1). The appointment of the 4th respondent was arbitrary and violated the petitioner’s fundamental rights. The Court exercised its discretion under Article 17 read with Article 126 to allow the petition and order termination of the 4th respondent’s appointment and compensation to the petitioner.",
+    "principles_established": [
+      "Fundamental rights require effective remedies and independent enforcement.",
+      "The Supreme Court has wide discretion under Article 126(4) to grant just and equitable relief in fundamental rights cases.",
+      "Equality under Article 12(1) means unequals should not be treated as equals.",
+      "Appointments made in violation of fundamental rights can be declared invalid."
+    ],
+    "precedents_cited": [
+      "Ghaidan v. Godin Mendoza 2004 2 AC 557",
+      "Maneka Gandhi v. Union of India 1978 AIR SC 597",
+      "Karunatilaka v. Jayalath de Silva SC 334/2003 SCM 25.11.2002",
+      "M. K. Wijetunga et al v. The Principal, Southlands College SC 612/2004 SCM 17.11.2005",
+      "Asanka Pathiratne v. University Grants Commission SC 618/2002 SCM 5.8.2003",
+      "Anushka Jayatileke v. University Grants Commission SC 280/2001 SCM 25.10.2004",
+      "Nazir v. Post Master General SC 251/96 SCM 7.5.1998",
+      "Perera v. Jayaratne SC 8/96 SCM 5.3.1998",
+      "Ratnadasa v. Government Agent SC Spl 66/96 SCM 16.12.1997",
+      "Samarasinghe v. Air Lanka and others 1996 1 Sri LR 259"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner’s fundamental rights under Article 12(1) were violated by the appointment of the 4th respondent, who was disqualified. The petition was allowed, the 4th respondent’s appointment was declared invalid, and the petitioner was awarded compensation and costs. The 1st respondent was directed to fill the vacancy in accordance with policy.",
+    "disposition": "granted",
+    "remedy_or_orders": "Termination of the 4th respondent’s appointment; Rs. 100,000 compensation to petitioner; direction to fill vacancy within four months."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 is central as it grants the petitioner the right to apply to the Supreme Court for enforcement of fundamental rights, enabling the Court to consider and grant relief for the alleged violation of the petitioner’s rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Constitution had made provision for remedies in terms of Article 17 read with Article 126. The Supreme Court could grant such relief or make such directions as it may deem just and equitable in the circumstances of the application in question.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 4000,
+      "end_char": 4200
+    }
+  }
+}

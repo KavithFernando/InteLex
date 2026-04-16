@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_024-SLLR-SLLR-1995-2-JAYAWEERA-V.-NATION_121_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION 119/93",
+    "case_title": "Jayaweera v. National Film Corporation",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-08-04",
+    "source_citation": "[1995] 2 Sri L.R. 120"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' claim of discriminatory promotion violated Article 12(1) and whether the claim was time barred.",
+    "petitioner_claim": "The petitioners argued that the promotions were discriminatory and unfairly made, overlooking seniority and experience, violating their right to equality under Article 12(1).",
+    "respondent_argument": "The respondents argued that the alleged violation occurred in October 1990 when the promotions were made and published, and that the petitioners' applications filed in 1993 were time barred. They also contended that pursuing administrative remedies does not interrupt the time limit for filing fundamental rights applications.",
+    "key_facts": [
+      "The Corporation called for promotion applications on 24.09.90.",
+      "Interviews were held on 20.10.90 and 27.10.90.",
+      "Promotions were published on 30.10.90 with letters dated 29.10.90 issued to promotees.",
+      "Petitioners appealed but were rejected on 07.12.90; further inquiry was held.",
+      "On 01.02.93, the promotions were confirmed and withheld increments paid; applications filed on 22.02.93."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the right to equality under Article 12(1) was engaged by the petitioners' claim of discriminatory promotion. However, the court emphasized that the relevant date for the alleged violation was the date the promotions were made and published in October 1990. The court rejected the argument that the time limit for filing was suspended pending administrative inquiries.",
+    "application_to_facts": "Since the promotions were finalized and letters issued in October 1990, and no suspension of appointments was communicated, the court found the violation occurred then. The petitioners' failure to file within one month rendered their applications time barred.",
+    "principles_established": [
+      "The time limit for fundamental rights applications under Article 126 runs from the date of the alleged violation.",
+      "Pursuit of administrative remedies does not interrupt the time limit for filing fundamental rights applications.",
+      "Finality of decision is key to determining the start of the time limit."
+    ],
+    "precedents_cited": [
+      "Gamaethige v. Siriwardane -1988 1 SLR 384",
+      "Wijenaike v. Air Lanka Ltd. -1990 1 SLR 293"
+    ]
+  },
+  "outcome": {
+    "holding": "The court dismissed the petitioners' fundamental rights applications as time barred under Article 12(1).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioners' claim of discriminatory promotion violating equality before the law. The court's reasoning and dismissal hinged on the timing of the alleged violation under this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioners alleged discrimination in promotions violating Article 12(1). The court found the violation occurred in October 1990 when promotions were published and letters issued, and that the applications filed in 1993 were time barred.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1200,
+      "end_char": 1900
+    }
+  }
+}

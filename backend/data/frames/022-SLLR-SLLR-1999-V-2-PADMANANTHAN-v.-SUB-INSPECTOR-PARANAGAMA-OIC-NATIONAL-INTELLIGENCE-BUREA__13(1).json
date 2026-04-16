@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_022-SLLR-SLLR-1999-V-2-PADMANANTHAN-V.-S_052_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 361/98",
+    "case_title": "Padmanathan v. Sub-Inspector Paranagama, OIC, National Intelligence Bureau, Vavuniya and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-02-15",
+    "source_citation": "Sri Lanka Law Reports [1999] 2 Sri LR 225"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was lawfully arrested in accordance with Article 13(1) of the Constitution, including being informed of the reason for arrest.",
+    "petitioner_claim": "The petitioner claimed he was not informed of any valid reason for his arrest and that the arrest was arbitrary and unlawful.",
+    "respondent_argument": "The respondents claimed the petitioner was arrested under section 6(1) of the Prevention of Terrorism Act (PTA) based on suspicion of involvement with LTTE activities and failure to disclose information.",
+    "key_facts": [
+      "Petitioner was a Red Cross driver who drove to LTTE-controlled areas on official instructions.",
+      "He was arrested on 7.6.98 by police under PTA without being given a clear reason.",
+      "Respondents gave varying and inconsistent reasons for arrest in contemporaneous documents.",
+      "Petitioner was not reasonably suspected of unlawful activity under the PTA at the time of arrest.",
+      "No complaint or plaint was filed against the petitioner."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 13(1) requires that any arrest must be lawful and the person arrested must be informed of the reason. The petitioner was not given a valid reason and the arrest was arbitrary and for extraneous purposes.",
+    "application_to_facts": "The Court found that the respondents did not have reasonable suspicion and failed to inform the petitioner of the reason for arrest. The inconsistent reasons and lack of evidence showed the arrest was unlawful under Article 13(1).",
+    "principles_established": [
+      "Arrest must be according to law and the arrested person must be informed of the reason.",
+      "Reasonable suspicion is required for lawful arrest under PTA.",
+      "Arrest for collateral or extraneous purposes violates Article 13(1)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner's arrest violated Article 13(1) of the Constitution.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of infringement of fundamental rights and Rs. 200,000 compensation."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the Court's reasoning as it directly governs the legality of arrest and the requirement to inform the arrested person of the reason, which was violated here.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was not informed of any valid reason for his arrest; the respondents gave inconsistent reasons and failed to establish reasonable suspicion.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

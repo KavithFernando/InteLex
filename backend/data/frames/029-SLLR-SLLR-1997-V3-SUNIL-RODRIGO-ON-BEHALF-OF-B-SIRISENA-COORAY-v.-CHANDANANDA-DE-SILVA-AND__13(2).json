@@ -1,0 +1,72 @@
+{
+  "frame_id": "RQ1_029-SLLR-SLLR-1997-V3-SUNIL-RODRIGO-ON-B_069_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION (F.R.) 478/97",
+    "case_title": "Sunil Rodrigo (on behalf of B. Sirisena Cooray) v. Chandananda De Silva and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-08-19",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application (F.R.) 478/97, decided on 19 August 1997"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether Mr. Cooray was brought before a judge of the nearest competent court according to procedure established by law as required by Article 13(2) of the Constitution after his arrest and detention.",
+    "petitioner_claim": "The petitioner claimed that Mr. Cooray was not produced before a judge after his arrest and detention, violating Article 13(2).",
+    "respondent_argument": "The respondents argued that since Mr. Cooray was detained under an order of the Secretary under Emergency Regulation 17(1), there was no obligation to produce him before a judge immediately, relying on previous judicial dicta and the Emergency Regulations.",
+    "key_facts": [
+      "Mr. Cooray was arrested on 16 June 1997 and was not brought before a judge thereafter.",
+      "The detention was under an order of the Secretary, Ministry of Defence, under Emergency Regulation 17(1).",
+      "Emergency Regulations suspended certain provisions of the Code of Criminal Procedure but did not explicitly restrict the constitutional right under Article 13(2).",
+      "The Court had previously held that persons arrested under Emergency Regulations must be produced before a magistrate within a reasonable time.",
+      "No law or regulation explicitly restricted or repealed the constitutional right to be produced before a judge in this case."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) guarantees the right of every person deprived of liberty to be brought before a judge of the nearest competent court according to procedure established by law. This right cannot be abrogated or restricted except by law expressly enacted in accordance with the Constitution. The Emergency Regulations applicable did not expressly restrict or repeal this right for persons detained under Regulation 17(1). The Court emphasized that the right to be produced before a judge is a fundamental safeguard against arbitrary detention and must be strictly complied with. The right to be produced before a judge is distinct from the right to make representations to an Advisory Committee under the Emergency Regulations. The Court rejected the argument that the right was taken away by necessary implication or by the Emergency Regulations.",
+    "application_to_facts": "Mr. Cooray was detained from 16 June 1997 without being produced before a judge. The Emergency Regulations under which he was detained did not expressly restrict the constitutional right to be produced before a judge. The Court found that the failure to produce Mr. Cooray before a judge within a reasonable time violated Article 13(2). The Court held that the procedure established by law requires production before a judge without unnecessary delay, and the Emergency Regulations did not alter this requirement for Regulation 17(1) detainees.",
+    "principles_established": [
+      "The constitutional right to be produced before a judge is fundamental and cannot be abrogated except by express law.",
+      "Emergency Regulations do not implicitly or by necessary implication restrict the right to be produced before a judge unless expressly stated.",
+      "The right to be produced before a judge is distinct from the right to make representations to an Advisory Committee.",
+      "Failure to produce a detainee before a judge within a reasonable time violates Article 13(2).",
+      "The procedure established by law includes compliance with sections 36 and 37 of the Code of Criminal Procedure unless expressly suspended by law."
+    ],
+    "precedents_cited": [
+      "Channa Pieris v. Attorney-General (1994) 1 Sri L.R. 1",
+      "Edirisuriya v. Navaratnam (1985) 1 Sri L.R. 100",
+      "Wickramabandu v. Cyril Herath (1990) 2 Sri L.R. 348",
+      "Kumarasena v. Sriyantha S.C. Application 257/93",
+      "Ansalin Fernando v. Sarath Perera and Others (1992) 1 Sri L.R. 411",
+      "Gerstein v. Pugh 420 U.S. 103 (1975)",
+      "Brogan v. U.K. ECHR 29 November 1988",
+      "Mohammed Faiz v. Attorney-General S.C. Application 89/90",
+      "Joseph Silva and Others v. Balasuriya and Others S.C. Application 112-115/87"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court declared that Mr. Cooray’s fundamental right under Article 13(2) was violated as he was not produced before a judge within a reasonable time after his arrest and detention. The detention without production before a judge was unlawful and illegal.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Court ordered the immediate release of Mr. Cooray and awarded compensation and costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) is central to the Court's decision as it protects detainees from arbitrary detention by requiring prompt production before a judge. The Court found that the Emergency Regulations did not validly restrict this right and that the failure to produce Mr. Cooray before a judge violated this constitutional safeguard.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Mr. Cooray was detained from 16 June 1997 without being brought before a judge. The Emergency Regulations did not expressly restrict the constitutional right to be produced before a judge. The Court emphasized the fundamental nature of this right and the absence of any lawful restriction.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

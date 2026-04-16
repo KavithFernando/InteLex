@@ -1,0 +1,69 @@
+{
+  "frame_id": "RQ1_033-SLLR-SLLR-2006-V-2-PATHIRANA-VS.-VIC_077_C01__13(4)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "CA 1123/2002",
+    "case_title": "Pathirana v. Victor Perera (DIG Personal Training Police) and Others",
+    "court_name": "Court of Appeal of Sri Lanka",
+    "decision_date": "2006-09-04",
+    "source_citation": "Sri Lanka Law Reports (2006) 2 Sri L R 281"
+  },
+  "clause": {
+    "article": "13(4)",
+    "text": "Punishment can only be imposed by a competent court and detention before trial is not punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the impugned circular directing reinstatement of police officers interdicted and charged but bailed out in disappearance cases violated Article 13(4) by effectively imposing punishment without a competent court order.",
+    "petitioner_claim": "The petitioner argued that the circular reinstating officers charged in court but bailed out violated mandatory provisions of the Establishment Code and Article 13(4), as punishment (interdiction) can only be imposed by a competent court, and the circular unlawfully removed interdiction before trial.",
+    "respondent_argument": "The respondents contended that the circular was issued under provisions 27:8 and 27:9 of the Establishment Code, allowing reinstatement after bail, and that the petitioner lacked locus standi and the application was delayed.",
+    "key_facts": [
+      "The petitioner is General Secretary of OPFMD and brother of a disappeared person.",
+      "The impugned circular dated 05.01.2001 directed reinstatement of police officers interdicted and charged but bailed out in disappearance cases.",
+      "The officers were charged in court but cases were not concluded.",
+      "The Establishment Code provisions 27:8 and 27:9 were relied on by respondents; petitioner argued 27:10 applies mandatorily.",
+      "The petitioner filed writ of certiorari to quash the circular."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(4) protects the right to life and liberty, allowing punishment only by a competent court. The Establishment Code's paragraph 27:10 mandates interdiction of public officers once legal proceedings are initiated for criminal offences. Paragraphs 27:8 and 27:9 do not apply once charges are filed. The circular ignoring 27:10 and reinstating officers charged but bailed out was ultra vires and violated the constitutional protection under Article 13(4).",
+    "application_to_facts": "Since the officers were charged and cases pending, they had passed the stage of custody or bail covered by 27:8 and 27:9, and thus must be interdicted under 27:10. The circular directing reinstatement contravened this mandatory provision and effectively imposed punishment without court order, violating Article 13(4).",
+    "principles_established": [
+      "Punishment can only be imposed by a competent court under Article 13(4).",
+      "Detention before trial is not punishment under Article 13(4).",
+      "Establishment Code paragraph 27:10 mandates interdiction of officers once legal proceedings commence.",
+      "Administrative circulars cannot override mandatory legal provisions or constitutional rights.",
+      "Courts may quash ultra vires administrative orders even if administrative inconvenience results."
+    ],
+    "precedents_cited": [
+      "Lama Hewage Lai v. Officer-in-Charge, Minor Offences, Seeduwa Police Station",
+      "Shell Gas v. Consumer Authority",
+      "Consumers Association of Sri Lanka v. Telecommunications Regulatory Commission of Sri Lanka and others",
+      "Elmore Perera v. Major Montagu Jayawickrema, Minister of Public Administration and Plantation Industries and Others",
+      "R v. Electricity Commissioner exp. London Electricity Joint Committee Co. Ltd.",
+      "The Surveyors Institute of Sri Lanka v. The Surveyor General and Others"
+    ]
+  },
+  "outcome": {
+    "holding": "The court quashed the impugned circular as ultra vires and held that reinstating officers charged but bailed out violated Article 13(4) and the Establishment Code. The writ of certiorari was allowed with costs.",
+    "disposition": "granted",
+    "remedy_or_orders": "Writ of certiorari issued quashing the circular dated 5th January 2001."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(4) is central to the court's reasoning as it protects the right to life and liberty by ensuring punishment can only be imposed by a competent court. The circular's reinstatement of officers charged but not convicted was found to violate this constitutional safeguard.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that 'If criminal proceedings are taken against a public officer he should have been dealt with under paragraph 27:10... Under paragraph 27:10 if legal proceedings are taken against a public officer for a criminal offence, it is mandatory for the relevant Authority to forthwith interdict that officer.' The circular ignoring this was ultra vires.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 8500,
+      "end_char": 8900
+    }
+  }
+}

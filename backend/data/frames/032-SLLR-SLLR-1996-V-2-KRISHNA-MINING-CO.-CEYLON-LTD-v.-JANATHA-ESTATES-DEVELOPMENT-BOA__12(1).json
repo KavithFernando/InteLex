@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_032-SLLR-SLLR-1996-V-2-KRISHNA-MINING-CO_160_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 515/92",
+    "case_title": "Krishna Mining Co. (Ceylon) Ltd. v. Janatha Estates Development Board and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-09-12",
+    "source_citation": "Sri Lanka Law Reports [1996] 2 Sri LR 209"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the private sale of land to the 5th Respondent, including land the Petitioner had sought to purchase, without calling for public tenders, violated the Petitioner's right to equality under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The Petitioner argued that the sale by private treaty of the land to the 5th Respondent, which included a portion of the land the Petitioner had requested to buy and which was supposed to be sold by public tender, was discriminatory and violated the Petitioner's fundamental right to equality before the law.",
+    "respondent_argument": "The Respondents contended that the Cabinet decision authorized the sale of 10 acres to the 5th Respondent and that the selection of the land could be done at a future date, implying no violation of equal treatment.",
+    "key_facts": [
+      "The Petitioner purchased 5 acres of land from the Land Reform Commission and requested an adjoining 8-acre block, which was refused and designated for sale by public tender.",
+      "The 5th Respondent was initially approved to purchase a 10-acre block by private treaty, which was surveyed and valued (Plan 86).",
+      "The sale to the 5th Respondent was suspended but later approved by Cabinet with the condition of a fresh valuation.",
+      "The 5th Respondent was ultimately sold a different 10-acre block (Plan 618), which included a portion of the 8-acre block the Petitioner had sought to buy and which was supposed to be sold by public tender.",
+      "The Petitioner challenged the sale within one month of being informed of the sale."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(1) as guaranteeing equal treatment and equal protection of the law, meaning that government land sales must be conducted fairly and without discrimination. The Cabinet decision allowing only one exception to the public tender policy was central to the interpretation.",
+    "application_to_facts": "The Court found that the sale of Lot 1 in Plan 618 to the 5th Respondent was outside the Cabinet-approved exception and was discriminatory because it denied the Petitioner the opportunity to purchase by public tender, violating the Petitioner's right to equality.",
+    "principles_established": [
+      "Government policy requiring public tenders for land sales must be adhered to unless a specific exception is made.",
+      "A sale outside the authorized exception that discriminates against a party entitled to equal treatment violates Article 12(1).",
+      "A petitioner may wait until an actual infringement occurs before challenging a violation of fundamental rights."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that the sale of Lot 1 in Plan 618 to the 5th Respondent violated the Petitioner's fundamental rights under Article 12(1). The sale was declared null and void, the Petitioner was entitled to a refund pro tanto, and the land must be put up for public tender with the Petitioner and 5th Respondent entitled to bid.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of violation of fundamental rights; nullification of the sale deed; refund pro tanto; direction to sell the land by public tender within six months."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it protects the right to equality and equal protection of the law, which was infringed by the discriminatory private sale of land without public tender.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the sale of Lot 1 in Plan 618, which included land the Petitioner had sought to buy and was supposed to be sold by public tender, was discriminatory and violated Article 12(1). The sale was outside the Cabinet-approved exception and thus null and void.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

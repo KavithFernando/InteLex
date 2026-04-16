@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_036-SLLR-SLLR-1993-1-SURENDRAN-V.THE-UNI_175_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPEAL NO. 480/92",
+    "case_title": "Surendran v. The University Grants Commission and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1993-03-26",
+    "source_citation": "[1993] 1 Sri L.R. 344"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the University Grants Commission's subdivision of the Merit Quota between two examinations held in the same academic year violated the petitioner's fundamental right to equality before the law under Article 12(1).",
+    "petitioner_claim": "The petitioner argued that the results of the August 1990 and April 1991 G.C.E. (A/L) examinations should have been jointly considered for university admission without distinction, as per Rule 29, and that the subdivision of the Merit Quota on a geographical basis infringed his right to equality.",
+    "respondent_argument": "The respondents contended that the April 1991 examination was treated as a separate examination and that the Merit Quota was subdivided to prevent injustice, citing differences in preparation time and performance levels, and that the subdivision was justified to maintain admission standards.",
+    "key_facts": [
+      "The petitioner sat for the April 1991 G.C.E. (A/L) examination held in unrest-affected districts, which was on the same syllabus as the August 1990 exam.",
+      "Rule 29 stated that results of all examinations held in a year should be jointly considered for admission.",
+      "The University Grants Commission subdivided the Merit Quota between the August 1990 and April 1991 exams, treating them as separate.",
+      "The petitioner was not admitted to Engineering I or II courses due to this subdivision.",
+      "Statistical data used by the respondents to justify subdivision was incomplete and flawed."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equality before the law and equal protection, which prohibits discrimination between candidates of the two examinations held in the same academic year. Rule 29 requires joint consideration of all examinations in that year, and the subdivision of the Merit Quota was an unjustified discrimination.",
+    "application_to_facts": "The court found that the respondents' subdivision of the Merit Quota based on the ratio of candidates from two exams was arbitrary and not supported by proper statistical analysis. The April 1991 exam candidates had a legitimate expectation that their results would be treated equally. The discrimination caused by the subdivision violated the petitioner's fundamental right to equality.",
+    "principles_established": [
+      "Equality before the law prohibits arbitrary discrimination in university admissions.",
+      "Examinations held in the same academic year must be treated equally for admission purposes.",
+      "Statistical or performance differences do not justify discriminatory subdivision without proper analysis.",
+      "Legitimate expectations arising from established rules must be respected."
+    ],
+    "precedents_cited": [
+      "Seneviratne v. U.G.C.",
+      "Ramupillai v. Minister of Public Administration",
+      "Perera v. U.G.C."
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the subdivision of the Merit Quota by the University Grants Commission violated Article 12(1) and quashed the decision to subdivide the Merit Quota. The petitioner was entitled to admission to Engineering I, and the entire admission scheme was set aside for being unfair.",
+    "disposition": "granted",
+    "remedy_or_orders": "The University Grants Commission was directed to select candidates for admission in accordance with Rule 29 without subdivision of the Merit Quota. The petitioner was awarded costs of Rs. 5,000."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects against discrimination and guarantees equality before the law. The court found that the subdivision of the Merit Quota constituted discrimination violating this fundamental right, making the clause dispositive of the outcome.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court stated that the Petitioner's fundamental right to equality was infringed by the sub-division of the Merit Quota on a geographical basis and that candidates who sat for the April examination had a legitimate expectation that Rule 29 would not be departed from.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

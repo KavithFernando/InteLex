@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-1983-1-RATNASARA-THERO-V.-_021_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 125/1982",
+    "case_title": "Ratnasara Thero v. Udugampola",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1983-01-19",
+    "source_citation": "Sri Lanka Law Reports [1983] 1 SriLR 461"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the seizure and confiscation of leaflets printed for distribution on a political referendum violated the petitioner's fundamental right to freedom of speech and expression including publication under Article 14(1)(a) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that the seizure of about 20,000 printed leaflets by the police was unlawful and violated his fundamental rights under Article 14(1)(a). He sought restoration of the seized leaflets and compensation.",
+    "respondent_argument": "The 1st respondent (Superintendent of Police) acted on complaints alleging deception and illegal printing under Emergency and Election Laws. The respondent did not specify the legal provisions under which the seizure was made. The Deputy Solicitor-General suggested possible reliance on Sections 398 and 453 of the Penal Code but did not support seizure under Emergency or Election Laws.",
+    "key_facts": [
+      "Petitioner printed 50,000 leaflets opposing extension of Parliament life; 20,000 copies seized by police from the press.",
+      "Complaints were made by Wimaladasa (who saw leaflets pasted publicly) and Rev. Father Basil Nicholas (who claimed deception in signing).",
+      "The original signed document by Rev. Father Basil Nicholas was not seized; Father Reid Fernando was not questioned.",
+      "The contents of the leaflets were admitted by the Deputy Solicitor-General as not unlawful.",
+      "The police did not state under which law the seizure was made and failed to justify the seizure under the Penal Code or other laws."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the fundamental right to freedom of speech and expression including publication under Article 14(1)(a) protects the petitioner’s right to print and distribute leaflets. The seizure of the leaflets without lawful authority violated this right.",
+    "application_to_facts": "The police seizure was not supported by any valid legal provision. The investigation was flawed as the original signed document was not seized, and the police failed to justify the necessity of seizing 20,000 leaflets. The Deputy Solicitor-General conceded the leaflets’ contents were lawful. Thus, the seizure was an unlawful infringement of the petitioner’s constitutional rights.",
+    "principles_established": [
+      "Seizure of printed matter must be justified by clear legal authority.",
+      "Fundamental rights under Article 14(1)(a) protect freedom of speech and publication, including political expression.",
+      "Good faith by a public servant is not a defense if due care and attention are lacking.",
+      "Police must comply with procedural safeguards when investigating and seizing documents."
+    ],
+    "precedents_cited": [
+      "Emperor vs. Raghunath Singh - 1946 A.I.R. (Lahore) at p. 459"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the seizure of the leaflets violated the petitioner’s fundamental rights under Article 14(1)(a). The petition was allowed, the seized leaflets were to be restored, and the petitioner was awarded Rs.10,000 as compensation and Rs.2,100 as costs.",
+    "disposition": "granted",
+    "remedy_or_orders": "Restoration of seized leaflets to petitioner; payment of Rs.10,000 as compensation and Rs.2,100 as costs by the 1st respondent."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) was central to the court’s reasoning as it protects freedom of speech and expression including publication, which was directly infringed by the unlawful seizure of the petitioner’s leaflets. The court’s decision rested on this constitutional guarantee.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was prevented from exercising his fundamental rights of freedom of speech and expression including publication. About 20,000 copies of pamphlets printed for a cause he believed right were seized by the 1st respondent. The Deputy Solicitor-General agreed the contents were not unlawful and did not rely on contents to justify seizure.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

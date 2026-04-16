@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_032-SLLR-SLLR-2003-1-ADHIKARARY-AND-ANOT_050_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_251_2002",
+    "case_title": "Adhikary and Another v Amarsinghe and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-10-28",
+    "source_citation": "[2003] 1 Sri L.R 270"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether acts of indignity and assault not causing physical injury constitute an infringement of Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioners claimed that the 1st and 2nd respondents violated their fundamental rights under Article 11 by subjecting them to cruel, inhuman, and degrading treatment through assault and abuse, despite no physical injuries being proven.",
+    "respondent_argument": "The 1st and 2nd respondents denied involvement in the incident and argued that the petitioners had not identified them at the time of complaint; they also denied causing any physical injury.",
+    "key_facts": [
+      "The 1st petitioner, an attorney-at-law, was traveling with his wife, child, and family to an exhibition when stopped at a traffic block.",
+      "The 1st and 2nd respondents, claiming to be security officers of a Minister, forcibly pulled the 1st petitioner from his car, abused and slapped him and his wife, and threatened to kill him.",
+      "No physical injuries or medical treatment were documented, but psychological trauma and degrading treatment were alleged.",
+      "The 3rd and 4th respondents apologized and were discharged from proceedings; the 1st and 2nd respondents were found to have participated in the incident.",
+      "The petitioners sought relief for infringement of Article 11 rights."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 11 protection extends beyond physical harm to include psychological suffering and degrading treatment. The Court recognized that cruel, inhuman, or degrading treatment can be physical or psychological and must be assessed based on the circumstances of each case.",
+    "application_to_facts": "The Court found that the conduct of the 1st and 2nd respondents, including assault, abuse, threats, and psychological trauma caused to the petitioners and their family, amounted to degrading treatment violating Article 11, despite no physical injuries being proven.",
+    "principles_established": [
+      "Article 11 protects against both physical and psychological torture or cruel, inhuman, or degrading treatment.",
+      "Severity of suffering, whether physical or psychological, is the test for violation under Article 11.",
+      "State officers abusing their authority and causing such treatment violate constitutional rights.",
+      "Compensation for such violations should be reasonable and not punitive to the State."
+    ],
+    "precedents_cited": [
+      "W.M.K. de Silva v Chairman, Ceylon Fertilizer Corporation (1989) 2 Sri LR 393",
+      "Kumarasena v SI Sriyantha and Others SC Application No. 257/93 SCM of 23.05.1994",
+      "Saman v Leeladasa and another (1989) 1 Sri LR 44"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the 1st and 2nd respondents infringed the petitioners' fundamental rights under Article 11 and awarded compensation to the petitioners, part of which was to be paid personally by the 1st and 2nd respondents.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was directed to pay Rs. 20,000 as compensation and Rs. 5,000 as costs within three months. Additionally, the 1st and 2nd respondents were ordered to personally pay Rs. 5,000 each as compensation."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the Court's reasoning as it defined the scope of protection against cruel, inhuman, or degrading treatment, which the petitioners alleged and the Court found was violated by the respondents' conduct.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court noted that although no physical injuries were proven, the psychological trauma and degrading treatment caused by the respondents' assault and threats amounted to a violation of Article 11.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

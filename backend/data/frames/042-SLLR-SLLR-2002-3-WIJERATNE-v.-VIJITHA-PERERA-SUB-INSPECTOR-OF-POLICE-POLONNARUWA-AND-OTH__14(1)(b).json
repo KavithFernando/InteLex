@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_042-SLLR-SLLR-2002-3-WIJERATNE-V.-VIJITH_067_C02__14(1)(b)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_379_93",
+    "case_title": "Wijeratne v. Vijitha Perera, Sub-Inspector of Police, Polonnaruwa and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-01-10",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 379/93, decided on 10 January 1994"
+  },
+  "clause": {
+    "article": "14(1)(b)",
+    "text": "Freedom of peaceful assembly."
+  },
+  "case_context": {
+    "legal_issue": "Whether the police actions unlawfully infringed the petitioner’s right to freedom of peaceful assembly under Article 14(1)(b).",
+    "petitioner_claim": "The petitioner argued that the seizure of posters and threats prevented the peaceful picketing campaign, infringing his right to peaceful assembly.",
+    "respondent_argument": "Respondents claimed the petitioner was warned not to create disturbances and could conduct peaceful picketing, denying arrest and detention.",
+    "key_facts": [
+      "Petitioner planned a peaceful, non-violent picketing campaign during lunch break.",
+      "Police seized posters and threatened remand to prevent the protest.",
+      "The planned protest was cancelled due to fear caused by police actions.",
+      "No evidence of violence or disruption was found.",
+      "Police did not have lawful authority for search or seizure."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 14(1)(b) as protecting the right to conduct peaceful assembly without unlawful interference. The police actions unlawfully obstructed the petitioner’s right to assemble peacefully.",
+    "application_to_facts": "The seizure of posters and threats effectively deterred the peaceful picketing, constituting an infringement of the right to peaceful assembly. The police had no lawful basis for their actions.",
+    "principles_established": [
+      "Peaceful assembly is a fundamental right protected by the Constitution.",
+      "State authorities must not unlawfully interfere with peaceful protests.",
+      "Unlawful seizure of materials and threats to suppress assembly violate Article 14(1)(b)."
+    ],
+    "precedents_cited": [
+      "Bandara v. Premachandra (1994) 1 Sri LR 331"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s right to freedom of peaceful assembly under Article 14(1)(b) was infringed by the unlawful seizure of posters and threats by the police.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation awarded and directions to police issued to respect fundamental rights."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(b) was materially engaged as the case involved suppression of a planned peaceful picketing campaign, directly implicating the right to peaceful assembly.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the seizure of posters and threats deterred the peaceful picketing campaign, infringing the petitioner’s right to peaceful assembly under Article 14(1)(b).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

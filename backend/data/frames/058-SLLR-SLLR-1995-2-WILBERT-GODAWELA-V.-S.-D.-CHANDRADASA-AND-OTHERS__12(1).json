@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_058-SLLR-SLLR-1995-2-WILBERT-GODAWELA-V._208_C01__12(1)",
+  "created_at": "2024-06-10",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 208/95/FR",
+    "case_title": "Wilbert Godawela v. S. D. Chandradasa and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-11-27",
+    "source_citation": "[1995] 2 Sri L.R. 338"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the withholding of the Petitioner's pension violated his fundamental rights under Article 12(1) of the Constitution, specifically regarding equal protection of the law.",
+    "petitioner_claim": "The Petitioner argued that his pension was withheld arbitrarily without following the proper procedures under Section 12(1) of the Minutes on Pensions and that this violated his right to equal protection under Article 12(1).",
+    "respondent_argument": "The Respondents contended that the Petitioner was retired under Section 12(1) of the Minutes on Pensions due to pending disciplinary proceedings, justifying withholding of pension.",
+    "key_facts": [
+      "The Petitioner retired automatically upon reaching the prescribed retirement age on 22 November 1994.",
+      "No disciplinary proceedings were pending or contemplated at the time of retirement.",
+      "The pension was withheld allegedly under Section 12(1) of the Minutes on Pensions, which allows withholding or reduction of pension if disciplinary proceedings are pending or contemplated and the explanation is unsatisfactory.",
+      "The Petitioner was informed of the withholding only after retirement and no charge sheet was served until after the fundamental rights application was filed.",
+      "Public Administration Circular No. 29/90 prescribes procedures for pension payment and disciplinary cases which were not followed."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Section 12(1) of the Minutes on Pensions as applying only to withholding or reducing pension where disciplinary proceedings were pending or contemplated at the time of retirement and where the explanation by the public servant was unsatisfactory. The Court emphasized that retirement occurs automatically by law at the prescribed age and not under Section 12(1).",
+    "application_to_facts": "Since no disciplinary proceedings were pending or contemplated at the time of the Petitioner's retirement, and the procedures under Section 12(1) and Circular 29/90 were not followed, the withholding of pension was arbitrary and violated the Petitioner's right to equal protection under Article 12(1).",
+    "principles_established": [
+      "Retirement occurs automatically by operation of law upon reaching the prescribed age, not under Section 12(1).",
+      "Section 12(1) concerns withholding or reducing pension only if disciplinary proceedings are pending or contemplated at retirement and the explanation is unsatisfactory.",
+      "Proper procedures under Section 12(1) and Public Administration Circular 29/90 must be followed before withholding pension.",
+      "Failure to follow these procedures and arbitrary withholding violates the constitutional guarantee of equal protection of the law."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that the withholding of the Petitioner's pension without following the proper procedures under Section 12(1) violated Article 12(1) of the Constitution. The decisions to withhold or reduce the pension were set aside and the State was ordered to pay the arrears and costs.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Court ordered payment of the Petitioner's pension arrears within one month, including sums withheld, and Rs. 15,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) guarantees equal protection of the law, which was central to the Court's finding that the arbitrary withholding of pension without following prescribed legal procedures violated the Petitioner's constitutional rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found no disciplinary proceedings pending or contemplated at retirement, and that the pension was withheld arbitrarily without following Section 12(1) procedures, thus violating Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

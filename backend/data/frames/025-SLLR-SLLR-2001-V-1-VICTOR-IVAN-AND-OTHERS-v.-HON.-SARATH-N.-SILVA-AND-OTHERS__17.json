@@ -1,0 +1,74 @@
+{
+  "frame_id": "RQ1_025-SLLR-SLLR-2001-V-1-VICTOR-IVAN-AND-O_024_C01__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_898_99_FR_ET_AL",
+    "case_title": "Victor Ivan and Others v. Hon. Sarath N. Silva and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2001-06-20",
+    "source_citation": "Sri Lanka Law Reports [2001] 1 Sri LR"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' fundamental rights under Article 17 were infringed by the appointment of the 1st respondent as Chief Justice, and whether they had locus standi to challenge this appointment under Article 17.",
+    "petitioner_claim": "The petitioners claimed that their fundamental rights under Article 17 were infringed by the executive or administrative action of appointing the 1st respondent as Chief Justice by the President, while complaints against him were pending, and sought declarations that the appointment was null and void.",
+    "respondent_argument": "The Attorney-General argued that the President enjoys absolute immunity under Article 35, that the appointment was lawful under Article 107(1), that the petitioners had no locus standi as they were not directly affected, and that the appointment could only be challenged by impeachment under Articles 107(2) and (3).",
+    "key_facts": [
+      "The 1st respondent was appointed Chief Justice by the President under Article 107(1).",
+      "Petitioners alleged fundamental rights violations under Articles 12(1), 14(1)(a), 14(1)(g), and 17.",
+      "Complaints under Section 42 of the Judicature Act against the 1st respondent were pending before appointment.",
+      "The President has immunity under Article 35(1) from legal proceedings.",
+      "Removal of a Chief Justice is only possible under Articles 107(2) and (3).",
+      "Petitioners did not allege any executive or administrative act by the 1st respondent violating their rights.",
+      "Petitioners failed to show how they were directly affected by the appointment."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 17 is an enabling provision granting every person the right to apply to the Supreme Court for violations of fundamental rights. However, the Court held that the petitioners failed to establish a violation of their fundamental rights under Article 17 because the appointment of the Chief Justice by the President is an act immune from challenge under Article 35, and the petitioners lacked locus standi as they were not directly affected by the appointment.",
+    "application_to_facts": "The Court found that the petitioners did not allege any executive or administrative act by the 1st respondent violating their rights, only the President's appointment act which is protected by immunity. The petitioners also failed to show that the President was aware of the complaints or that the appointment was arbitrary. The Court emphasized that removal of the Chief Justice can only be done by impeachment under Articles 107(2) and (3). Therefore, the petitioners' application under Article 17 was not appropriate and was dismissed.",
+    "principles_established": [
+      "The President's acts under Article 107(1) enjoy immunity under Article 35(1).",
+      "Only persons directly affected by executive or administrative action have locus standi under Article 17 and Article 126(2).",
+      "The appointment of a Chief Justice by the President is not an executive or administrative act subject to fundamental rights challenge.",
+      "Removal of a Chief Justice is exclusively governed by Articles 107(2) and (3).",
+      "Judicial review cannot be used to amend the Constitution or add methods of removal."
+    ],
+    "precedents_cited": [
+      "Silva v. Bandaranayake (1997) 1 SRI LR 92",
+      "Mallikarachchi v. Shiva Pasupati, Attorney-General (1985) 1 SRI LR 74",
+      "Kamnalilake v. Dayananda Dissanayake (1999) 1 SRI LR 157",
+      "Joseph Perera v. Attorney-General (1992) 1 SRI LR 199",
+      "Visuvalingam v. Liyanage (1983) 1 SRI LR 203",
+      "I.M. Raj Bandula v. Lanka General Trading Co. Ltd. (SC Special) 302/98 SCM 16.10.2000",
+      "SADMP Gunasekera et al v. Inspector General of Police (SC Application) 607/99 (FR) and 608/99 (FR) SCM 12.01.2000",
+      "Somawathie v. Weerasinghe (1990) 2 SRI LR 121",
+      "Jones v. Wrotham Parks Estates Ltd. (1980) AC 74"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court refused leave to proceed on the fundamental rights applications under Article 17, holding that the petitioners failed to establish a violation of their fundamental rights and lacked locus standi. The appointment of the Chief Justice by the President is immune from challenge, and removal can only be effected under Articles 107(2) and (3).",
+    "disposition": "dismissed",
+    "remedy_or_orders": "Leave to proceed refused with costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 provides the constitutional right to apply to the Supreme Court for violations of fundamental rights. The petitioners invoked this clause to challenge the appointment of the Chief Justice. The Court's reasoning and ultimate dismissal centrally depended on interpreting the scope and limits of Article 17 in relation to executive acts and immunity.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioners claimed violations of their fundamental rights under Article 17 by the President's appointment of the Chief Justice. The Court held that the President's act is immune under Article 35, the petitioners lacked locus standi, and the appointment could only be challenged by impeachment under Articles 107(2) and (3).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3500,
+      "end_char": 3640
+    }
+  }
+}

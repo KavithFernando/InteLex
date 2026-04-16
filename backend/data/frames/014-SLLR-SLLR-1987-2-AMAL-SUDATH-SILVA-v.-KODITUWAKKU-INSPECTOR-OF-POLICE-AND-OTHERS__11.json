@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_014-SLLR-SLLR-1987-2-AMAL-SUDATH-SILVA-V_017_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 186/86",
+    "case_title": "Amal Sudath Silva v. Kodituwakku, Inspector of Police and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1987-07-03",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 186/86, decided on 3 July 1987"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment by police officers in custody, violating Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioner alleged that while in police custody he was severely beaten, hung by his hands tied to a rope, had his penis crushed by being put into a drawer and closed, and was forced to drink water mixed with chili powder, constituting torture and cruel treatment in violation of Article 11.",
+    "respondent_argument": "The respondents denied the arrest date as alleged by the petitioner and denied assaulting or subjecting the petitioner to torture or cruel treatment. They relied on the medical officer's report stating no external injuries and argued the allegations were false and untenable.",
+    "key_facts": [
+      "Petitioner was arrested on 13 October 1986 by police officers and held in custody.",
+      "Petitioner was examined by multiple medical officers with conflicting reports on injuries.",
+      "The Bandaragama Medical Officer's report found no external injuries but was discredited by the court.",
+      "The Additional Judicial Medical Officer (A.J.M.O.) found scars and injuries consistent with torture inflicted while in police custody.",
+      "The petitioner was not produced before a Magistrate for five nights, and there was delay in medical examination."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 11 absolutely prohibits torture or cruel, inhuman or degrading treatment by the State or its organs, including the police. The right is fundamental and admits no exceptions. The police, as a State organ, must uphold this right and cannot inflict such treatment under any circumstances.",
+    "application_to_facts": "The court found the Bandaragama M.O.'s report unreliable and accepted the A.J.M.O.'s findings of injuries consistent with torture inflicted during police custody. The petitioner’s allegations were supported by medical evidence and the circumstances of custody. The court rejected the respondents' denials and held that the petitioner was subjected to torture and cruel treatment by police officers, constituting a violation of Article 11.",
+    "principles_established": [
+      "Article 11 guarantees an absolute fundamental right against torture and cruel treatment.",
+      "Medical reports must be independently conducted and credible to be accepted.",
+      "The State is liable for torture or cruel treatment inflicted by its organs, including police officers.",
+      "Delay or failure to produce a detainee before a Magistrate or for medical examination can be relevant to establishing torture claims.",
+      "The court must protect fundamental rights jealously to maintain their meaning and value."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner was subjected to torture and cruel, inhuman treatment by police officers in custody, violating Article 11. The petitioner’s fundamental right was infringed by executive action, and the State was liable to pay compensation.",
+    "disposition": "granted",
+    "remedy_or_orders": "The court ordered the State to pay Rs. 10,000 as compensation and Rs. 1,000 as costs. It also directed the Inspector-General of Police to conduct a full inquiry and take disciplinary action against responsible officers."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 is central to the court’s reasoning and outcome as it directly prohibits the torture and cruel treatment the petitioner suffered. The court’s finding of violation and the consequent remedy flow from the application and interpretation of this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found the Bandaragama M.O.'s report valueless and accepted the A.J.M.O.'s report describing injuries consistent with torture inflicted while in police custody, supporting the petitioner’s allegations of cruel treatment.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

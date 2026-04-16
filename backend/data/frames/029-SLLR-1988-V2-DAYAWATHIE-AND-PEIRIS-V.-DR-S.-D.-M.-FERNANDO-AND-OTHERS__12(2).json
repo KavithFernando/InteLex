@@ -1,0 +1,78 @@
+{
+  "frame_id": "RQ1_029-SLLR-1988-V2-DAYAWATHIE-AND-PEIRIS-V_142_C01__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_4_88_5_88",
+    "case_title": "Dayawathie and Peiris v. Dr. S. D. M. Fernando and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1988-12-12",
+    "source_citation": "Sri Lanka Law Reports {1988} 2 Sri L.R. 314"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the exclusion of certain nurses from a training course on the ground of their participation in trade union action constituted discrimination violating Article 12(2) of the Constitution, and whether the respondents' actions in recommencing the old course including ineligible nurses amounted to contempt of court.",
+    "petitioner_claim": "The petitioners argued that they were discriminated against on the ground of political opinion (participation in trade union action) in violation of Article 12(2), and that the respondents defied the Supreme Court's order by recommencing the old training course including nurses who did not have the requisite marks, thus acting in contempt of court.",
+    "respondent_argument": "The respondents contended that they acted bona fide, having suspended the old course immediately after the judgment, sought clarification from the court, and acted on legal advice from the Attorney General. They argued that the recommencement of the old course was done without deliberate defiance or contempt, but due to a misapprehension of the court order and legal advice.",
+    "key_facts": [
+      "Nurses who participated in a strike were excluded from a training course for promotion.",
+      "The Supreme Court set aside the selections and ordered fresh selections without disqualification for trade union action.",
+      "The old course was suspended after the judgment but recommenced including ineligible nurses after legal advice.",
+      "The parties recorded an agreement on 6 June 1988 to hold one examination for both old and new groups, but ambiguity existed about eligibility.",
+      "Petitioners filed contempt applications alleging defiance of the court order."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(2) prohibits discrimination on grounds including political opinion. The original exclusion of nurses for trade union action was discriminatory and set aside. However, the recommencement of the old course including ineligible nurses was due to a bona fide misapprehension and legal advice, not deliberate defiance or contempt. The court distinguished between disobedience to declaratory orders and coercive injunctions, requiring wilful and deliberate disregard for contempt.",
+    "application_to_facts": "The respondents suspended the old course immediately after the judgment and made fresh selections as ordered. They sought clarification from the court and acted on legal advice from the Attorney General before recommencing the old course. The ambiguity in the agreement and legal advice led to a misapprehension. There was no evidence of mala fides or deliberate defiance. The court found no contempt but emphasized strict compliance going forward.",
+    "principles_established": [
+      "Discrimination on grounds of political opinion violates Article 12(2).",
+      "Disobedience to declaratory court orders requires wilful and deliberate disregard to constitute contempt.",
+      "Acting on legal advice may mitigate but does not conclusively excuse contempt.",
+      "Parties may enter into compromises after judgment affecting execution of orders.",
+      "Contempt proceedings should be used with restraint and require proof beyond reasonable doubt."
+    ],
+    "precedents_cited": [
+      "Re Young and Marston 31 Ch. D. 174",
+      "Elliot v. Furner 13 Sim 485",
+      "Wheeler v. New Merton Board Mills (1932) 2 KB 669",
+      "Lomas v. Peate (1947) 2 All ER 574",
+      "Gayford v. Chouler (1898) 1 QB 316",
+      "Ismail v. Ismail (1920) 22 NLR 190",
+      "DeAlwis v. Rajakaruna (1964) 68 NLR 180",
+      "Sahakari Sonstha v. State of Maharashtra 1977 Cri LJ 1809",
+      "Prakash Chand v. Grewal 1975 Cr LR 679",
+      "Ragunath Rai v. Sahai 1968 GLJ 704",
+      "Knight v. Clifton (1971) 2 All ER 379",
+      "Home Office v. Harman (1982) 1 All ER (HL) 532",
+      "Comet Products UK Ltd. v. Hawkes Plastics Ltd. (1971) 1 All ER 1141",
+      "Debabrata v. State of West Bengal MR 1969 SC 189",
+      "S. Abdul Karim v. M. K. Prakash AIR 1976 SC 859"
+    ]
+  },
+  "outcome": {
+    "holding": "The court discharged the contempt rules against the respondents, holding that while the original exclusion was discriminatory and set aside, the recommencement of the old course including ineligible nurses was not wilful contempt but a bona fide error based on legal advice and ambiguity in the agreement. The respondents were not guilty of contempt of court.",
+    "disposition": "dismissed",
+    "remedy_or_orders": "Rules issued on the 1st and 2nd respondents are discharged; no order as to costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was central to the court's determination that the exclusion of nurses for trade union action was discriminatory and violated fundamental rights. The court's reasoning on discrimination under Article 12(2) framed the context for the subsequent contempt allegations and the interpretation of the court's order.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Supreme Court held that the classification excluding nurses who participated in trade union action was discriminatory under Article 12(2) and set aside the selections. The respondents suspended the old course, sought clarification, and acted on legal advice before recommencing the course including ineligible nurses. The court found no wilful contempt.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 314,
+      "end_char": 383
+    }
+  }
+}

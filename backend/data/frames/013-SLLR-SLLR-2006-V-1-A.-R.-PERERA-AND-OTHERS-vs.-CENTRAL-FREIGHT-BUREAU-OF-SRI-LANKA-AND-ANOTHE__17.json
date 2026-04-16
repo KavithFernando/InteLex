@@ -1,0 +1,80 @@
+{
+  "frame_id": "RQ1_013-SLLR-SLLR-2006-V-1-A.-R.-PERERA-AND-_011_C01__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "CA_999_2003",
+    "case_title": "A. R. Perera & Others vs Central Freight Bureau of Sri Lanka and Another",
+    "court_name": "Court of Appeal of Sri Lanka",
+    "decision_date": "2004-09-17",
+    "source_citation": "CA 999/2003, decided on 13 July, 23 August and 17 September 2004"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners have locus standi (standing) to apply for judicial review under Article 17 for alleged violations of fundamental rights by the respondents.",
+    "petitioner_claim": "The petitioners, as office bearers and members of CASA and representatives of affected shipping agents, claimed they have sufficient interest and locus standi to seek relief on behalf of themselves and CASA members against the imposition of levies and service charges by the 1st respondent.",
+    "respondent_argument": "The 1st respondent argued that the petitioners lack locus standi as CASA is a corporate body with the power to sue and be sued, and only CASA itself, not individual office bearers or members, can maintain the application. The petitioners were described as 'busy bodies' without individual rights to sue.",
+    "key_facts": [
+      "CASA is a company limited by guarantee incorporated under the Companies Act with power to sue and be sued.",
+      "The petitioners are Chairman, Secretary General, and an Executive Committee member of CASA, also a director/shareholder of a shipping agent company.",
+      "The Executive Committee of CASA resolved that CASA should file the application on behalf of its members.",
+      "The petitioners invoked jurisdiction under Article 140 but locus standi was challenged.",
+      "The Court considered the evolution of locus standi rules and the liberal approach to standing in public interest litigation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court recognized that Article 17 grants every person the right to apply for violations of fundamental rights, and that Sri Lankan courts have adopted a liberal approach to locus standi, especially in public law matters. The Court emphasized that persons whose interests are affected by alleged unlawful acts have sufficient interest to seek judicial review, even if their grievance is shared by many others. The Court rejected the narrow, conservative view that only the corporate body (CASA) could sue, and held that the petitioners, as affected persons and representatives, have standing.",
+    "application_to_facts": "The Court found that the petitioners, as office bearers and members of CASA and representatives of affected shipping agents, have a genuine grievance and sufficient interest to maintain the application. Even if treated as members of the public, they are distinguished from mere 'busy bodies' because their interests are directly affected by the imposition of levies. The Court overruled the preliminary objection on locus standi.",
+    "principles_established": [
+      "Locus standi in public law matters is to be liberally construed to allow persons with genuine grievances to seek judicial review.",
+      "A petitioner need not have a unique or exclusive interest; shared grievances with many others do not negate standing.",
+      "Corporate bodies have distinct legal personality, but office bearers and members with affected interests may also have standing.",
+      "The right under Article 17 to apply for violations of fundamental rights supports broad access to courts."
+    ],
+    "precedents_cited": [
+      "Durayappa vs Fernando 69 NLR 265",
+      "R vs Paddington Valuation Office (1996) 1 QB 380",
+      "Premadasa vs Wijewardena & Others (1991) 1 Sri LR 333",
+      "R vs Greater London Council ex parte Blackburn (1968) 2 QB 118",
+      "Me Whirter vs Independent Broadcasting Authority (1973) QB 629",
+      "R vs Inland Revenue Commissioners ex p. National Federation of Self Employed and Small Industries (1982) AC 617",
+      "Bandaranayake vs De Alwis & Others (1982) 2 Sri LR 664",
+      "Merit vs Dayananda de Silva (2001) 2 Sri LR 41",
+      "Forbes & Walker Tea Brokers vs Maligaspe and others (1998) 2 Sri LR 378",
+      "Mediwake and others vs Dayananda Dissanayake, Commissioner of Elections and others (2000) 1 Sri LR 177",
+      "Sunila Abeysekera vs Ariya Rubasinghe (2001) 1 Sri LR 315",
+      "Leader Publications vs Ariya Rubasinghe (2001) Sri LR",
+      "Lilanthi de Silva vs Attorney General (2003) Sri LR 155",
+      "Bulankulame and others vs Secretary, Ministry of Industrial Development and others (2000) 3 Sri LR 243",
+      "D. U. M. Jayatilake and others vs Jeevan Kumaranatunga and others CAM 29.7.2004",
+      "S. P. Gupta vs. Union of India (1982) ARI (SC) 149",
+      "Akhila Bharatiya Grahak Panchayat vs A. A. S. E. Brand (1983) AIR (Andhra Pradesh) 283",
+      "P. Nella Thamby Rosa Vs. Union of India (1984) AIR (SC) 74"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court overruled the preliminary objection and held that the petitioners have sufficient locus standi to maintain the application under Article 17 for alleged violations of fundamental rights.",
+    "disposition": "granted",
+    "remedy_or_orders": "Preliminary objection on locus standi dismissed; matter set down for argument on merits."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 is central because it guarantees every person the right to apply to the Supreme Court for violations of fundamental rights, underpinning the Court's liberal approach to locus standi and access to judicial review in this case.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court emphasized that every person whose interests are affected has standing under Article 17, rejecting the narrow view that only the corporate body CASA could sue, and overruled the preliminary objection on locus standi.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 80,
+      "end_char": 9200
+    }
+  }
+}

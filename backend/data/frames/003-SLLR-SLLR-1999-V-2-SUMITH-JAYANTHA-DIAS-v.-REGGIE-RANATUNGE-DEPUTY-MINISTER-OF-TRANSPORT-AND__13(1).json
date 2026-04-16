@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_003-SLLR-SLLR-1999-V-2-SUMITH-JAYANTHA-D_005_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 98/97",
+    "case_title": "Sumith Jayantha Dias v. Reggie Ranatunge, Deputy Minister of Transport and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-11-09",
+    "source_citation": "Sri Lanka Law Reports [1999] 2 Sri LR."
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was illegally arrested in violation of Article 13(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that he was illegally arrested without any legal basis, was assaulted, and detained for over six hours without charges or criminal action instituted against him.",
+    "respondent_argument": "The 5th respondent claimed the arrest was to prevent a breach of the peace as the petitioner was involved in an argument and resisting arrest; the 6th respondent denied assault and claimed he was off duty but came to the station on orders.",
+    "key_facts": [
+      "Petitioner was filming a burning lorry and was assaulted and arrested by police and others at the behest of the 1st respondent.",
+      "Petitioner was detained for over six and a half hours and released without charges.",
+      "No legal basis or charges were framed against the petitioner for the arrest.",
+      "The 5th respondent stated the arrest was to prevent a breach of the peace.",
+      "The petitioner was not informed of any lawful reason for arrest and was not charged."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) protects individuals from unlawful arrest and requires that arrests be made according to law with proper justification. The petitioner’s arrest lacked any legal basis or charges, thus violating this constitutional protection.",
+    "application_to_facts": "The petitioner was the victim of assault but was arrested without any offence alleged or charges framed. The respondents failed to justify the arrest legally, and the court found the arrest illegal and in violation of Article 13(1).",
+    "principles_established": [
+      "Arrest must be lawful and based on legal grounds.",
+      "Detention without charges or legal basis violates Article 13(1).",
+      "Victims of assault cannot be lawfully arrested without cause."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental right under Article 13(1) was violated by the illegal arrest and detention.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation awarded to the petitioner and orders for payment by the State and respondents."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the court’s determination that the petitioner’s arrest was unlawful and that his fundamental rights were infringed, leading to the grant of relief.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was arrested without any charges or legal basis, detained for over six hours, and the respondents failed to justify the arrest; the court found no legal grounds for the arrest and held it violated Article 13(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

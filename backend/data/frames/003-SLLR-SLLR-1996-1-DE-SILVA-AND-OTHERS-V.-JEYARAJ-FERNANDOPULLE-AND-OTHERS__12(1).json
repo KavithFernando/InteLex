@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_003-SLLR-SLLR-1996-1-DE-SILVA-AND-OTHERS_016_C01__12(1)",
+  "created_at": "2024-04-27",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATIONS NOS. 66/95 & 67/95",
+    "case_title": "De Silva and Others v. Jeyaraj Fernandopulle and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-11-30",
+    "source_citation": "1996)1 Sri L.R."
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' fundamental rights under Article 12(1) were infringed by the respondents through intimidation, exclusion from airport taxi services, and failure to provide protection.",
+    "petitioner_claim": "The petitioners claimed that they were prevented from exercising their lawful occupation at the airport by armed thuggery and intimidation instigated by the 1st to 7th respondents, and that the police and airport authorities failed to provide protection, thus violating their rights under Article 12(1).",
+    "respondent_argument": "The 1st respondent denied the allegations, stating the inauguration of the new taxi service was peaceful and no threats or intimidation occurred. Other respondents denied involvement or influence in the alleged violations.",
+    "key_facts": [
+      "Petitioners were members of two taxi societies with agreements to provide services at the airport until 1996.",
+      "A new taxi service was inaugurated on 31.1.95 with the 1st respondent as chief guest.",
+      "Petitioners allege armed thugs and intimidation prevented them from operating taxis from 31.1.95 onwards.",
+      "Police and airport authorities allegedly failed to act on complaints or provide protection.",
+      "Statements made by the 1st respondent in Parliament contradicted his affidavit denying involvement."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 12(1) guarantees equality before the law and equal protection. The court found that the police and airport authorities had a duty to provide reasonable protection to the petitioners to exercise their rights. Failure to do so amounted to denial of equal protection. The 1st respondent's instigation of intimidation rendered him liable for the violation.",
+    "application_to_facts": "The court accepted the petitioners' version over the 1st respondent's affidavit due to contradictory statements in Parliament. The police's inaction and the airport authorities' acquiescence in the exclusion of petitioners from the airport taxi services violated their right to equal protection under the law.",
+    "principles_established": [
+      "The state has a duty to provide reasonable protection to individuals exercising lawful rights.",
+      "Failure by law enforcement to act on intimidation can constitute denial of equal protection.",
+      "Instigation by a public official of intimidation leading to exclusion from lawful occupation violates Article 12(1)."
+    ],
+    "precedents_cited": [
+      "Faiz v. Attorney-General and Others",
+      "Upaliratne v. Tikiri Banda and Others"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioners' fundamental rights under Article 12(1) were infringed by the 1st respondent, the police, and the airport authorities due to intimidation and failure to provide protection.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declarations of infringement; compensation payments to petitioners and petitioner societies; directions to police and airport authorities to provide security and facilities for petitioners to operate taxis."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) is central as the petitioners claimed denial of equal protection of the law through intimidation and failure of state actors to protect their lawful rights, which the court found was violated.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioners established on a balance of probabilities that they were excluded from operating taxis due to threats and intimidation, and the police and airport authorities failed to provide protection, violating their rights under Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

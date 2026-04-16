@@ -1,0 +1,66 @@
+{
+  "frame_id": "RQ1_024-SLLR-SLLR-2000-V-1-LEADER-PUBLICATIO_123_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_362_2000",
+    "case_title": "Leader Publications (Pvt) Ltd. v. Ariya Rubasinghe, Director of Information and Competent Authority and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-06-19",
+    "source_citation": "Supreme Court of Sri Lanka, SC (FR) No. 362/2000, decided on 19 June 2000"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the 1st respondent was lawfully appointed as the Competent Authority under Regulation 14 of the Emergency Regulations, and whether the orders issued by him prohibiting the petitioner from printing, publishing, and distributing newspapers violated the petitioner's fundamental rights under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that the orders issued by the 1st respondent were invalid as he was not lawfully appointed as Competent Authority under the Emergency Regulations, and that these orders violated the petitioner's fundamental rights including the right to equality before the law under Article 12(1).",
+    "respondent_argument": "The respondents argued that the 1st respondent was validly appointed as Competent Authority by the President under the Emergency Regulations and the Public Security Ordinance, and that the appointment and orders were lawful. They also contended that the President's appointment power was immune from challenge under Article 35 of the Constitution.",
+    "key_facts": [
+      "The petitioner is a company engaged in publishing newspapers including The Sunday Leader.",
+      "The President issued Emergency Regulations No. 1 of 2000, including Regulation 14 concerning control of publications.",
+      "The Secretary to the President notified the appointment of Mr. Ariya Rubasinghe as Competent Authority under Regulation 14.",
+      "The 1st respondent issued orders prohibiting the petitioner from printing, publishing, and distributing newspapers and took possession of the printing press.",
+      "The petitioner challenged the validity of the 1st respondent's appointment and orders as violating fundamental rights including Article 12(1)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as guaranteeing equality before the law and equal protection of the law, which requires that any exercise of power, especially under emergency regulations, must be lawful and comply with procedural and substantive legal requirements. The appointment of a Competent Authority must be made strictly in accordance with the enabling legislation and regulations to ensure legality and fairness.",
+    "application_to_facts": "The court found that the 1st respondent was not lawfully appointed as Competent Authority under Regulation 14 because the Emergency Regulations failed to specify who the Competent Authority was for the purposes of Regulation 14, and the appointment by Gazette notification was not a valid exercise of the delegated power under section 6 of the Public Security Ordinance. This failure to properly empower the 1st respondent meant that the orders issued were null and void, violating the petitioner's right to equal protection under the law.",
+    "principles_established": [
+      "Delegated powers must be exercised strictly in accordance with the enabling legislation.",
+      "A definition in regulations does not have substantive effect unless clearly intended; otherwise it is construed restrictively.",
+      "The President's power to appoint Competent Authorities under emergency regulations is subject to conditions imposed by Parliament and must be clearly and validly exercised.",
+      "Failure to properly identify and empower the Competent Authority renders orders made by such authority invalid.",
+      "Fundamental rights including equality before the law require lawful exercise of delegated powers."
+    ],
+    "precedents_cited": [
+      "Pargan Singh v. Secretary of State for the Home Department (1992) 1 W.L.R. 1052",
+      "Blackpool Corporation v. Locker (1948) 1 K.B. 349",
+      "Wakefield Board of Health v. West Riding & Grimsby Railway Co. (1865) LR 1 QB 84"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the 1st respondent was not lawfully appointed as Competent Authority under Regulation 14 and therefore had no power to issue the orders prohibiting the petitioner from printing, publishing, and distributing newspapers. The orders dated 22 May 2000 were declared null and void and of no legal effect.",
+    "disposition": "granted",
+    "remedy_or_orders": "The court ordered the Inspector-General of Police to restore possession of the printing press and premises to the petitioner and directed the State to pay Rs. 100,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning because the petitioner's claim was that the unlawful appointment and exercise of power by the 1st respondent violated the petitioner's right to equality before the law and equal protection of the law. The court's decision to invalidate the orders was grounded in ensuring that delegated powers are exercised lawfully and fairly, upholding the constitutional guarantee of equality.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the 1st respondent was not empowered by the regulations to act under Regulation 14 within the meaning of section 6 of the Public Security Ordinance, and that the Gazette notification appointing him was not an effective exercise of the delegated power. Consequently, the orders issued by him were null and void.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

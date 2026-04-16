@@ -1,0 +1,74 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1985-V2-PREMALAL-PERERA-V._007_C01__10",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C APPLICATION No. 18 OF 1985",
+    "case_title": "Premalal Perera v. Weerasuriya and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-07-10",
+    "source_citation": "Sri Lanka Law Reports [1985] 2 Sri L.R."
+  },
+  "clause": {
+    "article": "10",
+    "text": "Every person is entitled to freedom of thought, conscience and religion, including the freedom to have or to adopt a religion or belief of his choice."
+  },
+  "case_context": {
+    "legal_issue": "Whether the circular requiring salary deductions to the National Security Fund without express consent infringes the petitioner's Fundamental Right to freedom of thought, conscience and religion under Article 10 of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the circular P2, which deducts contributions unless an employee objects, infringes his freedom of thought, conscience and religion because the fund is used to purchase arms used in violence contrary to his Buddhist beliefs, and that requiring an express objection forces him to disclose his beliefs publicly, exposing him to harassment.",
+    "respondent_argument": "The respondents argued that the circular P2 was neutral, not intended to single out or harass any employee, and that the requirement to object does not violate the petitioner's religious freedom as no penalty or disability is imposed for objection and the petitioner retains full freedom to practice his religion.",
+    "key_facts": [
+      "The petitioner is a Buddhist employee of the Government Railway Department.",
+      "Circular 1R2 required express consent for deduction; Circular P2 requires deduction unless objection is expressed.",
+      "The petitioner objects to contributing to a fund used to purchase military equipment, which conflicts with his religious beliefs.",
+      "No penalty or disability is imposed for objecting to the deduction under Circular P2.",
+      "The petitioner claims that the requirement to object publicly exposes his religious beliefs and may lead to harassment."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 10 guarantees absolute freedom of thought, conscience and religion, protecting beliefs rooted in religion regardless of their logical or consistent nature. The court emphasized that it is not the role of the judiciary to interpret religious doctrines but to protect sincere religious beliefs. A regulation neutral on its face may still violate the right if it unduly burdens religious exercise. However, requiring an employee to express objection to a deduction does not violate religious freedom if no penalty or disability results and the employee retains full freedom to practice religion.",
+    "application_to_facts": "The court found that the petitioner’s Buddhist belief against supporting violence is genuine and protected. However, the requirement under Circular P2 to object to the deduction does not interfere with the free exercise of religion because the petitioner is free to object without penalty, and the deduction only occurs if no objection is made. The act of objection or consent equally reveals the employee’s views, so P2 does not impose a greater burden than 1R2. There was no evidence that objection would lead to harassment.",
+    "principles_established": [
+      "Freedom of thought, conscience and religion under Article 10 is absolute and only limited by pre-existing laws inconsistent with the Constitution.",
+      "Religious beliefs need not be logical or consistent to be protected.",
+      "Courts do not interpret religious doctrines but protect sincere religious beliefs.",
+      "A neutral regulation may violate religious freedom if it unduly burdens its exercise.",
+      "Requiring expression of objection does not violate religious freedom if no penalty or disability results."
+    ],
+    "precedents_cited": [
+      "Reynolds v. U.S.",
+      "West Virginia State Board of Education v. Barnette",
+      "Braunfeld v. Brown",
+      "Sherbert v. Verner",
+      "Wisconsin v. Yoder",
+      "Thomas v. Review Board of the Indiana Employment Security Division",
+      "Gillette v. United States",
+      "United States v. Seeger",
+      "Welsh v. United States",
+      "Gallagher's case",
+      "Elmore Perera v. Montague Jayawickreme"
+    ]
+  },
+  "outcome": {
+    "holding": "The court dismissed the petitioner's claim that Circular P2 infringed his Fundamental Right under Article 10, holding that the requirement to object to the deduction does not interfere with the free exercise of religion.",
+    "disposition": "dismissed",
+    "remedy_or_orders": "The 1st respondent was ordered to refund the Rs. 19 deducted if not already refunded."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 10 is central to the court's reasoning as the petitioner claimed that the circular violated his absolute constitutional right to freedom of thought, conscience and religion by compelling him to contribute to a fund used for military purposes and by requiring public objection.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that the expression of objection required by Circular P2 does not violate the petitioner's religious freedom because no penalty or disability is imposed and the petitioner retains full freedom to practice his religion; the deduction only occurs if no objection is made.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

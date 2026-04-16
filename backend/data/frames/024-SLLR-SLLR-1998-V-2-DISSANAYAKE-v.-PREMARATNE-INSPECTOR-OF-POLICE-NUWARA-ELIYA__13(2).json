@@ -1,0 +1,58 @@
+{
+  "frame_id": "RQ1_024-SLLR-SLLR-1998-V-2-DISSANAYAKE-V.-PR_057_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (Special) No. 117/97 with S.C. Application No. 858/97",
+    "case_title": "Dissanayake v. Premaratne, Inspector of Police, Nuwara-Eliya",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-05-04",
+    "source_citation": "Sri Lanka Law Reports (1998) 2 Sri L.R. 211"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was detained without being brought before a judge as required by Article 13(2).",
+    "petitioner_claim": "The petitioner claimed he was detained at the Police Station for over 24 hours without being produced before a Magistrate, violating Article 13(2).",
+    "respondent_argument": "The respondents contended the detention was lawful and within 24 hours, and that the petitioner was released on Police bail without delay.",
+    "key_facts": [
+      "Petitioner and his wife were detained at the Police Station from about 3 p.m. on 8.5.1997 until 5.30 p.m. on 9.5.1997.",
+      "Petitioner was not produced before a Magistrate during this detention period.",
+      "Petitioner was released on Police bail without a Magistrate's order.",
+      "Respondents claimed detention was lawful pending investigation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 13(2) requires that any person detained must be brought before a judge within a reasonable time and cannot be held without a legal order. Detention exceeding 24 hours without production before a Magistrate violates this provision.",
+    "application_to_facts": "The Court found the petitioner was detained for more than 24 hours without being produced before a Magistrate and was released on Police bail without judicial authorization, breaching Article 13(2).",
+    "principles_established": [
+      "Detention without production before a judge within 24 hours is unlawful.",
+      "Release on Police bail without Magistrate's order does not satisfy Article 13(2)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that the respondents violated the petitioner's fundamental rights under Article 13(2) by detaining him without producing him before a judge and without a legal order.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation and costs were awarded to the petitioner for the violation of Article 13(2)."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was crucial in establishing the unlawfulness of the petitioner's detention without judicial oversight, directly supporting the Court's relief for fundamental rights violations.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was detained at the Police Station for over 24 hours without being produced before a Magistrate and was released on Police bail without a Magistrate's order.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

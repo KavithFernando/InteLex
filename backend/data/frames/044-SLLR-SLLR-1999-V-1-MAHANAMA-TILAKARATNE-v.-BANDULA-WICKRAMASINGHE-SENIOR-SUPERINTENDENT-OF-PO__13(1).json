@@ -1,0 +1,70 @@
+{
+  "frame_id": "RQ1_044-SLLR-SLLR-1999-V-1-MAHANAMA-TILAKARA_092_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 595/98",
+    "case_title": "Mahanama Tilakaratne v. Bandula Wickramasinghe, Senior Superintendent of Police and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-07-21",
+    "source_citation": "Sri Lanka Law Reports [1999] 1 Sri LR 372"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the arrest of the petitioner was lawful and in accordance with Article 13(1) of the Constitution, including whether the petitioner was informed of the reason for his arrest.",
+    "petitioner_claim": "The petitioner argued that his arrest was unlawful, not in accordance with the law, and violated his fundamental rights under Article 13(1) because he was arrested without a valid warrant and was not properly informed of the reason for his arrest.",
+    "respondent_argument": "The respondents claimed the petitioner was arrested on a valid warrant issued by the Magistrate and/or on the orders of the Attorney-General and DIG, and that the arrest was lawful under the Code of Criminal Procedure.",
+    "key_facts": [
+      "A warrant for the petitioner's arrest was issued by the Magistrate but was cancelled when the petitioner surrendered and was released on bail.",
+      "Despite the cancellation, the petitioner was arrested at his residence by police officers who refused to accept the court order cancelling the warrant.",
+      "The arresting officer claimed to have orders from the Attorney-General and DIG to arrest the petitioner even without a warrant.",
+      "The warrant was directed to a specific officer (SI Rodrigo) and was not endorsed to others, making the arrest by the 1st respondent invalid under section 52(3) of the CCRP Act.",
+      "The petitioner was not informed of the reason for his arrest at the time of arrest."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) requires that no person be arrested except according to law and that the arresting authority must follow proper legal procedures, including informing the person of the reason for arrest. The issuance of a warrant is a judicial act that must be based on evidence recorded on oath, and warrants should not be issued lightly. Arrests must be made by the officer named in the warrant or properly endorsed officers. Arrest without a valid warrant or legal justification violates Article 13(1).",
+    "application_to_facts": "The court found that the warrant was cancelled and the petitioner was released on bail, but the 1st respondent arrested the petitioner ignoring the cancellation and without a valid warrant or legal authority. The 1st respondent did not inform the petitioner of the reason for arrest and acted on orders without independent judgment. Therefore, the arrest was unlawful and violated Article 13(1).",
+    "principles_established": [
+      "A warrant of arrest must be issued judicially with evidence on oath and cannot be issued lightly.",
+      "A warrant directed to a named officer cannot be executed by another officer unless endorsed.",
+      "Arresting officers must inform the arrested person of the reason for arrest.",
+      "Arrest without legal authority or proper procedure violates Article 13(1)."
+    ],
+    "precedents_cited": [
+      "Faiz v. Attorney-General and others (1995) 1 Sri LR 372",
+      "Attorney-General v. Jayasinghe (1949) 50 NLR 203",
+      "Wills v. Sholay Kangany (1915) 18 NLR 443",
+      "Gunasekera v. De Fonseka (1972) 75 NLR 246",
+      "Muthusamy v. Kannangara (1951) 52 NLR 324",
+      "Christy v. Leachinsky (1947) AC 583",
+      "Corea v. The Queen (1954) 55 NLR 457",
+      "Senaratna v. Punya de Silva and Others (1995) 1 Sri LR 272"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the arrest of the petitioner was not in accordance with law and violated Article 13(1) of the Constitution.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 1st and 3rd respondents were ordered to pay the petitioner Rs. 50,000 each as compensation; the State was ordered to pay Rs. 200,000 as compensation and Rs. 50,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) is central to the court's reasoning as it protects individuals from unlawful arrest and requires that any arrest be made according to law and that the arrested person be informed of the reason. The court found the arrest violated these protections.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The 1st respondent arrested the petitioner despite the cancellation of the warrant and refused to see the court documents; he claimed to have orders from the Attorney-General and DIG to arrest without a warrant and gave no reasons for the arrest.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

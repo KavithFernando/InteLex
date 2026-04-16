@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_046-SLLR-SLLR-1999-V-1-HEMASIRI-FERNANDO_193_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (FR) APPLICATION NO. 14/99",
+    "case_title": "Hemasiri Fernando v. Hon. Mangala Samaraweera, Minister of Posts, Telecommunications and Media and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-04-29",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (FR) Application No. 14/99, decided on 29 April 1999"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the removal of the petitioner from the post of Director/Chairman of Sri Lanka Telecom Ltd. without reasons violated the petitioner's fundamental right to equal protection of the law under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that his removal was arbitrary, capricious, and unreasonable, influenced by collateral considerations, and violated his fundamental right to equal protection of the law as guaranteed by Article 12(1).",
+    "respondent_argument": "The respondents contended that the removal was lawful under Article 19.2 of the Articles of Association of Sri Lanka Telecom Ltd., did not require notice or reasons, and was a matter of company law not attracting fundamental rights jurisdiction.",
+    "key_facts": [
+      "Sri Lanka Telecom Ltd. is a state-controlled commercial company with the Government holding approximately 61.5% shares.",
+      "The petitioner was appointed as Director/Chairman representing the Government.",
+      "The 3rd respondent, Secretary to the Treasury, removed the petitioner without giving any reasons.",
+      "The petitioner had disagreements with the 1st respondent Minister over certain issues including the licensing of private operators.",
+      "The court found the removal to be arbitrary and capricious."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that despite the commercial company structure, the State's power is exercised for the public benefit and must be subject to the rule of law. Unfettered government discretion is incompatible with the rule of law and the constitutional guarantee of equal protection under Article 12(1).",
+    "application_to_facts": "The court found that the removal of the petitioner without reasons was arbitrary and capricious, violating the petitioner's right to equal protection of the law. The State's power, exercised through the 3rd respondent, must be reasonable and not exercised in an arbitrary manner.",
+    "principles_established": [
+      "State power exercised through state-controlled companies is subject to constitutional fundamental rights.",
+      "Unfettered government discretion contradicts the rule of law.",
+      "Removal of a government nominee director without reasons can violate the right to equal protection of the law."
+    ],
+    "precedents_cited": [
+      "Wade and Forsyth (7th edition) at 391"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner's fundamental right to equal protection of the law under Article 12(1) was violated by the arbitrary and capricious removal without reasons. The petition was allowed and compensation was awarded.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was ordered to pay Rs. 100,000 as compensation and Rs. 25,000 as costs. Reinstatement was not ordered."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects individuals from arbitrary state action and guarantees equal protection under the law. The court found the removal without reasons violated this constitutional guarantee.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that the action of the 3rd respondent was arbitrary and capricious and the petitioner's fundamental right for equal protection of the law has been violated.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

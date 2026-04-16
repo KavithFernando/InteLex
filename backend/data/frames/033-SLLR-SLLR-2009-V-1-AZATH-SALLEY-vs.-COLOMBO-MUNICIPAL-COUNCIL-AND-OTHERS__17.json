@@ -1,0 +1,81 @@
+{
+  "frame_id": "RQ1_033-SLLR-SLLR-2009-V-1-AZATH-SALLEY-VS.-_031_C01__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (F.R.) Application: 252/2007",
+    "case_title": "Azath Salley Vs Colombo Municipal Council And Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2009-03-04",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (F.R.) Application No. 252/2007, decided on 4 March 2009"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner, a rate payer and former Deputy Mayor, had locus standi and the right under Article 17 to apply to the Supreme Court for violation of fundamental rights due to failure of respondents to remove unauthorized hoardings and granting approvals violating by-laws and guidelines.",
+    "petitioner_claim": "The petitioner claimed that the failure of the respondents to remove unauthorized hoardings and granting purported approvals violated the fundamental rights of himself and residents of Colombo Municipal Council area guaranteed under Article 12(1), and that he had locus standi to bring the application in public interest under Article 17.",
+    "respondent_argument": "The respondents argued that the petitioner lacked locus standi as he failed to show how his fundamental rights were violated, that the applicable by-laws were outdated and the guidelines suspended, and that the petitioner relied on non-prevailing by-laws and guidelines.",
+    "key_facts": [
+      "Petitioner is a former Deputy Mayor and rate payer of Colombo Municipal Council (CMC).",
+      "Numerous unauthorized hoardings were erected in Colombo violating by-laws and guidelines.",
+      "The 3rd respondent suspended the guidelines without reference to the applicability of existing by-laws.",
+      "The petitioner filed the application in public interest alleging infringement of fundamental rights under Article 12(1).",
+      "The Court had to consider the scope of locus standi and the right to apply under Article 17 and Article 126(2)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 17, read with Article 126(2), grants every person the right to apply to the Supreme Court for violations of fundamental rights. The Court adopted a broad and liberal interpretation of locus standi to allow public spirited individuals to bring applications in public interest, consistent with developments in public law and comparative jurisprudence from India and England.",
+    "application_to_facts": "The petitioner, as a rate payer and resident, was entitled to bring the application on his own behalf and on behalf of residents. The Court overruled the objection on locus standi and held that the failure of respondents to remove unauthorized hoardings and granting approvals contrary to by-laws and guidelines constituted executive and administrative action infringing fundamental rights under Article 12(1).",
+    "principles_established": [
+      "Article 17 provides a remedy for infringement of fundamental rights by executive action.",
+      "Locus standi under Article 126(2) should be interpreted liberally to allow public interest litigation.",
+      "Public authorities must act within the rule of law and not arbitrarily or unlawfully.",
+      "The doctrine of public trust requires state organs to protect public property and resources.",
+      "Failure to enforce by-laws and guidelines regulating hoardings violated fundamental rights."
+    ],
+    "precedents_cited": [
+      "Bandhua Mukti Morcha v. Union of India, AIR 1984 S.C. 802",
+      "Maharajah Singh v. Uttar Pradesh, AIR 1976 S.C. 2602",
+      "S. P. Gupta v. Union of India, AIR 1982 S.C. 149",
+      "People’s Union for Democratic Rights v. Union of India, AIR 1982 S.C. 617",
+      "R v. Inland Revenue Commissioners ex parte National Federation of Self Employment and Small Business Ltd. (1982) A.C. 617",
+      "R v. Greater London Council ex parte Blackburn (1976) 1 W.L.R. 550",
+      "R v. Secretary of State for Foreign and Commonwealth Affairs ex parte Rees-Mogg (1994) Q.B. 552",
+      "Somawathie v. Weerasinghe and others (1990) 2 SLR 121",
+      "Bulankulama and others v. Secretary, Ministry of Industrial Development and others (2000) 3 Sri L.R. 243",
+      "Sriyani Silva v. Chanaka Iddamalgoda and others (2003) 1 SLR 14",
+      "E. P. Royappa v. State of Tamil Nadu AIR 1974 555",
+      "Westminister Corporation v. London & North Western Railway (1905) A.C. 426",
+      "Breen v. Amalgamated Engineering Union (1971) 2 Q.B. 175",
+      "Padfield v. Minister of Agriculture, Fisheries and Food (1968) A.C. 997",
+      "Saghir Ahmad v. The State of Uttar Pradesh (1955) S.C.R. 707",
+      "C.S.S. Motor Services v. State of Madras (1952) 2 M.L.J. 894",
+      "Links Advertisers and Business Promoters v. Commissioner, Corporation of City of Bangalore (1977) AIR 1977 S.C. 1646",
+      "Yabbicom v. King (1899) 1 Q.B. 444"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court allowed the application, holding that the petitioner had locus standi under Article 17 to apply for violation of fundamental rights, and that the failure of respondents to remove unauthorized hoardings and granting approvals contrary to by-laws and guidelines infringed the fundamental rights of the petitioner and residents under Article 12(1).",
+    "disposition": "granted",
+    "remedy_or_orders": "Strictly enforce the by-laws published in Gazette Notification dated 20.01.1989 and the guidelines for advertising in Colombo effective from 01.01.2006 until amended by-laws and guidelines are introduced.\nRemove all unauthorized/illegal hoardings and hoardings approved in violation of the by-laws and guidelines.\nRevise the present guidelines urgently, considering globally accepted policies and practices such as auctions to enhance financial viability, with input from the Outdoor Advertising Association of Sri Lanka, to be effective from 01.01.2010."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 is central as it provides the constitutional right for any person to apply to the Supreme Court for violations of fundamental rights. The Court’s reasoning and holding directly rely on this clause to affirm the petitioner’s locus standi and entitlement to relief.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that Article 126(2) must be read with Article 17, which is entrenched and deals with remedies for infringement of fundamental rights by executive action. The petitioner, a rate payer and resident, was entitled to bring the application in public interest. The failure of respondents to remove unauthorized hoardings and granting approvals contrary to by-laws and guidelines infringed fundamental rights under Article 12(1). The Court allowed the application and directed enforcement of by-laws and removal of unauthorized hoardings.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

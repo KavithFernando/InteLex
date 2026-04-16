@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_016-SLLR-SLLR_1993-2-GAMINI_DISSANAYAKE__005_C01__10",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_4_91",
+    "case_title": "Gamini Dissanayake v. M. C. M. Kaleel and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1991-12-03",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (Special) No. 4-11/91, decided on 3 December 1991"
+  },
+  "clause": {
+    "article": "10",
+    "text": "Every person is entitled to freedom of thought, conscience and religion, including the freedom to have or to adopt a religion or belief of his choice."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' fundamental rights under Article 10, including freedom of thought and conscience, were infringed by their expulsion from the United National Party for signing a notice of resolution and campaigning against the Executive Presidential system without prior internal discussion.",
+    "petitioner_claim": "The petitioners argued that they had a constitutional right under Article 10 and other fundamental rights to sign the notice of resolution and to campaign publicly for constitutional change, exercising their freedom of thought, conscience, and expression, and that the expulsion violated these rights.",
+    "respondent_argument": "The respondents contended that the expulsion was valid because the petitioners failed to initiate prior internal discussions within the party as required by party rules, and that the freedom of speech and conscience was subject to limitations imposed by the party constitution and discipline.",
+    "key_facts": [
+      "Petitioners signed a notice of resolution for removal of the President and campaigned publicly against the Executive Presidential system.",
+      "The United National Party expelled the petitioners for signing the notice without prior internal discussion and for causing insult and injury to the President.",
+      "Petitioners filed applications under Article 99 (13) (a) challenging their expulsion.",
+      "The party constitution required internal discussion before public dissent on fundamental party policies.",
+      "The petitioners were not given prior notice or opportunity to be heard before expulsion."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court recognized that Article 10 guarantees freedom of thought and conscience, including the right to express opinions and campaign for change. However, these freedoms are subject to limitations, especially within voluntary associations like political parties, which require internal discipline and prior discussion of dissenting views. The court held that the petitioners had a duty to raise their concerns internally before publicizing them, and failure to do so justified disciplinary action.",
+    "application_to_facts": "The petitioners exercised their freedom of thought and conscience by signing the notice and campaigning publicly, which is protected under Article 10. However, the party constitution and the nature of political parties impose reciprocal obligations limiting this freedom to maintain party unity. The petitioners breached these obligations by failing to initiate prior internal discussions, which was a valid ground for expulsion.",
+    "principles_established": [
+      "Freedom of thought and conscience under Article 10 is not absolute and may be limited by voluntary association rules.",
+      "Political parties have the right to enforce internal discipline including prior internal discussion of dissent.",
+      "Members of Parliament have some independence but are subject to party discipline.",
+      "Expulsion for failure to observe internal party procedures does not violate Article 10 if the limitations are consensual and reasonable."
+    ],
+    "precedents_cited": [
+      "Joseph Perera v. A.G.",
+      "Dissanayake v. Sri Jayawardenepura University",
+      "New York Times v. US"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that while the petitioners had the right to freedom of thought and conscience under Article 10, their failure to initiate prior internal discussions as required by party rules justified their expulsion. Therefore, the expulsion was valid in respect of this ground, except for two petitioners whose expulsion was upheld on additional grounds.",
+    "disposition": "allowed_in_part",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 10's guarantee of freedom of thought and conscience was central to the petitioners' claim that their expulsion violated their fundamental rights. The court's reasoning balanced this right against the party's disciplinary rules, making Article 10 highly relevant to the decision.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that freedom of speech and thought clearly embraces the people's right to know, the wide dissemination of information and opinions, and public discussion of all matters of public concern, but this does not entitle the petitioners to relief because they are also charged with the failure to raise these matters internally.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

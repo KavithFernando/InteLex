@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_030-SLLR-SLLR-1999-V-1-SINHARAJA-PLANTAT_151_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. (FR) 422/97",
+    "case_title": "Sinharaja Plantations Organic (Pvt) Ltd. and Others v. The Land Reform Commission and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-12-18",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. (FR) 422/97, decided on 18 December 1998"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the failure of the Land Reform Commission to alienate land as approved by the Minister violated the petitioners' fundamental right to equality and equal protection of the law under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners claimed that their fundamental right to equality and equal protection of the law guaranteed by Article 12(1) was infringed by the Land Reform Commission's failure to alienate the land as approved by the Minister.",
+    "respondent_argument": "The respondents argued that the Minister's determination under subsection 22(4) of the Land Reform Law stands and has not been revoked, and that the Land Reform Commission was bound by the Minister's approval. They also contended that the Member of Parliament's involvement was outside the statutory scheme.",
+    "key_facts": [
+      "The 3rd petitioner-company planned an organic tea project requiring land vested in the Land Reform Commission (LRC).",
+      "The Minister in charge of Plantation Industries approved the release of the land for the project.",
+      "The LRC initially granted possession of the land to the petitioners on 26 November 1996.",
+      "Subsequently, the Chairman of the LRC informed the petitioner that a Member of Parliament proposed to alienate the land for another purpose, preventing the alienation.",
+      "The petitioners alleged that the LRC abdicated its statutory duties influenced by the Member of Parliament."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) prohibits arbitrary, capricious, and discriminatory action by public authorities. The Land Reform Commission's failure to alienate the land as approved by the Minister, influenced by a Member of Parliament who is not part of the statutory scheme, constituted a violation of the petitioners' fundamental rights under Article 12(1).",
+    "application_to_facts": "The court found that the LRC abdicated its statutory duties by refusing to alienate the land despite the Minister's approval, acting arbitrarily and discriminatorily at the behest of the Member of Parliament. This conduct violated the petitioners' right to equality and equal protection of the law.",
+    "principles_established": [
+      "Article 12(1) protects against arbitrary and discriminatory actions by public authorities.",
+      "The Land Reform Commission must comply with the Minister's approval under subsection 22(4) of the Land Reform Law and cannot refuse alienation on extraneous grounds.",
+      "A Member of Parliament does not have statutory authority under the Land Reform Law to influence alienation decisions.",
+      "Abdication of statutory duties by a public authority can constitute a violation of fundamental rights under Article 12(1)."
+    ],
+    "precedents_cited": [
+      "Kuruppuge Don Somapala Gunarathne and 3 others v. Ceylon Petroleum Corporation and 11 others - 1996 1 SLR 315"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioners' fundamental rights under Article 12(1) were violated by the Land Reform Commission's failure to alienate the land as approved by the Minister. The court ordered the LRC to alienate the land to the petitioners within six months under the conditions stipulated by the Minister.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Land Reform Commission was directed to alienate the land to the 3rd petitioner (or the 1st petitioner as suggested by the BOI) on the conditions stipulated by the Minister's letter dated 16 August 1996, within six months of the judgment date. The Registrar was directed to list the case after six months to ascertain compliance."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it prohibits arbitrary and discriminatory actions by public authorities, which the court found in the Land Reform Commission's refusal to alienate the land despite ministerial approval.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the Land Reform Commission abdicated its statutory duties at the behest of the Member of Parliament, violating the fundamental rights of the petitioners because Article 12 prohibits arbitrary, capricious and/or discriminatory action.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

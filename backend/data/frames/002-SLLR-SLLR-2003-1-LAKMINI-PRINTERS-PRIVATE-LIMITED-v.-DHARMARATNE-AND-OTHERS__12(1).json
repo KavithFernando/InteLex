@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_002-SLLR-SLLR-2003-1-LAKMINI-PRINTERS-PR_012_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_129_2002",
+    "case_title": "Lakmini Printers (Private) Limited v. Dharmaratne and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-11-18",
+    "source_citation": "[2003] 1 Sri L.R SC (FR) 129/2002"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the failure to award the tender for supply of stamped envelopes to the petitioner violated Article 12(1) of the Constitution by being arbitrary, unreasonable, and unlawful.",
+    "petitioner_claim": "The petitioner argued that the tender award to Spot International was unlawful and violated their fundamental right to equality under Article 12(1) because Spot International breached tender conditions by sub-letting printing to an Indian firm without consent, printing outside Sri Lanka contrary to conditions, and denying the petitioner a statutory preference for locally manufactured goods.",
+    "respondent_argument": null,
+    "key_facts": [
+      "The petitioner tendered to supply stamped envelopes printed locally on local paper.",
+      "Spot International tendered a lower price but arranged printing in India by Madras Security Printers.",
+      "Tender conditions prohibited sub-letting without prior written consent and printing outside Sri Lanka.",
+      "Financial Regulation 697(3) mandates a 20% preference for locally manufactured articles over imported ones.",
+      "No reason was given for denying the petitioner this preference despite specific requests."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as protecting the petitioner from arbitrary and unreasonable administrative decisions that violate equality before the law and equal protection. The tender conditions and financial regulations must be applied fairly and consistently to all tenderers.",
+    "application_to_facts": "The court found that Spot International breached tender conditions by sub-letting printing without consent and printing outside Sri Lanka, violating conditions 11 and 18. The petitioner was denied the 20% preference for local products mandated by Financial Regulation 697(3) without explanation. These actions were arbitrary and unlawful, violating Article 12(1).",
+    "principles_established": [
+      "Tender conditions must be strictly adhered to and cannot be waived without notice to all parties.",
+      "Local manufacturing preference under Financial Regulation 697(3) is a substantive economic policy that must be applied.",
+      "Arbitrary and unreasonable administrative decisions violate the fundamental right to equality under Article 12(1)."
+    ],
+    "precedents_cited": [
+      "Ceylon Paper Sacks Ltd v JEDB SC 220/92A SCM 2.7.93"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the failure to award the tender to the petitioner was arbitrary, unreasonable, and unlawful in violation of Article 12(1). The petitioner was awarded compensation and costs.",
+    "disposition": "granted",
+    "remedy_or_orders": "Rs. 1,500,000 compensation payable by the State and Rs. 75,000 costs payable by Spot International, payable by 31.1.2003."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects against arbitrary and discriminatory administrative decisions. The court relied on this clause to find the tender award violated the petitioner's right to equality and equal protection under the law.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The failure to award the tender to the petitioner was arbitrary, unreasonable and unlawful in violation of Article 12(1) because Spot International breached tender conditions by sub-letting without consent, printing outside Sri Lanka, and denying the petitioner the 20% local preference without reason.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

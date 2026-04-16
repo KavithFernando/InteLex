@@ -1,0 +1,80 @@
+{
+  "frame_id": "RQ1_015-SLLR-SLLR-1987-2-RAJARATNE-V.-AIR-LA_013_C01__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 63/86",
+    "case_title": "Rajaratne v. Air Lanka Ltd. and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1987-04-03",
+    "source_citation": "Sri Lanka Law Reports [1987] 2 Sri L.R."
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether Air Lanka Ltd., as an instrumentality or agent of the government, engaged in executive or administrative action that infringed the petitioner's fundamental rights under Article 12(1) of the Constitution, and whether the petitioner was discriminated against in employment selection.",
+    "petitioner_claim": "The petitioner claimed that he was discriminated against in breach of his fundamental right to equality under Article 12(1) because Air Lanka appointed a less qualified candidate, Wijesinghe, to the post of Cadet Flight Engineer, and that Air Lanka's actions constituted executive or administrative action justiciable under Article 17 and 126 of the Constitution. He sought relief under Article 17 for violation of fundamental rights.",
+    "respondent_argument": "The respondents argued that Air Lanka Ltd. was a commercial company incorporated under the Companies Ordinance, not an organ of the State, and did not exercise sovereign powers or special privileges of the State. Therefore, its actions were not executive or administrative action under Article 126 and not justiciable. They contended that the petitioner was not qualified for the post and that Wijesinghe was properly selected based on the requirements for simulator training.",
+    "key_facts": [
+      "Petitioner held a Flight Engineer's licence for Boeing 727 but lacked experience on aircraft types operated by Air Lanka.",
+      "Wijesinghe was an Apprentice Aircraft Maintenance Engineer with relevant ground school training and simulator training for Lockheed 1011 aircraft.",
+      "Air Lanka was majority owned, financed, and controlled by the government with nominee directors appointed by the government.",
+      "Petitioner was subjected to different and allegedly unfair written tests compared to Wijesinghe.",
+      "The court examined whether Air Lanka's actions constituted executive or administrative action under the Constitution."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 17 as conferring the right to apply to the Supreme Court for violations of fundamental rights caused by executive or administrative action of the State or its organs or instrumentalities. The court adopted a broad test from Indian jurisprudence to determine whether a body is an instrumentality or agent of the government, considering factors such as government ownership, control, financing, monopoly status, and public function. The court found that Air Lanka, though a company incorporated under the Companies Ordinance, was effectively an agent or organ of the government due to government ownership of over 99% of shares, government appointment and control of directors, government financing, and the public importance of its functions.",
+    "application_to_facts": "Applying this test, the court concluded that Air Lanka's actions were executive or administrative action within the meaning of Articles 17 and 126. The petitioner was discriminated against by Air Lanka in the recruitment process, as his application was not considered fairly compared to Wijesinghe's, and he was subjected to unfair testing. The court held that this discrimination violated the petitioner's fundamental right to equality under Article 12(1).",
+    "principles_established": [
+      "A company majority owned and controlled by the government performing public functions can be considered an organ or agent of the government for fundamental rights enforcement.",
+      "The corporate veil cannot be used to shield government responsibility for fundamental rights violations.",
+      "Executive or administrative action under Articles 17 and 126 includes actions by government instrumentalities even if incorporated as companies.",
+      "Discrimination in employment by such an organ violating equality rights is justiciable under Article 17."
+    ],
+    "precedents_cited": [
+      "Perera v. University Grants Commission (1980)",
+      "Wijetunga v. Insurance Corporation of Sri Lanka (1982)",
+      "Wijeratne v. The People's Bank (1984)",
+      "Ramana Dayaram Shetty v. International Airport Authority of India (AIR 1979 SC 1682)",
+      "Ariyapala Guneratne v. The People's Bank (1986)",
+      "Roberts v Ratnayake (1986)",
+      "Rajasthan State Electricity Board, Jaipur v. Mohanlal (AIR 1967 SC 1857)",
+      "Sukhdev Singh v Bhagatram (AIR 1975 SC 1331)",
+      "Ajay Hasia v. Khalid Mujub Schravardi (AIR 1981 SC 487)",
+      "Som Prakash Rekhi v. Union of India (AIR 1981 SC 212)",
+      "Sabhajit Tewari v. Union of India (AIR 1975 SC 1329)",
+      "Praga Tools Corporation v. C. V. Immanual (AIR 1969 SC 1306)",
+      "Chandrasena and Two Others v. National Paper Corporation (1982)",
+      "Kerr v Enoch Pratt Free Library (1945)",
+      "Marsh v. Alabama (1946)",
+      "Heavy Engineering Mazdoor Union v. State of Bihar (AIR 1970 SC 82)",
+      "Gamini Samarasmghe v Bank of Ceylon (1980)",
+      "Gunasena Thenabadu v University of Colombo (1979)"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that Air Lanka Ltd. is an agent or organ of the government and its actions constitute executive or administrative action under Articles 17 and 126. The petitioner was discriminated against in violation of his fundamental right to equality under Article 12(1). The application was allowed, and the petitioner was awarded Rs. 200,000 as compensation and Rs. 5,000 as costs.",
+    "disposition": "granted",
+    "remedy_or_orders": "Order directing Air Lanka Ltd. to pay Rs. 200,000 to the petitioner as compensation and Rs. 5,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 provides the petitioner the constitutional right to apply to the Supreme Court for violations of fundamental rights caused by executive or administrative action. The court's reasoning centered on whether Air Lanka's actions constituted such executive or administrative action, making Article 17 central to the court's jurisdiction and the relief granted.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that Air Lanka was majority owned, financed, and controlled by the government, performing a public function previously carried out by the government, and thus its actions were executive or administrative action under Articles 17 and 126. The petitioner was discriminated against in recruitment compared to Wijesinghe, violating Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1200,
+      "end_char": 1600
+    }
+  }
+}

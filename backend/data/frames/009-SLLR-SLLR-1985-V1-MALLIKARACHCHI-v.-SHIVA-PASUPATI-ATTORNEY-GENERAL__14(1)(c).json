@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_009-SLLR-SLLR-1985-V1-MALLIKARACHCHI-V.-_014_C03__14(1)(c)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 107/04",
+    "case_title": "Mallikarachchi v. Shiva Pasupati, Attorney-General",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1984-11-20",
+    "source_citation": "Sri Lanka Law Reports [1985] 1 SriLR 74"
+  },
+  "clause": {
+    "article": "14(1)(c)",
+    "text": "Freedom of association."
+  },
+  "case_context": {
+    "legal_issue": "Whether the proscription orders infringed the petitioner's fundamental right to freedom of association under Article 14(1)(c).",
+    "petitioner_claim": "The petitioner claimed that the proscription of the J.V.P. infringed his right to associate freely as a member of a recognized political party.",
+    "respondent_argument": "The Attorney-General argued that the President's immunity under Article 35(1) barred the proceedings and that the proscription was lawful under Emergency Regulations, not subject to challenge against the Attorney-General.",
+    "key_facts": [
+      "The petitioner was a member of the J.V.P., a recognized political party.",
+      "The J.V.P. was proscribed by the President under Emergency Regulations.",
+      "The petitioner and members were prevented from functioning as a political party.",
+      "The petitioner alleged mala fide motives behind the proscription.",
+      "The petitioner cited infringement of Article 14(1)(c) rights."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court recognized the right to freedom of association under Article 14(1)(c) but held that the President's immunity under Article 35(1) prevented proceedings against the Attorney-General since the proscription was not under powers assigned under Article 44(2).",
+    "application_to_facts": "The proscription prevented the petitioner and others from associating as a political party, but the court dismissed the petition on procedural grounds related to immunity and proper party.",
+    "principles_established": [
+      "Absolute immunity of the President under Article 35(1) applies to acts not under Article 44(2).",
+      "Proceedings against the President for acts under Article 44(2) must be against the Attorney-General.",
+      "Proscription under Emergency Regulations is not an act under Article 44(2)."
+    ],
+    "precedents_cited": [
+      "Satyapala v. The Attorney-General"
+    ]
+  },
+  "outcome": {
+    "holding": "The petition alleging infringement of Article 14(1)(c) rights was dismissed for lack of proper party and jurisdiction.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(c) was central to the petitioner's claim that the proscription infringed freedom of association, but the court's immunity and procedural ruling prevented relief.",
+    "relevance_level": "high",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner claimed infringement of freedom of association under Article 14(1)(c) due to proscription; the court held the Attorney-General was not the proper respondent and dismissed the petition.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 74,
+      "end_char": 82
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_007-SLLR-SLLR-1989-V-1-NANDASIRI-V.-G.-M_036_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO.-161 OF 1987",
+    "case_title": "Nandasiri v. G. M. S. de Silva, Chairman, U.C. Ambalangoda & Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1987-10-17",
+    "source_citation": "Sri Lanka Law Reports 1989 1 Sri L. R. 102"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the disconnection of the petitioner's electricity supply was unlawful and violated Article 12(1) by treating him unequally compared to others in like circumstances.",
+    "petitioner_claim": "The petitioner claimed that others carrying on similar businesses were not treated similarly and that the disconnection was discriminatory and unlawful.",
+    "respondent_argument": "The respondent denied that other businesses were similar and argued that the disconnection was lawful due to environmental pollution and nuisance concerns, not political animosity or discrimination.",
+    "key_facts": [
+      "Petitioner ran a chilli grinding mill without a licence in a mixed residential area.",
+      "Electricity supply was disconnected by the Urban Council Chairman citing pollution, noise, nuisance, and health hazards.",
+      "Petitioner alleged others with similar businesses were not disconnected.",
+      "No evidence was provided that other businesses were similar or causing comparable nuisance.",
+      "Respondent's conduct was motivated by environmental concerns, not political animosity."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 12(1) requires that persons in like circumstances be treated equally. The court held that unlawful disconnection alone does not establish a violation unless unequal treatment of similarly situated persons is shown.",
+    "application_to_facts": "The petitioner failed to prove that other businesses cited were similar in nature or circumstances, or that they were treated differently. The disconnection was based on environmental and nuisance grounds, not discriminatory intent.",
+    "principles_established": [
+      "Unlawful action alone does not constitute a violation of Article 12(1) without proof of unequal treatment of like circumstances.",
+      "Environmental and nuisance concerns can justify regulatory actions without violating equality rights."
+    ],
+    "precedents_cited": [
+      "Negombo M.C. v. Fernando",
+      "M.C. Badulla v. Ratnayake",
+      "David v. Abdul Cader",
+      "Corea v. U.C. Kotte"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that although the disconnection was unlawful, there was no violation of Article 12(1) as the petitioner did not establish unequal treatment of persons in like circumstances.",
+    "disposition": "dismissed",
+    "remedy_or_orders": "Petition dismissed with costs of Rs. 750."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's analysis of whether the petitioner was treated unequally compared to others similarly situated, which was necessary to establish a fundamental rights violation.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found the material inadequate to establish that other businesses were similar or treated differently, and that the disconnection was motivated by environmental concerns, not discrimination.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 900,
+      "end_char": 1400
+    }
+  }
+}

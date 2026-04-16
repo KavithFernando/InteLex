@@ -1,0 +1,70 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-2002-3-DAYARATNE-AND-OTHER_064_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_NO_452_2001_FR",
+    "case_title": "Dayaratne and Others v. National Savings Bank and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-06-19",
+    "source_citation": "[2002] 3 Sri L.R. 116"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' fundamental rights under Article 12(1) were infringed by the failure to promote them to executive grades in the National Savings Bank, due to alleged flaws in the promotion scheme and interview process.",
+    "petitioner_claim": "The petitioners argued that the promotion scheme and interview process were arbitrary, unreasonable, and discriminatory, resulting in junior candidates being promoted over them, thus violating their right to equality before the law and equal protection under Article 12(1).",
+    "respondent_argument": "The respondents contended that the promotion scheme was not arbitrary or unreasonable, the application was time-barred, and that the interview process was fair and conducted according to the scheme. They also argued that the petitioners acquiesced by applying without protest and that the time for filing the application had expired.",
+    "key_facts": [
+      "Petitioners were officers in Grade III, Class III and sought promotion to Grade III, Class II.",
+      "41 candidates were promoted, including 18 junior to the petitioners.",
+      "The promotion scheme allocated marks for performance, service, qualifications, and interview.",
+      "The interview process was brief (average 10 minutes per candidate) and lacked transparency.",
+      "Original interview mark sheets were not produced; discrepancies and arbitrary allocation of marks were found."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(1) as guaranteeing equality before the law and equal protection, requiring that promotion schemes and processes be fair, reasonable, and non-arbitrary. The Court emphasized that procedural fairness and transparency are essential to uphold equality rights in employment promotions.",
+    "application_to_facts": "The Court found the promotion scheme itself was not arbitrary or unreasonable. However, the implementation, especially the interview and selection process, was seriously flawed due to lack of original mark sheets, discrepancies in candidate lists, arbitrary allocation of marks for qualifications, insufficient interview time, and ineligible candidates being promoted. These flaws violated the petitioners' right to equal protection under Article 12(1).",
+    "principles_established": [
+      "A promotion scheme must be reasonable and not arbitrary to comply with Article 12(1).",
+      "Procedural fairness and transparency in the selection process are essential to uphold equality rights.",
+      "Failure to produce original assessment records and unexplained discrepancies undermine the fairness of the process.",
+      "Time for filing fundamental rights applications begins when the infringement occurs or is announced, not at earlier stages.",
+      "An actual infringement can be challenged even if an imminent infringement was not challenged in time."
+    ],
+    "precedents_cited": [
+      "Ranatunga v. Jayawardena",
+      "Jayawardena v. AG",
+      "Swissray Medical AG v. Fernando",
+      "Hewavitharana v. Chandrawathie",
+      "Selvam v. Kuddipillai",
+      "Rajakaruna v. De Silva",
+      "De Silva v. Secretary, Ministry of Health"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioners' fundamental rights under Article 12(1) were infringed by the flawed interview and selection process. The promotion scheme was upheld, but the promotions of certain junior candidates were quashed. A fresh interview and selection process was ordered with compensation awarded to the petitioners.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of infringement of Article 12(1) rights; quashing of promotions of 7th, 12th, 16th, 19th, 20th, 21st, 23rd, 25th, 27th, 40th, 41st, 42nd and 46th respondents; fresh interview and selection process by a different panel to be completed by 30.11.2002; Rs. 40,000 compensation to each petitioner payable by 31.10.2002."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it guarantees equality before the law and equal protection, which the petitioners claimed was violated by the arbitrary and flawed promotion process. The Court's decision to quash certain promotions and order a fresh process was directly based on the violation of this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found serious flaws in the interview and selection process including absence of original mark sheets, discrepancies in candidate lists, arbitrary allocation of marks for qualifications, insufficient interview time, and ineligible candidates being promoted, which violated the petitioners' rights under Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1160,
+      "end_char": 4300
+    }
+  }
+}

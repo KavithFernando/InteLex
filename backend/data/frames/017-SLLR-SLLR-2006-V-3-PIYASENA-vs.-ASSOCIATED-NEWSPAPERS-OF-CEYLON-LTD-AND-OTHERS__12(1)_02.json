@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_017-SLLR-SLLR-2006-V-3-PIYASENA-VS.-ASSO_095_C02__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "FR_390_2005",
+    "case_title": "Piyasena vs. Associated Newspapers of Ceylon Ltd. and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2006-10-25",
+    "source_citation": "Sri Lanka Law Reports (2006) 3 Sri L R"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner complied with procedural requirements under Rule 44(1)(c) of the Supreme Court Rules when filing the fundamental rights application, and whether non-compliance should bar the petition.",
+    "petitioner_claim": "The petitioner argued that he complied with Rule 44(1)(c) by tendering all documents available to him and that non-availability of certain documents at filing time does not amount to non-compliance.",
+    "respondent_argument": "The respondents contended that the petitioner failed to file necessary documents such as the Annual Return and Gazette Notification, amounting to non-compliance with Rule 44(1)(c), which should be fatal to the application.",
+    "key_facts": [
+      "Petitioner referenced the legal status of ANCL and shareholding in the petition.",
+      "Petitioner did not file certain documents like Form 63 of the Companies Act or the Gazette Notification at the time of filing.",
+      "Petitioner later filed the Gazette Notification with written submissions.",
+      "Respondents denied some averments but did not produce material facts to substantiate their denial.",
+      "Rule 44(1)(c) requires tendering documents available to the petitioner, not all relevant documents."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Rule 44(1)(c) as requiring the petitioner to tender only those documents and affidavits that are available to him at the time of filing. There is no obligation to produce documents not in the petitioner's possession. The Court emphasized a liberal and purposive construction of procedural rules to ensure fundamental rights are not restricted by technicalities.",
+    "application_to_facts": "The petitioner had pleaded the relevant documents in the petition and later filed the Gazette Notification with court permission. The respondents failed to produce material facts to deny the petitioner's claims. Therefore, the Court held that the petitioner complied with Rule 44(1)(c) and non-compliance objection was unsustainable.",
+    "principles_established": [
+      "Fundamental rights jurisdiction should not be restricted by mere technicalities.",
+      "Rule 44(1)(c) requires tendering only documents available to the petitioner, not all relevant documents.",
+      "Petitioner may file additional documents later with court permission.",
+      "Respondents bear the onus to produce material facts to deny petitioner's averments."
+    ],
+    "precedents_cited": [
+      "Romesh Thappar vs. State of Madras",
+      "Prem Chanr Gag vs. Excise Commissioner UP",
+      "B.V.M. Fernando and others vs. Associated Newspapers of Ceylon Ltd."
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner complied with Rule 44(1)(c) of the Supreme Court Rules and overruled the preliminary objection based on non-compliance.",
+    "disposition": "granted",
+    "remedy_or_orders": "Preliminary objections overruled with costs of Rs. 10,000 payable by ANCL to the petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) guarantees fundamental rights including equality, and the Court's jurisdiction to enforce these rights depends on procedural compliance. The Court's interpretation of Rule 44(1)(c) ensures that procedural technicalities do not bar access to fundamental rights protections under Article 12(1).",
+    "relevance_level": "high",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that Rule 44(1)(c) requires tendering only documents available to the petitioner and that the petitioner had pleaded relevant documents and later filed the Gazette Notification. Respondents failed to produce material facts to deny the petitioner's claims.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

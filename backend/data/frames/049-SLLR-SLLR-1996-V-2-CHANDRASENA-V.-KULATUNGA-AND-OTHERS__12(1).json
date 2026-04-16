@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_049-SLLR-SLLR-1996-V-2-CHANDRASENA-V.-KU_197_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION 206/95",
+    "case_title": "Chandrasena v. Kulatunga and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-09-20",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application 206/95, decided on 20 September 1996"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Petitioner's transfer from one regional education office to another, with only six days' notice and without valid reasons, constituted a violation of Article 12(1) of the Constitution by amounting to selective hostile discrimination.",
+    "petitioner_claim": "The Petitioner argued that the transfer was arbitrary, malicious, capricious, and selectively hostile discrimination, done without valid reasons or cause, and that no other teacher in the North Western Provincial Council was transferred in such a manner.",
+    "respondent_argument": "The 3rd Respondent claimed the transfer was on disciplinary grounds and with the Petitioner's consent, supported by complaints of misconduct against the Petitioner.",
+    "key_facts": [
+      "The transfer was effected by letter dated 24.5.95 with only six days' notice.",
+      "The Petitioner was transferred in the middle of the year.",
+      "The Petitioner was an active member of a trade union affiliated with the United National Party and held office in it.",
+      "Documentary evidence contradicted the Respondent's claim that the transfer was disciplinary and with consent.",
+      "No other officer in the Provincial Council was transferred in this manner."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as prohibiting arbitrary and unreasonable actions by public authorities that result in selective hostile discrimination, violating the principle of equality before the law and equal protection.",
+    "application_to_facts": "The court found no acceptable or valid reason for the Petitioner's transfer, noting the contradictory evidence and the short notice given. The transfer was deemed arbitrary, unreasonable, and selectively discriminatory, thus violating Article 12(1).",
+    "principles_established": [
+      "Transfers by public authorities must be based on valid reasons and not be arbitrary or malicious.",
+      "Selective hostile discrimination in administrative actions violates Article 12(1).",
+      "Documentary evidence inconsistent with official claims undermines the justification for administrative decisions."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the Petitioner's transfer violated Article 12(1) of the Constitution and declared the transfer order void.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration that the transfer order is void and payment of Rs. 750 as costs to the Petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects individuals from arbitrary and discriminatory treatment by public authorities, which was the core issue in the Petitioner's claim.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found the transfer was made without valid reasons, with contradictory documentary evidence, and with only six days' notice, constituting arbitrary and selective hostile discrimination violating Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

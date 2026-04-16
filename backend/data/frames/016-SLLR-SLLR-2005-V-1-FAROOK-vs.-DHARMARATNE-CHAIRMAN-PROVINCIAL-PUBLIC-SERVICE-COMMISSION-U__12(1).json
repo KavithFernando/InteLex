@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_016-SLLR-SLLR-2005-V-1-FAROOK-VS.-DHARMA_086_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_508_2002",
+    "case_title": "Farook VS Dharmaratne, Chairman, Provincial Public Service Commission, Uva and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2004-09-29",
+    "source_citation": "Supreme Court of Sri Lanka, SC (FR) Application No. 508/2002, decided on 29 September 2004"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner's transfer as Principal to a lower grade school and replacement at Razick Fareed Maha Vidyalaya violated his fundamental rights under Article 12(1) of the Constitution regarding equal protection of the law.",
+    "petitioner_claim": "The petitioner argued that his transfer to Pitarathmale No. 1 Tamil Vidyalaya was arbitrary, capricious, and unreasonable, violating his right to equal protection under Article 12(1), and that he should have remained Principal of Razick Fareed Maha Vidyalaya.",
+    "respondent_argument": "The respondents contended that the petitioner was not eligible for the Principal post at Razick Fareed Maha Vidyalaya as he lacked the required grade qualification, and that his initial appointment there was procured by deceit. Therefore, no violation of Article 12(1) occurred as the law was applied equally and the petitioner had no right to an illegal appointment.",
+    "key_facts": [
+      "The petitioner was in Grade II-1 of the Sri Lanka Principals’ Service and not qualified for the Grade IC school Principal post at Razick Fareed Maha Vidyalaya which required Grade I.",
+      "The petitioner initially obtained the Principal post at Razick Fareed Maha Vidyalaya by deceit and influence.",
+      "The Provincial Director of Education cancelled the petitioner's appointment and transferred him to a lower grade school, appointing a qualified candidate as Principal at Razick Fareed Maha Vidyalaya.",
+      "The petitioner challenged the transfer as violating his fundamental rights under Article 12(1)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 12(1) guarantees equal treatment and equal protection of the law, prohibiting arbitrariness. However, it protects lawful acts and does not entitle a person to an illegal appointment or to benefit from deceitful conduct. Equal treatment applies only within the framework of lawful acts.",
+    "application_to_facts": "The court found the petitioner was not qualified for the Principal post at Razick Fareed Maha Vidyalaya and had procured the appointment by deceit. Therefore, the transfer to a lower grade school and appointment of a qualified candidate did not violate Article 12(1) as the law was applied equally and lawfully.",
+    "principles_established": [
+      "Article 12(1) protects equal treatment in lawful acts, not illegal or invalid acts.",
+      "A person cannot claim equal protection to retain an appointment obtained by deceit or influence.",
+      "Arbitrariness is antithetical to equality under Article 12(1)."
+    ],
+    "precedents_cited": [
+      "Ajaya Hasia v Kalid Mujib (1981) AIR SC 487",
+      "C. W. Mackie and Company Ltd v Hugh Molagoda, Commissioner General of Inland Revenue and Others (1986) 1 Sri LR 300"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner failed to establish a violation of Article 12(1) as he was not entitled to the Principal post at Razick Fareed Maha Vidyalaya and the transfer was lawful and not discriminatory.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner's claim of unequal treatment and arbitrariness in his transfer and appointment. The court's reasoning focused on whether the petitioner was lawfully entitled to the post and whether the transfer violated equal protection under the law.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was not qualified for the Principal post at Razick Fareed Maha Vidyalaya and obtained the appointment by deceit; the court held that Article 12(1) protects lawful acts and equal treatment, not illegal appointments.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

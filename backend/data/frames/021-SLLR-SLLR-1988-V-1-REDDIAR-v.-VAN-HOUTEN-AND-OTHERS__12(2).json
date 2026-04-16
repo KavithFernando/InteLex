@@ -1,0 +1,58 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1988-V-1-REDDIAR-V.-VAN-HO_111_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 70/87",
+    "case_title": "Reddiar v. Van Houten and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1988-03-29",
+    "source_citation": "Sri Lanka Law Reports [1988] 1 Sri LR"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was discriminated against on the ground of political opinion in violation of Article 12(2) due to his trade union activities and forced retirement.",
+    "petitioner_claim": "The petitioner alleged that he was discriminated against on the ground of political opinion because he was an active trade unionist and was forced to retire prematurely.",
+    "respondent_argument": "The respondents denied any discrimination on political grounds and argued that the petitioner’s retirement was not motivated by his political opinion or trade union activities.",
+    "key_facts": [
+      "Petitioner was an active trade unionist.",
+      "Petitioner was forced to retire at age 55 without prior approval of the Presidential Secretariat.",
+      "A letter from the United Plantation Services Union requested the President to look into the forced retirement.",
+      "No direct evidence linked the retirement decision to political opinion."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court found no evidence to support the petitioner’s claim that his retirement was due to his political opinion or trade union activities. The letter to the President did not establish a causal link. Therefore, the allegation of discrimination on political grounds under Article 12(2) was unsubstantiated.",
+    "application_to_facts": "The petitioner relied solely on a letter from the union to the President alleging forced retirement without approval. The court found this insufficient to prove discrimination on political grounds and rejected the claim.",
+    "principles_established": [
+      "Allegations of discrimination on grounds such as political opinion require evidential support to establish a violation of Article 12(2).",
+      "Mere assertions or unsubstantiated claims are insufficient to prove discrimination."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court rejected the petitioner’s claim of discrimination on the ground of political opinion under Article 12(2) due to lack of evidence.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was directly invoked by the petitioner to claim discrimination based on political opinion. The court’s reasoning and dismissal of this claim make the clause central to the outcome.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found no evidence to warrant the inference that the petitioner’s retirement was due to his political opinion and held the allegation of discrimination on this ground was without foundation.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2750,
+      "end_char": 2850
+    }
+  }
+}

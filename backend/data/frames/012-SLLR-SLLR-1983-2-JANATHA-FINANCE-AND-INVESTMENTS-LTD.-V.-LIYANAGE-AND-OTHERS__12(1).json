@@ -1,0 +1,76 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-1983-2-JANATHA-FINANCE-AND_061_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 127 OF 1982",
+    "case_title": "Janatha Finance and Investments Ltd v. Liyanage and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1983-02-14",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 127 of 1982, decided on 14 February 1983"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the sealing of the Petitioner's printing press under Regulation 14(7) of the Emergency Regulations infringed the Petitioner's fundamental right to equality before the law and equal protection of the law under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The Petitioner argued that the Order sealing its printing press was null and void as it infringed the fundamental rights guaranteed by Article 12(1) to equality before the law and equal protection of the law, alleging that the Order was made with ulterior motives and political vengeance against Dr. Fernando, the Chairman of the Petitioner, for his political opposition to the Government.",
+    "respondent_argument": "The Respondents contended that the Order was made under valid emergency regulations and was not subject to judicial review except for bad faith or unreasonableness. They argued that the 1st Respondent had credible information that the printing press was used or likely to be used for producing documents prejudicial to national security and public order, and that the Order was reasonable and made in good faith.",
+    "key_facts": [
+      "A state of public emergency was declared on 20 October 1982.",
+      "Regulation 14(7) empowered the Competent Authority to seal printing presses used for producing documents prejudicial to national security or public order.",
+      "The Petitioner's printing press was sealed by Orders P1 and P2 made by the 1st Respondent under Regulation 14(7).",
+      "Dr. Neville Fernando, Chairman of the Petitioner, was politically active in opposition to the Government.",
+      "The Petitioner printed materials supporting the opposition Sri Lanka Freedom Party during the presidential election."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) guarantees equality before the law and equal protection, but these rights can be restricted under Article 15(7) by law prescribed restrictions during emergencies. Regulation 14(7) was valid law and did not amount to a total denial of rights but a restriction prescribed by law. The Court emphasized that the power vested in the Competent Authority to make Orders under Regulation 14(7) was subject to reasonableness and good faith, and judicial review was limited to whether the decision was within reasonable bounds.",
+    "application_to_facts": "The Court found that the 1st Respondent had credible information from official sources that the Petitioner's printing press was involved in producing materials prejudicial to national security and public order, including spurious rice ration books. The Court held that the 1st Respondent's decision to seal the press was reasonable and not capricious or malicious. The Petitioner failed to rebut the presumption of regularity and good faith attached to the Orders.",
+    "principles_established": [
+      "Emergency regulations restricting fundamental rights must be prescribed by law and satisfy accessibility and precision requirements.",
+      "Judicial review of subjective discretion in emergency powers is limited to reasonableness and good faith.",
+      "The burden is on the petitioner to prove bad faith or unreasonableness to invalidate an order regular on its face.",
+      "Reasonableness standard varies with the situation, especially in emergency contexts.",
+      "Courts must not usurp the discretion vested in public authorities by Parliament."
+    ],
+    "precedents_cited": [
+      "Anisminic Ltd. v. The Foreign Compensation Commission (1969) 1 All ER 208",
+      "Hirdaramani v. Ratnavale 75 NLR 67",
+      "Gunasekera v. De Fonseka 76 NLR 246",
+      "Siriwardena v. Liyanage S.C. Application No. 120/80 SCM 27.1.83",
+      "Liversidge v. Anderson (1942) AC 206",
+      "Redge v. Baldwin (1963) 2 All ER 66",
+      "IRC v. Rossminster Ltd. (1980) 1 All ER 80",
+      "Secretary of State v. ASLEF (No. 2) (1972) 2 All ER 949",
+      "A.G. of Saint Christopher v. Reynolds (1979) 3 All ER 129 (PC)",
+      "Secretary of State for Education and Science v. Tameside Metropolitan Borough Council (1976) 3 WLR 641",
+      "Roberts v. Hopwood (1925) AC 578",
+      "Padfield v. Minister of Agriculture, Fisheries and Food (1968) 1 All ER 694",
+      "In Re W. (An Infant) (1971) AC 682"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the Petitioner's application, holding that the Orders sealing the printing press were valid and did not infringe the Petitioner's fundamental rights under Article 12(1).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Petitioner's claim that the sealing of its printing press violated its right to equality before the law and equal protection. The Court's reasoning focused on whether the emergency regulation and Orders constituted a lawful restriction under the Constitution, directly interpreting the scope and limits of Article 12(1).",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Petitioner claimed the Order sealing its printing press infringed Article 12(1) rights, but the Court found the Orders valid as they were made under Regulation 14(7) which is prescribed by law and the 1st Respondent acted reasonably and in good faith based on credible information.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

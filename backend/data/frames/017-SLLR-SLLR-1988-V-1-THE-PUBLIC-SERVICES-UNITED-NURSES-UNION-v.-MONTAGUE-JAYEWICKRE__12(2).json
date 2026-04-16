@@ -1,0 +1,58 @@
+{
+  "frame_id": "RQ1_017-SLLR-SLLR-1988-V-1-THE-PUBLIC-SERVIC_088_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_4_87",
+    "case_title": "The Public Services United Nurses Union v. Montague Jayewickrema, Minister of Public Administration and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1988-04-29",
+    "source_citation": "S.C. Application No 4/87, decided on 29 April 1988"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Cabinet decision discriminated against striking nurses on the basis of political opinion or union affiliation, violating Article 12(2).",
+    "petitioner_claim": "The petitioners claimed that the increments were granted primarily to members of a rival union affiliated with the ruling party, thus discriminating on grounds of political opinion and union membership.",
+    "respondent_argument": "The respondents denied that the decision was discriminatory on prohibited grounds, asserting it was a reward for duty and a legitimate administrative measure.",
+    "key_facts": [
+      "The rival union (7th respondent) was affiliated with the ruling party and had influence with the government.",
+      "The increments were granted mainly to members of this rival union and not to the striking nurses or other public officers.",
+      "The strike was settled unconditionally without punishment or reward to the striking nurses.",
+      "Other public officers who worked during the strike were excluded from the benefit."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court recognized that discrimination on grounds such as political opinion or union affiliation is prohibited under Article 12(2). The arbitrary grant of benefits to a favored group linked to the ruling party, excluding others similarly situated, constituted impermissible discrimination.",
+    "application_to_facts": "The increments were granted primarily to members of a union affiliated with the ruling party, creating an unjustified advantage and discriminating against the petitioners and other public officers who did not share that affiliation.",
+    "principles_established": [
+      "Discrimination on grounds including political opinion or union affiliation violates Article 12(2).",
+      "Government decisions must not confer benefits or impose disadvantages based on such prohibited grounds."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the Cabinet decision discriminated against the petitioners on prohibited grounds under Article 12(2) and was therefore unconstitutional.",
+    "disposition": "granted",
+    "remedy_or_orders": "The decision was declared null and void with costs awarded to the petitioners."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was materially engaged because the court found the Cabinet decision discriminated on the basis of political opinion and union affiliation, which are prohibited grounds under this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The benefits of the proposal accrued primarily to officers of a particular union having affiliations with the ruling party, and the decision was arbitrary and discriminatory, violating Article 12 of the Constitution.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1800,
+      "end_char": 2200
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_028-SLLR-SLLR-1998-V-2-JAYAWICKREMA-V.-P_139_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_648_96",
+    "case_title": "Jayawickrema v. Prof. W. D. Lakshman, Vice Chancellor, University of Colombo and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-09-25",
+    "source_citation": "Sri Lanka Law Reports (1998) 2 Sri LR 235, Supreme Court, SC Application No. 648/96, decided on 25 September 1998"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the refusal by the Postgraduate Institute of Medicine (PGIM) to grant Board certification to the petitioner, based on adverse and undisclosed evaluations, violated her right to equality and equal protection under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that the PGIM's refusal to grant her Board certification as a Consultant Anaesthetist was unjustified, based on contradictory and undisclosed adverse reports, and violated her fundamental right under Article 12(1). She sought to quash the decision, compensation, and a declaration that she should be granted Board certification.",
+    "respondent_argument": "The respondents argued that the PGIM acted within its regulations and discretion, relying on Dr. Davis' adverse evaluations to justify refusal of Board certification and extension of local training. They denied bad faith and claimed the petitioner had not satisfactorily completed foreign training as required.",
+    "key_facts": [
+      "The petitioner completed MD (Anaesthesiology) and local training satisfactorily.",
+      "Foreign training at Sir Charles Gairdner Hospital, Australia, was required for Board certification.",
+      "Petitioner received certificates from Dr. Davis and Dr. Cuerden stating satisfactory completion.",
+      "PGIM received contradictory confidential adverse reports from Dr. Davis not disclosed to petitioner.",
+      "PGIM refused Board certification and extended local training without giving petitioner opportunity to respond."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equality before the law and equal protection, which includes fair treatment in administrative decisions affecting professional rights. The PGIM's decision was flawed because it relied on undisclosed, contradictory, and perverse adverse evaluations without affording the petitioner a hearing, violating the audi alteram partem rule and thus her right to equal protection.",
+    "application_to_facts": "The court found that the PGIM acted unfairly by accepting Dr. Davis' adverse reports without disclosing them to the petitioner or allowing her to defend herself. The contradictory nature of the reports and failure to consider favorable certificates rendered the decision unreasonable and perverse, infringing Article 12(1).",
+    "principles_established": [
+      "Fair administrative procedure is integral to the right to equality and equal protection under Article 12(1).",
+      "Decisions affecting professional status must be based on disclosed, consistent, and reasonable evidence.",
+      "The audi alteram partem rule applies to professional certification decisions.",
+      "Regulatory bodies must adhere to their own regulations and cannot substitute foreign training with local training without proper amendment.",
+      "Approval of training centers must be explicit and properly considered by the competent authority."
+    ],
+    "precedents_cited": [
+      "Allinson v. General Council of Medical Education (1894) 1 QB 750, 760-761"
+    ]
+  },
+  "outcome": {
+    "holding": "The court declared that the PGIM, its Board of Management, and Board of Study infringed the petitioner's fundamental right under Article 12(1). The decision refusing Board certification was quashed for being procedurally unfair and unreasonable. The petitioner was awarded compensation and costs, and the PGIM was directed to send her for approved foreign training.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of infringement of Article 12(1); quashing of PGIM decision; direction to send petitioner for foreign training with pay by February 1999; payment of Rs. 400,000 compensation and Rs. 15,000 costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects the petitioner’s right to equality and fair treatment in administrative decisions affecting her professional certification. The PGIM's failure to provide equal protection by denying a fair hearing and relying on undisclosed adverse reports was a direct violation of this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the PGIM relied on contradictory and undisclosed adverse evaluations by Dr. Davis without giving the petitioner an opportunity to respond, breaching the audi alteram partem rule and violating Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

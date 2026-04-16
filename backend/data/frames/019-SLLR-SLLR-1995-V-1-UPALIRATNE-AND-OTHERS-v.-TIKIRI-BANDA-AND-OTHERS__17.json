@@ -1,0 +1,75 @@
+{
+  "frame_id": "RQ1_019-SLLR-SLLR-1995-V-1-UPALIRATNE-AND-OT_019_C01__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (F.R.) APPLICATION NO. 86/95",
+    "case_title": "Upaliratne and Others v. Tikiri Banda and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-09-05",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (F.R.) Application No. 86/95, decided on 5 September 1995"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' fundamental rights were violated by the unlawful ousting of legitimate Time-Keepers and their replacement by others, and whether the State, through its officials and police, was responsible for this violation.",
+    "petitioner_claim": "The petitioners claimed that their fundamental rights were violated when they were forcibly and unlawfully ousted from their positions as Time-Keepers by a group of persons acting with the assistance and encouragement of State officials, including the first respondent and police officers, and that the State failed to protect their rights.",
+    "respondent_argument": "The respondents denied unlawful ousting, claiming the new Time-Keepers moved in lawfully after posts fell vacant. The first respondent denied directing the unlawful acts, claiming to be at a meeting during the incident. The second respondent denied knowledge or involvement in the unlawful acts and denied sanctioning the use of official vehicles. Police respondents denied or minimized their involvement and claimed to have taken appropriate action.",
+    "key_facts": [
+      "The Central Province Private Bus Workers Co-operative Society had a contract with the Central Provincial Council to provide Time-Keepers to regulate private omnibus operations.",
+      "On 14 February 1995, the petitioners, legitimate Time-Keepers, were forcibly ousted by a group of over 100 persons armed with iron rods and poles.",
+      "The first respondent, Co-ordinating Secretary to the Minister of Irrigation and Deputy Minister of Defence, was found to have directed and coordinated the unlawful eviction.",
+      "Police officers were present and involved in the eviction, failing to protect the petitioners and assisting the new Time-Keepers.",
+      "The second respondent, Minister and Deputy Minister of Defence, was not proven to have personally ordered or sanctioned the unlawful acts but was accountable as minister in charge."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 17 grants every person the right to apply to the Supreme Court for violations of fundamental rights. The unlawful ousting of the petitioners, who were legitimate Time-Keepers, by persons acting under color of State authority, including the first respondent and police officers, constituted a violation of their fundamental rights. The acts of the first respondent and police were attributable to the State as executive action, engaging State responsibility under Articles 17 and 126. The second respondent was not personally involved but accountable as minister in charge. The Court emphasized that fundamental rights protections apply against the State and its agents, and that executive or administrative action includes acts done under color of office, even if beyond authority.",
+    "application_to_facts": "The Court found sufficient evidence that the first respondent played a key role in planning and directing the unlawful eviction, that police officers actively participated or failed to prevent the unlawful acts, and that the new Time-Keepers unlawfully occupied the positions. The State was held responsible for the violation due to the involvement and acquiescence of its officials and police. The petitioners were entitled to relief under Article 17 for the violation of their fundamental rights.",
+    "principles_established": [
+      "Article 17 allows any person to apply to the Supreme Court for violations of fundamental rights.",
+      "Executive or administrative action includes acts done by State officials under color of office, even if exceeding authority.",
+      "State responsibility arises when private acts are done with significant aid, encouragement, or acquiescence of State officials.",
+      "Police have a fundamental obligation to protect public safety and enforce laws without discrimination.",
+      "Failure or refusal by State officials to prevent unlawful acts that violate fundamental rights constitutes a violation of Article 12(1) and engages State responsibility."
+    ],
+    "precedents_cited": [
+      "Jayasinghe v. Principal, Anuta Vidyalaya and Others",
+      "Railway Express Agency Inc. v. New York 336 US 10-6 (1949)",
+      "Yick Wo v. Hopkins 118 US 356 (1886)",
+      "Perera v. University Grants Commission",
+      "Neal v. Delaware",
+      "Dennis v. Sparks 449 US 24 (1950)",
+      "Tower v. Glover 467 US 914 (1984)",
+      "Lugar v. Edmonson Oil Co. Inc. 457 US 922",
+      "Mohammed Faiz v. Attorney-General and Others",
+      "Screws v. United States 325 US 91 (1945)",
+      "Griffin v. Maryland 378 US 130 (1964)",
+      "Somawathie v. Weerasinghe (1990) 2 Sri LR 121"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court declared that the State violated the petitioners' fundamental rights under Article 17 by unlawfully ousting them and allowing their replacement by others with the involvement and assistance of State officials and police. The first respondent was held responsible as a State actor. The petitioners were entitled to compensation and orders for restoration of their positions and protection.",
+    "disposition": "granted",
+    "remedy_or_orders": "The first respondent shall pay the petitioners Rs. 15,000 as costs.\nThe State shall pay each petitioner Rs. 15,000 as compensation.\nThe 7th, 10th, 11th, 12th, 13th, 14th, 15th, 16th, 17th and 19th respondents are ordered to vacate the Time-Keepers premises and desist from performing Time-Keeper duties.\nThe Inspector-General of Police is directed to ensure compliance with the above orders and to assist the petitioners to regain possession and provide protection.\nThe Inspector-General of Police must report to the Court on compliance by 20 September 1995."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 is central because it empowers individuals to seek Supreme Court redress for violations of fundamental rights, which is the core of the petitioners' claim and the Court's jurisdiction and reasoning in this case.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioners alleged unlawful ousting by a group armed with iron rods and poles, directed by the first respondent and assisted by police officers, preventing them from performing their duties. The Court found the first respondent to be the mastermind and the police to have failed in their duty to protect, thus violating the petitioners' fundamental rights.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

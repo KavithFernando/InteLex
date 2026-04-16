@@ -1,0 +1,66 @@
+{
+  "frame_id": "RQ1_029-SLLR-SLLR-1991-V2-ABEYWARDENE-V.-INS_030_C02__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application No. 92/91",
+    "case_title": "Abeywardene v. Inspector General of Police and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1991-10-23",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 92/91, decided on 23 October 1991"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s fundamental rights claims under Articles 12(1), 12(2), and 14(1)(g) were valid grounds for relief under Article 17.",
+    "petitioner_claim": "The petitioner claimed violation of fundamental rights due to seizure of Jackpot machines and discriminatory treatment compared to State lotteries.",
+    "respondent_argument": "The State argued the petitioner had no fundamental right to engage in unlawful gaming and that the seizure was lawful under valid emergency regulations.",
+    "key_facts": [
+      "The petitioner applied under Article 126 (now Article 17) for relief for alleged fundamental rights violations.",
+      "The petitioner’s machines were seized under emergency regulations.",
+      "The petitioner’s claim included denial of equal protection and freedom to engage in business.",
+      "The Court found the petitioner engaged in unlawful gaming after the Regulations.",
+      "The petitioner failed to show bad faith or discrimination violating fundamental rights."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that while Article 17 grants the right to apply for fundamental rights violations, the petitioner’s claims failed because the Regulations were valid and the petitioner had no fundamental right to conduct unlawful gaming. The Court emphasized the clean hands doctrine for equitable relief.",
+    "application_to_facts": "The petitioner’s business was declared unlawful by valid emergency regulations. The Court found no evidence of bad faith or improper discrimination. Therefore, the petitioner could not claim protection under fundamental rights provisions.",
+    "principles_established": [
+      "Article 17 provides the right to apply for fundamental rights violations but does not guarantee relief if the underlying activity is unlawful.",
+      "The clean hands doctrine applies in fundamental rights applications seeking equitable relief.",
+      "No fundamental right exists to engage in unlawful gaming.",
+      "Discriminatory legislation is valid if rationally connected to legitimate objectives and not motivated by bad faith."
+    ],
+    "precedents_cited": [
+      "C. W. Mackie & Co., Ltd. v. Hugh Molagoda, Commissioner-General of Inland Revenue and others",
+      "Mugler v. State of Kansas",
+      "State of Bombay v. R. M. D. Chamarbaugwala",
+      "Yasapala v. Ranil Wickremasinghe and others"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the petitioner’s fundamental rights application under Article 17 for lack of merit.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 was the procedural basis for the petitioner’s application to the Supreme Court alleging fundamental rights violations, which the Court adjudicated and dismissed.",
+    "relevance_level": "high",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner applied under Article 126 (now Article 17) for relief for alleged violations of Articles 12(1), 12(2), and 14(1)(g). The Court found no fundamental right to conduct unlawful gaming and dismissed the application.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

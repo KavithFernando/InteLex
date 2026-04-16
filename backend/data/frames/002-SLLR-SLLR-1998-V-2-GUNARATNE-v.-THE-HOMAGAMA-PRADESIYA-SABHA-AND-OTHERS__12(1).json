@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_002-SLLR-SLLR-1998-V-2-GUNARATNE-V.-THE-_010_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_210_97_FR",
+    "case_title": "Gunaratne v. The Homagama Pradeshiya Sabha and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-03-04",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 210/97(FR), decided on 4 March 1998"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the suspension of the petitioner's authorization to establish a saw mill violated the fundamental right to equality and equal protection under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that the suspension of the authorization by the Pradeshiya Sabha and Central Environmental Authority was arbitrary and violated his fundamental rights under Article 12(1).",
+    "respondent_argument": "The respondents argued that the suspension was justified due to environmental and public nuisance concerns raised by intervenient-respondents, including noise, health hazards from saw dust, obstruction of roads, and violation of environmental regulations.",
+    "key_facts": [
+      "The petitioner applied to establish a saw mill and received initial approval with conditions from the Pradeshiya Sabha and Central Environmental Authority (CEA).",
+      "The CEA initially refused approval without reasons but later approved subject to conditions after ministerial intervention.",
+      "The Pradeshiya Sabha granted permission to proceed with preparations subject to obtaining an Environmental Protection Licence before operations.",
+      "The petitioner began preparations but was later directed to suspend by the Pradeshiya Sabha based on CEA's withdrawal of recommendation citing nuisance concerns.",
+      "The petitioner filed a fundamental rights application alleging violation of Article 12(1)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as guaranteeing equality before the law and equal protection, requiring that administrative decisions be made fairly, transparently, and with proper reasons communicated to affected parties.",
+    "application_to_facts": "The court found that the suspension of the petitioner's authorization was arbitrary, lacked transparency, and was not supported by written reasons communicated to the petitioner or objectors, thus violating the principle of equal protection under the law.",
+    "principles_established": [
+      "Administrative authorities must act with publicity, transparency, and fairness in decisions affecting fundamental rights.",
+      "Site clearance permission does not constitute a licence to operate; conditions must be complied with and objections properly considered.",
+      "Decisions to grant or refuse licences must be reasoned in writing and communicated to all parties.",
+      "Arbitrary suspension of authorization without due process violates Article 12(1)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the suspension of the petitioner's authorization was a violation of Article 12(1) and quashed the suspension letter dated 27 January 1997.",
+    "disposition": "granted",
+    "remedy_or_orders": "The suspension of authority to proceed with the saw mill was quashed and the fifth respondent was ordered to pay Rs. 10,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects against arbitrary administrative actions and ensures equal protection under the law, which was violated by the respondents' suspension of the petitioner's authorization without due process.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the first and fifth respondents acted arbitrarily in suspending the authorization without publicity, transparency, or fairness, thereby violating Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

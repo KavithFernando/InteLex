@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_022-SLLR-SLLR-1986-V-2-DISSANAYAKE-V.-UN_041_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_120_85",
+    "case_title": "Dissanayake v. University of Sri Jayawardenapura and Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1986-06-23",
+    "source_citation": "Sri Lanka Law Reports [1986] 2 Sri L.R. 254"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the disciplinary actions and restrictions imposed on the petitioner by the Vice-Chancellor violated the petitioner's fundamental right to freedom of speech and expression under Article 14(1)(a) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that his fundamental right to freedom of speech and expression, including publication, was violated by the Vice-Chancellor's disciplinary actions, including charges for publishing a memorandum without permission and suspension from University premises.",
+    "respondent_argument": "The Vice-Chancellor contended that the petitioner had violated University rules by unauthorized publication of a memorandum containing false and defamatory statements, disrupted examinations, and that disciplinary actions were necessary to maintain order and discipline within the University.",
+    "key_facts": [
+      "Petitioner published a memorandum addressed to the President criticizing the Vice-Chancellor's administration without prior permission.",
+      "The memorandum was distributed to University staff and newspapers.",
+      "Petitioner was charged with violating Rule 16:11 of the University handbook and disrupting examinations.",
+      "The Vice-Chancellor suspended the petitioner and declared University premises out of bounds to him.",
+      "The petitioner claimed these actions infringed his constitutional right to freedom of speech and expression."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the right to freedom of speech and expression under Article 14(1)(a) is not absolute and is subject to reasonable regulation to maintain order, discipline, and protect the rights of others. The right does not protect libellous or knowingly false statements. The University environment requires special consideration, and students' rights may be regulated to preserve discipline.",
+    "application_to_facts": "The Court found that the petitioner’s memorandum contained disparaging and defamatory statements about the Vice-Chancellor and staff, and its publication without permission was a breach of reasonable University rules. The disciplinary actions, including suspension and restrictions, were justified as they aimed to prevent disruption and maintain discipline. The petitioner’s right to send complaints to the President was protected, but prior restraint on publication to others was permissible.",
+    "principles_established": [
+      "Fundamental rights under Article 14(1)(a) are subject to reasonable regulation for discipline and order.",
+      "Freedom of speech does not protect libellous or knowingly false statements.",
+      "University students’ rights are subject to special restrictions due to the nature of the University environment.",
+      "Prior restraint on publication may be valid if it protects University interests and discipline.",
+      "The right to petition authorities is protected and cannot be unduly restricted."
+    ],
+    "precedents_cited": [
+      "Adkins v. Children's Hospital",
+      "Amand v. Thompson",
+      "Baumquartner v. U.S.",
+      "Near v. State of Minnesota",
+      "Chaplinsky v. State of New Hampshire"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the petitioner's claim that his freedom of speech and expression was violated. The disciplinary actions and restrictions imposed by the Vice-Chancellor were held to be lawful and reasonable regulations within the scope of Article 14(1)(a).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) is central to the case as the petitioner’s claim was based on alleged violation of his freedom of speech and expression. The Court’s reasoning and decision directly engage with the scope and limits of this constitutional right in the University context.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that freedom of speech under Article 14(1)(a) is not absolute and may be regulated to maintain discipline; the petitioner’s memorandum contained defamatory statements and its unauthorized publication justified disciplinary action.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

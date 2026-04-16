@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_031-SLLR-SLLR-1987-1-NALLANAYAGAM-V.-GUN_072_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 59/85",
+    "case_title": "Nallanayagam v Gunatilake and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-07-25",
+    "source_citation": "Sri Lanka Law Reports [1987] 1 Sri L.R. 293"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was informed of the reason for his arrest as required by Article 13(1).",
+    "petitioner_claim": "The petitioner claimed he was not informed of the reason for his arrest when taken into custody.",
+    "respondent_argument": "The police officer stated that the petitioner was informed in the vehicle that he was arrested for spreading rumours or false statements.",
+    "key_facts": [
+      "Petitioner was arrested at home on 22 May 1985 by Assistant Superintendent de Crusz.",
+      "Petitioner was initially told only that a coordinating officer wanted him brought to Batticaloa Police Station.",
+      "Petitioner’s wife stated no reason was given at the time of arrest.",
+      "Police officer de Crusz stated petitioner was informed in the vehicle of the reason for arrest.",
+      "Court found it was not possible to positively conclude the petitioner was not informed of the reason."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(1) requires that any person arrested must be informed of the reason for arrest. The court examined affidavits and found insufficient evidence to conclude the petitioner was not informed.",
+    "application_to_facts": "Given the conflicting affidavits, the court could not positively find a violation of Article 13(1).",
+    "principles_established": [
+      "The requirement to inform the arrested person of the reason is mandatory but must be proven by evidence.",
+      "Conflicting affidavits require the court to assess the credibility and sufficiency of evidence."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "No positive finding that the petitioner was not informed of the reason for arrest; no violation of Article 13(1) established.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioner alleged violation of Article 13(1) regarding being informed of the reason for arrest, but the court found insufficient evidence to uphold this claim.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner states he was not informed of the reason at arrest, but the police officer de Crusz stated he informed the petitioner in the vehicle that he was arrested for spreading rumours or false statements.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 320,
+      "end_char": 520
+    }
+  }
+}

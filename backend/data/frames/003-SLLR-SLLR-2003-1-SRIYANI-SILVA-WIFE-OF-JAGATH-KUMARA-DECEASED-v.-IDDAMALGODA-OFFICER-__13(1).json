@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_003-SLLR-SLLR-2003-1-SRIYANI-SILVA-WIFE-_006_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_No_471_2000",
+    "case_title": "Sriyani Silva (Wife of Jagath Kumara-Deceased) v. Iddamalgoda, Officer-in-Charge, Police Station, Payagala and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-12-10",
+    "source_citation": "[2003] 1 Sri L.R"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the fundamental rights under Article 13(1) were infringed by the arrest and detention of the deceased, and whether the widow has locus standi to claim redress for such infringement after the death of the detainee.",
+    "petitioner_claim": "The petitioner (widow) claimed that her deceased husband’s fundamental rights under Article 13(1) were violated due to unlawful arrest and detention, and that she is entitled to continue the application for redress as his legal representative.",
+    "respondent_argument": "The respondents argued that the petitioner has no locus standi to maintain the application since the deceased died before making any application, and that the right to apply for relief is personal and does not devolve to the widow.",
+    "key_facts": [
+      "The deceased was arrested on 12.06.2000 and detained at Payagala Police Station.",
+      "He was produced before the Magistrate on 17.06.2000 and remanded to prison.",
+      "The detainee died on 20.06.2000 in remand prison.",
+      "There is prima facie evidence including medical reports indicating assault and torture in custody.",
+      "The initial petition was filed on 18.07.2000 by an attorney-at-law on behalf of the deceased."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the right under Article 13(1) to be free from unlawful arrest and to be informed of the reason is a fundamental right that the deceased acquired. The right does not cease or become ineffective due to the death of the person, especially where death results from the infringement itself. Therefore, the widow, having a legitimate interest, may prosecute the right in proceedings under Article 126(2).",
+    "application_to_facts": "Given the evidence of arrest, detention, and assault leading to death, the Court found a causal link between the infringement of Article 13(1) rights and the death. The widow was allowed to continue the application as legal representative, overruling objections to locus standi.",
+    "principles_established": [
+      "Fundamental rights under Article 13(1) survive the death of the victim when death results from the infringement.",
+      "A legitimate interested party such as a widow may prosecute the right under Article 126(2).",
+      "Strict literal construction should not produce absurd results denying redress."
+    ],
+    "precedents_cited": [
+      "Somawathie v Weerasinghe and Others (1990) 2 Sri LR 121 (distinguished)",
+      "Corocraft v Pan-Am (1969) Q B 616",
+      "Lyons v Tucker (1880) 6 Q B D 660",
+      "Premalal de Silva v Inspector Rodrigo and Others (1991) 2 Sri LR 301"
+    ]
+  },
+  "outcome": {
+    "holding": "The preliminary objection on locus standi was overruled, allowing the widow to continue the application claiming infringement of Article 13(1) rights of the deceased.",
+    "disposition": "granted",
+    "remedy_or_orders": "Registrar directed to list the application for hearing; no costs ordered."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) protects against unlawful arrest and requires informing the arrested person of the reason. The Court’s reasoning centered on whether this right, allegedly violated causing death, can be claimed by the widow after the detainee’s death, making the clause central to the decision.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The deceased was arrested on 12.06.2000, detained at Payagala Police Station, and died in custody on 20.06.2000. Medical evidence showed injuries from assault during custody.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

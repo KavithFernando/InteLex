@@ -1,0 +1,73 @@
+{
+  "frame_id": "RQ1_015-SLLR-SLLR-1981-2-LAND-REFORM-COMISSI_035_C01__13(3)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "RQ1_015-SLLR-SLLR-1981-2-LAND-REFORM-COMMISSION-v.-GRAND-CENTRAL-LTD",
+    "case_title": "Land Reform Commission v. Grand Central Ltd.",
+    "court_name": "Court of Appeal of Sri Lanka",
+    "decision_date": "1981-04-10",
+    "source_citation": "Sri Lanka Law Reports (1981) 2 S.L.R."
+  },
+  "clause": {
+    "article": "13(3)",
+    "text": "Any accused person has the right to a fair trial and legal representation."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Attorney-General, while holding office, can appear in court in his private capacity as an attorney-at-law, thus affecting the right to a fair trial and legal representation.",
+    "petitioner_claim": "The Land Reform Commission, represented by the Attorney-General in his private capacity, argued that the Attorney-General is entitled to appear as an attorney-at-law in private capacity under section 41 of the Judicature Act and Article 169(12) of the Constitution.",
+    "respondent_argument": "The plaintiff-respondent objected that the Attorney-General cannot appear in court except in his official capacity, as the office carries special duties and privileges that preclude private appearances, to protect fairness and impartiality in legal proceedings.",
+    "key_facts": [
+      "The Attorney-General appeared in court in his private capacity for the Land Reform Commission.",
+      "A preliminary objection was raised that the Attorney-General cannot appear in private capacity while holding office.",
+      "The Attorney-General's office has wide statutory and constitutional powers and duties.",
+      "The court has inherent power to regulate who may appear before it.",
+      "The case involved a civil dispute between a private company and a statutory corporation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the Attorney-General, by virtue of the constitutional office and its duties, should appear only in his official capacity. The office's nature imposes constraints that effectively preclude private practice to avoid conflicts of interest and maintain public confidence in fairness.",
+    "application_to_facts": "Since the Attorney-General appeared in his private capacity, the court found this inconsistent with the duties and privileges of the office, potentially undermining the fairness of proceedings and the perception of impartiality.",
+    "principles_established": [
+      "The Attorney-General is a full-time public officer whose duties and powers require exclusive representation of the State.",
+      "The court has inherent jurisdiction to regulate appearances to ensure fairness.",
+      "The right to legal representation under Article 13(3) does not override the constraints imposed by the Attorney-General's office.",
+      "An attorney-at-law holding full-time public office cannot appear in private capacity if it conflicts with official duties."
+    ],
+    "precedents_cited": [
+      "Dahanayake v. D. G. Albert de Silva et al.",
+      "Trendtex Trading Corporation Ltd. v. Central Bank of Nigeria",
+      "Le Mesurier v. Layard",
+      "Perera v. White",
+      "Vettivelu v. Wijeyeratne",
+      "O'Toole v. Scott",
+      "Simms v. Moore",
+      "Re S. (a barrister)",
+      "Attorney-General of Gambia v. N'Jie",
+      "Attorney-General v. Saibo",
+      "Le Mesurier v. The Attorney-General"
+    ]
+  },
+  "outcome": {
+    "holding": "The preliminary objection was upheld; the Attorney-General cannot appear in his private capacity while holding office.",
+    "disposition": "granted",
+    "remedy_or_orders": "The court ruled that the Attorney-General must appear only in his official capacity and disallowed his private capacity appearance."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(3) guarantees the right to legal representation and a fair trial, which the court balanced against the unique constitutional role of the Attorney-General. The court's decision ensures that the Attorney-General's appearance does not compromise the fairness or perception of impartiality in legal proceedings.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that the Attorney-General, by virtue of the functions, powers and duties attached to his office, could appear before the courts only in his official capacity and not in his private capacity as an attorney-at-law.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

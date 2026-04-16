@@ -1,0 +1,58 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-1994-V1-LUCAS-APPUHAMY-V.-_027_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 87/94",
+    "case_title": "Lucas Appuhamy v. Maturata and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-11-07",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 87/94, decided on 7 November 1994"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s arrest without a warrant violated Article 13(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that his arrest violated his fundamental rights under Article 13(1) as it was unlawful and not in accordance with the law.",
+    "respondent_argument": "The respondents argued that there were sufficient grounds to suspect the petitioner had committed a cognizable offence, and the arrest without a warrant was in accordance with the procedure prescribed by the Criminal Procedure Code, thus not violating Article 13(1).",
+    "key_facts": [
+      "Petitioner assaulted a police officer while intoxicated.",
+      "The police officer made a complaint and injury was medically certified.",
+      "Petitioner was arrested without a warrant based on the complaint and suspicion of a cognizable offence.",
+      "The arresting police followed procedures under the Criminal Procedure Code."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) requires arrests to be made according to law. Since the petitioner was suspected of a cognizable offence and the arrest was made following the procedure prescribed by the Criminal Procedure Code, the arrest was lawful under Article 13(1).",
+    "application_to_facts": "The court found sufficient grounds for suspecting the petitioner’s involvement in a cognizable offence and that the arresting officers acted in accordance with legal procedure, thus no violation of Article 13(1) occurred.",
+    "principles_established": [
+      "Arrest without a warrant is lawful if there are sufficient grounds to suspect a cognizable offence.",
+      "Compliance with the Criminal Procedure Code satisfies the requirement of arrest according to law under Article 13(1)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s arrest did not violate Article 13(1) of the Constitution.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to determining the lawfulness of the petitioner’s arrest, which was the main issue in the case. The court’s reasoning and final dismissal of the claim relied directly on the interpretation and application of this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Since there were sufficient grounds for suspecting that a cognizable offence had been committed by the petitioner, his arrest without a warrant was in accordance with the procedure prescribed by the Criminal Procedure Code and was therefore, not in violation of Article 13(1) of the Constitution.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

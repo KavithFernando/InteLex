@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_007-SLLR-1988-V2-MADAN-MOHAN-V.-CARSON-C_035_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Reference No. 2/88",
+    "case_title": "Madan Mohan v. Carson Cumberbatch & Co. Ltd.",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1988-08-03",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Reference No. 2/88, decided on 3 August 1988"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the filing of an affidavit in English by Tamil and Burgher respondents violates the constitutional prohibition on discrimination on grounds including language.",
+    "petitioner_claim": "The petitioner argued that allowing affidavits in English while the official language is Sinhala discriminates against citizens on the basis of language, violating Article 12(2).",
+    "respondent_argument": "The respondents contended that the Affidavits Act permits affidavits in English and that the Constitution's official language provisions do not amount to unlawful discrimination.",
+    "key_facts": [
+      "The 2nd and 7th respondents are Tamils; the 3rd respondent is a Burgher.",
+      "The affidavit was filed in English, not the official language Sinhala.",
+      "Article 12(2) prohibits discrimination on grounds including language.",
+      "The Affidavits Act No. 23 of 1953 allows affidavits in Sinhala, Tamil, or English.",
+      "The court had to consider if the affidavit filing practice discriminates against citizens on language grounds."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court recognized that Article 12(2) prohibits discrimination on language grounds. However, it found that the Affidavits Act, preserved as existing law, allows affidavits in English, and that this does not constitute unconstitutional discrimination. The court emphasized the constitutional supremacy but also the continuity of existing laws unless expressly repealed. The affidavit in English was valid under the law but conflicted with Article 24(1) on official language in courts, which was separately addressed.",
+    "application_to_facts": "The court noted the respondents' ethnic backgrounds and the language of the affidavit but held that the filing of affidavits in English under the Affidavits Act does not amount to discrimination prohibited by Article 12(2). The issue was resolved under Article 24(1) rather than Article 12(2).",
+    "principles_established": [
+      "Article 12(2) prohibits discrimination on language grounds.",
+      "Existing laws permitting English affidavits continue unless expressly repealed.",
+      "Permitting affidavits in English under the Affidavits Act does not constitute discrimination under Article 12(2)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court did not find that the affidavit in English violated Article 12(2) on discrimination grounds; the issue was addressed under Article 24(1).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was considered because the respondents belonged to minority language groups and filed affidavits in English, raising potential discrimination concerns, but the court resolved the issue under official language provisions instead.",
+    "relevance_level": "medium",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The 2nd and 7th respondents are Tamils and the 3rd respondent is a Burgher. The affidavit was filed in English. The court noted Article 12(2) prohibits discrimination on language grounds but found the affidavit filing under the Affidavits Act does not violate this clause.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 6800,
+      "end_char": 7000
+    }
+  }
+}

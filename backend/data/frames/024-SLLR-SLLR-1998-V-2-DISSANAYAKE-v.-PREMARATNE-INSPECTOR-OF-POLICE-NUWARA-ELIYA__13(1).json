@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_024-SLLR-SLLR-1998-V-2-DISSANAYAKE-V.-PR_057_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (Special) No. 117/97 with S.C. Application No. 858/97",
+    "case_title": "Dissanayake v. Premaratne, Inspector of Police, Nuwara-Eliya",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-05-04",
+    "source_citation": "Sri Lanka Law Reports (1998) 2 Sri L.R. 211"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was lawfully arrested and informed of the reason for arrest in accordance with Article 13(1).",
+    "petitioner_claim": "The petitioner claimed he was arrested at about 3 p.m. on 8.5.1997 without proper legal procedure and was not informed of the lawful reason for his arrest; he was detained unlawfully and subjected to torture.",
+    "respondent_argument": "The respondents argued the petitioner was arrested at 6.40 p.m. on 8.5.1997 on reasonable suspicion based on a genuine complaint and that the arrest was lawful.",
+    "key_facts": [
+      "Petitioner was called to the Police Station on 8.5.1997 and detained from about 3 p.m. on 8.5.1997 until 5.30 p.m. on 9.5.1997.",
+      "Petitioner was not produced before a Magistrate during detention.",
+      "Respondents claimed arrest was at 6.40 p.m. on 8.5.1997 based on a complaint of housebreaking and theft.",
+      "Petitioner was subjected to torture and assault while in custody.",
+      "Petitioner was released on Police bail without being produced before a Magistrate."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 13(1) as requiring that no person be arrested except according to law and that the person must be informed of the reason for arrest. The Court found the petitioner was arrested earlier than the respondents claimed and was not produced before a Magistrate, violating the legal requirements.",
+    "application_to_facts": "The Court accepted the petitioner's version that he was arrested at 3 p.m. and detained without being produced before a Magistrate, thus breaching Article 13(1). The respondents failed to justify the legality of the arrest and detention period.",
+    "principles_established": [
+      "Arrest must be according to law and the arrested person must be informed of the reason.",
+      "Detention without production before a Magistrate within 24 hours violates Article 13(1)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that the respondents violated the petitioner's rights under Article 13(1) by unlawfully arresting and detaining him without informing him of the lawful reason and without producing him before a Magistrate.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Court awarded compensation and costs to the petitioner and directed the Registrar to send a copy of the judgment to the Inspector-General of Police."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the Court's determination that the arrest and detention of the petitioner were unlawful, forming a basis for granting relief for infringement of fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was detained at the Police Station from about 3 p.m. on 8.5.1997 until 5.30 p.m. on 9.5.1997 without being produced before a Magistrate and was not informed properly of the lawful reason for arrest.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

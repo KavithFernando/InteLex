@@ -1,0 +1,71 @@
+{
+  "frame_id": "RQ1_017-SLLR-SLLR-1978-79-80-V1-SENEVIRATNE-_087_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 88/1980",
+    "case_title": "Seneviratne and Another v. University Grants Commission and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1980-10-07",
+    "source_citation": "Sri Lanka Law Reports (1978-79-80) 1 Sri L.R. 182"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the University Grants Commission's policy of allocating 55% of university admission places on a district-wise population basis violates the fundamental right to equality before the law under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that merit should be the sole criterion for university admission and that the 55% district-wise allocation is discriminatory and violates Article 12(1).",
+    "respondent_argument": "The University Grants Commission contended that merit is a relevant factor but not the sole criterion, and that the 55% district-wise allocation is justified to ensure equitable access to higher education across the country in line with national policy and interests.",
+    "key_facts": [
+      "University admission for 1980 was allocated as 30% on merit islandwide, 55% distributed among 24 revenue districts based on population ratio, and 15% reserved for 13 educationally under-privileged districts.",
+      "The petitioner had high marks and qualified on merit but would likely lose admission due to the district-wise quota.",
+      "The University Grants Commission relied on national policy and socio-economic factors to justify the classification.",
+      "The petitioner conceded the validity of the 15% reservation for under-privileged districts.",
+      "The case involved interpretation of Article 12(1) in light of national policy and equality principles."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) does not require merit to be the sole criterion for university admission. The University Grants Commission is entitled to classify sources of admission based on national policy and interests, provided the classification is not arbitrary and bears a rational relation to the object intended.",
+    "application_to_facts": "The court found that the 55% district-wise allocation was rationally connected to the objective of equitable distribution of university places, considering socio-economic disparities and educational backwardness in various districts. The classification was not arbitrary but based on population ratios and national policy goals.",
+    "principles_established": [
+      "Classification for university admissions must not be arbitrary and must bear a rational relation to the object intended.",
+      "Merit is not the sole criterion; classification based on national policy and socio-economic considerations is permissible.",
+      "Directive Principles of State Policy are part of the Constitution and must be considered in interpreting fundamental rights.",
+      "Courts should give due recognition to national interest and policy in educational admissions.",
+      "Hardship to individuals does not render a valid classification unconstitutional."
+    ],
+    "precedents_cited": [
+      "Dr. Rienzie Perera v. University Grants Commission (1978-79-80) 1 Sri L.R. 128",
+      "Rajendran v. State of Madras A.I.R. 1968 Supreme Court 1012",
+      "Durairajan v. State of Madras A.I.R. 1951 Madras 120",
+      "Bala ji v. State of Mysore A.I.R. 1963 Supreme Court 649",
+      "Chitra Ghosh v. Union of India A.I.R. 1970 Supreme Court 35",
+      "State of Andhra Pradesh v. Balaram A.I.R. 1972 Supreme Court 1375",
+      "Kesavananda Bharati v. State of Kerala A.I.R. 1973 Supreme Court 1461",
+      "Bakke v. University of California U.S. Reports (1978) Vol: 57 L. Ed. 2d. 750"
+    ]
+  },
+  "outcome": {
+    "holding": "The court dismissed the petition, holding that the University Grants Commission's 55% district-wise allocation does not violate Article 12(1) and is a valid exercise of discretion in line with national policy and constitutional principles.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner's claim that the district-wise quota violated the right to equality before the law. The court's reasoning focused on interpreting this clause in the context of national policy and socio-economic realities, ultimately upholding the classification as consistent with the equality guarantee.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the University Grants Commission's classification based on district population ratios was rational and not arbitrary, justified by socio-economic disparities and national policy objectives, and that merit was preserved within each category.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

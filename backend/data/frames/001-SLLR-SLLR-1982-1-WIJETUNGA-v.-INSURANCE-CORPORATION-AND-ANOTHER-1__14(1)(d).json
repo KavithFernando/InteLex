@@ -1,0 +1,75 @@
+{
+  "frame_id": "RQ1_001-SLLR-SLLR-1982-1-WIJETUNGA-V.-INSURA_002_C02__14(1)(d)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 87/82",
+    "case_title": "Wijetunga v. Insurance Corporation and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1982-11-29",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 87/82, decided on 29 November 1982"
+  },
+  "clause": {
+    "article": "14(1)(d)",
+    "text": "Freedom to form and join a trade union."
+  },
+  "case_context": {
+    "legal_issue": "Whether the disciplinary actions taken by the Insurance Corporation against the petitioner, who was the Organising Secretary of a registered trade union, infringed his fundamental right to freedom to form and join a trade union under Article 14(1)(d), and whether such infringement was by executive or administrative action attracting Supreme Court jurisdiction.",
+    "petitioner_claim": "The petitioner claimed that the punishment of suspension, warning, and transfer was an infringement of his fundamental right to freedom to form and join a trade union guaranteed by Article 14(1)(d).",
+    "respondent_argument": "The Insurance Corporation argued that it is not an organ or agent of the State and its actions do not constitute executive or administrative action under Article 126, thus the Court lacks jurisdiction. It justified the disciplinary measures as lawful internal actions.",
+    "key_facts": [
+      "The petitioner was Organising Secretary of the Insurance Employees' Union, a registered trade union.",
+      "The Union decided to conduct a poster campaign to highlight employee grievances.",
+      "The Insurance Corporation alleged the posters were obnoxious and incited disaffection.",
+      "The petitioner was disciplined after a domestic inquiry for involvement in putting up posters.",
+      "The Insurance Corporation is a statutory corporation with independent legal personality."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court reiterated that fundamental rights under Chapter 3 are enforceable only against executive or administrative action of the State or its instrumentalities. The Insurance Corporation, being an autonomous statutory corporation engaged in commercial activities and not a government department or agent, does not fall within the definition of the State for this purpose. Therefore, its actions do not constitute executive or administrative action infringing Article 14(1)(d).",
+    "application_to_facts": "The Court applied tests of control, function, and statutory provisions and found that the Insurance Corporation operates independently with discretionary powers. The disciplinary actions against the petitioner as a trade union official were not actions of the State or its agencies and thus not subject to constitutional challenge under Article 126 for infringement of trade union freedoms.",
+    "principles_established": [
+      "Fundamental rights enforcement under Article 126 requires infringement by executive or administrative action of the State.",
+      "A statutory corporation carrying on commercial activities is not necessarily a State organ or agent.",
+      "The degree of ministerial control and nature of functions determine State status.",
+      "Trade union rights under Article 14(1)(d) are protected against State infringement, not private or autonomous corporate actions."
+    ],
+    "precedents_cited": [
+      "Perera v. University Grants Commission",
+      "Narayanasamy v. Krishnamoorthy",
+      "Tamlin v. Hannaford",
+      "B.B.C. v. Johns",
+      "Mersey Docks & Harbour Board Trustees v. Gibbs",
+      "Metropolitan Meat Industry Board v. Sheedy",
+      "Bank Voor Handel v. Administrator of Hungarian Properties",
+      "Ceylon Bank Employees' Union v. Yatawara",
+      "Trendtex Trading Corporation v. Central Bank",
+      "Dahanayake v. de Silva",
+      "Karneshwar Prasad v. State of Bihar",
+      "The First National City Bank v. Commissioner of Income Tax, Bombay City",
+      "Balakoiaiah v. Union of India"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court upheld the preliminary objection and dismissed the application, holding that the Insurance Corporation's actions did not constitute executive or administrative action of the State and thus did not infringe the petitioner's fundamental right to freedom to form and join a trade union under Article 14(1)(d) in a manner actionable under Article 126.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(d) guarantees freedom to form and join trade unions, which the petitioner claimed was infringed by the Insurance Corporation's disciplinary actions. The Court's analysis centered on whether those actions were executive or administrative action of the State, a necessary condition for constitutional enforcement of this right under Article 126.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner, as Organising Secretary of a registered trade union, alleged infringement of his fundamental right under Article 14(1)(d) due to punishment by the Insurance Corporation. The Court found the Corporation is not a State organ and its actions do not amount to executive or administrative action attracting Article 126 jurisdiction.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

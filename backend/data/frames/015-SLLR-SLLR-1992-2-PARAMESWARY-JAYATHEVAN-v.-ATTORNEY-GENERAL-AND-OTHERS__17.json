@@ -1,0 +1,73 @@
+{
+  "frame_id": "RQ1_015-SLLR-SLLR-1992-2-PARAMESWARY-JAYATHE_014_C01__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application No. 192/91",
+    "case_title": "Parameswary Jayathevan v. Attorney-General and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1992-09-17",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 192/91, decided on 17 September 1992"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the acts or omissions of a Provincial Council or its officers constitute executive or administrative action under Article 17, thus allowing the Supreme Court jurisdiction to hear fundamental rights violations.",
+    "petitioner_claim": "The petitioner claimed that her transfer and deprivation of government quarters by officers of the North-East Provincial Council were discriminatory, mala fide, and violated her fundamental rights under Article 12(1), and thus the Supreme Court had jurisdiction under Article 17 to hear her fundamental rights application.",
+    "respondent_argument": "The respondents argued that the transfer and deprivation were administrative acts within the powers of the Provincial Council, not violative of fundamental rights, and that the petitioner was not entitled to occupy the government quarters; the transfer was justified and not mala fide.",
+    "key_facts": [
+      "The petitioner, a pharmacist employed by the North-East Provincial Council, was occupying government quarters not ordinarily entitled to pharmacists.",
+      "The Regional Director of Health Services and the Secretary of the Ministry of Health ordered her to vacate the quarters and transferred her to another hospital.",
+      "The petitioner resisted vacating the quarters and alleged discrimination and mala fide transfer.",
+      "The Supreme Court had to decide if acts of Provincial Council officers are 'executive or administrative action' under Article 17.",
+      "The Attorney-General was made a party and had a role in the proceedings."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that 'executive or administrative action' under Article 17 includes acts or omissions of a Provincial Council and its officers, as these are exercises of executive power devolved from the Central Government within the unitary state framework. The Court emphasized that the Provincial Council acts under delegated executive authority and thus its actions fall within the ambit of Article 17, giving the Supreme Court jurisdiction to review such actions under Article 126.",
+    "application_to_facts": "The Court found that the transfer and deprivation of quarters by the Provincial Council officers were executive or administrative acts within Article 17. Therefore, the petitioner’s fundamental rights claim was justiciable in the Supreme Court. However, on the merits, the Court found the petitioner was not entitled to the quarters and that the transfer was justified, dismissing the claim.",
+    "principles_established": [
+      "Acts or omissions of Provincial Councils and their officers constitute executive or administrative action under Article 17.",
+      "The Supreme Court has jurisdiction to review such actions under Article 126.",
+      "The Attorney-General has the right to be heard in fundamental rights applications involving Provincial Councils.",
+      "The State and offending officers may be liable for fundamental rights infringements, but Provincial Councils are not analogous to the State.",
+      "The writ of the Supreme Court runs throughout Sri Lanka and its orders are fully enforceable, including against Provincial Councils and their officers."
+    ],
+    "precedents_cited": [
+      "Karunaratne v. Rupasinghe",
+      "Sirisena v. Perera",
+      "Cannossa Investment Ltd. v. E. E. B. Perera",
+      "In re Thirteenth Amendment to the Constitution and the Provincial Councils Bill",
+      "Ratnasara Thero v. Udugampola",
+      "Perera v. The University Grants Commission",
+      "Elmore Perera v. Jayawickrema",
+      "Gunaratne v. People's Bank",
+      "Roberts v. Ratnayake",
+      "A. G. v. Liyanage"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the acts of the Provincial Council officers were executive or administrative action under Article 17, thus the Supreme Court had jurisdiction. However, the petitioner failed to establish a violation of her fundamental rights, and the application was dismissed.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 is central because it grants every person the right to apply to the Supreme Court for violations of fundamental rights. The Court’s jurisdiction to hear the petitioner’s claim depended on whether the actions of the Provincial Council officers fell within the scope of 'executive or administrative action' under Article 17.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that the impugned acts constitute executive or administrative action within the ambit of Article 17 of the Constitution which this Court has jurisdiction to review under Article 126. The Attorney-General has the right to be heard in these proceedings in terms of Article 134(1) of the Constitution and has been properly made a party under the Supreme Court Rules.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

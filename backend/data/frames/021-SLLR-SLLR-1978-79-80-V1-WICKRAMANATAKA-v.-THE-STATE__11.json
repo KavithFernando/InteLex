@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1978-79-80-V1-WICKRAMANATA_028_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPEAL NO. 58/79",
+    "case_title": "Wickramanayaka v. The State",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1979-09-24",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Appeal No. 58/79, decided on 24 September 1979"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether Clause 4(2) of the Essential Public Service Bill, which mandates forfeiture of property and removal from professional registers in addition to imprisonment or fines, violates Article 11 of the Constitution prohibiting cruel, inhuman or degrading treatment or punishment.",
+    "petitioner_claim": "The petitioner argued that Clause 4(2) imposes excessive and indiscriminate punishments that amount to cruel and inhuman treatment, thus contravening Article 11.",
+    "respondent_argument": "The Attorney-General contended that all punishments are recognized forms under existing law and their imposition by a competent court removes them from the scope of Article 11.",
+    "key_facts": [
+      "Clause 4(2) prescribes imprisonment (2-5 years), fines (2,000 to 5,000 rupees), mandatory forfeiture of all movable and immovable property, and mandatory removal from professional registers for offenders.",
+      "The punishments are mandatory and apply indiscriminately regardless of the nature or culpability of the offence.",
+      "Article 11 is entrenched and protects against torture and cruel, inhuman or degrading treatment or punishment.",
+      "The Bill is intended to ensure uninterrupted essential public services during emergencies."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 11 as prohibiting not only physical force but also excessive and indiscriminate punishment that amounts to inhuman treatment. The mandatory piling of punishments without discretion violates the constitutional guarantee.",
+    "application_to_facts": "The Court found that the mandatory forfeiture of property and removal from professional registers, combined with imprisonment or fines, constitute excessive punishment and cruelty. The lack of judicial discretion to impose these punishments in fit cases renders Clause 4(2) inconsistent with Article 11.",
+    "principles_established": [
+      "Punishments must not be excessive or indiscriminate to comply with Article 11.",
+      "Cruel, inhuman or degrading treatment includes excessive punishment even without physical force.",
+      "Judicial discretion is necessary to impose severe punishments based on culpability and circumstances."
+    ],
+    "precedents_cited": [
+      "Leavie Collymore v. A.G. (1970) 38 F.J.R. 79",
+      "Radhey v. P.M.G. Nagpur AIR 1965 (S.C.) 311",
+      "AH India Bank Employees' Association v. National Industrial Tribunal AIR 1962 (S.C.) 171",
+      "Raghubar Dayal v. Union of India AIR 1962 (S.C.) 263",
+      "Gosh v. Joseph AIR 1963 (S.C.) 812",
+      "Trop v. Dulles 356 U.S. 86",
+      "Robinson v. California 370 U.S. 660"
+    ]
+  },
+  "outcome": {
+    "holding": "Clause 4(2) of the Essential Public Service Bill is inconsistent with Article 11 of the Constitution because it mandates excessive and cruel punishment without judicial discretion.",
+    "disposition": "granted",
+    "remedy_or_orders": "Clause 4(2) should be amended to remove mandatory punishments and allow courts discretion to impose forfeiture and removal from professional registers in fit cases based on culpability."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 directly protects individuals from cruel, inhuman or degrading punishment. The Court's reasoning focused centrally on whether the mandatory punishments in Clause 4(2) violate this protection, making Article 11 dispositive of the outcome.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Clause 4(2) mandates imprisonment, fines, forfeiture of all property, and removal from professional registers. The Court held this piling of punishments indiscriminately amounts to excessive punishment and savours of cruelty, thus violating Article 11.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3000,
+      "end_char": 3200
+    }
+  }
+}

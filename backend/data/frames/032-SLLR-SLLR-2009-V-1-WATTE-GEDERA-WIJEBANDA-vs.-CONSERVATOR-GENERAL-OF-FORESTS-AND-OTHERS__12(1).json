@@ -1,0 +1,73 @@
+{
+  "frame_id": "RQ1_032-SLLR-SLLR-2009-V-1-WATTE-GEDERA-WIJE_162_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 118/2004",
+    "case_title": "Watte Gedera Wijebanda Vs. Conservator General of Forests and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2007-04-28",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 118/2004, decided on 28 April 2004 (leave granted); judgment delivered 2009"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s right to equality and equal protection of the law under Article 12(1) was violated by the respondents granting a mining permit to the 6th respondent while refusing the petitioner’s permit for the same land.",
+    "petitioner_claim": "The petitioner argued that the respondents acted in a discriminatory, arbitrary, and capricious manner by denying him a quarry mining permit on environmental grounds while granting a permit to the 6th respondent for the same land without applying the same objections, thus violating his right to equal treatment under Article 12(1).",
+    "respondent_argument": "The respondents contended that the petitioner’s application was refused based on valid environmental concerns and procedures, and that the 6th respondent’s permit was lawfully granted. The 6th respondent also claimed to have a valid mining permit and environmental license.",
+    "key_facts": [
+      "The petitioner’s application for a quarry mining permit was refused due to environmental concerns near a national reserve and archaeological area.",
+      "The 6th respondent was granted a mining permit for the same land despite similar environmental objections.",
+      "The 6th respondent’s mining permit and environmental license documents were inconsistent and possibly fraudulent.",
+      "Environmental inspections showed illegal mining activities and destruction of a natural forest reserve.",
+      "There was evidence of collusion and mala fides among state officials in granting the 6th respondent’s permits."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equality before the law and equal protection, which includes protection against arbitrary and discriminatory state action. The right to a clean environment and principles of equity in environmental protection are inherent in Article 12(1). The court emphasized the doctrine of public trust and intergenerational equity, requiring the state to act as a trustee of natural resources for present and future generations. The arbitrary granting of permits to the 6th respondent while denying the petitioner violated this constitutional guarantee.",
+    "application_to_facts": "The court found that the respondents acted arbitrarily and capriciously by granting the 6th respondent a mining permit and environmental license despite environmental objections that led to the petitioner’s refusal. The 6th respondent’s documents were inconsistent and invalid, and mining activities were conducted illegally in a protected forest reserve. The court concluded that the petitioner’s right to equality was infringed by this discriminatory treatment and the collusion of officials.",
+    "principles_established": [
+      "Article 12(1) includes the right to equal protection against arbitrary and discriminatory state action.",
+      "Environmental rights and equity are inherent in the right to equality under Article 12(1).",
+      "The doctrine of public trust imposes a duty on the state to protect natural resources for present and future generations.",
+      "State officials must exercise their powers in good faith and not for personal or commercial gain.",
+      "Invalid or fraudulent permits issued in violation of established procedures are unlawful and violate constitutional rights."
+    ],
+    "precedents_cited": [
+      "Som Prakash Rekhi v. Union of India, AIR 1981 S.C. 212",
+      "M. C. Mehta v. Union of India, AIR 1988 S.C. 1037",
+      "Rural Litigation and Entitlement Kendra, Dehradun v. State of Uttar Pradesh, AIR 1988 S.C. 2187",
+      "Damodar Das v. The Special Officer, Municipal Corporation of Hyderabad, AIR 1987 Ap 171",
+      "M. C. Mehta v. Kamal Nath (1997), S. C. C. 388",
+      "Bulankulama v. Secretary, Ministry of Industrial Development (2000) 3 SLR 243",
+      "Danube Case (Hungary v. Slovakia) (1997) 1 ICJ Reports 78",
+      "A. P. Pollution Control Board v. Nayadu (1992) 2 S. C. C. 718",
+      "Vellore Citizens’ Welfare Forum v. Union of India (1995) 5 S. C. C. 647",
+      "ICELA v. Union of India, AIR 1997 S. C. 3519"
+    ]
+  },
+  "outcome": {
+    "holding": "The court declared that the petitioner’s fundamental rights under Article 12(1) were violated by the arbitrary and discriminatory acts of the respondents in granting a mining permit to the 6th respondent while refusing the petitioner. The petitioner’s refusal was lawful, but the 6th respondent’s permit was invalid and obtained through collusion and fraud. The court ordered cessation of mining activities, restoration of the land, and directed investigations and prosecutions of responsible officials.",
+    "disposition": "granted",
+    "remedy_or_orders": "No further mining activities to be conducted on the land; the 6th respondent to bear all costs of restoration; Attorney General to investigate and prosecute officials involved; payment of costs to the petitioner by the State and 6th respondent."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court’s reasoning as it guarantees equality before the law and equal protection, which the petitioner claimed was violated by discriminatory issuance of mining permits. The court interpreted this clause to include protection against arbitrary state action affecting environmental rights, making it dispositive to the holding.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner’s application was refused on environmental grounds while the 6th respondent was granted a permit for the same land without applying the same objections. The 6th respondent’s permit and environmental license were inconsistent and invalid. Environmental inspections confirmed illegal mining in a protected forest reserve. The court found collusion among officials and arbitrary, discriminatory conduct violating Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

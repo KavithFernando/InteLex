@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-1994-V1-LUCAS-APPUHAMY-V.-_015_C01__11",
+  "created_at": "2024-06-10",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 87/94",
+    "case_title": "Lucas Appuhamy v. Maturata and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-11-07",
+    "source_citation": "Sri Lanka Law Reports [1994] 1 Sri LR"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment or punishment in violation of Article 11 of the Constitution during his arrest.",
+    "petitioner_claim": "The petitioner claimed that he was brutally assaulted by the police, including being divested of his sarong and having hot tea poured on his body, constituting a violation of Article 11.",
+    "respondent_argument": "The respondents argued that the injuries sustained by the petitioner were consistent with the use of reasonable force during the arrest and a fall into a pit, and that no violation of Article 11 occurred.",
+    "key_facts": [
+      "Petitioner assaulted a police officer while intoxicated.",
+      "Petitioner was arrested without a warrant based on sufficient grounds.",
+      "Petitioner resisted arrest and fell into a four-foot deep pit.",
+      "Medical evidence showed abrasions and a simple fracture consistent with the fall and reasonable force.",
+      "Petitioner’s allegations of brutal assault were not supported by medical evidence or witness statements."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 11 as prohibiting torture or cruel, inhuman or degrading treatment, but found that the injuries sustained by the petitioner were consistent with reasonable force used during arrest and accidental injury, not torture or cruel treatment.",
+    "application_to_facts": "The court compared the medical evidence and witness statements with the petitioner’s claims and concluded that the petitioner failed to establish that his rights under Article 11 were violated.",
+    "principles_established": [
+      "Reasonable force used in arrest does not constitute a violation of Article 11.",
+      "Medical evidence is critical in assessing claims of torture or cruel treatment.",
+      "Allegations unsupported by credible evidence reduce the credibility of the claim."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that there was no violation of Article 11 of the Constitution.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the petitioner’s claim of torture and cruel treatment during arrest, and the court’s reasoning focused on whether the injuries and treatment met the threshold of Article 11 violations.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The medical evidence of injuries was consistent with reasonable force used during arrest and a fall, and did not support the petitioner’s allegations of brutal assault or torture.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

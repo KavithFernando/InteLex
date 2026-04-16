@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_024-SLLR-SLLR-2003-1-DHANAPALA-FERNANDO-_047_C01__14(1)(g)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_NO_330_2002_FR",
+    "case_title": "Dhanapala Fernando v. Attanayaka, Officer-in-Charge, Kandana Police Station and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2003-03-19",
+    "source_citation": "[2003] 1 Sri L.R"
+  },
+  "clause": {
+    "article": "14(1)(g)",
+    "text": "Freedom to engage in lawful occupation or business."
+  },
+  "case_context": {
+    "legal_issue": "Whether the police actions of searching the licensed restaurant and inn, arresting guests and the manager, and compelling closure of the business violated the petitioner's fundamental right under Article 14(1)(g) to engage in lawful occupation or business.",
+    "petitioner_claim": "The petitioner claimed that the police unlawfully searched his licensed business premises multiple times, arrested his manager and guests without lawful justification, and compelled closure of his business, thereby infringing his fundamental right to carry on a lawful business under Article 14(1)(g).",
+    "respondent_argument": "The respondents argued that the searches and arrests were justified under sections 32 and 33 of the Code of Criminal Procedure Act and sections 65 and 68 of the Police Ordinance due to reasonable suspicion of criminal or underworld activities, and that the police had no malice and acted on information about rising crime. They denied ordering closure of the business and claimed searches were with consent.",
+    "key_facts": [
+      "The petitioner and his sister owned a licensed restaurant and inn called Jayasiri Restaurant and Inn.",
+      "Police conducted multiple armed raids and searches of the premises without the manager's consent.",
+      "Three couples occupying rooms and the manager were arrested on 3.6.2002 for failing to establish identity.",
+      "Police threatened the manager to close the business if Tourist Board license was not obtained.",
+      "The business was effectively closed from 3.6.2002 until interim relief was granted on 25.6.2002."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the fundamental right under Article 14(1)(g) protects the petitioner's right to carry on a lawful business without arbitrary interference. The police actions lacked reasonable suspicion or lawful justification, and the arrests and searches were arbitrary and high-handed infringements of liberty and privacy. The police had no evidence that the inn was a resort of criminals or that the arrested persons were involved in criminal activities. The forced closure of the business was a direct violation of the petitioner's fundamental right.",
+    "application_to_facts": "The court found that the police failed to establish any factual basis for suspicion or justification for the arrests and searches. The manager and guests had given their names and addresses, and no credible information supported the police's actions. The police's vague general suspicion about criminals lodging in guest houses was insufficient. The business closure was a natural consequence of the unlawful police conduct, impairing the petitioner's right to carry on business.",
+    "principles_established": [
+      "Reasonable suspicion or credible information is required to justify arrest or search under the relevant laws.",
+      "Police powers to enter and search premises must be exercised with lawful justification and consent where required.",
+      "Unlawful police actions that impair the right to carry on a lawful business violate Article 14(1)(g).",
+      "The proprietor of a business can claim infringement of fundamental rights if police actions against staff or guests impair the business."
+    ],
+    "precedents_cited": [
+      "Bandaranayake v Rajaguru (1999) Sri LR 104"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the 1st and 2nd respondents infringed the petitioner's fundamental rights under Article 14(1)(g) by unlawfully arresting the manager and guests, conducting arbitrary searches without consent or reasonable suspicion, and compelling closure of the business.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of infringement of fundamental rights; Rs. 100,000 compensation payable by the State; Rs. 30,000 costs payable by the 1st and 2nd respondents personally."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(g) guarantees the freedom to engage in lawful occupation or business, which was directly infringed by the police's unlawful searches, arrests, and forced closure of the petitioner's licensed business. The court's reasoning and remedy centered on protecting this fundamental right.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found the police had no reasonable suspicion or lawful basis for the arrests and searches, and that the forced closure of the business from 3.6.2002 until interim relief was granted was a violation of Article 14(1)(g).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

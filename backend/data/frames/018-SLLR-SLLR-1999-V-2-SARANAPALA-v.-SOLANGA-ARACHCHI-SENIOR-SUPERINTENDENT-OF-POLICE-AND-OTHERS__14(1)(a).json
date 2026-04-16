@@ -1,0 +1,73 @@
+{
+  "frame_id": "RQ1_018-SLLR-SLLR-1999-V-2-SARANAPALA-V.-SOL_031_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 470/96 (FR)",
+    "case_title": "Saranapala v. Solanga Arachchi, Senior Superintendent of Police and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-06-18",
+    "source_citation": "Sri Lanka Law Reports [1999] 2 Sri LR."
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the prohibition of the NSSP May Day procession violated the petitioner's fundamental right to freedom of speech and expression under Article 14(1)(a) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the police unlawfully revoked permission for the NSSP procession, suppressing their freedom of speech and expression by denying them the right to march and communicate their views publicly on May Day.",
+    "respondent_argument": "The respondents contended that there is no fundamental right to use public highways for demonstrations and that the prohibition was justified under section 77(3) of the Police Ordinance and emergency regulations for reasons of national security and public order.",
+    "key_facts": [
+      "The NSSP was initially granted permission for a May Day procession and meeting.",
+      "Permission was revoked citing security reasons shortly before May Day.",
+      "Other political parties, including LSSP, were allowed to hold processions and meetings.",
+      "The NSSP procession was stopped by police; only a limited group was allowed to proceed to the meeting place.",
+      "The police relied on intelligence reports of possible terrorist threats to justify the prohibition."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Articles 14(1)(a) protects freedom of speech and expression, including methods such as marching and parading in public places. Restrictions on these rights must be prescribed by law, serve a substantial government interest unrelated to suppressing free expression, and be no greater than necessary.",
+    "application_to_facts": "The court found no credible evidence of a genuine security threat justifying the prohibition. The selective enforcement against the NSSP, while allowing other parties to march, indicated suppression of free expression rather than legitimate public order concerns.",
+    "principles_established": [
+      "Freedom of speech and expression includes public processions and assemblies.",
+      "Restrictions must be lawful, necessary, and not aimed at suppressing expression.",
+      "Police powers under section 77(3) are subject to constitutional limits.",
+      "Incidental restrictions must be minimal and justified by substantial government interest."
+    ],
+    "precedents_cited": [
+      "Hague v. CIO",
+      "United States v. O'Brien",
+      "Cox v. State of New Hampshire",
+      "Kovacs v. Cooper",
+      "Poulos v. State of New Hampshire",
+      "Adderly v. State of Florida",
+      "Cox v. Louisiana",
+      "Walker v. City of Birmingham",
+      "Shuttlesworth v. City of Birmingham",
+      "Goonewardena v. Perera",
+      "Joseph Perera v. The Attorney-General"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the prohibition of the NSSP procession violated the petitioner's fundamental right to freedom of speech and expression under Article 14(1)(a).",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was ordered to pay the petitioner Rs. 15,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) is central because the case concerns whether the police unlawfully restricted the petitioner's right to freedom of speech and expression by prohibiting a political procession.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the prohibition was not for public order or security but to suppress free expression, noting that other parties were allowed to march and that the police failed to show credible security threats.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

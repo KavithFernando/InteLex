@@ -1,0 +1,57 @@
+{
+  "frame_id": "RQ1_015-SLLR-SLLR-1997-V-1-EDWARD-FRANCIS-WI_027_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (F.R.) Applications Nos. 832, 833, 834 and 842 of 1996",
+    "case_title": "Edward Francis William Silva, President's Counsel and Three Others v. Shirani Bandaranayake and Three Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-12-16",
+    "source_citation": "Sri Lanka Law Reports {1997} 1 Sri L.R. 92"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the appointment of the 1st respondent as a Judge of the Supreme Court infringed the petitioners' fundamental rights under Article 14(1)(a) of the Constitution.",
+    "petitioner_claim": "The petitioners claimed that their fundamental rights under Article 14(1)(a) were infringed by the appointment of the 1st respondent.",
+    "respondent_argument": "The respondents argued that the petitioners were not deprived of their freedom of speech and expression and that Article 14(1)(a) had no application to the appointment.",
+    "key_facts": [
+      "The petitioners challenged the appointment of the 1st respondent as a Judge of the Supreme Court.",
+      "The petitioners did not allege any actual deprivation of freedom of speech or expression.",
+      "The appointment was made by the President under Article 107 of the Constitution."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 14(1)(a) guarantees freedom of speech and expression but this right was not infringed by the appointment of the 1st respondent. The petitioners were not deprived of this freedom and the provision had no bearing on the appointment.",
+    "application_to_facts": "Since the petitioners did not show any deprivation of their freedom of speech or expression, the Court found no violation of Article 14(1)(a) in the appointment of the 1st respondent.",
+    "principles_established": [
+      "Freedom of speech and expression under Article 14(1)(a) is not infringed merely by the appointment of a judge.",
+      "Claims under Article 14(1)(a) require actual deprivation or restriction of the right."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court refused leave to proceed on the claim of infringement of Article 14(1)(a).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioners alleged infringement of their freedom of speech and expression by the appointment, but the Court found no deprivation of this right and thus no violation of Article 14(1)(a).",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "We are also of the view that the Freedom of Speech and Expression as set out in Article 14 (1) (a) has no application for the reason that the petitioner has not been deprived of this freedom at all.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 9910,
+      "end_char": 10000
+    }
+  }
+}

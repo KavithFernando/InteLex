@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_010-SLLR-SLLR-2002-3-IN-RE-THE-EIGHTEENT_051_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "RQ1_010-SLLR-SLLR-2002-3-IN-RE-THE-EIGHTEENTH",
+    "case_title": "In Re the Eighteenth Amendment to the Constitution",
+    "court_name": "Supreme Court",
+    "decision_date": "2002-10-03",
+    "source_citation": "[2002] 3 Sri L.R. 71"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the provisions of Clauses 4 and 5 of the Eighteenth Amendment, which grant immunity from judicial review and suit to the Constitutional Council and its members, violate Article 12(1) by creating a special class of persons and denying equal protection of the law.",
+    "petitioner_claim": "The petitioners argued that the immunity provisions in Clauses 4 and 5 create a different class of persons immune from judicial review, violating Article 12(1) which guarantees equality before the law and equal protection of the law. They also contended that the proposed Article 41K would deny the majority community the opportunity to make representations to the Council, unlike minority communities, thus violating Article 12(1).",
+    "respondent_argument": "The Attorney-General conceded merit in the submissions regarding Article 12(1) violations and suggested possible amendments to protect lawful representations to the Council, but these suggestions were not considered by the Court due to timing.",
+    "key_facts": [
+      "Clause 4 amends Article 41(H) to remove judicial review of Constitutional Council decisions, granting total immunity.",
+      "Clause 5 introduces Articles 41J and 41K granting immunity from suit and penalizing interference with the Council.",
+      "The Constitutional Council is part of the Executive and exercises executive power.",
+      "Article 12(1) guarantees equality before the law and equal protection, which the immunity provisions allegedly violate by creating a special class immune from judicial scrutiny.",
+      "Minority communities have guaranteed representation in the Council; the majority community does not, raising concerns about unequal access and protection."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(1) as prohibiting the creation of special classes of persons immune from judicial review, as this would violate the principle of equality before the law and equal protection. Immunity provisions that exclude the Constitutional Council and its members from judicial scrutiny undermine the Rule of Law and the sovereignty of the People, which includes fundamental rights.",
+    "application_to_facts": "The Court found that Clauses 4 and 5 grant total immunity to the Constitutional Council and its members, effectively removing judicial review and creating a privileged class. This is inconsistent with Article 12(1) and the constitutional principles of equality and the Rule of Law. The proposed Article 41K's penal provisions could prevent the majority community from making representations, unlike minority communities with guaranteed representation, thus violating equal protection.",
+    "principles_established": [
+      "No organ or body under the Constitution can be granted unfettered immunity from judicial review without violating equality before the law.",
+      "Fundamental rights, including equality and equal protection, are components of the sovereignty of the People and are inalienable.",
+      "Judicial review is essential to uphold the Rule of Law and prevent arbitrariness.",
+      "Legislative or constitutional provisions that create special classes immune from judicial scrutiny violate Article 12(1)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that Clauses 4 and 5 of the Eighteenth Amendment, including the proposed Articles 41J and 41K, violate Article 12(1) by creating a special class immune from judicial review and denying equal protection. These clauses require approval by a special majority in Parliament and a Referendum.",
+    "disposition": "other",
+    "remedy_or_orders": "Clauses 4 and 5 are unconstitutional in their current form and must be passed by special majority and approved by the People at a Referendum."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) is central to the Court's reasoning because the immunity provisions in Clauses 4 and 5 create a special class immune from judicial review, violating the constitutional guarantee of equality before the law and equal protection.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The effect of the amendment in Clause 4 is to introduce a different class of people whose actions are not subject to judicial review. There is no justification for such immunity to be granted, which is contrary to Article 12 (1) of the Constitution and the basic principles of Rule of Law.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 740,
+      "end_char": 900
+    }
+  }
+}

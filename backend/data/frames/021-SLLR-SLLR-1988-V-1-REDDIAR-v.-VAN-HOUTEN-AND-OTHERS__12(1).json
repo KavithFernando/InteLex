@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1988-V-1-REDDIAR-V.-VAN-HO_111_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 70/87",
+    "case_title": "Reddiar v. Van Houten and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1988-03-29",
+    "source_citation": "Sri Lanka Law Reports [1988] 1 Sri LR"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was treated unequally in breach of Article 12(1) due to the refusal to extend his service and his retirement at age 55 without following certain circulars.",
+    "petitioner_claim": "The petitioner claimed that his retirement and refusal of extension of service violated Circulars B and C, which required prior approval of the President and communication of reasons, and thus infringed his right to equal protection under Article 12(1).",
+    "respondent_argument": "The respondents argued that the circulars cited by the petitioner applied only to non-executive estate staff and not to non-executive staff employed in offices outside estates like the petitioner. They also argued the petitioner failed to prove differential treatment compared to others similarly circumstanced.",
+    "key_facts": [
+      "Petitioner was an English typist employed in an office outside estates.",
+      "Circulars B and C apply only to non-executive estate staff, not to office staff.",
+      "Circulars R1 and R2 apply to petitioner and require forwarding extension applications to General Manager (Administration).",
+      "Petitioner was retired at age 55 without approval of the President and without extension of service.",
+      "Petitioner failed to prove any differential treatment compared to others."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) requires proof of differential treatment to establish a violation. The circulars B and C did not apply to the petitioner’s category of employment, but circulars R1 and R2 did. The refusal to forward the extension application as required by R1 and R2 was a breach of those circulars. However, since the petitioner did not prove he was treated differently from others similarly situated, he failed to establish a violation of Article 12(1).",
+    "application_to_facts": "The court found the petitioner was non-executive staff employed in an office outside estates, so circulars B and C did not apply. Circulars R1 and R2 applied and were breached by the respondents. Nonetheless, the petitioner did not show any other person in similar circumstances was treated differently, which is necessary to prove discrimination under Article 12(1).",
+    "principles_established": [
+      "To establish a violation of Article 12(1), a petitioner must prove differential treatment compared to others similarly circumstanced.",
+      "Circulars or administrative instructions do not constitute 'law' under Article 12(1) but may be relevant to procedural fairness.",
+      "Different categories of employees may be subject to different retirement rules without violating equality before the law."
+    ],
+    "precedents_cited": [
+      "Elmore Perera v. Jayawickrema [1986] 1 Sri LR 340",
+      "Roberts v. Ratnayake [1986] 2 Sri LR 36"
+    ]
+  },
+  "outcome": {
+    "holding": "The petitioner failed to establish a violation of Article 12(1) because he did not prove differential treatment from others similarly circumstanced.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner's claim of unequal treatment in retirement and extension of service. The court's reasoning focused on whether the petitioner was treated differently from others similarly situated, making this clause dispositive.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that the petitioner failed to prove he was treated differently from others similarly circumstanced, a necessary element to establish infringement of Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2600,
+      "end_char": 2800
+    }
+  }
+}

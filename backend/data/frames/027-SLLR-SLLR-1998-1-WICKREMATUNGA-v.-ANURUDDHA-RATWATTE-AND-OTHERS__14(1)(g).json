@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_027-SLLR-SLLR-1998-1-WICKREMATUNGA-V.-AN_051_C01__14(1)(g)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application No. F.R. 228/96",
+    "case_title": "Wickrematunga v. Anuruddha Ratwatte and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-12-17",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. F.R. 228/96, decided on 17 December 1997"
+  },
+  "clause": {
+    "article": "14(1)(g)",
+    "text": "Freedom to engage in lawful occupation or business."
+  },
+  "case_context": {
+    "legal_issue": "Whether the termination of the petitioner's dealership agreement by the Ceylon Petroleum Corporation violated the petitioner's fundamental right under Article 14(1)(g) to freedom to engage in lawful occupation or business.",
+    "petitioner_claim": "The petitioner claimed that the termination of his dealership agreement was unlawful, arbitrary, politically motivated, and violated his fundamental right to engage in lawful occupation as guaranteed by Article 14(1)(g) of the Constitution.",
+    "respondent_argument": "The Corporation argued that the termination was lawful under the terms of the agreement, done for good and lawful cause, and that the Corporation was not subject to constitutional restrictions in this contractual matter as it was a private law issue.",
+    "key_facts": [
+      "The petitioner was appointed as a petroleum dealer by the Corporation under an agreement dated 16 March 1988.",
+      "The Corporation terminated the agreement on 12 January 1996 without notice or reasons assigned.",
+      "The petitioner alleged political discrimination as the true reason for termination.",
+      "The Corporation relied on alleged misconduct and dishonoured cheques as grounds for termination but failed to prove these allegations.",
+      "The Corporation is the exclusive authority to sell, supply, or distribute petroleum, making the petitioner unable to engage in the business without its authorization."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 14(1)(g) guarantees every citizen the freedom to engage in any lawful occupation or business. Since the petitioner was prevented from continuing his lawful business as a petroleum dealer due to the unlawful termination of the agreement by the Corporation, this fundamental right was violated.",
+    "application_to_facts": "The Corporation's monopoly over petroleum distribution meant the petitioner could not lawfully engage in his occupation without the Corporation's authorization. The termination was arbitrary, politically motivated, and lacked just cause, thus infringing the petitioner's constitutional right under Article 14(1)(g).",
+    "principles_established": [
+      "Public corporations exercising governmental functions must act reasonably and in good faith.",
+      "Unfettered discretion is inappropriate for public authorities.",
+      "Constitutional fundamental rights apply to public corporations even in contractual matters.",
+      "An act that is unconstitutional is void and of no legal effect."
+    ],
+    "precedents_cited": [
+      "Kuruppuge Don Somapala Gunaratne and others v. Ceylon Petroleum Corporation and others",
+      "Dahanayake v. De Silva",
+      "SmithKline Beecham Biologicals S.A. and another v. State Pharmaceutical Corporation and others"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the Corporation violated Article 14(1)(g) by unlawfully terminating the petitioner's dealership agreement, thereby infringing his fundamental right to engage in lawful occupation.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Corporation was ordered to reinstate the petitioner as a dealer at the same premises under the original agreement and to pay Rs. 100,000 as solatium for the infringement of fundamental rights, along with Rs. 25,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(g) was central to the Court's reasoning because the petitioner's ability to engage in his lawful business was directly impeded by the Corporation's unlawful termination of the dealership agreement, violating his constitutional right.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was unable to engage in his business as a Dealer due to the unlawful termination of his agreement by the Corporation, which holds exclusive rights to distribute petroleum products.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2280,
+      "end_char": 2340
+    }
+  }
+}

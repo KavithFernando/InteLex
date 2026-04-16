@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_006-SLLR-SLLR-1991-V2-BERNARD-SOYSA-AND-_007_C02__14(1)(b)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 2/91",
+    "case_title": "Bernard Soysa and Two Others v. The Attorney-General and Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1991-08-29",
+    "source_citation": "[1991] 2 Sri L.R."
+  },
+  "clause": {
+    "article": "14(1)(b)",
+    "text": "Freedom of peaceful assembly."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' right to peaceful assembly under Article 14(1)(b) was infringed by police dispersal of their satyagraha at the Maha Maluwa without prior permission.",
+    "petitioner_claim": "The petitioners argued that their satyagraha was a peaceful assembly conducted in a public place and that police action to disperse them violated their fundamental right to peaceful assembly.",
+    "respondent_argument": "The respondents contended that the Maha Maluwa is not a public place for such assemblies without permission, that the gathering was not peaceful, and that police acted lawfully to maintain public order under statutory powers.",
+    "key_facts": [
+      "The satyagraha involved about 300 participants seated with placards, sometimes shouting slogans.",
+      "The Maha Maluwa is part of the Dalada Maligawa, a religious site under the Diyawadana Nilame's control.",
+      "No permission was obtained for the satyagraha.",
+      "Police dispersed the gathering following a request from the Diyawadana Nilame due to disturbance of the peaceful religious atmosphere.",
+      "The petitioners alleged police assault and injury, which was disputed by the respondents."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court recognized that the right to peaceful assembly is subject to restrictions in the interests of public order and depends on the nature of the place. The Maha Maluwa, as a religious precinct, is not a public forum for political assemblies without express permission. The assembly was not peaceful as it disturbed the religious environment, justifying police intervention.",
+    "application_to_facts": "Since the petitioners had no permission and their conduct disturbed the peace, the police were empowered under the Code of Criminal Procedure and Police Ordinance to disperse the assembly. Therefore, there was no violation of Article 14(1)(b).",
+    "principles_established": [
+      "Freedom of peaceful assembly is subject to reasonable restrictions for public order.",
+      "Religious precincts are not public forums for political assemblies without permission.",
+      "Police have statutory authority to disperse assemblies that disturb public peace.",
+      "The peacefulness of an assembly is judged in context, including location and conduct."
+    ],
+    "precedents_cited": [
+      "Whitney v. California (1927)",
+      "Schenck v. U.S. (1949)",
+      "Perry Education Association v. Perry Local Educators Association (1983)",
+      "Haque v. C.I.O. (1939)",
+      "Railway Board v. Niranjan Singh (1969)"
+    ]
+  },
+  "outcome": {
+    "holding": "The court dismissed the petitioners' claim under Article 14(1)(b), holding that their right to peaceful assembly was not infringed as the assembly was unlawful without permission and disturbed public order.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(b) guarantees the right to peaceful assembly, which the petitioners claimed was violated by police dispersal. The court's analysis of the assembly's nature and location was central to concluding no infringement occurred, making this clause highly relevant.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the assembly was not peaceful as it disturbed the religious atmosphere at the Maha Maluwa, and that police action to disperse the gathering was justified under law, thus no violation of Article 14(1)(b) occurred.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

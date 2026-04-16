@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_030-SLLR-SLLR-1983-2-VISUVALINGAM-AND-OT_148_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Applications Nos. 47/83, 53/83 and 61/83",
+    "case_title": "Visuvalingam and Others v. Liyanage and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1983-11-18",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Applications Nos. 47/83, 53/83 and 61/83, decided on 18 November 1983"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' fundamental rights under Article 12(2) were infringed by the emergency orders closing the Saturday Review newspaper, particularly regarding discrimination on grounds such as race or political opinion.",
+    "petitioner_claim": "The petitioners argued that the closure of the Saturday Review, which highlighted Tamil grievances and was critical of government policy, constituted discrimination against them as Tamil citizens and on political grounds, violating Article 12(2).",
+    "respondent_argument": "The respondents contended that the orders were not discriminatory but were lawful measures taken to preserve national security and public order during an emergency, justified by the content of the publication which was prejudicial and incited unrest.",
+    "key_facts": [
+      "The Saturday Review published material focusing on Tamil issues and grievances.",
+      "The newspaper was accused of eulogizing terrorist groups and encouraging violence.",
+      "Emergency Regulations were invoked to prohibit the publication and close the press.",
+      "The petitioners are Tamil citizens and shareholders/directors of the publishing company.",
+      "The government argued the measures were necessary due to escalating violence and threats to public order."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 12(2) prohibits discrimination against citizens on specified grounds including race and political opinion. The Court acknowledged the petitioners' claims but emphasized that fundamental rights are not absolute and may be restricted for national security and public order. The Court found that the emergency orders were not discriminatory but were based on reasonable grounds related to the content and impact of the publication in the context of the emergency.",
+    "application_to_facts": "The Court examined the newspaper's content and the context of escalating ethnic violence and terrorism. It concluded that the orders were a lawful response to the threat posed by the publication's editorial policy and were not motivated by impermissible discrimination but by legitimate security concerns.",
+    "principles_established": [
+      "Restrictions on fundamental rights including non-discrimination may be justified under emergency laws for national security.",
+      "The Court will not interfere with executive discretion in emergency matters if reasonable grounds exist.",
+      "Discrimination claims under Article 12(2) require proof of impermissible motive, which was not established here."
+    ],
+    "precedents_cited": [
+      "American Communication Association v. Dodds",
+      "Bennett Coleman & Co. Ltd. v. Union of India",
+      "R. C. Cooper v. Union of India (Bank Nationalisation case)"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the emergency orders closing the Saturday Review did not violate Article 12(2) as they were not discriminatory but lawful restrictions justified by national security and public order concerns.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was materially engaged because the petitioners claimed discrimination on racial and political grounds in the closure of their newspaper. The Court analyzed whether the orders were discriminatory or justified restrictions, making Article 12(2) central to the decision.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court reviewed the content of the Saturday Review, including articles highlighting Tamil grievances and alleged support for terrorism, and found the orders were justified to prevent incitement and maintain public order during an emergency.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

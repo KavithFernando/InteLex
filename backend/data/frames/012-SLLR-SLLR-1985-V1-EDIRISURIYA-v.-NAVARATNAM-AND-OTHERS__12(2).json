@@ -1,0 +1,57 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-1985-V1-EDIRISURIYA-V.-NAV_062_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 109/84",
+    "case_title": "Edirisuriya v. Navaratnam and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-01-15",
+    "source_citation": "Sri Lanka Law Reports (1985) 1 SriL.R."
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was discriminated against on grounds of political opinion in violation of Article 12(2).",
+    "petitioner_claim": "The petitioner alleged that his arrest and detention were mala fide and motivated by his political affiliation opposing the ruling party, constituting discrimination under Article 12(2).",
+    "respondent_argument": "Respondents denied mala fide intent and justified the arrest and detention based on reasonable suspicion and lawful authority under Emergency Regulations.",
+    "key_facts": [
+      "Petitioner was a former Member of Parliament and belonged to an opposition political party.",
+      "Petitioner was arrested and detained under Emergency Regulations related to investigation of a court arson.",
+      "Petitioner alleged mala fide questioning and detention due to political reasons."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court found the material insufficient to establish discrimination on political grounds under Article 12(2).",
+    "application_to_facts": "Despite the petitioner’s allegations, the Court noted lack of substantive evidence or submissions proving discriminatory intent or treatment based on political opinion.",
+    "principles_established": [
+      "Allegations of discrimination under Article 12(2) require supporting material or evidence.",
+      "Mala fide intent must be substantiated to prove discrimination."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The petitioner's claim under Article 12(2) was dismissed due to insufficient material to prove discrimination.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioner’s claim of discrimination on political grounds was central to his fundamental rights complaint, but the Court found no sufficient evidence to uphold it.",
+    "relevance_level": "high",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that the material set out in the petition was insufficient to establish the claim under Article 12(2) and dismissed the claim accordingly.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1075,
+      "end_char": 1110
+    }
+  }
+}

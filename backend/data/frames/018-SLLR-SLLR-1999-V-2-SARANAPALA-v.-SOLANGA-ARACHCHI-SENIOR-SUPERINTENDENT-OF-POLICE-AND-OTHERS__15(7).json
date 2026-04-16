@@ -1,0 +1,73 @@
+{
+  "frame_id": "RQ1_018-SLLR-SLLR-1999-V-2-SARANAPALA-V.-SOL_018_C01__15(7)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 470/96 (FR)",
+    "case_title": "Saranapala v. Solanga Arachchi, Senior Superintendent of Police and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-06-18",
+    "source_citation": "Sri Lanka Law Reports [1999] 2 Sri LR."
+  },
+  "clause": {
+    "article": "15(7)",
+    "text": "General restrictions may apply for national security, public order, health, morality, and welfare."
+  },
+  "case_context": {
+    "legal_issue": "Whether the restrictions imposed on the Nava Sama Samaja Party's May Day procession and meeting were permitted under Article 15(7) of the Constitution as restrictions in the interest of national security or public order.",
+    "petitioner_claim": "The petitioner argued that the prohibition of the NSSP procession was not genuinely for national security or public order but was a suppression of free expression and peaceful assembly, violating Articles 14(1)(a), 14(1)(b), 12(1), and 12(2) of the Constitution.",
+    "respondent_argument": "The respondents contended that the restrictions were lawful under section 77(3) of the Police Ordinance and emergency regulations, justified by intelligence reports of possible terrorist attacks, thus falling within the permissible restrictions under Article 15(7).",
+    "key_facts": [
+      "The NSSP was initially granted permission for a May Day procession and meeting, which was later revoked citing security reasons.",
+      "Other political parties, including the LSSP, were allowed to hold meetings and processions on the same day.",
+      "The Police relied on intelligence reports about possible terrorist attacks to justify the prohibition.",
+      "The petitioner and supporters attempted to proceed with the procession but were stopped by Police.",
+      "The petitioner alleged discriminatory treatment and suppression of free expression."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 15(7) permits restrictions on fundamental rights only if prescribed by law and in the interest of national security, public order, or other specified grounds. Such restrictions must not be a pretext for suppressing free expression and must be no greater than necessary to further the legitimate interest.",
+    "application_to_facts": "The Court found no credible evidence of a genuine security threat justifying the prohibition of the NSSP procession, especially since other parties were allowed to march. The restriction was therefore not in furtherance of national security or public order but was aimed at suppressing free expression. The Police failed to act even-handedly, violating the petitioner’s rights under Articles 12(1) and 12(2).",
+    "principles_established": [
+      "Restrictions under Article 15(7) must be prescribed by law and genuinely in the interest of national security, public order, or related grounds.",
+      "Incidental restrictions on free expression must be no greater than essential to the legitimate interest.",
+      "Authorities must apply restrictions even-handedly without discrimination based on political opinion.",
+      "The burden of proof lies on the State to justify restrictions under Article 15(7)."
+    ],
+    "precedents_cited": [
+      "Hague v. CIO",
+      "United States v. O'Brien",
+      "Cox v. State of New Hampshire",
+      "Kovacs v. Cooper",
+      "Poulos v. State of New Hampshire",
+      "Adderly v. State of Florida",
+      "Cox v. Louisiana",
+      "Walker v. City of Birmingham",
+      "Shuttlesworth v. City of Birmingham",
+      "Goonewardena v. Perera",
+      "Joseph Perera v. The Attorney-General"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the prohibition of the NSSP procession was unconstitutional as it was not a bona fide restriction under Article 15(7) but a suppression of free expression and peaceful assembly. The petitioner’s fundamental rights under Articles 12(1), 12(2), 14(1)(a), and 14(1)(b) were violated.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was ordered to pay the petitioner Rs. 15,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 15(7) was central to the Court's analysis as it defines the permissible scope of restrictions on fundamental rights. The Court scrutinized whether the Police's actions were justified under this clause and found they were not, leading to the violation of the petitioner’s rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found no evidence of a security threat justifying the prohibition, noting other parties were allowed processions and meetings, and concluded the restriction was for suppressing free expression, not for public order or national security.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

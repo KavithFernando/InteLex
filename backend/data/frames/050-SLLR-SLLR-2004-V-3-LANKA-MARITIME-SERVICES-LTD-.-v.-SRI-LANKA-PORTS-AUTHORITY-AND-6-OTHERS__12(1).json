@@ -1,0 +1,66 @@
+{
+  "frame_id": "RQ1_050-SLLR-SLLR-2004-V-3-LANKA-MARITIME-SE_199_C01__12(1)",
+  "created_at": "2024-06-10",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "CA_2173_2004",
+    "case_title": "Lanka Maritime Services Ltd. v Sri Lanka Ports Authority and 6 Others",
+    "court_name": "Court of Appeal of Sri Lanka",
+    "decision_date": "2004-11-16",
+    "source_citation": "[2004] 3 Sri L.R"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the filing of a fresh writ application relating to the same subject matter as an existing pending application violates the fundamental right to equality under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the fresh application is maintainable despite the existence of a pending application on the same matter because new material has surfaced, including a legal opinion indicating that refusal to permit other barge owners to transport bunker fuel would violate Article 12(1).",
+    "respondent_argument": "The respondents contended that the fresh application should be dismissed in limine due to multiplicity of actions, relying on Rule 3(2) of the Court of Appeal (Appellate Procedure) Rules and the principle that no one should be vexed twice for the same cause, citing the doctrine of res judicata and public interest in finality of litigation.",
+    "key_facts": [
+      "There was a previous application (CA Application No. 1534/2004) pending on the same matter involving the petitioner.",
+      "The petitioner disclosed the existence of the previous application in paragraph 90 of the petition.",
+      "The fresh application included new material, notably a legal opinion from the Attorney-General dated 3 March 2004.",
+      "The doctrine of res judicata applies only where there is a prior judicial decision, which was absent here.",
+      "The Court of Appeal (Appellate Procedure) Rules require disclosure of previous applications but do not prohibit fresh applications."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as protecting the petitioner’s right to equal protection of the law, which includes the right not to be unfairly denied access to legal remedies. The court held that the doctrine of res judicata and the principle against multiplicity of actions do not bar a fresh application where no prior judicial decision exists and new material is presented.",
+    "application_to_facts": "The court found no prior judicial pronouncement on the matter and accepted that the petitioner had disclosed the previous application as required. It recognized the new legal opinion as material that justified entertaining the fresh application. The court emphasized that the public interest in finality does not override the petitioner’s right to equal protection under Article 12(1) when no final judgment exists.",
+    "principles_established": [
+      "Doctrine of res judicata precludes fresh proceedings only after a judicial decision on the same cause between the same parties.",
+      "Filing a fresh application on the same matter is not prohibited if new material is presented and no prior judicial decision exists.",
+      "The public interest in finality of litigation (interest reipublicae ut sit finis litium) must be balanced against fundamental rights.",
+      "Disclosure of previous applications is mandatory but does not bar fresh applications."
+    ],
+    "precedents_cited": [
+      "Jayawardane and Five Others v Dehiattakandiya MPCS and Fifty Others (1995) 2 SLR 276",
+      "Herath v Attorney-General 64 NLR 1923",
+      "Mendis v Himmappooa Ramanathan Reports 88",
+      "Supreme Court Rules and principles on res judicata"
+    ]
+  },
+  "outcome": {
+    "holding": "The preliminary objection to dismiss the fresh application on grounds of multiplicity of actions was overruled, allowing the petitioner to proceed with the fresh writ application.",
+    "disposition": "dismissed",
+    "remedy_or_orders": "Preliminary objection overruled; matter set down for argument."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning because the petitioner’s claim involved the right to equal protection of the law, specifically the right not to be unfairly denied access to legal remedies due to multiplicity of applications. The court balanced this fundamental right against procedural rules and public interest.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The 6th Respondent's legal opinion ruled that refusal to permit other barge owners to transport bunker fuel would violate Article 12(1). The court held that no rule or principle precludes filing a fresh application with new material despite a pending application on the same matter.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

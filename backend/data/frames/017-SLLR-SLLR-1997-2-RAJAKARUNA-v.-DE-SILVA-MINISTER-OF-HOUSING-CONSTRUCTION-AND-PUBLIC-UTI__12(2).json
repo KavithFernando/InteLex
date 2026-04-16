@@ -1,0 +1,58 @@
+{
+  "frame_id": "RQ1_017-SLLR-SLLR-1997-2-RAJAKARUNA-V.-DE-SI_091_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 201/95",
+    "case_title": "Rajakaruna v. De Silva, Minister of Housing, Construction and Public Utilities and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-05-09",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 201/95, decided on 9 May 1997"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was discriminated against on political grounds in violation of Article 12(2) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed he was singled out and discriminated against as a supporter of the United National Party due to a letter he wrote to the then President.",
+    "respondent_argument": "The respondents argued there was no evidence of political discrimination; the petitioner was actually a supporter of the present Government and was not singled out.",
+    "key_facts": [
+      "Petitioner wrote a letter to the then President expressing support for the United National Party.",
+      "Petitioner was Vice President of a union supporting the present Government.",
+      "No material evidence showed petitioner’s involvement with the United National Party beyond the letter.",
+      "Petitioner’s appeals against transfer were rejected on service grounds, not political grounds."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(2) as prohibiting discrimination on political grounds but required material evidence to prove such discrimination.",
+    "application_to_facts": "The court found no material evidence that the petitioner was victimized or discriminated against due to political affiliation; rather, evidence suggested he supported the present Government.",
+    "principles_established": [
+      "Discrimination claims under Article 12(2) require material evidence of discrimination on listed grounds.",
+      "Political affiliation must be clearly established to prove discrimination under Article 12(2)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental rights under Article 12(2) were not violated as there was no proof of political discrimination.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was directly engaged by the petitioner’s claim of political discrimination, and the court’s dismissal was based on the absence of evidence to support such discrimination.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was found to be a supporter of the present Government and no material evidence showed discrimination due to political affiliation.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_011-SLLR-SLLR-2003-1-THAVANEETHAN-V.-DAY_020_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. No. 20/2002 (FR)",
+    "case_title": "Thavaneethan v. Dayananda Dissanayake Commissioner of Elections and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-10-07",
+    "source_citation": "[2003] 1 Sri L.R"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the sudden prevention of about 55,000 voters from voting infringed their freedom of speech and expression under Article 14(1)(a) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that preventing them from voting denied their freedom of expression, as voting is a form of expression, and that the failure to order a repoll further violated this right.",
+    "respondent_argument": "The respondents contended that the restrictions were imposed for national security reasons under the Prevention of Terrorism Act and related regulations, justifying the limitation on freedom of expression.",
+    "key_facts": [
+      "On 5.12.2001, army personnel prevented about 55,000 voters in Batticaloa and Vanni districts from entering cleared areas to vote.",
+      "The closure was allegedly based on national security concerns to prevent LTTE infiltration, but no evidence supported this.",
+      "Voters in Trincomalee district were not similarly restricted.",
+      "No repoll was ordered despite the absence of a genuine poll in affected areas.",
+      "Special arrangements were made for six VVIPs to vote at their residences."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the right to vote is an exercise of freedom of speech and expression, a collective right enjoyed with other voters. Denying the petitioners the opportunity to vote was a total denial of this freedom, not merely a delay.",
+    "application_to_facts": "The closure of entry points directly prevented the petitioners and many others from voting, thus infringing their freedom of expression. The failure to order a repoll compounded this infringement, making the election neither free nor fair in those districts.",
+    "principles_established": [
+      "Voting is a form of freedom of speech and expression.",
+      "Freedom of expression in elections is a collective right affecting all voters.",
+      "The State must ensure free and fair elections and provide remedies for infringements."
+    ],
+    "precedents_cited": [
+      "Karunathilaka v Dissanayake",
+      "Egodawela v Dissanayake (reported as Mediwake v Dissanayake)"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioners' freedom of speech and expression under Article 14(1)(a) was infringed by the 3rd Respondent and the failure of the 1st Respondent to order a repoll.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declarations of infringement, compensation awarded, and costs ordered."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) guarantees freedom of speech and expression, which includes the right to vote as a form of expression. The court's reasoning and holding centrally rely on this clause to find infringement due to denial of voting rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that the closure of entry points denied the petitioners the opportunity to vote, which is an exercise of freedom of speech and expression, and that the failure to order a repoll made the election neither free nor fair.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 98,
+      "end_char": 1010
+    }
+  }
+}

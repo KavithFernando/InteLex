@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_037-SLLR-SLLR-1990-V-1-SAMANTHILAKA-V.-E_081_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 65/88",
+    "case_title": "Samanthilaka v. Ernest Perera and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1990-06-11",
+    "source_citation": "Sri Lanka Law Reports [1990] 1 Sri L.R. 318"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was detained without being produced before a judge as required by Article 13(2), constituting a violation of her fundamental rights.",
+    "petitioner_claim": "The petitioner claimed she was detained by police officers without being produced before a judge or any legal authority, violating her right to personal liberty under Article 13(2).",
+    "respondent_argument": "Respondents argued procedural defects in the petition and questioned the necessity of naming individual officers, but did not dispute the legal requirement of production before a judge.",
+    "key_facts": [
+      "Petitioner was held in police custody without being produced before a judge.",
+      "Petitioner was subjected to interrogation and assault during detention.",
+      "Petitioner’s family was denied access during detention.",
+      "Petitioner was a minor and faced difficulties in gathering evidence.",
+      "Respondents challenged procedural aspects but did not deny the legal standard."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 13(2) as requiring that any person detained must be brought before a judge promptly and held only under a legal order. The Court emphasized the State’s liability for violations by its agents and rejected the argument that failure to name individual officers was fatal.",
+    "application_to_facts": "The Court found that the petitioner was detained without being produced before a judge and was held unlawfully, thus violating Article 13(2). The evidence showed police officers acted under color of office in breaching this constitutional right.",
+    "principles_established": [
+      "Detention without production before a judge is unlawful under Article 13(2).",
+      "State liability arises from executive or administrative action violating fundamental rights.",
+      "Procedural defects in naming respondents do not bar relief if violation is established."
+    ],
+    "precedents_cited": [
+      "Saman v. Leeladasa and Another [1989] 1 Sri LR 1",
+      "Mariadas Raj v. Attorney-General and Others [1982] FRD 397",
+      "Ganeshanathan v. Vivienne Goonewardene and Another [1984] 1 Sri LR 319"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner was detained without being produced before a judge and thus her rights under Article 13(2) were violated, entitling her to a declaration of violation.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of violation of Article 13(2); compensation and costs as ordered."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was central to the Court’s finding that the petitioner’s detention was unlawful due to failure to produce her before a judge, directly supporting the relief granted.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was held in police custody without being produced before a judge and was denied access to her parents, as supported by affidavits and the Medico-Legal Report.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-2007-V-2-RODRIGO-V.-IMALKA_065_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_297_2007",
+    "case_title": "Rodrigo v Imalka Sub-Inspector of Police, Kirulapone and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2007-11-28",
+    "source_citation": "[2007] 2 Sri L.R 100; SC FR 297/2007; Supreme Court of Sri Lanka, decided 28 November 2007"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was denied equal protection of the law by unlawful police actions at check points and related executive actions affecting freedom of movement.",
+    "petitioner_claim": "The petitioner claimed that he was unlawfully stopped, harassed, and detained based on a forged document allegation that was false, and that the police actions and related executive measures denied equal protection of the law guaranteed by Article 12(1).",
+    "respondent_argument": "The respondents admitted the arrest but justified it as a routine inspection based on suspicion of forgery and denied allegations of bribery demands and abuse.",
+    "key_facts": [
+      "Petitioner was stopped at a police check point and asked for driving licence.",
+      "Petitioner produced a genuine temporary driving licence which was initially alleged to be forged by police.",
+      "Petitioner was detained and produced before Magistrate on charges of possessing a forged document.",
+      "Magistrate discharged petitioner after verification that the licence was genuine.",
+      "Police officers involved denied misconduct but evidence showed abuse of power and fabrication of records."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the equal protection of the law under Article 12(1) requires that no person be subjected to arbitrary or unlawful treatment by state authorities. Restrictions on fundamental rights, including freedom of movement, must be prescribed by law and based on reasonable suspicion. The Court emphasized that police and armed forces must act within legal limits and respect constitutional rights.",
+    "application_to_facts": "The Court found that the petitioner was unlawfully stopped, harassed, and detained without reasonable suspicion or legal basis. The check points operated without legal authority, causing unlawful obstruction and denial of equal protection. The police officers abused their power, and the executive actions such as permanent check points and illegal parking prohibitions denied equal protection of the law to the public.",
+    "principles_established": [
+      "Reasonable suspicion is essential to justify searches and detentions.",
+      "Police and armed forces must act only as permitted by law to uphold constitutional rights.",
+      "Unlawful obstruction of public roads and permanent check points violate freedom of movement and equal protection.",
+      "Executive actions must comply with legal authority and respect constitutional guarantees.",
+      "Superior officers are liable for infringements by subordinates if precautions are not taken."
+    ],
+    "precedents_cited": [
+      "Sarjun v Kamaldeen PC 39573 Police Station Habarana SCFR 559-03",
+      "Liyanage v. Gampaha Urban Council 1991 1 Sri LR 8"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court declared that the petitioner’s fundamental right to equal protection of the law under Article 12(1) was infringed by the unlawful actions of the police and executive authorities. It issued directions to discontinue illegal check points and remove illegal parking signs, and awarded compensation to the petitioner.",
+    "disposition": "granted",
+    "remedy_or_orders": "Directions under Article 126(4) to discontinue illegal check points and obstructions, remove illegal parking signs, ensure lawful exercise of police powers, and payment of Rs. 75,000/- compensation each by the first four respondents to the petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court’s reasoning as it guarantees equal protection of the law, which was denied by unlawful police and executive actions including illegal check points and arbitrary detention. The Court relied on this clause to declare the infringements and issue remedial directions.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the petitioner was stopped without reasonable suspicion, detained on false charges, and that the check points and parking prohibitions were illegal and denied equal protection of the law guaranteed by Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_017-SLLR-SLLR-1999-V-1-ABDUL-RAZAK-AND-A_044_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 877/96 (FR)",
+    "case_title": "Abdul Razak and Another v. Dharmadasa, Chief Inspector of Police, Katugastota and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-12-17",
+    "source_citation": "Sri Lanka Law Reports [1999] 1 Sri LR. S.C. Application No. 877/96 (FR), decided on 17 December 1998"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the detention of the petitioners prior to being produced before the Magistrate was lawful and complied with Article 13(2) of the Constitution.",
+    "petitioner_claim": "The petitioners claimed that their detention was unlawful as they were held without a legal order and without being released on bail despite being entitled to bail for non-cognizable offences.",
+    "respondent_argument": "The respondents argued that the detention was lawful as the petitioners were arrested on a complaint alleging a cognizable offence and were produced before the Magistrate accordingly.",
+    "key_facts": [
+      "Petitioners were detained at the police station from arrest until produced before the Magistrate.",
+      "The offences under sections 480 and 484 are non-cognizable and bailable.",
+      "The petitioners were not requested to furnish security for bail as required by law.",
+      "The Magistrate committed the petitioners to remand custody before later granting bail.",
+      "The police informed the Magistrate they would not file a plaint and the matter was referred to mediation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires that any person detained be brought before a judge and not held without legal authority. Detention without bail or legal order for non-cognizable offences violates this provision.",
+    "application_to_facts": "The court found that the petitioners were detained unlawfully because the offences alleged were non-cognizable and bailable, yet they were not released on bail or given an opportunity to furnish security. Their detention until production before the Magistrate was therefore unlawful under Article 13(2).",
+    "principles_established": [
+      "Detention without legal order or bail for bailable, non-cognizable offences violates Article 13(2).",
+      "Police must follow proper procedures for bail and security to avoid unlawful detention."
+    ],
+    "precedents_cited": [
+      "Faiz v. Attorney-General and Others (1995) 1 Sri LR 372"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the detention of the petitioners was unlawful and violated Article 13(2) of the Constitution.",
+    "disposition": "granted",
+    "remedy_or_orders": "The respondents were ordered to pay compensation for the unlawful detention."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) is central to the court's finding that the petitioners were unlawfully detained without legal order or bail, reinforcing the constitutional protection against arbitrary detention.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court noted that the petitioners were detained without bail despite the offences being non-cognizable and bailable, and that the police failed to request security, making the detention unlawful under Article 13(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

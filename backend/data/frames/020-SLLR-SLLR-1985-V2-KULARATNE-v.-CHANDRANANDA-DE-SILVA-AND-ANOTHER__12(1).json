@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_020-SLLR-SLLR-1985-V2-KULARATNE-V.-CHAND_106_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. REF. 1/85",
+    "case_title": "Kularatne v. Chandrananda de Silva and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-06-10",
+    "source_citation": "Sri Lanka Law Reports (1985) 2 Sri L.R. 164"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was disqualified from being an elector or elected Member of Parliament due to corrupt practices committed by his agent with his knowledge and consent, under the Constitution and related election laws.",
+    "petitioner_claim": "The petitioner argued that removal of his name from the Register of electors violated his constitutional and civic rights, including the right to vote, and that he was not personally found guilty of any corrupt practice as required by Article 89(e)(iii) of the 1978 Constitution.",
+    "respondent_argument": "The respondents contended that under the relevant election laws, the candidate is disqualified if corrupt practices were committed by his agent with his knowledge and consent, effectively treating the candidate as guilty and justifying removal from the Register of electors.",
+    "key_facts": [
+      "The petitioner was declared elected Member of Parliament but his election was voided due to corrupt practice by his agent.",
+      "The Election Judge found the agent guilty of making false statements with the petitioner's knowledge and consent.",
+      "The petitioner’s name was removed from the Register of electors based on this report.",
+      "The petitioner was not personally found guilty of corrupt practice by the Election Judge.",
+      "The case involved interpretation of Articles 88, 89(e)(iii), and 90 of the 1978 Constitution and related election laws."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 89(e)(iii) disqualifies only a person personally found guilty of corrupt practice by a Judge's report. The disqualification does not extend to a candidate merely because his agent committed corrupt practice with his knowledge and consent. The court distinguished the Sri Lankan constitutional provision from English law, which treats a candidate as personally guilty if corrupt practice is committed by his agent with his knowledge and consent. The court emphasized that the Constitution’s language is plain and does not include vicarious disqualification.",
+    "application_to_facts": "Since the Election Judge's report found only the agent guilty and did not find the petitioner personally guilty of corrupt practice, the petitioner was not disqualified under Article 89(e)(iii). The provisions of the older Election Order in Council that imposed disqualification on candidates for their agents' corrupt acts were inconsistent with the Constitution and thus not operative.",
+    "principles_established": [
+      "Disqualification under Article 89(e)(iii) applies only to persons personally found guilty of corrupt practice.",
+      "Vicarious liability for disqualification (due to agent's corrupt practice) is not supported by the Constitution's language.",
+      "Legislative provisions inconsistent with the Constitution are invalid to the extent of inconsistency.",
+      "English election law principles do not automatically apply to Sri Lankan constitutional interpretation."
+    ],
+    "precedents_cited": [
+      "Hack v. London Provident Building Society [1833] 23 Cb. D. 103, 108"
+    ]
+  },
+  "outcome": {
+    "holding": "The petitioner was not disqualified from being an elector or from being elected as a Member of Parliament under Article 89(e)(iii) of the 1978 Constitution, as he was not personally found guilty of corrupt practice.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Court of Appeal was directed to make its order on the petitioner's application in light of the Supreme Court's determination."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) guarantees equality before the law and equal protection, which underpins the court's insistence that disqualification must be based on personal guilt, not vicarious liability through an agent, ensuring fair and equal treatment under the law.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that Article 89(e)(iii) disqualifies only a person personally found guilty of corrupt practice by a Judge's report and does not apply to a candidate whose agent committed corrupt practice with his knowledge and consent.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

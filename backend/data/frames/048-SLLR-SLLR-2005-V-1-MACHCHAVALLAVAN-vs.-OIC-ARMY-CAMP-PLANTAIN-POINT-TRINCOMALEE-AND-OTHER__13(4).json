@@ -1,0 +1,69 @@
+{
+  "frame_id": "RQ1_048-SLLR-SLLR-2005-V-1-MACHCHAVALLAVAN-V_094_C01__13(4)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPEAL_90_2003",
+    "case_title": "Machchavallavan vs OIC, Army Camp, Plantain Point, Trincomalee and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2005-03-31",
+    "source_citation": "Supreme Court of Sri Lanka, SC Appeal No. 90/2003, decided on 31 March 2005"
+  },
+  "clause": {
+    "article": "13(4)",
+    "text": "Punishment can only be imposed by a competent court and detention before trial is not punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether there was a prima facie infringement of Article 13(4) of the Constitution regarding the arrest, detention, and disappearance of the petitioner’s two sons by Army officers, and whether the Court of Appeal should have referred the matter to the Supreme Court under Article 126(3).",
+    "petitioner_claim": "The petitioner argued that his two sons were arrested and detained by officers of the Plantain Point Army Camp and subsequently disappeared, constituting a violation of their fundamental rights under Article 13(4). He sought writs of habeas corpus and compensation for the disappearance and presumed death.",
+    "respondent_argument": "The respondents denied responsibility for the arrest and detention, argued that the petitioner did not raise a fundamental rights violation under Article 13(4) at the initial stage, and contended that the application was time-barred under Article 126(2). They also denied that the 1st respondent had authority or involvement in the arrest.",
+    "key_facts": [
+      "The petitioner’s two sons were arrested on 06.07.1990 during a cordon and search operation by the Plantain Point Army Camp.",
+      "The sons disappeared after being detained at the Army Camp; the petitioner was released the same day.",
+      "The Court of Appeal dismissed the habeas corpus applications due to insufficient evidence against the 1st respondent and the petitioner’s delayed complaint.",
+      "The Supreme Court granted leave to appeal on whether the Court of Appeal should have referred the matter under Article 126(3) and on State liability.",
+      "Evidence including complaints to police and civilian offices supported the petitioner’s claim of arrest and detention by Army officers."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 13(4) as protecting individuals from punishment except by order of a competent court, clarifying that detention before trial is not punishment. The Court held that the disappearance and presumed death of the petitioner’s sons while in Army custody constituted a prima facie infringement of their fundamental rights under Article 13(4).",
+    "application_to_facts": "The Court found sufficient prima facie evidence that the sons were arrested and detained by Army officers at the Plantain Point Army Camp, and that their disappearance implied unlawful deprivation of liberty and presumed death without judicial process. The Court held that the Court of Appeal erred in not referring the matter to the Supreme Court under Article 126(3).",
+    "principles_established": [
+      "No person shall be punished except by order of a competent court according to law.",
+      "Detention pending investigation or trial is not punishment under Article 13(4).",
+      "The burden of proof in habeas corpus cases lies on the detaining authority to justify the detention.",
+      "The Court of Appeal must refer matters to the Supreme Court under Article 126(3) if prima facie evidence of fundamental rights infringement appears.",
+      "The State is liable for the disappearance and presumed death of persons detained by its officers."
+    ],
+    "precedents_cited": [
+      "Shanthi Chandrasekeram v D. B. Wijetunga and Others (1992) 2 Sri LR 293",
+      "Sebastian M Hongray v Union of India (Air) 1984 SC 1026",
+      "Kotabadu Durage Sriyani Silva v Chanaka Iddamalgoda (2003) 1 Sri LR 14 and 2 Sri LR 63",
+      "Rani Fernando's case SC FR 700/2002",
+      "R v. Brixton Prison Governor Ex-Parte Walsh (1985) AC 154",
+      "R v. Durham Prison Governor Ex-Parte Hardial Singh (1984) 1 WLR 704"
+    ]
+  },
+  "outcome": {
+    "holding": "The Supreme Court held that there was prima facie evidence of infringement of Article 13(4) rights, that the Court of Appeal should have referred the matter under Article 126(3), and that the State is liable for the disappearance and presumed death of the petitioner’s sons. The appeal was allowed, the Court of Appeal judgment was set aside, and the State was ordered to pay compensation.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was ordered to pay Rs. 150,000 each for the two sons as compensation and costs, totaling Rs. 300,000, payable within three months."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(4) was central to the Court’s reasoning as it protects against punishment without judicial process and was the basis for finding a fundamental rights violation due to the unlawful detention and disappearance of the petitioner’s sons. The Court relied on this clause to hold the State liable and to order compensation.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner’s sons were arrested during a cordon and search operation by the Plantain Point Army Camp on 06.07.1990 and subsequently disappeared while in detention. Complaints to police and civilian offices, and witness Jesudasan’s testimony corroborated the petitioner’s claims. The Court found prima facie evidence of unlawful detention and disappearance.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "frame_id": "RQ1_003-SLLR-SLLR-2003-1-SRIYANI-SILVA-WIFE-_005_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION No. 471/2000",
+    "case_title": "Sriyani Silva (Wife of Jagath Kumara-Deceased) v. Iddamalgoda, Officer-in-Charge, Police Station, Payagala and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-12-10",
+    "source_citation": "Sri Lanka Law Reports [2003] 1 Sri L.R"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the widow of a deceased detainee who died as a result of alleged torture in police custody has locus standi to prosecute a fundamental rights application under Article 11 of the Constitution, and whether the application was filed within the prescribed time limit.",
+    "petitioner_claim": "The petitioner (widow) claimed that her deceased husband’s fundamental rights under Article 11 (freedom from torture) were violated resulting in his death, and that she has the right to continue the application seeking relief and compensation as his legal representative.",
+    "respondent_argument": "The respondents argued that the right to apply for relief under Article 126(2) is personal to the aggrieved person and does not survive death; therefore, the widow has no locus standi. They also argued that the widow’s application was out of time as it was filed more than one month after the death.",
+    "key_facts": [
+      "The deceased was arrested on 12.06.2000 and kept in police custody until remanded to prison on 17.06.2000.",
+      "The detainee died on 20.06.2000 in remand prison, with medical evidence indicating death due to injuries from assault while in custody.",
+      "The initial fundamental rights petition was filed on 18.07.2000 by an attorney-at-law on behalf of the deceased (who was already dead).",
+      "On 23.08.2000, the petition was amended to substitute the widow as petitioner.",
+      "Preliminary objections were raised on locus standi and time bar grounds."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 11 guarantees freedom from torture and that the right to seek redress for infringement of fundamental rights does not cease with the death of the victim, especially where death results from the infringement. The Court interpreted Article 126(2) and Article 17 together to allow a person with a legitimate interest, such as the widow, to prosecute the right when there is a causal link between the death and the infringement. The Court rejected a strict literal interpretation that would bar the widow from proceeding, as it would lead to an absurd result where survivors can seek redress but dependants of deceased victims cannot.",
+    "application_to_facts": "Given the prima facie evidence of torture causing death, the Court found the widow had locus standi to continue the application. The initial petition was filed within the one-month period after death, and the amendment substituting the widow was allowed. The Court overruled the preliminary objections on locus standi and time bar grounds.",
+    "principles_established": [
+      "Fundamental rights under Article 11 include freedom from torture and cruel treatment.",
+      "The right to seek redress for infringement of fundamental rights survives the death of the victim when death results from the infringement.",
+      "A legitimate interested person, such as a widow, may prosecute the right under Article 126(2) in such circumstances.",
+      "Strict literal interpretation of constitutional provisions should be avoided if it leads to absurd or unjust results."
+    ],
+    "precedents_cited": [
+      "Somawathie v Weerasinghe and Others (1990) 2 Sri LR 121 (distinguished)",
+      "Corocraft v Pan-Am (1969) Q B 616",
+      "Lyons v Tucker (1880) 6 Q B D 660",
+      "Barru v Lachchman 111 PR 1913",
+      "Rananjaya Singh v Baijnath Singh AIR 1954 S.C. 749",
+      "Chatenay v Brazilian Submarine Telegraph Co (1891) 1 Q B 79",
+      "Abel v Lee (1871) L.R. 6 P 365",
+      "Premalal de Silva v Inspector Rodrigo and Others (1991) 2 Sri LR 301"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the widow has locus standi to prosecute the fundamental rights application under Article 11, and the application was filed within time. The preliminary objections on locus standi and time bar were overruled.",
+    "disposition": "granted",
+    "remedy_or_orders": "Registrar directed to list the application for hearing; no costs ordered."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 is central to the case as the alleged violation of the deceased’s fundamental right to be free from torture and cruel treatment led to his death, forming the basis for the widow’s claim for redress and compensation.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Medical evidence showed the detainee died from injuries caused by assault in police custody, and the Court recognized the right to seek redress for such infringement under Article 11 survives death.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

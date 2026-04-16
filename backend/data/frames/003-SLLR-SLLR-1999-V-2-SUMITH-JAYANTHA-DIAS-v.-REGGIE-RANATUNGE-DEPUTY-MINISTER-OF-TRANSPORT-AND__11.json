@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_003-SLLR-SLLR-1999-V-2-SUMITH-JAYANTHA-D_004_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 98/97",
+    "case_title": "Sumith Jayantha Dias v. Reggie Ranatunge, Deputy Minister of Transport and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-11-09",
+    "source_citation": "Sri Lanka Law Reports [1999] 2 Sri LR."
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment or punishment in violation of Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that he was assaulted and subjected to cruel, inhuman and degrading treatment by the 1st, 2nd, 3rd, and 5th respondents, including being put on the ground, assaulted, thrown into a police jeep, assaulted inside the jeep, and verbally abused by the 6th respondent, all at the behest or with the participation of the respondents.",
+    "respondent_argument": "The 5th and 6th respondents denied the allegations of assault and argued that the petitioner was not subjected to torture or cruel, inhuman or degrading treatment. They contended that the petitioner was taken into custody to prevent a breach of the peace and that the assault and injuries alleged did not meet the threshold of severity required under Article 11.",
+    "key_facts": [
+      "The petitioner was filming a burning lorry with a camera belonging to ITN when the 1st respondent and others attempted to seize the tape and assaulted him.",
+      "The petitioner was put on the ground, assaulted, and forcibly placed into a police jeep where he was further assaulted.",
+      "The petitioner was detained for over six and a half hours and released the next day.",
+      "Medical reports confirmed fresh injuries consistent with assault.",
+      "The 1st respondent was present at the police station questioning the petitioner and did not prevent the assault."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 11 as prohibiting torture and any cruel, inhuman or degrading treatment or punishment that crosses a minimum threshold of severity. Mere assault or injury may not suffice unless it attains a certain level of cruelty or severity.",
+    "application_to_facts": "The court found that the petitioner was subjected to treatment that crossed the threshold of severity under Article 11, including physical assault, being forcibly detained, and verbal abuse. The involvement and approval of the 1st, 2nd, 3rd, and 5th respondents in these acts established a violation of Article 11.",
+    "principles_established": [
+      "Article 11 protects against torture and cruel, inhuman or degrading treatment or punishment, requiring a minimum level of severity.",
+      "Physical assault and treatment causing fresh injuries consistent with assault can meet the threshold of Article 11 violations.",
+      "State actors and those acting with their approval or acquiescence can be held liable for violations of Article 11."
+    ],
+    "precedents_cited": [
+      "Saman v. Leeladasa (1989) 1 Sri LR 10",
+      "Faiz v. Attorney-General (1995) 2 Sri LR 372, 383"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental right under Article 11 was violated by the acts of the 1st, 2nd, 3rd, and 5th respondents.",
+    "disposition": "granted",
+    "remedy_or_orders": "The court awarded the petitioner Rs. 150,000 as compensation and costs, directing the State and the respondents to pay specified amounts by 1st February 1999."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the court’s reasoning as the petitioner alleged and the court found that he was subjected to cruel, inhuman and degrading treatment by the respondents, which constituted a violation of his fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was assaulted by the 1st, 2nd, 3rd, and 5th respondents, forcibly detained, and sustained fresh injuries consistent with assault as confirmed by medical reports.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

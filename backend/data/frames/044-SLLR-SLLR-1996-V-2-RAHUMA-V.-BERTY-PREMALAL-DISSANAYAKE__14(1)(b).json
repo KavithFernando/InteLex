@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_044-SLLR-SLLR-1996-V-2-RAHUMA-V.-BERTY-P_070_C02__14(1)(b)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_120_95",
+    "case_title": "Rahuma Umma v. Berty Premalal Dissanayake",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-01-15",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 120/95, decided on 29 December 1995 and 15 January 1996"
+  },
+  "clause": {
+    "article": "14(1)(b)",
+    "text": "Freedom of peaceful assembly."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Petitioner's fundamental right to freedom of peaceful assembly guaranteed by Article 14(1)(b) was violated by the Respondents' disruption of the school meeting and prize giving.",
+    "petitioner_claim": "The Petitioner claimed that the Respondents' actions prevented her from holding the meeting and addressing the students, staff, and well-wishers peacefully assembled at the school.",
+    "respondent_argument": "The 1st Respondent contended that he intervened to prevent a breach of the peace and that his actions were not related to his official authority over the school.",
+    "key_facts": [
+      "A meeting of students, parents, and well-wishers was scheduled at the school hall.",
+      "The Respondents disrupted the meeting by pulling down the pandol and conducting a separate prize giving.",
+      "The Petitioner was deprived of the opportunity to hold the meeting peacefully.",
+      "The 1st Respondent and others acted under colour of office accompanied by police officers.",
+      "The 1st Respondent directed an investigation into the Petitioner's political activities at the school."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the right to peaceful assembly under Article 14(1)(b) protects the Petitioner's ability to hold meetings without unlawful interference, and that acts by public officers under colour of office disrupting such assembly violate this right.",
+    "application_to_facts": "The court found that the Respondents' disruption of the meeting and interference with the Petitioner's arrangements constituted an infringement of her right to peaceful assembly, as the acts were done under colour of office.",
+    "principles_established": [
+      "Freedom of peaceful assembly includes the right to hold meetings without unlawful disruption.",
+      "Public officers acting under colour of office are liable for infringing fundamental rights even if they abuse power or exceed authority.",
+      "Disruption of peaceful assembly by state actors constitutes executive or administrative action under Article 126."
+    ],
+    "precedents_cited": [
+      "Velumurugu v. A.G.",
+      "Sunanda Deshapriya and another v. Municipal Council Nuwara-Eliya and Mayor of Nuwara Eliya",
+      "Upaliratne and Others v. Tikiri Banda and Others",
+      "Mohamed Faiz, Wild Life Ranger v. A.G."
+    ]
+  },
+  "outcome": {
+    "holding": "The court overruled the preliminary objection and held that the Respondents' acts constituted executive or administrative action infringing the Petitioner's fundamental right to freedom of peaceful assembly under Article 14(1)(b).",
+    "disposition": "granted",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(b) protects the right to peaceful assembly, which was directly infringed by the Respondents' disruption of the Petitioner's meeting. The court's reasoning and decision centrally involved this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Respondents disrupted the meeting scheduled at the school hall by pulling down the pandol and conducting a separate prize giving, thereby depriving the Petitioner of the right to hold the meeting peacefully.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

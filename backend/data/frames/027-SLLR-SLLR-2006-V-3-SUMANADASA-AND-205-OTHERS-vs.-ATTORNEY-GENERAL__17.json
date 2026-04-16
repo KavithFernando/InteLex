@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_027-SLLR-SLLR-2006-V-3-SUMANADASA-AND-20_027_C03__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_SPL_1-199-200-206_2006",
+    "case_title": "Sumanadasa and 205 Others vs. Attorney General",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2006-06-19",
+    "source_citation": "Sri Lanka Law Reports (2006) 3 Sri L. R."
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners, detained without bail and alleging infringement of fundamental rights, have the right to apply to the Supreme Court under Article 17.",
+    "petitioner_claim": "The petitioners filed complaints to the Supreme Court alleging infringement of their fundamental rights under Article 13(2) due to continuous detention without remedy.",
+    "respondent_argument": null,
+    "key_facts": [
+      "205 persons detained under Section 47(1) of the Immigration and Emigration Act.",
+      "Petitioners filed complaints directly to the Supreme Court.",
+      "The Court granted leave to proceed under Rule 44(7)(b) of the Supreme Court Rules 1990.",
+      "Petitioners lacked means to prosecute complaints in regular manner."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court recognized its jurisdiction under Article 118(b) for protection of fundamental rights and accepted the petitions under Article 17, noting the petitioners' inability to pursue regular applications and the substantial prejudice suffered.",
+    "application_to_facts": "The Court granted leave to proceed with the fundamental rights applications, consolidating the petitions and directing the State to respond by motion, thereby exercising its constitutional jurisdiction under Article 17.",
+    "principles_established": [
+      "The Supreme Court has jurisdiction to protect fundamental rights under Article 17.",
+      "Leave to proceed may be granted where petitioners lack means to prosecute complaints regularly.",
+      "Fundamental rights applications can be consolidated for efficient adjudication."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court allowed the applications under Article 17, holding that the petitioners' fundamental rights were infringed and granting relief accordingly.",
+    "disposition": "granted",
+    "remedy_or_orders": "Leave to proceed granted; Magistrate Courts directed to adjudicate continued detention according to applicable procedure."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 provides the constitutional basis for the petitioners to bring their fundamental rights complaints directly to the Supreme Court, which the Court accepted and acted upon, making this clause central to the case procedure and outcome.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Complaints (205) were addressed to the Supreme Court by persons held in custody... The Court decided to entertain these complaints in terms of Rule 44(7)(b) of the Supreme Court Rules 1990 and granted leave to proceed, in respect of the alleged infringement of the fundamental rights of the Petitioners guaranteed by Article 13(2) of the Constitution.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 200,
+      "end_char": 350
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "frame_id": "RQ1_028-SLLR-SLLR-2000-V-1-SUNILA-ABEYSEKERA_029_C01__15(7)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application No. 994/99",
+    "case_title": "Sunila Abeysekera v. Ariya Rubasinghe, Competent Authority and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-06-15",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 994/99, decided on 15 June 2000"
+  },
+  "clause": {
+    "article": "15(7)",
+    "text": "General restrictions may apply for national security, public order, health, morality, and welfare."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Emergency (Prohibition on Publication and Transmission of Sensitive Military Information) Regulation No. 1 of 1998, as amended, imposing restrictions on publication and transmission of sensitive military information, was a constitutionally valid restriction under Article 15(7) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the regulation was unwarranted, discriminatory, arbitrary, overbroad, vague, and not necessary in a democratic state, and that it violated her fundamental rights under Article 14(1)(a) and Article 12(1) of the Constitution. She also claimed the regulation was a pretext to protect the government from embarrassment rather than national security.",
+    "respondent_argument": "The respondents contended that the regulation was made under the Public Security Ordinance and was a necessary and proportionate restriction in the interests of national security. The regulation was precise enough, accessible, and the discretion of the Competent Authority was reviewable. The regulation was not overbroad or vague and was justified by the ongoing civil war and terrorism threats.",
+    "key_facts": [
+      "The regulation prohibited publication or transmission of sensitive military information related to operations in the Northern and Eastern provinces.",
+      "The petitioner was a social/human rights activist concerned about the ethnic conflict and war in the North and East.",
+      "The regulation was made under section 5 of the Public Security Ordinance by the President.",
+      "The petitioner alleged the regulation violated her rights to freedom of speech and expression and equal protection under the law.",
+      "The Court recognized the existence of a serious civil war and terrorism threat in Sri Lanka at the time."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 15(7) permits restrictions on freedom of speech in the interests of national security, but such restrictions must be prescribed by law, have a legitimate aim, and be necessary and proportionate. The Court interpreted the regulation restrictively to apply only to information concerning military operations in the North and East. The regulation was accessible, sufficiently precise, and the discretion of the Competent Authority was subject to judicial review, thus meeting the 'prescribed by law' requirement. The Court found a legitimate aim in protecting national security during an ongoing civil war and terrorism threat. The restrictions were necessary and proportionate, striking a fair balance between freedom of speech and national security interests.",
+    "application_to_facts": "The Court found the regulation was made under valid law (Public Security Ordinance), was accessible and sufficiently precise despite some ambiguity, and the Competent Authority's discretion was not unfettered but reviewable. The petitioner failed to prove the regulation was a pretext to protect the government from embarrassment. The Court took judicial notice of the serious civil war and terrorism threat, justifying the restrictions. The Court held the regulation was not overbroad or vague and that the restrictions were proportionate and necessary to protect national security.",
+    "principles_established": [
+      "Restrictions on freedom of speech under Article 15(7) must be prescribed by law, have a legitimate aim, and be necessary and proportionate.",
+      "Regulations restricting speech must be accessible and formulated with sufficient precision to enable individuals to foresee consequences.",
+      "Discretion conferred on authorities must be subject to clear guidelines and judicial review to prevent arbitrariness.",
+      "National security is a compelling governmental interest that can justify restrictions on freedom of speech during times of war or emergency.",
+      "Freedom of speech includes the right to receive information but is not absolute and may be restricted to protect national security.",
+      "Prior restraint is not per se unconstitutional but requires a heavy burden of justification.",
+      "Ambiguities in restrictive regulations must be interpreted restrictively to avoid overbreadth."
+    ],
+    "precedents_cited": [
+      "Joseph Perera alias Bruten Perera v. The Attorney-General and Others (1992) 1 Sri L. R. 199",
+      "Re Compulsory membership of journalists association (1986) 8 E. H. R. R. 165",
+      "Channa Pieris and Others v. The Attorney-General and Others (1994) 1 Sri L. R. 1",
+      "Palko v. Connecticut 302 U. S. 319 (1937)",
+      "Fernando v. The S. L. B. C. and Others (1996) 1 Sri L. R. 157",
+      "Sumith-Jayantha Dias v. Reggie Ranatunge (1999) 2 Sri L. R. 8",
+      "Stanley v. State of Georgia 394 U. S. 557 (1969)",
+      "Whitney v. California 274 U. S. 357 (1927)",
+      "Handyside v. The United Kingdom (1976) 1 E. H. R. R. 737",
+      "The Sunday Times v. The United Kingdom (1979) 2 E. H. R. R. 245",
+      "Barthold v. Germany (1985) 7 E. H. R. R. 383",
+      "Hodgson, Woolf Productions and National Union of Journalists and Channel Four Television v. United Kingdom (1988) 10 E. H. R. R. 503",
+      "App. No. 11508/85 v. Denmark (1989) 11 E. H. R. R. 543",
+      "Muller v. Switzerland (1991) 13 E. H. R. R. 212",
+      "The Observer and the Guardian v. United Kingdom (1992) 14 E. H. R. R. 153",
+      "The Sunday Times v. United Kingdom (No. 2) (1992) 14 E. H. R. R. 229",
+      "Castells v. Spain (1992) 14 E. H. R. R. 445",
+      "Thorgeirson v. Iceland (1992) 14 E. H. R. R. 843",
+      "Brind and Others v. United Kingdom (1994) 18 E. H. R. R. C. D. 76",
+      "Jersild v. Denmark (1995) 19 E. H. R. R. 1",
+      "Otto Preminger Institute v. Austria (1995) 19 E. H. R. R. 34",
+      "Oberschlick v. Austria (1995) 19 E. H. R. R. 389",
+      "Piermont v. France (1995) 20 E. H. R. R. 301",
+      "Goodwin v. United Kingdom (1996) 22 E. H. R. R. 123",
+      "Adams and Benn v. United Kingdom (1997) 23 E. H. R. R. C. D. 160",
+      "Wingrove v. United Kingdom (1997) 24 E. H. R. R. 1",
+      "Wickremasinghe v. Edmund Jayasinghe (1995) 1 Sri L. R. 300",
+      "Dennis v. United States 341 U. S. 495 (1951)",
+      "New York Times Co. v. U. S. 403 U. S. 713 (1971)",
+      "Joseph Perera v. Attorney-General (1992) 1 Sri L. R. 199"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the Emergency Regulation was a constitutionally valid restriction under Article 15(7) of the Constitution. The petitioner's fundamental rights under Articles 10, 12(1), and 14(1)(a) were not violated. The petition was dismissed.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 15(7) provides the constitutional basis for imposing restrictions on freedom of speech in the interests of national security. The Court's reasoning and ultimate dismissal of the petition rested centrally on whether the regulation met the requirements of Article 15(7) as a valid restriction.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found the regulation was made under valid law, was accessible and sufficiently precise, and the Competent Authority's discretion was reviewable. The petitioner failed to prove the regulation was a pretext to protect the government from embarrassment. The Court took judicial notice of the serious civil war and terrorism threat, justifying the restrictions. The restrictions were proportionate and necessary to protect national security.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_032-SLLR-SLLR-1987-1-NALLANAYAGAM-V.-DEL_157_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 95/85",
+    "case_title": "Nallanayagam v. Delgoda and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-10-18",
+    "source_citation": "Sri Lanka Law Reports [1987] 1 SriLR 299"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner's continued detention under Emergency Regulations violated his fundamental right to equality before the law and equal protection of the law under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that his detention under Emergency Regulations was illegal, ultra vires, and violated his fundamental rights including Article 12(1), as the regulations were inapplicable or improperly applied in his case.",
+    "respondent_argument": "The respondents contended that the detention was lawful under the Emergency Regulations, which modified ordinary jurisdiction and procedures in the interests of national security, and that the petitioner was lawfully detained following proper orders by a Magistrate having jurisdiction.",
+    "key_facts": [
+      "Petitioner detained since 26.7.85 under Emergency Regulations.",
+      "Petitioner produced before Magistrate, Colombo Fort, who ordered detention in Fiscal custody.",
+      "Indictment filed and trial scheduled; petitioner later released on bail with Attorney-General's consent.",
+      "Emergency Regulations allow detention and remand procedures differing from ordinary law, justified by national security.",
+      "Court held that the Magistrate's order was lawful and that Emergency Regulations lawfully modified jurisdiction and detention procedures."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) in the context of Emergency Regulations, holding that the regulations lawfully modify ordinary legal procedures in the interests of national security, and that detention under such regulations does not violate equality before the law if done according to law and proper jurisdiction.",
+    "application_to_facts": "The court found that the Magistrate's order detaining the petitioner was made by a court of competent jurisdiction under the Emergency Regulations, which shift jurisdiction to the place where the suspect is held. The petitioner was lawfully detained pending trial, and the Emergency Regulations' provisions were applicable and valid.",
+    "principles_established": [
+      "Emergency Regulations can lawfully modify ordinary jurisdiction and detention procedures in the interests of national security.",
+      "Detention under Emergency Regulations, if authorized by a competent court and in accordance with law, does not violate Article 12(1).",
+      "The place of detention determines jurisdiction under Emergency Regulations, not the place where the offence was committed."
+    ],
+    "precedents_cited": [
+      "Yasapalitha Nanayakkara v. Henry Perera"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner failed to establish a violation of his fundamental right to equality before the law under Article 12(1). The detention was lawful under the Emergency Regulations and the order of the Magistrate was valid.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner's claim that his detention was unlawful and discriminatory. The court's reasoning focused on whether the Emergency Regulations' detention procedures violated the right to equality before the law, ultimately finding no violation.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that the Magistrate's order was lawfully made by a Magistrate having jurisdiction and that the petitioner was in lawful custody. The Emergency Regulations lawfully modify jurisdiction and detention procedures in the interests of national security.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

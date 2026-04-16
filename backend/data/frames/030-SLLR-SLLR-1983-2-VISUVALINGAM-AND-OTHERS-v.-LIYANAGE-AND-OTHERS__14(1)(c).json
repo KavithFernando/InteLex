@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_030-SLLR-SLLR-1983-2-VISUVALINGAM-AND-OT_056_C02__14(1)(c)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_030_1983",
+    "case_title": "Visuvalingam and Others v. Liyanage and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1983-11-18",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Applications Nos. 47/83, 53/83 and 61/83, decided on 18 November 1983"
+  },
+  "clause": {
+    "article": "14(1)(c)",
+    "text": "Freedom of association."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners, as shareholders and directors of the company publishing the newspaper, could claim infringement of their fundamental right of freedom of association under Article 14(1)(c) when the company was restrained from publishing.",
+    "petitioner_claim": "The petitioners claimed that their right to freedom of association was infringed because they were associating through the company to carry on the newspaper business, and the closure of the newspaper violated this right.",
+    "respondent_argument": "The respondents argued that the company is a separate legal entity and not a citizen, thus it does not enjoy fundamental rights under Article 14. The petitioners' rights as shareholders were not directly infringed, only the company was affected.",
+    "key_facts": [
+      "The petitioners are shareholders and directors of New Era Publications Ltd., a company publishing the 'Saturday Review'.",
+      "The company was ordered closed under Emergency Regulations.",
+      "The petitioners sought to vindicate their rights through the company as an institutional device.",
+      "Previous Supreme Court rulings held companies are not citizens and cannot claim fundamental rights under Article 14.",
+      "The Court had to consider whether shareholders can claim rights independently of the company."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court distinguished between the company as a separate legal person and the shareholders as citizens. It held that the company is not a citizen and does not have fundamental rights under Article 14. The shareholders' rights are distinct and can only be protected if directly infringed. The Court rejected the argument that shareholders carry on business through the company for fundamental rights purposes.",
+    "application_to_facts": "The Court found that the orders directly affected the company’s rights, not the petitioners' rights as shareholders. The petitioners' rights were only indirectly affected. Therefore, the applications claiming infringement of freedom of association were not maintainable.",
+    "principles_established": [
+      "A company is a separate legal entity and not a citizen entitled to fundamental rights under Article 14.",
+      "Shareholders cannot claim fundamental rights on behalf of the company.",
+      "Freedom of association under Article 14(1)(c) does not extend to shareholders carrying on business through a company.",
+      "The Court will not lift the corporate veil to protect shareholders' fundamental rights except in exceptional circumstances."
+    ],
+    "precedents_cited": [
+      "Sharvananda J. rulings in S.C. 116/82 and S.C. 134/82",
+      "Saloman v. Saloman & Co. Ltd.",
+      "State Trading Corporation of India Ltd. v. Commercial Tax Officer",
+      "Tata Engineering & Locomotive Co. Ltd. v. State of Bihar",
+      "Bennett Coleman & Co. Ltd. v. Union of India"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioners' claims under Article 14(1)(c) for freedom of association were not maintainable because the company, not the shareholders, was directly affected and the company is not entitled to fundamental rights under the Constitution.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(c) was central to the petitioners' claim that their freedom of association was infringed by the closure of the newspaper company. The Court's reasoning focused on the legal distinction between the company and its shareholders under this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that the 7th petitioner-company is a separate legal entity and not a citizen, and that the impugned orders directly affected the company's rights, not the petitioners' rights as shareholders, thus the applications under Article 14(1)(c) were not maintainable.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

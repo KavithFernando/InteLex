@@ -1,0 +1,69 @@
+{
+  "frame_id": "RQ1_014-SLLR-SLLR-2008-V-1-VASUDEVA-NANAYAKK_012_C01__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_209_2007",
+    "case_title": "Vasudeva Nanayakkara v Choksy and Others (John Keells Case)",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2008-07-21",
+    "source_citation": "[2008] 1 Sri L.R"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner had locus standi and whether there was an infringement of fundamental rights, specifically the right to equality and equal protection of the law, in the executive action relating to the sale of shares of Lanka Marine Services Ltd (LMSL).",
+    "petitioner_claim": "The petitioner alleged that the sale of shares of LMSL to John Keells Holdings Ltd (JKH) was conducted without lawful authority, was biased, non-transparent, and violated the fundamental right to equality and equal protection of the law guaranteed by Article 12(1) of the Constitution. The petitioner also claimed that the privatization process was illegal and ultra vires, and that the petitioner had locus standi to bring the public interest application under Article 126.",
+    "respondent_argument": "The respondents argued that the petitioner lacked locus standi and that the sale was lawful. JKH contended that the transaction was bona fide and that ostensible authority of the PERC Chairman protected the transaction. They also denied the allegations of bias and illegality.",
+    "key_facts": [
+      "LMSL was a wholly owned company of the Ceylon Petroleum Corporation (CPC), a profit-making, tax-paying monopoly in bunkering services within the Port of Colombo.",
+      "The Public Enterprise Reform Commission (PERC) chaired by P.B. Jayasundera took steps to sell 90% shares of LMSL without Cabinet approval and contrary to Cabinet decisions.",
+      "The sale process lacked transparency, did not follow required procedures including valuation by the Government Valuer, and was biased in favor of JKH.",
+      "JKH obtained tax-free status for LMSL through amendments to BOI regulations after the sale.",
+      "The Presidential Grant of 8 acres of land within the Port of Colombo to LMSL was made without payment and contrary to constitutional provisions requiring Provincial Council advice."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 17 empowers any person to apply to the Supreme Court for violations of fundamental rights, including public interest litigation. The petitioner had sufficient locus standi to bring the application. The Court emphasized the Rule of Law and the constitutional principle that state resources are held in trust for the people and must be managed lawfully and transparently. The executive action must comply with law and not be arbitrary or biased. The Court found that the actions of the PERC Chairman and others were ultra vires, arbitrary, and biased, violating the right to equality and equal protection under Article 12(1).",
+    "application_to_facts": "The Court found that the sale of LMSL shares was conducted without lawful authority, contrary to Cabinet decisions, and involved misrepresentations and procedural irregularities. The valuation was flawed, the monopoly was unlawfully preserved, and the land transfer was illegal. These actions denied the petitioner and the public equal protection of the law. The petitioner’s locus standi was upheld as the case involved public interest and fundamental rights.",
+    "principles_established": [
+      "Article 17 allows any person to seek Supreme Court redress for fundamental rights violations, including public interest cases.",
+      "Executive power must be exercised within lawful authority and in accordance with Cabinet decisions and statutory mandates.",
+      "Ostensible authority of a public officer does not bind the State if the officer acts beyond actual authority.",
+      "The right to equality under Article 12(1) includes a positive component protecting against arbitrary and biased executive action.",
+      "Alienation of State land within a Province requires advice of the Provincial Council under the 13th Amendment and related laws."
+    ],
+    "precedents_cited": [
+      "Attorney-General v A. D. de Silva",
+      "Rowlands v Attorney-General",
+      "Visvalingam v Liyanage",
+      "Premachandra v Jayasundara",
+      "Bulankulama and others v Secretary Ministry of Industrial Development",
+      "Senaratne v Chandrika Kumarasinghe"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner had locus standi and that the executive action relating to the sale of LMSL shares infringed the fundamental right to equality and equal protection of the law. The impugned transaction was illegal, ultra vires, arbitrary, and biased. The Court declared related agreements and grants null and void and ordered restoration of possession of land to the Sri Lanka Ports Authority. The Court awarded compensation and costs accordingly.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declared the Presidential Grant of land null and void; directed respondents to vacate land and restore possession; declared the Common User Facility Agreement null and void; declared all agreements with the Board of Investment null and void; directed recovery of taxes due; awarded compensation of Rs. 500,000 to the State from the 8th respondent and Rs. 250,000 costs to the petitioner from respondents 18th to 21st."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 is central as it empowers the petitioner to bring a public interest fundamental rights application to the Supreme Court. The Court’s reasoning and ultimate decision on locus standi and the violation of fundamental rights rely directly on this constitutional provision.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner filed a public interest application under Article 126 alleging infringement of fundamental rights, specifically the right to equality under Article 12(1). The Court held that the petitioner had locus standi under Article 17 to bring the application and found the executive action illegal and biased, violating fundamental rights.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

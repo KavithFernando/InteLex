@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_004-SLLR-SLLR-2008-V-2-ROMESH-COORAY-V.-_010_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (F.R.) APPLICATION NO. 663/2003",
+    "case_title": "Romesh Cooray v Jayalath, Sub-Inspector of Police and others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2007-06-25",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (F.R.) Application No. 663/2003, decided on 25 June 2007"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was arrested according to the procedure established by law as required by Article 13(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed he was arrested unlawfully without any credible information, reasonable suspicion, or complaint against him, and was not informed properly of the reasons for his arrest.",
+    "respondent_argument": "The 1st respondent contended that the arrest was lawful based on information received during investigation, including a complaint by the 6th respondent and information from the 5th respondent implicating the petitioner in a robbery.",
+    "key_facts": [
+      "Petitioner was arrested at his residence on 06.07.2003 by police officers.",
+      "No material was produced to show any credible information or reasonable suspicion against the petitioner at the time of arrest.",
+      "Petitioner was informed of the reason for arrest but was subjected to assault and unlawful detention.",
+      "Petitioner was discharged from Magistrate's Court proceedings due to lack of evidence.",
+      "The petitioner had complained to the Human Rights Commission within one month of the alleged infringement."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that under Article 13(1), arrest must be according to procedure established by law, which requires credible information, reasonable suspicion, or complaint. Mere allegations without material do not justify lawful arrest.",
+    "application_to_facts": "Since no credible information or reasonable suspicion was shown and the petitioner was discharged due to lack of evidence, the Court found the arrest unlawful and not according to the procedure established by law.",
+    "principles_established": [
+      "Arrest must be based on credible information, reasonable suspicion, or complaint as per established legal procedure.",
+      "Failure to produce material evidence supporting arrest renders the arrest unlawful under Article 13(1).",
+      "Informing the arrested person of the reason is necessary but not sufficient if the arrest itself is unlawful."
+    ],
+    "precedents_cited": [
+      "Gamaethige v Siriwardena and others (1988) 1 SLR 384",
+      "Kumarasena v Sub-Inspector Sriyantha and others S.C. Application No. 257/93",
+      "Wijayasiriwardena v Kumara, Inspector of Police, Kandy and two others"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner's arrest was unlawful and violated Article 13(1) of the Constitution.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioner was awarded Rs. 100,000/- as compensation and costs payable by the State, with Rs. 15,000/- each to be paid personally by the 1st to 3rd respondents."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) directly governs the legality of the petitioner's arrest, which was central to the Court's finding that the arrest was unlawful and violated constitutional protections.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "No material was produced before the Supreme Court to show any complaint, credible information, or reasonable suspicion against the petitioner, and he was discharged from Magistrate's Court proceedings due to lack of evidence.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

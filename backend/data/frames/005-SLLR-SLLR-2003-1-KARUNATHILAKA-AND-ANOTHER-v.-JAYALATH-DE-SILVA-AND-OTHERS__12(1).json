@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_005-SLLR-SLLR-2003-1-KARUNATHILAKA-AND-A_028_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_334_2002",
+    "case_title": "Karunathilaka and Another v. Jayalath de Silva and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-11-25",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application 334/2002, decided on 25 November 2002"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the refusal to admit the 2nd petitioner (a child) to Dharmashoka Maha Vidyalaya violated his fundamental right to equality and equal protection under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that the education authorities arbitrarily and unreasonably refused admission to the 2nd petitioner despite the applicable rules (Clauses 13 and 16 of Circular No. 2001/15) entitling him to admission, thus infringing his right to equality under Article 12(1).",
+    "respondent_argument": "The respondents contended that admission was refused due to lack of vacancies as the maximum class size of 40 students was exceeded, and that the 2nd petitioner did not meet the cut-off marks for Grade 6 admission, thus justifying the refusal.",
+    "key_facts": [
+      "The 1st petitioner, a teacher, served in an uncongenial area (Puttalam) for 11 years before transferring to Ambalangoda in 2001.",
+      "The 2nd petitioner, her son, was schooling in Puttalam in a school with classes only up to Grade 5.",
+      "The 2nd petitioner sought admission to Dharmashoka Maha Vidyalaya near their residence but was refused admission to Grade 5 and later Grade 6.",
+      "Clause 13 of Circular No. 2001/15 entitled children of public servants who changed residence to admission in Grades 2 to 11 (excluding Grade 6).",
+      "Clause 16 required education authorities to find a suitable school for children who completed Grade 5 in schools without higher grades.",
+      "Despite these provisions, the 2nd petitioner was left without a school since January 2002."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as prohibiting arbitrary and unfair executive actions that deny equality and equal protection under the law. The principle of equality requires removing unfairness and arbitrariness and ensuring fairness in administrative decisions.",
+    "application_to_facts": "The court found that the refusal to admit the 2nd petitioner was arbitrary and lacked a reasonable basis. The authorities failed to comply with Clauses 13 and 16 of the relevant Circular, which mandated admission or allocation of a suitable school. The evidence showed that class sizes exceeded the prescribed limit but admissions were still made to others, demonstrating inconsistency and arbitrariness.",
+    "principles_established": [
+      "Equality under Article 12(1) forbids arbitrary and unfair administrative decisions.",
+      "Admission policies must be applied reasonably and consistently to avoid discrimination.",
+      "Education is a fundamental right linked to equality and fairness in access.",
+      "Authorities have a mandatory duty to allocate schools for children who complete Grade 5 in schools without higher grades."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the refusal to admit the 2nd petitioner violated his fundamental right to equality under Article 12(1) of the Constitution and was arbitrary and unreasonable.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 2nd respondent was directed to admit the 2nd petitioner to Grade 6 of Dharmashoka Maha Vidyalaya forthwith. The State was ordered to pay Rs. 25,000 as compensation to the 2nd petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it prohibits arbitrary exclusion and guarantees equal protection under the law. The court found the refusal to admit the child was arbitrary and thus violated this constitutional guarantee.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The refusal to admit the child was not on a reasonable basis but rested on arbitrariness violative of Article 12(1). The authorities failed to comply with Clauses 13 and 16 of Circular No. 2001/15, and class sizes exceeded limits yet admissions were made to others.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_016-SLLR-SLLR-1987-1-LAXAMANA-AND-OTHERS_081_C01__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATIONS 116/86, 118/86, 122/86, 123/86, 124/86",
+    "case_title": "Laxamana and Others v. G. P. S. Weerasooriya, General Manager of Railways and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1986-12-17",
+    "source_citation": "[1987] 1 Sri L R 172"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the compulsory military or quasi-military training and subsequent deployment of Railway Security Officers to a high risk area violated their fundamental rights under Article 12(2) of the Constitution against discrimination.",
+    "petitioner_claim": "The petitioners argued that they were public officers recruited for civil duties limited to protecting railway property and apprehending offenders within railway premises, and that compelling them to undergo military-style training and deploying them to a high risk area constituted discrimination and an infringement of their fundamental rights under Article 12(2).",
+    "respondent_argument": "The respondents contended that the Government had plenary authority to require further training of Railway Security Officers and to deploy them as necessary to meet security challenges, including in high risk areas, and that the training was not military training but necessary civil defence training under the relevant regulations.",
+    "key_facts": [
+      "The Government ordered Railway Security Officers to undergo further training at military camps (Pannala and Tampalagrama) due to terrorist activities.",
+      "The training involved strict military discipline and confinement, which interfered with officers' personal liberty.",
+      "Some officers left the camp after an assault incident and others refused to attend subsequent training, leading to notices of vacation of post.",
+      "Tampalagrama camp was in a high risk area with active terrorist threats.",
+      "The Railway Security Service's normal duties were civil in nature, limited to railway premises and not involving military combat."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court recognized that while the Government has authority to require training and deployment of public officers to meet security challenges, such actions must respect the fundamental rights of individuals, including the prohibition of discrimination under Article 12(2). The Court emphasized the distinction between civil defence duties and military or quasi-military operations, noting that the Railway authorities failed to properly consider this dividing line.",
+    "application_to_facts": "The Court found that the strict military-style training and deployment to a high risk area went beyond permissible civil defence measures and effectively imposed military duties on officers recruited for civil roles. This constituted a violation of their rights, including discrimination based on the nature of their duties and deployment conditions.",
+    "principles_established": [
+      "The State's plenary authority to deploy public officers is subject to respecting their fundamental rights.",
+      "There is a legal distinction between civil defence security duties and military or quasi-military operations.",
+      "Good faith by authorities does not excuse violations of fundamental rights.",
+      "Training and deployment must be lawful and consider contractual and fundamental rights of officers."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that the notices of vacation of post served on the petitioners were invalid as the treatment accorded to them violated their fundamental rights under Article 12(2). The applications were allowed with costs, but no further relief was granted.",
+    "disposition": "granted",
+    "remedy_or_orders": "Notices of vacation of post declared invalid; costs awarded to petitioners."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was central to the Court's reasoning as the petitioners claimed discrimination in the form of being compelled to undergo military training and deployment beyond their civil duties, which the Court found unlawful and violative of their fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court noted that the Railway authorities had not considered the dividing line between civil defence security and military or quasi-military action, and that the treatment accorded to the petitioners could not be justified in law, leading to the invalidation of the notices of vacation of post.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

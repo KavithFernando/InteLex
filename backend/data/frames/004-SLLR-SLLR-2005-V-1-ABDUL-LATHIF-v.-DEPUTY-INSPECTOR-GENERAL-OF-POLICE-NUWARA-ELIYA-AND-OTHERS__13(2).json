@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_004-SLLR-SLLR-2005-V-1-ABDUL-LATHIF-V.-D_009_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. FR 244/2002",
+    "case_title": "Abdul Lathif v. Deputy Inspector General of Police, Nuwara-Eliya and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2003-10-29",
+    "source_citation": "Sri Lanka Law Reports (2005) 1 Sri L. R."
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was detained lawfully and produced before a judge within the time and manner required by Article 13(2).",
+    "petitioner_claim": "The petitioner claimed he was detained unlawfully at the police station for several hours and was produced before the Magistrate late at night with misleading information to obtain remand.",
+    "respondent_argument": "The respondents argued the detention and production before the Magistrate were lawful and justified by the complaint and investigation.",
+    "key_facts": [
+      "Petitioner was detained at the police station from about 2 p.m. until 8 p.m. before being produced before the Magistrate.",
+      "Police misled the Magistrate by alleging the petitioner was evading arrest and had committed similar offences without evidence.",
+      "Attorney-at-law was misled to leave the police station before the petitioner was produced.",
+      "The complainant sought to withdraw the complaint but was unable to do so at the police station.",
+      "The court found the detention and production violated Article 13(2)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires that any detained person be brought promptly before a judge and not held without legal authority. Delays or misleading conduct to obtain remand violate this right.",
+    "application_to_facts": "The court found the petitioner was detained unnecessarily long and produced before the Magistrate under false pretenses, violating the constitutional requirement for lawful detention and prompt judicial oversight.",
+    "principles_established": [
+      "Detention must be brief and lawful with prompt production before a judge.",
+      "Misleading judicial officers to obtain remand is a violation of Article 13(2).",
+      "Police must not prolong detention without legal justification."
+    ],
+    "precedents_cited": [
+      "Faiz v. Attorney-General (1995) 1 Sri LR 372"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s detention and production before the Magistrate violated Article 13(2) due to delay and misleading conduct by police.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation was awarded to the petitioner and disciplinary proceedings were ordered against the responsible police officer."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was central to the court’s finding that the petitioner’s detention was unlawfully prolonged and that police misconduct in producing him late at night violated constitutional protections.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was detained from 2 p.m. until 8 p.m. and produced before the Magistrate with misleading information; the court found this violated Article 13(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

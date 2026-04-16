@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_016-SLLR-SLLR-1997-V3-GAMINI-PERERA-ATTO_040_C01__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION 600/95",
+    "case_title": "Gamini Perera, Attorney-at-Law (on behalf of Saman Srimal Bandara) v. W. B. Rajaguru, Inspector-General of Police and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-06-26",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application 600/95, decided on 26 June 1997"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Detention Order under Emergency Regulation 17(1) was valid and complied with Article 13(2) of the Constitution, specifically if the Secretary must consider and specify the period of detention in the order.",
+    "petitioner_claim": "The petitioner argued that the Detention Order did not specify the period of detention as required, thus violating Article 13(2) rights.",
+    "respondent_argument": "The respondents contended that the Secretary was not required to specify the period of detention in the order, and that the order was valid and in the public interest.",
+    "key_facts": [
+      "The petitioner was detained under Emergency Regulation 17(1) without a specified period of detention in the order.",
+      "The Secretary did not indicate consideration of the detention period in his affidavit.",
+      "The petitioner was detained from 30.8.95 until 14.11.95 under the impugned order.",
+      "The Magistrate remanded the petitioner on 14.11.95 before the expiry of three months.",
+      "No criminal proceedings were instituted against the petitioner up to the date of the decision."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted ER 17(1) as requiring the Secretary to consider and specify the period of detention in the Detention Order, as the power to detain is limited to a period not exceeding three months. The phrase 'for a period not exceeding three months' means a specific period must be stated. Detention without specifying the period is not 'according to procedure established by law' and infringes Article 13(2).",
+    "application_to_facts": "Since the impugned Detention Order did not specify any period of detention and the Secretary did not show he considered the period, the order was invalid and violated the petitioner’s constitutional rights under Article 13(2).",
+    "principles_established": [
+      "The Secretary must consider the necessity and length of detention before issuing a Detention Order under ER 17(1).",
+      "The Detention Order must specify the period of detention, which cannot exceed three months.",
+      "Detention without specifying the period is unlawful and violates Article 13(2).",
+      "The limitation on detention period is a safeguard for liberty even under executive detention powers."
+    ],
+    "precedents_cited": [
+      "Ansalin Fernando v. Perera (1992) 1 Sri L.R. 411",
+      "Leelaratne v. Herath S.C. Application 145/86",
+      "Mallows v. CIT (1962) 66 N.L.R. 321"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the Detention Order was invalid for not specifying the period of detention, thereby infringing Article 13(2) of the Constitution. The petitioner’s fundamental rights were violated, and compensation was awarded.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was directed to pay Rs. 25,000 as compensation and Rs. 15,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) protects against unlawful detention without legal order specifying the detention period. The court’s reasoning centered on whether the Detention Order complied with this constitutional safeguard, making the clause central to the decision.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The impugned Detention Order did not specify the period of detention, and the Secretary did not indicate consideration of the detention period, thus violating Article 13(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_011-SLLR-SLLR-1994-V1-JAYATILLAKE-AND-AN_004_C01__10",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATIONS_1_2_92",
+    "case_title": "Jayatillake and Another v. Kaleel and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1992-02-28",
+    "source_citation": "Supreme Court of Sri Lanka, SC Applications 1 & 2/92, decided on 28 February 1992"
+  },
+  "clause": {
+    "article": "10",
+    "text": "Every person is entitled to freedom of thought, conscience and religion, including the freedom to have or to adopt a religion or belief of his choice."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' conduct in associating with a public campaign against their political party leadership and their inconsistent support and retraction of signatures on an impeachment motion constituted a protected exercise of their freedom of thought and conscience under Article 10 of the Constitution.",
+    "petitioner_claim": "The petitioners argued that their actions, including signing the impeachment motion and later withdrawing their signatures, as well as their public criticisms and association with dissident members, were protected by their constitutional right to freedom of thought and conscience under Article 10, and that disciplinary action by the party was invalid.",
+    "respondent_argument": "The respondents contended that the petitioners' conduct was not a legitimate exercise of their constitutional rights but a breach of party discipline, deceitful conduct, and that their public campaign and inconsistent actions undermined party cohesion and were not protected by Article 10.",
+    "key_facts": [
+      "Petitioners signed a notice of resolution to impeach the President without reading or understanding its contents.",
+      "Petitioners later signed letters withdrawing their signatures and condemning the impeachment motion as malicious.",
+      "Petitioners associated publicly with expelled party members campaigning against the party leadership and the Executive Presidential System.",
+      "Petitioners requested a free vote on a no-confidence motion against the Speaker but were absent during the vote without valid excuse.",
+      "Petitioners were expelled from the party for these actions following disciplinary proceedings."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the petitioners' conduct was not a protected exercise of freedom of thought and conscience under Article 10. The right to freedom of speech and conscience is subject to lawful restrictions and party discipline. Public criticism and association with dissidents that undermine party cohesion and discipline are not protected. Signing a serious constitutional document without knowledge was a misuse of constitutional rights. The petitioners' inconsistent and deceitful conduct justified disciplinary action.",
+    "application_to_facts": "The petitioners admitted signing the impeachment motion without knowledge and later retracting their signatures but continued to support the motion publicly. Their association with expelled members and public criticism of the party leadership and system, combined with their absence from a critical vote, demonstrated conduct contrary to party obligations and discipline. This conduct was not protected by Article 10 and warranted expulsion.",
+    "principles_established": [
+      "Freedom of thought and conscience under Article 10 is subject to lawful restrictions including party discipline.",
+      "A Member of Parliament's freedom of speech is constrained by party discipline obligations.",
+      "Signing a constitutional document without knowledge is a misuse of constitutional rights.",
+      "Public association with dissidents to undermine party leadership is not protected freedom of thought or conscience.",
+      "Disciplinary action for breach of party discipline is valid even when constitutional rights are claimed."
+    ],
+    "precedents_cited": [
+      "Dissanayake v. Kaleel SC (Special) Nos. 4 to 11/91",
+      "Joseph Perera v. Attorney-General SC Applications No. 107 - 109/96",
+      "Ridge v. Baldwin [1964] AC 40",
+      "Austin v. Keefe 1971 US 402"
+    ]
+  },
+  "outcome": {
+    "holding": "The court upheld the validity of the petitioners' expulsion from the party, finding that their conduct was not protected by Article 10 and that disciplinary proceedings were justified.",
+    "disposition": "granted",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 10 was central to the petitioners' defense claiming their conduct was protected freedom of thought and conscience. The court directly interpreted Article 10 to clarify that such freedom is subject to lawful restrictions including party discipline, and that the petitioners' conduct fell outside protected rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioners' public association with expelled members, inconsistent support and retraction of the impeachment motion, and absence from a critical vote demonstrated conduct not protected by Article 10, justifying their expulsion.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3200,
+      "end_char": 3900
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_010-SLLR-SLLR-1983-2-JANSZ-V.-AIR-LANKA-_015_C01__14(1)(d)",
+  "created_at": "2024-06-10",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_45_83",
+    "case_title": "Jansz v. Air Lanka Limited and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1983-08-30",
+    "source_citation": "Supreme Court Application No. 45/83, decided on 30 August 1983"
+  },
+  "clause": {
+    "article": "14(1)(d)",
+    "text": "Freedom to form and join a trade union."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s fundamental right under Article 14(1)(d) to freedom to form and join a trade union was infringed by executive or administrative action.",
+    "petitioner_claim": "The petitioner claimed that he was victimized and his fundamental rights under Article 14(1)(d) were infringed because he was the Secretary of the Flight Engineers' Union and was subjected to interdiction and disciplinary inquiry due to his union activities.",
+    "respondent_argument": "The respondents denied that the petitioner was victimized on account of his union membership or activities. They argued that the interdiction and disciplinary actions were based on other reasons, including alleged conduct and managerial concerns about conflict of interest for union officials holding managerial posts.",
+    "key_facts": [
+      "The petitioner was Chief Flight Engineer and Secretary of the Flight Engineers' Union.",
+      "The petitioner was given an ultimatum to resign from the union, which he refused, asserting his fundamental right to union membership.",
+      "A circular (P9) was issued advising management staff to cease union activities during management appointments.",
+      "The petitioner was interdicted and subjected to disciplinary inquiry following an incident involving a captain and other crew members.",
+      "The petitioner alleged victimization due to union membership; respondents denied this and stated actions were based on conduct and company policy."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court recognized that Article 14(1)(d) guarantees the freedom to form and join trade unions. However, the court emphasized that the petitioner must establish victimization or infringement of this right by executive or administrative action.",
+    "application_to_facts": "The court examined the evidence and affidavits, noting that the petitioner failed to prove that the interdiction and disciplinary inquiry were motivated by his union activities. The respondents provided credible denials and explanations that the actions were based on managerial concerns and conduct issues, not union membership.",
+    "principles_established": [
+      "Membership in a trade union is a fundamental right under Article 14(1)(d).",
+      "Allegations of victimization must be supported by material evidence.",
+      "Management may have policies restricting active union roles for managerial staff to avoid conflicts of interest, but this does not necessarily infringe fundamental rights if not enforced discriminatorily."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The petitioner failed to establish that he was victimized on account of his trade union activities under Article 14(1)(d). The application was dismissed with costs.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioner’s claim centered on alleged infringement of his right to freedom to form and join a trade union under Article 14(1)(d). The court’s reasoning and ultimate dismissal directly addressed whether this fundamental right was violated.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was given an ultimatum to resign from the union, which he refused citing his fundamental right; the court found no material evidence that the interdiction and disciplinary inquiry were due to union activities.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

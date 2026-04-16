@@ -1,0 +1,57 @@
+{
+  "frame_id": "RQ1_027-SLLR-SLLR-1992-V-1-JOSEPH-PERERA-ALI_130_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. 107/86",
+    "case_title": "Joseph Perera Alias Bruten Perera v. The Attorney-General and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1987-05-25",
+    "source_citation": "Sri Lanka Law Reports [1992] 1 SriL.R."
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the exercise of power under Regulation 28 or the arrest and detention of petitioners involved discrimination prohibited by Article 12(2).",
+    "petitioner_claim": "Regulation 28 and the police action allowed arbitrary discrimination violating Article 12(2).",
+    "respondent_argument": "Respondents did not specifically argue discrimination under Article 12(2); they justified arrest and detention under Emergency Regulations.",
+    "key_facts": [
+      "Regulation 28 allows police to grant or refuse permission without objective standards.",
+      "Petitioners were members of a political group and distributed political literature.",
+      "Police arrested and detained petitioners for distributing materials without permission."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court found that Regulation 28 permits arbitrary and unguided discretion, which can lead to discriminatory treatment. Such arbitrary power is inconsistent with the equality guarantees of Article 12(2) that prohibit discrimination on grounds including political opinion.",
+    "application_to_facts": "Since Regulation 28 confers uncontrolled discretion on police officers, it enables discrimination against citizens based on political opinion or other prohibited grounds, violating Article 12(2).",
+    "principles_established": [
+      "Discretionary powers without objective standards can lead to prohibited discrimination.",
+      "Article 12(2) protects citizens from discrimination on political opinion and similar grounds."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "Regulation 28 violates Article 12(2) by permitting arbitrary discrimination and is invalid.",
+    "disposition": "granted",
+    "remedy_or_orders": "Regulation 28 declared invalid; petitioners entitled to relief for violation of fundamental rights."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) is relevant because the court found that the arbitrary discretion under Regulation 28 could lead to discrimination on prohibited grounds such as political opinion, which was central to the petitioners' claims and the court's invalidation of the regulation.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Regulation 28 confers a naked and arbitrary power on the Police to grant or refuse permission to distribute pamphlets or posters as it pleases, in exercise of its absolute and uncontrolled discretion, without any guiding principle or policy to control and regulate the exercise of such discretion. This violates the constitutional mandate of equality before the law and is void.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

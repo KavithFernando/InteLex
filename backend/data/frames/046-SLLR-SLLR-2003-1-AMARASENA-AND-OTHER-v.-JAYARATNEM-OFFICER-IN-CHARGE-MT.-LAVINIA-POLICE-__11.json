@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_046-SLLR-SLLR-2003-1-AMARASENA-AND-OTHER_062_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_290_2002",
+    "case_title": "Amarasena and another v. Jayaratnem, Officer-in-Charge, Mt. Lavinia Police Station and others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-09-11",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (FR) Application No. 290/2002, decided on 11 September 2002"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners were subjected to torture or cruel, inhuman or degrading treatment or punishment in violation of Article 11 of the Constitution during their arrest and detention.",
+    "petitioner_claim": "The 1st petitioner claimed he was severely assaulted at the place of arrest, in the trishaw, and at the police station causing him to bleed from the nose and mouth, amounting to a violation of Article 11.",
+    "respondent_argument": "The respondents argued that only reasonable force was used at the place of arrest after the 2nd respondent suffered injury, and the medical evidence did not support the claim of severe assault or torture.",
+    "key_facts": [
+      "The 1st petitioner bit off a portion of the 2nd respondent police officer's ear during attempted arrest.",
+      "The petitioners were arrested for obstructing a police officer and causing grievous hurt.",
+      "The 1st petitioner suffered a minor abrasion on the neck consistent with reasonable force used during arrest.",
+      "Medical reports did not support allegations of severe assault or torture by police.",
+      "The court found the petitioners were informed of the reasons for arrest and that force used was reasonable."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 11 as prohibiting torture or cruel, inhuman or degrading treatment, but found that the force used by police was reasonable and not excessive or cruel given the circumstances, including the violent resistance by the 1st petitioner.",
+    "application_to_facts": "The court accepted the respondents' version supported by medical evidence that only reasonable force was used to apprehend the 1st petitioner after he inflicted grievous injury on a police officer, and thus no violation of Article 11 occurred.",
+    "principles_established": [
+      "Reasonable force used by police in arresting a violent suspect does not constitute cruel or inhuman treatment under Article 11.",
+      "Medical evidence is critical in assessing claims of torture or cruel treatment."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that there was no infringement of the fundamental right guaranteed by Article 11 of the Constitution.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the petitioners' claim that they were subjected to cruel or inhuman treatment during arrest, but the court found no such violation based on the facts and medical evidence.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The medical report revealed only a minor abrasion on the 1st petitioner’s neck, supporting the respondents’ claim that reasonable force was used; the 1st petitioner’s allegation of severe assault was not supported by evidence.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}
