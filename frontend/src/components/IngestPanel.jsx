@@ -226,7 +226,7 @@ export default function IngestPanel({ onClose }) {
                 type="text"
                 value={clauses}
                 onChange={(e) => setClauses(e.target.value)}
-                placeholder="e.g. 12(1), 14(1)(a)  — blank = all"
+                placeholder="e.g. 12(1), 14(1)(a)"
                 className="rounded-lg border border-border bg-surface px-3 py-2 text-sm text-content-primary placeholder:text-content-muted focus:outline-none focus:ring-1 focus:ring-accent/50"
               />
               <p className="text-xs text-content-muted">
