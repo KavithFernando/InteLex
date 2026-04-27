@@ -5,7 +5,7 @@
  * A 401 response clears the token and fires the 'auth:logout' window event so
  * App.jsx can redirect to the login page without the API needing to know about React state.
  */
-const BASE = (import.meta.env.VITE_API_BASE_URL || '/api').replace(/\/$/, '');
+const BASE = (import.meta.env.VITE_API_BASE_URL || import.meta.env.VITE_BACKEND_URL || '/api').replace(/\/$/, '');
 const TOKEN_KEY = 'intelex_token';
 
 export function getStoredToken() {
@@ -31,10 +31,11 @@ async function request(path, options = {}) {
   if (!res.ok) {
     const err = new Error(res.statusText);
     err.status = res.status;
+    const text = await res.text();
     try {
-      err.body = await res.json();
+      err.body = JSON.parse(text);
     } catch {
-      err.body = await res.text();
+      err.body = text;
     }
     if (res.status === 401) {
       clearToken();
