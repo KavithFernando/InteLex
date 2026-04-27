@@ -367,7 +367,7 @@ export default function App() {
             {/* Logo Watermark */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0 overflow-hidden">
               <img
-                src="../public/images/logo.png"
+                src="../public/Images/logo.png"
                 alt=""
                 className="w-[480px] h-[480px] object-contain opacity-[0.03] brightness-200"
               />
@@ -380,7 +380,7 @@ export default function App() {
                     {/* Glowing logo */}
                     <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl accent-gradient-bg flex items-center justify-center mb-6 shrink-0 shadow-glow animate-ai-pulse">
                       <img
-                        src="../public/images/logo_white.png"
+                        src="../public/Images/logo_white.png"
                         alt="InteLex Logo"
                         className="w-10 h-10 sm:w-14 sm:h-14 object-contain"
                       />
