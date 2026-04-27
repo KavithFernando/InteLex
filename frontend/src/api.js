@@ -22,7 +22,7 @@ export function clearToken() {
 
 async function request(path, options = {}) {
   const token = getStoredToken();
-  const headers = { 'Content-Type': 'application/json', ...options.headers };
+  const headers = { 'Content-Type': 'application/json', 'ngrok-skip-browser-warning': 'true', ...options.headers };
   if (token) headers['Authorization'] = `Bearer ${token}`;
 
   const url = `${BASE}${path}`;
@@ -146,7 +146,7 @@ export async function getFrame(frameId) {
  */
 export async function getCasePdf(caseId) {
   const token = getStoredToken();
-  const headers = {};
+  const headers = { 'ngrok-skip-browser-warning': 'true' };
   if (token) headers['Authorization'] = `Bearer ${token}`;
   const res = await fetch(`${BASE}/cases/${encodeURIComponent(caseId)}/pdf`, { headers });
   if (!res.ok) {
@@ -197,7 +197,7 @@ export async function uploadIngestPdfs(files, clauses = '', annotatorId = 'admin
   form.append('annotator_id', annotatorId);
 
   const token = getStoredToken();
-  const headers = {};
+  const headers = { 'ngrok-skip-browser-warning': 'true' };
   if (token) headers['Authorization'] = `Bearer ${token}`;
 
   const res = await fetch(`${BASE}/admin/ingest/upload`, {
