@@ -114,7 +114,7 @@ export default function ConversationList({
       <div className="flex items-center gap-3 px-5 py-6 border-b border-sidebar-border/50">
         <div className="w-12 h-12 rounded-2xl accent-gradient-bg flex items-center justify-center shadow-glow-sm shrink-0">
           <img
-            src="../../public/Images/logo_white.png"
+            src="/Images/logo_white.png"
             alt="InteLex Logo"
             className="w-8 h-8 object-contain drop-shadow-md"
           />
