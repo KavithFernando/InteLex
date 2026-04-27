@@ -1,0 +1,70 @@
+{
+  "frame_id": "RQ1_001-SLLR-SLLR-2009-V-1-HAPUARACHCHI-AND-_002_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "admin",
+  "source": {
+    "dataset": "admin_upload",
+    "notes": "Admin PDF ingest"
+  },
+  "case": {
+    "case_id": "SC_FR_67_08",
+    "case_title": "Hapuarachchi and Others vs Commissioner of Elections and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2008-12-23",
+    "source_citation": "Supreme Court of Sri Lanka, SC FR 67/08, decided on December 23, 2008"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the refusal by the Commissioner of Elections to recognize a political party without giving reasons infringed the petitioners' fundamental rights under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that the refusal to grant recognition to their political party without assigning any reasons was unreasonable, unfair, arbitrary, and violated their fundamental rights guaranteed under Articles 12(1), 12(2), and 14(1)(c) of the Constitution.",
+    "respondent_argument": "The respondent contended that the failure to give reasons was not a fatal error and did not mean there was no valid reason for the rejection; thus, there was no violation of the petitioners' fundamental rights.",
+    "key_facts": [
+      "The petitioners formed a political party in 1999 and applied for recognition in 2007 and 2008.",
+      "The Commissioner rejected the application by letter dated 21.01.2008 without giving any reasons.",
+      "Other political parties were recognized around the same time despite less active political engagement.",
+      "The Commissioner provided reasons in affidavit to the Court but not to the petitioners.",
+      "The petitioners challenged the refusal as violating their right to equality and equal protection under the law."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that equality under Article 12(1) forbids arbitrariness and unfair decisions. Depriving a person of reasons for a decision affecting them is arbitrary and violates the right to equal protection of the law. The Court recognized a growing legal trend that fairness usually requires giving reasons for administrative decisions, especially when such decisions affect fundamental rights.",
+    "application_to_facts": "Since the Commissioner rejected the petitioners' application without giving any reasons, the decision was arbitrary and unfair, violating Article 12(1). The absence of reasons deprived the petitioners of the ability to understand or challenge the decision, thus breaching their right to equal protection under the law.",
+    "principles_established": [
+      "Equality prohibits arbitrariness and unfairness in administrative decisions.",
+      "There is a general rule grounded in fairness that reasons should be given for administrative decisions affecting rights.",
+      "Failure to give reasons can render a decision arbitrary and unlawful.",
+      "The right to reasons is essential for effective judicial review and protection of fundamental rights."
+    ],
+    "precedents_cited": [
+      "Samalanka Ltd. v. Weerakoon, Commissioner of Labour",
+      "Karunadasa v. Unique Gem Stones Ltd",
+      "Yaseen Omar v. Pakistan International Airlines Corporation",
+      "N. S. A. M. Nanayakkara v. People’s Bank",
+      "Padfield v. Minister of Agriculture Fisheries and Food",
+      "Osmond v. Public Service Board of New South Wales",
+      "Marta Stefan v. General Medical Council",
+      "R v. Secretary of State for the Home Department Ex parte Doody"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the refusal to recognize the petitioners' political party without giving reasons violated Article 12(1) of the Constitution. The decision was null and void, and the petitioners' fundamental rights were infringed.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Commissioner was directed to reconsider the application and provide reasons for the decision."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning because the refusal without reasons was found to be arbitrary and thus a violation of the right to equality and equal protection under the law. The Court emphasized that fairness requires reasons to be given to avoid arbitrariness.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court stated that depriving a person of knowing the reasons for a decision which affects him would not only be arbitrary, but also a violation of his right to equal protection of the law under Article 12(1). The refusal letter dated 21.01.2008 gave no reasons, which the Court held was arbitrary and unfair.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

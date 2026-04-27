@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_001-SLLR-SLLR-2001-V-1-KAMALAWATHIE-AND-_001_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "admin",
+  "source": {
+    "dataset": "admin_upload",
+    "notes": "Admin PDF ingest"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_300_2000",
+    "case_title": "Kamalawathie and Others v. The Provincial Public Service Commission, North-Western Province and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-08-23",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application 300/2000, decided on 23 August 2000"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the transfer of teachers by the Provincial Director of Education without the recommendation of the Teacher Transfer Board violated the petitioners' fundamental rights under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that their transfers were effected without recourse to the Teacher Transfer Board as required by the National Teacher Transfer Policy (Circular No. 95/11) and the Establishments Code, thereby violating their fundamental rights under Article 12(1).",
+    "respondent_argument": "The respondents contended that the transfers were made due to exigencies of service to address an imbalance of teachers across zones, and that the Provincial Director of Education had delegated power to effect such transfers.",
+    "key_facts": [
+      "Petitioners were teachers transferred by the 4th respondent without recommendation from a Teacher Transfer Board.",
+      "Circular No. 95/11 mandated transfers be made on recommendation of a Teacher Transfer Board except in urgent exigencies, with procedural safeguards including an Appeal Board.",
+      "No Teacher Transfer Board or Appeal Board was established or consulted for these transfers.",
+      "The transfer letters cited the National Teacher Transfer Policy but did not allege exigencies of service as a reason.",
+      "Respondents admitted no boards were set up and appeals were handled without reference to such boards."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equal protection of the law, which includes adherence to established procedures that protect rights. The National Teacher Transfer Policy, approved as national policy, requires transfers to be made on the recommendation of a Teacher Transfer Board, except in genuine urgent cases where the board must still be informed promptly. The failure to follow this procedure violated the petitioners' rights under Article 12(1).",
+    "application_to_facts": "The court found that the transfers were made without the required recommendation of the Teacher Transfer Board, and no genuine urgency existed to dispense with this requirement. The respondents' attempt to rely on exigencies of service was rejected because the transfer letters did not state this reason and the alleged imbalances were known well in advance. Thus, the transfers violated the petitioners' fundamental rights under Article 12(1).",
+    "principles_established": [
+      "National policy must be followed by provincial authorities when exercising devolved powers.",
+      "Procedural safeguards such as the Teacher Transfer Board are essential to protect fundamental rights under Article 12(1).",
+      "Failure to follow mandatory procedures vitiates administrative actions and violates constitutional rights.",
+      "Reasons stated in official transfer letters must be consistent with those relied upon in court."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the transfers without the recommendation of the Teacher Transfer Board violated Article 12(1) of the Constitution and were therefore unlawful. However, the court did not quash the transfer orders to avoid disrupting education but ordered compensation to the petitioners.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Provincial Ministry of Education was ordered to pay each petitioner Rs. 60,000 in two installments as compensation for the violation of their rights."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects the petitioners' right to equal protection of the law, which includes adherence to procedural safeguards in transfers. The violation of this clause by ignoring the Teacher Transfer Board's role led to the court granting relief.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the failure to obtain recommendations from the Teacher Transfer Board vitiated the transfer orders, violating the petitioners' fundamental rights under Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}
