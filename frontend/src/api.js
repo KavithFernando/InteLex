@@ -1,10 +1,11 @@
 /**
- * API client for InteLex backend. Uses /api Vite proxy → http://127.0.0.1:8000.
+ * API client for InteLex backend. Uses VITE_API_BASE_URL in deployed builds,
+ * or /api locally through the Vite proxy.
  * Auth token is stored in localStorage and injected into every request automatically.
  * A 401 response clears the token and fires the 'auth:logout' window event so
  * App.jsx can redirect to the login page without the API needing to know about React state.
  */
-const BASE = '/api';
+const BASE = (import.meta.env.VITE_API_BASE_URL || '/api').replace(/\/$/, '');
 const TOKEN_KEY = 'intelex_token';
 
 export function getStoredToken() {
