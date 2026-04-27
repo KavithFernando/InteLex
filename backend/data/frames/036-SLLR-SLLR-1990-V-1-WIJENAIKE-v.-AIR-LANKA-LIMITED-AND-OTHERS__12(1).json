@@ -1,0 +1,74 @@
+{
+  "frame_id": "RQ1_036-SLLR-SLLR-1990-V-1-WIJENAIKE-V.-AIR-_174_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 223/88",
+    "case_title": "Wijenaike v. Air Lanka Limited and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1990-03-14",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 223/88, decided on 14 March 1990"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to unequal treatment and discrimination in violation of Article 12(1) of the Constitution in the termination of his employment by Air Lanka, and whether the Court has jurisdiction to hear the fundamental rights application.",
+    "petitioner_claim": "The petitioner claimed that he was unfairly terminated for vacation of post while on leave, that other officers who sought foreign employment received favored treatment, and that this constituted a violation of his fundamental rights under Article 12(1) guaranteeing equality before the law and equal protection of the law.",
+    "respondent_argument": "The respondents argued that the petition was time barred, that the dispute arose purely from breach of contract without statutory or constitutional rights involved, and that Air Lanka being a company incorporated under the Companies Ordinance, the petitioner’s grievance must be resolved by private law remedies, not under Article 12(1).",
+    "key_facts": [
+      "Petitioner joined Air Lanka as Cadet Pilot in 1980 and became First Officer in 1984.",
+      "Petitioner left country in December 1987 seeking employment with Gulf Air and applied for no pay leave which was refused; he took annual leave instead.",
+      "Petitioner returned in February 1988 and requested to be rostered for duty but was denied and informed by letter in May 1988 that he had vacated his post.",
+      "Petitioner appealed and was informed in November 1988 that he could not be re-employed.",
+      "Petitioner filed fundamental rights application alleging violation of Article 12(1) and claimed discrimination."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(1) as guaranteeing equality before the law and equal protection of the law only in relation to laws or statutory provisions, not purely contractual rights. The Court held that employees of public corporations like Air Lanka do not automatically acquire constitutional status unless their rights and obligations arise from statutory provisions. Mere breach of contract by such an agency does not engage Article 12(1).",
+    "application_to_facts": "Since Air Lanka is a company incorporated under the Companies Ordinance and no statutory provisions govern the petitioner’s contract of employment, the petitioner’s grievance arises purely from contract. Therefore, Article 12(1) does not apply and the Court lacks jurisdiction to hear the fundamental rights application. The petitioner’s remedy lies in private law forums such as the Labour Tribunal.",
+    "principles_established": [
+      "Article 12(1) applies only where rights and obligations are founded in law/statute, not mere contracts.",
+      "Public corporation employees do not have constitutional status unless employment rights are statutory.",
+      "Breach of contract by a government agency without statutory underpinning is not a violation of Article 12(1).",
+      "The Court must respect jurisdictional limits and not entertain fundamental rights applications that are essentially contractual disputes."
+    ],
+    "precedents_cited": [
+      "Roberts and Another v. Ratnayake and Others [1986] 2 Sri L R 36",
+      "Gamaethige v. Siriwardena [1988] 1 Sri L R 384",
+      "Rajaratne v. Air Lanka Limited [1987] 2 Sri LR 128",
+      "Palihawadana v. Attorney-General and Others",
+      "Elmore Perera v. Major Montague Jayawickrema and Others [1985] 1 Sri L R 285",
+      "Perera v. University Grants Commission",
+      "Eheliyagoda v. Janatha Estates Development Board and Others",
+      "R. V. Berkshire Health Authority, ex parte Walsh 1984 3 All E R 425 C.A.",
+      "Ratnakar Visvanath Joshi and Others v. Life Insurance Corporation of India and Others",
+      "Abeywickrema v. Pathirana and Others [1986] 1 Sri LR 120",
+      "Nanayakkara v. The Institute of Chartered Accountants of Sri Lanka and Others [1981] 2 Sri LR 52",
+      "Akbar Ahad v. State of Orissa AIR 1971 Orissa 207"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that it has no jurisdiction to hear the petitioner’s fundamental rights application under Article 12(1) as the grievance arises purely from breach of contract without statutory underpinning. The application was dismissed.",
+    "disposition": "dismissed",
+    "remedy_or_orders": "The petitioner’s grievance should be resolved by private law remedies such as the Labour Tribunal."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner’s claim of unequal treatment and discrimination in employment termination. The Court’s reasoning focused on whether Article 12(1) applies to contractual disputes with a public corporation, ultimately deciding it does not without statutory basis, which determined the outcome.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that Air Lanka is a company incorporated under the Companies Ordinance with no statutory provisions governing the petitioner’s employment contract, and thus Article 12(1) does not apply. The petitioner’s grievance must be resolved by private law remedies such as the Labour Tribunal.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

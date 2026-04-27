@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_043-SLLR-SLLR-1989-V-2-MRS.-W.-M.-K.-DE-_068_C01__14(1)(g)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No.7/88",
+    "case_title": "Mrs. W.M.K De Silva v. Chairman, Ceylon Fertilizer Corporation",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1989-03-31",
+    "source_citation": "Sri Lanka Law Reports [1989] 2 Sri LR 393"
+  },
+  "clause": {
+    "article": "14(1)(g)",
+    "text": "Freedom to engage in lawful occupation or business."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s fundamental right under Article 14(1)(g) to freedom to engage in any lawful occupation of her choice was violated by the treatment meted out to her at the Ceylon Fertilizer Corporation, including being placed on compulsory leave, recalled without work, and denied use of her old cubicle.",
+    "petitioner_claim": "The petitioner claimed that she was denied continuity of employment and the freedom to be engaged in a lawful occupation of her choice, constituting a violation of her fundamental rights under Article 14(1)(g).",
+    "respondent_argument": "The respondents argued that Article 14(1)(g) does not confer a right to be employed by a particular master or in a particular place of work, and that the petitioner was not prevented from engaging in any lawful occupation.",
+    "key_facts": [
+      "Petitioner was Secretary to the Board of the Ceylon Fertilizer Corporation and was placed on compulsory leave after making statements to a Presidential Commission.",
+      "Petitioner was recalled to work but was not assigned any work and was denied use of her old cubicle, made to sit on broken furniture, and sometimes locked out.",
+      "Petitioner was paid wages but frustrated by lack of work.",
+      "The petitioner is a Sri Lankan citizen.",
+      "The petitioner’s grievance related to alleged irregularities in a contract price reduction and subsequent treatment by the Chairman."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 14(1)(g) guarantees the freedom to engage in any lawful occupation of one’s choice but does not guarantee the right to be employed by a particular employer or to hold a particular job. The petitioner must show that her right to engage in lawful occupation was unreasonably obstructed and that the right claimed is a legal and fundamental right.",
+    "application_to_facts": "The Court found no evidence that the petitioner was prevented from engaging in any lawful occupation. Although she was not assigned work at the Corporation, she was paid her wages and was not barred from pursuing any lawful livelihood elsewhere. The failure to provide work does not amount to a violation of Article 14(1)(g).",
+    "principles_established": [
+      "Article 14(1)(g) protects the right to engage in lawful occupation but not the right to a particular job or continued employment.",
+      "A fundamental right claim under Article 14(1)(g) requires showing unreasonable obstruction of the right to engage in lawful occupation.",
+      "Failure to assign work or continued employment does not necessarily violate Article 14(1)(g)."
+    ],
+    "precedents_cited": [
+      "Elmore Perera v Major Montague Jayawickrema [1985] 1 Sri LR 285",
+      "R.P. Jayasena and others v K. R. S. Soysa and another (1980) 1 FRD 97"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that there was no infringement of the petitioner’s fundamental right under Article 14(1)(g) as she was not prevented from engaging in any lawful occupation and the right does not extend to a right to be employed by a particular employer or in a particular place of work.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioner’s claim was based on Article 14(1)(g) alleging denial of the freedom to engage in lawful occupation due to her treatment and lack of work at the Corporation. The Court’s reasoning and ultimate dismissal of the claim directly hinged on the interpretation and application of this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Article 14(1)(g) ensures the freedom to engage in any lawful occupation of one's choice, but this provision does not extend to a right to be employed by a particular master or in a particular place of work. There is no evidence that the petitioner was prevented from engaging in any lawful occupation, profession, trade, business or enterprise.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3900,
+      "end_char": 4200
+    }
+  }
+}

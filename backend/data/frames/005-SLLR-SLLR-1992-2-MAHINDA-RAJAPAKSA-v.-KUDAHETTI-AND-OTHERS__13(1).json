@@ -1,0 +1,74 @@
+{
+  "frame_id": "RQ1_005-SLLR-SLLR-1992-2-MAHINDA-RAJAPAKSA-V_011_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "005-SLLR-SLLR-1992-2-MAHINDA-RAJAPAKSA-V-KUDAHETTI",
+    "case_title": "Mahinda Rajapaksa v. Kudahetti and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1992-07-28",
+    "source_citation": "Supreme Court of Sri Lanka, 1992, 2 Sri L.R. 223"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was arrested in violation of Article 13(1) of the Constitution when detained and his documents taken at Katunayake Airport.",
+    "petitioner_claim": "The petitioner claimed he was illegally arrested and detained without being informed of the reason, violating Article 13(1).",
+    "respondent_argument": "The respondent argued that there was no arrest as the petitioner was not deprived of liberty, was not in custody, and was free to proceed to Geneva after voluntarily giving up documents.",
+    "key_facts": [
+      "Petitioner was stopped at Katunayake Airport on 11 September 1990.",
+      "First respondent, an Assistant Superintendent of Police, requested to examine petitioner's baggage for documents suspected to be prejudicial to national security.",
+      "Petitioner initially refused search, contacted a lawyer, then allowed examination after throwing bags at the officer.",
+      "533 documents and 19 pages of photographs were taken with a receipt countersigned by petitioner.",
+      "Petitioner was detained for about two hours but was not physically restrained or placed in custody and proceeded to Geneva as planned."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that an arrest under Article 13(1) requires apprehension by word or deed and actual or constructive custody or control by law enforcement with the intention to subject the person to the criminal process. Mere detention, delay, or conditions imposed without such custody or coercion do not constitute an arrest.",
+    "application_to_facts": "The petitioner was delayed and asked to give up documents but was never physically or coercively restrained, was free to refuse, contact a lawyer, and proceed to Geneva. There was no submission to custody or control by police. Therefore, no arrest occurred under Article 13(1).",
+    "principles_established": [
+      "Arrest requires deprivation of liberty by custody or coercive control with intent to bring the person into the criminal process.",
+      "Detention or delay alone, or conditions such as handing over items, do not amount to arrest.",
+      "Submission to custody can be by word or deed; without submission, physical touching is required for arrest.",
+      "The intention to arrest must be known to the person arrested.",
+      "Not every restriction on freedom of movement is an arrest."
+    ],
+    "precedents_cited": [
+      "Namasivayam v. Gunawardena (1989) 1 Sri LR 394",
+      "Piyasiri and Others v. Nimai Fernando, A.S.P. and Others (1988) 1 Sri LR 173",
+      "Grainger v. Hill (1838) 5 Scot 561",
+      "Warner v. Riddiford (1858) 4 CB (N5) 180",
+      "Somawathie v. Weerasinghe and Others [1990] 2 Sri LR 121",
+      "Withanage Sirisena and Others v. Ernest Perera and Others [1991] 2 Sri LR 97",
+      "Youngstown Sheet and Tube Co. v. Sawyer (1952) 343 US 579",
+      "Goldwater v. Carter (1979) 444 US 996",
+      "Immigration and Naturalization Service v. Chadda (1983) 462 US 919",
+      "Dames and Moore v. Regan (1981) 453 US 654",
+      "Haig v. Agee (1981) 453 US 280"
+    ]
+  },
+  "outcome": {
+    "holding": "The court dismissed the petitioner's claim under Article 13(1), holding that no arrest occurred as the petitioner was not deprived of liberty or placed in custody or control by law enforcement.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the petitioner's claim that his detention and seizure of documents at the airport constituted an unlawful arrest. The court's detailed analysis of what constitutes an arrest under this clause was dispositive in dismissing the claim.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was delayed and asked to give up documents but was never physically or coercively restrained, was free to refuse, contact a lawyer, and proceeded to Geneva as planned. There was no submission to custody or control by police.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

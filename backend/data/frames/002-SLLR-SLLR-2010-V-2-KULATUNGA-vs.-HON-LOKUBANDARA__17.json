@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_002-SLLR-SLLR-2010-V-2-KULATUNGA-VS.-HON_002_C01__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (FR) APPLICATION NO. 229/2009",
+    "case_title": "Kulatunga vs. Hon Lokubandara",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2010-07-02",
+    "source_citation": "Sri Lanka Law Reports [2010] 2 SRILR"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s fundamental rights application under Article 17 was valid despite being filed after the one-month time limit prescribed by Article 126.",
+    "petitioner_claim": "The petitioner claimed that his fundamental rights guaranteed under Article 12(1) and invoked Article 17 to apply to the Supreme Court for relief, alleging violation in the appointment process for the post of Director of Catering and Housekeeping Services.",
+    "respondent_argument": "The respondents raised a preliminary objection that the petitioner’s application was time-barred under Article 126, as it was filed well beyond the one-month period from the alleged infringement.",
+    "key_facts": [
+      "The post became vacant on 12 November 2005 and the 3rd respondent was appointed to act in the post.",
+      "The petitioner and the 3rd respondent were interviewed on 7 April 2006; the 3rd respondent was recommended based on merit.",
+      "The petitioner challenged the process and outcome through the Presidential Investigation Unit and later through writ applications in the Court of Appeal.",
+      "The petitioner withdrew his Court of Appeal writ application on 2 February 2007.",
+      "The petitioner filed the fundamental rights application in the Supreme Court on 3 July 2007, nearly five months after withdrawing the writ application."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court reaffirmed that Article 17 grants the right to apply to the Supreme Court for fundamental rights violations, but such applications must comply with the procedural time limit set by Article 126. The one-month time limit is mandatory and begins when the infringement and knowledge of it occur. Exceptions to this rule are rare and require adequate excuse, such as being held incommunicado.",
+    "application_to_facts": "The petitioner was aware of the events and had pursued remedies through the Court of Appeal before withdrawing his application. The delay of nearly five months in filing the fundamental rights application was not excused by any adequate reason. Therefore, the application was time-barred and dismissed.",
+    "principles_established": [
+      "The one-month time limit under Article 126 for fundamental rights applications is mandatory.",
+      "Time begins to run when both the infringement and knowledge of it exist.",
+      "The Supreme Court may allow late applications only in very rare and fit cases with adequate excuse.",
+      "Lex non cogit ad impossibilia (the law does not compel the impossible) may justify delay in exceptional circumstances."
+    ],
+    "precedents_cited": [
+      "Gamaethige v. Siriwardene and Others [1988] 1 S.L.R. 384",
+      "Siriwardene v. Rodrigo [1986] 1 S.L.R. 384",
+      "Jayaweera v. National Film Corporation [1995] 2 S.L.R. 123",
+      "Ramanathan v. Tennakoon [1988] 2 CALR 187",
+      "Edirisuriya v. Navaratnam [1985] 1 S.L.R. 100"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court upheld the preliminary objection and dismissed the fundamental rights application as time-barred under Article 126, thereby denying relief under Article 17.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 is central because it grants the petitioner the right to apply to the Supreme Court for fundamental rights violations, but the Court’s reasoning and dismissal hinged on the procedural compliance with the time limit under Article 126, which governs the exercise of that right.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner invoked the jurisdiction of the Supreme Court alleging violation of fundamental rights under Article 17, but the Court held the application was time barred under Article 126 and dismissed it.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 300,
+      "end_char": 2100
+    }
+  }
+}

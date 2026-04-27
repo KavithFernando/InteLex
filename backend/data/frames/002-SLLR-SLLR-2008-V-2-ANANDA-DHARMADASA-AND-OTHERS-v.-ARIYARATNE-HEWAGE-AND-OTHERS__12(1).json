@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_002-SLLR-SLLR-2008-V-2-ANANDA-DHARMADASA_013_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (F.R.) APPLICATION NO. 206/2006",
+    "case_title": "Ananda Dharmadasa and others v Ariyaratne Hewage and others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2006-05-14",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (F.R.) Application No. 206/2006, decided on 14 May 2006"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the non-appointment of the petitioners to Class III of the Sri Lanka Educational Administrative Service (SLEAS) violated their fundamental rights under Article 12(1) of the Constitution guaranteeing equality before the law and equal protection of the law.",
+    "petitioner_claim": "The petitioners claimed that they were entitled to be appointed to Class III of SLEAS as per Cabinet decisions and that the respondents discriminated against them by appointing only 12 other Planning Officers, thus violating their right to equality under Article 12(1).",
+    "respondent_argument": "The respondents argued that the petitioners were not qualified for appointment to Class III of SLEAS and that the appointments were made only to officers who were performing in the scheduled posts and possessed the necessary qualifications. Therefore, there was no violation of Article 12(1).",
+    "key_facts": [
+      "Petitioners were Planning Officers attached to Divisional Education Offices but held substantive positions as Assistant Teachers.",
+      "Cabinet decisions in 1994 and 1999 approved appointments to Class III of SLEAS only for officers performing in scheduled posts and possessing required qualifications.",
+      "12 Planning Officers were appointed to Class III of SLEAS in 1999; petitioners were not among them.",
+      "Petitioners were aware by late 1999 that they were not considered for appointment and only filed the fundamental rights application in 2006.",
+      "Petitioners did not demonstrate that they were similarly circumstanced or qualified as the appointed officers."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(1) as requiring equal treatment by law unless there is a rational and intelligible differentia distinguishing persons in a group. Not every differentiation amounts to discrimination; classifications must be based on intelligible differentia and bear a rational relation to the objective sought.",
+    "application_to_facts": "The Court found that the petitioners and the 12 appointed officers did not belong to the same category because the petitioners were not qualified or performing in the scheduled posts required for appointment. Therefore, the non-appointment did not constitute discrimination under Article 12(1).",
+    "principles_established": [
+      "Equality means equals should not be treated unequally and unequals should not be treated equally without rational differentiation.",
+      "Classification for differential treatment must be based on intelligible differentia and rational relation to the objective.",
+      "Non-appointment of unqualified persons does not violate equality rights."
+    ],
+    "precedents_cited": [
+      "Royappa v State of Tamil Nadu",
+      "Venkata Raj v State of Andhra Pradesh",
+      "Ram Krishna Dalmia v Justice Tendolkar"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioners failed to establish a violation of their fundamental rights under Article 12(1) and dismissed the application.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's analysis of whether the petitioners were discriminated against in violation of their right to equality before the law and equal protection of the law. The Court applied the clause's principles to assess the legitimacy of differential treatment.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court noted that the petitioners were not qualified to be considered for appointment to Class III of SLEAS and that the 12 officers appointed were not similarly circumstanced, thus no violation of Article 12(1) occurred.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

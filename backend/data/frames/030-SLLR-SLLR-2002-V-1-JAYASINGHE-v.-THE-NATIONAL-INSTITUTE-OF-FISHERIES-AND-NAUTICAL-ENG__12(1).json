@@ -1,0 +1,66 @@
+{
+  "frame_id": "RQ1_030-SLLR-SLLR-2002-V-1-JAYASINGHE-V.-THE_152_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_692_2000",
+    "case_title": "Jayasinghe v. The National Institute of Fisheries and Nautical Engineering (NIFNE) and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2001-12-11",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 692/2000, decided on 23 November and 11 December 2001"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner's fundamental right to equality under Article 12(1) was infringed by the appointment of the 18th respondent as Director-General of NIFNE.",
+    "petitioner_claim": "The petitioner claimed that his right to equality was infringed by the appointment of the 18th respondent as Director-General of NIFNE and sought to set aside that appointment and be appointed himself.",
+    "respondent_argument": "The respondents argued that the petition was time-barred and that the petitioner suppressed material facts, including knowledge of the appointment and a prior application to the Court of Appeal, thus the petition should be dismissed without merit consideration.",
+    "key_facts": [
+      "The 18th respondent was appointed Director-General of NIFNE on 14 January 2000.",
+      "The petitioner was aware of the appointment several months before filing the application on 15 December 2000.",
+      "Documents including letters and attendance registers showed the petitioner acknowledged the 18th respondent's position.",
+      "The petitioner withheld a letter dated 10 July 2000 from court which showed his knowledge of the appointment.",
+      "The petitioner also failed to disclose a prior application to the Court of Appeal seeking identical relief."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equality before the law and equal protection, but the petitioner's claim was barred by procedural rules and his conduct in suppressing material facts violated the duty of full disclosure to the court.",
+    "application_to_facts": "The court found the petitioner knew of the appointment well before filing and deliberately withheld evidence and prior proceedings, breaching the principle of uberrima fides, thus the claim was dismissed without merit consideration.",
+    "principles_established": [
+      "Claims under fundamental rights must be filed within the prescribed time limits.",
+      "Petitioners must disclose all material facts fully and frankly to the court (principle of uberrima fides).",
+      "Failure to disclose material facts can lead to dismissal without hearing the merits.",
+      "Knowledge of the alleged infringement prior to filing bars the claim as time-barred."
+    ],
+    "precedents_cited": [
+      "Gamaethige v. Siriwardena and Others (1980) 1 Sri LR 384",
+      "Blanca Diamonds (Pvt) Limited v. Wilfred Van Els and Two Others (1997) 1 Sri LR 360",
+      "Rex v. Kensington Income Tax Commissioners; Princess Edmond De Polignac Ex Parte (1917) 1 KB 486",
+      "Castelli v. Cook (1948) 7 HARE 89"
+    ]
+  },
+  "outcome": {
+    "holding": "The petitioner's application was dismissed as time-barred and for failure to disclose material facts, thus no relief was granted under Article 12(1).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioner's claim was based on alleged infringement of equality rights under Article 12(1), but the court's dismissal was grounded on procedural bars and the petitioner's conduct, directly engaging the clause's protection scope.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Documents and letters showed the petitioner was aware of the 18th respondent's appointment months before filing, and the petitioner withheld a letter and prior Court of Appeal application, demonstrating suppression of material facts.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

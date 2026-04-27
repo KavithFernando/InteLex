@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_046-SLLR-SLLR-2003-1-AMARASENA-AND-OTHER_093_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_290_2002",
+    "case_title": "Amarasena and another v. Jayaratnem, Officer-in-Charge, Mt. Lavinia Police Station and others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-09-11",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (FR) Application No. 290/2002, decided on 11 September 2002"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' detention overnight without being produced before a Magistrate within a reasonable time violated Article 13(2).",
+    "petitioner_claim": "The petitioners claimed their fundamental rights under Article 13(2) were infringed because they were detained overnight and not produced before a Magistrate within a reasonable time.",
+    "respondent_argument": "The respondents did not dispute the detention period but implied it was within legal limits given the investigation.",
+    "key_facts": [
+      "Petitioners were arrested at about 1:00 p.m. on 4 May 2002.",
+      "They were detained overnight at the police station.",
+      "They were produced before the Magistrate at about noon the next day, nearly 23 hours later.",
+      "The investigation was straightforward and could have been completed the same day."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires that any person detained be brought before a judge within a reasonable time, not exceeding 24 hours. The court emphasized that detention should not exceed the reasonable time necessary for investigation and transport.",
+    "application_to_facts": "The court found that the petitioners' detention overnight was unreasonable given the simplicity of the investigation and that they should have been produced before the Magistrate on the same day. Thus, their rights under Article 13(2) were infringed.",
+    "principles_established": [
+      "Detention without production before a judge must be reasonable and not exceed 24 hours.",
+      "Investigations should be conducted promptly to avoid unnecessary detention.",
+      "Failure to produce detainees before a Magistrate within reasonable time infringes Article 13(2)."
+    ],
+    "precedents_cited": [
+      "Section 37 of the Criminal Procedure Code Act, No. 15 of 1979"
+    ]
+  },
+  "outcome": {
+    "holding": "There was an infringement of Article 13(2) due to unreasonable overnight detention without timely production before a Magistrate.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of infringement granted; no compensation awarded; costs of Rs. 5000/- to petitioners."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was central to the court's finding that the petitioners' fundamental rights were infringed by their detention overnight without timely judicial oversight.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioners were detained overnight and produced before the Magistrate only the next day, which the court found unreasonable and a violation of Article 13(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 4100,
+      "end_char": 4400
+    }
+  }
+}

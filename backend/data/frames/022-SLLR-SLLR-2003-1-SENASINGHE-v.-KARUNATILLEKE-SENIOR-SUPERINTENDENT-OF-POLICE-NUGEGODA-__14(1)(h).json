@@ -1,0 +1,73 @@
+{
+  "frame_id": "RQ1_022-SLLR-SLLR-2003-1-SENASINGHE-V.-KARUN_042_C01__14(1)(h)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_NO_431_2001_FR",
+    "case_title": "Senasinghe v. Karunatilleke, Senior Superintendent of Police, Nugegoda and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2003-01-06",
+    "source_citation": "[2003] 1 Sri L.R 172; Supreme Court of Sri Lanka, SC No. 431/2001 (FR), decided on 3rd December 2002 and 6th January 2003"
+  },
+  "clause": {
+    "article": "14(1)(h)",
+    "text": "Freedom of movement and residence."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s right to freedom of movement under Article 14(1)(h) was infringed by police actions preventing him from returning to his car during a protest march.",
+    "petitioner_claim": "The petitioner claimed he was not a participant in the protest march but a bystander, and that the police unlawfully prevented him from returning to his car, infringing his freedom of movement under Article 14(1)(h).",
+    "respondent_argument": "The 1st Respondent argued the protest march was unlawful under section 45 of the Referendum Act, that the petitioner was a willing participant, and that police actions including use of force were justified to disperse the unlawful procession.",
+    "key_facts": [
+      "The petitioner was an attorney-at-law who was near the protest site but not part of the march.",
+      "Police prohibited processions under section 45 of the Referendum Act during the Referendum period.",
+      "The petitioner was prevented by police from returning to his car and ordered to move towards protesters.",
+      "Police fired rubber bullets causing serious injuries to the petitioner.",
+      "The protest march was held against the prorogation of Parliament and the Referendum proposal."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the prohibition on processions under section 45 of the Referendum Act only applies where there is a valid Proclamation for a valid Referendum Proposal. Since the Referendum Proposal was invalid, section 45 did not apply. The petitioner’s freedom of movement under Article 14(1)(h) was infringed when police prevented him from returning to his car.",
+    "application_to_facts": "The petitioner was not a participant in the protest but was prevented from moving freely by police orders. The police acted solely under an invalid section 45 prohibition. The Court found the police actions unlawfully restricted the petitioner’s freedom of movement.",
+    "principles_established": [
+      "Restrictions on fundamental rights must be reasonable and narrowly construed.",
+      "Only valid official acts (such as valid Proclamations) can justify restrictions on fundamental rights.",
+      "The judiciary has jurisdiction to review legality of executive acts affecting fundamental rights.",
+      "Freedom of movement includes the right to leave a place and return to one’s residence or vehicle."
+    ],
+    "precedents_cited": [
+      "Wickramabandu v Herath (1990) 2 Sri LR 348",
+      "Premachandra v Jayawickrama (1994) 2 Sri LR 90",
+      "State of Rajasthan v Union of India AIR 1977 SC 1361",
+      "Dinesh Chandra v Charan Singh AIR 1980 Delhi 114",
+      "Adegbebro v Akintola (1963) 3 ALL ER 544",
+      "Ramupillai v Festus Perera (1991) Sri LR 11",
+      "Perera et al v Pathirana SC 453/97 SCM 30.1.2003",
+      "Karunatilleke v Dissanayake (1999) 1 Sri LR 157",
+      "Amaratunga v Sirimal (1993) 1 Sri LR 264",
+      "Wijeratne v Perera SC 379/93 SCM 2.3.94",
+      "West Virginia State Board of Education v Barnette (1943) 319 US 624"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner’s right to freedom of movement under Article 14(1)(h) was infringed by the police preventing him from returning to his car during the protest march.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioner was awarded Rs 10,000 compensation for the infringement of Articles 13(1) and 14(1)(h), along with costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(h) guarantees freedom of movement, which was directly infringed when police prevented the petitioner from returning to his car. The Court’s reasoning and holding centrally relied on this clause to find a fundamental rights violation.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the 1st Respondent prevented the petitioner from leaving the scene and proceeding towards his car, thereby infringing his freedom of movement under Article 14(1)(h).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

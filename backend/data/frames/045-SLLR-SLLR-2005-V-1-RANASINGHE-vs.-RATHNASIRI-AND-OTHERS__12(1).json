@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_045-SLLR-SLLR-2005-V-1-RANASINGHE-VS.-RA_192_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (FR) 638/2003",
+    "case_title": "Ranasinghe vs Rathnasiri and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2004-11-16",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (FR) 638/2003, decided on 15 July, 30 August and 16 November 2004"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the appointment of the 1st respondent as Registrar of Births and Deaths and Registrar of Marriages violated the petitioner's fundamental rights under Article 12(1) of the Constitution regarding equal protection and non-discrimination.",
+    "petitioner_claim": "The petitioner claimed that the appointment process was flawed and discriminatory, alleging political intervention, improper allocation of marks at the interview, and that the 1st respondent was disqualified due to prior retirement from government service.",
+    "respondent_argument": "The respondents argued that the appointment was made based on the most eligible candidate's educational qualifications, that the interview marks were permissible, that the Minister's decision was within discretion and not arbitrary, and that the 1st respondent was not disqualified by retirement rules as the posts are not public officer positions.",
+    "key_facts": [
+      "The petitioner acted as Registrar after his father's death until November 2003 when the 1st respondent was appointed.",
+      "A Gazette notification called for applications with specified eligibility criteria including educational qualifications.",
+      "The 1st respondent had superior educational qualifications compared to the petitioner.",
+      "The appointment process involved an interview panel recommending eligible candidates without a formal marking scheme.",
+      "The petitioner alleged political interference via a letter from the Minister's Private Secretary."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) requires that discretionary powers be exercised according to law and relevant considerations, not arbitrarily or with political interference. Equal protection means decisions must be based on relevant criteria and not extraneous factors.",
+    "application_to_facts": "The Court found no evidence of arbitrary or politically motivated decision-making. The appointment was based on the 1st respondent's superior educational qualifications, a relevant consideration. The letter from the Private Secretary was merely conveying the Minister's decision, not an improper intervention. The absence of a formal marking scheme did not invalidate the discretion exercised.",
+    "principles_established": [
+      "Discretionary power must be exercised according to law and relevant considerations.",
+      "Absence of formal guidelines does not imply arbitrary decision if relevant factors are considered.",
+      "Posts of Registrar of Births and Deaths and Marriages are not 'public officer' positions under the Constitution.",
+      "Political intervention requires more than mere communication of a Minister's decision."
+    ],
+    "precedents_cited": [
+      "Breen v Amalgamated Engineering Union (1971) 2 OB 175"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the petitioner's claim, holding that there was no infringement of Article 12(1) rights and the appointment was valid.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner's claim of discrimination and arbitrary appointment. The Court's reasoning focused on whether the appointment process violated the equal protection guarantee, making this clause dispositive.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the 1st respondent was the most eligible candidate based on educational qualifications, that the Minister and other respondents acted on relevant considerations without arbitrariness or political interference, and that the appointment did not infringe Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

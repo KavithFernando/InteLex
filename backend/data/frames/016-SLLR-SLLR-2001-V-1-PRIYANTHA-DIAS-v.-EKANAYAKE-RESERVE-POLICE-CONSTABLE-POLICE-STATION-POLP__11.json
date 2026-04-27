@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_016-SLLR-SLLR-2001-V-1-PRIYANTHA-DIAS-V._023_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_860_99",
+    "case_title": "Priyantha Dias v. Ekanayake, Reserve Police Constable, Police Station, Polpithigama and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2001-01-23",
+    "source_citation": "Supreme Court of Sri Lanka, SC (Application) No. 860/99, decided on 23 January 2001"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment by the police in violation of Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that he was unlawfully arrested and subjected to assault and inhuman treatment by the 1st and 2nd respondents, violating his fundamental rights under Article 11.",
+    "respondent_argument": "The respondents claimed the petitioner was taken into custody on suspicion due to robberies in the area and failure to provide details about himself.",
+    "key_facts": [
+      "Petitioner was a school teacher waiting at a bus stop with the school principal.",
+      "Police officers questioned the petitioner about his place of birth and identity, accused him of being a 'tiger', and assaulted him.",
+      "Petitioner was forcibly taken on a motorcycle and assaulted multiple times during transit.",
+      "Petitioner escaped near a teak forest and later sought medical treatment for 23 injuries including a laceration on his penis.",
+      "No reasonable suspicion or evidence was presented by the respondents to justify the arrest or assault."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 11 prohibits torture and cruel, inhuman or degrading treatment. The police officers' conduct, including physical assault and humiliating treatment, constituted a violation of this constitutional right.",
+    "application_to_facts": "The petitioner’s injuries and the circumstances of his arrest and assault demonstrated that the treatment inflicted was cruel and degrading. The lack of any reasonable suspicion or lawful basis for arrest further underscored the violation.",
+    "principles_established": [
+      "Police officers must exercise discipline and restraint and cannot subject individuals to cruel or degrading treatment.",
+      "Unlawful arrest accompanied by physical assault violates Article 11 rights.",
+      "Prejudice and baseless accusations (e.g., labeling someone a 'tiger' based on place of birth) reflect improper police conduct."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court declared that the petitioner’s fundamental right under Article 11 was violated by the 1st and 2nd respondents and awarded compensation.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 1st and 2nd respondents were ordered to pay Rs. 5,000 each and the State Rs. 20,000 to the petitioner as compensation and costs, payable within three months."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the court’s finding that the petitioner was subjected to cruel and degrading treatment by police officers, which violated his fundamental rights and warranted compensation.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner suffered 23 injuries including abrasions and a laceration on his penis consistent with assault by police; the court found the treatment inflicted was cruel and degrading.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

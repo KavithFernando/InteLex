@@ -1,0 +1,81 @@
+{
+  "frame_id": "RQ1_001-SLLR-SLLR_1994_V1-CHANNA_PIERIS__AND_001_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATIONS_146-155_92",
+    "case_title": "Channa Pieris and Others v. Attorney-General and Others (Ratawesi Peramuna Case)",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-02-17",
+    "source_citation": "Sri Lanka Law Reports [1994] 1 Sri LR."
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners were arrested and detained in accordance with procedure established by law and whether they were informed of the reasons for their arrest as required by Article 13(1).",
+    "petitioner_claim": "The petitioners claimed that their fundamental rights under Article 13(1) were violated because they were arrested without following the proper legal procedure and were not informed of the reasons for their arrest.",
+    "respondent_argument": "The respondents argued that the arrests were made under the Emergency Regulations and thus in accordance with procedure established by law, and that the petitioners were informed of the reasons for their arrest through detention orders.",
+    "key_facts": [
+      "Petitioners were participants in the Ratawesi Peramuna movement.",
+      "They were arrested on 27 February 1992 at a meeting held at Kawduduwa temple.",
+      "Arrests were made without warrants under Emergency Regulations.",
+      "Detention orders were issued but contained procedural errors and were not served timely.",
+      "Petitioners were not properly informed of the reasons for their arrest at the time of arrest."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 13(1) requires that arrests be made strictly according to procedure established by law and that the person arrested must be informed of the reasons for arrest at the moment of arrest or at the earliest reasonable opportunity. Mere reference to Emergency Regulations without specifying the exact procedure is insufficient. The Court emphasized that the right to be informed of the reason for arrest is fundamental and cannot be overridden by regulations unless explicitly provided by law.",
+    "application_to_facts": "The Court found that the arrests were not made in accordance with the procedure established by law because the respondents failed to specify the exact legal basis and did not follow the proper procedures under the Emergency Regulations. The detention orders were flawed, some petitioners had no detention orders, and the petitioners were not informed of the reasons for their arrest at the time of arrest. The Court concluded that these failures violated Article 13(1).",
+    "principles_established": [
+      "Arrest must be made according to procedure established by law.",
+      "The person arrested must be informed of the reason for arrest promptly.",
+      "Errors or omissions in detention orders can indicate violation of Article 13(1).",
+      "Vague or general suspicions without reasonable grounds do not justify arrest.",
+      "The right to be informed of reasons for arrest is a safeguard against arbitrary detention."
+    ],
+    "precedents_cited": [
+      "Piyasiri v. Fernando",
+      "Rajapaksa v. Kudahetti",
+      "Jayakody v. Karunanayake",
+      "Kumarasena v. Shriyantha and Others",
+      "Podiappuhamy v. Liyanage and Others",
+      "Lalanie and Nirmala v. De Silva",
+      "Dissanayake v. Superintendent Mahara Prison",
+      "Weerakoon v. Mahendra and Others",
+      "Vidyamuni v. Jayetilleke",
+      "Sasanasiritissa Thero and Others v. De Silva and Others",
+      "Gunasekera v. Fonseka",
+      "Joseph Perera v. Attorney-General",
+      "Wijewardene v. Zain",
+      "Chandradasa v. Lai Fernando",
+      "Mallawaratchi v. Seneviratne",
+      "Kumaranatunga v. Samarasinghe",
+      "Christie v. Leachinsky",
+      "Mariadas v. Attorney-General"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court declared that the fundamental rights guaranteed by Article 13(1) were violated in respect of all petitioners due to unlawful arrest procedures and failure to inform them of the reasons for arrest.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Court ordered solatium payments to the petitioners for the violation of their rights."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) is central to the Court's reasoning as it directly protects against unlawful arrest and requires informing the arrested person of the reasons, which were the core issues in the case.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the petitioners were arrested without following the proper legal procedure under the Emergency Regulations, were not informed of the reasons for their arrest at the time of arrest, and that detention orders were flawed or not issued for some petitioners.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

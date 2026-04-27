@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_009-SLLR-SLLR-1993-1-CHANDRASIRI-V.-GEN._019_C01__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_138_92",
+    "case_title": "Chandrasiri v. Gen. Cyril Ranatunga and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1993-02-03",
+    "source_citation": "Sri Lanka Law Reports (1993) 1 Sri L R"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner's detention without a valid detention order violated Article 13(2) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that he was detained unlawfully without a valid detention order, including detention at the Heegoda Army Camp prior to any detention order, violating Article 13(2).",
+    "respondent_argument": "The respondents argued that the petitioner was arrested on 27.06.1990 under suspicion of subversive activities and detained under valid Detention Orders under Emergency Regulations 19(2) and 17(1).",
+    "key_facts": [
+      "Petitioner arrested on 19.03.1990 according to petitioner, detained initially at Heegoda Army Camp without detention order until 28.06.1990.",
+      "Detention Order under Regulation 19(2) dated 28.06.1990 authorizing detention at Weerawila Detention Camp.",
+      "Detention Order under Regulation 17(1) dated 23.09.1990 for preventive detention.",
+      "No material or investigation notes were produced by respondents to justify detention under Regulation 19(2).",
+      "O.I.C. Urubokka Police recommended release on 04.11.1991 due to lack of charges."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 13(2) requires any detention to be justified by a legal order and that detention without such order is unlawful. The Court emphasized the need for material evidence to justify detention orders.",
+    "application_to_facts": "The Court found that the petitioner was detained at Heegoda Army Camp without any detention order from 19.03.1990 to 28.06.1990, which was unlawful and violated Article 13(2). The Detention Order under Regulation 19(2) was invalid as no supporting material was produced. The preventive detention order under Regulation 17(1) was also invalid due to lack of evidence that the Secretary entertained the required opinion.",
+    "principles_established": [
+      "Detention without a valid legal order violates Article 13(2).",
+      "Detention orders must be supported by material evidence justifying the detention.",
+      "Subjective satisfaction of the authority must be supported by material to be valid."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held the petitioner's detention was unlawful and violated Article 13(2).",
+    "disposition": "granted",
+    "remedy_or_orders": "The Court ordered compensation of Rs. 50,000 and costs of Rs. 1,500 to the petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was central to the Court's reasoning as it directly prohibits detention without a legal order, which was the core issue in the petitioner's claim.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was detained at Heegoda Army Camp without any Detention Order from 19.03.1990 to 28.06.1990, which the Court found unlawful and violative of Article 13(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

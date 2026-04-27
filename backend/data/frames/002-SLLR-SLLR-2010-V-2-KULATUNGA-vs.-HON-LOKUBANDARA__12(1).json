@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_002-SLLR-SLLR-2010-V-2-KULATUNGA-VS.-HON_014_C01__12(1)",
+  "created_at": "2024-06-10",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (FR) APPLICATION NO. 229/2009",
+    "case_title": "Kulatunga vs. Hon Lokubandara",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2010-07-02",
+    "source_citation": "Sri Lanka Law Reports [2010] 2 SRILR"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s fundamental rights under Article 12(1) were infringed by the appointment process for the post of Director of Catering and Housekeeping Services, and whether the petition was filed within the constitutional time limit.",
+    "petitioner_claim": "The petitioner alleged violation of his fundamental rights under Article 12(1) due to unfair selection and recommendation of the 3rd respondent for the post, claiming discrimination and breach of equal protection.",
+    "respondent_argument": "The respondents argued that the selection was based purely on merit without bias or manipulation, and raised a preliminary objection that the petition was time barred under Article 126 of the Constitution.",
+    "key_facts": [
+      "The post became vacant on 12 November 2005 and the 3rd respondent was appointed to act in the post.",
+      "An interview was held on 7 April 2006 with the petitioner and 3rd respondent among others; the 3rd respondent was recommended based on marks awarded on merit.",
+      "The petitioner challenged the process and outcome, leading to a Presidential Investigation Unit inquiry and a fresh advertisement for the post.",
+      "The 3rd respondent obtained a writ of certiorari quashing the fresh application call and sought mandamus to be appointed.",
+      "The petitioner filed a writ application challenging the selection but withdrew it after the Court of Appeal decision.",
+      "The petitioner filed the fundamental rights application on 3 July 2007, nearly five months after withdrawing the writ application."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(1) as guaranteeing equality before the law and equal protection, but emphasized the procedural requirement under Article 126 that fundamental rights applications must be filed within one month of the infringement or knowledge thereof. The Court reaffirmed that this time limit is mandatory and strictly applied, with only rare exceptions where adequate excuse for delay exists.",
+    "application_to_facts": "The Court found that the petitioner had knowledge of the alleged infringement and had pursued remedies in the Court of Appeal, demonstrating awareness of the events. The delay of nearly five months in filing the fundamental rights application was not excused by any adequate reason such as incommunicado or impossibility. Therefore, the application was time barred and dismissed.",
+    "principles_established": [
+      "The one-month time limit under Article 126 for fundamental rights applications is mandatory and strictly enforced.",
+      "Knowledge of infringement triggers the start of the time limit.",
+      "Pursuit of other judicial or administrative remedies does not interrupt the time limit.",
+      "Rare exceptions to the time limit require adequate excuse such as impossibility (lex non cogit ad impossibilia)."
+    ],
+    "precedents_cited": [
+      "Gamaethige v. Siriwardene and Others [1988] 1 S.L.R. 384",
+      "Siriwardene v. Rodrigo [1986] 1 S.L.R. 384",
+      "Jayaweera v. National Film Corporation [1995] 2 S.L.R. 123",
+      "Ramanathan v. Tennakoon [1988] 2 CALR 187",
+      "Edirisuriya v. Navaratnam [1985] 1 S.L.R. 100"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court upheld the preliminary objection that the fundamental rights petition was time barred under Article 126 and dismissed the petition without costs.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner’s claim of discrimination and violation of equal protection in the appointment process. The Court’s reasoning focused on whether the petitioner’s rights under this clause were infringed and whether the claim was timely filed, directly linking the clause to the outcome.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner alleged violation of fundamental rights guaranteed under Article 12(1) due to the selection process, but the Court found the petition was filed after the one-month limit and dismissed it as time barred.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 16,
+      "end_char": 1050
+    }
+  }
+}

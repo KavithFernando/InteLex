@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_029-SLLR-SLLR-1991-V2-ABEYWARDENE-V.-INS_030_C01__15(7)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application No. 92/91",
+    "case_title": "Abeywardene v. Inspector General of Police and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1991-10-23",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 92/91, decided on 23 October 1991"
+  },
+  "clause": {
+    "article": "15(7)",
+    "text": "General restrictions may apply for national security, public order, health, morality, and welfare."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Emergency Regulations prohibiting certain gaming instruments, including Jackpot machines, were valid restrictions under Article 15(7) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the Regulations were ultra vires, not reasonably connected to the emergency, and that the classification exempting State lotteries violated equality rights.",
+    "respondent_argument": "The State argued the Regulations were valid emergency laws made by the President under the Public Security Ordinance to preserve public security and order, with a rational nexus to the emergency.",
+    "key_facts": [
+      "The President made Emergency Regulations under the Public Security Ordinance prohibiting importation and use of certain gaming instruments.",
+      "The petitioner’s Jackpot machines were seized under these Regulations.",
+      "The Regulations exempted State and public corporation lotteries from prohibition.",
+      "The President’s subjective satisfaction of necessity for the Regulations is conclusive unless bad faith is shown.",
+      "The Inspector-General of Police’s affidavit detailed public order threats from illegal gaming linked to crime and narcotics."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 15(7) permits general restrictions in the interests of national security and public order. The President has plenary power to make emergency regulations as he deems necessary or expedient. The Regulations had a clear rational nexus to the proclaimed emergency and public security objectives.",
+    "application_to_facts": "The Court accepted the Inspector-General’s affidavit showing the harmful effects of illegal gaming and the need to control it. The differentiation between State lotteries and private gaming was rational and related to the object of preserving public order. The President’s subjective satisfaction was conclusive absent bad faith.",
+    "principles_established": [
+      "Emergency regulations under Article 15(7) are presumed valid and the burden is on the challenger to prove unconstitutionality.",
+      "The President’s subjective opinion on necessity of emergency regulations is not justiciable unless bad faith is shown.",
+      "Classification and differentiation in emergency laws are permissible if based on intelligible differentia related to the law’s object.",
+      "Regulations aimed at preserving public security and order can validly restrict individual rights."
+    ],
+    "precedents_cited": [
+      "Yasapala v. Ranil Wickremasinghe and others",
+      "Attorney-General for Canada and another v. Hallet & Carey Ltd. and another",
+      "Carltona Ltd. v. Commissioner of Works and others",
+      "Mugler v. State of Kansas",
+      "State of Bombay v. F.N. Balsara"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court upheld the validity of the Emergency Regulations under Article 15(7) and dismissed the petitioner’s challenge to their constitutional validity.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 15(7) was central to the Court’s reasoning as it authorizes general restrictions on rights in the interests of national security and public order, which justified the Emergency Regulations challenged by the petitioner.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court emphasized the President’s plenary power under section 5 of the Public Security Ordinance to make emergency regulations necessary or expedient for public security and order, and accepted the Inspector-General’s affidavit detailing the public order threats from illegal gaming.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

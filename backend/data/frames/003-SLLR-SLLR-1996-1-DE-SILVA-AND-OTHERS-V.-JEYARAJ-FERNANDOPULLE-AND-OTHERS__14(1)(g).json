@@ -1,0 +1,73 @@
+{
+  "frame_id": "RQ1_003-SLLR-SLLR-1996-1-DE-SILVA-AND-OTHERS_005_C02__14(1)(g)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "003-SLLR-SLLR-1996-1-DE-SILVA-AND-OTHERS",
+    "case_title": "De Silva and Others v. Jeyaraj Fernandopulle and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-11-30",
+    "source_citation": "1996)1 Sri L.R."
+  },
+  "clause": {
+    "article": "14(1)(g)",
+    "text": "Freedom to engage in lawful occupation or business."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' fundamental rights under Article 14(1)(g) were infringed by preventing them from engaging in their lawful occupation as taxi operators at the Airport.",
+    "petitioner_claim": "The petitioners claimed that they were unlawfully prevented from engaging in their occupation as taxi operators at the Airport due to intimidation and exclusion orchestrated by the 1st to 7th Respondents and acquiesced in by police and Airport authorities.",
+    "respondent_argument": "The 1st Respondent and others denied involvement in intimidation or exclusion, asserting the new taxi service was lawfully inaugurated peacefully and that the petitioners' allegations were politically motivated and unsubstantiated.",
+    "key_facts": [
+      "Petitioners had valid agreements to provide taxi services at the Airport until 1996.",
+      "On 31 January 1995, petitioners were allegedly intimidated and excluded from operating taxis.",
+      "Police and Airport authorities were present but allegedly failed to protect petitioners.",
+      "A new taxi service company was introduced, allegedly replacing petitioners' services.",
+      "Contradictory statements by the 1st Respondent in Parliament undermined his affidavit."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 14(1)(g) as protecting the petitioners' right to engage in their lawful occupation without unlawful obstruction or intimidation. The failure of police and Airport authorities to provide protection and the instigation by the 1st Respondent constituted a violation of this right.",
+    "application_to_facts": "The Court found that the petitioners were effectively prevented from engaging in their occupation due to threats and intimidation instigated by the 1st Respondent and others, and that the police and Airport authorities failed in their duty to provide protection, thereby violating the petitioners' fundamental rights under Article 14(1)(g).",
+    "principles_established": [
+      "Right to engage in lawful occupation includes protection from intimidation and unlawful exclusion.",
+      "Police and administrative authorities have a duty to provide reasonable protection to enable exercise of fundamental rights.",
+      "Statements made in Parliament can be used to impeach credibility but not as substantive evidence.",
+      "Parliamentary privilege protects freedom of speech in Parliament from being questioned in courts."
+    ],
+    "precedents_cited": [
+      "Faiz v. Attorney-General and Others",
+      "Upaliratne v. Tikiri Banda and Others",
+      "Church of Scientology v. Johnson Smith",
+      "J.B. Textiles Ltd. v. Minister of Finance",
+      "Strickland v. Mitsui Bonnici",
+      "De Zoysa v. Wijesinghe",
+      "Weerasinghe v. Samarasinghe",
+      "Schmidt v. Secretary of State for Home Affairs",
+      "Laker Airways Ltd. v. Department of Trade",
+      "Dissanayake v. Kaleel",
+      "Jayatilleke v. Kaleel"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioners' fundamental rights under Article 14(1)(g) were infringed by the 1st and 14th Respondents due to intimidation and failure to provide protection, and granted relief accordingly.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of infringement of fundamental rights under Articles 12(1), 12(2), 14(1)(g) read with 14(1)(c).\nCompensation of Rs. 10,000 to each individual petitioner for loss of occupation.\nCompensation of Rs. 50,000 to each petitioner society for culpable inaction.\nCosts of Rs. 50,000 against the 1st Respondent to be paid to petitioner societies.\nDirections to police and Airport authorities to provide security and facilities to petitioners to operate taxis."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(g) guarantees the freedom to engage in lawful occupation, which the petitioners claimed was violated when they were prevented from operating their taxis at the Airport due to intimidation and lack of protection.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioners were prevented from engaging in their lawful occupation as taxi operators at the Airport due to threats and intimidation instigated by the 1st Respondent and others, with police and Airport authorities failing to provide protection, as supported by affidavits and contradictory statements of the 1st Respondent in Parliament.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "frame_id": "RQ1_017-SLLR-SLLR-1993-1-ELASINGHE-V.-WIJEWI_043_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_218_92",
+    "case_title": "Elasinghe v. Wijewickrema and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1993-02-17",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application 218/92, decided on 17 February 1993"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner's arrest was lawful and whether he was informed of the reason for his arrest as required by Article 13(1).",
+    "petitioner_claim": "The petitioner argued that he was abducted by the police without being informed of the reason for his arrest, that the arrest was invalid for lack of material justifying it, and that the detention was unlawful.",
+    "respondent_argument": "The respondents contended that the petitioner was lawfully arrested on reasonable suspicion of involvement in subversive activities, that the arresting officer explained the allegation at the time of arrest, and that the petitioner was informed of the arrest to his family and the Vice-Chancellor.",
+    "key_facts": [
+      "Petitioner was arrested on 09.01.92 by police officers in civilian clothes at about 4:10 p.m. near Wijerama Junction.",
+      "He was forcibly taken into a car and later detained under Emergency Regulations.",
+      "Police relied on information from a reliable informant identifying the petitioner as a person wanted for subversive activities.",
+      "The petitioner was interrogated starting the day of arrest and was informed of the detention orders.",
+      "The Vice-Chancellor and petitioner's family were notified of the arrest within days."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 13(1) requires that a person be informed of the reason for arrest at the moment of arrest or at the first reasonable opportunity. The test for lawful arrest is whether there was material for a reasonable officer to cause the arrest based on reasonable suspicion, not proof of commission of an offence.",
+    "application_to_facts": "The Court found that the police had reasonable grounds based on a reliable informant's information to suspect the petitioner and that the petitioner was informed of the reason for arrest promptly. The police also took steps to notify the Vice-Chancellor and family, satisfying the duty to inform.",
+    "principles_established": [
+      "The Court's role is to assess if there was material for a reasonable officer to arrest, not to determine guilt.",
+      "Reasonable suspicion suffices for lawful arrest; proof of offence is not required.",
+      "The duty to inform the reason for arrest is a fundamental right and must be done at arrest or first reasonable opportunity.",
+      "During emergency periods, police have wider discretion in arrests."
+    ],
+    "precedents_cited": [
+      "Muttusamy v. Kannangara",
+      "Joseph Perera v. Attorney-General",
+      "Withanachchi v. Herat",
+      "Mallawarachchi v. Seneviratne"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner's arrest was lawful and that he was informed of the reason for his arrest in compliance with Article 13(1). The alleged infringement of Article 13(1) was not established.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the Court's determination of whether the arrest was lawful and whether the petitioner was properly informed of the reason for arrest, which was the main issue in the fundamental rights application.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the police had reasonable suspicion based on a reliable informant and that the petitioner was informed of the allegation at the time of arrest or shortly thereafter, fulfilling the constitutional requirement.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1600,
+      "end_char": 2300
+    }
+  }
+}

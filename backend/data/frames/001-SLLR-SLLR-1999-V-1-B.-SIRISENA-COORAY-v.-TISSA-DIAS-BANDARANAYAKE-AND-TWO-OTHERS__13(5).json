@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_001-SLLR-SLLR-1999-V-1-B.-SIRISENA-COORA_003_C02__13(5)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_SPECIAL_WRIT_1_98",
+    "case_title": "B. Sirisena Cooray v. Tissa Dias Bandaranayake and Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-02-05",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Special (Writ) No. 1/98, decided on 5 February 1999"
+  },
+  "clause": {
+    "article": "13(5)",
+    "text": "Every person is presumed innocent until proven guilty."
+  },
+  "case_context": {
+    "legal_issue": "Whether the commission's findings against the petitioner were made in breach of the presumption of innocence under Article 13(5) of the Constitution, given the lack of probative evidence and denial of a fair hearing.",
+    "petitioner_claim": "The petitioner claimed that the commission's adverse findings and recommendations were based on suspicion and hearsay without probative evidence, and without giving him a right to be heard, thus violating the presumption of innocence.",
+    "respondent_argument": "The respondents argued that the commission's findings were based on evidence before it and that the commission had the authority to make such findings and recommendations.",
+    "key_facts": [
+      "The commission relied on hearsay and double hearsay evidence without probative value.",
+      "The petitioner was not given a right of hearing through his lawyers.",
+      "The commission made adverse findings of complicity in assassination and corruption.",
+      "The commission recommended civic disability based on these findings.",
+      "The Supreme Court found the commission's determinations unreasonable and unsupported by probative evidence."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court emphasized that the presumption of innocence requires that adverse findings must be based on evidence of probative value and that a person must be given a fair hearing. The commission's findings based on suspicion and hearsay without giving the petitioner a right to be heard breached the presumption of innocence under Article 13(5).",
+    "application_to_facts": "The commission failed to call its own attention to relevant matters, relied on evidence lacking probative value, and denied the petitioner a right of hearing, thus breaching the presumption of innocence. The Supreme Court held these determinations and recommendations were flawed and unreasonable.",
+    "principles_established": [
+      "Presumption of innocence requires decisions to be based on probative evidence.",
+      "Affected persons must be given a right to be heard to uphold the presumption of innocence.",
+      "Findings based on suspicion or untested hearsay violate constitutional protections.",
+      "Commissions must act reasonably and fairly when making determinations affecting rights."
+    ],
+    "precedents_cited": [
+      "Mahon v. Air New Zealand",
+      "Associated Provincial Picture Houses Ltd. v. Wednesbury Corporation",
+      "Premachandra v. Major Montague Jayawickrema"
+    ]
+  },
+  "outcome": {
+    "holding": "The Supreme Court quashed the commission's findings and recommendations against the petitioner on the basis that they were unreasonable, not based on probative evidence, and made without affording the petitioner a right of hearing, thus violating the presumption of innocence.",
+    "disposition": "granted",
+    "remedy_or_orders": "Writ of certiorari issued setting aside the commission's findings of complicity, corruption, and recommendation for civic disability."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(5) is central because the commission's adverse findings against the petitioner were made without probative evidence and without a fair hearing, violating the constitutional presumption of innocence, which the Supreme Court enforced by quashing those findings.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The commission's determinations and recommendations are flawed as being unreasonable, not based on evidence of any probative value, and reached without giving the petitioner a right of hearing through his lawyers, in breach of the principles of natural justice and Article 13(5).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

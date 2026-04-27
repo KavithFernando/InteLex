@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_032-SLLR-SLLR-1996-1-PRIYANGANI-V.-NANAY_159_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 3398/95",
+    "case_title": "Priyangani v. Nanayakkara and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-08-21",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 3398/95, decided on 21 August 1996"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner's fundamental right under Article 12(1) was violated by an arbitrary and discriminatory transfer back to a 'difficult' school despite having served the required period and being exempted from transfer as an 'excess' teacher.",
+    "petitioner_claim": "The petitioner argued that her transfer back to the difficult school was arbitrary and violated her right to equality under Article 12(1) because she had completed five years at a difficult school and was exempt from being identified as an excess teacher under the Transfer Circular guidelines.",
+    "respondent_argument": "The respondents contended that the petitioner was not entitled to exemption because during her service at the difficult school she lived near the school, so it was not 'difficult' for her; that the school had been removed from the 'difficult' list; and that the transfer was valid under the exigencies of service clause, which they argued overrode the exemption guidelines.",
+    "key_facts": [
+      "Petitioner served five years at Kottucachchiya MV, classified as a 'difficult' school.",
+      "Petitioner obtained a transfer to a school near her husband's home in February 1995.",
+      "Petitioner was transferred back to the difficult school in June 1995 without reasons or travel expenses.",
+      "Transfer Circular guidelines exempt teachers with required difficult service from being identified as excess.",
+      "Petitioner was identified as excess and transferred despite the exemption."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) protects against arbitrary and unreasonable exercise of discretionary powers, requiring fair and reasonable application of established guidelines. The designation of a school as 'difficult' cannot be negated for a particular teacher based on residence, and the exemption guidelines in the Transfer Circular must be applied to ensure equality.",
+    "application_to_facts": "The court found no justification for treating the petitioner as not having served in a difficult school. The transfer was arbitrary because the petitioner was exempt under the guidelines but was still identified as excess while others who were not exempt were not. The transfer process lacked independent consideration and was flawed.",
+    "principles_established": [
+      "Discretionary powers of public officials are not absolute and must be exercised fairly and reasonably.",
+      "Article 12(1) safeguards against arbitrary and unreasonable administrative actions.",
+      "Guidelines for teacher transfers must be followed to ensure equal treatment.",
+      "A teacher's right to equality is violated if exempted guidelines are ignored in transfer decisions."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner's fundamental right under Article 12(1) was violated by the arbitrary transfer and quashed the transfer order. The petitioner was entitled to resume work at the transferred school and to compensation.",
+    "disposition": "granted",
+    "remedy_or_orders": "Transfer order dated 13.6.95 quashed; petitioner entitled to resume work at Anamaduwa Adarsha Kanishta Vidyalaya immediately; State directed to pay Rs. 15,000/- compensation and Rs. 6,000/- costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects individuals from arbitrary and discriminatory administrative actions, which the court found in the petitioner's transfer. The violation of equality before the law was the basis for quashing the transfer and awarding relief.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was identified as excess and transferred despite having served five years in a difficult school and being exempt under the Transfer Circular guidelines, violating her right to equality under Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

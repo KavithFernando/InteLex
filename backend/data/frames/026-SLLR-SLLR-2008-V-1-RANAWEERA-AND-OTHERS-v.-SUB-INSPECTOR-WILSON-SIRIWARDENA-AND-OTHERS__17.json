@@ -1,0 +1,73 @@
+{
+  "frame_id": "RQ1_026-SLLR-SLLR-2008-V-1-RANAWEERA-AND-OTH_025_C01__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION 654/2003",
+    "case_title": "Ranaweera and Others v Sub-Inspector Wilson Siriwardena and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2005-09-06",
+    "source_citation": "[2008] 1 Sri L.R 260"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the acts done by the Fiscal in executing a writ issued by a court constitute executive or administrative action under Article 17 and whether the petitioners' fundamental rights were violated by such acts.",
+    "petitioner_claim": "The petitioners claimed that the Fiscal, in executing the writ of possession, violated their right to equal protection of the law by dispossessing them without giving an opportunity to have their claim examined by the Court, and that the acts of the Fiscal and police officers allowing outsiders to enter and damage their property were arbitrary and unlawful.",
+    "respondent_argument": "The respondents argued that the action taken to implement a valid judicial order does not constitute executive or administrative action and thus cannot give rise to liability under Article 17; also, the writ was valid and the Fiscal acted accordingly.",
+    "key_facts": [
+      "The Fiscal executed a writ of possession issued by the District Court against the 7th respondent judgment debtor.",
+      "The petitioners were not parties to the original District Court action but claimed ownership and possession of the property.",
+      "The Fiscal proceeded with execution despite the petitioners presenting title deeds and claiming non-liability under the writ.",
+      "The petitioners alleged unlawful entry and damage caused by persons brought by the judgment creditor during execution.",
+      "The petitioners filed a fundamental rights application alleging violation of Article 12(1) (equal protection) and the Court considered Article 17 jurisdiction."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the act of issuing a writ of execution by a Judge is a ministerial act, not a judicial act, because the Court has no discretion once the conditions for execution are met. The Fiscal's execution of the writ is a ministerial act done with judicial sanction but remains executive or administrative action under Article 17. Therefore, the Court has jurisdiction to examine such acts under fundamental rights jurisdiction.",
+    "application_to_facts": "Since the Fiscal's acts in executing the writ fall within executive or administrative action, the petitioners' claims of violation of fundamental rights arising from those acts are justiciable under Article 17. The Court rejected the argument that such acts are immune from fundamental rights scrutiny because they are judicial acts.",
+    "principles_established": [
+      "Issuing a writ of execution is a ministerial act, not a judicial act, for fundamental rights purposes.",
+      "Execution of a writ by the Fiscal is executive or administrative action subject to fundamental rights jurisdiction.",
+      "Judges enjoy immunity for judicial acts, but officers executing court orders have limited immunity and may be liable for violations.",
+      "The fundamental rights jurisdiction of the Supreme Court extends to ministerial acts done under judicial sanction."
+    ],
+    "precedents_cited": [
+      "Peter Leo Fernando v The Attorney-General",
+      "Farook v Raymond",
+      "Cannosa Investments Ltd. v Earnest Perera and others",
+      "Kumarasinghe v The AG",
+      "Dayananda v Weerasinghe",
+      "Dharmatilaka v Abeynayake",
+      "Perera v The University Grants Commission",
+      "Faiz v The Attorney-General",
+      "Badoordeen v Dingiri Banda",
+      "Edirisinghev Navaratnam",
+      "Subasinghe v Inspector General of Police"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court overruled the preliminary objection that the Fiscal's acts were not executive or administrative action and held that the Court has jurisdiction to entertain the fundamental rights application based on those acts.",
+    "disposition": "other",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 provides the constitutional basis for the Supreme Court's jurisdiction to hear fundamental rights violations. The Court's reasoning centered on whether the Fiscal's acts fall within the scope of executive or administrative action subject to Article 17, making this clause central to the decision.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that the acts done by the Fiscal in executing a writ issued by a court fall within the ambit of executive or administrative action within the meaning of Article 126 (and by extension Article 17) of the Constitution, and that this Court has jurisdiction to examine such acts under the fundamental rights jurisdiction.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2600,
+      "end_char": 2900
+    }
+  }
+}

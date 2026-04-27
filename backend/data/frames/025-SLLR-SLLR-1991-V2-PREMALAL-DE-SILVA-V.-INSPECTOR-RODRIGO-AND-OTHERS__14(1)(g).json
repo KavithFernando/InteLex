@@ -1,0 +1,55 @@
+{
+  "frame_id": "RQ1_025-SLLR-SLLR-1991-V2-PREMALAL-DE-SILVA-_048_C01__14(1)(g)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application No. 24/89",
+    "case_title": "Premalal De Silva v. Inspector Rodrigo and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1990-07-13",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 24/89, decided on 13 July 1990"
+  },
+  "clause": {
+    "article": "14(1)(g)",
+    "text": "Freedom to engage in lawful occupation or business."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s rights under Article 14(1)(g) of the Constitution were violated by his arrest, detention, and treatment by the police.",
+    "petitioner_claim": "The petitioner alleged infringement of his rights under Article 14(1)(g) among other constitutional rights due to unlawful arrest, detention, and torture.",
+    "respondent_argument": "At the hearing, the petitioner’s counsel informed the Court that the claim under Article 14(1)(g) would not be pressed.",
+    "key_facts": [
+      "The petitioner was arrested on 19 May 1989 without a warrant on suspicion of involvement in a robbery.",
+      "He was detained unlawfully without being produced before a Magistrate as required by law.",
+      "He was subjected to torture and inhuman treatment while in police custody.",
+      "The petitioner initially claimed violation of Article 14(1)(g) but later did not press this claim at the hearing."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court noted the petitioner’s initial claim under Article 14(1)(g) but observed that the petitioner’s counsel chose not to press this claim at the hearing, and thus the Court did not engage in substantive interpretation or application of this clause.",
+    "application_to_facts": "Since the petitioner did not pursue the claim under Article 14(1)(g), the Court did not apply this constitutional provision to the facts of unlawful arrest, detention, and torture.",
+    "principles_established": [],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The claim under Article 14(1)(g) was not pressed and therefore not decided upon by the Court.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(g) was initially claimed by the petitioner as a basis for relief but was expressly not pressed at the hearing, so it was not central to the Court’s reasoning or outcome.",
+    "relevance_level": "low",
+    "match_type": "mentioned_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "At the hearing before us, learned Counsel for the petitioner informed us that he would not press the claim under Article 14(l)(g).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 309,
+      "end_char": 350
+    }
+  }
+}

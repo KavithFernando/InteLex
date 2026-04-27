@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_010-SLLR-SLLR-1978-79-80-V1-PALIHAWADANA_047_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_NO_12_1979",
+    "case_title": "PalihaWadana v. Attorney-General and Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1979-04-27",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. No. 12 of 1979, decided on 27 April 1979"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was discriminated against on the ground of political opinion in violation of Article 12(2) by being denied a Job Bank application form due to his membership in an opposition political party.",
+    "petitioner_claim": "The petitioner claimed that the Job Bank Scheme enabled MPs to discriminate against citizens on political grounds, and that he was denied access to employment opportunities because he belonged to the Lanka Sama Samaja Party, an opposition party.",
+    "respondent_argument": "The respondents argued that the petitioner was not eligible under the scheme’s criteria and that the MP had exhausted the forms before the petitioner’s request. They denied any political discrimination and stated no guidelines existed for selection but the discretion was not arbitrary.",
+    "key_facts": [
+      "The petitioner was an active member and secretary of the Lanka Sama Samaja Party branch in his area.",
+      "The MP for Hewaheta did not issue the petitioner a Job Bank application form, allegedly due to political bias.",
+      "Affidavits showed forms were distributed to persons with substantial income and political affiliations favoring the MP’s party.",
+      "Some electorates represented by opposition MPs were excluded from the scheme entirely.",
+      "The petitioner’s family assets disqualified him from eligibility under the scheme."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court recognized that Article 12(2) prohibits discrimination on political opinion and that the scheme’s vesting of power in MPs could lead to bias favoring their supporters. However, the petitioner’s lack of eligibility under the scheme’s criteria meant he could not claim discrimination under Article 12(2).",
+    "application_to_facts": "Although evidence suggested political discrimination in form distribution and exclusion of opposition electorates, the petitioner was not within the eligible class and thus had no standing to claim violation of Article 12(2). The Court noted the need for safeguards to prevent bias in future schemes.",
+    "principles_established": [
+      "Discrimination on political opinion is prohibited under Article 12(2).",
+      "Vesting discretionary power in politicians without safeguards risks bias and discrimination.",
+      "Eligibility under scheme criteria is a prerequisite to claim discrimination under Article 12(2).",
+      "Absence of guidelines for selection enables potential for political bias.",
+      "Discriminatory exclusion of electorates based on political affiliation violates Article 12(2)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that while the scheme’s operation risked political discrimination, the petitioner was not eligible under the scheme’s criteria and thus could not claim infringement of Article 12(2). The petition was dismissed.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) is directly relevant to the petitioner’s claim of political discrimination in access to State employment under the Job Bank Scheme, framing the Court’s analysis of bias and eligibility.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court noted allegations and some evidence of political discrimination in the distribution of Job Bank forms and exclusion of opposition electorates, but found the petitioner ineligible under the scheme’s criteria and thus unable to claim violation of Article 12(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

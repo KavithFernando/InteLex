@@ -1,0 +1,66 @@
+{
+  "frame_id": "RQ1_020-SLLR-SLLR-1995-V-1-SENERATH-V.-CHAND_107_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "RQ1_020-SLLR-SLLR-1995-V-1-SENERATH-V.-CHAND",
+    "case_title": "Senerath v. Chandraratne, Commissioner of Excise and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-08-24",
+    "source_citation": "Supreme Court of Sri Lanka, Senerath v. Chandraratne, Commissioner of Excise and Others, 1995"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was discriminated against on the prohibited grounds, specifically political opinion, in violation of Article 12(2) by the refusal to renew his liquor licences.",
+    "petitioner_claim": "The petitioner claimed that the refusal to renew his licences was due to political discrimination, as he had ceased supporting the ruling party, and that this violated Article 12(2).",
+    "respondent_argument": "The respondents argued that the President has immunity under Article 35 and that the petitioner’s claim was against officials, not the President. They also argued that the petitioner failed to discharge the heavy burden of proving discrimination on prohibited grounds.",
+    "key_facts": [
+      "Petitioner alleged refusal to renew licences was politically motivated discrimination.",
+      "Leave to proceed was granted for alleged infringements of Articles 12(1) and 12(2).",
+      "Respondents contended presidential immunity barred proceedings against the President.",
+      "Petitioner sought relief only against officials, not the President.",
+      "The Court considered the burden of proof and scope of immunity."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(2) prohibits discrimination on specified grounds including political opinion. The petitioner must prove such discrimination with clear evidence. The Court found that the petitioner’s allegations were insufficient to discharge this burden. The immunity of the President does not extend to officials, and the claim against officials was maintainable.",
+    "application_to_facts": "The Court noted the petitioner’s claim of political discrimination but emphasized the heavy burden of proof. Mere suspicion or unsubstantiated allegations were inadequate. The Court rejected the argument that the President must respond to allegations or that the immunity was being circumvented.",
+    "principles_established": [
+      "Article 12(2) prohibits discrimination on grounds including political opinion.",
+      "The burden of proof for discrimination is heavy and requires clear evidence.",
+      "Presidential immunity under Article 35 is personal and does not shield officials.",
+      "Indirect attempts to evade constitutional immunities are not permitted."
+    ],
+    "precedents_cited": [
+      "Hettiarachchi v. Seneviratne S.C. Application No. 127/94",
+      "Kumaratunga v. Jayakody (1985) 2 Sri LR 124",
+      "Alasupillai v. Yapetipullai 39 CLW 107",
+      "Ashutosh v. State of Delhi AIR 1953 SC 451"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court allowed the petitioner to proceed with the fundamental rights application under Article 12(2), rejecting the preliminary objection based on presidential immunity and holding that the claim against officials for political discrimination was maintainable.",
+    "disposition": "allowed_in_part",
+    "remedy_or_orders": "Preliminary objection overruled; petition set down for hearing on the merits."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) is central to the petitioner’s claim that he was discriminated against on the prohibited ground of political opinion, and the Court’s reasoning focused on whether the petitioner met the burden of proof for such discrimination.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner alleged political discrimination in the refusal to renew licences. The Court held that the burden of proof was on the petitioner and that the claim against officials was maintainable despite the President’s immunity under Article 35.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2090,
+      "end_char": 2210
+    }
+  }
+}

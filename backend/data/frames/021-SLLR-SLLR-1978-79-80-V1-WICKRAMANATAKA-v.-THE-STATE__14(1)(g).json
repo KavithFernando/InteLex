@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1978-79-80-V1-WICKRAMANATA_035_C01__14(1)(g)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPEAL NO. 58/79",
+    "case_title": "Wickramanayaka v. The State",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1979-09-24",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Appeal No. 58/79, decided on 24 September 1979"
+  },
+  "clause": {
+    "article": "14(1)(g)",
+    "text": "Freedom to engage in lawful occupation or business."
+  },
+  "case_context": {
+    "legal_issue": "Whether clauses 2(1) and 2(2) of the Essential Public Service Bill contravene Article 14(1)(g) by compelling employees in essential public services to remain in employment and work under compulsion.",
+    "petitioner_claim": "The petitioner argued that clause 2(2) compels persons employed in government departments and other public bodies to remain in employment and work under threat of criminal prosecution, violating their freedom to engage in any lawful occupation, including the negative right not to be employed or to choose another employment.",
+    "respondent_argument": "The State argued that Article 14(1)(g) must be read with permitted constitutional restrictions under Articles 15(5) and 15(7), and that the Bill's restrictions are reasonable and necessary to maintain essential services vital to the community's life, invoked only in emergencies with safeguards.",
+    "key_facts": [
+      "The Bill declares certain public services as essential and restricts employees from striking or leaving work during such declaration.",
+      "The President may declare essential services only when interruption is likely and the service is vital to community life.",
+      "The Bill applies only in emergency situations and includes procedural safeguards such as parliamentary approval of orders.",
+      "The petitioner did not establish a fundamental right to strike under the Constitution.",
+      "The Bill's restrictions are comparable to existing emergency regulations and are subject to judicial review for abuse of discretion."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 14(1)(g) freedom is subject to constitutional restrictions under Articles 15(5) and 15(7) for reasons including national security, public order, and general welfare. The Bill's restrictions on employees in essential services are reasonable and justified to prevent disruption of vital community services. The negative right not to be employed is not absolute and can be limited in such contexts.",
+    "application_to_facts": "The Court found the Bill's provisions reasonable given the vital nature of the services and the emergency context. The President's discretion to declare essential services is subject to judicial review, ensuring no abuse. The Bill's restrictions on employment and compulsory service during emergencies do not violate Article 14(1)(g) when read with constitutional limitations.",
+    "principles_established": [
+      "Fundamental rights under Article 14(1)(g) can be limited by law enacted under Articles 15(5) and 15(7).",
+      "The State has a duty to ensure uninterrupted essential services vital to community life.",
+      "Emergency legislation restricting employment rights can be reasonable and constitutional if safeguards exist.",
+      "No absolute fundamental right to strike exists under the Constitution."
+    ],
+    "precedents_cited": [
+      "Leavie Collymore v. A.G.",
+      "Radhey v. P.M.G. Nagpur",
+      "AH India Bank Employees' Association v. National Industrial Tribunal",
+      "Raghubar Dayal v. Union of India",
+      "Gosh v. Joseph"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the restrictions imposed by clauses 2(1) and 2(2) of the Bill on the freedom to engage in lawful occupation under Article 14(1)(g) are reasonable and do not contravene the Constitution.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(g) is central to the Court's analysis of whether compulsory service and restrictions on employment in essential services violate fundamental rights. The Court directly interprets this clause in light of constitutional limitations to uphold the Bill's provisions.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that Article 14(1)(g) must be read with constitutional restrictions under Articles 15(5) and 15(7), and that the Bill's restrictions on compulsory service in essential public services are reasonable and necessary to maintain vital community services.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1030,
+      "end_char": 1400
+    }
+  }
+}

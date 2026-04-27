@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_007-SLLR-1988-V2-MADAN-MOHAN-V.-CARSON-C_035_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Reference No. 2/88",
+    "case_title": "Madan Mohan v. Carson Cumberbatch & Co. Ltd.",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1988-08-03",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Reference No. 2/88, decided on 3 August 1988"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the affidavit filed in English by the 2nd, 3rd and 7th respondents violates the constitutional requirement that court records and proceedings be in the official language, thus implicating equality before the law and equal protection.",
+    "petitioner_claim": "The petitioner and 5th respondent argued that the affidavit in English violates Article 24(1) of the Constitution, which mandates the official language (Sinhala) be used in court records and proceedings, thus denying equal protection under the law.",
+    "respondent_argument": "The 2nd, 3rd and 7th respondents contended that the affidavit is not part of pleadings or proceedings but is supporting evidence prepared outside court, and that the Affidavits Act No. 23 of 1953 permits affidavits in English, so no constitutional violation occurred.",
+    "key_facts": [
+      "The 2nd, 3rd and 7th respondents filed a joint petition in Sinhala supported by a joint affidavit in English.",
+      "Article 24(1) of the Constitution requires the official language (Sinhala) to be used in courts and their records and proceedings.",
+      "The Affidavits Act No. 23 of 1953 allows affidavits to be sworn in Sinhala, Tamil, or English.",
+      "The Constitution's Article 168 preserves existing laws unless expressly repealed.",
+      "The Supreme Court had to interpret whether the affidavit in English complies with Article 24(1)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 24(1) as requiring all court records and proceedings to be in the official language, Sinhala. It held that affidavits, though supporting evidence, become part of the court record and proceedings. The Affidavits Act allowing English affidavits remains valid as existing law but cannot override the constitutional mandate that court records be in Sinhala. Therefore, affidavits filed in English violate Article 24(1).",
+    "application_to_facts": "The affidavit filed in English by the 2nd, 3rd and 7th respondents was held invalid as it contravened Article 24(1). The court emphasized that the Constitution is supreme and the Affidavits Act cannot derogate from it. The respondents were entitled to file affidavits in English under the Act, but the constitutional requirement for official language in court records prevails.",
+    "principles_established": [
+      "Affidavits are part of court records and proceedings under Article 24(5).",
+      "The Constitution's supremacy means no existing law can override its provisions unless expressly repealed.",
+      "The official language requirement in courts is mandatory and includes affidavits filed in support of pleadings.",
+      "The Affidavits Act permitting English affidavits does not override the constitutional mandate for official language in court records."
+    ],
+    "precedents_cited": [
+      "Science House (Ceylon) Ltd v. IPCA Laboratories Private Ltd.",
+      "Difwafth v. Commissioner of Stamps",
+      "Ludovici v. Nicholas Appu",
+      "Shanmugam v. Commissioner for Registration of Indian and Pakistani Residents",
+      "Coomaraswamy v. Shanmugaratna Iyer",
+      "H. M. T. Wickremaratne v. Monetary Board of the Central Bank of Ceylon"
+    ]
+  },
+  "outcome": {
+    "holding": "The affidavit filed in English by the 2nd, 3rd and 7th respondents is not valid under Article 24(1) of the Constitution and cannot be produced before the court.",
+    "disposition": "granted",
+    "remedy_or_orders": "The affidavit filed in English is rejected; the District Judge is directed to proceed on the basis that the affidavit must be in the official language."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) ensures equality before the law and equal protection, which is implicated by the requirement that court records and proceedings be in the official language to avoid discrimination or unequal treatment in legal processes.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that affidavits are part of court records and proceedings under Article 24(5), and that the affidavit filed in English violates Article 24(1) which mandates the official language be used in courts. The Affidavits Act allowing English affidavits does not override this constitutional requirement.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 7000,
+      "end_char": 9000
+    }
+  }
+}

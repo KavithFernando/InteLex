@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_028-SLLR-SLLR-1995-V-1-SENARATNE-V.-PUNY_066_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO : 18/95",
+    "case_title": "Senaratne v. Punya de Silva and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-11-03",
+    "source_citation": "Sri Lanka Law Reports [1995] 1 Sri L.R. 272"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s arrest was lawful and whether he was informed of the reasons for his arrest as required by Article 13(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that his fundamental right to freedom from arbitrary arrest was violated because the arresting officer had no reasonable cause to arrest him and he was not informed of the reasons for his arrest.",
+    "respondent_argument": "The respondent argued that the petitioner was arrested on reasonable suspicion of involvement in cognizable offences related to the hostage crisis and that the arrest was in accordance with procedure established by law.",
+    "key_facts": [
+      "Petitioner was President of a Trade Union involved in a dispute at Prima Bakery.",
+      "On 7 December 1994, employees took two executives hostage on the bakery rooftop.",
+      "Petitioner intervened to secure release of hostages and signed an agreement as Union President.",
+      "Petitioner was arrested on 23 December 1994 at his residence by police without prior explanation of charges.",
+      "Petitioner was not informed of the specific reasons for his arrest at the time of arrest."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 13(1) requires that no person be arrested except according to procedure established by law and that the person arrested must be informed of the reasons for the arrest. The suspicion justifying arrest must be reasonable, positive, and definite, not vague or uncertain.",
+    "application_to_facts": "The Court found that the petitioner was not implicated in any cognizable offence and there was no reasonable suspicion or credible information to justify his arrest. The arresting officer failed to inform the petitioner of the reasons for arrest at the time of arrest, violating Article 13(1).",
+    "principles_established": [
+      "Arrest must be based on reasonable suspicion of involvement in a cognizable offence.",
+      "The arrested person must be informed of the grounds for arrest personally and promptly.",
+      "Vague or uncertain suspicion is insufficient to justify arrest.",
+      "The right to resist unlawful arrest depends on being informed of the grounds for arrest."
+    ],
+    "precedents_cited": [
+      "Malinda Channa Pieris & Others v. A.-G. & Others [1994] 1 Sri L.R. 1",
+      "Elasinghe v. Wijewickreme [1993] 1 Sri L.R. 163",
+      "Kumara v. Rohan Fernando & Others SC App. 22/90",
+      "Dumbell v. Roberts [1994] 1 All ER 326",
+      "Gunasekera v. De Fonseka [1972] 75 N.L.R. 246",
+      "Selvakumar v. Douglas Devananda SC App, 150/93"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner’s arrest was not in accordance with procedure established by law and that the failure to inform him of the reasons for arrest violated Article 13(1) of the Constitution.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of violation of Article 13(1) fundamental right."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) is central to the Court’s reasoning as it protects against arbitrary arrest and mandates informing the arrested person of the reasons, which the Court found was violated in this case.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was arrested without reasonable suspicion and was not informed of the reasons for his arrest at the time, violating Article 13(1). The Court emphasized the need for positive and definite grounds for arrest and personal communication of reasons.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

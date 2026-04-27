@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_038-SLLR-SLLR-2004-V-3-VELU-ARASADEVI-V._058_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_401_2001",
+    "case_title": "Velu Arasadevi v. Prematilaka and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-01-24",
+    "source_citation": "Sri Lanka Law Reports [2004] 3 Sri L.R. 240"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s fundamental rights under Article 11 were infringed by the executive action of police/army personnel who raped her while on duty.",
+    "petitioner_claim": "The petitioner claimed that she was raped by police/army personnel at a checkpoint, constituting a violation of her fundamental rights under Article 11.",
+    "respondent_argument": null,
+    "key_facts": [
+      "Petitioner was stopped at a checkpoint where the 1st and 2nd respondents were on duty.",
+      "Later, the 1st and 3rd respondents came to her home and ordered her to accompany them to the police station.",
+      "Instead of taking her to the police station, she was taken behind the checkpoint and raped by more than one person.",
+      "The petitioner was subjected to unlawful restraint on liberty.",
+      "Medical evidence was submitted confirming the rape."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 11 protects individuals from torture and cruel, inhuman or degrading treatment, and that rape by state agents while on duty constitutes such a violation.",
+    "application_to_facts": "Since the petitioner was raped by persons on duty at the checkpoint and unlawfully restrained, the State was responsible for the infringement of her fundamental rights under Article 11.",
+    "principles_established": [
+      "State responsibility arises when fundamental rights are violated by executive action.",
+      "Rape by state agents constitutes cruel, inhuman or degrading treatment under Article 11."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental right under Article 11 was infringed by executive action and awarded compensation.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation of Rs. 150,000 awarded to the petitioner payable by the State."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the court’s finding that the petitioner’s rape by state agents constituted a violation of her fundamental rights, leading to the award of compensation.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was raped by one or more persons near the checkpoint while they were on duty, constituting unlawful restraint and violation of fundamental rights under Article 11.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 240,
+      "end_char": 272
+    }
+  }
+}

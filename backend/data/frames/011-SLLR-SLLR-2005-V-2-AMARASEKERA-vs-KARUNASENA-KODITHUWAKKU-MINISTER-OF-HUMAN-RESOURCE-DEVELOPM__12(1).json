@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_011-SLLR-SLLR-2005-V-2-AMARASEKERA-VS-KA_058_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "CA_APPLI_362_2004",
+    "case_title": "Amarasekera vs. Karunasena Kodithuwakku, Minister of Human Resource Development, Education and Cultural Affairs and Others",
+    "court_name": "Court of Appeal of Sri Lanka",
+    "decision_date": "2004-12-16",
+    "source_citation": "Sri Lanka Law Reports (2005) 1 Sh L. R. 5"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether Section 12(1) of the Minutes on Pensions (MOP) can be applied to withhold the pension of an officer who has already retired, and whether the petitioner is entitled to a writ of mandamus directing the forwarding of pension documents.",
+    "petitioner_claim": "The petitioner argued that Section 12(1) of the MOP cannot be applied to withhold pension after retirement unless disciplinary action was pending or contemplated at the time of retirement, and that the delay and withholding of pension violates his rights and established procedure.",
+    "respondent_argument": "The respondents contended that a preliminary investigation found the petitioner responsible for irregularities, disciplinary action was recommended, and the Public Service Commission (PSC) decided to withhold pension under Section 12(1) of the MOP, even though the decision was made after retirement.",
+    "key_facts": [
+      "Petitioner retired on 15 February 2003 after 35 years of public service.",
+      "Preliminary investigation into financial irregularities was ongoing at the time of retirement.",
+      "PSC was informed two days before retirement and later decided to withhold pension on 23 June 2003.",
+      "Petitioner sought writ of mandamus to compel forwarding of pension documents.",
+      "Petitioner was not challenging the PSC's decision but the delay and application of Section 12(1)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Section 12(1) of the Minutes on Pensions may be legitimately applied if disciplinary proceedings were pending or contemplated at the time of retirement. The fact that the PSC made its determination after the actual retirement does not invalidate the order.",
+    "application_to_facts": "Since disciplinary proceedings were contemplated and a preliminary investigation was underway before the petitioner’s retirement, the PSC’s decision to withhold pension under Section 12(1) was valid. The petitioner’s retirement intervened in ongoing disciplinary proceedings, making Section 12(1) applicable.",
+    "principles_established": [
+      "Section 12(1) applies if disciplinary proceedings are pending or contemplated at retirement.",
+      "A decision made after retirement can still validly withhold pension under Section 12(1).",
+      "A writ of mandamus cannot be maintained if the petitioner does not challenge the PSC’s determination."
+    ],
+    "precedents_cited": [
+      "Wilbert Godawela v. S. D. Chandradasa and Others (1995 2 Sri LR 338)",
+      "Peiris vs Wijesooriya, Director, Irrigation and others (1999 1 Sri LR 295)"
+    ]
+  },
+  "outcome": {
+    "holding": "The application for a writ of mandamus was dismissed because the petitioner did not challenge the PSC’s decision, and Section 12(1) was validly applied to withhold pension.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Section 12(1) of the Minutes on Pensions was central to the court’s reasoning about whether pension could be withheld after retirement due to pending disciplinary proceedings, directly affecting the outcome.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that Section 12(1) may be legitimately applied if disciplinary proceedings were contemplated at the time of retirement, and the PSC’s decision after retirement does not affect its validity.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

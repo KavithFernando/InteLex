@@ -1,0 +1,73 @@
+{
+  "frame_id": "RQ1_016-SLLR-SLLR_1993-2-GAMINI_DISSANAYAKE__080_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_4_91",
+    "case_title": "Gamini Dissanayake v. M. C. M. Kaleel and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1991-12-03",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (Special) No. 4-11/91, decided on 3 December 1991"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the expulsion of eight Members of Parliament from the United National Party violated their constitutional rights under Article 12(1) regarding equality and equal protection of the law.",
+    "petitioner_claim": "The petitioners argued that their expulsion was invalid as it violated their constitutional rights, including equality before the law and equal protection, and that they had a constitutional right to sign the notice of resolution and to freedom of speech without being expelled for failing to raise matters internally first.",
+    "respondent_argument": "The respondents contended that the expulsion was valid due to the petitioners' failure to initiate prior internal discussions within the party, their betrayal by signing the notice of resolution, and misconduct including deceiving the Cabinet, and that party discipline and rules justified the expulsions.",
+    "key_facts": [
+      "Eight MPs signed a notice of resolution to remove the President, leader of their party.",
+      "The petitioners were expelled from the party by the Working Committee, with endorsement by the National Executive Committee.",
+      "Petitioners challenged the expulsion under Article 99(13)(a) of the Constitution.",
+      "Petitioners were not given prior notice or opportunity to be heard before expulsion.",
+      "Two petitioners (Premachandra and Athulathmudali) were found to have deceived the Cabinet."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) requires equal protection of the law, which includes fair treatment in disciplinary proceedings. The petitioners, as party members and MPs, were entitled to procedural fairness including notice and an opportunity to be heard before expulsion. The court recognized the party's right to discipline members but emphasized that such power is subject to natural justice and constitutional protections.",
+    "application_to_facts": "The court found that the petitioners were not given notice or a hearing before expulsion, violating principles of natural justice and equal protection. While the petitioners had a duty to raise issues internally, the failure to provide a fair hearing rendered the expulsions invalid except for two petitioners who deceived the Cabinet, whose expulsion was upheld.",
+    "principles_established": [
+      "Political parties have disciplinary powers but must exercise them consistent with constitutional rights including equality and natural justice.",
+      "Members of Parliament have a duty to raise dissent internally before public criticism but retain constitutional freedoms.",
+      "Procedural fairness (audi alteram partem) is essential in disciplinary actions affecting rights.",
+      "Delegation of disciplinary powers within party structures is valid if consistent with party rules.",
+      "Deception of Cabinet members by party members is grave misconduct justifying expulsion."
+    ],
+    "precedents_cited": [
+      "Wickremabahu v. Herath SC 27/1988",
+      "Shanmugam v. Commissioner for Registration of I and P Residents (1962) 64 NLR 29",
+      "Young v. Fife Regional Council (1986) Scots LT 331",
+      "General Medical Council v. U. K. Dental Board [1936] Ch 41",
+      "Ridge v. Baldwin [1964] AC 40",
+      "Joseph Perera v. A G. SC 107-109/86",
+      "New York Times v. US (1971) 403 US 713",
+      "Dissanayake v. Sri Jayawardenepura University [1986] 2 Sri LR 254",
+      "R v. Sussex Justices [1924] 1 KB 256",
+      "Gaiman v. National Association for Mental Health [1970] 2 All ER 362"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the expulsion of six petitioners was invalid due to denial of natural justice and equal protection, but the expulsion of two petitioners who deceived the Cabinet was valid.",
+    "disposition": "allowed_in_part",
+    "remedy_or_orders": "The expulsions of six petitioners were declared invalid; no order as to costs; the two petitioners who deceived the Cabinet remain validly expelled."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning on the requirement of equal protection and fairness in disciplinary proceedings affecting the petitioners' rights as party members and MPs, influencing the outcome on validity of expulsions.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court emphasized that the power of expulsion is subject to natural justice and that the petitioners were not given notice or opportunity to be heard, violating their right to equal protection under the law.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

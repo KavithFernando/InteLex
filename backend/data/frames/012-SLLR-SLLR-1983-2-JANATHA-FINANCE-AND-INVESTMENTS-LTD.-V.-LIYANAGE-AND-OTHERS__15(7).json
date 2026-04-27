@@ -1,0 +1,76 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-1983-2-JANATHA-FINANCE-AND_008_C01__15(7)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 127 OF 1982",
+    "case_title": "Janatha Finance and Investments Ltd v. Liyanage and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1983-02-14",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 127 of 1982, decided on 14 February 1983"
+  },
+  "clause": {
+    "article": "15(7)",
+    "text": "General restrictions may apply for national security, public order, health, morality, and welfare."
+  },
+  "case_context": {
+    "legal_issue": "Whether Regulation 14(7) of the Emergency (Miscellaneous Provisions and Powers) Regulations No. 2 and 3 of 1982, empowering a public officer to restrict fundamental rights, is ultra vires Article 15(7) of the Constitution and whether the Orders made under it infringe the Petitioner's fundamental rights.",
+    "petitioner_claim": "The petitioner argued that Regulation 14(7) does not itself restrict fundamental rights but empowers a public officer to deny or suspend such rights, which goes beyond the restrictions allowed by Article 15(7). The Orders sealing the Petitioner's printing press were alleged to be an infringement of the fundamental rights to equality before the law and freedom from discrimination on political grounds, and were made with ulterior political motives.",
+    "respondent_argument": "The respondents contended that Regulation 14(7) is valid as it prescribes restrictions by law as required by Article 15(7). The power vested in the Competent Authority to make Orders is lawful, and the Court's jurisdiction is excluded in the absence of bad faith or ulterior motive. The Orders were made on credible information that the printing press was used or likely to be used for producing documents prejudicial to national security and public order.",
+    "key_facts": [
+      "A state of public emergency was declared on 20 October 1982.",
+      "Regulation 14(7) empowers the Competent Authority to make Orders restricting use of printing presses if prejudicial to national security or public order.",
+      "The Petitioner's printing press was sealed by Orders P1 and P2 made by the Competent Authority.",
+      "The Petitioner claimed political victimization due to Dr. Fernando's opposition activities.",
+      "The Competent Authority relied on credible information from police and official sources about the printing press's involvement in printing materials prejudicial to national security."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 15(7) permits restrictions on fundamental rights by law for reasons including national security and public order. Regulation 14(7), being an emergency regulation made under the Public Security Ordinance, qualifies as 'law' under Article 15(7). The power to make Orders under Regulation 14(7) is valid even though it vests discretion in a public officer, as long as the law is accessible, precise, and the interference is prescribed by law. Judicial review is limited to assessing reasonableness and good faith, not substituting the Court's opinion for that of the Competent Authority.",
+    "application_to_facts": "The Court found that the Competent Authority had credible information from official sources and police reports that justified the Orders restricting the Petitioner's printing press. The Court held that the exercise of discretion was reasonable, not capricious or malafide, and that the Petitioner failed to rebut the presumption of regularity. The political motive alleged by the Petitioner was not established.",
+    "principles_established": [
+      "Emergency regulations made under the Public Security Ordinance are 'law' for the purpose of Article 15(7).",
+      "Restrictions on fundamental rights must be prescribed by law that is accessible and precise.",
+      "Discretion vested in public authorities under emergency laws is subject to limited judicial review for reasonableness and good faith.",
+      "The burden is on the petitioner to rebut the presumption of regularity of executive orders.",
+      "Judicial review does not extend to substituting the Court's opinion for that of the Competent Authority in emergency matters."
+    ],
+    "precedents_cited": [
+      "Anisminic Ltd. v. The Foreign Compensation Commission (1969) 1 All ER 208",
+      "Hirdaramani v. Ratnavale 75 NLR 67",
+      "Gunasekera v. De Fonseka 76 NLR 246",
+      "Siriwardena v. Liyanage S.C. Application No. 120/80 SCM 27.1.83",
+      "Liversidge v. Anderson (1942) AC 206",
+      "Redge v. Baldwin (1963) 2 All ER 66",
+      "IRC v. Rossminster Ltd. (1980) 1 All ER 80",
+      "Secretary of State v. ASLEF (No. 2) (1972) 2 All ER 949",
+      "A.G. of Saint Christopher v. Reynolds (1979) 3 All ER 129 (PC)",
+      "Secretary of State for Education and Science v. Tameside Metropolitan Borough Council (1976) 3 WLR 641",
+      "Roberts v. Hopwood (1925) AC 578",
+      "Padfield v. Minister of Agriculture, Fisheries and Food (1968) 1 All ER 694",
+      "In Re W. (An Infant) (1971) AC 682"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the Petitioner's application, holding that Regulation 14(7) is valid under Article 15(7) and that the Orders made under it were reasonable and lawful, not infringing the Petitioner's fundamental rights.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 15(7) provides the constitutional basis for lawful restrictions on fundamental rights in the interest of national security and public order, which was central to the Court's validation of the emergency regulation and the Orders made under it.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that Regulation 14(7) meets the tests of being prescribed by law and that the Orders were made on credible information from police and official sources, justifying the restriction on the Petitioner's printing press.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

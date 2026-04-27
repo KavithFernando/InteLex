@@ -1,0 +1,75 @@
+{
+  "frame_id": "RQ1_002-SLLR-SLLR-1997-V3-SMITHKLINE-BEECHAM_009_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (F.R.) NO. 89/97",
+    "case_title": "SmithKline Beecham Biologicals S.A. and Another v. State Pharmaceutical Corporation of Sri Lanka and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-05-20",
+    "source_citation": "Sri Lanka Law Reports [1997] 3 Sri L.R."
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Tender Board's decision to award the contract for Rubella Viral Vaccine complied with the equality guarantee under Article 12(1) of the Constitution, given the procedural irregularities and the treatment of tenderers.",
+    "petitioner_claim": "The petitioners argued that they were denied equal treatment and equal protection of the law because the Tender Board acted unfairly by awarding part of the contract to Biocine S.p.A., whose product was not registered at the tender closing date, violating the tender conditions and the constitutional guarantee of equality.",
+    "respondent_argument": "The respondents contended that the application should be dismissed as the acts related to contractual rights and not administrative action, and that the Tender Board had discretion to award the contract as it saw fit, including considering cost savings and the registration status at a later date.",
+    "key_facts": [
+      "Tender invited worldwide for supply of Rubella Viral Vaccine with five offers.",
+      "SmithKline Beecham was the only tenderer with a registered product at tender closing date (3 July 1996).",
+      "Tender Board initially decided to award the full contract to SmithKline Beecham.",
+      "Later, without notifying tenderers or following appeal procedures, Tender Board allowed time for other tenderers to obtain registration and awarded part of the contract to Biocine S.p.A., whose product was not registered at tender closing.",
+      "The procedural guidelines required transparency, notification, and equal opportunity, which were not followed."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) guarantees equality before the law and equal protection, which includes adherence to prescribed procedures, rules, and standards designed to ensure fairness and transparency in public procurement. The 'law' includes regulations, guidelines, and procedures, not just statutes. The Tender Board must apply the tender conditions uniformly and cannot treat the State as a private individual with unrestricted discretion.",
+    "application_to_facts": "The Court found that only SmithKline Beecham had a responsive and qualified bid at the tender closing date because it alone had a registered product. The Tender Board's later decision to award part of the contract to Biocine S.p.A., whose product was not registered at the relevant date, violated the principle of equal treatment and the tender guidelines. The failure to notify tenderers and allow appeals further breached the procedural fairness required by Article 12(1).",
+    "principles_established": [
+      "The law under Article 12(1) includes regulations, rules, guidelines, and procedures that public authorities must follow.",
+      "State agencies must act fairly, transparently, and uniformly in public procurement to ensure equal protection of the law.",
+      "Tender conditions must be strictly applied at the tender closing date; late compliance or post-closing changes violate equality guarantees.",
+      "Procedural safeguards such as notification and opportunity to appeal are essential to uphold constitutional equality.",
+      "The State cannot exercise contractual discretion arbitrarily or in a manner that breaches constitutional guarantees."
+    ],
+    "precedents_cited": [
+      "Roberts v. Ratnayake (1986) 2 Sri LR 36",
+      "Wijenaike v. Air Lanka Ltd. (1990) 1 Sri LR 293",
+      "Radhakrishna Agrawal v. State of Bihar AIR (1977) S.C. 1496",
+      "Paiihawadana v. Attorney-General (1978-80) 1 SLR 65",
+      "Jayanetti v. Land Reform Commission (1984) 2 Sri LR 172",
+      "Srilekha Vidyarthi v. State of U.P AIR (1991) S.C. 537",
+      "F.C.I. v. Kamdhenu Cattlefield Industries (1993) 1 S.C.C. 71",
+      "Mahabir Auto Stores v. Indian Oil Corporation AIR (1990) S.C. 1031",
+      "Vitarelli v. Seaton (1959) 359 US 535",
+      "Kiriwanthe and Another v. Navaratne and Another (1990) 3 SLR 11",
+      "Roman Dayaran Shetty v. The International Airport Authority of India AIR (1979) S.C. 1628",
+      "Barbier v. Connolly 113 U.S. 27 (1885)"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court declared that the initial decisions and recommendations of the Technical Evaluation Committee and the Cabinet Appointed Tender Board on 2 September 1996 were in conformity with Article 12(1), but the later decisions on 1 November 1996 and 10 December 1996 violated Article 12(1) and were therefore invalid. The petitioners' fundamental rights were infringed.",
+    "disposition": "granted",
+    "remedy_or_orders": "The impugned decisions of the Tender Board relating to the procurement of 4.5 million doses of Rubella Viral Vaccine on 1 November and 10 December 1996 were declared of no force or avail in law. The State was ordered to pay costs to the petitioners."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it guarantees equality before the law and equal protection, which the Court found was violated by the Tender Board's failure to apply tender conditions uniformly and follow prescribed procedures, resulting in unfair treatment of the petitioners.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that only SmithKline Beecham had a registered product at tender closing and was the only responsive bid. The Tender Board's later award to Biocine S.p.A., whose product was not registered at that time, violated the tender conditions and Article 12(1). The failure to notify tenderers and allow appeals breached procedural fairness required by the Guidelines and the Constitution.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

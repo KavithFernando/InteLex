@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_023-SLLR-SLLR_1993-2-SUB-INSPECTOR_OF_PO_033_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 270/93",
+    "case_title": "Herath Banda v. Sub-Inspector of Police, Wasgiyawatte Police Station and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1993-11-29",
+    "source_citation": "[1993] 2 Sri LR. S.C. Application No. 270/93, decided on 29 November 1993"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s fundamental rights under Article 11 were violated by the police assault, and whether the petitioner could withdraw the fundamental rights application.",
+    "petitioner_claim": "The petitioner claimed that he was subjected to cruel and inhuman treatment by the police, including being slapped, dragged, and beaten with a stick until unconscious, violating Article 11, and sought a declaration of violation and Rs. 200,000 compensation.",
+    "respondent_argument": "The Attorney-General argued that fundamental rights applications are not ordinary private matters and cannot be withdrawn simply because parties have settled differences; withdrawal is at the Court’s discretion.",
+    "key_facts": [
+      "The petitioner was assaulted by a Sub-Inspector of Police at his home and taken to hospital.",
+      "Medical evidence supported the petitioner’s allegations of brutal assault.",
+      "The petitioner initially filed a fundamental rights application under Article 11.",
+      "The petitioner later sought to withdraw the application, claiming to have settled differences with the police officer.",
+      "The Court considered whether withdrawal should be permitted given the nature of the rights involved."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court recognized that Article 11 protects individuals from torture and cruel, inhuman or degrading treatment. Applications under fundamental rights are not ordinary private matters and cannot be withdrawn lightly. However, withdrawal may be permitted at the Court’s absolute discretion depending on circumstances.",
+    "application_to_facts": "Given the medical evidence confirming the assault, the Court found a violation of Article 11. Despite the petitioner’s request to withdraw, the Court refused permission due to unclear reasons for withdrawal and allegations of attempts to prevent redress, emphasizing the public interest in upholding fundamental rights.",
+    "principles_established": [
+      "Fundamental rights applications are not ordinary private matters and cannot be withdrawn merely because parties settle.",
+      "Withdrawal of fundamental rights applications is at the absolute discretion of the Court and depends on the circumstances of each case.",
+      "Article 11 has special distinguishing features protecting against cruel and inhuman treatment."
+    ],
+    "precedents_cited": [
+      "Basheshar Nath v. Commissioner of Income Tax AIR 1959 S.C. 149",
+      "Velmurugu v. The Attorney-General and another Vol. 1 FRD 180"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court declared that the petitioner’s rights under Article 11 were violated. The application to withdraw the fundamental rights petition was refused. No compensation was awarded as the petitioner had settled differences with the police officer. The Inspector-General of Police was directed to investigate and report.",
+    "disposition": "dismissed",
+    "remedy_or_orders": "Inspector-General of Police to investigate and report by 10 April 1994."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the Court’s determination that the petitioner was subjected to cruel and inhuman treatment by the police, constituting a violation of fundamental rights. The Court’s refusal to allow withdrawal was grounded in the public importance of protecting these rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was slapped, dragged, and beaten with a thick stick until unconscious, supported by medical evidence; the Court found this to be a violation of Article 11.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 120,
+      "end_char": 600
+    }
+  }
+}

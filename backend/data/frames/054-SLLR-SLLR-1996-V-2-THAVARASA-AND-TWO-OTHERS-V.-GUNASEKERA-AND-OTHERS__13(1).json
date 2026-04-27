@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_054-SLLR-SLLR-1996-V-2-THAVARASA-AND-TWO_096_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application Nos. 224/94, 225/94, 226/94 (Consolidated)",
+    "case_title": "Thavarasa and two Others v. Gunasekera and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-08-01",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application Nos. 224/94, 225/94, 226/94 (Consolidated), decided on 1 August 1995"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the arrests of the petitioners were lawful and whether they were informed of the reason for their arrest as required by Article 13(1).",
+    "petitioner_claim": "The petitioners claimed they were unlawfully arrested without reasonable grounds, were not informed of the true reason for their arrest, and that the allegation of attempted murder was fabricated to justify their arrest and detention.",
+    "respondent_argument": "The respondents argued the arrests were lawful under the Parliamentary Elections Act for election offences, the petitioners were caught red-handed, and the reason for arrest was effectively known given the circumstances; thus no infringement of Article 13(1) occurred.",
+    "key_facts": [
+      "Petitioners were found among a crowd pasting election posters in violation of election laws.",
+      "Police ordered the crowd to stop; petitioners ignored orders and were aggressive.",
+      "One petitioner allegedly attempted to shoot a police officer with a pistol.",
+      "Petitioners were arrested on the spot for election offences, obstruction, intimidation, and attempted murder.",
+      "Petitioners claimed they arrived after police and were protesting police assault."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) protects against unlawful arrest and requires informing the arrested person of the reason. However, if a person is caught red-handed committing a cognisable offence, the police need not explicitly explain the reason for arrest as the offence is apparent.",
+    "application_to_facts": "The court accepted the police version that the petitioners were caught in flagrante delicto committing election offences and that the arrests were lawful under the Parliamentary Elections Act. The petitioners were effectively aware of the reason for arrest given the circumstances, so no violation of Article 13(1) occurred.",
+    "principles_established": [
+      "Arrest is lawful if made under a valid statutory power for a cognisable offence.",
+      "No need to explain reason for arrest if the offence is obvious and the person is caught red-handed.",
+      "Police discretion in arresting persons committing election offences is protected."
+    ],
+    "precedents_cited": [
+      "Corea v. The Queen (1954) 55 N.L.R. 457",
+      "Christie v. Leachinsky (1947) A.C. 573",
+      "Muthusamy v. Kannangara 52 N.L.R. 324"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the arrests were lawful and there was no infringement of Article 13(1) rights of the petitioners.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to determining whether the petitioners' arrests were lawful and whether they were properly informed of the reasons for arrest, which the court found was satisfied.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court accepted the police version that the petitioners were caught red-handed pasting posters in violation of election laws and that the arrests were lawful under the Parliamentary Elections Act. The petitioners were effectively aware of the reason for arrest given the circumstances.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3770,
+      "end_char": 4100
+    }
+  }
+}

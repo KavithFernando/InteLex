@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_049-SLLR-SLLR-1994-V3-HEWAGAMA-V.-THE-BR_095_C01__13(1)",
+  "created_at": "2024-06-10",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPEAL NO. 55/94",
+    "case_title": "Hewagama v. The Bribery Commissioner and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-08-29",
+    "source_citation": "Sri Lanka Law Reports [1994] SLLR 405"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the arrest of Customs Officers, including the son of the appellant, was lawful under Article 13(1) of the Constitution, and whether the Bribery Commissioner had a valid basis to serve a notice under section 4(1) of the Bribery Act.",
+    "petitioner_claim": "The appellant argued that the arrest of his son and others was made without credible information and violated Article 13(1). Further, the notice under section 4(1) of the Bribery Act was invalid as there was no pending investigation or prosecution against any person for bribery.",
+    "respondent_argument": "The Bribery Commissioner contended that the arrest and subsequent investigation were lawful and that the notice under section 4(1) was valid as an investigation into bribery allegations was ongoing.",
+    "key_facts": [
+      "Customs Officers including appellant's son were arrested on a general complaint without credible information.",
+      "The Supreme Court in Piyasiri v. Fernando held the arrest violated Article 13(1) due to lack of credible information.",
+      "A notice under section 4(1) of the Bribery Act was served on the appellant requiring a statement of assets.",
+      "The appellant failed to comply with the notice and was convicted under section 71 of the Bribery Act.",
+      "The prosecution failed to establish a pending investigation or prosecution against any person for bribery at the time of the notice."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 13(1) as protecting individuals from arrest without credible information and requiring lawful procedure. The Court held that the arrest of the Customs Officers was unlawful as it was based on vague suspicion without credible information. Regarding the Bribery Act notice, the Court held that such a notice is valid only during a pending investigation or prosecution for bribery against a specific person.",
+    "application_to_facts": "The Court found that the arrest violated Article 13(1) as established in the prior fundamental rights case. The Court also found no evidence of a pending investigation or prosecution against the appellant or his son at the time the notice was served, rendering the notice invalid and the appellant's failure to comply not an offence.",
+    "principles_established": [
+      "Arrest without credible information violates Article 13(1).",
+      "A notice under section 4(1) of the Bribery Act is valid only during a pending investigation or prosecution for bribery.",
+      "Failure to comply with an invalid notice does not constitute an offence."
+    ],
+    "precedents_cited": [
+      "Piyasiri v. Fernando [1988] 1 Sri L.R. 173"
+    ]
+  },
+  "outcome": {
+    "holding": "The appeal was allowed; the High Court judgment and Magistrate's order were set aside; the appellant was acquitted as the notice was invalid and the arrest violated Article 13(1).",
+    "disposition": "granted",
+    "remedy_or_orders": "Acquittal of the appellant; setting aside of previous convictions and orders."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the Court's reasoning as it protects against unlawful arrest without credible information, which was the basis for invalidating the arrest and related proceedings.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that the arrest was made without credible information and violated Article 13(1), referencing the prior fundamental rights case. It also found no pending investigation to justify the notice under section 4(1) of the Bribery Act.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 390,
+      "end_char": 1150
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_037-SLLR-SLLR-1998-1-JAYAWARDENA-V.-AKME_062_C01__14(1)(g)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 594/96/FR",
+    "case_title": "Jayawardena v. Akmeemana Pradeshiya Sabha and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-09-15",
+    "source_citation": "Sri Lanka Law Reports (1998) 1 Sri LR. S.C. Application No. 594/96/FR, decided on 15 September 1997"
+  },
+  "clause": {
+    "article": "14(1)(g)",
+    "text": "Freedom to engage in lawful occupation or business."
+  },
+  "case_context": {
+    "legal_issue": "Whether the cancellation of the Environmental Protection Licence infringed the petitioner's fundamental right under Article 14(1)(g) to engage in a lawful occupation or business.",
+    "petitioner_claim": "The petitioner claimed that the cancellation of his licence to operate a metal crushing business violated his fundamental right to freedom to engage in lawful occupation under Article 14(1)(g).",
+    "respondent_argument": "The respondents argued that the petitioner failed to comply with the conditions of the licence, making the business unlawful, and thus the cancellation did not violate Article 14(1)(g). They also denied any mala fide or political motive in cancelling the licence.",
+    "key_facts": [
+      "The petitioner was granted an Environmental Protection Licence on 24 July 1996 to operate a metal crushing business.",
+      "The petitioner commenced operations on 25 July 1996 without obtaining a Trade Licence, a required condition.",
+      "The operation caused noise and dust pollution affecting the local community.",
+      "A public petition and protests led to the cancellation of the licence on 27 July 1996 by the Pradeshiya Sabha.",
+      "The petitioner alleged political motives behind the cancellation, which were denied by the respondents."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 14(1)(g) protects the right to engage in lawful occupation or business. A licence subject to conditions is only lawful if those conditions are complied with. Non-compliance renders the occupation unlawful, removing constitutional protection.",
+    "application_to_facts": "Since the petitioner failed to comply with licence conditions, including obtaining a Trade Licence and controlling pollution, his business was unlawful. Therefore, cancellation of the licence did not infringe Article 14(1)(g). The court also found no evidence of mala fide or political motive.",
+    "principles_established": [
+      "A licence to engage in business is lawful only if all conditions are complied with.",
+      "Non-compliance with licence conditions renders the business unlawful and outside constitutional protection under Article 14(1)(g).",
+      "Authorities may cancel licences without prior hearing if continued operation adversely affects public health and safety.",
+      "Political motives must be substantiated to invalidate administrative decisions; mere allegations are insufficient."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner's fundamental right under Article 14(1)(g) was not violated because his business was unlawful due to non-compliance with licence conditions, and the cancellation of the licence was lawful.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(g) was central to the petitioner's claim that his right to engage in business was infringed. The court's reasoning focused on whether the occupation was lawful under the licence conditions, directly interpreting the clause to determine the legality of the business and the validity of licence cancellation.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court stated that a licence was issued but subject to conditions, and failure to comply with these conditions meant the petitioner acted as if he had no licence, making the business unlawful and not protected by Article 14(1)(g).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1020,
+      "end_char": 1300
+    }
+  }
+}

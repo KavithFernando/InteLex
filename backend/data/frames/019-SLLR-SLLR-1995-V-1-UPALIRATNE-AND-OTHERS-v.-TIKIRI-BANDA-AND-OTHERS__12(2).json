@@ -1,0 +1,58 @@
+{
+  "frame_id": "RQ1_019-SLLR-SLLR-1995-V-1-UPALIRATNE-AND-OT_101_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (F.R.) APPLICATION NO. 86/95",
+    "case_title": "Upaliratne and Others v. Tikiri Banda and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-09-05",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (F.R.) Application No. 86/95, decided on 5 September 1995"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the forcible ousting of the petitioners as Time-Keepers was discriminatory on the basis of political opinion, violating Article 12(2) of the Constitution.",
+    "petitioner_claim": "The petitioners alleged that the ousting and replacement of the Time-Keepers was part of a political spoils system favoring supporters of the Peoples' Alliance government, thus constituting discrimination based on political opinion.",
+    "respondent_argument": "The respondents denied that the ousting depended on political affiliations and argued that the claim of discrimination on political grounds under Article 12(2) must fail.",
+    "key_facts": [
+      "The petitioners and some ousted Time-Keepers supported the Peoples' Alliance.",
+      "The new Time-Keepers were alleged to be beneficiaries of a spoils system linked to political patronage.",
+      "Some ousted Time-Keepers who supported the Peoples' Alliance were also forcibly removed.",
+      "The Central Provincial Council was controlled mainly by the United National Party, the opposition to the Peoples' Alliance government."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 12(2) prohibits discrimination on specified grounds including political opinion. The Court found that although the new Time-Keepers may have benefited from political patronage, the evidence did not establish that the ousting and replacement depended on political affiliations. Therefore, no violation of Article 12(2) was found.",
+    "application_to_facts": "The Court noted that some ousted Time-Keepers were supporters of the Peoples' Alliance and were removed despite their political loyalties. The evidence did not show that political opinion was the basis for discrimination in the ousting. Hence, the claim under Article 12(2) failed.",
+    "principles_established": [
+      "Discrimination under Article 12(2) requires proof that the adverse action was based on prohibited grounds such as political opinion.",
+      "Benefiting from political patronage alone does not establish unlawful discrimination if the adverse action is not based on political opinion."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court rejected the claim that Article 12(2) was violated on account of discrimination based on political opinion.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was considered because the petitioners alleged political discrimination in the ousting. The Court substantively engaged with the claim but found insufficient evidence to establish a violation, making the clause relevant but not dispositive.",
+    "relevance_level": "medium",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court observed that some ousted Time-Keepers supported the Peoples' Alliance and were removed despite their political loyalties, and that the new Time-Keepers' occupation did not depend on political affiliations, thus negating the claim of discrimination based on political opinion.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

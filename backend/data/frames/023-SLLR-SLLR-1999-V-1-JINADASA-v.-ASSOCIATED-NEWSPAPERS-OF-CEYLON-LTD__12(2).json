@@ -1,0 +1,54 @@
+{
+  "frame_id": "RQ1_023-SLLR-SLLR-1999-V-1-JINADASA-V.-ASSOC_118_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. FR NO. 296/98",
+    "case_title": "Jinadasa v. Associated Newspapers of Ceylon Ltd.",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-11-12",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. FR No. 296/98, decided on 12 November 1998"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was discriminated against on prohibited grounds in violation of Article 12(2) of the Constitution.",
+    "petitioner_claim": "The petitioner alleged discrimination violating Article 12(2).",
+    "respondent_argument": "The respondents denied any discrimination, noting the petitioner’s promotions and salary increments under the present government and commendations from the Chairman.",
+    "key_facts": [
+      "Petitioner was promoted and given salary increments under the present government.",
+      "The present Chairman gave the petitioner a letter of commendation in 1997.",
+      "No evidence was presented to show discrimination on any prohibited grounds."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court considered Article 12(2) protects against discrimination on specified grounds and requires evidence of such discrimination.",
+    "application_to_facts": "The court found no evidence that the petitioner was discriminated against on any prohibited ground; his promotions and commendations under the current government negated claims of discrimination.",
+    "principles_established": [],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that there was no violation of Article 12(2) as no discrimination was proven.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was considered to assess claims of discrimination but was ultimately found not to be violated due to lack of evidence.",
+    "relevance_level": "medium",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner’s promotions and salary increments under the present government and a commendation letter from the Chairman showed no evidence of discrimination.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

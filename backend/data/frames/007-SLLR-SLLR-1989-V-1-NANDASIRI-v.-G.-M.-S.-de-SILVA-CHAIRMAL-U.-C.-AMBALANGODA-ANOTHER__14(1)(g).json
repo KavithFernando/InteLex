@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_007-SLLR-SLLR-1989-V-1-NANDASIRI-V.-G.-M_011_C01__14(1)(g)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO.-161 OF 1987",
+    "case_title": "Nandasiri v. G. M. S. de Silva, Chairman, U.C. Ambalangoda & Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1987-10-17",
+    "source_citation": "Sri Lanka Law Reports 1989 1 Sri L. R. 102"
+  },
+  "clause": {
+    "article": "14(1)(g)",
+    "text": "Freedom to engage in lawful occupation or business."
+  },
+  "case_context": {
+    "legal_issue": "Whether the disconnection of electricity supply to the Petitioner's grinding mill business violated his fundamental right to engage in a lawful occupation or business under Article 14(1)(g) of the Constitution.",
+    "petitioner_claim": "The Petitioner argued that his right to engage in a lawful business was violated by the disconnection of electricity supply, which was used to run his grinding mill, and that no licence was granted to run the mill.",
+    "respondent_argument": "The 1st Respondent contended that the business was not lawful as no licence was obtained, and licensing requirements for offensive or nuisance-causing trades are justifiable under Article 15(7). Therefore, the Petitioner's business was not lawful and not protected under Article 14(1)(g).",
+    "key_facts": [
+      "The Petitioner ran a chilli grinding mill using electricity supplied by the Urban Council.",
+      "Electricity supply was disconnected by the 1st Respondent on grounds of pollution, noise, nuisance, and health hazard.",
+      "No licence was granted to the Petitioner to run the grinding mill.",
+      "The area was a mixed residential area and the business was considered offensive or nuisance-causing.",
+      "The Petitioner did not prove that his business was lawful or that others in similar circumstances were treated differently."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the right to engage in a lawful occupation or business under Article 14(1)(g) is not absolute and is subject to restrictions such as licensing requirements under Article 15(7) for trades likely to cause nuisance or danger. Since the Petitioner did not have a licence, his business was not lawful and thus not protected by Article 14(1)(g).",
+    "application_to_facts": "The Court found that the Petitioner’s business was not lawful due to the absence of a licence, which was required for such a trade. Licensing requirements for offensive or dangerous trades are justified in the interest of public health and welfare. Therefore, the disconnection of electricity did not violate Article 14(1)(g) because the Petitioner was not engaged in a lawful business.",
+    "principles_established": [
+      "The right to engage in a lawful occupation or business under Article 14(1)(g) is subject to reasonable restrictions such as licensing under Article 15(7).",
+      "A business without a required licence is not considered lawful for the purposes of Article 14(1)(g).",
+      "Licensing requirements for trades causing nuisance or danger are constitutionally justifiable."
+    ],
+    "precedents_cited": [
+      "Negombo M.C. v. Fernando",
+      "M.C. Badulla v. Ratnayake",
+      "David v. Abdul Cader",
+      "Corea v. U.C. Kotte"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the Petitioner's claim under Article 14(1)(g), holding that the business was not lawful without a licence and thus the disconnection of electricity did not violate the Petitioner's fundamental rights.",
+    "disposition": "dismissed",
+    "remedy_or_orders": "Costs fixed at Rs. 750"
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(g) was central to the Petitioner's claim that his fundamental right to engage in a lawful business was infringed by the disconnection of electricity. The Court's reasoning focused on whether the business was lawful under this clause, making it dispositive to the outcome.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Counsel submitted that the Petitioner's right to engage in a lawful occupation or business has been infringed. The Court held that licensing requirements for offensive or dangerous trades are justifiable under Article 15(7), and in the absence of a licence, the Petitioner's business was not lawful and thus not protected under Article 14(1)(g).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1010,
+      "end_char": 1140
+    }
+  }
+}

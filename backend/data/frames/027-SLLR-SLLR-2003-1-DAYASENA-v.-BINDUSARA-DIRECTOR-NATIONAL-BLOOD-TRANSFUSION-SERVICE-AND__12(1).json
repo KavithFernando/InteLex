@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_027-SLLR-SLLR-2003-1-DAYASENA-V.-BINDUSA_138_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_583_2001",
+    "case_title": "Dayasena v. Bindusara, Director, National Blood Transfusion Service and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-11-29",
+    "source_citation": "Sri Lanka Law Reports [2003] 1 Sri L.R 222"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner's transfer order violated his fundamental right under Article 12(1) of the Constitution by being wrongful, arbitrary, and lacking due process.",
+    "petitioner_claim": "The petitioner argued that his transfer was made without producing the transfer order, without notifying him of the reasons, without an opportunity to respond to allegations, and was therefore arbitrary and violated his right to equal protection under Article 12(1).",
+    "respondent_argument": "The respondents contended that the transfer was made by the 2nd respondent for administrative and disciplinary reasons, but failed to produce the transfer order or the recommendation, and did not provide evidence that the transfer complied with the Establishments Code or that the petitioner was informed of the grounds.",
+    "key_facts": [
+      "Petitioner was transferred by letter dated 4.10.2001 without production of the transfer order or reasons.",
+      "No evidence that the 2nd respondent actually made the transfer order or that it was based on permitted grounds under the Establishments Code.",
+      "Petitioner was not informed of allegations against him nor given an opportunity to explain.",
+      "Allegations against petitioner included misappropriation and dereliction of duty but no evidence these were considered by the transfer authority.",
+      "The transfer was effected without advice of the relevant Transfer Board as required by the Establishments Code."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equal protection of the law and requires that any administrative action affecting fundamental rights must be lawful, reasonable, and follow due process including disclosure of reasons and opportunity to respond.",
+    "application_to_facts": "The court found no proof that the transfer order was made by the authorized officer, no evidence of the grounds for transfer, no disclosure of reasons to the petitioner, and no opportunity given to respond to allegations. These procedural defects rendered the transfer wrongful and arbitrary, violating Article 12(1).",
+    "principles_established": [
+      "A transfer affecting fundamental rights must be based on lawful authority and proper procedure.",
+      "The affected person must be informed of the grounds and reasons for the transfer and given an opportunity to respond.",
+      "Failure to disclose reasons or provide opportunity to explain violates the right to equal protection under Article 12(1).",
+      "Administrative actions without proper authority or procedure are arbitrary and unlawful."
+    ],
+    "precedents_cited": [
+      "Manage v. Kotakadeniya (1997) 1 Sri LR 204"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner's fundamental right under Article 12(1) was infringed by the wrongful and arbitrary transfer. The transfer was quashed and compensation awarded to the petitioner.",
+    "disposition": "granted",
+    "remedy_or_orders": "The transfer to the Mental Hospital, Angoda was quashed; Rs 50,000 compensation payable by the State; Rs 10,000 costs payable by the 1st respondent personally; Auditor-General to report on petitioner's complaint."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects against arbitrary administrative actions and ensures equal protection of the law, requiring lawful procedure and disclosure of reasons for transfers affecting fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found no proof that the transfer order was made by the 2nd respondent, no reasons were disclosed to the petitioner, and no opportunity was given to respond, rendering the transfer wrongful and arbitrary in violation of Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

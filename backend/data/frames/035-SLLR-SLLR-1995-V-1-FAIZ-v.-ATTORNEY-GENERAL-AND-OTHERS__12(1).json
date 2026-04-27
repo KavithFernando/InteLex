@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_035-SLLR-SLLR-1995-V-1-FAIZ-V.-ATTORNEY-_172_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_89_91",
+    "case_title": "Faiz v. Attorney-General and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1993-11-19",
+    "source_citation": "Sri Lanka Law Reports [1995] 1 SriL.R. 372, Supreme Court, SC Application No. 89/91, decided on August 23, 24 and September 06, 1993"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was deprived of the equal protection of the law by executive or administrative action in violation of Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that he was denied equal protection of the law as he was unlawfully arrested, detained, and subjected to cruel and degrading treatment while the 5th to 7th respondents, who assaulted him, were not arrested or detained, showing partiality and denial of equal treatment.",
+    "respondent_argument": "The respondents argued that the petitioner was lawfully arrested and detained on a complaint by the 6th respondent, and that the assault on the petitioner was an unexpected incident which the police tried to prevent. They denied any denial of equal protection or complicity between police and the 5th to 7th respondents.",
+    "key_facts": [
+      "Petitioner arrested persons for illicit felling of timber and was assaulted by 5th to 7th respondents.",
+      "Petitioner was arrested without explanation and detained while the 5th to 7th respondents were not arrested despite assaulting him.",
+      "Petitioner’s complaint was not recorded promptly; police showed hostility towards petitioner.",
+      "Suspects arrested by petitioner pleaded guilty to charges of illicit felling and escape from custody.",
+      "No meaningful action was taken against the 5th to 7th respondents for assaulting the petitioner."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as guaranteeing equal protection of the law, which includes protection against partiality and discriminatory treatment by the executive or administrative authorities. Denial of equal protection can arise not only from affirmative acts but also from culpable official inaction or acquiescence.",
+    "application_to_facts": "The court found that the police (2nd to 4th respondents) acted with hostility and partiality towards the petitioner, failing to protect him and instead arresting and detaining him while allowing the 5th to 7th respondents, who assaulted him, to go free. This constituted a denial of equal protection under Article 12(1). The nexus between the political respondents and police rendered their acts executive or administrative action.",
+    "principles_established": [
+      "Equal protection includes protection against discriminatory treatment and partiality by state actors.",
+      "Official inaction or acquiescence in wrongful acts can amount to denial of equal protection.",
+      "Private individuals can be liable under Article 126 if their acts are done with authority or connivance of the executive.",
+      "The court has wide powers under Article 126(4) to grant relief against all responsible parties."
+    ],
+    "precedents_cited": [
+      "Burton v. Wilmington Parking Authority et al (1961) 345 US 715",
+      "Lynch v. USA 189 F 2nd 476 (5th CIR 1951)",
+      "Shaul Hameed v. Ranasinghe",
+      "Alwis v. Raymond",
+      "Ramupillai v. Perera (1991) 1 Sri LR 11"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental right under Article 12(1) was infringed by the 2nd and 3rd respondents by executive or administrative action, and that the 5th to 7th respondents were also responsible due to their connivance and influence over the police.",
+    "disposition": "granted",
+    "remedy_or_orders": "The court ordered compensation to the petitioner and against the 5th to 7th respondents, as well as the 2nd and 3rd respondents, for the violation of Article 12(1)."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court’s reasoning as the petitioner’s claim was that he was denied equal protection of the law by the police and political respondents’ partial and discriminatory treatment, which was the basis for holding them liable and granting relief.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was arrested and detained without explanation while the 5th to 7th respondents who assaulted him were not arrested; police failed to record his complaint promptly and acted with hostility, showing denial of equal protection.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

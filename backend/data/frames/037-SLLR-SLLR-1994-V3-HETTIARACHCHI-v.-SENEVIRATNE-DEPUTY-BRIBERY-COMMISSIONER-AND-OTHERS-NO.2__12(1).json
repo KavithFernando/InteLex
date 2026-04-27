@@ -1,0 +1,81 @@
+{
+  "frame_id": "RQ1_037-SLLR-SLLR-1994-V3-HETTIARACHCHI-V.-S_179_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION 127/94",
+    "case_title": "Hettiarachchi v. Seneviratne, Deputy Bribery Commissioner and Others (No. 2)",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-06-07",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application 127/94, decided on 7 June 1994"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner's fundamental right to equality under Article 12(1) was violated by the failure to permit him to offer himself for consideration for appointment as Deputy Bribery Commissioner.",
+    "petitioner_claim": "The petitioner argued that although the Cabinet had the power to appoint the 1st respondent as Deputy Bribery Commissioner, that power was neither absolute nor unreviewable, and the failure to allow the petitioner to be considered prima facie violated his right to equality under Article 12(1).",
+    "respondent_argument": "The court initially held that the grounds originally argued by the petitioner could not be sustained and that the petitioner had failed to establish a prima facie case of violation of fundamental rights. The respondent implicitly relied on the finality of the court's prior order and the proper exercise of Cabinet powers under Article 55(5).",
+    "key_facts": [
+      "Petitioner filed a fundamental rights petition under Article 126 alleging violation of Article 12(1) due to appointment of 1st respondent.",
+      "Initial application for leave to proceed was refused on 28 April 1994 due to failure to address all factual allegations.",
+      "Petitioner sought to make further submissions claiming matters of great national and public importance.",
+      "Court recognized that the Cabinet's power to appoint is subject to review under fundamental rights jurisdiction.",
+      "Court granted leave to proceed on the sole question of whether the petitioner’s right to equality under Article 12(1) was violated by failure to allow him to offer himself for consideration."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as guaranteeing equality before the law and equal protection, which includes the right to be given an opportunity to be considered for public appointments when such appointments are subject to constitutional review. The court emphasized the need for finality in litigation but recognized exceptional circumstances where leave to proceed should be granted to address a prima facie violation of equality rights.",
+    "application_to_facts": "The court found that had the petitioner been allowed to make submissions on the failure to permit him to offer himself for consideration, a prima facie case under Article 12(1) could have been established. Therefore, in exceptional circumstances, leave to proceed was granted to examine this specific question of equality.",
+    "principles_established": [
+      "Finality of court orders is essential but not absolute in fundamental rights cases.",
+      "Courts must maintain neutrality and not act as advocates for parties.",
+      "Cabinet appointments are subject to constitutional review for fundamental rights violations.",
+      "A petitioner must establish a prima facie case to obtain leave to proceed under Article 126.",
+      "Judges must apply the law without personal preference and respect the adversarial nature of proceedings."
+    ],
+    "precedents_cited": [
+      "Perera v. Jayawickrama (1985) 1 Sri LR 285",
+      "Bandara v. Premachandra S. S.C. Minutes of 16.8.93",
+      "Pepper v. Hart (1993) 1 All ER 42",
+      "Fernando v. Fernando (1956) 58 NLR 262",
+      "Raju v. Jacob (1968) 73 NLR 517",
+      "Kadrmanthamby v. Hadfiar (1971) 75 NLR 228",
+      "Kariapperuma v. Kotelawala (1971) 77 NLR 195",
+      "In revision (1921) 23 NLR 275",
+      "Manchinahamy v. Muniweera (1950) 52 NLR 409",
+      "Sirinivasa Thero v. Sudassi Them (1960) 63 NLR 31",
+      "Ranmenikhamy v. Tissera (1962) 65 NLR 214",
+      "Moosajees Ltd. v. Fernando (1966) 68 NLR 414",
+      "Walker Sons and Co. Ltd. v. Fernando (1964) 68 NLR 73",
+      "Uyanage v. The Queen (1965) 68 NLR 265",
+      "Bryers v. Canadian Pacific Steamships Ltd. (1957) 1 QB 134, HL (1958) AC 495",
+      "Jonas v. National Coal Board (1957) 2 QB 55, 64",
+      "Somawathie v. Weerasinghe (1990) 2 Sri LB 121, 128-129",
+      "Faiz v. A. G. SC 89/91 S.C. Minute of 19.11.1993"
+    ]
+  },
+  "outcome": {
+    "holding": "The court granted leave to proceed on the sole question of whether the petitioner’s right to equality under Article 12(1) was violated by the failure to give him an opportunity to offer himself for consideration for appointment as Deputy Bribery Commissioner.",
+    "disposition": "granted",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as the petitioner claimed a violation of his fundamental right to equality due to being denied an opportunity to be considered for appointment. The court's decision to grant leave to proceed was based on the potential breach of this constitutional guarantee.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner claimed that failure to permit him to offer himself for consideration prima facie violated his right to equality under Article 12(1). The court granted leave to proceed on this sole question, recognizing the constitutional importance of equality in appointments.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2900,
+      "end_char": 3400
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_001-SLLR-SLLR-1993-2-DON-KARUNARATNE-V.-_003_C01__14(1)(g)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_144_91",
+    "case_title": "Don Karunaratne v. The Monetary Board of the Central Bank of Sri Lanka and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1992-06-17",
+    "source_citation": "Sri Lanka Law Reports [1993] 2 Sri LR. Supreme Court Application No. 144/91, decided on 17 June 1992"
+  },
+  "clause": {
+    "article": "14(1)(g)",
+    "text": "Freedom to engage in lawful occupation or business."
+  },
+  "case_context": {
+    "legal_issue": "Whether the revised scheme of promotion, which introduced a written test, violated the petitioner's fundamental right under Article 14(1)(g) by effectively denying him the freedom to engage in his occupation.",
+    "petitioner_claim": "The petitioner argued that the new promotion scheme, by requiring a written test, placed him and other old entrants at a disadvantage compared to graduate officers, effectively depriving them of their right to promotion and thus their freedom to engage in their occupation under Article 14(1)(g).",
+    "respondent_argument": "The respondents contended that the revised scheme was a legitimate alteration necessary in the interest of the service, that the written test was a fair and rational method to assess merit for promotion, and that the petitioner had no vested right to be promoted under the old scheme without the test. They denied any discrimination or denial of the petitioner's right to engage in his occupation.",
+    "key_facts": [
+      "The petitioner joined the Central Bank in 1963 as a non-staff class grade II clerk.",
+      "A revised promotion scheme introduced in 1990 required a written test for promotion to non-staff class Grade IV.",
+      "The petitioner claimed the test disadvantaged him compared to graduate officers and was a device to deny promotion due to his union membership.",
+      "The petitioner had not been promoted under the existing scheme and challenged the new scheme as violating his fundamental rights.",
+      "The court found no evidence that the scheme totally denied the petitioner the freedom to engage in his occupation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that even if the revised promotion scheme introduced a written test, it did not amount to a total denial of the petitioner's freedom to engage in his occupation under Article 14(1)(g). The petitioner had no vested right to be promoted under the old scheme, and the Bank was entitled to revise the scheme in the interest of the service, provided it did not infringe other constitutional rights.",
+    "application_to_facts": "The court found that the petitioner failed to prove that the new scheme was discriminatory or that it totally deprived him of his right to work. The written test was a reasonable method to assess merit for a supervisory grade. The petitioner’s claim that the scheme denied his freedom to engage in his occupation was not supported by the evidence.",
+    "principles_established": [
+      "Employees have no vested right to prevent alteration of promotion schemes if done in the interest of the service.",
+      "A promotion scheme that introduces reasonable merit-based assessments does not necessarily infringe the freedom to engage in occupation.",
+      "Allegations of discrimination must be supported by sufficient evidence."
+    ],
+    "precedents_cited": [
+      "Perera v. University Grants Commission 1 FRD 103",
+      "Gunaratne et al v. Sri Lanka Telecom SC Application No. 70/92"
+    ]
+  },
+  "outcome": {
+    "holding": "The court dismissed the petitioner's claim under Article 14(1)(g), holding that the revised promotion scheme did not violate his fundamental right to freedom to engage in his occupation.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioner invoked Article 14(1)(g) claiming that the new promotion scheme deprived him of his freedom to engage in his occupation by effectively denying promotion opportunities. The court considered this claim but found no total denial of this freedom, making the clause central to the reasoning and outcome.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner argued that the impugned scheme constitutes a total denial of his right to promotion amounting to a deprivation of the freedom to engage in his occupation. The court held that even if the scheme violated Article 12(1), the material did not warrant a finding that it amounted to a total denial of the petitioner's freedom to engage in his occupation.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1020,
+      "end_char": 1100
+    }
+  }
+}

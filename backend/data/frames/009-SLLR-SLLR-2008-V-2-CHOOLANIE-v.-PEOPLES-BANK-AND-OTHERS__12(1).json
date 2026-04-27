@@ -1,0 +1,71 @@
+{
+  "frame_id": "RQ1_009-SLLR-SLLR-2008-V-2-CHOOLANIE-V.-PEOP_046_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (FR) APPLICATION NO. 530/2002",
+    "case_title": "Choolanie v People's Bank and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2006-06-21",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (FR) Application No. 530/2002, decided on 21 June 2006"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the refusal by the People's Bank to grant the petitioner an extension of service beyond the age of 55 years violated his fundamental rights under Article 12(1) of the Constitution guaranteeing equality before the law and equal protection of the law.",
+    "petitioner_claim": "The petitioner claimed that the Bank's decision to retire him prematurely at age 55, while granting extensions to other similarly situated employees, was illegal, arbitrary, irrational, and violated his fundamental rights under Article 12(1). He argued he had a legitimate expectation to be granted extensions up to age 60 based on past practice and circulars.",
+    "respondent_argument": "The Bank argued that the retirement age was 55 as per Staff Circular No. 323/2001, that granting extensions was discretionary, and that the petitioner was not entitled to extensions beyond 55. They also contended the petitioner misrepresented facts by claiming premature retirement.",
+    "key_facts": [
+      "The petitioner joined the Bank in 1972 and was promoted to managerial grade by 1996.",
+      "He was granted three successive extensions of service beyond age 55 under previous circulars.",
+      "The Bank introduced Staff Circular No. 323/2001 fixing retirement age at 55 but allowing discretionary extensions up to 60.",
+      "The petitioner applied for a fourth extension but was only granted extension until 15.03.2002, while others received longer extensions.",
+      "The petitioner appealed the refusal but received no response."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) guarantees equality before the law and equal protection, prohibiting arbitrary or unreasonable discrimination between similarly situated persons. The Bank, as a State institution, must exercise discretion lawfully and fairly, providing reasons for decisions affecting fundamental rights. Legitimate expectation arises from past practice and promises, and the petitioner had a legitimate expectation of extensions up to age 60. The refusal without adequate reasons was arbitrary and violated Article 12(1).",
+    "application_to_facts": "The Court found that the petitioner was similarly situated to other employees who received extensions, but the Bank failed to provide valid reasons for denying his extension. The Extensions of Service Committee did not properly scrutinize or justify the refusal. The Bank's failure to give reasons and the arbitrary denial of extension breached the petitioner's right to equality and equal protection under Article 12(1).",
+    "principles_established": [
+      "Administrative decisions affecting fundamental rights require adequate reasons to avoid arbitrariness.",
+      "Legitimate expectation can arise from established practice and promises, enforceable under procedural fairness.",
+      "Discretionary powers must be exercised according to law, guided by relevant considerations, and not arbitrarily.",
+      "Equality before the law requires similarly situated persons to be treated alike and any classification to be reasonable and intelligible."
+    ],
+    "precedents_cited": [
+      "Gas Conversions (Pvt) Ltd. et al v Ceylon Petroleum Corporation et al",
+      "Pure Spring Co. Ltd. v Minister of National Revenue",
+      "Minister of National Revenue v Wrights' Canadian Ropes Ltd.",
+      "Padfield v Minister of Agriculture, Fisheries and Food",
+      "Suranganie Marapana v The Bank of Ceylon and Others",
+      "Lloyd v McMohan",
+      "Schmidt v Secretary of State for Home Affairs",
+      "Council of Civil Service Unions v Minister for the Civil Service",
+      "Ram Krishna Dalmia v Tendolkar"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the refusal to grant the petitioner an extension of service was arbitrary, unreasonable, and violated his fundamental rights under Article 12(1). The petitioner was entitled to an extension of one year from 23.10.2002. However, since he had already retired, the Court awarded Rs. 50,000 as compensation and costs.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 1st respondent Bank was directed to pay Rs. 50,000 to the petitioner as compensation and costs within one month."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it guarantees equality before the law and equal protection, which the petitioner argued was violated by the Bank's arbitrary refusal to grant an extension while others received extensions. The Court applied the clause to assess the lawfulness and fairness of the Bank's discretionary decision.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the refusal of the extension was arbitrary and unreasonable, and that the Bank failed to provide valid reasons for denying the petitioner an extension while granting others extensions, thus violating Article 12(1) of the Constitution.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

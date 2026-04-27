@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_019-SLLR-SLLR-2005-V-1-PREMADASA-AND-OTH_103_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_5085_2003",
+    "case_title": "Premadasa and Others v. Sabaragamuwa Development Bank and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2004-09-01",
+    "source_citation": "Supreme Court of Sri Lanka, SC (FR) No. 5085/2003, decided on 23 August and 1 September 2004"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the recovery of increments paid in excess to the petitioners violated their fundamental rights under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners claimed that they were entitled to increments for the years 1999 to 2002 and that recovering the excess payments infringed their right to equality under Article 12(1).",
+    "respondent_argument": "The respondents argued that increments are not a right but must be earned according to the Establishments Code, and that the excess payments were invalid and properly recoverable without violating Article 12(1).",
+    "key_facts": [
+      "Petitioners were promoted to Officer Grade I effective 1.1.2002 with a starting salary of Rs. 11,310/-.",
+      "Petitioners had been paid a monthly allowance of Rs. 3,200/- for performing Executive Grade functions prior to promotion.",
+      "The 1st petitioner placed himself and others on salary steps with 6-7 increments added, resulting in higher salaries than the starting scale.",
+      "The establishment later decided to recover excess increments paid since 1.1.2002 amounting to about Rs. 94,515/-.",
+      "Petitioners alleged violation of Article 12(1) claiming entitlement to increments earned during 1999-2002."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that increments are not a right but must be earned by diligent service and completion of the incremental period as per the Establishments Code. The salary scale and increments apply only from the date of appointment to the new grade, not retroactively.",
+    "application_to_facts": "Since the petitioners were only entitled to the Officer Grade I salary scale from 1.1.2002, they could not claim increments for prior years. The increments added by the 1st petitioner were not authorized by the Board of Directors and had no legal basis. Recovery of excess payments was lawful and did not violate Article 12(1).",
+    "principles_established": [
+      "Increments must be earned and are not a right.",
+      "Salary scales and increments apply only from the date of appointment to the relevant grade.",
+      "Payments made without legal basis can be recovered.",
+      "Recovery of overpayments does not violate the right to equality under Article 12(1)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court dismissed the petitioners' claim of violation of Article 12(1) and upheld the decision to recover the excess increments paid.",
+    "disposition": "dismissed",
+    "remedy_or_orders": "The petitioners were ordered to pay costs of Rs. 10,000/- jointly and severally to the 1st respondent."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioners' claim that recovering excess increments violated their right to equality before the law. The court's reasoning focused on whether the recovery constituted unequal treatment under this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found no violation of Article 12(1) as increments are not a right and must be earned; the recovery of excess payments was lawful and did not infringe fundamental rights.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

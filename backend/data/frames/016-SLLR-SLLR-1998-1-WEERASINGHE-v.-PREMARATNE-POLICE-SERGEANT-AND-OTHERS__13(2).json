@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_016-SLLR-SLLR-1998-1-WEERASINGHE-V.-PREM_041_C01__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (F.R) APPLICATION NO. 477/96",
+    "case_title": "Weerasinghe v. Premaratne, Police Sergeant and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-10-31",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (F.R) Application No. 477/96, decided on 31 October 1997"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was illegally detained at the police station in violation of Article 13(2) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed he was arrested on 7.5.96 and detained illegally at the police station until 10.5.96 without being produced before a judge, violating Article 13(2).",
+    "respondent_argument": "The respondents denied arresting the petitioner on 7.5.96, claiming he was arrested only on 10.5.96 and challenged the petitioner's character.",
+    "key_facts": [
+      "Petitioner was arrested by police on 7.5.96 and detained at Pannala police station for over 24 hours.",
+      "Petitioner was produced before the Magistrate only on 10.5.96 at 5.30 pm and released on bail on 11.5.96.",
+      "Petitioner's family made repeated attempts to secure his release during detention.",
+      "Respondents claimed arrest occurred on 10.5.96, not 7.5.96.",
+      "Court found petitioner was indeed arrested on 7.5.96 and illegally detained until 10.5.96."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires that any detained person be brought before a judge and not held without legal order. The court emphasized the constitutional guarantee against illegal detention.",
+    "application_to_facts": "The court found credible evidence, including affidavits and contemporaneous letters, that the petitioner was arrested on 7.5.96 and detained without being produced before a judge until 10.5.96, violating Article 13(2). The respondents' denial and police records were found unreliable.",
+    "principles_established": [
+      "Detention without being brought before a judge violates Article 13(2).",
+      "Police records may be unreliable in fundamental rights cases.",
+      "Contemporaneous documents and affidavits are important evidence in establishing detention dates."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner was illegally detained from 7.5.96 to 10.5.96 in violation of Article 13(2) of the Constitution.",
+    "disposition": "granted",
+    "remedy_or_orders": "The court ordered compensation and costs to be paid to the petitioner by the respondents."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was central to the court's determination that the petitioner was unlawfully detained without being brought before a judge, which formed the basis for granting relief.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the petitioner was arrested on 7.5.96 and illegally kept in custody until 10.5.96 without being produced before a magistrate, violating Article 13(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 320,
+      "end_char": 580
+    }
+  }
+}

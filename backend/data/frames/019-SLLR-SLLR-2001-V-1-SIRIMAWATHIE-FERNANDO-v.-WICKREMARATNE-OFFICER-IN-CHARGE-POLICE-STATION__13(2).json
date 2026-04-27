@@ -1,0 +1,58 @@
+{
+  "frame_id": "RQ1_019-SLLR-SLLR-2001-V-1-SIRIMAWATHIE-FERN_047_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_255_98",
+    "case_title": "Sirimawathie Fernando v. Wickremaratne, Officer in Charge, Police Station, Dehiwela and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-12-07",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 255/98, decided on 7 December 1999"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was detained lawfully and brought before a judge as required by Article 13(2) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed she was detained unnecessarily and unlawfully for several hours at the police station without legal justification or being brought before a judge.",
+    "respondent_argument": "The police denied knowledge of the stay order and justified detention as necessary due to obstruction of official duties.",
+    "key_facts": [
+      "Petitioner was taken to the police station after arrest despite producing a stay order.",
+      "Petitioner was kept in custody for several hours without being brought before a judge.",
+      "No lawful order authorizing detention was produced by the police.",
+      "Petitioner was assaulted and humiliated during detention."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires that any detained person be brought before a judge and not held without legal order. The Court found that the petitioner was detained without lawful authority and was not brought before a judge promptly, violating this constitutional safeguard.",
+    "application_to_facts": "The petitioner was detained at the police station for several hours despite the production of a valid stay order and without any legal order authorizing such detention or presentation before a judge.",
+    "principles_established": [
+      "Detention without legal order and without prompt presentation before a judge violates Article 13(2).",
+      "Police must respect court orders and ensure detainees' rights are protected."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner’s fundamental rights under Article 13(2) were violated by the police respondents.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 1st Respondent was ordered to pay Rs. 30,000 personally as compensation for the violation."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) is central to the Court’s finding that the petitioner was unlawfully detained without legal order and not brought before a judge, constituting a violation of her fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Despite the production of the stay order, the petitioner was taken to the police station and kept there for several hours without lawful authority or being brought before a judge.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

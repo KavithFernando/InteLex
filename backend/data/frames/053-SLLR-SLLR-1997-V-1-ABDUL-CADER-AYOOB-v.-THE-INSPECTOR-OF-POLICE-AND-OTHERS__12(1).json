@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_053-SLLR-SLLR-1997-V-1-ABDUL-CADER-AYOOB_203_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 486/96",
+    "case_title": "Abdul Cader Ayoob v. The Inspector General of Police and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-04-02",
+    "source_citation": "[1997] 1 Sri L.R. 412"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s summary dismissal from the Police Reserve by the Inspector-General of Police violated Article 12(1) of the Constitution by being arbitrary, capricious, and unreasonable, thus infringing the fundamental right to equality and equal protection of the law.",
+    "petitioner_claim": "The petitioner argued that his dismissal was unlawful because only the Commandant of the Police Reserve could terminate his services under the Police Ordinance and Interpretation Ordinance section 14(f), and that the dismissal by the Inspector-General of Police was arbitrary, capricious, unreasonable, and violated his fundamental rights under Article 12(1).",
+    "respondent_argument": "The respondents did not deny the petitioner’s averments of arbitrary and unreasonable dismissal; a preliminary objection on time-bar was raised but the Article 12(1) claim was pursued and not disputed substantively by the respondents present.",
+    "key_facts": [
+      "The petitioner joined the Police Reserve as a Sub-Inspector on 18.11.89 and was suspended on 26.12.95 but later reinstated.",
+      "On 12.5.96, the petitioner was informed by a Police message that his services had been invalidated on orders of the Inspector-General of Police without inquiry or charge.",
+      "The Police Ordinance establishes a Police Reserve under a Commandant who is responsible for appointments and demobilization.",
+      "The Inspector-General of Police issued the order for dismissal without written direction or proper procedure.",
+      "No inquiry or reasons were given for the dismissal, violating principles of natural justice."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees not only protection of criminal law but the protection of law in general, requiring precision and unambiguity in decisions affecting individuals. The power to terminate the petitioner’s service lay only with the Commandant under the Police Ordinance and Interpretation Ordinance section 14(f). The Inspector-General’s dismissal was arbitrary, capricious, and unreasonable, lacking proper procedure, written direction, and justification, thus violating Article 12(1).",
+    "application_to_facts": "The court found that the dismissal was effected without any written direction or inquiry, and the petitioner was left uncertain about his status. The Inspector-General of Police failed to exercise any lawful power in the public interest, and the dismissal was effectively a flagrant violation of the petitioner’s fundamental right to equality and equal protection of the law.",
+    "principles_established": [
+      "Article 12(1) protects the individual against arbitrary and unreasonable administrative actions.",
+      "Public officials’ discretionary powers are not absolute and must be exercised in the public interest with fairness and accountability.",
+      "Procedural fairness and clarity are essential in decisions affecting fundamental rights.",
+      "Only the Commandant had lawful authority to terminate the petitioner’s service under the Police Ordinance and Interpretation Ordinance."
+    ],
+    "precedents_cited": [
+      "Mallows v. Commissioner of Income Tax (1962) 66 N.L.R. 321",
+      "Premachandra v. Jayawickrema (1994) 2 Sri L.R. 90",
+      "Bandara v. Premachandra (1994) 1 Sri L.R. 301",
+      "Tennakoon v. de Silva SC (1997) 1 Sri LR 16",
+      "Jayawardene v. Wijeyetilleke, S.C. 186/95"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental right under Article 12(1) was infringed by the arbitrary, capricious, and unreasonable dismissal by the Inspector-General of Police, and ordered immediate reinstatement with full back wages and compensation.",
+    "disposition": "granted",
+    "remedy_or_orders": "Immediate reinstatement without break in service, full back wages from 12.5.96, and compensation and costs of Rs. 75,000 payable by the State."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court’s reasoning as it protects individuals from arbitrary and unreasonable administrative actions, requiring equal protection of the law. The petitioner’s dismissal was found to violate this constitutional guarantee, leading to the grant of relief.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The dismissal was effected on the direction of the Inspector-General of Police without inquiry, charge, or written direction, violating Article 12(1) as it was arbitrary, capricious, and unreasonable.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

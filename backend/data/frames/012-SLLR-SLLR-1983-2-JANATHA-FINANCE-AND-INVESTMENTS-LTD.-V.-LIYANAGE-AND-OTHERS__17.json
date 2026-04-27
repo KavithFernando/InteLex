@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-1983-2-JANATHA-FINANCE-AND_008_C02__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 127 OF 1982",
+    "case_title": "Janatha Finance and Investments Ltd v. Liyanage and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1983-02-14",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 127 of 1982, decided on 14 February 1983"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Supreme Court has jurisdiction to entertain and determine an application challenging the validity of emergency regulations and Orders made thereunder on grounds of infringement of fundamental rights.",
+    "petitioner_claim": "The petitioner contended that the Court has jurisdiction under Article 17 to hear applications alleging infringement of fundamental rights by executive or administrative action, including Orders made under emergency regulations.",
+    "respondent_argument": "The respondents argued that certain statutory provisions exclude judicial review of emergency regulations and Orders, and that the Court cannot question the validity or legality of such Orders.",
+    "key_facts": [
+      "The petitioner filed an application under Article 17 alleging infringement of fundamental rights.",
+      "The emergency regulations and Orders were made under the Public Security Ordinance during a state of emergency.",
+      "The respondents relied on statutory provisions and ouster clauses to argue exclusion of Court jurisdiction.",
+      "The Court considered prior decisions and constitutional provisions on jurisdiction."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 17 confers the right to every person to apply to the Supreme Court for violations of fundamental rights, including those caused by executive or administrative action. The Court rejected arguments that statutory provisions ousted its jurisdiction, especially where bad faith or malice is alleged. The Court confirmed its jurisdiction to entertain and determine applications challenging the validity of emergency regulations and Orders made thereunder.",
+    "application_to_facts": "The Court found that the petitioner was entitled to invoke Article 17 to challenge the Orders sealing the printing press. The Court exercised its jurisdiction to review the validity and reasonableness of the Orders and the emergency regulation under which they were made.",
+    "principles_established": [
+      "Article 17 guarantees the right to apply to the Supreme Court for infringement of fundamental rights.",
+      "Statutory ouster clauses do not exclude judicial review in cases of bad faith or abuse of power.",
+      "The Supreme Court has jurisdiction to review emergency regulations and Orders for compliance with constitutional fundamental rights."
+    ],
+    "precedents_cited": [
+      "Anisminic Ltd. v. The Foreign Compensation Commission (1969) 1 All ER 208",
+      "Hirdaramani v. Ratnavale 75 NLR 67",
+      "Gunasekera v. De Fonseka 76 NLR 246",
+      "Siriwardena v. Liyanage S.C. Application No. 120/80 SCM 27.1.83"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court confirmed its jurisdiction under Article 17 to entertain and determine the Petitioner's application challenging the Orders and emergency regulations as infringing fundamental rights.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 was the constitutional basis for the Court's jurisdiction to hear the Petitioner's fundamental rights application, enabling substantive review of the emergency Orders and regulations.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that Article 17 gives every person the right to apply to the Supreme Court for violations of fundamental rights and that the Court can entertain applications challenging emergency regulations and Orders made thereunder.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

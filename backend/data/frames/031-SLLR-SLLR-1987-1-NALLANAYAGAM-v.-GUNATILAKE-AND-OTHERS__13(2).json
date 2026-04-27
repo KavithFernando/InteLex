@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_031-SLLR-SLLR-1987-1-NALLANAYAGAM-V.-GUN_072_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 59/85",
+    "case_title": "Nallanayagam v Gunatilake and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-07-25",
+    "source_citation": "Sri Lanka Law Reports [1987] 1 Sri L.R. 293"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was produced before a Magistrate within the time required by law and thus whether his detention violated Article 13(2).",
+    "petitioner_claim": "The petitioner was produced before the Magistrate three days later than the 30 days allowed by the proviso to Regulation 19(1), violating Article 13(2).",
+    "respondent_argument": "The respondents argued the detention was authorized under Emergency Regulations and that the delay was minor.",
+    "key_facts": [
+      "Petitioner arrested on 22 May 1985 and produced before Magistrate on 25 June 1985.",
+      "Regulation 19(1) requires production before Magistrate within 30 days of arrest.",
+      "Petitioner was produced three days late, violating the proviso to Regulation 19(1).",
+      "Article 13(2) requires detainees to be brought before a judge according to law.",
+      "Court held Article 13(2) must be read with proviso to Regulation 19(1)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) safeguards personal liberty by requiring detainees to be produced before a judge within a reasonable time, here interpreted in conjunction with Emergency Regulation 19(1) proviso as 30 days.",
+    "application_to_facts": "The petitioner was produced three days after the 30-day limit, constituting a violation of Article 13(2).",
+    "principles_established": [
+      "Article 13(2) must be strictly complied with by the executive.",
+      "Emergency Regulations proviso to Regulation 19(1) is incorporated into Article 13(2) for procedural safeguards.",
+      "Delay in production before Magistrate, even if short, violates constitutional rights."
+    ],
+    "precedents_cited": [
+      "Edirisuriya v. Navaratnam [1985] 1 Sri LR 100",
+      "Yasapalitha Nanayakkara v. Henry Perera and Others S.C. Application No. 19/85"
+    ]
+  },
+  "outcome": {
+    "holding": "The belated production of the petitioner before the Magistrate was a violation of Article 13(2).",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioner was awarded Rs. 5,000 compensation payable by the State and costs of the application."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The court’s central holding was that the delay in producing the petitioner before a Magistrate violated Article 13(2), which protects personal liberty by requiring timely judicial oversight.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was produced before the Magistrate three days after the 30-day period allowed by Regulation 19(1), which the court held violated Article 13(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 700,
+      "end_char": 1100
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "frame_id": "RQ1_001-SLLR-SLLR-1982-1-WIJETUNGA-V.-INSURA_002_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 87/82",
+    "case_title": "Wijetunga v. Insurance Corporation and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1982-11-29",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 87/82, decided on 29 November 1982"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the punishment imposed by the Insurance Corporation on the petitioner infringed his fundamental right to freedom of speech and expression under Article 14(1)(a) of the Constitution, and whether such infringement was by executive or administrative action attracting the jurisdiction of the Supreme Court under Article 126.",
+    "petitioner_claim": "The petitioner argued that the suspension of increments, warning, and transfer imposed by the Insurance Corporation for putting up posters was an infringement of his fundamental right to freedom of speech and expression including publication guaranteed by Article 14(1)(a).",
+    "respondent_argument": "The Insurance Corporation contended that its actions did not amount to executive or administrative action of the State and therefore the Supreme Court had no jurisdiction under Article 126 to entertain the petition. It justified the punishment as disciplinary action for putting up obnoxious posters.",
+    "key_facts": [
+      "The petitioner was an employee and Organising Secretary of the Insurance Employees' Union.",
+      "The Union decided to launch a poster campaign highlighting employee grievances.",
+      "The Insurance Corporation alleged the posters were obnoxious and incited disaffection.",
+      "The petitioner was found guilty at a domestic inquiry and punished by suspension of increments, warning, and transfer.",
+      "The Insurance Corporation is a statutory corporation established under the Insurance Corporation Act No. 2 of 1961."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that fundamental rights under Chapter 3 of the Constitution can only be enforced against executive or administrative action of the State or its instrumentalities. Private conduct or actions of entities not constituting the State or its agencies do not attract the jurisdiction of the Supreme Court under Article 126. The Insurance Corporation, though a public corporation, is an autonomous legal entity distinct from the State and not a government department or agent of the State.",
+    "application_to_facts": "Applying the tests of control, function, and statutory provisions, the Court found that the Insurance Corporation operates independently with discretionary powers and is not under such ministerial control as to be considered an organ or agent of the State. Therefore, its disciplinary actions against the petitioner do not constitute executive or administrative action of the State and do not infringe fundamental rights under Article 14(1)(a) in a manner actionable under Article 126.",
+    "principles_established": [
+      "Fundamental rights enforcement under Article 126 is limited to infringements by executive or administrative action of the State.",
+      "A statutory corporation carrying on commercial activities with independent legal personality is not necessarily an organ or agent of the State.",
+      "The degree of ministerial control and the nature of functions are key to determining whether an entity is part of the State.",
+      "Private or autonomous corporate actions do not constitute executive or administrative action attracting constitutional remedies."
+    ],
+    "precedents_cited": [
+      "Perera v. University Grants Commission",
+      "Narayanasamy v. Krishnamoorthy",
+      "Tamlin v. Hannaford",
+      "B.B.C. v. Johns",
+      "Mersey Docks & Harbour Board Trustees v. Gibbs",
+      "Metropolitan Meat Industry Board v. Sheedy",
+      "Bank Voor Handel v. Administrator of Hungarian Properties",
+      "Ceylon Bank Employees' Union v. Yatawara",
+      "Trendtex Trading Corporation v. Central Bank",
+      "Dahanayake v. de Silva",
+      "Karneshwar Prasad v. State of Bihar",
+      "The First National City Bank v. Commissioner of Income Tax, Bombay City",
+      "Balakoiaiah v. Union of India"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court upheld the preliminary objection that the Insurance Corporation's actions were not executive or administrative action of the State and therefore dismissed the application for relief under Article 126 for alleged infringement of freedom of speech and expression under Article 14(1)(a).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) guarantees freedom of speech and expression, which the petitioner claimed was infringed by the Insurance Corporation's disciplinary actions. The Court's reasoning focused on whether those actions constituted executive or administrative action of the State, a prerequisite for constitutional enforcement of this right under Article 126.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner alleged infringement of his fundamental rights under Article 14(1)(a) due to punishment by the Insurance Corporation. The Court held that the Corporation is not an organ or agent of the State and its actions do not amount to executive or administrative action attracting Article 126 jurisdiction.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

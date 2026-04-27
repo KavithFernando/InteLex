@@ -1,0 +1,73 @@
+{
+  "frame_id": "RQ1_006-SLLR-SLLR-2000-V-2-DILAN-PERERA-V.-R_034_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "CA_1164_98",
+    "case_title": "Dilan Perera v. Rajitha Senaratne",
+    "court_name": "Court of Appeal of Sri Lanka",
+    "decision_date": "2000-03-31",
+    "source_citation": "Sri Lanka Law Reports 2000 12 Sri LR 80"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the 1st respondent, a Member of Parliament, was disqualified from holding office due to contracts with government institutions, implicating the right to equal protection under Article 12(1).",
+    "petitioner_claim": "The petitioner claimed that the 1st respondent entered into prohibited contracts with government institutions while being a Member of Parliament, thus disqualifying him from office and violating principles of equality before the law.",
+    "respondent_argument": "The respondent argued there was no law prohibiting a Member of Parliament from entering into contracts with government institutions, and therefore no disqualification or action could be taken against him.",
+    "key_facts": [
+      "The 1st respondent was a Member of Parliament nominated from the National List.",
+      "The 1st respondent entered into multiple contracts with government institutions through a partnership and a private company.",
+      "The petitioner alleged these contracts disqualified the 1st respondent under constitutional provisions.",
+      "Parliament had not enacted laws specifying disqualifications under Article 91(1)(e).",
+      "The petitioner filed for writs of quo warranto and mandamus to declare the 1st respondent's appointment void."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as guaranteeing equality before the law and equal protection, which includes the principle that no Member of Parliament should hold office if disqualified by law. The court held that despite the absence of specific legislation under Article 91(1)(e), the continuing operation of earlier laws and constitutional principles ensures that disqualifications apply equally to all.",
+    "application_to_facts": "The court found that the 1st respondent had entered into prohibited contracts with the State through his partnership and company while holding office, thus disqualifying him. The court applied the principle of equality before the law to hold that the 1st respondent could not be exempt from disqualification simply because Parliament had not enacted specific laws.",
+    "principles_established": [
+      "Article 12(1) ensures equal protection of the law, including disqualification provisions.",
+      "Absence of specific legislation does not nullify constitutional disqualifications.",
+      "Earlier laws and judicial decisions remain applicable to uphold constitutional principles.",
+      "A Member of Parliament holding prohibited contracts is disqualified from office."
+    ],
+    "precedents_cited": [
+      "Dahanayake vs De Silva [1978-79-80] 1 Sri L.R. 41",
+      "Walker Sons & Co. (U.K.) Ltd. vs Gunatilake [1978-79-80] 1 Sri L.R. 231",
+      "Dahanayake vs Pieris 45 NLR 385",
+      "Somasundran vs Kotelawala 40 NLR 205",
+      "Coorey vs De Zoysa 41 NLR 121",
+      "Kulasingham vs Thambiyah 49 NLR 505",
+      "Thambiyah vs Kulasingham 50 NLR 25",
+      "Gunasekera vs Wijesinghe 65 NLR 303",
+      "Martin Perera vs Madadombe 73 NLR 25",
+      "Nesamony vs Varghese (52) Tr. C 66",
+      "Sana Sampat vs Jalgaon Borough Municipality 1 LR (1958) Bom 113"
+    ]
+  },
+  "outcome": {
+    "holding": "The court granted the writ of quo warranto, declaring the 1st respondent disqualified and his appointment as Member of Parliament void, ordering the Secretary General of Parliament to take necessary steps.",
+    "disposition": "granted",
+    "remedy_or_orders": "Writs of Quo Warranto and Mandamus issued directing removal of the 1st respondent from Parliament."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) underpins the principle that all persons, including Members of Parliament, must be treated equally under the law and receive equal protection. The court relied on this principle to ensure that constitutional disqualifications apply equally and are enforceable despite legislative gaps.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court emphasized that the 1st respondent entered into prohibited contracts with government institutions while holding office, thus disqualifying him under constitutional principles of equality and protection of the law.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 800,
+      "end_char": 10500
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "frame_id": "RQ1_029-SLLR-SLLR-2000-V-1-WEERAWANSA-V.-THE_070_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APP_730_96",
+    "case_title": "Weerawansa v. The Attorney-General and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-06-26",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 730/96, decided on 26 June 2000"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s detention from arrest through various detention orders and remand orders complied with Article 13(2) requiring production before a judicial officer and lawful detention order.",
+    "petitioner_claim": "The petitioner claimed he was detained without being produced before a Magistrate as required, and that detention orders were invalid, thus violating Article 13(2).",
+    "respondent_argument": "Respondents argued detention was authorized under sections 7(1) and 9(1) of the PTA and remand orders by Magistrate, justifying detention.",
+    "key_facts": [
+      "Petitioner detained from 30.04.96 to 02.05.96 without production before Magistrate.",
+      "Detention orders under section 9(1) of PTA issued on 02.05.96 and extended on 01.08.96 without credible material.",
+      "Petitioner was never produced before a judicial officer during entire detention period.",
+      "Petitioner transferred to Customs custody on 02.10.96 without informing reason or notifying Human Rights Commission.",
+      "Petitioner was not produced before Magistrate on 03.10.96 despite remand orders being made."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires prompt production of detainees before a judicial officer and lawful detention orders. The PTA’s section 9(1) allows Ministerial detention orders but does not remove the requirement of production before a judge. Detention orders must be based on credible information and independent ministerial discretion. Remand orders without production or jurisdiction are invalid and detention under such orders is executive detention violating Article 13(2).",
+    "application_to_facts": "The court found the petitioner was not produced before a Magistrate within 72 hours or thereafter, the detention orders were issued without credible material and ministerial discretion was abdicated, and remand orders were made without jurisdiction or production. The transfer to Customs custody was without informing reason or notifying the Human Rights Commission. All these infringed Article 13(2).",
+    "principles_established": [
+      "Detention requires production before a judicial officer as a constitutional safeguard.",
+      "Ministerial detention orders must be based on credible information and independent discretion.",
+      "Remand orders without production or jurisdiction are invalid and constitute executive detention.",
+      "Transfer of detainee custody requires notification to Human Rights Commission."
+    ],
+    "precedents_cited": [
+      "Channa Pieris v. A. G. (1994) 1 Sri LR 1",
+      "Edirisuriya v. Navaratnam (1985) 1 Sri LR 100",
+      "Nallanayagam u. Gunatilake (1987) 1 Sri LR 293",
+      "Rodrigo v. de Silva (1997) 3 Sri LR 265",
+      "W. K. Nihal u. Kolalawela SC 126/94 SCM 6.10.94",
+      "Kamarasinghe u. A. G. SC 54/82 SCM 6.9.82",
+      "Jayathevan v. A. G. (1992) 2 Sri LR 356",
+      "Farook v. Raymond (1996) 1 Sri LR 217",
+      "Dayananda u. Weerasinghe (1983) 2 FRD 291",
+      "Leo Fernando v. A. G. (1985) 2 Sri LR 341",
+      "Sirros v. Moore (1974) 1 All ER 776",
+      "Sriyawathie v. Shiva Pasupati SC 112/86 SCM 28.4.87",
+      "Joseph Perera v. A. G. (1992) 1 Sri LR 199"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s detention violated Article 13(2) due to failure to produce before a judicial officer, invalid detention orders, unlawful transfer, and invalid remand orders, and that the State is liable for these infringements.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation of Rs. 300,000 awarded to petitioner, payable by State and certain respondents personally."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) is central to the court’s reasoning on the legality of detention, production before judicial officer, and validity of detention orders. The court’s findings and relief directly address violations of this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was detained without being produced before a Magistrate, detention orders were issued without credible material or independent ministerial discretion, transfer to Customs custody was without informing reason or notifying Human Rights Commission, and remand orders were made without jurisdiction or production.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

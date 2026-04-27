@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_028-SLLR-SLLR-2000-V-2-WIJENAYAKE-AND-OT_043_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_290_1998",
+    "case_title": "Wijenayake and Others v. Amerasena and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-09-01",
+    "source_citation": "Supreme Court of Sri Lanka, SC (FR) 290/98, decided on 1 September 1999"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Petitioners were subjected to cruel, inhuman or degrading treatment by the Respondents in violation of Article 11 of the Constitution during a police search and arrest.",
+    "petitioner_claim": "The Petitioners alleged that the Police unlawfully searched their premises without a warrant, assaulted them brutally causing serious injuries, and subjected them to cruel, inhuman and degrading treatment in the presence of onlookers.",
+    "respondent_argument": "The Respondents claimed they had lawful grounds and a search warrant for the search, used only minimum force to control violent obstruction by the Petitioners, and that the injuries were minor abrasions as per their Medico-Legal reports.",
+    "key_facts": [
+      "Police entered and searched the Petitioners' guesthouse on 31 October 1997 without a warrant, and again on 4 November 1997 with a warrant.",
+      "Petitioners were assaulted during the second search and arrested, sustaining injuries.",
+      "Conflicting Medico-Legal reports: Government Medical Officer's reports showed minor or no injuries, while later reports and medical certificates showed serious injuries.",
+      "Petitioners were acquitted in the Magistrate’s Court of charges related to brothel offences and obstruction.",
+      "Magistrate criticized the Police for failing to produce evidence of unlawful activity and found the Police testimony prima facie unacceptable."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 11 as prohibiting any cruel, inhuman or degrading treatment, including unlawful assault and humiliation by state actors such as the Police. The Court emphasized that the conduct of the Police must be justified and lawful, and any excessive or unlawful use of force violates this fundamental right.",
+    "application_to_facts": "The Court found the Petitioners' version credible, supported by medical evidence and the Magistrate’s observations. The conflicting official medical reports were rejected as unreliable and possibly influenced to assist the Police. The Police conduct in assaulting the Petitioners, unlawfully searching the premises, and humiliating them publicly was held to amount to cruel, inhuman and degrading treatment prohibited by Article 11.",
+    "principles_established": [
+      "State actors must not subject individuals to cruel, inhuman or degrading treatment.",
+      "Medical evidence must be carefully scrutinized for reliability and possible bias.",
+      "Unlawful searches and assaults by Police violate fundamental rights under Article 11.",
+      "Judicial observations in related criminal proceedings can inform fundamental rights adjudication."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that the Respondents violated the Petitioners' fundamental rights under Article 11 by subjecting them to cruel, inhuman and degrading treatment during the unlawful search and arrest.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Court ordered the Respondents to pay compensation totaling Rs. 150,000 to the Petitioners and the State to pay Rs. 25,000 as compensation and costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 directly addresses the core issue of the case: whether the Petitioners were subjected to cruel, inhuman or degrading treatment by the Police. The Court’s reasoning and ultimate holding rely centrally on this constitutional protection.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the conduct of the Respondents in inflicting serious injuries and humiliating the Petitioners in the presence of onlookers amounted to cruel, inhuman and degrading treatment prohibited by Article 11.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1989-V-2-VEERADAS-V.-CONTR_050_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 221/88",
+    "case_title": "Veeradas v. Controller of Immigration and Emigration and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1989-09-27",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 221/88, decided on 27 September 1989"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the arrest and detention of the petitioner was lawful and in accordance with Article 13(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed wrongful arrest and detention in violation of his fundamental rights under Article 13(1), alleging no reasonable grounds for suspicion and that he was unlawfully prevented from traveling despite valid documents.",
+    "respondent_argument": "The respondents argued that there were reasonable and bona fide grounds for suspicion that the petitioner's passport was forged or irregular, justifying lawful arrest and detention under relevant laws, including the Code of Criminal Procedure and Immigrants and Emigrants Act.",
+    "key_facts": [
+      "Petitioner had a valid passport and visa and was booked on a flight to the UK.",
+      "At the airport, officials noticed a discoloration on the passport and discrepancies in the petitioner's name.",
+      "Petitioner was questioned, off-loaded from the flight, and handed over to the police.",
+      "Petitioner was remanded and later discharged due to lack of evidence.",
+      "Subsequent verification confirmed the passport was genuine."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that an arrest under Article 13(1) must be according to law and based on reasonable suspicion. The officers had bona fide reasonable grounds to suspect forgery or irregularity in the petitioner's passport, justifying lawful arrest and detention under section 35 of the Code of Criminal Procedure and related statutes.",
+    "application_to_facts": "Given the visible discoloration on the passport, discrepancies in the name, the petitioner's reluctance to answer questions, and the context of increased incidents of forged documents on Air Lanka flights, the court found the suspicion reasonable and the arrest lawful.",
+    "principles_established": [
+      "Arrest by private persons or airline officials is lawful if a cognizable offence is committed in their presence or reasonable suspicion arises.",
+      "Reasonable suspicion justifies arrest and detention pending police investigation.",
+      "Subsequent exoneration does not render the initial arrest unlawful if done in good faith.",
+      "Protection under Penal Code Section 72 applies to good faith arrests."
+    ],
+    "precedents_cited": [
+      "Wiltshire v. Barrott (1965) 2 All ER 271",
+      "Thani v. State of Kerala 1965 KLT 697"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the arrest and detention of the petitioner were lawful and did not violate Article 13(1) of the Constitution.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) protects against unlawful arrest and detention. The court's reasoning centered on whether the arrest was lawful and based on reasonable suspicion, making this clause central to the decision.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the visible discoloration on the passport, discrepancies in the petitioner's name, and his reluctance to answer questions gave rise to reasonable suspicion justifying lawful arrest under section 35 of the Code of Criminal Procedure.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

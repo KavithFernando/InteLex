@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_DANNY-V.-SIRINIMAL-SILVA-INSPECTOR-OF-PO_098_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_488_98",
+    "case_title": "Danny v. Sirinimal Silva, Inspector of Police, Police Station, Chilaw and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-09-12",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 488/98, decided on 12 September 2000"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the arrest of the petitioner was lawful under Article 13(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that his arrest was unlawful and violated his fundamental rights under Article 13(1) because there was no complaint or reasonable suspicion against him and he was not informed of any lawful reason for his arrest.",
+    "respondent_argument": "The respondents claimed the arrest was lawful as it was based on police orders to investigate information about LTTE suspects at the guest house, and the occupants could not establish their identities, necessitating their arrest for verification.",
+    "key_facts": [
+      "Petitioner and companion were arrested at a guest house by police without any complaint or evidence of offence.",
+      "They were taken into custody along with other occupants of the guest house.",
+      "Petitioner was charged under the Brothels Ordinance but no evidence showed he managed or assisted in managing a brothel.",
+      "Petitioner was produced before the Magistrate about 9.5 hours after arrest.",
+      "No lawful basis or reasonable suspicion existed for the petitioner’s arrest."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) requires that arrests be made according to established legal procedure and that the arrested person be informed of the reason. The Brothels Ordinance does not criminalize mere sexual intercourse or passive occupancy, but only management or assistance in managing a brothel. Since there was no evidence against the petitioner, his arrest was unlawful.",
+    "application_to_facts": "The court found no complaint, reasonable suspicion, or evidence that the petitioner committed an offence under the Brothels Ordinance. The police arrested him merely because occupants could not establish their identities, which was insufficient to justify arrest under the law. Therefore, the arrest violated Article 13(1).",
+    "principles_established": [
+      "Arrest must be based on established legal procedure and reasonable suspicion.",
+      "Mere presence or passive occupancy does not constitute an offence under the Brothels Ordinance.",
+      "Police cannot arrest persons without evidence or complaint against them.",
+      "Article 13(1) protects against unlawful arrest and requires informing the arrested person of the reason."
+    ],
+    "precedents_cited": [
+      "Coore v. James Appu (1920) 22 NLR 206",
+      "Abeykoon v. Kulatunga (1950) 52 NLR 47",
+      "Mahanama Tillakaratne v. Bandula Wickramasinghe (1999) 1 Sri L.R. 372"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s arrest was unlawful and violated Article 13(1) of the Constitution.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioner was awarded Rs. 25,000 as compensation and costs payable by the State, and Rs. 5,000 each from the first to sixth respondents personally, totaling Rs. 55,000."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the court’s reasoning as it protects individuals from unlawful arrest and requires that any arrest be made according to law and that the arrested person be informed of the reason. The court found the petitioner’s arrest violated these protections.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found no complaint or reasonable suspicion against the petitioner and held that his arrest was unlawful and violative of Article 13(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "frame_id": "RQ1_001-SLLR-1984-V1-WIJERATNE-AND-ANOTHER-V_001_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. 63/83 & 65/83",
+    "case_title": "Wijeratne and Another v. The People's Bank and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1984-01-12",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. 63/83 & 65/83, decided on 12 January 1984"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the People's Bank's reorganisation of security services and placement of petitioners in a lower inspector class constituted discrimination infringing their fundamental right to equality under Article 12(1) of the Constitution, and whether such infringement was by executive or administrative action making it maintainable under Article 126.",
+    "petitioner_claim": "The petitioners argued that the People's Bank discriminated against them by placing them in Class B Inspectors grade despite their higher salary, depriving them of promotional prospects, thus infringing their fundamental right to equality under Article 12.",
+    "respondent_argument": "The People's Bank contended that their actions were not executive or administrative action of the State but part of their commercial activities, and therefore the Supreme Court lacked jurisdiction under Article 126 to entertain the application.",
+    "key_facts": [
+      "The People's Bank reorganised its security services placing petitioners in Class B Inspectors grade despite petitioners drawing higher salaries than Class A Inspectors.",
+      "Petitioners alleged discrimination and deprivation of promotion opportunities.",
+      "The People's Bank is a statutory corporation primarily engaged in commercial banking activities.",
+      "The Supreme Court's jurisdiction under Article 126 is limited to infringements by executive or administrative action.",
+      "The petitioners were employed in connection with the Bank's commercial activities, not governmental functions."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) guarantees equality before the law and equal protection, but the Supreme Court's jurisdiction to grant relief under Article 126 is limited to infringements caused by executive or administrative action. The People's Bank, though a statutory corporation, primarily performs commercial functions and is not an instrumentality or agency of the State when acting in that capacity. Employment related to commercial activities does not constitute State action.",
+    "application_to_facts": "The Court found that the petitioners' employment and the Bank's reorganisation of security services were connected to commercial activities, not governmental functions. Therefore, even if discrimination occurred, it was not by executive or administrative action, and the Supreme Court had no jurisdiction under Article 126 to grant relief.",
+    "principles_established": [
+      "Executive or administrative action is a necessary condition for the Supreme Court's jurisdiction under Article 126.",
+      "A public corporation may perform both governmental and non-governmental functions; only governmental functions constitute State action.",
+      "The cumulative effect of factors determines whether a corporation is an instrumentality of the State.",
+      "Commercial activities of a statutory corporation do not qualify as State action.",
+      "Discrimination claims arising from non-executive or non-administrative action are not maintainable under Article 126."
+    ],
+    "precedents_cited": [
+      "Wijetunga v. Insurance Corporation of Sri Lanka (1982) 1 S.L.R. 1",
+      "Trendtex Trading Corporation v. Central Bank (1977) 1 All E.R. 881",
+      "Pfizer v. Minister of Health (1963) 3 All E.R. 779",
+      "New York v. United States (1945) 326 U.S. 572",
+      "Ramana v. I.A. Authority of India A.I.R. (1979) S.C. 1628",
+      "Jackson v. Metropolitan Edition Co. (1974) 419 U.S. 365"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court upheld the preliminary objection and dismissed the applications, holding that the People's Bank's actions were not executive or administrative action and thus not subject to relief under Article 126 for alleged discrimination under Article 12(1).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioners' claim of discrimination and denial of equal protection. The Court's analysis focused on whether the alleged infringement was by executive or administrative action, a prerequisite for relief under Article 126, thus directly interpreting the scope of Article 12(1) rights in the context of State action.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that the People's Bank is primarily a commercial bank and its actions in reorganising security services and employment do not constitute executive or administrative action of the State, thus the petitioners' claim under Article 12(1) is not maintainable under Article 126.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

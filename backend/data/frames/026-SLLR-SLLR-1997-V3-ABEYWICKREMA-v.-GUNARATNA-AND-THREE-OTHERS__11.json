@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_026-SLLR-SLLR-1997-V3-ABEYWICKREMA-V.-GU_041_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. SPL 93/96",
+    "case_title": "Abeywickrema v. Gunaratna and Three Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-10-09",
+    "source_citation": "Sri Lanka Law Reports [1997] 3 Sri LR 225"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to degrading treatment in violation of Article 11 of the Constitution when he was taken into custody, assaulted, and detained unlawfully by the police.",
+    "petitioner_claim": "The petitioner claimed that he was assaulted by police officers, locked up in a cell without lawful reason, and subjected to degrading treatment violating his fundamental rights under Article 11.",
+    "respondent_argument": "The respondents argued that the petitioner was taken into custody because he appeared under the influence of alcohol and was involved in a police investigation following a complaint against another individual; they suggested the treatment was lawful and injuries were minor.",
+    "key_facts": [
+      "Petitioner was a three wheeler driver who took a passenger to a police station as requested.",
+      "Petitioner was assaulted by police and locked up in a cell after being taken into custody.",
+      "Petitioner was produced before the AJMO who reported he was not under the influence of alcohol.",
+      "No complaint or reasonable suspicion existed against the petitioner for arrest.",
+      "Medical evidence showed physical injuries consistent with assault by police."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 11 prohibits torture and cruel, inhuman or degrading treatment, which includes aggravated forms of treatment that grossly humiliate or coerce an individual. The court found that assaulting and detaining a person engaged in an honest occupation without lawful cause constitutes degrading treatment.",
+    "application_to_facts": "The petitioner was unlawfully arrested without complaint or suspicion, assaulted, and detained despite medical evidence disproving intoxication. The physical injuries and circumstances of detention amounted to degrading treatment under Article 11.",
+    "principles_established": [
+      "Degrading treatment includes acts that grossly humiliate or coerce an individual.",
+      "Lawful arrest requires adherence to legal procedures and reasonable suspicion or complaint.",
+      "Physical assault and unlawful detention of an individual engaged in honest work violates Article 11."
+    ],
+    "precedents_cited": [
+      "Thadchanamoorthi v. Attorney-General 1980 FRD 120"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental rights under Article 11 were infringed and awarded compensation and costs.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was directed to pay Rs. 12,000 as compensation and Rs. 3,000 as costs; a copy of the judgment was to be forwarded to the Inspector General of Police."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the court’s reasoning as it directly addresses the prohibition of degrading treatment, which the petitioner experienced through unlawful arrest, assault, and detention.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was assaulted by police, locked up in a cell, and medical evidence confirmed injuries; the AJMO reported he was not under the influence of alcohol, contradicting the reason for arrest.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

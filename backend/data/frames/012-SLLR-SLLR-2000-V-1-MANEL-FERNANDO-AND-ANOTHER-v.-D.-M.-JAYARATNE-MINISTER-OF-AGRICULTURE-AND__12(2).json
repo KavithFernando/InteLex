@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-2000-V-1-MANEL-FERNANDO-AN_063_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_797_97",
+    "case_title": "Manel Fernando and Another v. D.M. Jayaratne, Minister of Agriculture and Lands and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-11-08",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 797/97, decided on 8 November 1999"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners were discriminated against on the grounds of race in the land acquisition process, violating Article 12(2).",
+    "petitioner_claim": "The petitioners claimed that the 2nd petitioner, a Tamil, was subjected to racial harassment and discrimination by local officials and police, which led to the unlawful acquisition of his land.",
+    "respondent_argument": "The respondents denied any racial discrimination and asserted the acquisition was for a legitimate public purpose.",
+    "key_facts": [
+      "The 2nd petitioner was a Tamil married to a Sinhala woman and was harassed by local officials alleging terrorist links.",
+      "The section 2 notice was issued only in Sinhala despite statutory requirements for trilingual notices.",
+      "Local officials obstructed prospective buyers from purchasing the land, contributing to forced sale.",
+      "The acquisition was engineered by local officials with racial motives.",
+      "The Prime Minister intervened citing communal discrimination concerns."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(2) as prohibiting discrimination on racial grounds and held that the harassment and procedural irregularities in the acquisition process constituted racial discrimination violating this clause.",
+    "application_to_facts": "The court found that the 2nd petitioner was discriminated against on racial grounds through harassment, obstruction, and failure to comply with language requirements, which led to the unlawful acquisition of his land.",
+    "principles_established": [
+      "Discrimination on racial grounds in state actions violates Article 12(2).",
+      "Procedural compliance, including language requirements, is essential to prevent discrimination.",
+      "Harassment and obstruction based on race constitute fundamental rights violations."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the respondents infringed the fundamental rights of the 2nd petitioner under Article 12(2) by discriminating against him on racial grounds.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation and costs awarded as part of relief for fundamental rights violations."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was central to the court's finding that racial discrimination and harassment by state officials led to the unlawful acquisition, violating the petitioners' fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court accepted that the 2nd petitioner was harassed on racial grounds, the notice was only in Sinhala despite statutory requirements, and that these actions amounted to discrimination violating Article 12(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

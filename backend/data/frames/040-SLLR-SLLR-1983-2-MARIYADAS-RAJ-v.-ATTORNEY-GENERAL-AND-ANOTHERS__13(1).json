@@ -1,0 +1,70 @@
+{
+  "frame_id": "RQ1_040-SLLR-SLLR-1983-2-MARIYADAS-RAJ-V.-AT_087_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 130/83",
+    "case_title": "Mariyadas Raj v. Attorney-General and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1983-02-07",
+    "source_citation": "[1983] 2 Sri L.R. 461"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was arrested without being informed of the reasons for his arrest, violating Article 13(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed he was arrested without being informed of the reason for his arrest, constituting a violation of his fundamental rights under Article 13(1).",
+    "respondent_argument": "The State argued that the arresting officer, Sub-Inspector Godagama, was not a party to the proceedings and that the application should fail for that reason. They also contended the police action did not constitute executive or administrative action giving rise to fundamental rights infringement.",
+    "key_facts": [
+      "Petitioner is an Indian citizen who entered Sri Lanka legally with a valid visa.",
+      "Petitioner was arrested at about 1 a.m. on 13 November 1982 without being informed of the reason for arrest.",
+      "Sub-Inspector Godagama arrested the petitioner on suspicion of illegal immigration but did not inform him of the grounds for arrest.",
+      "Petitioner was detained until 3 December 1982 and was not informed of the reasons for arrest at the time.",
+      "The petitioner could have dispelled the suspicion by showing his valid passport and visa if informed."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) guarantees the right of any person arrested to be informed of the reasons for arrest at the time of arrest. This is a fundamental safeguard of personal liberty and the rule of law. Failure to inform the arrested person renders the arrest illegal and the detention unlawful.",
+    "application_to_facts": "The court found that the petitioner was not informed of the reasons for his arrest by Sub-Inspector Godagama, who arrested him on suspicion of illegal immigration. The petitioner’s valid visa and passport would have dispelled the suspicion if communicated. Therefore, the arrest violated Article 13(1).",
+    "principles_established": [
+      "Arrest without informing the person of the reasons is a violation of fundamental rights under Article 13(1).",
+      "The State is liable for the actions of its officials exercising executive power, even if the official is not a party to the proceedings.",
+      "The right to be informed of the reason for arrest is essential to prevent arbitrary and despotic exercise of police powers.",
+      "Failure to inform the arrested person is not a mere irregularity but renders the arrest illegal."
+    ],
+    "precedents_cited": [
+      "Muthusamy v. Kannangara 52 NLR 524",
+      "Christie v. Leachinsky 1947 AC 573",
+      "Corea v. The Queen 55 NLR 457",
+      "McNabb v. USA 1943 318 US 332",
+      "Velmurugu v. Attorney-General and Another S.C. Application No. 74/81",
+      "Maharaja v. Attorney-General 1978 2 All ER 670",
+      "Thornhill v. Attorney-General 1981 AC 61",
+      "Ratnasara Thero v. Udugampola S.C. Application No. 125/82"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental right under Article 13(1) was infringed because he was not informed of the reasons for his arrest. The arrest was not according to procedure established by law.",
+    "disposition": "granted",
+    "remedy_or_orders": "The court granted a declaration of violation of Article 13(1), ordered the State to pay Rs. 5000/- as compensation to the petitioner, and costs of the application. The application against the 2nd respondent was dismissed."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the court’s reasoning and holding because the petitioner’s claim was based on the failure to inform him of the reasons for arrest, which the court found to be a fundamental right violation.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was arrested without being informed of the reasons for his arrest by Sub-Inspector Godagama, who suspected him of illegal immigration. The petitioner had a valid visa and passport which he could have shown if informed.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_028-SLLR-SLLR-2000-V-1-SUNILA-ABEYSEKERA_140_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application No. 994/99",
+    "case_title": "Sunila Abeysekera v. Ariya Rubasinghe, Competent Authority and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-06-15",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 994/99, decided on 15 June 2000"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Emergency (Prohibition on Publication and Transmission of Sensitive Military Information) Regulation No. 1 of 1998 as amended violated the petitioner's right to equality before the law under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the regulation was unwarranted, discriminatory, arbitrary, and violative of Article 12(1) as it deprived her of equal protection of the law.",
+    "respondent_argument": "The respondents contended that the regulations were framed in reasonably precise terms, applied uniformly, and did not violate Article 12(1).",
+    "key_facts": [
+      "The regulation prohibited publication of sensitive military information related to the Armed Forces and Police.",
+      "The petitioner was engaged in human rights activism and sought information on the ethnic conflict and war in the North and East.",
+      "The petitioner alleged the regulation was discriminatory and arbitrary.",
+      "The regulation was made under section 5 of the Public Security Ordinance.",
+      "The court found no evidence of discriminatory application or unguided discretion."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the impugned regulations were framed in reasonably precise terms and confined to defined circumstances, thus not violating the petitioner's right to equality before the law under Article 12(1).",
+    "application_to_facts": "The court found no evidence that the regulations were applied in a discriminatory manner or that the Competent Authority had unguided or arbitrary power to discriminate.",
+    "principles_established": [
+      "Regulations must be precise and confined to defined circumstances to comply with Article 12(1).",
+      "Unguided and arbitrary discretion that enables discrimination violates Article 12(1)."
+    ],
+    "precedents_cited": [
+      "Joseph Perera alias Bruten Perera v. The Attorney-General and Others (1992) 1 Sri L. R. 199"
+    ]
+  },
+  "outcome": {
+    "holding": "There was no violation of Article 12(1) as the regulations were not discriminatory or arbitrary.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioner claimed the regulation violated her right to equality before the law by being discriminatory and arbitrary. The court's reasoning focused on whether the regulation was precise and uniformly applied, making Article 12(1) central to the decision.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The impugned regulations were framed in reasonably precise terms and confined in their application to defined circumstances. As such there was no violation of the petitioner’s rights under Article 12(1) of the Constitution.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "frame_id": "RQ1_025-SLLR-SLLR-1993-1-RATNAPALA-V.-DHARMA_038_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_162_91",
+    "case_title": "Ratnapala v. Dharmasiri, Headquarters Inspector, Ratnapura and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1993-04-28",
+    "source_citation": "Sri Lanka Law Reports [1993] 1 Sri LR"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture and cruel, inhuman or degrading treatment in violation of Article 11 of the Constitution, and whether the respondents are personally responsible for such violation.",
+    "petitioner_claim": "The petitioner claimed that he was brutally tortured by the 3rd, 5th, 6th, and 7th respondents over a period of three weeks while in police custody, resulting in irreparable injuries including the surgical removal of a lung, and that the 1st and 2nd respondents, as superior officers, deliberately encouraged, tolerated, and acquiesced in the torture.",
+    "respondent_argument": "The respondents denied the allegations of torture, claimed some injuries were sustained prior to arrest or due to the petitioner's attempt to escape, questioned the petitioner's credibility in identifying the assailants, and asserted alibis based on mobile duty during the alleged assaults.",
+    "key_facts": [
+      "Petitioner was arrested on suspicion of robbery and detained at Ratnapura Police Station.",
+      "Petitioner was subjected to repeated assaults and torture by police officers over three weeks.",
+      "Medical evidence confirmed multiple injuries consistent with blunt trauma and torture.",
+      "Superior officers (1st and 2nd respondents) were found to have encouraged or acquiesced in the torture.",
+      "Petitioner suffered severe injuries including removal of a lung."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 11 as prohibiting torture and cruel, inhuman or degrading treatment, holding that such fundamental rights must be respected and secured by all government organs. The Court emphasized that personal responsibility extends to superior officers who deliberately encourage or tolerate such acts.",
+    "application_to_facts": "The Court found the petitioner’s evidence credible given his continuous detention and motive to remember assailants, and rejected the respondents’ alibi and explanations. Medical reports corroborated the petitioner’s claims of torture. The Court held that the 3rd, 5th, 6th, and 7th respondents physically assaulted the petitioner, and the 1st and 2nd respondents were personally responsible for encouraging or acquiescing in the torture.",
+    "principles_established": [
+      "Article 11 prohibits torture and cruel, inhuman or degrading treatment.",
+      "Superior officers can be held personally responsible for acts of subordinates if they encourage, tolerate, or acquiesce in such acts.",
+      "Medical evidence is critical in establishing the occurrence and extent of torture.",
+      "Credibility of victim testimony is assessed in light of circumstances including opportunity to identify assailants and motive."
+    ],
+    "precedents_cited": [
+      "Sirisena v. Perera [1991] 2 Sri LR 97",
+      "Amal Sudath Silva v. Kodituwakku [1987] 2 Sri LR 119",
+      "Geekiyanage Premalal Silva v. Rodrigo, SC Appl. No. 24/89",
+      "Jayaratne v. Tennakoon, SC Appl. No. 18/89",
+      "Gamlath v. Neville Silva, SC Appl. No. 78/90",
+      "Wimal Vidyamani v. U. Col. Jayatilleke, SC Appl. No. 852/91",
+      "Ratnasiri v. Devasurendra, SC Appl. No. 4/91",
+      "Weerakoon v. Weeraratne, SC Appl. No. 42/92"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner’s fundamental rights under Article 11 were infringed by torture inflicted by the 3rd, 5th, 6th, and 7th respondents, and that the 1st and 2nd respondents were personally responsible for encouraging or acquiescing in the torture. The petitioner was awarded compensation from the State and the responsible respondents. The claim against the 4th respondent was dismissed.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of infringement of Article 11 rights; compensation awarded to petitioner from State and individual respondents; directions for payment and further action by Inspector-General of Police."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 is central to the case as the petitioner’s claim is based on alleged torture and cruel, inhuman treatment by police officers, which the Court found proven and in violation of this constitutional protection. The Court’s reasoning and relief directly address the breach of Article 11 rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was subjected to repeated assaults by police officers over three weeks, resulting in multiple injuries confirmed by medical reports, including the removal of a lung. The Court found the petitioner’s testimony credible and the superior officers responsible for acquiescing in the torture.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

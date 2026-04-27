@@ -1,0 +1,70 @@
+{
+  "frame_id": "RQ1_008-SLLR-SLLR-2001-V-1-LEO-SAMSON-V.-SRI_044_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_791_98_797_98",
+    "case_title": "Leo Samson v. Sri Lankan Airlines Ltd and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2001-01-11",
+    "source_citation": "Supreme Court of Sri Lanka, SC (FR) Application Nos. 791/98 and 797/98, decided on 11 January 2001"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the termination of services and posting of an officer by Sri Lankan Airlines Ltd violated the fundamental right to equality under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners claimed that the termination of services and the posting as Manager, Kuwait, violated their fundamental right to equality guaranteed under Article 12(1).",
+    "respondent_argument": "Sri Lankan Airlines Ltd argued that due to the Shareholders Agreement with Emirates Airlines and the amended Articles of Association, the impugned acts do not constitute 'executive or administrative action' of the State or its agents, and therefore the fundamental rights jurisdiction of the court does not apply.",
+    "key_facts": [
+      "The Government entered into a Shareholders Agreement with Emirates Airlines, selling 40% of Air Lanka shares, with Emirates currently holding 26%.",
+      "The amended Articles of Association vest management, power, control, and authority over the company business in the Investor (Emirates).",
+      "The Board of Directors consists of seven members: four appointed by the Government and three by the Investor, including the Managing Director.",
+      "Decisions require a quorum including representatives from both Government and Investor, limiting Government control.",
+      "The petitioners challenged actions taken by Sri Lankan Airlines Ltd, alleging violation of equality rights under Article 12(1)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted 'executive or administrative action' as actions of the State or its agents or instrumentalities. It applied the test of government agency or instrumentality, considering factors such as control, shareholding, and management authority.",
+    "application_to_facts": "The court found that the Government had lost the 'deep and pervasive' control over Sri Lankan Airlines Ltd due to the Shareholders Agreement and amended Articles. The management and control were vested in the Investor, Emirates, and the Government no longer exercised sufficient control to classify the company's actions as 'executive or administrative action' of the State.",
+    "principles_established": [
+      "Executive or administrative action under Chapter III of the Constitution includes actions by the State or its agents/instrumentalities.",
+      "The test for determining whether a corporation is a State instrumentality includes factors such as government shareholding, financial support, monopoly status, and degree of government control.",
+      "Loss of deep and pervasive government control means the entity's actions are not executive or administrative actions of the State."
+    ],
+    "precedents_cited": [
+      "Perera v. University Grants Commission",
+      "Wiyetunga v. Insurance Corporation of Sri Lanka",
+      "Rajasthan State Electricity Board v. Mohan Lai",
+      "Sukhdev Singh v. Bhagatram",
+      "R.D. Shetty v. International Airport Authority",
+      "Ajay Hasia v. Khalid Mujib",
+      "Som Prakash v. Union of India",
+      "Rajaratne v. Air Lanka Limited",
+      "Wijeratne v. The People's Bank"
+    ]
+  },
+  "outcome": {
+    "holding": "The court upheld the preliminary objection and held that the actions of Sri Lankan Airlines Ltd do not constitute executive or administrative action of the State. Therefore, the fundamental rights applications under Article 12(1) were dismissed for lack of jurisdiction.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioners' claim that their fundamental right to equality was violated by the actions of Sri Lankan Airlines Ltd. The court's analysis focused on whether those actions constituted executive or administrative action of the State, a prerequisite for invoking Article 12(1) rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the Government has lost the 'deep and pervasive' control exercised by it over the Company earlier, and the action taken by Sri Lankan Airlines cannot now be designated 'executive or administrative action'.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

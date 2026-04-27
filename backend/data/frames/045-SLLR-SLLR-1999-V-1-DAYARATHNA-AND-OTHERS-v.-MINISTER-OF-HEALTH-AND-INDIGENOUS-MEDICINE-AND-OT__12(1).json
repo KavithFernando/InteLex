@@ -1,0 +1,77 @@
+{
+  "frame_id": "RQ1_045-SLLR-SLLR-1999-V-1-DAYARATHNA-AND-OT_191_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATIONS NOS. 513-528/98",
+    "case_title": "Dayarathna and Others v. Minister of Health and Indigenous Medicine and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-04-01",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Applications Nos. 513-528/98, decided on 1 April 1999"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' fundamental rights under Article 12(1) were violated by the change of government policy that denied them the promised training course for Assistant Medical Practitioners and treated them unequally compared to earlier applicants and other medical graduates.",
+    "petitioner_claim": "The petitioners argued that they had a legitimate expectation, based on the Government Gazette notification and past practice, to be provided with the training course leading to the certificate of competency as Assistant Medical Practitioners, and that the denial of this training and the offer of inferior courses violated their right to equality under Article 12(1).",
+    "respondent_argument": "The respondents contended that the change in policy was justified due to the sufficient number of graduate medical officers available, the refusal of the Government Medical Officers' Association to participate in training, and the government's responsibility to provide employment to medical graduates. They argued that the training for Assistant Medical Practitioners was no longer necessary and that the petitioners were offered alternative training options.",
+    "key_facts": [
+      "The Ministry of Health issued a Gazette notification on 10.05.1996 inviting applications for training as Assistant Medical Officers.",
+      "Petitioners qualified in a competitive exam held on 27.12.1996 and were eligible for the training course.",
+      "The required interview to verify qualifications was not held.",
+      "On 20.08.1998, petitioners were invited to apply for training in other paramedical courses with lower qualifications and no eligibility to practice medicine.",
+      "The change of policy was influenced by the Government Medical Officers' Association's refusal to train Assistant Medical Practitioners."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) requires both substantive and formal equality, prohibiting arbitrary, invidious, or unreasonable discrimination. Legitimate expectations arising from government representations and past practice must be respected unless overridden by an overriding public interest. Procedural fairness requires that individuals affected by a policy change be given an opportunity to be heard.",
+    "application_to_facts": "The petitioners had a legitimate expectation to receive the training as advertised and had met the qualifications. The respondents changed policy without consulting the petitioners or Assistant Medical Practitioners and yielded to the pressure of the Government Medical Officers' Association. No overriding public interest justified the change. The petitioners were treated unequally compared to earlier applicants and graduate medical officers, violating Article 12(1).",
+    "principles_established": [
+      "Legitimate expectations based on government representations are protected under Article 12(1).",
+      "Procedural fairness requires consultation before policy changes that frustrate legitimate expectations.",
+      "Substantive equality requires treating similarly situated persons alike unless objectively justified.",
+      "Change of policy must be justified by overriding public interest and be proportionate."
+    ],
+    "precedents_cited": [
+      "R. v. Hertfordshire C.C., ex P. Cheung",
+      "R. v. MAFF ex. P. Hamble (Offshore Fisheries Ltd.)",
+      "R. v. Secretary of State for the Home Dept., ex P. Ruddock",
+      "Findlay v. Secretary of State for the Home Dept.",
+      "Council of Civil Service Union v. Minister for Civil Services",
+      "Hughes v. Dept. of Health and Social Security",
+      "HTV Ltd. v. Price Commission",
+      "Preston v. IRC",
+      "Attorney-General for New South Wales v. Quin",
+      "Att-Gen of Hong Kong v. Ng Yen Shin",
+      "Re Findlay",
+      "Robertson v. Minister of Pensions",
+      "Lever Finance Ltd. v. Westminster (City) London Borough Council",
+      "Associated Pictures Houses Ltd. v. Wednesbury Corpn",
+      "Rex v. Secretary of State of the Home Dept., ex. P. Khan"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court declared that the petitioners' fundamental rights under Article 12(1) were violated by the respondents' failure to provide the promised training and by treating the petitioners unequally. The Court ordered the respondents to hold the required interviews and provide the training as originally advertised.",
+    "disposition": "granted",
+    "remedy_or_orders": "The respondents shall hold the interview within eight weeks and commence the training course within six months. The State shall pay each petitioner Rs. 5,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it protects individuals from unequal treatment by the executive. The petitioners' claim was based on the violation of their right to equality due to arbitrary and unfair change of policy that denied them the training promised.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the petitioners had a legitimate expectation to the training course as per the Gazette notification, but the respondents changed policy without consultation, yielding to the Government Medical Officers' Association's pressure, thus violating Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

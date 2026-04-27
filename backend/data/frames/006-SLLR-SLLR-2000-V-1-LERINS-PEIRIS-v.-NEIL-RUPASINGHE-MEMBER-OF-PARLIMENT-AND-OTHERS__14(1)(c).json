@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_006-SLLR-SLLR-2000-V-1-LERINS-PEIRIS-V.-_010_C03__14(1)(c)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_126_99_FR",
+    "case_title": "Lerins Peiris v. Neil Rupasinghe, Member of Parliament and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-11-19",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application 126/99 (FR), decided on 19 November 1999"
+  },
+  "clause": {
+    "article": "14(1)(c)",
+    "text": "Freedom of association."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s right to freedom of association under Article 14(1)(c) was violated when he was prevented from participating in the workshop and assaulted.",
+    "petitioner_claim": "The petitioner argued that the respondents’ actions interfered with his associational rights, particularly as chairman of an organization involved in the project.",
+    "respondent_argument": "Respondents denied responsibility for the petitioner’s exclusion and claimed he left voluntarily after persuasion.",
+    "key_facts": [
+      "The petitioner was Chairman of the Muturajawela United Peoples Organization (MUPO).",
+      "The petitioner was prevented from participating in a workshop related to the project.",
+      "The petitioner was assaulted and forced to leave by respondents acting in official capacity.",
+      "The petitioner’s associational rights were linked to his expressive activities."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court emphasized that freedom of association is essential to preserve other individual liberties like free speech and is indispensable for collective advocacy and political diversity.",
+    "application_to_facts": "The respondents’ conduct effectively prevented the petitioner from exercising his freedom of association by excluding him from the workshop and assaulting him, violating Article 14(1)(c).",
+    "principles_established": [
+      "Freedom of association is a matrix for other freedoms including speech.",
+      "Collective effort and group association are protected to preserve political and cultural diversity.",
+      "Elected representatives must not suppress dissident expression through coercion."
+    ],
+    "precedents_cited": [
+      "National Association for the Advancement of Colored People v. Alabama Ex Rel. Patterson",
+      "Palko v. Connecticut",
+      "Channa Pieris v. Attorney General and Others",
+      "West Virginia State Board of Education v. Barnette"
+    ]
+  },
+  "outcome": {
+    "holding": "The court declared that the respondents violated the petitioner’s fundamental right to freedom of association under Article 14(1)(c).",
+    "disposition": "granted",
+    "remedy_or_orders": "The respondents were ordered to pay compensation and costs as per the judgment."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(c) was central because the petitioner’s exclusion and assault interfered with his associational rights as chairman of an organization, which the court found constitutionally protected.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was prevented from participating in the workshop and assaulted, which the court held violated his freedom of association guaranteed by Article 14(1)(c).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

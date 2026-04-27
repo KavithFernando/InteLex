@@ -1,13 +1,5 @@
 """
-PDF → Frame JSON → DB → incremental FAISS ingest service.
-
-Three stages run in a FastAPI BackgroundTask:
-  1. caseframe.pipeline.run_batch()    — PDF → frame JSONs (LLM calls)
-  2. import_frames_corpus.run_import() — frame JSONs → DB
-  3. append_new_frames_to_index()      — new DB rows → FAISS append
-
-On success, PDFs are uploaded to Cloudflare R2 and frame JSONs are committed
-to backend/data/frames/.
+PDF -> Frame JSON -> DB -> incremental FAISS ingest service
 """
 from __future__ import annotations
 
@@ -138,15 +130,8 @@ def list_jobs() -> List[Dict[str, Any]]:
     return merged
 
 
-# ── Incremental FAISS update ───────────────────────────────────────────────────
-
 def append_new_frames_to_index(job: IngestJob) -> int:
-    """
-    Loads the existing FAISS index + map, finds frames not yet vectorised,
-    embeds only those, appends to the index, and saves both files back.
-    Returns the count of new vectors added.
-    """
-    # 1. Load existing map to determine which frames are already indexed
+
     if not os.path.exists(CLAUSE_MAP_PATH):
         job.log.append("[FAISS] No existing map found — building from scratch")
         existing_frame_ids: set = set()
@@ -164,7 +149,6 @@ def append_new_frames_to_index(job: IngestJob) -> int:
             f"{len(existing_frame_ids)} frames already indexed"
         )
 
-    # 2. Query DB for all frames; keep only the new ones
     all_rows = fetch_frame_clause_rows()
     new_rows = [
         r for r in all_rows
@@ -178,14 +162,12 @@ def append_new_frames_to_index(job: IngestJob) -> int:
         job.log.append("[FAISS] Nothing new to embed")
         return 0
 
-    # 3. Embed new rows
     job.log.append(f"[FAISS] Embedding {len(new_rows)} new frame(s) with {EMBED_MODEL}")
     model = SentenceTransformer(EMBED_MODEL)
     texts = [build_embedding_text(r) for r in new_rows]
     embeddings = model.encode(texts, normalize_embeddings=True, show_progress_bar=False)
     embeddings = np.asarray(embeddings, dtype="float32")
 
-    # 4. Append to index (create fresh if none exists yet)
     start_faiss_id = index.ntotal if index is not None else 0
     if index is None:
         dim = embeddings.shape[1]
@@ -193,7 +175,6 @@ def append_new_frames_to_index(job: IngestJob) -> int:
 
     index.add(embeddings)
 
-    # 5. Update row_map
     row_map: List[Dict[str, Any]] = meta.get("row_map", [])
     for i, r in enumerate(new_rows):
         art = str(r["article"]).strip()
@@ -217,7 +198,6 @@ def append_new_frames_to_index(job: IngestJob) -> int:
             "match_type": (r.get("match_type") or "").strip(),
         })
 
-    # 6. Write back to disk
     os.makedirs(os.path.dirname(CLAUSE_INDEX_PATH), exist_ok=True)
     faiss.write_index(index, CLAUSE_INDEX_PATH)
     meta["count_rows"] = len(row_map)
@@ -232,25 +212,20 @@ def append_new_frames_to_index(job: IngestJob) -> int:
     return len(new_rows)
 
 
-# ── Background task ────────────────────────────────────────────────────────────
 
 def run_ingest_job(
     job_id: str,
-    pdf_bytes_list: List[Tuple[str, bytes]],   # [(filename, raw_bytes), ...]
+    pdf_bytes_list: List[Tuple[str, bytes]],
     clauses: Optional[List[str]],
     annotator_id: str,
-    retrieval_service: Any,                     # ClauseFrameRetrievalService instance
+    retrieval_service: Any,
 ) -> None:
-    """
-    Full ingest pipeline executed as a FastAPI BackgroundTask.
-    Stages: PDF save → run_batch → DB import → FAISS append → file commit → reload.
-    """
+
     job = _JOBS[job_id]
     job.status = "running"
     work_dir = Path(INGEST_WORK_DIR) / job_id
 
     try:
-        # ── Stage 0: set up per-job working dirs ─────────────────────────────
         pdf_work_dir   = work_dir / "pdfs"
         frame_work_dir = work_dir / "frames"
         pdf_work_dir.mkdir(parents=True, exist_ok=True)
@@ -259,7 +234,7 @@ def run_ingest_job(
         for fname, data in pdf_bytes_list:
             (pdf_work_dir / fname).write_bytes(data)
 
-        # ── Stage 1: PDF → frame JSONs ────────────────────────────────────────
+        # Stage 1
         clause_desc = "all clauses" if not clauses else str(clauses)
         job.log.append(f"[Stage 1] Starting PDF → frame extraction ({clause_desc})")
         cfg = RunConfig(
@@ -279,7 +254,7 @@ def run_ingest_job(
         total_frames = sum(e.get("frame_count", 0) for e in manifest.get("files", []))
         job.log.append(f"[Stage 1] Complete. {total_frames} frame JSON(s) produced.")
         _flush(job)
-        # ── Stage 2: frame JSONs → DB ─────────────────────────────────────────
+        # Stage 2
         job.log.append("[Stage 2] Importing frames into database...")
         inserted, skipped, err_count, err_msgs, skip_msgs = run_import(
             frames_dir=str(frame_work_dir / "json"),
@@ -297,12 +272,12 @@ def run_ingest_job(
         for msg in err_msgs:
             job.log.append(f"[Stage 2] ERROR: {msg}")
         _flush(job)
-        # ── Stage 3: incremental FAISS update ────────────────────────────────
+        # Stage 3
         job.log.append("[Stage 3] Updating vector index (new frames only)...")
         added = append_new_frames_to_index(job)
         job.log.append(f"[Stage 3] Vector index updated: {added} new vector(s).")
 
-        # ── Stage 4: upload PDFs to R2 and commit frame JSONs to permanent data/ ──
+        # Stage 4
         job.log.append("[Stage 4] Uploading PDFs to R2 and committing frame JSONs...")
         permanent_frame_dir = Path(FRAMES_DIR)
         permanent_frame_dir.mkdir(parents=True, exist_ok=True)
@@ -324,7 +299,7 @@ def run_ingest_job(
 
         job.log.append("[Stage 4] PDFs in R2; frame JSONs committed to data/frames/.")
 
-        # ── Stage 5: hot-reload retrieval service ────────────────────────────
+        # Stage 5: hot-reload retrieval service
         job.log.append("[Stage 5] Reloading retrieval service...")
         retrieval_service.reload()
         job.log.append("[Stage 5] Retrieval service reloaded.")
@@ -351,8 +326,6 @@ def run_ingest_job(
             except Exception:
                 pass
 
-
-# ── Public helpers ─────────────────────────────────────────────────────────────
 
 def create_job(filenames: List[str], clauses: Optional[List[str]]) -> IngestJob:
     job_id = str(uuid.uuid4())

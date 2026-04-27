@@ -1,0 +1,72 @@
+{
+  "frame_id": "RQ1_037-SLLR-SLLR-1985-V2-PETER-LEO-FERNANDO_055_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 31/85",
+    "case_title": "Peter Leo Fernando v. The Attorney-General and Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-07-11",
+    "source_citation": "Sri Lanka Law Reports [1985] 2 Sri L.R. 341"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the detention of the petitioner by the Magistrate without proper procedure constituted a violation of fundamental rights under Article 11 (freedom from torture or cruel, inhuman or degrading treatment or punishment).",
+    "petitioner_claim": "The petitioner claimed that his fundamental rights under Article 11 were infringed due to his unlawful detention in a court cell, which exposed him to degrading treatment.",
+    "respondent_argument": "The respondents argued that the detention was a judicial act done in good faith by the Magistrate, who enjoys immunity, and that the detention did not constitute executive or administrative action under the Constitution.",
+    "key_facts": [
+      "Petitioner was detained in a Magistrate's Court cell for about four hours on an allegation of intimidation without proper complaint or procedure.",
+      "The Magistrate ordered detention without examining the complainant or following the Code of Criminal Procedure sections 136, 139, and 142.",
+      "The complaint produced later did not support the allegation against the petitioner.",
+      "The petitioner was detained in the court cell where detainees are ordinarily kept during court sessions.",
+      "The petitioner sought relief for violation of fundamental rights including Article 11."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that judicial acts, even if unlawful or mistaken, are protected by judicial immunity and do not constitute executive or administrative action under Articles 17 and 126 of the Constitution. Therefore, such acts are not justiciable under fundamental rights claims based on executive or administrative action.",
+    "application_to_facts": "The Magistrate's order of detention was a judicial act done in good faith despite procedural errors. The detention in the court cell, though uncomfortable, was incidental to the judicial order. Hence, no violation of Article 11 was established as the detention was not executive or administrative action.",
+    "principles_established": [
+      "Judges have immunity from civil liability for acts done in their judicial capacity, even if mistaken or unlawful, provided done in good faith.",
+      "Unlawful judicial orders do not convert judicial acts into executive or administrative acts.",
+      "Relief under Articles 17 and 126 is available only against executive or administrative action, not judicial action.",
+      "Detention pursuant to a judicial order, even if unlawful, does not constitute cruel, inhuman or degrading treatment under Article 11 if it is incidental to the judicial act."
+    ],
+    "precedents_cited": [
+      "Sirros v. Moore and Others [1974] 3 All ER 776",
+      "Maharaj v. Attorney-General of Trinidad and Tobago (No. 2) [1979] AC 385",
+      "Naresh S. Murajikar v. State of Maharashtra AIR [1967] SC 1",
+      "In re Me C. (A Minor) [1984] 3 WLR 1227",
+      "Anderson v. Gorrie [1895] 1 QB 668",
+      "Fray v. Blackburn [1863] 38 & S. 576",
+      "Garnett v. Ferrand [1827] 6 B & C. 611",
+      "Miller v. Seare [1777] 2 Wm. Bl. 1141",
+      "Matthews et al v. Young [1922] AD 492",
+      "Penrice v. Dickinson [1945] AD 6"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the petitioner's claim under Article 11, holding that the detention was a judicial act protected by immunity and not an executive or administrative act subject to fundamental rights claims under Articles 17 and 126.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the petitioner's claim that his detention amounted to cruel, inhuman or degrading treatment. The Court's reasoning that judicial acts, even if unlawful, do not constitute executive or administrative action directly addresses the applicability of Article 11 in this context.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was detained in the court cell for about four hours following a judicial order by the Magistrate, who acted in good faith but without following proper procedure. The Court held that such detention, being a judicial act, does not constitute executive or administrative action under Articles 17 and 126.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 340,
+      "end_char": 3750
+    }
+  }
+}

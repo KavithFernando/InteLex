@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_010-SLLR-SLLR-1999-V-2-CHAMINDA-V.-GUNAW_011_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (SPECIAL) NO. 106/97",
+    "case_title": "Chaminda v. Gunawardena, OIC Police Station, Kataragama and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-01-28",
+    "source_citation": "[1999] 2 Sri LR."
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment in violation of Article 11 of the Constitution during his arrest and detention by police.",
+    "petitioner_claim": "The petitioner claimed he was unlawfully arrested, detained without reasonable grounds, and subjected to assault by police officers, including being slapped and having his head knocked against a wall, causing injury to his ear.",
+    "respondent_argument": "The 1st respondent denied the arrest and detention, stating there were no police records of such arrest or custody, and that the petitioner was only questioned and his statement recorded without arrest.",
+    "key_facts": [
+      "Petitioner was a messenger at Central Post Office, Kataragama.",
+      "On 20.02.1997, petitioner was taken to police station and questioned about theft.",
+      "Petitioner was slapped on left ear and head knocked against wall by police.",
+      "Petitioner detained in police cell until 10:30 am on 21.02.1997 without being produced before a Magistrate.",
+      "Medical report confirmed traumatic perforation of left tympanic membrane consistent with assault."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 11 as prohibiting torture and cruel, inhuman or degrading treatment, which includes physical assault causing injury during unlawful detention.",
+    "application_to_facts": "The court found the petitioner was unlawfully arrested and detained without reasonable grounds or proper procedure, and the medical evidence supported the claim of assault, thus constituting a violation of Article 11.",
+    "principles_established": [
+      "Unlawful arrest and detention without reasonable grounds violates fundamental rights.",
+      "Physical assault by police causing injury during detention amounts to cruel, inhuman or degrading treatment under Article 11.",
+      "Police officers have a duty to maintain proper custody records; failure to do so is a breach of duty."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner's fundamental rights under Article 11 were violated by the police assault and unlawful detention.",
+    "disposition": "granted",
+    "remedy_or_orders": "Awarded Rs. 25,000 as compensation to the petitioner, with Rs. 5,000 payable personally by the 1st respondent and the balance by the State; Rs. 5,000 costs to petitioner; payment within 3 months; judgment copy to be sent to Inspector-General of Police."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 directly addresses the prohibition of torture and cruel, inhuman or degrading treatment, which was central to the court's finding that the petitioner was assaulted and unlawfully detained, thus violating his fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was slapped on the left ear and his head knocked on a wall by police; medical report confirmed traumatic perforation of left tympanic membrane consistent with assault; petitioner detained over 18 hours without reasonable grounds or being produced before a Magistrate.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

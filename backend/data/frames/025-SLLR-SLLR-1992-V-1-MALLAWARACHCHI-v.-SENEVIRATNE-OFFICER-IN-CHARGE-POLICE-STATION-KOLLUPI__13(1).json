@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_025-SLLR-SLLR-1992-V-1-MALLAWARACHCHI-V._059_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 212/88",
+    "case_title": "Mallawarachchi v. Seneviratne, Officer-in-Charge, Police Station, Kollupitiya and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1989-08-24",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 212/88, decided on 24 August 1989"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was lawfully arrested and informed of the reason for his arrest as required by Article 13(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed he was not informed of the reason for his arrest at the time of arrest, making the arrest illegal under Article 13(1).",
+    "respondent_argument": "The respondents argued that the petitioner was informed of the reason for his arrest either at the moment of arrest or at the first reasonable opportunity, fulfilling the constitutional requirement.",
+    "key_facts": [
+      "Petitioner was arrested on 23.10.88 while pasting posters alleged to be subversive.",
+      "Petitioner was questioned about the posters and whether he had police permission.",
+      "Petitioner was detained overnight and released the next day.",
+      "Police officer testified that the petitioner was informed about the nature of the charges related to Emergency Regulations.",
+      "Court found the petitioner was informed of the reason for arrest at the moment or shortly after arrest."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) requires that a person arrested must be informed of the reason for arrest at the moment of arrest or at the first reasonable opportunity. The language need not be technical but must convey the true ground of arrest to enable the person to respond or resist if necessary.",
+    "application_to_facts": "The court found that the petitioner was informed of the reason for his arrest either at the moment of arrest or shortly thereafter at the police station, fulfilling the constitutional requirement. The questioning about police permission and the nature of the posters sufficed to inform the petitioner.",
+    "principles_established": [
+      "A person arrested must be informed of the true ground of arrest at the moment of arrest or at the first reasonable opportunity.",
+      "The right to be informed is a fundamental right under the Constitution.",
+      "The language used to inform need not be technical but must be sufficient to convey the reason.",
+      "Failure to inform may justify resistance to arrest."
+    ],
+    "precedents_cited": [
+      "Christie v. Leachinsky (1947) A.C. 573",
+      "Muttusamy v. Kannangara 52 NLR 324",
+      "Corea v. The Queen 55 NLR 457",
+      "Gunasekera v. De Fonseka 75 NLR 246",
+      "Joseph Perera v. Attorney-General S.C. Applications Nos. 107-109/86"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner was lawfully arrested and informed of the reason for his arrest in compliance with Article 13(1).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the court's determination of the legality of the arrest and whether the petitioner was properly informed of the reason for his arrest, which was a key issue in the case.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the petitioner was informed of the reason for his arrest at the moment of arrest or shortly thereafter, fulfilling the constitutional requirement under Article 13(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1700,
+      "end_char": 2300
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_022-SLLR-SLLR-1986-V-2-DISSANAYAKE-V.-UN_041_C03__14(1)(h)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_120_85",
+    "case_title": "Dissanayake v. University of Sri Jayawardenapura and Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1986-06-23",
+    "source_citation": "Sri Lanka Law Reports [1986] 2 Sri L.R. 254"
+  },
+  "clause": {
+    "article": "14(1)(h)",
+    "text": "Freedom of movement and residence."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Vice-Chancellor’s order prohibiting the petitioner from entering University premises infringed the petitioner’s fundamental right to freedom of movement under Article 14(1)(h).",
+    "petitioner_claim": "The petitioner claimed that the order making University premises out of bounds violated his right to freedom of movement as guaranteed by Article 14(1)(h).",
+    "respondent_argument": "The Vice-Chancellor argued that the restriction was a necessary disciplinary measure to maintain order and discipline within the University and was lawful under the Universities Act.",
+    "key_facts": [
+      "Petitioner was prohibited from entering University premises by the Vice-Chancellor’s order.",
+      "The order followed charges of unauthorized publication and disruption of examinations.",
+      "The Vice-Chancellor relied on statutory authority to maintain discipline.",
+      "The petitioner claimed this restriction violated his freedom of movement."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that freedom of movement under Article 14(1)(h) is subject to reasonable regulation, especially in the University context where discipline and order are essential. The Vice-Chancellor’s power to maintain discipline includes restricting access to premises to prevent disruption.",
+    "application_to_facts": "The Court found that the restriction on the petitioner’s movement within University premises was a lawful disciplinary measure justified by the need to maintain order and prevent disruption of examinations. Therefore, it did not constitute an unlawful infringement of the petitioner’s freedom of movement.",
+    "principles_established": [
+      "Freedom of movement is not absolute and may be regulated for maintaining discipline.",
+      "University disciplinary authority includes power to restrict movement on premises to prevent disruption.",
+      "Fundamental rights must be balanced against institutional needs for order."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court dismissed the petitioner’s claim that his freedom of movement was violated by the Vice-Chancellor’s order restricting his access to University premises.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(h) was materially engaged because the petitioner challenged the Vice-Chancellor’s order restricting his physical access to University premises as a violation of his freedom of movement.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that the Vice-Chancellor’s order restricting the petitioner’s access to University premises was a lawful disciplinary measure and did not unlawfully infringe the petitioner’s freedom of movement.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "frame_id": "RQ1_027-SLLR-SLLR-1998-1-WICKREMATUNGA-V.-AN_051_C02__14(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application No. F.R. 228/96",
+    "case_title": "Wickrematunga v. Anuruddha Ratwatte and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-12-17",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. F.R. 228/96, decided on 17 December 1997"
+  },
+  "clause": {
+    "article": "14(2)",
+    "text": "Certain long-term residents are entitled to these rights for ten years."
+  },
+  "case_context": {
+    "legal_issue": "Whether Article 14(2) was materially engaged in the Court's reasoning or holding regarding the petitioner's fundamental rights claim.",
+    "petitioner_claim": null,
+    "respondent_argument": null,
+    "key_facts": []
+  },
+  "reasoning": {
+    "interpretation_summary": null,
+    "application_to_facts": null,
+    "principles_established": [],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": null,
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(2) was not materially engaged or interpreted in the Court's reasoning or holding; the case focused on Article 14(1)(g) and Article 12(2).",
+    "relevance_level": "low",
+    "match_type": "mentioned_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court granted leave and proceeded on alleged violations of Articles 12(2) and 14(1)(g); Article 14(2) was not discussed or applied.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2000,
+      "end_char": 2020
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_042-SLLR-SLLR-2002-3-WIJERATNE-V.-VIJITH_067_C03__14(1)(c)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_379_93",
+    "case_title": "Wijeratne v. Vijitha Perera, Sub-Inspector of Police, Polonnaruwa and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-01-10",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 379/93, decided on 10 January 1994"
+  },
+  "clause": {
+    "article": "14(1)(c)",
+    "text": "Freedom of association."
+  },
+  "case_context": {
+    "legal_issue": "Whether the police actions infringed the petitioner’s right to freedom of association under Article 14(1)(c) by obstructing a lawful trade union activity.",
+    "petitioner_claim": "The petitioner claimed that the obstruction of the picketing campaign, a lawful activity of his trade union, infringed his freedom of association.",
+    "respondent_argument": "Respondents denied arrest and detention and claimed the petitioner was warned but could conduct peaceful picketing.",
+    "key_facts": [
+      "Petitioner was secretary of a trade union branch involved in lawful collective action.",
+      "Police seized union posters and threatened the petitioner to prevent the protest.",
+      "The planned picketing was a legitimate activity of the union.",
+      "Police actions deterred the exercise of union rights.",
+      "No lawful authority justified police interference."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 14(1)(c) protects the right to freedom of association, including lawful trade union activities. The police interference unlawfully impaired this right.",
+    "application_to_facts": "Since the picketing was a legitimate union activity, the seizure of posters and threats to suppress the protest constituted an infringement of the petitioner’s freedom of association.",
+    "principles_established": [
+      "Freedom of association includes the right to engage in lawful trade union activities.",
+      "State interference with lawful union activities without authority violates constitutional rights.",
+      "Protection of collective action is essential to democratic dissent."
+    ],
+    "precedents_cited": [
+      "Bandara v. Premachandra (1994) 1 Sri LR 331"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s right to freedom of association under Article 14(1)(c) was infringed by the unlawful police actions.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation awarded and police directed to respect fundamental rights."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(c) was central because the case involved suppression of lawful trade union activity, directly implicating freedom of association.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the obstruction of the lawful picketing campaign, a union activity, infringed the petitioner’s freedom of association under Article 14(1)(c).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

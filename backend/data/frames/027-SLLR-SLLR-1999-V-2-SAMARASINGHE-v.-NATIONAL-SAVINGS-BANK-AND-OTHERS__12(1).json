@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_027-SLLR-SLLR-1999-V-2-SAMARASINGHE-V.-N_134_C01__12(1)",
+  "created_at": "2024-06-10",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 392/96",
+    "case_title": "Samarasinghe v. National Savings Bank and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-02-27",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 392/96, decided on 27 February 1999"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the failure to consider the petitioner for appointment as Chief Legal Officer and acting Chief Legal Officer by deviating from the prevailing scheme of recruitment violated Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the Bank's decision to appoint a less qualified person who did not apply and lacked the required qualifications, instead of considering her despite her being the next most suitable candidate, was arbitrary, discriminatory, and violated her fundamental rights under Article 12(1).",
+    "respondent_argument": "The Bank argued that the post was advertised to recruit a senior experienced person from outside, and after the selected candidates declined the post, the Board decided to appoint the most senior legal officer in the Bank to act as Chief Legal Officer without advertisement, which was within their discretion.",
+    "key_facts": [
+      "The post of Chief Legal Officer was advertised twice with required qualifications including 15 years experience.",
+      "The petitioner was placed second in merit in both interviews but was not offered the post after the first-placed candidates declined.",
+      "The Board decided to appoint the most senior legal officer as acting Chief Legal Officer without advertisement.",
+      "The appointed acting Chief Legal Officer did not apply and lacked the required 15 years experience.",
+      "The petitioner claimed this deviation from the recruitment scheme violated her fundamental rights under Article 12(1)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as guaranteeing equality before the law and equal protection, which includes adherence to established recruitment schemes to prevent arbitrary and discriminatory decisions.",
+    "application_to_facts": "The court found the Board's decision to deviate from the recruitment scheme arbitrary and ad hoc, effectively bypassing the petitioner's rightful consideration despite her qualifications and merit ranking, thus violating her right to equal protection under Article 12(1).",
+    "principles_established": [
+      "Deviation from a prevailing recruitment scheme without proper justification can constitute a violation of Article 12(1).",
+      "Equal protection under the law requires fair consideration of eligible candidates according to established procedures.",
+      "Arbitrary and discriminatory appointments infringe fundamental rights guaranteed by the Constitution."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner's fundamental rights under Article 12(1) were infringed by the failure to consider her for appointment and quashed the appointment of the acting Chief Legal Officer made in violation of the recruitment scheme. The Bank was directed to call for applications in accordance with the scheme and to pay compensation to the petitioner.",
+    "disposition": "granted",
+    "remedy_or_orders": "Quash the appointment of the acting Chief Legal Officer; direct the Bank to call for applications according to the recruitment scheme within one month; order payment of Rs. 100,000 compensation and Rs. 20,000 costs to the petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects against arbitrary and discriminatory treatment by ensuring equality before the law and equal protection, which the Bank violated by ignoring the recruitment scheme and the petitioner's merit.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found the Board's decision to deviate from the prevailing scheme of recruitment was ad hoc and arbitrary, and the appointment of the 6th respondent who lacked required qualifications was bad in law, violating the petitioner's fundamental rights under Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_019-SLLR-SLLR-2000-V-1-SUMANASIRI-V.-UNI_102_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_739_98",
+    "case_title": "Sumanasiri v. University of Peradeniya and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-02-10",
+    "source_citation": "Sri Lanka Law Reports 2000 1 Sri LR 214"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the appointment of the 23rd respondent as Registrar despite an unresolved allegation of making a false statement violated the petitioner's fundamental right under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that the appointment was arbitrary, unreasonable, and violated his right to equality and equal protection under the law because the 23rd respondent had made a false statement about his qualifications and the Council appointed him despite a pending inquiry.",
+    "respondent_argument": "The respondents did not deny the facts regarding the false claim of qualifications but did not provide evidence to refute the allegation; no substantive argument was recorded disputing the petitioner's fundamental rights claim.",
+    "key_facts": [
+      "The 23rd respondent applied for the post of Bursar claiming a Postgraduate Diploma in Statistics which he could not prove.",
+      "He made a declaration that false particulars would lead to disqualification or dismissal.",
+      "The University Council appointed the 23rd respondent as Registrar despite a pending inquiry into the false statement allegation.",
+      "The Auditor-General and Minister of Education initiated an investigation which was not completed before the appointment.",
+      "The petitioner was also a candidate and alleged unfairness and violation of his fundamental rights."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equality before the law and equal protection, which includes fair and reasonable administrative decisions affecting fundamental rights. The Council's decision to appoint the 23rd respondent despite a serious unresolved allegation was arbitrary and unreasonable, violating the petitioner's right to equality.",
+    "application_to_facts": "The court found that the Council ignored the pending inquiry into the 23rd respondent's false claim, which was a matter of moral turpitude affecting his suitability. The Council should have deferred the appointment until the inquiry was resolved. This failure constituted a violation of the petitioner's fundamental right under Article 12(1).",
+    "principles_established": [
+      "Administrative decisions affecting fundamental rights must be reasonable and not arbitrary.",
+      "Equality before the law includes protection against unfair appointments where serious allegations remain unresolved.",
+      "Pending serious allegations that could disqualify a candidate must be resolved before appointment."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court quashed the appointment decision as a violation of Article 12(1) and ordered the post to be re-advertised for a fresh selection process. The petitioner was awarded compensation and costs.",
+    "disposition": "granted",
+    "remedy_or_orders": "The appointment decision was quashed; the post must be re-advertised; compensation of Rs 50,000 awarded to the petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects the petitioner's right to equality and equal protection under the law, which was infringed by the arbitrary appointment of a candidate with unresolved allegations of falsehood.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found the Council's decision to appoint the 23rd respondent despite a pending inquiry into his false claim of qualifications was arbitrary, unreasonable, and violated the petitioner's fundamental right under Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

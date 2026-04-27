@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1978-79-80-V1-WICKRAMANATA_020_C01__16(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPEAL NO. 58/79",
+    "case_title": "Wickramanayaka v. The State",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1979-09-24",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Appeal No. 58/79, decided on 24 September 1979"
+  },
+  "clause": {
+    "article": "16(2)",
+    "text": "Punishments under existing law are not violations."
+  },
+  "case_context": {
+    "legal_issue": "Whether the mandatory punishments in Clause 4(2) of the Bill, including forfeiture of property and removal from professional registers, violate Article 11's prohibition on cruel, inhuman or degrading treatment or punishment, or are saved by Article 16(2).",
+    "petitioner_claim": "The petitioner argued that Clause 4(2) imposes excessive and cruel punishments indiscriminately, violating Article 11's protections against cruel, inhuman or degrading treatment or punishment.",
+    "respondent_argument": "The State contended that the punishments are recognized forms of punishment under existing law and their imposition by a competent court removes them from the scope of Article 11 under Article 16(2).",
+    "key_facts": [
+      "Clause 4(2) mandates imprisonment, fines, forfeiture of all property, and removal from professional registers upon conviction.",
+      "The punishments are mandatory and apply indiscriminately regardless of the offender's culpability or the nature of the offence.",
+      "Article 11 prohibits cruel, inhuman or degrading treatment or punishment.",
+      "Article 16(2) exempts punishments under existing law from being violations of Article 11."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 16(2) does not exempt punishments that amount to inhuman treatment or excessive punishment. The mandatory piling of punishments in Clause 4(2), including forfeiture of property and removal from professional registers, constitutes excessive and cruel punishment violating Article 11.",
+    "application_to_facts": "The Court found that the mandatory nature and indiscriminate application of multiple punishments in Clause 4(2) go beyond mere excessiveness and amount to inhuman treatment. Therefore, Clause 4(2) is inconsistent with Article 11 despite Article 16(2).",
+    "principles_established": [
+      "Article 16(2) does not protect punishments that are cruel, inhuman or degrading even if recognized by existing law.",
+      "Mandatory and indiscriminate piling of punishments can amount to inhuman treatment violating Article 11.",
+      "Courts should have discretion to impose additional punishments based on culpability and seriousness of the offence."
+    ],
+    "precedents_cited": [
+      "Trop v. Dulles 356 U.S. 86",
+      "Robinson v. California 370 U.S. 660"
+    ]
+  },
+  "outcome": {
+    "holding": "Clause 4(2) of the Bill is inconsistent with Article 11 and must be amended to make the additional punishments discretionary rather than mandatory.",
+    "disposition": "granted",
+    "remedy_or_orders": "Clause 4(2) should be amended to allow courts discretion to impose forfeiture and removal from registers in fit cases based on culpability."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 16(2) was argued by the State to shield the punishments from Article 11 scrutiny, but the Court found that the protections against cruel and inhuman punishment in Article 11 override this exemption when punishments are excessive and mandatory as in Clause 4(2).",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The piling of punishment on punishment indiscriminately, whether old or new, amounts to excessive punishment and savours of cruelty. Clause 4(2) is inconsistent with Article 11. The mandatory nature of forfeiture and removal from registers must be left to court discretion.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3080,
+      "end_char": 3150
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_015-SLLR-SLLR-1990-V-1-SHAUL-HAMEED-AND-_075_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 78/87",
+    "case_title": "Shaul Hameed and Another v. Ranasinghe and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1989-06-20",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 78/87, decided on 20 June 1989"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Police violated the petitioners' fundamental rights under Article 12(1) by discriminating and denying them equal protection of the law in a land possession dispute.",
+    "petitioner_claim": "The petitioners claimed that the Police persistently supported the 5th Respondent in the land dispute, acted mala fide, assisted the 5th Respondent to erect a fence on disputed land, were prompt in taking action against the petitioners but tardy in acting on their complaints, thereby denying them equal protection of the law under Article 12(1).",
+    "respondent_argument": "The Police and 5th Respondent argued that their actions were bona fide, that the Police were performing their duties to maintain peace, and that any errors were mistakes of judgment rather than deliberate discrimination.",
+    "key_facts": [
+      "The land dispute involved possession of a plot originally set apart for wells by Gracian Wijesuriya.",
+      "The 5th Respondent had a deed of gift to the land but with a condition disclaiming possession.",
+      "Police officers were present and assisted the 5th Respondent in erecting a fence on 6.6.87.",
+      "Petitioners were victims of assault, robbery, and damage to their house but Police were slow to act on their complaints.",
+      "Police took prompt action against petitioners in criminal cases related to the dispute."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) guarantees equal protection of the law and prohibits deliberate discrimination by state actors. The Police have a duty to act impartially and protect all parties equally. Discrimination must be deliberate to constitute a breach. The Police exceeded their authority by assisting one party in a civil dispute and failing to act promptly on the petitioners' complaints, thus denying equal protection.",
+    "application_to_facts": "The evidence showed repeated, deliberate, and unequal treatment by the Police favoring the 5th Respondent, including assisting in erecting a fence and prosecuting the petitioners while neglecting their complaints. This conduct was mala fide and aggravated the dispute, violating Article 12(1). The 1st and 6th respondents were not found liable due to lack of evidence of discrimination.",
+    "principles_established": [
+      "Equal protection under Article 12(1) requires non-discriminatory and impartial action by state authorities.",
+      "Police authority to intervene in property disputes is limited and does not extend to assisting recovery of possession in civil disputes.",
+      "Deliberate and repeated discrimination by Police constitutes a breach of fundamental rights under Article 12(1).",
+      "Errors of judgment or isolated mistakes do not amount to a breach unless deliberate discrimination is shown.",
+      "The Court has wide powers to grant relief for violations of fundamental rights."
+    ],
+    "precedents_cited": [
+      "Katunayakege Demesius Perera v. Premadasa",
+      "Gunatilleke v. Attorney-General",
+      "Velumurugu v. The Attorney-General",
+      "Goonewardena v. Perera",
+      "Kapugeekiyana v. Hettiarachchi"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the 2nd, 3rd, and 4th respondents and the State violated the petitioners' rights under Article 12(1) by deliberate discrimination and denied them equal protection of the law. The application was upheld against these respondents. The application was dismissed against the 1st, 5th, and 6th respondents.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioners were awarded Rs. 5,000 as compensation and Rs. 1,050 as costs jointly and severally from the 2nd and 4th respondents and the State."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) is central to the Court's reasoning as the petitioners alleged denial of equal protection by the Police in a land dispute. The Court's finding of deliberate discrimination by Police officers directly implicates this clause, leading to the holding and remedy.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Police were prompt in taking action against the petitioners but tardy in acting on their complaints, assisted the 5th Respondent to erect a fence on disputed land, and misreported facts to the Magistrate favoring the 5th Respondent, demonstrating deliberate and repeated discrimination.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_027-SLLR-SLLR-1992-V-1-JOSEPH-PERERA-ALI_026_C03__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. 107/86",
+    "case_title": "Joseph Perera Alias Bruten Perera v. The Attorney-General and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1987-05-25",
+    "source_citation": "Sri Lanka Law Reports [1992] 1 SriL.R."
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners were entitled to apply to the Supreme Court for relief for alleged violations of their fundamental rights including unlawful arrest, detention, and restrictions on freedom of speech.",
+    "petitioner_claim": "The petitioners filed applications under Article 126 (now Article 17) alleging violations of their fundamental rights guaranteed by Articles 12(2), 13(1), and 14(1) including freedom from arbitrary arrest and detention and freedom of speech and expression.",
+    "respondent_argument": "The respondents justified the arrest and detention under Emergency Regulations and argued the restrictions were lawful under the Constitution.",
+    "key_facts": [
+      "Petitioners arrested and detained under Emergency Regulations.",
+      "Petitioners claimed violations of fundamental rights.",
+      "Applications filed to Supreme Court under constitutional provisions.",
+      "Court constituted a five-judge bench due to constitutional importance.",
+      "Court examined legality of arrest, detention, and validity of Emergency Regulations."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court recognized the right of any person to apply to the Supreme Court for enforcement of fundamental rights violations. It exercised its jurisdiction to examine the legality of the arrest, detention, and restrictions on freedom of speech and expression. The court found violations of fundamental rights and granted relief accordingly.",
+    "application_to_facts": "The petitioners' applications were properly entertained under Article 17. The court found that the arrest was lawful but the detention beyond the investigation period was unlawful. The court also found the Emergency Regulation 28(1) invalid and awarded compensation and costs to the petitioners.",
+    "principles_established": [
+      "Right to apply to Supreme Court for fundamental rights violations is guaranteed.",
+      "Court has jurisdiction to review executive actions including Emergency Regulations.",
+      "Relief can be granted for unlawful detention and unconstitutional restrictions."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court allowed the applications, declared certain actions unlawful, and awarded compensation and costs to the petitioners for violations of their fundamental rights.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation and costs awarded to petitioners; declaration of invalidity of Regulation 28(1)."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 provides the constitutional basis for the petitioners to seek judicial redress for alleged violations of fundamental rights, enabling the Supreme Court to adjudicate and grant relief.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioners filed applications under Article 126 (now Article 17) alleging violations of fundamental rights, and the Supreme Court exercised jurisdiction to hear and decide the matter, granting relief for unlawful detention and invalid restrictions.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

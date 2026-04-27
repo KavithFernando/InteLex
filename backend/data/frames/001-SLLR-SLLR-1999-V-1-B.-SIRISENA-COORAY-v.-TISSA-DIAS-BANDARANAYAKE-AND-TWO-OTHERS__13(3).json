@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_001-SLLR-SLLR-1999-V-1-B.-SIRISENA-COORA_003_C01__13(3)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_SPECIAL_WRIT_1_98",
+    "case_title": "B. Sirisena Cooray v. Tissa Dias Bandaranayake and Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-02-05",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Special (Writ) No. 1/98, decided on 5 February 1999"
+  },
+  "clause": {
+    "article": "13(3)",
+    "text": "Any accused person has the right to a fair trial and legal representation."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Special Presidential Commission of Inquiry had the jurisdiction and complied with the constitutional right to a fair trial and legal representation when it determined the petitioner guilty of contempt and made adverse findings against him without permitting legal representation.",
+    "petitioner_claim": "The petitioner argued that the commission's findings and determinations were made in excess of jurisdiction, without credible evidence, and without permitting him the right of legal representation, contrary to principles of natural justice and section 16 of the SPCI Law, thus violating his right to a fair trial and legal representation under Article 13(3).",
+    "respondent_argument": "The respondents contended that the commission's report was final and not amenable to judicial review, and that the petitioner had delayed in making the application. They also argued that the commission had power to make such determinations and that legal representation was not necessary.",
+    "key_facts": [
+      "The petitioner was informed by the commission that he was entitled to legal representation but was not summoned to appear.",
+      "The petitioner was abroad when notices were sent and did not appear before the commission.",
+      "The commission refused to allow the petitioner's lawyers to appear on his behalf, stating lawyers had no standing as the petitioner failed to appear.",
+      "The commission purported to convict the petitioner of contempt and disqualified him from being elected to Parliament.",
+      "The Supreme Court held that the commission had no power to convict and that the petitioner was denied the right to legal representation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the commission's power to convict a person of an offence is vested exclusively with the regular courts under Article 13(3) of the Constitution, which guarantees the right to a fair trial and legal representation. The commission's refusal to allow legal representation and its purported conviction of the petitioner violated this constitutional right.",
+    "application_to_facts": "The commission denied the petitioner legal representation despite the petitioner being entitled to it under section 16 of the SPCI Law and Article 13(3). The commission's summons and warrant were flawed, and the commission acted beyond its jurisdiction by convicting the petitioner of contempt without a fair trial or legal representation.",
+    "principles_established": [
+      "A commission of inquiry cannot convict a person of an offence; that power lies exclusively with the courts.",
+      "The right to legal representation is a fundamental constitutional right under Article 13(3).",
+      "Denial of legal representation and a fair hearing breaches principles of natural justice.",
+      "Judicial review is available to ensure commissions act within their jurisdiction and respect constitutional rights."
+    ],
+    "precedents_cited": [
+      "Premachandra v. Major Montague Jayawickrema",
+      "Re U. N. Wijetunga",
+      "Bandaranaike v. Weeraratne and two others"
+    ]
+  },
+  "outcome": {
+    "holding": "The Supreme Court quashed the commission's determination that the petitioner was guilty of contempt and disqualified from Parliament, holding that the commission acted beyond its jurisdiction and violated the petitioner's constitutional right to a fair trial and legal representation.",
+    "disposition": "granted",
+    "remedy_or_orders": "Writ of certiorari issued setting aside the commission's determination and findings related to contempt and disqualification."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(3) is central because the commission purported to convict the petitioner of contempt without allowing legal representation, directly violating the constitutional right to a fair trial and legal representation, which the Supreme Court enforced by quashing the commission's findings.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The commission refused to allow the petitioner's lawyers to appear on his behalf, stating lawyers had no standing as the petitioner failed to appear. The commission purported to convict the petitioner of contempt and disqualified him from being elected to Parliament, but the Supreme Court held that the commission had no power to convict and that the petitioner was denied the right to legal representation.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

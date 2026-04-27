@@ -1,0 +1,81 @@
+{
+  "frame_id": "RQ1_033-SLLR-SLLR-2009-V-1-AZATH-SALLEY-VS.-_165_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (F.R.) Application: 252/2007",
+    "case_title": "Azath Salley Vs Colombo Municipal Council And Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2009-03-04",
+    "source_citation": "Sri Lanka Law Reports [2009] 1 SRILR 365"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the failure of the respondents to remove unauthorized hoardings and granting approval for hoardings in violation of by-laws and guidelines infringed the fundamental rights guaranteed under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the respondents' failure to remove unauthorized hoardings and granting purported approvals violated the fundamental rights of the petitioner and residents of Colombo Municipal Council area under Article 12(1). The petitioner also claimed that the arbitrary and non-transparent approval process caused loss of revenue and public nuisance.",
+    "respondent_argument": "The respondents contended that the applicable by-laws were those from 1949 and 1989 Gazette Notification, not the newer guidelines which were suspended. They argued the guidelines lacked legal sanctity and that the petitioner lacked locus standi. They also claimed the by-laws were archaic and needed revision.",
+    "key_facts": [
+      "The petitioner is a former Deputy Mayor and rate payer of Colombo Municipal Council.",
+      "Numerous unauthorized hoardings were erected and approvals granted contrary to by-laws and guidelines.",
+      "The 3rd respondent suspended the application of the guidelines without reference to the by-laws.",
+      "The petitioner filed a fundamental rights application alleging infringement under Article 12(1).",
+      "The Court had previously allowed use of guidelines to remove hoardings but the guidelines were later suspended."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) guarantees equality before the law and equal protection, forbidding arbitrariness and unfairness. The Court emphasized that public authorities must act within legal limits and not arbitrarily. The failure to enforce by-laws and guidelines and the arbitrary suspension of guidelines without proper authority violated the rule of law and equality under Article 12(1).",
+    "application_to_facts": "The Court found that the respondents' failure to remove unauthorized hoardings and granting approvals without regard to applicable by-laws and guidelines constituted arbitrary and unlawful executive and administrative action infringing the fundamental rights of the petitioner and residents. The suspension of guidelines without proper authority led to loss of revenue, public nuisance, and disregard for public safety and aesthetics, violating Article 12(1).",
+    "principles_established": [
+      "Equality under Article 12(1) forbids arbitrariness and requires equal protection of the law.",
+      "Public authorities must exercise discretion reasonably, guided by law and relevant considerations.",
+      "The doctrine of public trust requires state organs to protect public property and resources.",
+      "Suspension of guidelines without authority and failure to enforce by-laws is unlawful and violates fundamental rights.",
+      "Locus standi in fundamental rights cases can be broadly interpreted to allow public interest litigation."
+    ],
+    "precedents_cited": [
+      "E. P. Royappa v. State of Tamil Nadu",
+      "Bandhua Mukti Morcha v. Union of India",
+      "Maharajah Singh v. Uttar Pradesh",
+      "S. P. Gupta v. Union of India",
+      "People’s Union for Democratic Rights v. Union of India",
+      "R v. Inland Revenue Commissioners ex-parte National Federation of Self Employment and Small Business Ltd.",
+      "R v. Greater London Council ex-parte Blackburn",
+      "R v. Secretary of State for Foreign and Commonwealth Affairs Ex-parte Rees-Mogg",
+      "Somawathie v. Weerasinghe and others",
+      "Bulankulama and others v. Secretary, Ministry of Industrial Development and others",
+      "Sriyani Silva v. Chanaka Iddamalgoda and others",
+      "Yabbicom v. King",
+      "Westminister Corporation v. London & North Western Railway",
+      "Breen v. Amalgamated Engineering Union",
+      "Padfield v. Minister of Agriculture, Fisheries and Food",
+      "Saghir Ahmad v. The State of Uttar Pradesh",
+      "C.S.S. Motor Services v. State of Madras",
+      "Links Advertisers and Business Promoters v. Commissioner, Corporation of City of Bangalore"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the failure of the respondents to remove unauthorized hoardings and granting approvals in violation of by-laws and guidelines infringed the fundamental rights guaranteed under Article 12(1). The application was allowed.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 1st respondent is directed to strictly enforce the by-laws published in Gazette Notification dated 20.01.1989 and the guidelines effective from 01.01.2006 until amended by-laws and guidelines are introduced.\nRemove all unauthorized/illegal hoardings and those approved in violation of by-laws and guidelines.\nRevise the present guidelines urgently considering global best practices and proposals from the Outdoor Advertising Association of Sri Lanka, to be effective from 01.01.2010."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it guarantees equality before the law and equal protection, which was violated by the arbitrary and unlawful actions of the respondents in failing to enforce by-laws and suspending guidelines without authority.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the failure to remove unauthorized hoardings and granting approval without due consideration to by-laws and guidelines constituted an infringement of fundamental rights under Article 12(1). The suspension of guidelines by the 3rd respondent without authority was unlawful and arbitrary.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

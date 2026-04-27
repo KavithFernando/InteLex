@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_025-SLLR-SLLR-2006-V-1-NANDASENA-VS.-CHA_040_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC (SPL) APPLICATION No. 12/2004",
+    "case_title": "Nandasena vs Chandradasa, O. I. C., Police Station, Hiniduma and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2005-10-14",
+    "source_citation": "Supreme Court of Sri Lanka, SC (SPL) Application No. 12/2004, decided on 14 October 2005"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment in violation of Article 11 of the Constitution during his arrest and detention.",
+    "petitioner_claim": "The petitioner alleged that the 1st respondent assaulted him on the face near his boutique and that this constituted a violation of his fundamental rights under Article 11.",
+    "respondent_argument": "The 1st respondent denied the assault and stated the arrest was lawful due to the petitioner causing a public nuisance and breach of the peace. There was no medical evidence of injury.",
+    "key_facts": [
+      "Petitioner was arrested on 02.09.2003 near his boutique by the 1st respondent.",
+      "Petitioner alleged assault on his face by the 1st respondent at the time of arrest.",
+      "No medical evidence was produced to substantiate the assault claim.",
+      "Petitioner’s affidavits and complaint statements were contradictory and delayed.",
+      "The 1st respondent acted on information about unauthorized construction causing public unrest."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 11 protects individuals from torture and cruel, inhuman or degrading treatment, but the petitioner must prove such infringement with a high degree of certainty, supported by medical or independent evidence.",
+    "application_to_facts": "The petitioner failed to produce medical evidence or consistent affidavits to substantiate the assault claim. The court accepted the 1st respondent’s version that the arrest was lawful and no torture or cruel treatment occurred.",
+    "principles_established": [
+      "Burden of proof for Article 11 violations requires a high degree of certainty.",
+      "Medical evidence or independent affidavits are essential to substantiate claims of torture or cruel treatment.",
+      "An arrest made to prevent a breach of the peace under lawful procedure does not violate Article 11."
+    ],
+    "precedents_cited": [
+      "Channa Peiris vs. Attorney-General and Others (1994) 1 Sri LR 1"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner failed to prove that his fundamental rights under Article 11 were violated and dismissed the application.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the petitioner’s claim of assault and cruel treatment during arrest. The court’s reasoning focused on whether the petitioner was subjected to torture or cruel treatment, making this clause dispositive.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner alleged assault on his face by the 1st respondent but failed to produce medical evidence or consistent affidavits. The court accepted the 1st respondent’s version that the arrest was lawful and no torture or cruel treatment occurred.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

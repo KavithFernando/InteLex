@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_028-SLLR-SLLR-1997-V-1-ATAPATTU-AND-OTHE_028_C01__16(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPEAL_20_96_AND_76_96",
+    "case_title": "Atapattu and Others v. People's Bank and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-09-23",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Appeal Nos. 20/96 and 76/96, decided on 23 September 1996"
+  },
+  "clause": {
+    "article": "16(1)",
+    "text": "Existing laws remain valid even if inconsistent with fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the ouster clause in section 71(3) of the Finance Act, which bars judicial review of the Bank's decisions, remains operative despite constitutional provisions conferring writ jurisdiction.",
+    "petitioner_claim": "The appellants argued that the ouster clause cannot prevent judicial review under Article 140 of the Constitution, which grants the Court of Appeal writ jurisdiction.",
+    "respondent_argument": "The respondents contended that the ouster clause in section 71(3) is a pre-Constitution law that excludes the Court of Appeal's jurisdiction to review the Bank's decisions, including refusal of substitution.",
+    "key_facts": [
+      "Section 71(3) of the Finance Act states that the Bank's determinations are final and not subject to court review.",
+      "Article 140 of the Constitution confers writ jurisdiction on the Court of Appeal.",
+      "Article 168(1) preserves pre-Constitution laws unless expressly overridden by the Constitution.",
+      "The Court considered precedents including Wickremabandu v. Herath and Shanmugam v. Commissioner for Registration."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that constitutional provisions granting writ jurisdiction (Article 140) constitute express provisions that override the ouster clause in section 71(3). The phrase 'subject to the provisions of the Constitution' in Article 140 means that the Court of Appeal's jurisdiction is not limited by pre-Constitution ouster clauses. The ouster clause only protects final decisions on acquisition, not preliminary matters like substitution.",
+    "application_to_facts": "The Court found that the Bank's refusal to allow substitution was a preliminary matter distinct from the final acquisition decision and thus not protected by the ouster clause. Therefore, the Court of Appeal has jurisdiction to review such decisions under Article 140.",
+    "principles_established": [
+      "Constitutional writ jurisdiction overrides pre-Constitution ouster clauses unless expressly limited.",
+      "Ouster clauses do not extend to preliminary or incidental matters distinct from final decisions.",
+      "The presumption favors jurisdiction that protects the rule of law over ouster clauses."
+    ],
+    "precedents_cited": [
+      "Wickremabandu v. Herath",
+      "Shanmugam v. Commissioner for Registration of Indian and Pakistani Residents",
+      "Jailabdeen v. Danina Umma"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the ouster clause in section 71(3) does not bar judicial review of the Bank's refusal of substitution and that the Court of Appeal has jurisdiction under Article 140 to review such decisions.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Court quashed the Bank's orders refusing substitution and directed the Bank to consider substitution applications with notice to the specified heirs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 16(1) was considered in relation to the ouster clause's validity, but the Court found that constitutional writ jurisdiction provisions override such ouster clauses, making Article 16(1) relevant to understanding the supremacy of constitutional provisions over inconsistent laws.",
+    "relevance_level": "medium",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that while Article 16(1) deals with inconsistency with fundamental rights and is inapplicable here, Article 140's broad jurisdiction overrides the ouster clause in section 71(3), which only protects final acquisition decisions and not preliminary matters like substitution.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2200,
+      "end_char": 2350
+    }
+  }
+}

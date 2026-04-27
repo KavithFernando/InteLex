@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_005-SLLR-SLLR-1999-V-1-SUNIL-SRILANKA-AN_026_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_283-295_97",
+    "case_title": "Sunil Sirilanka and Others v. Ceylon Steel Corporation Ltd. and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-06-04",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application Nos. 283-295/97, decided on 4 June 1998"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the failure to offer compensation to certain employees who did not opt to retire before the deadline constituted discrimination violating Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that by not offering them compensation on the same basis as 728 other employees who opted to retire before the deadline, their fundamental rights under Article 12(1) were infringed.",
+    "respondent_argument": "The respondents contended that the petitioners were not entitled to compensation because they failed to apply before the stipulated deadline of 6 January 1997, and that the final compensation package was binding as a negotiated settlement.",
+    "key_facts": [
+      "The Government sold 90% shares of Ceylon Steel Corporation Ltd. to a foreign company.",
+      "A compensation package was offered to employees unwilling to serve under new management.",
+      "728 employees accepted compensation by the deadline and were paid accordingly.",
+      "The petitioners did not apply by the deadline and were not offered compensation.",
+      "The petitioners claimed discrimination under Article 12(1) for not receiving the same compensation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equal treatment and protection under the law, and that denying compensation to employees similarly situated, solely because they missed a deadline for a different offer, was discriminatory and irrational.",
+    "application_to_facts": "The court found that the petitioners were not given a fair opportunity to opt for the compensation package and that the final package was substantially different and more favorable than the earlier offers. Therefore, refusing them compensation on the basis of missing the earlier deadline was unjustified and violated their right to equal protection.",
+    "principles_established": [
+      "Equal protection under Article 12(1) prohibits arbitrary discrimination in benefits conferred by the State.",
+      "A failure to provide a fair opportunity to exercise rights can constitute discrimination.",
+      "A negotiated settlement or intervention by a Commissioner of Labour does not justify discrimination violating fundamental rights.",
+      "Differentiation based on acceptance of an earlier offer is not a rational basis for denying a subsequent, more favorable offer."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the 2nd respondent, acting on behalf of the State, infringed the petitioners' fundamental rights under Article 12(1) by failing to offer them compensation on the same basis as other employees.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was directed to pay each petitioner compensation according to the package set out in the 3rd respondent's letter dated 11 February 1997, with interest and costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects against unequal treatment by the State. The denial of compensation to the petitioners, while granting it to similarly situated employees, was found to violate this constitutional guarantee.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the petitioners were not given the opportunity to exercise the option to retire before the deadline and that refusing them compensation on that basis was discriminatory and violated Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

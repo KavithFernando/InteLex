@@ -1,0 +1,58 @@
+{
+  "frame_id": "RQ1_019-SLLR-SLLR-2006-V-3-FERNANDO-AND-OTHE_105_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_274_2004",
+    "case_title": "Fernando and Others vs. Associated Newspapers of Ceylon Ltd. and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2005-02-24",
+    "source_citation": "Sri Lanka Law Reports (2006) 3 Sri L R 141"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners were discriminated against on prohibited grounds in violation of Article 12(2) by their termination.",
+    "petitioner_claim": "Petitioners referenced Article 12(2) in their prayers but did not specifically allege discrimination on any prohibited ground.",
+    "respondent_argument": "Respondents denied any discriminatory treatment and argued the termination was lawful and non-discriminatory.",
+    "key_facts": [
+      "Petitioners were contract employees terminated after fixed terms.",
+      "Petitioners did not specifically allege discrimination based on race, religion, language, caste, sex, political opinion, or place of birth.",
+      "Respondents showed petitioners were nominated by a Minister and some were from the Minister's electoral district.",
+      "No evidence was presented of differential treatment on prohibited grounds."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court noted that Article 12(2) prohibits discrimination on specified grounds. However, the petitioners did not allege or prove any such discrimination. Mere termination of contract without evidence of discriminatory intent or effect does not violate Article 12(2).",
+    "application_to_facts": "Since the petitioners failed to show they were singled out or treated differently on any prohibited ground, their claim under Article 12(2) was not substantiated. The court granted leave only for Article 12(1) and did not proceed on Article 12(2).",
+    "principles_established": [
+      "Claims under Article 12(2) require proof of discrimination on specified grounds.",
+      "Absence of specific allegations or evidence of discrimination precludes relief under Article 12(2)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court did not grant leave to proceed on Article 12(2) as there was no substantive claim or proof of discrimination. The claim was effectively dismissed.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was mentioned in the petition but was not materially engaged by the court due to lack of specific allegations or proof of discrimination. The court's reasoning focused on the absence of such evidence.",
+    "relevance_level": "low",
+    "match_type": "mentioned_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "Although there is reference in prayer (b) to Article 12(2), there is no specific allegation that the petitioners were singled out for discriminatory treatment due to political reasons. Leave to proceed was granted only for Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

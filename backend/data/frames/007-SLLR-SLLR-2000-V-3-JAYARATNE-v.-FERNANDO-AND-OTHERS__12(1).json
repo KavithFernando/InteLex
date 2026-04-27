@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_007-SLLR-SLLR-2000-V-3-JAYARATNE-V.-FERN_039_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_333_98",
+    "case_title": "Jayaratne v. Fernando and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-04-27",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 333/98, decided on 27 April 2000"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the cancellation of the petitioner's allocation of government quarters without reasons, notice, or hearing infringed her fundamental rights under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that she was eligible and first on the waiting list for the quarters, that the allocation was valid, and that the summary cancellation without reasons, notice, or hearing was void and infringed her fundamental rights under Article 12(1). She also claimed the recovery of penal rent was unlawful.",
+    "respondent_argument": "Respondents argued the petitioner was ineligible due to prior occupation of other quarters for over four years, that the allocation was irregular and its cancellation lawful. They also claimed the cancellation was ordered by the Minister and that the 9th respondent had a pending appeal to the Minister.",
+    "key_facts": [
+      "The petitioner was allocated quarters on 06.11.1997 and went into occupation.",
+      "The allocation was cancelled the next day without reasons, notice, or hearing, purportedly on Ministerial orders.",
+      "No written Ministerial order for cancellation was produced; evidence of such order was contradictory and unsubstantiated.",
+      "The petitioner was charged penal rent from 11.11.1997 and served a quit notice on 31.03.1998.",
+      "Multiple reports and committees reaffirmed the petitioner's eligibility and allocation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equality before the law and equal protection, which includes fair treatment in administrative decisions affecting rights. The absence of written Ministerial orders and failure to provide reasons, notice, or hearing violated these principles. Ministerial orders affecting vested rights must be documented to ensure accountability and fairness.",
+    "application_to_facts": "The court found no satisfactory evidence of a valid Ministerial order cancelling the allocation. The cancellation was arbitrary, without due process, and thus violated the petitioner's right to equal protection under the law. The petitioner was lawfully allocated the quarters and entitled to continue occupation without penal rent deductions.",
+    "principles_established": [
+      "Ministerial orders affecting rights must be in writing or contemporaneously recorded.",
+      "Allocating Authority's decisions cannot be overridden by unrecorded Ministerial orders.",
+      "Cancellation of allocation without notice, reasons, or hearing violates Article 12(1).",
+      "Eligibility criteria and procedural fairness must be respected in government quarters allocation."
+    ],
+    "precedents_cited": [
+      "Mallows v. Commissioner of Income Tax (1962) 66 NLR 321"
+    ]
+  },
+  "outcome": {
+    "holding": "The court declared that the petitioner's fundamental right under Article 12(1) was infringed by the cancellation of her allocation. The cancellation, penal rent charges, and quit notice were quashed. The original allocation was upheld and the petitioner was entitled to continue occupation and refund of penal rent.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of infringement of fundamental rights; quashing of cancellation order, penal rent charges, and quit notice; refund of penal rent deducted; compensation of Rs. 100,000 payable by the State; personal costs payable by 3rd and 5th respondents."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects the petitioner against arbitrary and unequal treatment by the state in the allocation and cancellation of government quarters, ensuring due process and fairness.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found no satisfactory evidence that the Minister gave a written order for cancellation; the cancellation was without reasons, notice, or hearing, violating the petitioner's rights under Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

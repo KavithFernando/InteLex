@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_010-SLLR-SLLR-1999-V-2-CHAMINDA-V.-GUNAW_022_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (SPECIAL) NO. 106/97",
+    "case_title": "Chaminda v. Gunawardena, OIC Police Station, Kataragama and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-01-28",
+    "source_citation": "[1999] 2 Sri LR."
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was arrested according to law and informed of the reason, as required by Article 13(1).",
+    "petitioner_claim": "The petitioner claimed he was arrested without reasonable grounds, was not informed of the reason for arrest, and was subjected to assault while in custody, violating Article 13(1).",
+    "respondent_argument": "The 1st respondent denied the arrest and detention, stating no entries were made regarding arrest or discharge and that the petitioner was only questioned and his statement recorded.",
+    "key_facts": [
+      "Petitioner was taken to the police station on 20.02.1997 and questioned about a theft.",
+      "Petitioner was assaulted by the 2nd respondent during questioning.",
+      "Petitioner was detained in police custody until 10:30 am on 21.02.1997 without formal arrest records.",
+      "No criminal proceedings were instituted against the petitioner.",
+      "Petitioner was not informed of the reason for arrest nor produced before a Magistrate."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) requires that no person be arrested except according to law and that the person must be informed of the reason for arrest. The absence of proper arrest procedure and failure to inform the petitioner violated this constitutional guarantee.",
+    "application_to_facts": "The petitioner was taken into custody without formal arrest procedure or records, was not informed of the reason for arrest, and was detained unlawfully. The court accepted the petitioner’s version supported by an independent affidavit and medical evidence, concluding the arrest was unlawful under Article 13(1).",
+    "principles_established": [
+      "Arrest must be carried out according to the procedure laid down in law.",
+      "The arrested person must be informed of the reason for arrest.",
+      "Failure to maintain proper records of arrest violates constitutional rights."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s rights under Article 13(1) were violated due to unlawful arrest without informing the petitioner of the reason.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation awarded to the petitioner; Rs. 5,000 to be paid personally by the 1st respondent and the balance by the State."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the court’s finding that the petitioner was unlawfully arrested without being informed of the reason, which was a key violation of fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was taken into custody on 20.02.1997 without formal arrest records, was not informed of the reason for arrest, and was detained until 21.02.1997. The 1st respondent failed to maintain proper records.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 80,
+      "end_char": 83
+    }
+  }
+}

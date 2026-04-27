@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-2001-V-1-DR.-MARIO-GOMEZ-V_114_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_833_99",
+    "case_title": "Dr. Mario Gomez v. University of Colombo and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2001-05-25",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. FR Application No. 833/99, decided on 25 May 2001"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the termination of the petitioner's services for failure to acquire proficiency in Sinhala/Tamil as required by Clause 8 of his appointment letter violated his fundamental rights under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that Clause 8 of his appointment letter, which required proficiency in Sinhala/Tamil and led to termination upon failure, infringed his fundamental rights including equality before the law under Article 12(1). He claimed the termination of his services violated these rights.",
+    "respondent_argument": "The respondents contended that the termination was a consequence of the petitioner's failure to comply with a lawful condition of employment (Clause 8), and that the petitioner was aware of this condition from the outset. They also argued the petition was time barred.",
+    "key_facts": [
+      "Petitioner appointed as Probationary Lecturer in Law on 3 April 1990 with Clause 8 requiring Sinhala/Tamil proficiency within one year or exemption by lecturing in those languages.",
+      "Failure to pass the proficiency test or gain exemption would result in termination without compensation.",
+      "Petitioner failed to pass the test despite extensions and avoided lecturing in Sinhala.",
+      "Termination of services effective 1 September 1999 due to failure to comply with Clause 8.",
+      "Petitioner filed fundamental rights application on 23 September 1999 claiming violation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the termination itself was not a direct infringement of fundamental rights; rather, any infringement would arise from Clause 8 of the appointment letter. Since the petitioner was aware of Clause 8 and did not challenge it within the prescribed time, the application was time barred.",
+    "application_to_facts": "The petitioner accepted the terms of Clause 8 at appointment and did not seek a declaration of its invalidity until after termination. The Court found the termination was a lawful consequence of non-compliance with Clause 8, and thus the claim was barred by delay.",
+    "principles_established": [
+      "A contractual condition known at the time of appointment cannot be challenged as infringing fundamental rights after failure to comply.",
+      "Termination pursuant to a lawful contractual clause does not itself constitute a fundamental rights violation.",
+      "Timeliness is essential in fundamental rights applications."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court dismissed the fundamental rights application as time barred and held that the termination did not itself violate Article 12(1).",
+    "disposition": "dismissed",
+    "remedy_or_orders": "Application dismissed with costs fixed at Rs. 5,000/-."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner's claim that the language proficiency requirement and consequent termination violated his right to equality before the law. The Court's reasoning focused on whether Clause 8 infringed this right and whether the claim was timely.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court noted the petitioner was aware of Clause 8 at appointment and did not challenge it until after termination, making the application time barred. The termination was a consequence of failure to comply with Clause 8, not itself a violation.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

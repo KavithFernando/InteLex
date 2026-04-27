@@ -1,0 +1,69 @@
+{
+  "frame_id": "RQ1_011-SLLR-SLLR-1992-V-1-SRI-LANKA-STATE-P_007_C01__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "CA_1194_90",
+    "case_title": "Sri Lanka State Plantations Corporation v. The President, Labour Tribunal, Galle and Others",
+    "court_name": "Court of Appeal of Sri Lanka",
+    "decision_date": "1991-07-19",
+    "source_citation": "C.A. Application 1194/90, decided on 19 July 1991"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Sri Lanka State Plantations Corporation, represented by the Attorney-General and his officers, was denied the right to be represented in the Labour Tribunal, implicating a violation of fundamental rights under Article 17.",
+    "petitioner_claim": "The petitioner argued that as a State agency established by law and controlled by the Government, it was entitled to be represented by the Attorney-General and his officers in their official capacity, and that the Labour Tribunal's order preventing such representation deprived it of the right to be heard, violating fundamental rights.",
+    "respondent_argument": "The respondent contended that the Attorney-General and his officers could only appear for the State in cases involving a 'positive state element' and that this dispute was a private employment contract not involving such an element, thus the Attorney-General should not represent the petitioner. The respondent also argued that allowing the Attorney-General to appear would violate the right to equality under Article 12(1).",
+    "key_facts": [
+      "The petitioner is a public corporation established by statute, funded and controlled by the Government.",
+      "The Attorney-General and his officers appeared for the petitioner in the Labour Tribunal.",
+      "The Labour Tribunal President upheld a preliminary objection preventing the Attorney-General's appearance, relying on prior Supreme Court decisions.",
+      "The petitioner challenged this order by writ of certiorari.",
+      "The Cabinet of Ministers had directed that legal work of public corporations be handled by the Attorney-General's Department."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the petitioner corporation is an agency of the Government, not a private institution, and thus entitled to be represented by the Attorney-General and his officers in their official capacity. The Attorney-General's right to appear is not limited to cases involving a 'positive state element' but extends to all cases involving government agencies, including private law disputes. The court rejected the Labour Tribunal's reliance on prior cases as misapplied and emphasized that any conflict of interest must be demonstrated on facts, not hypothetical assumptions.",
+    "application_to_facts": "The court found that the petitioner corporation's statutory framework, government control, and financial interest establish it as a government agency. The Attorney-General's appearance for the petitioner was lawful and did not violate equality rights. The Labour Tribunal's order denying representation was without legal basis and violated the petitioner's right to be heard, a fundamental right under Article 17.",
+    "principles_established": [
+      "Public corporations established and controlled by the government are government agencies for purposes of fundamental rights.",
+      "The Attorney-General and his officers may represent such agencies in all legal matters, including private disputes.",
+      "Restrictions on Attorney-General's appearance must be based on actual conflict of interest, not hypothetical concerns.",
+      "Denial of legal representation by the Attorney-General to a government agency violates the right to be heard under fundamental rights."
+    ],
+    "precedents_cited": [
+      "The Land Reform Commission v. Grand Central Ltd. (1981) 1 SLR 250",
+      "The Ceylon Bank Employees Union v. Yatawara, 64 NLR 49",
+      "Dahanayake v. de Silva (1978-79-80) 1 Sri LR 41",
+      "Rajaratne v. Air Lanka Ltd. (1987) 2 Sri LR 128",
+      "Amaradasa v. The Land Reform Commission, 79 NLR 505",
+      "Vettivelu v. Wijeratne, 60 NLR 44",
+      "Dharmapala v. Selliah, CA LA165/81"
+    ]
+  },
+  "outcome": {
+    "holding": "The court granted the writ of certiorari quashing the Labour Tribunal's order preventing the Attorney-General and his officers from representing the petitioner corporation, affirming the petitioner's right to legal representation and hearing.",
+    "disposition": "granted",
+    "remedy_or_orders": "Writ of Certiorari issued to quash the order of the Labour Tribunal dated 08-11-1990."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 guarantees the right to apply to the Supreme Court for violations of fundamental rights, including the right to be heard and represented. The court's decision centered on protecting the petitioner's fundamental right to legal representation, which was denied by the Labour Tribunal's order, thus directly engaging Article 17.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The order of the learned President of the Labour Tribunal that State Counsel cannot represent the Petitioner Corporation is without any legal basis and is contrary to the provisions of section 41 of the Judicature Act. It is also contrary to the principles of natural justice being an ingrained requirement in our judicial proceedings since it effectively denies a right of hearing to the Petitioner Corporation.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 7200,
+      "end_char": 7400
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1988-V-1-REDDIAR-V.-VAN-HO_037_C02__14(1)(h)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 70/87",
+    "case_title": "Reddiar v. Van Houten and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1988-03-29",
+    "source_citation": "[1988] 1 Sri LR"
+  },
+  "clause": {
+    "article": "14(1)(h)",
+    "text": "Freedom of movement and residence."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s freedom of movement and residence was infringed by the 1st respondent’s order barring him from entering the office premises.",
+    "petitioner_claim": "The petitioner claimed that the restriction on entering the office premises violated his freedom of movement and residence within Sri Lanka under Article 14(1)(h).",
+    "respondent_argument": "The respondents argued that the freedom of movement under Article 14(1)(h) relates to moving about and choosing residence anywhere in Sri Lanka and does not apply to access to office premises.",
+    "key_facts": [
+      "Petitioner was barred from entering the Board office premises without permission.",
+      "The petitioner alleged infringement of freedom of movement and residence.",
+      "The Board office is not a public place and access can be restricted.",
+      "The petitioner was on compulsory leave and had no duties to perform.",
+      "The application was filed more than one month after the order barring entry."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted freedom of movement under Article 14(1)(h) as the right to move about within Sri Lanka and choose a place of residence, not the right to enter specific office premises.",
+    "application_to_facts": "The restriction on entering the office premises did not affect the petitioner’s freedom to move or choose residence in Sri Lanka and thus did not infringe Article 14(1)(h).",
+    "principles_established": [
+      "Freedom of movement protects movement and residence within the country, not access to specific workplaces.",
+      "Restrictions on office premises access do not implicate freedom of movement under Article 14(1)(h)."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court dismissed the claim that the petitioner’s freedom of movement and residence was infringed by the order barring him from entering the office premises.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioner’s claim that his freedom of movement was infringed by the restriction on entering the office premises required the court to interpret the scope of Article 14(1)(h) and apply it to the facts.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that the freedom of movement guaranteed by Article 14(1)(h) is the freedom to move about in Sri Lanka and to choose a place of residence anywhere in Sri Lanka and has no relevance to the petitioner’s case of restricted access to office premises.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

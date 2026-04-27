@@ -1,0 +1,71 @@
+{
+  "frame_id": "RQ1_016-SLLR-SLLR-2010-V-2-AMARASINGHE-V.-SE_024_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (F/R) NO. 264/2006",
+    "case_title": "Amarasinghe v. Seneviratne and Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2010-08-06",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (F/R) NO. 264/2006, decided on 6 August 2010"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Petitioner proved the allegation of torture or cruel, inhuman or degrading treatment by the 1st Respondent in violation of Article 11 of the Constitution.",
+    "petitioner_claim": "The Petitioner alleged that he was assaulted by the 1st Respondent inside the Kurunegala Police Station on 21.06.2006, suffering severe pain, contusions, and passing blood with urine, amounting to torture or cruel, inhuman or degrading treatment under Article 11.",
+    "respondent_argument": "The 1st Respondent denied assaulting the Petitioner and produced affidavits of witnesses present at the police station to support his version. The Respondents also argued the application was time barred.",
+    "key_facts": [
+      "Petitioner was an Anesthetist and political organizer.",
+      "Petitioner was called to police station to make a statement regarding money orders.",
+      "Petitioner alleges assault by 1st Respondent causing physical injuries.",
+      "Medical evidence (Diagnosis Card) showed contusions and blood in urine.",
+      "Petitioner was remanded and later released on bail; delay in filing fundamental rights application."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 11 broadly to include protection from physical and emotional harm, extending beyond physical violence to inhuman treatment. The standard of proof is on a balance of probabilities with a high degree of certainty due to the gravity of the allegation.",
+    "application_to_facts": "The Court found the medical evidence corroborated the Petitioner's injuries consistent with assault. Despite disputed facts and affidavits from Respondent's witnesses, the Court doubted their independence. The failure to immediately report the assault to the Magistrate was not fatal given the circumstances of custody and lack of legal representation. The Court held the Petitioner proved the violation of Article 11 by the 1st Respondent.",
+    "principles_established": [
+      "Article 11 protects against torture and cruel, inhuman or degrading treatment including emotional harm.",
+      "Standard of proof in fundamental rights cases is balance of probabilities with high certainty for serious allegations.",
+      "Medical evidence can strongly corroborate claims of assault.",
+      "Delay in reporting assault may be excused due to custody and lack of access to legal counsel.",
+      "State organs, including Police, have a constitutional duty to protect fundamental rights."
+    ],
+    "precedents_cited": [
+      "Silva v. Chairman, Fertilizer Corporation",
+      "Velmurugu v. Attorney General",
+      "Liyanage v. Upasena",
+      "Malinda Channa Peiris and others v. AG and others",
+      "Jayasinghe v. Appuhamy",
+      "Sudath Silva v. Kodithuwakku",
+      "Namasivayam v. Gunawardenet",
+      "Saman v. Leeladasa"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court declared that the Petitioner's Fundamental Right under Article 11 was violated by the 1st Respondent and awarded Rs. 50,000 as compensation payable by the 1st Respondent personally.",
+    "disposition": "granted",
+    "remedy_or_orders": "Rs. 50,000 compensation to be paid by 1st Respondent within one month; no costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 is central as the case concerns alleged torture and cruel, inhuman or degrading treatment by a police officer, which the Court found was proven and thus violated the Petitioner's fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Medical evidence (Diagnosis Card) showed contusions and blood in urine consistent with assault; Petitioner’s statement and circumstances of custody supported credibility; affidavits from Respondent’s witnesses doubted.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

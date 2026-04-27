@@ -1,0 +1,73 @@
+{
+  "frame_id": "RQ1_027-SLLR-SLLR-1998-1-WICKREMATUNGA-V.-AN_133_C01__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. F.R. 228/96",
+    "case_title": "Wickrematunga v. Anuruddha Ratwatte and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-11-07",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. F.R. 228/96, decided on 7 November 1997"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the termination of the petitioner's dealership agreement by the Ceylon Petroleum Corporation was discriminatory on the grounds of political opinion, violating Article 12(2) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that the termination of his dealership agreement was arbitrary, discriminatory on account of his political opinion, and thus violated Article 12(2) of the Constitution.",
+    "respondent_argument": "The Corporation denied that the termination was politically motivated and asserted it was for good and lawful cause, including alleged misconduct and financial prejudice due to dishonoured cheques. They also argued the termination was a private law matter and not subject to constitutional restrictions.",
+    "key_facts": [
+      "The petitioner was appointed as a petroleum dealer by the Corporation in 1988 and operated at Lanka Filling Station.",
+      "The Corporation terminated the agreement on 12 January 1996 without notice or reasons assigned.",
+      "The petitioner alleged political discrimination as the Chairman and Directors of the Corporation were political appointees aligned with the ruling party, while he was a supporter of the opposition.",
+      "The Corporation relied on alleged misconduct and dishonoured cheques as grounds for termination, but evidence showed no financial default at the time of termination.",
+      "The Court found the termination was arbitrary, lacked just cause, and motivated by political considerations."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(2) prohibits discrimination on grounds including political opinion. The Corporation, as a public authority and instrumentality of the State, must act reasonably and in good faith, conforming to constitutional requirements even in contractual matters. The Court rejected the Corporation's claim that the termination was a private law matter and emphasized that public authorities cannot avoid constitutional duties by disguising their actions as private contracts.",
+    "application_to_facts": "The Court found no valid grounds for termination and that the Corporation acted arbitrarily and discriminatorily on political grounds. The evidence showed the Manager (Marketing) was the driving force behind the termination motivated by political considerations. The Board's decision was based on this flawed recommendation without proper investigation or notice to the petitioner. The political affiliations of the Corporation's leadership and the timing and manner of termination supported the finding of discrimination.",
+    "principles_established": [
+      "Public corporations are subject to constitutional restraints including Article 12(2) even in contractual dealings.",
+      "Discrimination on political grounds by a public authority violates Article 12(2).",
+      "Actions of public authorities must be reasonable, in good faith, and not arbitrary or capricious.",
+      "The label of 'private law' does not exempt public authorities from constitutional obligations.",
+      "Unfettered discretion is inappropriate for public authorities."
+    ],
+    "precedents_cited": [
+      "Kuruppuge Don Somapala Gunaratne and others v. Ceylon Petroleum Corporation and others",
+      "Village of Arlington Heights v. Metropolitan Housing Development Corporation",
+      "SmithKline Beecham Biologicals S.A. and another v. State Pharmaceutical Corporation and others",
+      "Yick Wo v. Hopkins",
+      "Plyler v. Doe",
+      "Sukhdev Singh v. Bhagatram",
+      "Rendell-Baker v. Kohn",
+      "Ramana v. International Airports Authority of India",
+      "Ajay Hasia v. Khalid Mujib",
+      "Dahanayake v. De Silva"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the Corporation violated Article 12(2) by terminating the petitioner's dealership on political grounds. The termination was arbitrary, discriminatory, and unconstitutional.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Court ordered the Corporation to reinstate the petitioner as a Dealer at the same premises under the original agreement and awarded Rs. 100,000 as solatium for infringement of fundamental rights, along with Rs. 25,000 costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) directly addresses discrimination on political grounds, which was the central issue in the Court's finding that the Corporation's termination of the petitioner was discriminatory and unconstitutional.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the termination was arbitrary and discriminatory on account of political opinion, motivated by the Manager (Marketing) who was politically aligned with the ruling party, and that the Corporation failed to establish just cause for termination.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

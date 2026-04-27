@@ -1,0 +1,80 @@
+{
+  "frame_id": "RQ1_038-SLLR-SLLR-1981-1-VELMURUGU-V.-THE-AT_057_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. NO. 74/81",
+    "case_title": "Velmurugu v. The Attorney-General and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1981-11-09",
+    "source_citation": "Sri Lanka Law Reports (1981) 1 S.L.R. 406"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment or punishment in violation of Article 11 of the Constitution, and whether such acts were attributable to executive or administrative action of the State.",
+    "petitioner_claim": "The petitioner alleged that after being taken into custody by the 2nd respondent, a police officer, he was subjected to torture and cruel, inhuman and degrading treatment by army personnel acting on the orders or instigation of the 2nd respondent, in violation of Article 11.",
+    "respondent_argument": "The respondents denied the allegations of torture and argued that the acts complained of were not authorised or condoned by the State, that the 2nd respondent did not instigate the army personnel to torture the petitioner, and that the petitioner failed to prove the allegations to the required standard.",
+    "key_facts": [
+      "Petitioner was arrested by army personnel on orders of the 2nd respondent without being informed of the charge or reasons for arrest.",
+      "Petitioner was allegedly subjected to various acts of torture and cruel treatment while in custody, including being kicked, hit, having hair burnt, and hit with gun butts.",
+      "Petitioner was taken to the police station where his statement was recorded on orders of the 2nd respondent, who instructed not to record complaints about torture.",
+      "Petitioner was produced before the Magistrate but did not complain of torture or injuries at that time.",
+      "Medical reports confirmed injuries consistent with assault but petitioner did not attribute them to the 2nd respondent at the time.",
+      "The 2nd respondent denied instigating torture and claimed he had to entrust custody to army personnel due to urgent security duties.",
+      "The court found the petitioner failed to prove the allegations against the 2nd respondent on a balance of probabilities.",
+      "The court discussed the scope of State liability for acts of public officers under Article 11."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 11 guarantees freedom from torture and cruel, inhuman or degrading treatment or punishment without any derogation. The right applies equally to all persons and is entrenched in the Constitution. The court held that acts of torture by State officers, including police and army personnel, constitute executive or administrative action attributable to the State if done under colour of office or authority, even if ultra vires or unauthorized, provided they are done in furtherance of their authority or with intent to benefit the State. However, acts that are purely personal, aberrant, or motivated by malice and not connected to official duties do not attract State liability. The court emphasized the importance of a high standard of proof proportionate to the seriousness of the allegation.",
+    "application_to_facts": "The petitioner failed to prove that the 2nd respondent instigated or authorised the torture. The injuries were not shown to have been inflicted with the 2nd respondent's knowledge or approval. The petitioner did not complain to the Magistrate or medical officers about torture by the 2nd respondent. The court found the alleged acts of torture by army personnel were individual acts not part of an administrative practice or official policy. The 2nd respondent had to entrust custody to army personnel due to urgent security duties and could not supervise the petitioner continuously. The court found no sufficient evidence to hold the State liable under Article 11 for the alleged torture.",
+    "principles_established": [
+      "Article 11 is an absolute fundamental right prohibiting torture and cruel, inhuman or degrading treatment or punishment.",
+      "State liability under Article 11 extends to acts of public officers done under colour of office, including unauthorized acts, if done in furtherance of their authority or benefiting the State.",
+      "Acts of public officers that are personal, aberrant, or motivated by malice and not connected to official duties do not attract State liability.",
+      "The burden of proof is on the petitioner to prove allegations of torture on a balance of probabilities, with a high degree of probability proportionate to the seriousness of the allegation.",
+      "Failure to complain promptly to authorities or medical officers about torture undermines the credibility of the claim.",
+      "The concept of 'administrative practice' can extend State liability where unlawful acts are part of a tolerated or systematic practice by authorities."
+    ],
+    "precedents_cited": [
+      "Maharaja v. Attorney-General of Trinidad and Tobago [1978] 2 All ER 670",
+      "Thornhill v. Attorney-General [1980] 2 WLR 510",
+      "Ex parte Commonwealth of Virginia 100 US 339",
+      "Virginia v. Rives 100 US 313",
+      "Neal v. Delaware 103 US 370",
+      "Holme Telephone and Telegraph Company v. City of Los Angeles 227 US 278",
+      "Raymond v. Chicago Union Traction Company 207 US 20",
+      "Iowa-Des Moines National Bank v. Bennett 284 US 239",
+      "United States v. Classic 313 US 299",
+      "Civil Rights Cases 109 US 3",
+      "Shamdasani v. Central Bank of India Ltd. AIR 1952 SC 59",
+      "Thadchanamoorti v. Attorney-General (S.C. 63/80)",
+      "Ireland v. United Kingdom (Decisions of the European Court of Human Rights)"
+    ]
+  },
+  "outcome": {
+    "holding": "The court dismissed the petitioner's application under Article 11, finding that the petitioner failed to prove that he was subjected to torture or cruel, inhuman or degrading treatment by the 2nd respondent or that such acts were attributable to executive or administrative action of the State.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 is the constitutional guarantee protecting individuals from torture and cruel, inhuman or degrading treatment. The petitioner's claim was based on an alleged violation of this right. The court's reasoning and outcome directly address whether the facts and evidence establish a breach of Article 11 by State actors, making this clause central to the case.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner alleged he was tortured by army personnel after arrest by the 2nd respondent, but failed to complain to the Magistrate or medical officers about torture by the 2nd respondent. Medical reports confirmed injuries consistent with assault but did not attribute them to the 2nd respondent. The 2nd respondent denied instigating torture and explained he had to entrust custody to army personnel due to urgent security duties. The court found no corroboration of the petitioner's allegations and dismissed the application.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 4060,
+      "end_char": 4430
+    }
+  }
+}

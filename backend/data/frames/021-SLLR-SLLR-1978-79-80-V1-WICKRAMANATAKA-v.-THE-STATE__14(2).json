@@ -1,0 +1,50 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1978-79-80-V1-WICKRAMANATA_035_C03__14(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPEAL NO. 58/79",
+    "case_title": "Wickramanayaka v. The State",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1979-09-24",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Appeal No. 58/79, decided on 24 September 1979"
+  },
+  "clause": {
+    "article": "14(2)",
+    "text": "Certain long-term residents are entitled to these rights for ten years."
+  },
+  "case_context": {
+    "legal_issue": "Whether Article 14(2) was materially engaged or interpreted in the case.",
+    "petitioner_claim": null,
+    "respondent_argument": null,
+    "key_facts": []
+  },
+  "reasoning": {
+    "interpretation_summary": null,
+    "application_to_facts": null,
+    "principles_established": [],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": null,
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": null,
+    "relevance_level": "low",
+    "match_type": "mentioned_only"
+  },
+  "evidence": {
+    "evidence_excerpt": null,
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

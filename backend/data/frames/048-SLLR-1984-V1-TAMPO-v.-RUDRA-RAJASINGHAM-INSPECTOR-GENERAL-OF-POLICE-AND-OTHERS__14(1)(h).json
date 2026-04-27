@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_048-SLLR-1984-V1-TAMPO-V.-RUDRA-RAJASING_074_C02__14(1)(h)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No 5/84",
+    "case_title": "Tampoe v. Rudra Rajasingham, Inspector-General of Police, and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1984-03-02",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 5/84, decided on 2 March 1984"
+  },
+  "clause": {
+    "article": "14(1)(h)",
+    "text": "Freedom of movement and residence."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s fundamental right to freedom of movement under Article 14(1)(h) was violated by police obstructing entry to and exit from 22nd Lane and preventing movement towards Galle Face Green.",
+    "petitioner_claim": "The petitioner claimed that police obstructed union members from entering and leaving 22nd Lane and prevented their movement to Galle Face Green, violating their freedom of movement.",
+    "respondent_argument": "The respondents denied any obstruction to entry or exit from 22nd Lane, stating police only prevented a procession but allowed free movement otherwise.",
+    "key_facts": [
+      "Union members assembled at their headquarters on 22nd Lane and were addressed by the petitioner.",
+      "Police prevented a procession to Galle Face Green but allowed members to enter and leave 22nd Lane freely.",
+      "Photographs showed large numbers of union members moving freely in 22nd Lane.",
+      "Police deployed squads at both ends of 22nd Lane to prevent procession but not general movement."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that freedom of movement under Article 14(1)(h) is subject to lawful restrictions prescribed by law in the interests of public order. The police instructions allowed free movement into and out of 22nd Lane except to prevent a prohibited procession.",
+    "application_to_facts": "The court found no evidence that police obstructed entry or exit from 22nd Lane. Photographic evidence showed free movement of union members and the petitioner within 22nd Lane. The police lawfully restricted only the procession, not general movement.",
+    "principles_established": [
+      "Freedom of movement can be lawfully restricted under emergency regulations for public order.",
+      "Police must not obstruct general movement except where a lawful restriction applies.",
+      "Evidence such as photographs can establish whether movement was obstructed."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s freedom of movement under Article 14(1)(h) was not violated as police did not obstruct entry or exit from 22nd Lane and only lawfully prevented a procession.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioner’s claim of obstruction to freedom of movement was directly addressed by the court, which analyzed whether police actions unlawfully restricted movement under Article 14(1)(h).",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Photographs and affidavits showed that police allowed free movement into and out of 22nd Lane and only prevented a procession, thus not violating freedom of movement.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

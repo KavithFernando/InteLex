@@ -1,0 +1,71 @@
+{
+  "frame_id": "RQ1_025-SLLR-SLLR-1991-V2-PREMALAL-DE-SILVA-_037_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 24/89",
+    "case_title": "Premalal De Silva v. Inspector Rodrigo and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1990-07-13",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 24/89, decided on 13 July 1990"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture and cruel, inhuman or degrading treatment or punishment while in police custody, in violation of Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioner claimed he was arrested unlawfully on 19 May 1989, detained without being produced before a Magistrate, and subjected to torture and cruel, inhuman or degrading treatment by police officers during detention.",
+    "respondent_argument": "The respondents admitted the arrest but denied the date and the allegations of torture, claiming the petitioner was arrested on 23 May 1989 and treated properly. They also denied personal liability for the alleged ill-treatment.",
+    "key_facts": [
+      "The petitioner was arrested on 19 May 1989 without a warrant on suspicion of involvement in a robbery.",
+      "He was detained at Panadura Police Station until 23 May 1989 without being produced before a Magistrate as required by law.",
+      "During detention, the petitioner was tied up, suspended, and assaulted with an iron rod by police officers, sustaining multiple injuries.",
+      "Medical examination confirmed injuries consistent with the petitioner’s account of torture.",
+      "The 2nd and 3rd respondents were identified as responsible for the ill-treatment; others were exonerated."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 11 prohibits torture and cruel, inhuman or degrading treatment or punishment. The evidence, including medical reports and witness affidavits, established that the petitioner was subjected to such treatment while in police custody.",
+    "application_to_facts": "The Court found the petitioner’s account credible and corroborated by medical evidence and witness affidavits. The injuries observed were consistent with the petitioner’s description of torture inflicted by police officers. The Court rejected the respondents’ version of events and found the detention and treatment unlawful and in breach of Article 11.",
+    "principles_established": [
+      "Torture and cruel, inhuman or degrading treatment by state authorities violate Article 11 of the Constitution.",
+      "The burden is on the state to justify lawful arrest and detention and to disprove allegations of torture.",
+      "Medical evidence is critical in substantiating claims of torture and ill-treatment.",
+      "Personal liability of officers must be established based on identification and evidence."
+    ],
+    "precedents_cited": [
+      "Velumurugu v. A.G. & Others",
+      "Goonewardena v. Perera",
+      "Kapugeekiyana v. Hettiarachchi",
+      "Withanachchi v. Cyril Herat",
+      "Joseph Perera v. Attorney-General",
+      "Gunasekera v. de Fonseka",
+      "Dumbell v. Roberts",
+      "Muttusamy v. Kannangara",
+      "Amal Sudath Silva v. Kodituwakku"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner was subjected to torture and cruel, inhuman or degrading treatment in breach of Article 11. The 2nd and 3rd respondents and the State were held jointly and severally liable to pay compensation to the petitioner.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Court ordered Rs. 20,000 as compensation and Rs. 2,000 as costs to be paid jointly and severally by the 2nd and 3rd respondents and the State. Payment to the petitioner’s legal representatives was directed if the petitioner was deceased."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 is central to the Court’s reasoning as it directly prohibits the torture and cruel, inhuman or degrading treatment that the petitioner suffered. The Court’s findings of fact and legal conclusions on liability and compensation rest on the violation of this constitutional guarantee.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was tied up and suspended by police officers who struck him with an iron rod causing multiple injuries confirmed by medical examination; the Court found this treatment to be torture and inhuman treatment in breach of Article 11.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

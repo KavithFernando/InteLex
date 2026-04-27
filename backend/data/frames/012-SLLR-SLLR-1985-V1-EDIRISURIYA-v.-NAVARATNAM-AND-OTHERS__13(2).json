@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-1985-V1-EDIRISURIYA-V.-NAV_025_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 109/84",
+    "case_title": "Edirisuriya v. Navaratnam and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-01-15",
+    "source_citation": "Sri Lanka Law Reports (1985) 1 SriL.R."
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner's detention complied with Article 13(2) requiring production before a judge and lawful detention order.",
+    "petitioner_claim": "The petitioner claimed unlawful detention without being informed or produced before a judge as required by Article 13(2).",
+    "respondent_argument": "The respondents argued the detention was lawful under Emergency Regulations, supported by a Detention Order issued by the Deputy Inspector-General of Police, and that the provisions of the Code of Criminal Procedure requiring production before a Magistrate did not apply.",
+    "key_facts": [
+      "Petitioner detained from 20 July 1984 to 30 August 1984 at old Police Station, Galle.",
+      "Detention Order issued on 21 July 1984 under Regulation 19(2) of Emergency Regulations.",
+      "Sections 36, 37, and 38 of the Code of Criminal Procedure Act do not apply to persons arrested under Regulation 18.",
+      "Petitioner was not produced before a Magistrate during detention.",
+      "Petitioner was questioned about the burning of the Magistrate's Court during detention."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 13(2) as requiring a detained person to be brought before a judge according to procedure established by law. While the Emergency Regulations override certain Code provisions, they do not explicitly override the constitutional requirement. However, the Court found the detention lawful under the Emergency Regulations and that the omission to produce the petitioner before a Magistrate did not substantially prejudice him.",
+    "application_to_facts": "The Court examined the Detention Order, the Emergency Regulations, and the Code of Criminal Procedure. It concluded that the detention was authorized by law under the Emergency Regulations, and although the petitioner was not produced before a Magistrate, this omission did not invalidate the detention or constitute a fundamental rights violation.",
+    "principles_established": [
+      "Article 13(2) requires production before a judge according to procedure established by law.",
+      "Emergency Regulations can override certain procedural provisions but must specifically override constitutional rights to be effective.",
+      "Detention under Emergency Regulations without production before a Magistrate may be lawful if not specifically prohibited and if no substantial prejudice occurs.",
+      "The Court will not invalidate detention orders that are regular on their face and supported by reasonable grounds."
+    ],
+    "precedents_cited": [
+      "Janatha Finance and Investments Ltd. v. D. J. F. Liyanage",
+      "Yasapala v. Ranil Wickremasinghe et al.",
+      "Kumaranatunga v. Samarasinghe and Others",
+      "Venkata Ramiah v. State of Andhra Pradesh",
+      "Peiris v. Commissioner of Inland Revenue",
+      "Deviprasad Khandelvel and Sons Ltd. v. Union of India"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the detention from 20 July to 30 August 1984 was lawful under the Emergency Regulations and did not violate Article 13(2), dismissing the petitioner's claim.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was central to the petitioner's claim of unlawful detention without production before a judge, which the Court analyzed in detail and ultimately found no violation due to the Emergency Regulations and lawful detention order.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found the detention order issued under Regulation 19(2) lawful and that although the petitioner was not produced before a Magistrate, this did not invalidate the detention or violate Article 13(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

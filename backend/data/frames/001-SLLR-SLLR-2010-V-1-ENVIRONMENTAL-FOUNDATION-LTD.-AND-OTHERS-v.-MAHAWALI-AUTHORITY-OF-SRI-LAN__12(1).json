@@ -1,0 +1,66 @@
+{
+  "frame_id": "RQ1_001-SLLR-SLLR-2010-V-1-ENVIRONMENTAL-FOU_006_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_459_08_FR",
+    "case_title": "Environmental Foundation Ltd. and Others v. Mahawali Authority of Sri Lanka and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2009-12-18",
+    "source_citation": "Supreme Court of Sri Lanka, SC 459/08 (FR), decided on 18 December 2009"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the alienation of lands within the 'Special Area' and the granting of permission for construction of buildings violated Article 12(1) of the Constitution guaranteeing equality and equal protection of the law.",
+    "petitioner_claim": "The petitioners argued that the alienation and granting of permission for construction on lands within the Special Area were done arbitrarily and in violation of applicable laws and guidelines, thus violating Article 12(1).",
+    "respondent_argument": "The respondents contended that the power of alienation and granting permission for construction vested in the Mahaweli Authority and its officials, and that the alienations were made in good faith to provide land to deserving citizens. They also argued that construction of houses did not fall within prescribed projects requiring environmental approval.",
+    "key_facts": [
+      "The lands in question fall within the 'Special Area' declared under the Mahaweli Authority Act and within 100 meters of the Victoria Reservoir full supply level.",
+      "The lands also fall within the Victoria-Randenigala-Rantambe Sanctuary under the Fauna and Flora Protection Ordinance.",
+      "Alienation and permission for construction were granted on annual permits with amended clauses allowing building construction.",
+      "Guidelines for construction in the Special Area required minimum land sizes and distances between buildings, which were violated.",
+      "No Environmental Impact Assessment (EIA) or Initial Environmental Examination (IEE) approvals were obtained prior to construction."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as guaranteeing equality and equal protection of the law, which was violated by arbitrary and unlawful alienation and construction permissions. The public trust doctrine and directive principles were linked to the obligation of state authorities to act lawfully and protect the environment within Special Areas.",
+    "application_to_facts": "The court found that the Mahaweli Authority alienated lands and granted construction permissions in violation of laws, regulations, and guidelines, without proper environmental approvals, thus breaching the equal protection guaranteed by Article 12(1). The respondents failed to justify their actions or show compliance with legal procedures.",
+    "principles_established": [
+      "State authorities must exercise powers in accordance with laws and regulations, especially in Special Areas.",
+      "The public trust doctrine imposes a duty on the state to protect common heritage and environment.",
+      "Violation of procedural and substantive legal requirements in land alienation and construction permits constitutes a breach of Article 12(1).",
+      "Environmental approvals (EIA/IEE) are mandatory for prescribed projects within protected areas."
+    ],
+    "precedents_cited": [
+      "M.C. Mehta vs. Kamal Nath (1997 - 1 SCC 388)",
+      "National Audubon Society vs. Superior Court of Alpine County (Mono Lake Case)",
+      "Sugathapala Mendis vs. Chandrika Bandaranaike Kumaratunge (SC FR 352/2007)",
+      "Wattegedera Wijebanda vs. Conservator General Forests and others (SC 188/2004)"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the 1st Respondent Authority violated Article 12(1) by arbitrarily alienating lands and granting permission for construction within the Special Area without following applicable laws and regulations.",
+    "disposition": "granted",
+    "remedy_or_orders": "The court ordered a proper investigation and action against responsible officials, directed adherence to environmental laws and guidelines for future allocations, and awarded costs to the petitioners."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects against arbitrary state action and guarantees equal protection under the law, which was found violated by the unauthorized alienation and construction permissions.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the alienation of lands and granting of permission to construct houses were done arbitrarily and in violation of applicable laws and regulations by the 1st Respondent Authority, thereby violating Article 12(1) of the Constitution.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

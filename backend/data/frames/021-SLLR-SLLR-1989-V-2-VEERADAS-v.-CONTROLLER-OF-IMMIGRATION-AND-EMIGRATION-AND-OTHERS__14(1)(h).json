@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1989-V-2-VEERADAS-V.-CONTR_038_C02__14(1)(h)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 221/88",
+    "case_title": "Veeradas v. Controller of Immigration and Emigration and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1989-09-27",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 221/88, decided on 27 September 1989"
+  },
+  "clause": {
+    "article": "14(1)(h)",
+    "text": "Freedom of movement and residence."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s right to freedom of movement and residence under Article 14(1)(h) was violated by preventing him from leaving Sri Lanka on 4 November 1988.",
+    "petitioner_claim": "The petitioner claimed that his freedom of movement was infringed when he was restrained from leaving Sri Lanka by being off-loaded from the flight and detained.",
+    "respondent_argument": "The respondents argued that Article 14(1)(h) guarantees freedom of movement within Sri Lanka and does not extend to the right to leave Sri Lanka. The petitioner’s arrest and detention were lawful based on reasonable suspicion of forged travel documents.",
+    "key_facts": [
+      "The petitioner was prevented from boarding a flight to the UK on suspicion of having a forged or altered passport.",
+      "He was detained by Air Lanka officials and later by the Police.",
+      "The petitioner was not on any wanted list and had valid travel documents, but there were suspicious marks and discrepancies.",
+      "The petitioner was released and later traveled to the UK on another flight.",
+      "The petitioner’s counsel conceded that the freedom of movement guaranteed is within Sri Lanka and does not include the right to leave the country."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 14(1)(h) as protecting freedom of movement within Sri Lanka only, not the right to leave the country. Since the petitioner was lawfully arrested and detained on reasonable suspicion, there was no violation of this right.",
+    "application_to_facts": "The petitioner’s arrest and detention were justified under the law due to reasonable suspicion of forged documents. The restriction on his movement was lawful and did not violate Article 14(1)(h).",
+    "principles_established": [
+      "Article 14(1)(h) protects freedom of movement within Sri Lanka, not the right to leave Sri Lanka.",
+      "Lawful arrest and detention on reasonable suspicion do not violate freedom of movement rights.",
+      "Reasonable suspicion must be based on bona fide grounds and material facts."
+    ],
+    "precedents_cited": [
+      "Wiltshire v. Barrott (1965) 2 All ER 271",
+      "Thani v. State of Kerala 1965 KLT 697"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held there was no violation of Article 14(1)(h) as the petitioner was lawfully arrested and detained, and the freedom of movement guaranteed is within Sri Lanka only.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioner alleged infringement of his freedom of movement by being prevented from leaving Sri Lanka. The court directly addressed the scope of Article 14(1)(h) and the lawfulness of the detention, finding no violation.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "As the petitioner was lawfully arrested and detained there was no violation of Articles 13 and 14(1)(h). The freedom of movement guaranteed here is within Sri Lanka and not to leave Sri Lanka.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

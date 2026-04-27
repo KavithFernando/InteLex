@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_040-SLLR-SLLR-1989-V-2-SASANASIRITISSA-T_088_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATIONS 13/88, 14/88 and 15/88",
+    "case_title": "Sasanasiritissa Thero and Others v. P.A. De Silva, Chief Inspector, C.I.D. and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1989-07-27",
+    "source_citation": "Sri Lanka Law Reports (1989) 2 Sri LR 356"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' arrest complied with Article 13(1) of the Constitution, specifically if they were informed of the reason for their arrest and if the arrest was lawful.",
+    "petitioner_claim": "The petitioners claimed they were arrested mala fide without being informed of the reason for their arrest, violating Article 13(1).",
+    "respondent_argument": "Respondents contended the arrests were lawful under Emergency Regulations and justified by reasonable suspicion related to a bomb explosion incident.",
+    "key_facts": [
+      "Petitioners were arrested on 09.10.87 following a bomb explosion at Katana Mahapola celebrations.",
+      "The 1st petitioner was arrested without being informed of the reason for arrest.",
+      "The 2nd and 3rd petitioners were taken into custody near the scene of the explosion.",
+      "Petitioners were not produced before a Magistrate after arrest.",
+      "The arrest was challenged as mala fide and politically motivated."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court recognized that under Regulation 17(2) of the Emergency Regulations, a person may be lawfully detained without being informed of the reason at the time of arrest, distinguishing it from ordinary arrest procedures under Article 13(1).",
+    "application_to_facts": "The Court found that although the petitioners were not informed of the reason for their arrest immediately, this was consistent with the Emergency Regulations. Therefore, the arrest did not violate Article 13(1) as interpreted in the context of the Emergency Regulations.",
+    "principles_established": [
+      "Regulation 17(2) allows detention without informing the detainee of the reason at the time of arrest.",
+      "Article 13(1) must be read in conjunction with Emergency Regulations applicable at the time.",
+      "Failure to inform at arrest under Emergency Regulations does not necessarily violate Article 13(1)."
+    ],
+    "precedents_cited": [
+      "Kumaranatunge v. Samarasinghe"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioners' arrest did not violate Article 13(1) as the Emergency Regulations permitted detention without immediate disclosure of reasons.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the petitioners' claim that their arrest was unlawful and without informing them of the reason, but the Court found the Emergency Regulations modified the application of this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was arrested without being informed of the reason, but Regulation 17(2) of the Emergency Regulations allows detention without informing the detainee of the reason at the time of arrest.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_009-SLLR-SLLR-1990-2-SOMAWATHIE-V.-WEERA_018_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 227/88",
+    "case_title": "Somawathie v. Weerasinghe and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1990-11-20",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 227/88, decided on 20 November 1990"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the 4th respondent was lawfully arrested and informed of the reason for arrest as required by Article 13(1).",
+    "petitioner_claim": "The petitioner claimed that the 4th respondent was unlawfully arrested without being informed of the reason for arrest.",
+    "respondent_argument": "The respondents argued that the 4th respondent was not arrested but came voluntarily with the police as a witness, and thus Article 13(1) did not apply.",
+    "key_facts": [
+      "The 4th respondent was taken by police from his hiding place to give a statement as a witness.",
+      "The petitioner alleged the 4th respondent was forcibly taken and not informed of the reason for arrest.",
+      "Police notes suggested the 4th respondent came voluntarily with the police.",
+      "The 4th respondent was implicated as a suspect only after a witness statement on 2 November 1988.",
+      "The court found deprivation of liberty but held it was not an arrest in law until 4 November 1988."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 13(1) to require that an arrest involves an intention to subject a person to the criminal process and that the person must be informed of the reason for arrest. Mere deprivation of liberty or being taken for questioning as a witness does not constitute an arrest under the law.",
+    "application_to_facts": "The court found that the 4th respondent was taken as a witness initially and was not under arrest until formally informed on 4 November 1988. Therefore, the requirement to inform him of the reason for arrest under Article 13(1) did not apply before that date.",
+    "principles_established": [
+      "Deprivation of liberty alone does not constitute an arrest under Article 13(1).",
+      "An arrest requires intention to bring the person within the criminal process and knowledge of that intention by the person.",
+      "The right to be informed of the reason for arrest applies only when a lawful arrest has occurred."
+    ],
+    "precedents_cited": [
+      "Piyasiri v. Fernando, A.S.P. (1988) 1 Sri L.R. 173",
+      "Christie v. Leachinsky (1947) AC 573",
+      "Wickremabandu v. Cyril Herat et al, S.C. Application No. 27/88"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held there was no unlawful arrest in violation of Article 13(1) as the 4th respondent was not arrested until 4 November 1988 and was not entitled to be informed of the reason for arrest before then.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to determining whether the 4th respondent's rights were violated by arrest without informing him of the reason. The court's interpretation and application of this clause led to dismissal of the claim under this article.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the 4th respondent was taken as a witness and not arrested until 4 November 1988, so the requirement to inform him of the reason for arrest under Article 13(1) did not apply before that date.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1330,
+      "end_char": 1430
+    }
+  }
+}

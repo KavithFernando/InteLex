@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_037-SLLR-SLLR-2001-V-2-WICKRWMASINGHE-V._180_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO 304/98(FR)",
+    "case_title": "Wickremasinghe v. Ceylon Petroleum Corporation and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-12-06",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 304/98(FR), decided on 6 December 2000"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the termination of the petitioner's petroleum dealership by the Ceylon Petroleum Corporation infringed the fundamental right to equality guaranteed by Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the termination of his dealership was unreasonable, arbitrary, and violated his right to equality under Article 12(1), as the decision was not fairly and substantially related to the object of the legislation and was discriminatory.",
+    "respondent_argument": "The respondents contended that the termination was bona fide, based on the need to construct a Head Office Complex on the land owned by the Corporation, and was reasonable and lawful under the Dealership Agreement and public law standards.",
+    "key_facts": [
+      "The petitioner had been a petroleum dealer since 1949, continuing under the Corporation since 1964.",
+      "The Dealership Agreement allowed termination by either party with 3 months' notice without alleging default.",
+      "The Corporation terminated the dealership by giving 8 months' notice, citing the need to build a Head Office Complex on the site.",
+      "The petitioner operated a well-located petrol shed with significant monthly sales and no defaults or complaints.",
+      "The Corporation's decision was challenged as executive/administrative action subject to constitutional equality guarantees."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(1) as guaranteeing equality before the law and equal protection, requiring that classifications or executive actions be reasonable and not arbitrary, and that they have a fair and substantial relation to the object of the legislation. The Court emphasized reasonableness over rigid comparison of similarly circumstanced persons.",
+    "application_to_facts": "The Court found the Corporation's decision to terminate the dealership to build a Head Office on an existing petrol shed site was not fairly and substantially related to the legislation's object of supplying and distributing petroleum. The priority should be maintaining efficient distribution points rather than office location. Thus, the termination was arbitrary and infringed Article 12(1).",
+    "principles_established": [
+      "Article 12(1) protects against arbitrary executive or administrative action.",
+      "Reasonableness and a fair and substantial relation to legislative objectives are key tests for equality claims.",
+      "Executive actions affecting fundamental rights must be objectively reasonable, not merely subjectively justified.",
+      "The guarantee of equality does not require proof of differential treatment if the action is arbitrary."
+    ],
+    "precedents_cited": [
+      "Roberts and Another v. Ratnayake and Others (1986) 2 SRI L.R. 36",
+      "Wickrematunga v. Ratwatte and Others (1998) 1 SRI L.R. 201",
+      "Sangadasa Silva v. Ratwatte and Others (1998) 1 SRI L.R. 350",
+      "Royster Guano Co. v. Commonwealth of Virginia (1920) 253 US 412",
+      "Perera v. Jayawickrema (1985) 1 SRI L.R. 285"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the termination of the petitioner's dealership infringed his fundamental right to equality under Article 12(1) and declared the termination invalid and of no force in law.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration that the termination of the dealership agreement is invalid and of no force in law."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as the petitioner challenged the termination as an arbitrary executive action violating the constitutional guarantee of equality. The Court's analysis and ultimate decision rested on the interpretation and application of this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the termination was not fairly and substantially related to the object of the legislation to supply and distribute petroleum, and thus infringed Article 12(1). The decision to use the petrol shed site for a Head Office was arbitrary and unreasonable.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

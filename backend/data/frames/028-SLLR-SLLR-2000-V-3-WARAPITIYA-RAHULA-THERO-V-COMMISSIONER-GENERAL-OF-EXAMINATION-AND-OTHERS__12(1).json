@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_028-SLLR-SLLR-2000-V-3-WARAPITIYA-RAHULA_141_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_683_99",
+    "case_title": "Warapitiya Rahula Thero v. Commissioner General of Examinations and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-03-31",
+    "source_citation": "Supreme Court of Sri Lanka, SC (FR) 683/99, decided on 31 March 2000"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner, a member of the clergy, was unlawfully denied the right to sit the Sri Lanka Administrative Service limited competitive examination, violating his rights under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that there is no legal or gazette notification disqualifying members of the clergy from serving in the Public Service and that his rights to equal treatment under Article 12(1) were violated when his application to sit the examination was refused on the basis of his clergy status.",
+    "respondent_argument": "The respondents did not dispute the violation of Article 12(1) but expressed concern about the appropriateness of a member of the clergy functioning as an ordinary public officer.",
+    "key_facts": [
+      "The petitioner obtained a diploma in Social Work in 1983 and was confirmed as a Social Service Officer in 1989.",
+      "He applied to sit the limited competitive examination for entry into the Sri Lanka Administrative Service in response to a government gazette advertisement dated 2 March 1999.",
+      "The Department of Examinations rejected his application on 9 July 1999 because he was a member of the clergy.",
+      "There is no law or gazette notification disqualifying clergy members from public service.",
+      "The petitioner claimed violation of his fundamental rights under Article 12(1)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as guaranteeing equal treatment and protection under the law to all persons, including members of the clergy, without any lawful disqualification. The absence of any legal provision or gazette notification barring clergy from public service means that denying the petitioner the right to sit the examination was discriminatory and violated his constitutional rights.",
+    "application_to_facts": "Since no law or gazette notification disqualified clergy members from public service, the petitioner was entitled to equal treatment under Article 12(1). The rejection of his application solely on the basis of his clergy status was unlawful and amounted to a violation of his fundamental rights.",
+    "principles_established": [
+      "Members of the clergy are not disqualified from serving in the Public Service unless expressly provided by law.",
+      "Article 12(1) protects individuals from discrimination in public service opportunities.",
+      "Equal protection under the law requires that all persons be treated without arbitrary or unlawful distinctions."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s rights under Article 12(1) were violated by the refusal to allow him to sit the examination and granted relief accordingly.",
+    "disposition": "granted",
+    "remedy_or_orders": "The court ordered that the State pay Rs. 25,000 as costs to the petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court’s reasoning as it guarantees equal protection under the law, which was directly violated by the discriminatory refusal of the petitioner’s application based on his clergy status.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "There is nothing in the gazette notification or in the law disqualifying the members of the clergy from serving in the Public Service. They are entitled to the protection relating to equal treatment guaranteed by Article 12(1) of the Constitution. The respondents concede the violation of the petitioner’s fundamental rights under Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 0,
+      "end_char": 600
+    }
+  }
+}

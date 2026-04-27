@@ -1,0 +1,66 @@
+{
+  "frame_id": "RQ1_022-SLLR-SLLR-1996-1-GUNARATNE-AND-OTHER_115_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 99/96",
+    "case_title": "Gunaratne and Others v. Ceylon Petroleum Corporation and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-07-31",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 99/96, decided on 31 July 1996"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the summary termination of the Dealership Agreement and cancellation of authority by the Board of the Ceylon Petroleum Corporation violated the fundamental rights under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The Petitioners argued that the termination was wrongful and discriminatory, relying on matters that occurred before the current agreement, that the Board was not given full and accurate information, and that the termination was done without reasons and without following proper procedures, thus violating their right to equality before the law under Article 12(1).",
+    "respondent_argument": "The Respondents contended that the Board's decision was a commercial decision not constituting executive or administrative action under Article 126, that the termination was lawful under the contract and statutory provisions, that the Board was entitled to terminate without notice or reasons, and that the Petitioners had not claimed relief regarding cancellation of authority.",
+    "key_facts": [
+      "The Petitioners held a Dealership Agreement and statutory authority under section 5E of the Ceylon Petroleum Corporation Act.",
+      "The Board terminated the Agreement and cancelled the authority by resolution without notice or reasons.",
+      "The Board relied on five warning letters, four of which related to incidents before the current agreement and involving only the 1st Petitioner individually.",
+      "The procedure in the Corporation's Marketing Manual for appointing new dealers was not followed in appointing the 11th Respondent.",
+      "The Petitioners were not given an opportunity to be heard or reasons for termination."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) guarantees equality before the law and equal protection, prohibiting arbitrary, capricious, or discriminatory action by public authorities. The termination of the Dealership Agreement and cancellation of authority by the Board constituted executive or administrative action subject to Article 12(1), not merely a commercial decision. The Court rejected the Respondents' argument that only the 'threshold' stage of contract formation involves executive action. The Board was required to act fairly and provide reasons, and could not rely on matters predating the current agreement that were unknown or irrelevant to some Petitioners. The principle of equality before the law applies broadly and prohibits such discriminatory and unjustified termination.",
+    "application_to_facts": "The Court found that the Board's resolution was administrative action violating Article 12(1) because it terminated the Agreement and authority without reasons and relied on irrelevant past warnings. The Board was not aware that some warnings related to periods before the current agreement and to only one Petitioner. The single relevant warning was insufficient to justify termination. The Board's failure to follow proper procedures and to provide reasons rendered the termination arbitrary and discriminatory. The appointment of the new dealer was severable and not challenged. The Petitioners' fundamental rights were infringed by the termination and cancellation.",
+    "principles_established": [
+      "Executive or administrative action under Article 12(1) includes decisions affecting contracts during their subsistence, not only at the threshold stage.",
+      "Public authorities must provide reasons for decisions affecting fundamental rights and cannot act arbitrarily or discriminatorily.",
+      "Matters predating a contract and unknown to the decision-maker cannot justify termination affecting other parties not responsible for those matters.",
+      "The principle of equality before the law under Article 12(1) is a corollary of the Rule of Law and prohibits arbitrary and discriminatory executive action."
+    ],
+    "precedents_cited": [
+      "Roberts v. Ratnayake (1986) 2 Sri L.R. 36",
+      "Wijenaike v. Air Lanka (1990) 1 Sri LR 293",
+      "Dahanayake v. De Silva (1978-79-80) 1 Sri LR 47, 53-54",
+      "Perera v U.G.C."
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the termination of the Dealership Agreement and cancellation of authority by the Board violated the Petitioners' fundamental rights under Article 12(1). The first limb of the Board's resolution was invalid and the Petitioners were entitled to a declaration of infringement, compensation, and costs. The Court did not interfere with the appointment of the new dealer due to lack of pleadings.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of violation of Article 12(1), award of Rs 75,000 compensation and costs, and direction to the 1st Respondent to either grant a dealership within six months or pay Rs 500,000 compensation."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it protects against arbitrary and discriminatory executive action by public authorities, including decisions affecting contracts and statutory authorities. The Court applied this clause directly to assess the legality and fairness of the Board's termination of the Dealership Agreement and cancellation of authority.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the Board's resolution terminating the Agreement and cancelling the authority was administrative action violating Article 12(1), as it was done without reasons, relied on irrelevant past warnings, and was arbitrary and discriminatory.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

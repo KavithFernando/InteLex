@@ -1,0 +1,58 @@
+{
+  "frame_id": "RQ1_034-SLLR-SLLR_1989_V_1-NAMASIVAYAM_V._GU_051_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 166/86",
+    "case_title": "Namasivayam v. Gunawardena",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1987-09-04",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 166/86, decided on 4 September 1987"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment in violation of Article 11 of the Constitution during his arrest and detention.",
+    "petitioner_claim": "The petitioner claimed he was repeatedly assaulted and tortured by security personnel during unlawful detention and forced to make a statement under duress.",
+    "respondent_argument": "The respondents denied the allegations of torture and assault, and stated the petitioner was lawfully detained under Emergency Regulations and that no inducement or threats were made to obtain statements.",
+    "key_facts": [
+      "Petitioner was arrested on 28.7.86 and detained until 18.9.86.",
+      "Petitioner alleged repeated assault and forced statement during detention.",
+      "No medical evidence was presented to corroborate claims of torture.",
+      "Respondents denied assault and claimed lawful detention under Emergency Regulations."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that to establish a violation of Article 11, credible and corroborated evidence of torture or cruel, inhuman or degrading treatment is required.",
+    "application_to_facts": "Since the petitioner's allegations of torture were uncorroborated by medical evidence and denied by respondents, the court found the evidence insufficient to prove a violation of Article 11.",
+    "principles_established": [
+      "Allegations of torture under Article 11 require corroboration, such as medical evidence.",
+      "Uncorroborated claims are insufficient to establish violation of Article 11."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner did not establish a violation of Article 11 as the evidence was insufficient.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the petitioner's claim of torture and cruel treatment during detention, but the court found insufficient evidence to uphold this claim.",
+    "relevance_level": "high",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "Petitioner's complaint of torture was not corroborated by medical evidence and was denied by respondents; court found evidence insufficient to establish violation of Article 11.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 390,
+      "end_char": 430
+    }
+  }
+}

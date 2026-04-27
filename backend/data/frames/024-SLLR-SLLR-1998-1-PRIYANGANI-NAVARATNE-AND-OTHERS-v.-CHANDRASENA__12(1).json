@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_024-SLLR-SLLR-1998-1-PRIYANGANI-NAVARATN_122_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATIONS 172-179/97",
+    "case_title": "Priyangani Navaratne and Others v. Chandrasena",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-12-04",
+    "source_citation": "Sri Lanka Law Reports (1998) 1 Sri LR 170"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the second punishment imposed on the petitioners for ragging violated their fundamental rights under Article 12(1) of the Constitution, specifically regarding equality before the law and equal protection.",
+    "petitioner_claim": "The petitioners claimed that the second punishment was a second penalty for the same offence, was arbitrary, imposed without observing audi alteram partem, and that the amendment to the Disciplinary Code was applied retrospectively without express provision.",
+    "respondent_argument": "The respondents conceded that the second punishment infringed Article 12(1) but argued that no relief beyond a declaration should be granted due to the seriousness of the petitioners' conduct and the inadequacy of the original punishments.",
+    "key_facts": [
+      "Petitioners were teacher trainees found guilty of ragging freshers causing hospitalization.",
+      "Initial punishments suspended their internships (1 month for females, 2 months for males).",
+      "A further inquiry led to expulsion of male petitioners and extension of female internships by one year.",
+      "Petitioners admitted the offence but challenged the second punishment and retrospective application of disciplinary amendments.",
+      "Respondents acknowledged infringement of Article 12(1) but opposed substantive relief."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as guaranteeing equality before the law and equal protection, meaning that no person should be subjected to arbitrary or multiple punishments for the same offence without due process.",
+    "application_to_facts": "The court found that the second punishment was a violation of Article 12(1) because it was a second penalty for the same offence imposed without proper procedure. However, the court emphasized the gravity of the petitioners' conduct, describing it as cruel, inhuman, and degrading treatment causing serious harm to victims, and noted that the original punishments were lenient and inadequate.",
+    "principles_established": [
+      "Article 12(1) prohibits arbitrary and multiple punishments for the same offence without due process.",
+      "Ragging causing physical and mental harm is unacceptable and can justify severe disciplinary measures.",
+      "Courts have discretion to withhold relief even when fundamental rights are infringed if the conduct is egregious.",
+      "The public interest in deterrence and protection of victims can outweigh the petitioners' claims for relief."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioners' fundamental rights under Article 12(1) were infringed by the second punishment and the procedure leading to it, and granted a declaration to that effect. However, the court refused to grant any further relief, such as restoring the original punishments, due to the serious nature of the petitioners' misconduct.",
+    "disposition": "allowed_in_part",
+    "remedy_or_orders": "Declaration of infringement of Article 12(1) rights; no other relief granted."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's determination that the second punishment violated the petitioners' right to equality before the law and equal protection, but the court balanced this against the seriousness of the offence in deciding the remedy.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioners' fundamental rights under Article 12(1) were infringed by reason of the second punishment for the same offence and the antecedent procedure. However, their conduct amounted to cruel, inhuman and degrading treatment of the victims; the original punishments were therefore lenient and wholly inadequate.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1700,
+      "end_char": 2300
+    }
+  }
+}

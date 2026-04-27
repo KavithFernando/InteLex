@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_058-SLLR-SLLR-1996-V-2-ATHUKORALA-V.-JAY_209_C01__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 645/95",
+    "case_title": "Athukorala v. Jayaratne and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-08-30",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 645/95, decided on 30 August 1996"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Petitioner's transfer from a Divisional Secretariat within the territorial limits of the Local Government Body she was elected to, to another Secretariat outside that area, was an infringement of her fundamental rights under Article 12(2) due to discrimination based on political opinion.",
+    "petitioner_claim": "The Petitioner claimed that her transfer was not a lawful decision of the competent authority but was directed by the Secretary of the Ministry of Public Administration due to her political opinion, to restrain her from performing her duties as a member of the Pradeshiya Sabha, thus infringing her rights under Article 12(2).",
+    "respondent_argument": "The Respondents argued that the transfer was justified due to complaints of the Petitioner's political partiality and misconduct in her official duties, which adversely affected neutral administration. They also relied on the discretion under section 3.7 of Chapter XXXII of the Establishments Code and the need for impartial administration.",
+    "key_facts": [
+      "The Petitioner was a clerk at Hanwella Divisional Secretariat and a member of the Seethawaka Pradeshiya Sabha representing the United National Party.",
+      "She was transferred to Homagama Divisional Secretariat by the Chief Secretary of the Western Provincial Council upon a request from the Secretary of the Ministry of Public Administration.",
+      "The transfer was effected without informing the Petitioner of any allegations or inquiry.",
+      "The Respondents alleged political partiality and misconduct by the Petitioner but failed to provide evidence or initiate disciplinary proceedings.",
+      "Section 3.7 of the Establishments Code entitles elected local government officers to serve at a station close to their Local Authority, which was contravened by the transfer."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(2) as prohibiting discrimination on grounds including political opinion. The Court emphasized that the transfer was made due to the Petitioner's political opinion and activities without proper inquiry or evidence, thus constituting discrimination.",
+    "application_to_facts": "The Court found that the transfer was contrary to section 3.7 of the Establishments Code, which protects the right of elected local government officers to work close to their Local Authority. The Respondents' allegations of misconduct were unproven and vague, and the transfer was effectively a punitive measure based on political opinion, infringing Article 12(2).",
+    "principles_established": [
+      "Public officers elected to local government bodies have a right to serve at a workplace close to the Local Authority as a concession under section 3.7 of the Establishments Code.",
+      "Transfers motivated by political opinion without due process violate Article 12(2) of the Constitution.",
+      "Allegations of misconduct must be supported by evidence and proper inquiry before administrative action is taken.",
+      "Discretion under service rules cannot be exercised arbitrarily to infringe fundamental rights."
+    ],
+    "precedents_cited": [
+      "Madurapperuma v. A. G. S.C. 90/79"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the Petitioner's fundamental right under Article 12(2) was infringed by the transfer motivated by political opinion. The transfer was cancelled and the Petitioner was ordered to be reinstated at Hanwella. The 1st and 2nd Respondents were ordered to pay compensation and costs.",
+    "disposition": "granted",
+    "remedy_or_orders": "Transfer cancelled; Petitioner reinstated at Hanwella; 1st and 2nd Respondents to pay Rs 25,000 each as compensation and costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was central to the Court's reasoning as the Petitioner's transfer was found to be discriminatory based on political opinion, which is explicitly prohibited by this clause. The Court relied on this clause to declare the infringement and grant relief.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the transfer was effected because of the Petitioner's political opinion and activities without inquiry or evidence, violating section 3.7 of the Establishments Code and Article 12(2). The Respondents' affidavits were rejected as unproved and the transfer was declared unlawful.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

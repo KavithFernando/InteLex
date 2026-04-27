@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_042-SLLR-SLLR-2002-3-WIJERATNE-V.-VIJITH_090_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_379_93",
+    "case_title": "Wijeratne v. Vijitha Perera, Sub-Inspector of Police, Polonnaruwa and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-01-10",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 379/93, decided on 10 January 1994"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was lawfully arrested and informed of the reason for arrest in accordance with Article 13(1).",
+    "petitioner_claim": "The petitioner claimed he was arrested unlawfully without being given any reason and was detained by the police with the approval of the 2nd respondent.",
+    "respondent_argument": "The respondents denied arrest and detention, claiming the petitioner came voluntarily to the police station and was warned but not arrested.",
+    "key_facts": [
+      "The petitioner was detained overnight at the police station after police searched his house without a warrant or consent.",
+      "The petitioner was not given any reason for the search or arrest.",
+      "The respondents did not deny the arrest allegation in the complaint letter to the IGP.",
+      "The petitioner was a trade union leader involved in peaceful picketing activities."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) requires lawful arrest and informing the person of the reason. The petitioner was not given any lawful reason or authority for arrest or detention.",
+    "application_to_facts": "The police searched the petitioner’s house without a warrant or consent, seized posters unlawfully, and detained the petitioner overnight without lawful justification or informing him of the reason, thus violating Article 13(1).",
+    "principles_established": [
+      "Arrest must be according to law and the person must be informed of the reason.",
+      "Unlawful search and detention violate Article 13(1)."
+    ],
+    "precedents_cited": [
+      "Mohamed Faiz v. The Attorney-General and Six Others"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental rights under Article 13(1) were infringed by the unlawful arrest and detention.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation awarded to the petitioner; directions issued to police to respect fundamental rights."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the court’s finding that the petitioner was unlawfully arrested and detained without being informed of the reason, leading to a violation of his fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was not given any reason for the search or arrest; the respondents did not deny the arrest allegation; the police detained the petitioner overnight without lawful authority.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

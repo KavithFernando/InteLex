@@ -1,0 +1,57 @@
+{
+  "frame_id": "RQ1_016-SLLR-SLLR-1993-1-PALITHA-V.-O.-I.-C-_039_C02__13(4)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_880_92",
+    "case_title": "Palitha v. O.I.C., Police Station, Polonnaruwa and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1993-05-04",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 880/92, decided on 4 May 1993"
+  },
+  "clause": {
+    "article": "13(4)",
+    "text": "Punishment can only be imposed by a competent court and detention before trial is not punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s detention constituted unlawful punishment in violation of Article 13(4).",
+    "petitioner_claim": "The petitioner argued that his detention was unlawful and amounted to punishment without trial, infringing Article 13(4).",
+    "respondent_argument": "Respondents did not file any objection and did not contest the claim regarding the nature of detention.",
+    "key_facts": [
+      "Petitioner detained since 08.11.1989 without rehabilitation.",
+      "Petitioner was released on 30.04.1993 after prolonged detention.",
+      "No evidence of lawful punishment imposed by a competent court."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that detention before trial is not punishment but must be lawful and not arbitrary; any punishment must be imposed by a competent court.",
+    "application_to_facts": "Since the petitioner was detained without lawful order and not sent for rehabilitation, the detention was found to infringe Article 13(4) protections.",
+    "principles_established": [
+      "Detention before trial is not punishment but must be lawful.",
+      "Punishment can only be imposed by a competent court."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court declared that the petitioner’s rights under Article 13(4) were infringed and awarded compensation.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of infringement and Rs. 17,500 compensation."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(4) was materially engaged because the petitioner’s prolonged detention without lawful punishment by a competent court violated the constitutional protections.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court granted relief on the basis that detention without lawful order and rehabilitation violated Article 13(4), which limits punishment to competent courts.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

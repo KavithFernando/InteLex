@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_037-SLLR-SLLR-1990-V-1-SAMANTHILAKA-V.-E_081_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 65/88",
+    "case_title": "Samanthilaka v. Ernest Perera and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1990-06-11",
+    "source_citation": "Sri Lanka Law Reports [1990] 1 Sri L.R. 318"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was arrested and detained by the police except according to procedure established by law, violating Article 13(1).",
+    "petitioner_claim": "The petitioner claimed she was arrested and detained by police officers without following the procedure established by law, including being held without being informed properly and subjected to unlawful treatment.",
+    "respondent_argument": "The respondents argued that the failure to name the police officers personally as respondents rendered the petition fatally defective and that the officers were necessary parties.",
+    "key_facts": [
+      "Petitioner was arrested and detained by police without being produced before a judge.",
+      "Petitioner was subjected to interrogation and physical assault by police officers.",
+      "Petitioner was not informed properly of the reasons for arrest and detention.",
+      "Petitioner was a minor with limited resources and faced obstruction in gathering evidence.",
+      "Failure to name individual police officers as respondents was argued by respondents as a defect."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 13(1) protects the right to be free from arrest except according to law and requires proper procedure. The Court emphasized that the State is liable for violations by its agents, not the agents personally, and that failure to name individual officers is not fatal if executive action is established.",
+    "application_to_facts": "The Court found sufficient evidence that the petitioner was arrested and detained by police officers without following lawful procedure, including not being produced before a judge and being subjected to threats and assault, thus violating Article 13(1).",
+    "principles_established": [
+      "The State is liable for fundamental rights violations by its agents acting under color of office.",
+      "Failure to name individual officers as respondents is not fatal if the State's liability is established.",
+      "The Court balances the burden of proof with the petitioner's limited resources and obstacles faced."
+    ],
+    "precedents_cited": [
+      "Saman v. Leeladasa and Another [1989] 1 Sri LR 1",
+      "Mariadas Raj v. Attorney-General and Others [1982] FRD 397",
+      "Ganeshanathan v. Vivienne Goonewardene and Another [1984] 1 Sri LR 319"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner was arrested and detained without following procedure established by law, violating Article 13(1), entitling her to a declaration of violation.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of violation of Article 13(1); compensation of Rs. 25,000 and costs of Rs. 2,500 ordered."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) is central to the Court's determination that the petitioner’s arrest and detention were unlawful, forming a key basis for the finding of violation and remedy.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was arrested and detained by police without being produced before a judge and was subjected to threats and assault, as supported by affidavits and the Medico-Legal Report.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

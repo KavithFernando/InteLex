@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_044-SLLR-SLLR-1999-V-1-MAHANAMA-TILAKARA_092_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 595/98",
+    "case_title": "Mahanama Tilakaratne v. Bandula Wickramasinghe, Senior Superintendent of Police and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-07-21",
+    "source_citation": "Sri Lanka Law Reports [1999] 1 Sri LR 372"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the detention of the petitioner after arrest was lawful and complied with Article 13(2) of the Constitution, including timely production before a judge.",
+    "petitioner_claim": "The petitioner claimed that after his unlawful arrest, he was detained unlawfully in police custody without being produced before the Magistrate as ordered, violating Article 13(2).",
+    "respondent_argument": "The respondents argued that the petitioner was produced before the Chief Magistrate, Colombo, and that the detention was lawful.",
+    "key_facts": [
+      "The Magistrate Kesbewa ordered that the petitioner be produced before him the day after arrest.",
+      "The petitioner was not produced before the Kesbewa Magistrate but instead produced before the Chief Magistrate, Colombo, on the next day.",
+      "The production before the Chief Magistrate was on false grounds of unrest and danger to the petitioner's life at Kesbewa.",
+      "The petitioner was detained in police custody from about 2:30 am to 12:45 pm on 11th September without access to lawyers.",
+      "The court found the detention was unnecessary and unreasonable."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires that any person detained be brought promptly before a judge and not be held without legal authority. The court emphasized that failure to produce the detainee before the appropriate magistrate as ordered and prolonged detention without legal justification violates this constitutional protection.",
+    "application_to_facts": "The court found that the petitioner was not produced before the Magistrate Kesbewa as ordered but was instead produced before another magistrate on false pretenses. The detention in police custody was prolonged and without lawful justification, violating Article 13(2).",
+    "principles_established": [
+      "Detained persons must be produced before a judge promptly as required by law.",
+      "Detention without production before a judge or without legal order is unlawful.",
+      "False or dishonest reasons for delay in production violate constitutional rights."
+    ],
+    "precedents_cited": [
+      "Senaratna v. Punya de Silva and Others (1995) 1 Sri LR 272"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the detention of the petitioner without production before the Magistrate Kesbewa and the prolonged detention in police custody violated Article 13(2) of the Constitution.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation awarded as per the order related to the fundamental rights violations."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) is central to the court's finding that the petitioner was unlawfully detained without being brought before the appropriate magistrate as required by law, constituting a violation of fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was detained at the CID office from 2:30 am to 12:45 pm on 11th September without access to lawyers and was not produced before the Kesbewa Magistrate as ordered; instead, he was produced before the Chief Magistrate on false grounds.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

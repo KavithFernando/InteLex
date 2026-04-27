@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_010-SLLR-SLLR-1991-V2-SIRISENA-AND-OTHER_010_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 14/90",
+    "case_title": "Sirisena and Others v. Earnest Perera and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1991-05-08",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 14/90, decided on 7-8 May 1991"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the 1st and 2nd Petitioners were subjected to torture or cruel, inhuman or degrading treatment by the police in violation of Article 11 of the Constitution.",
+    "petitioner_claim": "The 1st and 2nd Petitioners alleged that during their unlawful detention from 19th to 22nd April 1990, they were assaulted, kicked, dragged by their hair, and subjected to cruel, inhuman or degrading treatment by the police.",
+    "respondent_argument": "The Respondents denied the allegations of torture or cruel treatment and argued that the Petitioners were not detained unlawfully or subjected to such treatment.",
+    "key_facts": [
+      "1. The 1st and 2nd Petitioners were detained by police from 19th to 22nd April 1990.",
+      "2. Petitioners claimed physical assault causing visible injuries and blood stains.",
+      "3. Petitioners were produced before the Coroner's Court on 21st April without visible injuries noted.",
+      "4. No medical evidence was produced to corroborate the alleged injuries.",
+      "5. Affidavits supporting the Petitioners' claims were not fully reliable or corroborated."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that while the Petitioners were subjected to harsh and unlawful treatment, the evidence was insufficient to prove that it amounted to torture or cruel, inhuman or degrading treatment under Article 11.",
+    "application_to_facts": "The absence of medical evidence, lack of visible injuries noted by the Coroner, and the nature of affidavits led the Court to reject the claim of violation of Article 11 despite accepting unlawful detention and harsh treatment.",
+    "principles_established": [
+      "Allegations of torture or cruel treatment require cogent and corroborated evidence.",
+      "Medical evidence or visible signs at official proceedings are important to substantiate claims under Article 11.",
+      "Unlawful detention and harsh treatment do not automatically amount to torture or cruel, inhuman or degrading treatment."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court rejected the Petitioners' claim of infringement of Article 11 rights due to insufficient evidence.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The Petitioners alleged violation of Article 11 due to police assault and cruel treatment during detention, but the Court found the evidence insufficient to establish such a violation, making the clause central to this part of the decision.",
+    "relevance_level": "high",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "Petitioners claimed assault causing wounds and blood stains; however, no medical evidence or visible injuries were noted by the Coroner, and affidavits were not fully reliable.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

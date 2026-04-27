@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_001-SLLR-SLLR-1989-V-1-SAMAN-V.-LEELADAS_002_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 4/88",
+    "case_title": "Saman v. Leeladasa and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1988-12-12",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 4/88, decided on 12 December 1988"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner's arrest and detention violated Article 13(1) of the Constitution, and whether the assault by the prison guard constituted a violation of fundamental rights.",
+    "petitioner_claim": "The petitioner claimed relief for violation of fundamental rights under Article 11 due to assault by the 1st respondent, but not for unlawful arrest or detention under Article 13(1).",
+    "respondent_argument": "Respondents argued that the petitioner was lawfully arrested and detained, and that the assault was not authorized or within the scope of employment, thus not constituting executive or administrative action under Article 126.",
+    "key_facts": [
+      "Petitioner was arrested on 29.07.87 and remanded to Galle prison.",
+      "On 1.12.87, the petitioner was assaulted by the 1st respondent, a prison guard, while bathing near the prison cell.",
+      "The petitioner suffered a fracture and other injuries consistent with assault by baton.",
+      "The petitioner was hospitalized from 2.12.87 to 11.12.87 and released on bail on 11.12.87.",
+      "The petitioner filed the fundamental rights application on 7.1.88, more than one month after the assault."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) protects against unlawful arrest without informing the reason. The petitioner's arrest and detention were lawful and not challenged under Article 13(1). The assault by the prison guard was considered an unauthorized act but done within the scope of his employment, thus constituting executive or administrative action under Article 126.",
+    "application_to_facts": "The petitioner was lawfully arrested and detained; the assault occurred during his lawful custody. The court found no violation of Article 13(1) as the arrest was lawful and the petitioner was informed. The assault was a violation of Article 11, not Article 13(1).",
+    "principles_established": [
+      "Article 13(1) protects against unlawful arrest and requires informing the reason for arrest.",
+      "Lawful arrest and detention do not violate Article 13(1).",
+      "Assault by a public officer within the scope of employment may constitute executive action under Article 126 but does not implicate Article 13(1) unless arrest is unlawful."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court did not find any violation of Article 13(1) in the petitioner's arrest or detention. Relief was not sought under Article 13(1) and was not granted. The application was allowed only for violation of Article 11 due to assault.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was relevant to determine if the petitioner's arrest was lawful and if he was informed of the reason, but the court found no violation of this clause as the arrest was lawful and the petitioner was informed. The clause was thus considered but not central to the relief granted.",
+    "relevance_level": "medium",
+    "match_type": "mentioned_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was arrested on 29.07.87 and produced before the Magistrate on 18.10.87. The petitioner was not challenging the arrest or detention but sought relief for assault on 1.12.87. The court found the arrest lawful and the petitioner was informed of the reason.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 50,
+      "end_char": 400
+    }
+  }
+}

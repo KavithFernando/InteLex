@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_022-SLLR-SLLR-2008-V-1-THE-ATTORNEY-GENE_054_C01__13(3)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_79A_2007_24_2008_25_2008",
+    "case_title": "The Attorney-General v Segulebbe Latheef and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2008-08-19",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Appeal Nos. 79A/2007, 24/2008 and 25/2008, decided on 19 August 2008"
+  },
+  "clause": {
+    "article": "13(3)",
+    "text": "Any accused person has the right to a fair trial and legal representation."
+  },
+  "case_context": {
+    "legal_issue": "Whether the failure of trial judges to inform accused persons of their right to elect trial by jury violated the accused's right to a fair trial under Article 13(3) of the Constitution.",
+    "petitioner_claim": "The accused-appellants argued that the trial judges' failure to inform them of their right to be tried by a jury was a violation of their legal rights and was fatal to their convictions.",
+    "respondent_argument": "The Attorney-General conceded that the jury option was not given but argued that since the accused were represented by counsel, no substantial prejudice occurred and that the defect was a technical procedural irregularity that did not vitiate the conviction.",
+    "key_facts": [
+      "Article 13(3) guarantees the right to a fair trial and legal representation.",
+      "Section 195(ee) of the Code of Criminal Procedure Act imposes a duty on trial judges to inquire if the accused elects trial by jury and to inform them of this right.",
+      "The accused were not informed of their right to elect trial by jury during indictment service.",
+      "The Court of Appeal held that failure to comply with section 195(ee) vitiates the conviction.",
+      "The Supreme Court considered whether this failure violated the constitutional right to a fair trial."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(3) guarantees the right to a fair trial, which includes the right to be heard personally or through legal representation. The right to a fair trial encompasses various procedural safeguards, including the right to be informed of legal rights such as the option to trial by jury. The trial judge has a mandatory duty to inform the accused of this right and inquire about their election. Failure to do so is an illegality, not a mere irregularity.",
+    "application_to_facts": "Since the trial judges failed to inform the accused of their right to elect trial by jury as required by section 195(ee), this constituted a violation of the accused's constitutional right to a fair trial under Article 13(3). The absence of this inquiry and information was not cured by the presence of counsel and was a fatal defect.",
+    "principles_established": [
+      "The right to a fair trial under Article 13(3) includes the right to be informed of and to elect trial by jury where applicable.",
+      "Trial judges have a mandatory duty to inform the accused of their jury trial rights at the time of indictment service.",
+      "Non-compliance with this duty is an illegality that vitiates the conviction.",
+      "Representation by counsel does not cure the failure to inform the accused of their jury trial rights."
+    ],
+    "precedents_cited": [
+      "Attorney-General v Thennakoon Arachchige Sunil Ratnasiri (CA 134/70 C.A.M.19.07.1999)"
+    ]
+  },
+  "outcome": {
+    "holding": "The Supreme Court dismissed the State appeals and held that the failure to inform the accused of their right to elect trial by jury violated Article 13(3) and was fatal to the convictions. The cases were remanded to the High Courts for compliance with the law and to conclude the trials.",
+    "disposition": "dismissed",
+    "remedy_or_orders": "Case records sent back to the original High Courts to comply with the law and conclude the trials early."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(3) was central to the court's reasoning as it guarantees the right to a fair trial and legal representation, which includes procedural rights such as being informed of the option to trial by jury. The court relied on this constitutional guarantee to find the trial judges' failure an illegality that vitiated the convictions.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Constitution by Article 13(3) expressly guarantees the right of a person charged with an offence to be heard by person or by an Attorney-at-law at a fair trial by a competent court. The trial judge must inform the accused of the right to elect trial by jury; non observance is an illegality and not a mere irregularity.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

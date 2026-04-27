@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_026-SLLR-SLLR-2008-V-1-RANAWEERA-AND-OTH_025_C02__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION 654/2003",
+    "case_title": "Ranaweera and Others v Sub-Inspector Wilson Siriwardena and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2005-09-06",
+    "source_citation": "[2008] 1 Sri L.R 260"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' fundamental rights application was barred by the one-month time limit prescribed by Article 126 and whether the petitioners could rely on section 13(1) of the Human Rights Commission Act to exclude time.",
+    "petitioner_claim": "The petitioners claimed that their complaint to the Human Rights Commission within one month of the alleged violation suspended the running of the time limit for filing the fundamental rights application.",
+    "respondent_argument": "The respondents argued that the petitioners' application was filed out of time and that mere complaint to the Human Rights Commission does not suspend the time limit unless an inquiry is pending before the Commission.",
+    "key_facts": [
+      "The alleged violation occurred on 23.09.2003.",
+      "The fundamental rights application was filed on 5.12.2003, beyond the one-month limit.",
+      "The petitioners made a complaint to the Human Rights Commission on 22.10.2003.",
+      "No evidence was produced that an inquiry was pending before the Human Rights Commission.",
+      "The petitioners did not seek exemption from the time bar on any adequate excuse."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the one-month time limit under Article 126 is mandatory. Section 13(1) of the Human Rights Commission Act excludes from the time calculation only the period during which an inquiry is pending before the Commission, not the mere act of making a complaint. Since the petitioners failed to show that an inquiry was pending, they could not rely on this provision to extend the time limit.",
+    "application_to_facts": "The petitioners filed their application after the one-month period without showing any adequate excuse or that an inquiry was pending before the Human Rights Commission. The respondents raised the time bar at the first opportunity, and the Court upheld the objection, dismissing the application as time barred.",
+    "principles_established": [
+      "The one-month time limit for fundamental rights applications is mandatory but may be extended for adequate excuse.",
+      "Mere complaint to the Human Rights Commission does not suspend the time limit; only a pending inquiry does.",
+      "Respondents must raise time bar objections at the first opportunity or risk waiver.",
+      "Failure to produce evidence of a pending inquiry results in dismissal on time bar grounds."
+    ],
+    "precedents_cited": [
+      "Edirisinghev Navaratnam",
+      "Subasinghe v Inspector General of Police"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court upheld the preliminary objection on time bar and dismissed the petitioners' fundamental rights application without costs.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 grants the right to apply for fundamental rights violations but is subject to procedural requirements including time limits under Article 126. The Court's decision on time bar directly affects the exercise of this right, making the clause relevant to the outcome.",
+    "relevance_level": "high",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that the petitioners are not entitled to rely on section 13(1) of the Human Rights Commission Act to seek exemption from the time limit set out in Article 126(2) of the Constitution and accordingly upheld the second preliminary objection and dismissed the application.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2700,
+      "end_char": 3000
+    }
+  }
+}

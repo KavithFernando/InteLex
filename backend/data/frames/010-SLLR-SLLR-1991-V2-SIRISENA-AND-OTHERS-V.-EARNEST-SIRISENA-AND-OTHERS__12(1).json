@@ -1,0 +1,74 @@
+{
+  "frame_id": "RQ1_010-SLLR-SLLR-1991-V2-SIRISENA-AND-OTHER_048_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 14/90",
+    "case_title": "Sirisena and Others v. Earnest Perera and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1991-05-08",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 14/90, decided on 7 and 8 May 1991"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Petitioners' fundamental rights under Article 12(1) were infringed by unlawful arrest and detention by police officers.",
+    "petitioner_claim": "The Petitioners claimed unlawful arrest and detention by the 2nd and 3rd Respondents without suspicion of any offence, and that their rights to equal protection under the law were violated.",
+    "respondent_argument": "The Respondents denied unlawful detention and torture allegations, contending the Petitioners were not arrested but only asked to report voluntarily, and that the police acted on reasonable suspicion to investigate the accident.",
+    "key_facts": [
+      "Petitioners were carpenters employed by Ariyapala and were in a jeep involved in a fatal accident on 4 April 1990.",
+      "Petitioners were detained by police from 19 April to 22 April 1990 to extract statements implicating Ariyapala's son as the driver.",
+      "3rd to 5th Petitioners were arrested on 21 April 1990 when visiting the Coroner's Court.",
+      "Petitioners alleged threats, assault, and unlawful detention without proper procedure.",
+      "Respondents failed to produce investigation notes and statements, casting doubt on their version."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(1) as guaranteeing equal protection of the law, which includes protection against arbitrary arrest and detention. The Court emphasized that deprivation of liberty without lawful procedure violates this right.",
+    "application_to_facts": "The Court found that the Petitioners were unlawfully detained without suspicion of an offence and without following legal procedure, thus denying them equal protection under the law. The Respondents' failure to produce evidence and contradictory statements supported the Petitioners' claims.",
+    "principles_established": [
+      "Arbitrary arrest and detention violate the right to equal protection under Article 12(1).",
+      "State officers can be held personally liable for infringements of fundamental rights.",
+      "The State and offending officers may be ordered to pay compensation for violations."
+    ],
+    "precedents_cited": [
+      "State of Punjab v. Ajaib Singh AIR 1953 S.C. 10",
+      "Namasivayam v. Gunawardena [1989] 1 Sri LR 394",
+      "Somawathie v. Weerasinghe S.C. Application No. 227/88",
+      "Saman v. Leeladasa [1989] (1) Sri LR 7",
+      "Thadchanamoorthi v. Attorney-General 1 FRD 129",
+      "Velumurugu v. Attorney-General 1 FRD 180",
+      "Ratnasara Thero v. Udugampola 2 FRD 364",
+      "Mariadas v. Attorney-General 2 FRD 397",
+      "Vivienne Goonewardena v. Perera 2 FRD 426",
+      "Kapugeckiyana v. Hettiarachchi (1984) 1 Sri LR 153",
+      "Piyasiri v. Fernando [1988] 1 Sri LR 173",
+      "Spicer v. Holt [1976] 3 All ER 71",
+      "Karunaratne v. Rupasinghe S.C. 71/90"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the Petitioners' rights under Article 12(1) were infringed by unlawful arrest and detention by the 2nd and 3rd Respondents. Compensation was awarded against both the State and the Respondents personally.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declarations of infringement, compensation payments to Petitioners by State and Respondents, and an inquiry directed to the Inspector General of Police."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it protects individuals from arbitrary deprivation of liberty and guarantees equal protection under the law, which was violated by the unlawful detention of the Petitioners.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Petitioners were detained unlawfully from 19 April to 22 April 1990 without suspicion of an offence, subjected to threats and assault, and the Respondents failed to produce investigation notes or statements supporting their version.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

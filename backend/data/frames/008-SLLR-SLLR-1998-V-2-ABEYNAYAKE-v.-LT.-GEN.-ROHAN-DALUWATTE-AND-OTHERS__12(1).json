@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_008-SLLR-SLLR-1998-V-2-ABEYNAYAKE-V.-LT._043_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_412_97",
+    "case_title": "Abeynayake v. Lt. Gen. Rohan Daluwatte and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-01-15",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 412/97, decided on 15 January 1998"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner's summary removal from active service without reasonable notice violated his fundamental rights under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that his removal from active service was arbitrary, capricious, and unreasonable, lacking reasonable notice, and thus violated his right to equal protection under Article 12(1). He also claimed entitlement to the same rights and privileges as officers in the Regular Force and that proper medical procedures were not followed.",
+    "respondent_argument": "The respondent contended that the petitioner was medically unfit for active service, justifying his removal under Reserve Regulation 13. The respondent argued that the petitioner failed to report for duty at Vavuniya due to his medical condition and that the removal was lawful and within the Army Commander's powers.",
+    "key_facts": [
+      "The petitioner was an officer in the Sri Lanka Army Regular Reserve with a history of heart disease.",
+      "He was medically certified to serve only in Colombo due to the need for specialized cardiac care.",
+      "The petitioner was transferred to Vavuniya despite medical advice and appealed the transfer.",
+      "The Army Commander removed the petitioner from active service effective 31 May 1997 without reasonable notice.",
+      "The petitioner had an exemplary service record and was fit only for sedentary duties in Colombo."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as implying legal protections against arbitrary and unreasonable actions by the state, including the requirement of reasonable notice before termination of service. The court held that while the Army Commander had the power to remove an officer from active service for lack of physical fitness under Reserve Regulation 13, this power was not unfettered and must be exercised reasonably.",
+    "application_to_facts": "The petitioner was medically unfit for active service outside Colombo and thus could not be classified even as fit for sedentary duties (SD) under Army Order No. 55. The Commander had the power to remove him from active service on this ground. However, the summary removal without reasonable notice was arbitrary and unreasonable, violating the protections implied by Article 12(1). The court found that reasonable notice (at least three months) was required and was not given.",
+    "principles_established": [
+      "Reasonable notice of termination is a legal protection implied under Article 12(1).",
+      "Physical fitness is a continuing precondition for active service under Reserve Regulation 13.",
+      "The power to remove an officer from active service must be exercised reasonably and not arbitrarily.",
+      "Medical boards have limited power to recategorize fitness only within prescribed categories."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s removal from active service without reasonable notice was arbitrary and violated Article 12(1). The petitioner was entitled to three months' salary as compensation, but other claims were dismissed.",
+    "disposition": "granted",
+    "remedy_or_orders": "Payment of three months' salary including all allowances and costs of Rs. 3,000 to the petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects individuals from arbitrary state action and guarantees equal protection under the law, which includes the implied right to reasonable notice before termination of service.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court stated that reasonable notice of termination is one of the legal protections implied in Article 12(1) and that the petitioner's summary release without such notice was arbitrary and unreasonable.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

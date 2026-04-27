@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_024-SLLR-SLLR-1982-2-THE-ASSOCIATED-NEWS_035_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Appeals 10/81 and 13/81",
+    "case_title": "The Associated Newspapers of Ceylon Ltd. v. Jayasinghe",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1982-06-22",
+    "source_citation": "Sri Lanka Law Reports (1982) 2 S.L.R. 595"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the applications for relief made to the Labour Tribunal in English during the period of the 1972 Constitution were invalid for not being in Sinhala as required by Article 11(1) of the 1972 Constitution.",
+    "petitioner_claim": "The petitioner (The Associated Newspapers of Ceylon Ltd.) argued that the applications for relief were pleadings and thus had to be in Sinhala under Article 11(1) of the 1972 Constitution, and since they were made in English, they should be rejected as null and void.",
+    "respondent_argument": "The respondents (employees) contended that the applications for relief under section 31B of the Industrial Disputes Act are not pleadings and therefore not subject to the Sinhala language requirement; also, no prejudice was caused by the applications being in English.",
+    "key_facts": [
+      "The Labour Tribunal held the termination of employees' services was unjustified and awarded back wages and compensation.",
+      "The Court of Appeal affirmed unjust termination and compensation but deleted back wages.",
+      "The applications for relief were made in English during the 1972 Constitution period when Article 11(1) required pleadings to be in Sinhala.",
+      "The Constitution allowed Tamil pleadings in Northern and Eastern provinces with Sinhala translation.",
+      "The Minister of Justice could authorize use of other languages but not parties themselves."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted 'pleadings' in Article 11(1) narrowly, excluding applications for relief under section 31B of the Industrial Disputes Act, which must be signed by the applicant and thus can be made in a language the applicant understands. The language requirement of Sinhala for tribunal records does not preclude applications in English, provided a Sinhala translation is made for the record. Non-compliance with Article 11(1) without prejudice results only in irregularity, not nullity.",
+    "application_to_facts": "Since the applications were signed by the applicants and made in English, and no prejudice was caused to the parties (including the petitioner who also filed objections in English), the applications were valid. The Tribunal's failure to comply strictly with the Sinhala language requirement was not fatal.",
+    "principles_established": [
+      "Applications for relief under section 31B are not 'pleadings' under Article 11(1).",
+      "Applicants must be allowed to make applications in a language they understand.",
+      "Language requirements in Article 11(1) are procedural and non-compliance without prejudice is an irregularity, not a nullity.",
+      "Tribunals must ensure Sinhala translations for records but applicants are not at fault if this is not done."
+    ],
+    "precedents_cited": [
+      "Dixon v. Calcraft (1892) 1 Q.B. 458",
+      "Nelungaloo Ply Ltd. v. The Commonwealth (1947-1948) 75 C.L.R. 495",
+      "S.C. Minutes of 7.8.1978 (Election Petition Appeals consolidated)"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the applications for relief made in English were valid and not null and void despite the Sinhala language requirement in Article 11(1).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11(1) was central to the dispute over the language in which applications for relief could be made to the Labour Tribunal. The court's interpretation of 'pleadings' under this clause directly affected the validity of the applications and the outcome of the appeals.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that the word 'pleadings' in Article 11(1) does not include an application for relief under section 31B of the Industrial Disputes Act and that the language requirement does not preclude applications being made in English if a Sinhala translation is made for the record.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 590,
+      "end_char": 1300
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_017-SLLR-SLLR-1988-V-1-THE-PUBLIC-SERVIC_088_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_4_87",
+    "case_title": "The Public Services United Nurses Union v. Montague Jayewickrema, Minister of Public Administration and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1988-04-29",
+    "source_citation": "S.C. Application No 4/87, decided on 29 April 1988"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Cabinet decision to grant special salary increments to non-striking nurses during a strike violated the fundamental right of equality under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that the Cabinet decision discriminated against striking nurses by granting increments only to non-striking nurses, violating their right to equality before the law and equal protection under Article 12(1).",
+    "respondent_argument": "The respondents contended that the increments were a reward for devotion to duty and to discourage future strikes, and that the decision was a legitimate administrative action.",
+    "key_facts": [
+      "The Public Services United Nurses Union went on strike from 18 March to 16 April 1986 demanding salary increases.",
+      "The strike was declared illegal as nursing was declared an essential service under Emergency Regulations.",
+      "Striking nurses were allowed to resume work without loss of back pay after the strike was settled.",
+      "The Cabinet granted special increments to about 2,600 nurses who did not strike or reported for duty during the strike.",
+      "The increments were granted by a Cabinet decision based on a proposal from a rival union affiliated with the ruling party."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equality before the law and equal protection, requiring classifications to be based on intelligible differentia with a rational relation to the objective. Arbitrary or ad hoc classifications that confer benefits on a limited class without general rules violate this principle.",
+    "application_to_facts": "The Cabinet decision was an ad hoc measure granting increments to a narrow class of nurses primarily affiliated with a rival union, without following the established rules and procedures for salary increments. This created an unjustified advantage and discrimination against the striking nurses and other public officers similarly situated.",
+    "principles_established": [
+      "Government service status is governed by law and statutory rules, not mere contract.",
+      "Salary increments and related benefits must be governed by general rules made by the Cabinet under Article 55(4).",
+      "Classifications for benefits must be based on intelligible differentia and rational relation to the objective.",
+      "Ad hoc and arbitrary benefits violate the equality guarantee under Article 12(1)."
+    ],
+    "precedents_cited": [
+      "Roshan Lai v. Union of India AIR 1967 SC 1894",
+      "Abeywickrema v. Pathirana [1986] Sri LR 120",
+      "R. v. Secretary of State for the Home Department (1985) 1 All ER 40"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the Cabinet decision granting special increments to a limited class of nurses violated Article 12(1) and declared the decision null and void.",
+    "disposition": "granted",
+    "remedy_or_orders": "The application was allowed with costs of Rs. 5,000 payable by the State to the petitioners."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects equality before the law and equal protection, which the court found was breached by the arbitrary and discriminatory Cabinet decision.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the Cabinet proposal granting ad hoc incremental benefits to a very limited class of officers violated the equality provisions contained in Article 12 of the Constitution and declared the decision null and void.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2200,
+      "end_char": 2600
+    }
+  }
+}

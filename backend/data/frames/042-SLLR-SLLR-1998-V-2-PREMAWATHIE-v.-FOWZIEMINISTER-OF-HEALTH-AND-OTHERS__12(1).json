@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_042-SLLR-SLLR-1998-V-2-PREMAWATHIE-V.-FO_188_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 528/96",
+    "case_title": "H. M. Premawathie v. Fowzie, Minister of Health and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-09-25",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 528/96, decided on 25 September 1996"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner's fundamental right under Article 12(1) was infringed by her demotion and the arbitrary disciplinary actions taken against her.",
+    "petitioner_claim": "The petitioner argued that her demotion to a labourer and transfer to another hospital without back wages was arbitrary, unreasonable, and a violation of her right to equal protection under Article 12(1).",
+    "respondent_argument": "The respondents justified the disciplinary actions based on alleged misconduct and inefficiency, asserting the decisions were lawful and justified.",
+    "key_facts": [
+      "Petitioner was a confirmed telephone operator in the Ministry of Health.",
+      "She was interdicted and charged with misconduct but exonerated of serious charges by the inquiring officer.",
+      "The Director General dismissed her without reasons and contrary to the inquiring officer's findings.",
+      "The Public Service Commission reinstated her but demoted her to labourer without back wages.",
+      "The petitioner claimed the demotion was grossly disproportionate and discriminatory."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equal protection of the law and prohibits arbitrary and disproportionate punishment. The court emphasized that disciplinary actions must be reasonable and just, and the petitioner was entitled to protection against unfair treatment.",
+    "application_to_facts": "The court found the PSC's decision to demote the petitioner without back wages was arbitrary and grossly disproportionate to the alleged misconduct, thus violating her right to equal protection under Article 12(1). The court also noted the lack of proper reasons and opportunity to defend against some charges.",
+    "principles_established": [
+      "Article 12(1) protects against arbitrary and unreasonable administrative actions.",
+      "Disciplinary punishments must be proportionate to the misconduct.",
+      "The court has a duty to make just and equitable orders even if parties propose settlements."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court granted relief for infringement of Article 12(1), ordered reinstatement with back wages and increments, and awarded compensation and costs.",
+    "disposition": "granted",
+    "remedy_or_orders": "Reinstatement as telephone operator with back wages from interdiction date, increments for 1994-1996, Rs. 25,000 compensation, and costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects the petitioner from arbitrary and disproportionate disciplinary actions, leading to the court's order for just and equitable relief.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found the petitioner's fundamental right to equal protection was infringed by the PSC's arbitrary and disproportionate punishment, including demotion without back wages, and ordered reinstatement with back wages and compensation.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

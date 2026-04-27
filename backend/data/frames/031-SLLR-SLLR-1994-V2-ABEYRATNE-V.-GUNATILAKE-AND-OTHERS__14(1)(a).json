@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_031-SLLR-SLLR-1994-V2-ABEYRATNE-V.-GUNAT_058_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 270/92",
+    "case_title": "Abeyratne v. Gunatilake and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1992-09-24",
+    "source_citation": "[1994] 2 Sri L.R. 294"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the denial of a loudspeaker permit to the petitioner for holding a public meeting violated his fundamental right to freedom of speech and expression under Article 14(1)(a) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that by refusing to issue a loudspeaker permit, the respondents violated his fundamental right to freedom of speech and expression guaranteed under Article 14(1)(a).",
+    "respondent_argument": "The respondents contended that the refusal was justified due to the likelihood of a breach of the peace, as another political meeting was scheduled on the same day and venue, and that the freedoms under Article 14(1)(a) may be lawfully restricted in the interests of public order.",
+    "key_facts": [
+      "Petitioner applied for a loudspeaker permit to hold a public meeting on 9 May 1992 and to advertise it using vehicles.",
+      "Another application for a loudspeaker permit was received on the same day from a rival political party member for a meeting on the same date.",
+      "The petitioner received no timely response to his application and only got a refusal letter two days before the meeting citing risk of breach of peace.",
+      "The police allegedly failed to properly inform or summon the petitioner to discuss the conflict of applications.",
+      "The original application of the petitioner was lost or misplaced by the police."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court recognized that freedom of speech and expression under Article 14(1)(a) includes the use of amplifying devices for public meetings and that unreasonable withholding of permission for such devices would render the constitutional guarantee meaningless. However, these freedoms can be lawfully restricted in the interest of public order.",
+    "application_to_facts": "The court found that the respondents did not act reasonably or promptly in handling the petitioner's application, failed to properly communicate with the petitioner, and that the alleged rival application was likely a pretext to deny the permit. The denial of the permit was therefore an unjustified violation of the petitioner's freedom of speech.",
+    "principles_established": [
+      "Freedom of speech includes the right to use amplifying devices for public meetings.",
+      "Restrictions on fundamental rights must be reasonable and justified by public order concerns.",
+      "Authorities must act promptly and fairly when handling applications affecting fundamental rights."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the denial of the loudspeaker permit violated the petitioner's fundamental right to freedom of speech under Article 14(1)(a) and awarded compensation and costs to the petitioner.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 1st and 2nd respondents were directed to pay the petitioner Rs. 2500 each as compensation and Rs. 1000 each as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) guarantees freedom of speech and expression, which the court found was directly infringed by the refusal to grant a loudspeaker permit necessary for the petitioner to hold and advertise a public meeting.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "By denying the petitioner a permit for loudspeakers to enable him to hold a public meeting the petitioner’s fundamental right of the freedom of speech enshrined in Article 14(1)(a) of the Constitution is violated.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

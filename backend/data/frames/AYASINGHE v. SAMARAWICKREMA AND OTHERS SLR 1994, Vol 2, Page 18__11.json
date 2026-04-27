@@ -1,0 +1,71 @@
+{
+  "frame_id": "RQ1_AYASINGHE_V._SAMARAWICKREMA_AND_OTHERS_S_065_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 157/91",
+    "case_title": "Ayasinghe v. Samarawickrema and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-01-12",
+    "source_citation": "[1994] LKSC 8; (1994) 2 Sri LR 18"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment in police custody, infringing Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioner alleged unlawful arrest, illegal detention, and torture while in police custody, including a specific description of torture causing a fractured collar bone and inability to speak.",
+    "respondent_argument": "The respondents denied the torture allegations, attributing the petitioner's injuries to a fall during an escape attempt and use of minimum force by police; they also disputed the date of arrest and justified detention under Emergency Regulations.",
+    "key_facts": [
+      "Petitioner arrested on 23.07.91 (disputed by respondents who claimed 06.08.91).",
+      "Petitioner detained at Eheliyagoda Police Station until 06.08.91 without valid detention order.",
+      "Petitioner tortured at Deraniyagala Police Station on 08.08.91 causing serious injuries.",
+      "Medical evidence confirmed fracture and injuries consistent with torture, not a fall.",
+      "Detention orders under Emergency Regulations were partly unlawful and did not justify initial detention."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 11 prohibits torture and cruel, inhuman or degrading treatment. The injuries and medical evidence clearly established that the petitioner was subjected to torture while in custody. The Court rejected the respondents' version attributing injuries to a fall, finding it inconsistent with the evidence.",
+    "application_to_facts": "The Court found the petitioner was arrested earlier than the respondents claimed and unlawfully detained without proper orders. The medical reports and petitioner’s testimony about torture were accepted. The police officers involved were held responsible for the violation of fundamental rights under Article 11.",
+    "principles_established": [
+      "Torture and cruel, inhuman or degrading treatment are prohibited under Article 11.",
+      "Detention without lawful authority and torture in custody constitute violations of fundamental rights.",
+      "Police officers can be held personally liable for acts of torture and unlawful detention.",
+      "The Court will not endorse violations of fundamental rights under the guise of investigating subversive activities."
+    ],
+    "precedents_cited": [
+      "Nanayakkara v. Henry Perera [1985] 2 Sri LR 375",
+      "Chandra Kalyani Perera v. Captain Siriwardena [1992] 1 Sri LR 251",
+      "Wimal Vidyamuni v. Col. Jayatilleke S.C. Application No. 852/91",
+      "Sirisena v. Perera [1991] 2 Sri LR 97",
+      "Ratnapala v. Hector Dharmasiri S.C. Application No. 162/91",
+      "Amal Sudath Silva v. Kodituwakku [1987] 2 Sri LR 119",
+      "Premalal de Silva v. Inspector Rodrigo [1991] 2 Sri LR 307",
+      "Senthilnayagam v. Seneviratne [1981] 2 Sri LR 187",
+      "Dissanayake v. Superintendent Mahara Prison [1991] 2 Sri LR 247"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner’s fundamental rights under Article 11 were infringed by unlawful detention and torture by police officers. Compensation and costs were awarded to the petitioner, and the responsible officers were held liable.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was ordered to pay Rs. 18,500 and costs Rs. 1,500; the 3rd, 4th, and 5th respondents were ordered to pay Rs. 7,000, Rs. 5,000, and Rs. 8,000 respectively as compensation. The 6th respondent was directed to maintain records and ensure payment."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 is central to the Court’s reasoning as it prohibits torture and cruel treatment, which the petitioner proved occurred during unlawful detention. The Court’s decision to grant relief was based on the violation of this constitutional guarantee.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was tortured at the Deraniyagala Police Station causing a fractured collar bone and inability to speak; medical records confirmed injuries consistent with torture, not a fall as claimed by respondents.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

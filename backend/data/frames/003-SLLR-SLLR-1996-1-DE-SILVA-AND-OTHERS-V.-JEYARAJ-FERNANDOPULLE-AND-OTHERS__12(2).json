@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_003-SLLR-SLLR-1996-1-DE-SILVA-AND-OTHERS_016_C02__12(2)",
+  "created_at": "2024-04-27",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATIONS NOS. 66/95 & 67/95",
+    "case_title": "De Silva and Others v. Jeyaraj Fernandopulle and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-11-30",
+    "source_citation": "1996)1 Sri L.R."
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners were discriminated against on the ground of political opinion in violation of Article 12(2).",
+    "petitioner_claim": "The petitioners claimed that they were excluded from airport taxi services because they were predominantly supporters of the United National Party (UNP), while the new taxi service members were supporters of the People's Alliance (PA), constituting discrimination on political grounds.",
+    "respondent_argument": "The 1st respondent denied any political motivation or discrimination, asserting the new taxi service was lawfully introduced without political influence.",
+    "key_facts": [
+      "Petitioners were mostly UNP supporters; the new taxi service members were mostly PA supporters.",
+      "Petitioners were allegedly forced out and replaced by PA supporters.",
+      "The 1st respondent and others denied political discrimination or intimidation.",
+      "Police and airport authorities failed to prevent exclusion despite complaints."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 12(2) prohibits discrimination on political opinion. The court found that the exclusion of petitioners, predominantly UNP supporters, and their replacement by PA supporters, combined with intimidation and failure of protection, amounted to discrimination on political grounds.",
+    "application_to_facts": "The court accepted the petitioners' evidence that they were excluded due to their political affiliation and that the new taxi service was composed mainly of PA supporters, evidencing discrimination prohibited by Article 12(2).",
+    "principles_established": [
+      "Discrimination on political opinion in access to lawful occupation violates Article 12(2).",
+      "State actors' failure to prevent or acquiescence in such discrimination constitutes a violation."
+    ],
+    "precedents_cited": [
+      "Faiz v. Attorney-General and Others",
+      "Upaliratne v. Tikiri Banda and Others"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioners were discriminated against on political grounds in violation of Article 12(2) by the respondents.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declarations of infringement; compensation; orders for police and airport authorities to restore petitioners' rights."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) is central because the petitioners' exclusion and replacement by political opponents was found to be discrimination on political opinion, a ground explicitly protected by this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioners demonstrated that their exclusion from airport taxi services was due to their political affiliation as UNP supporters, while the new taxi service was composed mainly of PA supporters, evidencing discrimination.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

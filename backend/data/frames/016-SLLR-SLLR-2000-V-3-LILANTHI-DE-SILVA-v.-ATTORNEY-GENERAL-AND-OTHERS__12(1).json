@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_016-SLLR-SLLR-2000-V-3-LILANTHI-DE-SILVA_084_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_428_2000",
+    "case_title": "Lilanthi de Silva v. Attorney-General and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-09-25",
+    "source_citation": "Supreme Court of Sri Lanka, SC (FR) No. 428/2000, decided on 25 September 2000"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether Regulation 6 of the Emergency (Restriction on Consumption of Electricity) Regulations No. 1/2000 was ultra vires the Public Security Ordinance and violated the fundamental right under Article 12(1) of the Constitution by discriminating unfairly among electricity consumers.",
+    "petitioner_claim": "The petitioner argued that Regulation 6 imposed a uniform 20% reduction in electricity consumption based on average consumption in March-May 2000 without accounting for differing circumstances of consumers, thereby treating unequals equally and violating Article 12(1).",
+    "respondent_argument": "The respondents contended that the regulation was enacted to achieve the lawful and desirable objective of conserving electricity during a power crisis and did not provide any justification for the alleged discrimination.",
+    "key_facts": [
+      "Regulation 6 required all electricity consumers to reduce monthly consumption by 20% based on average consumption in March-May 2000 or face a 25% surcharge on the monthly bill.",
+      "Consumers fell into categories: those who voluntarily reduced consumption, those indifferent or anti-social who increased consumption, and those who used electricity sparingly for essentials versus more affluent consumers using electricity lavishly.",
+      "The regulation did not differentiate between these categories, imposing the same reduction and surcharge uniformly.",
+      "The surcharge was applied equally regardless of whether a consumer reduced, maintained, or increased consumption.",
+      "The power crisis and need for conservation were known since January 2000."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as requiring that laws and regulations treat persons who are not similarly situated differently, and that equal treatment of unequals is discriminatory and violates the constitutional guarantee of equality before the law.",
+    "application_to_facts": "The court found that Regulation 6 treated unequals equally by imposing the same mandatory reduction and surcharge on all consumers regardless of their prior efforts or circumstances, thus failing to provide equal protection under the law.",
+    "principles_established": [
+      "Equal protection under the law requires recognition of relevant differences in circumstances among persons.",
+      "A regulation that imposes uniform burdens on differently situated persons without justification is arbitrary and violates Article 12(1).",
+      "Legitimate objectives such as conservation do not justify unreasonable or unfair means that infringe fundamental rights."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that Regulation 6 was ultra vires the Public Security Ordinance and violated the petitioner's fundamental right under Article 12(1). The petitioner's application was granted and costs awarded.",
+    "disposition": "granted",
+    "remedy_or_orders": "Awarded Rs. 3000/- as costs payable by the 2nd Respondent."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it guarantees equality before the law and equal protection, which the court found was violated by the indiscriminate application of Regulation 6.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court noted that Regulation 6 treated unequals equally by imposing the same 20% reduction and 25% surcharge on all consumers regardless of their consumption behavior, which was arbitrary and unfair, violating Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

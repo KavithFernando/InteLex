@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_015-SLLR-SLLR-2002-3-VADIVELU-V.-OFFICER_028_C01__14(1)(h)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_NO_44_2002_FR",
+    "case_title": "Vadivelu v. Officer-in-Charge, Sithambarapuram Regional Camp Police Post, Vavuniya and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-09-05",
+    "source_citation": "[2002] 3 Sri L.R. 146, Supreme Court of Sri Lanka, SC No. 44/2002 (FR), decided on 5 September 2002"
+  },
+  "clause": {
+    "article": "14(1)(h)",
+    "text": "Freedom of movement and residence."
+  },
+  "case_context": {
+    "legal_issue": "Whether the restrictions imposed on the petitioner, a Tamil refugee, by requiring travel passes and sponsors to travel from Vavuniya refugee camp to Colombo infringed his fundamental right to freedom of movement and residence under Article 14(1)(h) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the travel pass system and its burdensome conditions (such as purchasing forms, providing sponsors, paying money, and residence registration) imposed severe restrictions on his freedom of movement and residence, were not authorized by law or emergency regulations, and were discriminatory based on his race.",
+    "respondent_argument": "The respondents contended that the travel pass system was a necessary security measure implemented in the interests of national security to prevent infiltration by LTTE cadres, and that it was not introduced by law but was justified under the prevailing armed conflict. They also argued the petitioner’s application was time-barred.",
+    "key_facts": [
+      "The petitioner was a Tamil refugee living in a refugee camp in Vavuniya since 1995.",
+      "He was required to obtain travel passes with conditions including a sponsor, payment, and residence registration to travel to Colombo.",
+      "The travel passes were limited in duration (initially seven days, extendable up to three months).",
+      "The petitioner faced delays and burdensome procedures when traveling to Colombo for urgent medical treatment and to visit a sick relative.",
+      "The travel pass system was not authorized by any law or emergency regulation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 14(1)(h) guarantees freedom of movement and residence, which cannot be restricted except by law or emergency regulations under Articles 15(6) and 15(7). The travel pass system imposed significant, burdensome, costly, and time-consuming restrictions that effectively impaired the petitioner’s right to travel and reside freely. The system was not authorized by law or emergency regulations and thus constituted an infringement of the petitioner’s fundamental rights.",
+    "application_to_facts": "The court found that the procedures required to obtain travel passes were more than mere formalities; they were comparable to visa restrictions without assurance of permission, causing delays that could defeat urgent travel purposes such as medical treatment or visiting dying relatives. The requirement of a sponsor, payment, and residence registration pass discouraged free movement and residence. The unpublished nature of the circulars governing the system further violated principles of accessibility and legality.",
+    "principles_established": [
+      "Freedom of movement and residence under Article 14(1)(h) is a fundamental right that can only be restricted by law or emergency regulations.",
+      "Burdensome, costly, and time-consuming procedures that effectively restrict movement and residence without legal authorization infringe this right.",
+      "Each violation of fundamental rights gives rise to a separate cause of action; failure to challenge one violation does not bar subsequent claims.",
+      "Laws and regulations affecting fundamental rights must be published and accessible to citizens."
+    ],
+    "precedents_cited": [
+      "Dias v. Secretary, Ministry of Defence, SC application No. 604/2001 (FR)"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental right under Article 14(1)(h) was infringed by the executive action applying the travel pass system. The application was not time-barred. The petitioner was granted a declaration of infringement, compensation of Rs. 30,000, and costs.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of infringement of Article 14(1)(h), Rs. 30,000 compensation payable by the State, and costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(h) guarantees freedom of movement and residence, which was directly restricted by the travel pass system imposed on the petitioner. The court’s reasoning and holding centrally relied on this clause to find the restrictions unlawful and infringing fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found the travel pass procedures burdensome, costly, and effectively restricting the right of travel and residence, not authorized by law or emergency regulations, and thus infringing Article 14(1)(h).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1200,
+      "end_char": 1900
+    }
+  }
+}

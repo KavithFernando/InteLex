@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1985-V2-PREMALAL-PERERA-V._110_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application No. 18 of 1985",
+    "case_title": "Premalal Perera v. Weerasuriya and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-07-10",
+    "source_citation": "1985 2 Sri LR 177"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the deduction of a contribution to the National Security Fund from the petitioner's salary, while similar deductions were not made from employees of other departments (e.g., Health Department), violated the petitioner's fundamental right to equality under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that the deduction was discriminatory because employees of some departments, such as the Health Department, were not required to contribute, thus violating his right to equality before the law and equal protection of the law under Article 12(1).",
+    "respondent_argument": "The respondents denied any inequality or discrimination in treatment regarding the deductions and stated that the petitioner had not established any such violation.",
+    "key_facts": [
+      "The petitioner was an employee of the Government Railway Department and had a sum deducted from his salary for contribution to the National Security Fund.",
+      "Employees of the Health Department were not called upon to make such contributions.",
+      "The petitioner alleged discrimination based on this unequal treatment.",
+      "No independent evidence was presented by the petitioner to substantiate the claim of unequal treatment.",
+      "The Court refused to admit a late affidavit supporting the petitioner's claim due to procedural fairness."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the petitioner failed to provide sufficient material evidence to establish a violation of the right to equality under Article 12(1). Mere assertions without supporting evidence were inadequate to prove discrimination or unequal treatment.",
+    "application_to_facts": "Since the petitioner did not produce independent evidence to support his claim that other public officers were exempted from the contribution, and the respondents denied such discrimination, the Court found the material insufficient to establish a breach of Article 12(1).",
+    "principles_established": [
+      "Claims under Article 12(1) require sufficient material evidence to prove discrimination or unequal treatment.",
+      "Bare assertions without evidence are insufficient to establish a violation of the right to equality."
+    ],
+    "precedents_cited": [
+      "Elmore Perera v. Montague Jayawickreme, Minister of Public Administration, et al (1985) 1 SLR 285"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the petitioner's claim under Article 12(1) for lack of sufficient evidence to prove discrimination or violation of the right to equality.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioner's claim of inequality in treatment regarding salary deductions was directly based on Article 12(1), which guarantees equality before the law and equal protection. The Court's reasoning and dismissal of this claim show the clause's central role in the decision.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner alleged that employees of the Health Department were not required to contribute to the National Security Fund, but no independent evidence was produced. The Court found the material insufficient to establish a violation of Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1890,
+      "end_char": 1970
+    }
+  }
+}

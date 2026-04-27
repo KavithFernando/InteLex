@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1999-V-1-KARUNATHILAKA-AND_039_C01__14(1)(e)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 509/98",
+    "case_title": "Karunathilaka and Another v. Dayananda Dissanayake, Commissioner of Elections and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-03-09",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 509/98 (Enforcement of Judgment), decided on 9 March 1999"
+  },
+  "clause": {
+    "article": "14(1)(e)",
+    "text": "Freedom to manifest religion or belief."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Commissioner of Elections' fixing of the new election date (1.4.99) violated the constitutional freedom to manifest religion or belief by interfering with religious observances of Buddhists, Christians, and Muslims.",
+    "petitioner_claim": "The petitioners argued that the Commissioner of Elections failed to properly consider relevant religious observances when fixing the election date, thus impeding religious freedom under Article 14(1)(e).",
+    "respondent_argument": "The Commissioner of Elections initially fixed the date within the court's time limit and argued he had discretion to fix the date; later conceded that he failed to consider relevant religious matters and that the date fixed was not reasonable.",
+    "key_facts": [
+      "The Commissioner fixed 1.4.99 as the new election date within the court's deadline.",
+      "Representations were made that 1.4.99 interfered with Buddhist (Full Moon Poya day), Christian (Good Friday), and Muslim (Haj pilgrimage) religious observances.",
+      "The Commissioner did not consider these religious observances before fixing the date.",
+      "The court held that the Commissioner's decision was not a proper exercise of discretion as it failed to consider relevant religious matters.",
+      "The court emphasized the constitutional requirement that voting be free, equal, and secret, and that religious freedom must not be impeded."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 14(1)(e) as imposing a duty on the Commissioner of Elections not to prevent or impede religious worship and observance when fixing election dates. The Commissioner must consider relevant religious observances to ensure the election does not interfere with the freedom to manifest religion or belief.",
+    "application_to_facts": "The Commissioner failed to consider the religious calendar and the impact of the election date on Buddhists, Christians, and Muslims. This failure rendered the decision to fix 1.4.99 as the election date unreasonable and not in due compliance with the court's judgment.",
+    "principles_established": [
+      "The Commissioner of Elections must act reasonably and consider all relevant matters, including religious observances, when fixing election dates.",
+      "Article 14(1)(e) freedom to manifest religion or belief requires that the State must not impede religious worship and observance.",
+      "The court has the power to enforce its judgments to ensure compliance with constitutional freedoms."
+    ],
+    "precedents_cited": [
+      "Jeevakaran v. Wickremanayake (1997) 1 SRI LR 351"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the Commissioner's fixing of 1.4.99 was not a proper exercise of discretion as it failed to consider relevant religious observances, thus violating the freedom to manifest religion or belief. The Commissioner was permitted to vary the date to one that reasonably accommodates religious observances.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Commissioner of Elections was permitted to vary the date of the poll to a date not later than 27.4.99 after appropriate consultation, ensuring no interference with religious observances."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(e) was central to the court's reasoning because the Commissioner's failure to consider religious observances when fixing the election date was found to impede the constitutional freedom to manifest religion or belief, necessitating enforcement and variation of the date.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court noted that the Commissioner failed to consider relevant religious observances such as the Full Moon Poya day, Good Friday, and the Haj pilgrimage period, making the decision to fix 1.4.99 unreasonable and not in due compliance with the judgment.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

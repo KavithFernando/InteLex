@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_025-SLLR-SLLR-2006-V-1-NANDASENA-VS.-CHA_062_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC (SPL) APPLICATION No. 12/2004",
+    "case_title": "Nandasena vs Chandradasa, O. I. C., Police Station, Hiniduma and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2005-09-15",
+    "source_citation": "Sri Lanka Law Reports (2006) 1 Sri L R. Supreme Court (SPL) Application No. 12/2004, decided 17 June and 15 September 2005"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was arrested in violation of Article 13(1) of the Constitution, which requires arrest according to law and informing the person of the reason for arrest.",
+    "petitioner_claim": "The petitioner claimed he was arrested without any legal basis and was assaulted at the time of arrest, thus violating his fundamental rights under Article 13(1) and others.",
+    "respondent_argument": "The 1st respondent argued that the arrest was lawful under section 32 of the Code of Criminal Procedure Act as the petitioner was causing a public nuisance and breach of the peace, and that the arrest followed proper procedure.",
+    "key_facts": [
+      "Petitioner was a small scale trader erecting an unauthorized construction encroaching on a public road causing unrest.",
+      "The 1st respondent received information from a Pradeshiya Sabha Member about the unauthorized construction and crowd unrest.",
+      "The 1st respondent visited the scene, warned the petitioner to remove the construction, but the petitioner refused.",
+      "The petitioner was arrested to prevent a breach of the peace under section 32 of the Code of Criminal Procedure Act.",
+      "No medical evidence was produced to substantiate the petitioner's claim of assault at the time of arrest."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(1) requires that any arrest must be according to procedure established by law and the person arrested must be informed of the reason. The court emphasized the importance of following correct and proper procedure to safeguard liberty and maintain law and order.",
+    "application_to_facts": "The court found that the 1st respondent acted on credible information and observed a public nuisance causing a breach of the peace. The arrest was made under lawful authority (section 32 of the Code of Criminal Procedure Act) and was not arbitrary. The petitioner was thus lawfully arrested according to procedure established by law.",
+    "principles_established": [
+      "Arrest must be made according to procedure established by law.",
+      "The person arrested must be informed of the reason for arrest.",
+      "Section 32 of the Code of Criminal Procedure Act permits arrest without warrant for breach of the peace.",
+      "Correct procedure safeguards liberty and ensures justice and fair play."
+    ],
+    "precedents_cited": [
+      "Me. Nabb vs. U. S. (1943) 318 US 332"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner was lawfully arrested in accordance with Article 13(1) of the Constitution and that there was no violation of his fundamental rights in this regard.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the court's reasoning as the petitioner alleged unlawful arrest violating this constitutional protection. The court analyzed whether the arrest complied with legal procedure and found it did, leading to dismissal of the claim.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The 1st respondent received credible information of unauthorized construction causing unrest, warned the petitioner who refused to remove it, and arrested him under section 32 of the Code of Criminal Procedure Act to prevent breach of the peace. No medical evidence supported the petitioner's assault claim.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

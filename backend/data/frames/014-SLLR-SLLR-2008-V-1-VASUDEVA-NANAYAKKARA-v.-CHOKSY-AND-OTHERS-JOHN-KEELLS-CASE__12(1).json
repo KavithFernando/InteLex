@@ -1,0 +1,69 @@
+{
+  "frame_id": "RQ1_014-SLLR-SLLR-2008-V-1-VASUDEVA-NANAYAKK_073_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_209_2007",
+    "case_title": "Vasudeva Nanayakkara v Choksy and Others (John Keells Case)",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2008-07-21",
+    "source_citation": "[2008] 1 Sri L.R"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the sale of shares of Lanka Marine Services Ltd. (LMSL), a wholly owned company of the Ceylon Petroleum Corporation, to John Keells Holdings Ltd. (JKH) was conducted in a manner infringing the fundamental right to equality before the law and equal protection of the law under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner alleged that the sale was conducted without prior Cabinet approval, in a non-transparent and biased manner favoring JKH, including failure to obtain proper valuation, illegal state grants, and amendments favoring monopoly, thereby infringing Article 12(1).",
+    "respondent_argument": "JKH argued bona fide purchase relying on ostensible authority of P.B. Jayasundera and that the transaction was valid; also contended that the inclusion of clause 8.2 in the CUF Agreement did not create a monopoly.",
+    "key_facts": [
+      "LMSL was a profitable, debt-free, tax-paying state-owned company with monopoly in bunkering within Port of Colombo.",
+      "The Public Enterprise Reform Commission (PERC) chaired by P.B. Jayasundera acted without lawful authority to sell LMSL shares.",
+      "JKH secured tax-free status for LMSL investment by amending BOI regulations post-sale.",
+      "Clause 8.2 was added to the Common User Facility Agreement post-bid acceptance, effectively creating a monopoly for LMSL owned by JKH.",
+      "The Presidential Grant of 8 Acres of land within Port of Colombo to LMSL was made without payment and contrary to constitutional provisions."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) guarantees a positive right to equality before the law and equal protection, requiring executive actions to be lawful, transparent, and non-arbitrary. Executive power must be exercised within legal authority and in the public interest as custodian of state resources. Unauthorized, arbitrary, and biased actions infringe this fundamental right.",
+    "application_to_facts": "The Court found that P.B. Jayasundera acted ultra vires the PERC Act and Cabinet decisions by unilaterally advancing the sale process, avoiding proper valuation, and favoring JKH. The illegal grant of land and tax exemptions further violated the rule of law and equal protection. The inclusion of clause 8.2 created a monopoly contrary to the declared liberalization policy. These actions collectively infringed Article 12(1).",
+    "principles_established": [
+      "Executive power must be exercised within statutory and constitutional limits.",
+      "Ostensible authority of public officers does not bind the State if authority is lacking.",
+      "The right to equality includes protection against arbitrary and biased executive actions.",
+      "Public enterprise reform must be transparent and in the public interest.",
+      "Alienation of state land requires compliance with constitutional provisions including advice of Provincial Councils."
+    ],
+    "precedents_cited": [
+      "Attorney-General v A. D. de Silva",
+      "Rowlands v Attorney-General",
+      "Visvalingam v Liyanage",
+      "Premachandra v Jayasundara",
+      "Bulankulama and others v Secretary Ministry of Industrial Development",
+      "Senaratne v Chandrika Bandaranayake Kumaratunga"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the sale of LMSL shares to JKH was conducted without lawful authority, was arbitrary, ultra vires, and biased, infringing the fundamental right under Article 12(1). The Presidential Grant of land, tax exemptions, and CUF Agreement clause 8.2 were declared null and void. The petitioner’s application was allowed with directions for restoration and compensation.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declared the Presidential Grant of land null and void; directed respondents to vacate land and restore possession; declared CUF Agreement clause 8.2 null and void; declared BOI agreements null and void and directed tax recovery; awarded compensation of Rs. 500,000 to the State from P.B. Jayasundera and Rs. 250,000 costs to petitioner from JKH and others."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court’s reasoning as it protects against arbitrary and biased executive actions affecting equality before the law. The Court found the impugned privatization process violated this right by unlawful and discriminatory conduct, making Article 12(1) dispositive of the fundamental right claim.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court detailed how P.B. Jayasundera acted without Cabinet approval, avoided proper valuation by the Chief Valuer, relied on a private bank valuation, included a monopoly-creating clause 8.2 in the CUF Agreement, and facilitated illegal land grants and tax exemptions favoring JKH, all contrary to law and Cabinet decisions.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

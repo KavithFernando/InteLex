@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_026-SLLR-SLLR-2006-V-1-A.-E.-M.-G.-FERNA_129_C01__12(1)",
+  "created_at": "2024-06-10",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_FR_283_2004",
+    "case_title": "A. E. M. G. Fernando vs People's Bank and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2005-07-08",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application (FR) 283/2004, decided on 8 July 2005"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the abrupt termination of the petitioner's service without reasons violated his fundamental rights under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that he had a legitimate expectation to receive extensions of service up to age 60 under Circular No. 323/2001, and that the sudden termination without reasons violated his right to equal protection under Article 12(1).",
+    "respondent_argument": "The respondent bank contended that as a business entity in a competitive field, it had full discretion in granting extensions of service and that the decision was within its powers.",
+    "key_facts": [
+      "The petitioner was Chief Manager of Internal Audit at People's Bank and had received three extensions after age 55.",
+      "The last extension was from 28.06.2003 to 28.06.2004.",
+      "On 16.06.2004, the petitioner was informed his service would not be extended beyond 28.06.2004 without any reasons given.",
+      "Circular No. 323/2001 regulated extensions up to age 60 at management's discretion, requiring reasons for refusal and opportunity to reapply.",
+      "No proper reasons or separate report for refusal were provided by the bank."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) requires that all persons be treated equally and be given equal protection of the law, which includes fair and reasonable exercise of discretion by state institutions. The bank, being a state institution, must provide adequate reasons for refusal of service extensions and follow procedural fairness.",
+    "application_to_facts": "The court found that the bank failed to provide reasons for the refusal, delayed notifying the petitioner until 14 days before retirement, and did not follow the procedural requirements of the circular. This constituted a violation of the petitioner's fundamental rights under Article 12(1).",
+    "principles_established": [
+      "State institutions must exercise discretion reasonably and provide reasons for adverse decisions affecting fundamental rights.",
+      "Legitimate expectation arises from established practices and circulars regulating extensions of service.",
+      "Delay and failure to give reasons for refusal violate the right to equal protection under the law."
+    ],
+    "precedents_cited": [
+      "Surangani Marapona vs Bank of Ceylon and Others (1997) 3 Sri L. R. 156"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the abrupt termination without reasons violated Article 12(1) and quashed the refusal letter (P8). It ordered the bank to grant the petitioner an extension of service from 28.06.2004 to 28.06.2005.",
+    "disposition": "granted",
+    "remedy_or_orders": "Order quashing the refusal letter and directing the bank to grant extension of service for one year."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects the petitioner’s right to equal treatment and fair procedure by a state institution in employment matters, leading to the decision to quash the refusal and grant relief.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found the sudden termination without reasons and the delay in notification violated Article 12(1), emphasizing the petitioner’s legitimate expectation under Circular No. 323/2001 and the absence of a proper report or reasons for refusal.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

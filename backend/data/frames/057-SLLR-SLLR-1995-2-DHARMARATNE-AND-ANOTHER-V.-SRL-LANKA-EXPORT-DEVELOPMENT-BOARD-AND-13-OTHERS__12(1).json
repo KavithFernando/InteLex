@@ -1,0 +1,69 @@
+{
+  "frame_id": "RQ1_057-SLLR-SLLR-1995-2-DHARMARATNE-AND-ANO_207_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. 115/94",
+    "case_title": "Dharmaratne and Another v. Sri Lanka Export Development Board and 13 Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-09-28",
+    "source_citation": "[1995] 2 Sri L.R. 324"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the appointment and promotion process for Deputy Director Grade 2 posts violated Article 12(1) by being arbitrary, lacking rational basis, and resulting in unequal treatment of the petitioners.",
+    "petitioner_claim": "The petitioners claimed that the appointments of the 7th to 12th respondents were arbitrary and without rational basis because there was no scheme of recruitment with clear criteria, the selection criteria were ad hoc and vague, inadequate weight was given to seniority, no mechanism existed to determine experience and managerial ability, no performance appraisal scheme was in place, and too much weight was given to subjective interview performance, resulting in unequal treatment violating Article 12(1).",
+    "respondent_argument": "The respondents argued that the applicable scheme of promotion was different from that relied on by petitioners, seniority was taken into account with marks awarded per year of service, merit and other criteria such as additional qualifications, experience, performance, communication skills, and managerial ability were also considered, the interview board acted responsibly and objectively, consultation with division heads occurred, and there was no political interference or arbitrariness, thus no violation of fundamental rights.",
+    "key_facts": [
+      "Vacancies for Deputy Director Grade 2 posts were advertised and filled after interviews by a Board of Interview.",
+      "Petitioners applied but were unsuccessful; they challenged the appointments of 7th to 12th respondents.",
+      "The Board used multiple criteria: seniority, additional qualifications, experience, performance, communication skills, and managerial ability.",
+      "Seniority was given one mark per year of service; other criteria had assigned marks.",
+      "No formal annual performance appraisal system was in place at the time."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) requires equality before the law and equal protection, but this does not preclude the use of relevant criteria and discretion in appointments. The criteria used by the Board of Interview were relevant and objective where possible, and the subjective elements were necessary and justified for senior management posts. The absence of a formal performance appraisal system was not fatal, as the Board reasonably assessed performance and managerial ability through consultation and other means.",
+    "application_to_facts": "The court examined each criterion and found seniority and additional qualifications to be objective. Experience, performance, communication skills, and managerial ability involved some subjectivity but were relevant and assessed responsibly. The Board consulted division heads and used schedules with candidate data. The petitioners failed to prove arbitrariness or capriciousness. The interview process was not so flawed as to violate Article 12(1).",
+    "principles_established": [
+      "Equality under Article 12(1) allows for relevant criteria and discretion in appointments.",
+      "Subjectivity in assessment is permissible when justified by the nature of the post.",
+      "Absence of a formal performance appraisal system does not invalidate a reasonable selection process.",
+      "Seniority need not be given a fixed proportion of weight; weightage depends on the nature of the post."
+    ],
+    "precedents_cited": [
+      "Perera v. Ranatunga (1993) 1 SLR 39",
+      "Abeysinghe v. CECB - SC 356/93 SCM 2.5.94",
+      "Hewamallikage v. People’s Bank - S.C. 291/93 SCM 14.10.94",
+      "Perera v. Monetary Board - S.C. 246/93 SCM 1.11.94",
+      "Piyasena v. People's Bank - S.C. 359/93 SCM 4.11.94",
+      "Wickremasinghe v. Loku Bandara - SC 59/93 SCM 7.10.93",
+      "Ariyasinghe v. State Timber Corporation - S.C. 283/93 SCM 22.9.94"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that there was no violation of Article 12(1) by the respondents in the appointment process and dismissed the petitioners' application.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioners' claim of unequal treatment and arbitrariness in appointments. The court's reasoning focused on whether the selection process violated the equality and equal protection guarantees of this clause, ultimately finding no breach.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court analyzed the criteria used by the Board of Interview, noting that seniority and additional qualifications were objective, and that subjective criteria were reasonably applied. The absence of a formal performance appraisal system was acknowledged but not deemed fatal. The Board consulted division heads and used schedules with candidate data, showing responsible conduct.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

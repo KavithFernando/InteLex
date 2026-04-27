@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_022-SLLR-SLLR-1998-1-SISIRA-KUMARA-V.-SE_030_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 258/94",
+    "case_title": "Sisira Kumara v. Sergeant Perera and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-12-19",
+    "source_citation": "Sri Lanka Law Reports (1998) 1 Sri L.R. 162"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment in violation of Article 11 of the Constitution during police custody.",
+    "petitioner_claim": "The petitioner claimed that he was assaulted (hit thrice on the face) by the 3rd respondent while in police custody, amounting to torture and violation of Article 11.",
+    "respondent_argument": "The 3rd respondent denied assaulting the petitioner and argued that even if the petitioner was hit, it did not amount to torture as there must be a minimum level of severity for such a finding.",
+    "key_facts": [
+      "Petitioner was arrested on 10.09.1994 and taken to Wellawatte Police Station.",
+      "The 3rd respondent ordered the petitioner to sit on a bench and allegedly hit him thrice on the face.",
+      "Medical evidence from Eye and ENT surgeons corroborated the assault with injuries consistent with the petitioner's account.",
+      "The petitioner was detained in custody until 12.09.1994 and later released on bail.",
+      "Affidavits from the petitioner's wife and father-in-law supported the claim of assault."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 11 as prohibiting torture and cruel, inhuman or degrading treatment, requiring a minimum level of severity for acts to qualify as torture. The court found that the assault on the petitioner met this threshold.",
+    "application_to_facts": "The court found no justification for the use of force by the police and accepted the petitioner's version supported by medical evidence and witness affidavits. The assault was held to amount to torture violating Article 11.",
+    "principles_established": [
+      "Not all acts of assault amount to torture; a minimum level of severity is required.",
+      "Use of force without justification in police custody can constitute torture under Article 11.",
+      "Medical evidence corroborating assault supports claims of violation of fundamental rights."
+    ],
+    "precedents_cited": [
+      "Wijayasiriwardene v. Kumara, Inspector of Police, Kandy and two others (1989) 2 Sri LR 312"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner was subjected to torture in violation of Article 11 and granted relief accordingly.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 3rd respondent was ordered to pay Rs. 5,000 as compensation and Rs. 1,000 as costs; the State was ordered to pay Rs. 1,000 as compensation."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the court's determination that the assault on the petitioner in police custody constituted torture and violated his fundamental rights, leading to the grant of relief.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was assaulted by the 3rd respondent while in police custody, supported by medical reports showing traumatic uveitis and ear injury, and affidavits from witnesses.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

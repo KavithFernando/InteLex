@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_004-SLLR-SLLR-2005-V-1-ABDUL-LATHIF-V.-D_009_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. FR 244/2002",
+    "case_title": "Abdul Lathif v. Deputy Inspector General of Police, Nuwara-Eliya and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2003-10-29",
+    "source_citation": "Sri Lanka Law Reports (2005) 1 Sri L. R."
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was arrested lawfully and informed of the reason for arrest in accordance with Article 13(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that he was maliciously arrested without reasonable suspicion, was not properly informed, and that the arrest was based on false grounds influenced by a powerful politician.",
+    "respondent_argument": "The respondents contended that there was a reasonable suspicion based on a complaint of cheating involving a dishonored cheque, and that the petitioner was evading arrest.",
+    "key_facts": [
+      "Petitioner was chairman of a garment company involved in a dispute with workers and a powerful politician.",
+      "Petitioner was called to the police station and informed of a cheating charge related to a dishonored cheque.",
+      "Petitioner claimed the cheque was dishonored due to premature presentation against instructions and that dues had been settled.",
+      "Attorney and complainant representatives informed police that the matter was settled and sought to withdraw the complaint, but police refused.",
+      "Petitioner was produced before the Magistrate the same day at 8 p.m. with a misleading report and remanded."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) requires lawful arrest with reasonable suspicion and that the person must be informed of the reason. Arrests without objective grounds or based on malice violate this right.",
+    "application_to_facts": "The court found no reasonable suspicion existed as the petitioner had settled dues and the police ignored evidence and requests to withdraw the complaint. The arrest was therefore unlawful and malicious.",
+    "principles_established": [
+      "Arrest must be based on reasonable suspicion objectively justified.",
+      "Police must act fairly and honestly in arresting persons.",
+      "Malicious arrest without lawful grounds violates Article 13(1)."
+    ],
+    "precedents_cited": [
+      "Senaratne v. A Punya de Silva (1995) 1 Sri L R. 272",
+      "Channa Peiris v. Attorney-General (1994) 1 Sri LR 1"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the arrest of the petitioner violated Article 13(1) as it was made without reasonable suspicion and on false grounds.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 3rd and 4th respondents were ordered to pay compensation personally and the State was ordered to pay costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) is central because the court's decision hinged on whether the arrest was lawful and the petitioner was properly informed, which the court found was not the case.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the 4th respondent arrested the petitioner on false grounds without objective suspicion, ignored evidence that dues were settled, and misled the Magistrate.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

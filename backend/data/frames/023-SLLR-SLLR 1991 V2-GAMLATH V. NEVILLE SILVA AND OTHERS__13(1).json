@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_023-SLLR-SLLR_1991_V2-GAMLATH_V._NEVILLE_055_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 78/90",
+    "case_title": "Gamlath v. Neville Silva and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1991-07-16",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 78/90, decided on 16 July 1991"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s arrest was lawful and complied with Article 13(1) of the Constitution, including whether he was informed of the reason for arrest and whether there was reasonable suspicion to justify the arrest.",
+    "petitioner_claim": "The petitioner argued that his arrest was unlawful, that he was not informed of the reason for his arrest, and that there was no reasonable suspicion based on credible information to justify the arrest, thus violating Article 13(1).",
+    "respondent_argument": "The respondents argued that the arrest was lawful under section 32(1)(b) of the Code of Criminal Procedure Act based on statements implicating the petitioner in receiving stolen property, and that the petitioner was informed of the reason for arrest.",
+    "key_facts": [
+      "The petitioner was arrested early morning on 01.12.90 by police investigating theft of a water pump.",
+      "The arrest was based on statements by two other suspects who implicated the petitioner after their own arrests.",
+      "The stolen water pump was not recovered from the petitioner.",
+      "The initial information leading to the petitioner’s arrest came from a subordinate police officer and did not directly implicate the petitioner.",
+      "The petitioner claims he was not informed of the reason for arrest."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) guarantees freedom from arbitrary arrest and requires that arrests be made according to law with credible information giving rise to reasonable suspicion. The test for reasonable suspicion is objective, not merely the subjective satisfaction of the arresting officer. The petitioner must be informed of the reason for arrest.",
+    "application_to_facts": "The court found no credible information giving rise to reasonable suspicion against the petitioner, as the arrest was based solely on statements by others and did not directly implicate him. The petitioner was either not informed or not properly informed of the reason for arrest. Therefore, the arrest was arbitrary and violated Article 13(1).",
+    "principles_established": [
+      "Reasonable suspicion must be based on credible information and tested objectively.",
+      "Arrest without informing the person of the reason violates Article 13(1).",
+      "Subjective satisfaction of police officer alone is insufficient to justify arrest.",
+      "Arrest procedure under section 32(1)(b) of the Code of Criminal Procedure must conform to constitutional guarantees."
+    ],
+    "precedents_cited": [
+      "Muttusamy v. Kannangara",
+      "Chandradasa v. Lai Fernando"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s arrest was unlawful and violated Article 13(1) of the Constitution.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was ordered to pay Rs. 1,000 as compensation for the infringement of rights under Article 13(1). The 1st and 2nd respondents were held personally responsible."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the court’s reasoning as it guarantees freedom from arbitrary arrest and requires informing the arrested person of the reason, which the petitioner’s arrest failed to satisfy, leading to the finding of violation and compensation.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found no credible information giving rise to reasonable suspicion against the petitioner and determined the arrest to be unlawful for non-conformity with section 32(1)(b) of the Code of Criminal Procedure and Article 13(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

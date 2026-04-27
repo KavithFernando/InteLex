@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_035-SLLR-SLLR-1995-V-1-FAIZ-V.-ATTORNEY-_053_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_89_91",
+    "case_title": "Faiz v. Attorney-General and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1993-11-19",
+    "source_citation": "Sri Lanka Law Reports [1995] 1 SriL.R. 372"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to cruel and degrading treatment in violation of Article 11 of the Constitution by executive or administrative action.",
+    "petitioner_claim": "The petitioner claimed that he was assaulted by the 5th, 6th, and 7th respondents while in police custody, constituting cruel and degrading treatment violating Article 11.",
+    "respondent_argument": "The 5th and 6th respondents denied assaulting the petitioner at the police station and claimed the incident was unexpected; the police officers claimed they intervened promptly.",
+    "key_facts": [
+      "Petitioner was assaulted with an iron rod and by hands and feet by the 5th, 6th, and 7th respondents inside the police station charge room.",
+      "The 3rd and 4th respondents police officers were present during the assault and failed to intervene.",
+      "The petitioner was in police custody at the time of the assault.",
+      "The assault caused the petitioner to bleed from old injuries.",
+      "The police failed to arrest or take action against the assailants despite witnessing the assault."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 11 prohibits cruel and degrading treatment and that the assault on the petitioner by the 5th to 7th respondents constituted such treatment. The failure of the police officers (3rd and 4th respondents) to prevent or stop the assault made them responsible by executive or administrative action.",
+    "application_to_facts": "The assault occurred openly in the police station in the presence of police officers who did not intervene, showing complicity or acquiescence. The petitioner was lawfully in the police station performing official duties and thus owed a duty of care.",
+    "principles_established": [
+      "Cruel and degrading treatment includes assault by private individuals if enabled by executive or administrative action.",
+      "Police officers have a duty to protect persons in custody from such treatment.",
+      "Failure to act by police officers witnessing such assault constitutes a violation of Article 11."
+    ],
+    "precedents_cited": [
+      "Shaul Hameed v. Ranasinghe",
+      "Alwis v. Raymond",
+      "Somawathie v. Weerasinghe"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental right under Article 11 was violated by the 5th to 7th respondents through assault, and by the 3rd and 4th respondents through their failure to prevent the assault, constituting executive or administrative action.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation ordered: Rs. 10,000 each from 5th to 7th respondents; Rs. 2,000 each from 3rd and 4th respondents; total compensation Rs. 50,000 plus costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 is central because the petitioner alleged and proved he was subjected to cruel and degrading treatment (assault) while in police custody, and the court found the respondents responsible for this violation.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was assaulted with an iron rod and by hands and feet by the 5th, 6th, and 7th respondents inside the police station charge room in the presence of police officers who failed to intervene.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3720,
+      "end_char": 4040
+    }
+  }
+}

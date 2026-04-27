@@ -1,0 +1,66 @@
+{
+  "frame_id": "RQ1_027-SLLR-SLLR-1992-V-1-JOSEPH-PERERA-ALI_026_C02__15(7)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. 107/86",
+    "case_title": "Joseph Perera Alias Bruten Perera v. The Attorney-General and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1987-05-25",
+    "source_citation": "Sri Lanka Law Reports [1992] 1 SriL.R."
+  },
+  "clause": {
+    "article": "15(7)",
+    "text": "General restrictions may apply for national security, public order, health, morality, and welfare."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Emergency Regulations restricting freedom of speech and expression, including Regulation 28(1), were valid restrictions under Article 15(7) relating to national security and public order.",
+    "petitioner_claim": "The petitioners argued that the Emergency Regulations, particularly Regulation 28(1), were ultra vires and invalid as they imposed restrictions beyond those permitted by Article 15(7) and lacked a proximate and rational nexus to national security or public order.",
+    "respondent_argument": "The respondents contended that the Emergency Regulations were valid laws under Article 15(7) and justified the arrest and detention of the petitioners for distributing materials without police permission, which threatened public order and national security.",
+    "key_facts": [
+      "Emergency Regulations were made under the Public Security Ordinance by the President.",
+      "Regulation 28(1) required police permission for distribution of posters, handbills or leaflets.",
+      "Petitioners distributed leaflets and posters without permission.",
+      "Police arrested petitioners on suspicion of offences under Emergency Regulations.",
+      "Petitioners detained for over 40 days."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the President's power to make Emergency Regulations is subject to the limitations in Article 15(7). Any restriction on fundamental rights must have a proximate and rational nexus to national security or public order. The court found that Regulation 28(1) was overbroad, lacked such nexus, and conferred unguided discretion on police, thus invalid under Article 15(7). The court also held that Emergency Regulations do not enjoy immunity from judicial review under Article 80(3) or Section 8 of the Public Security Ordinance.",
+    "application_to_facts": "The court examined the materials distributed by the petitioners and found no reasonable basis to conclude they threatened national security or public order. The blanket restriction imposed by Regulation 28(1) was not justified under Article 15(7). The detention beyond the reasonable investigation period was unlawful.",
+    "principles_established": [
+      "Emergency Regulations must comply with constitutional limitations under Article 15(7).",
+      "Restrictions on fundamental rights must have a proximate and rational nexus to national security or public order.",
+      "Emergency Regulations are subject to judicial review despite statutory immunities.",
+      "Overbroad and vague regulations granting unfettered discretion violate constitutional rights.",
+      "Detention beyond reasonable investigation period is unlawful."
+    ],
+    "precedents_cited": [
+      "Yasapala v. Wickremasinghe",
+      "Satchanandan v. Union of India",
+      "Nanayakkara v. Henry Perera and Others"
+    ]
+  },
+  "outcome": {
+    "holding": "The court declared Regulation 28(1) invalid as it exceeded the permissible restrictions under Article 15(7). The petitioners' detention beyond the investigation period was unlawful and compensation was awarded.",
+    "disposition": "granted",
+    "remedy_or_orders": "Each petitioner awarded Rs. 10,000 as compensation for unlawful detention and Rs. 3,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 15(7) defines the scope of permissible restrictions on fundamental rights during emergencies. The court used this clause to assess the validity of the Emergency Regulations and found the impugned regulation invalid for lack of nexus to national security or public order.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that the President's power to make Emergency Regulations is limited by Article 15(7) and that Regulation 28(1) lacked a proximate and rational nexus to national security or public order, rendering it invalid and the detention unlawful.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

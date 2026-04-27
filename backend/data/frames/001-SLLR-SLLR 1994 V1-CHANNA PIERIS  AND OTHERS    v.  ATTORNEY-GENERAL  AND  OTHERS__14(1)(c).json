@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_001-SLLR-SLLR_1994_V1-CHANNA_PIERIS__AND_001_C02__14(1)(c)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATIONS_146-155_1992",
+    "case_title": "Channa Pieris and Others v. Attorney-General and Others (Ratawesi Peramuna Case)",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-02-17",
+    "source_citation": "Sri Lanka Law Reports [1994] 1 Sri LR."
+  },
+  "clause": {
+    "article": "14(1)(c)",
+    "text": "Freedom of association."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' right to freedom of association under Article 14(1)(c) was violated by their arrest and detention as members of the Ratawesi Peramuna.",
+    "petitioner_claim": "The petitioners claimed their right to associate for political purposes was violated as the Ratawesi Peramuna was a lawful organization not engaged in unlawful activities.",
+    "respondent_argument": "The respondents argued the petitioners were involved in unlawful conspiracy and thus their association was not protected.",
+    "key_facts": [
+      "Ratawesi Peramuna was an anti-government but lawful political movement.",
+      "Petitioners were arrested and detained as members of this association.",
+      "The organization was not proscribed or engaged in unlawful activities.",
+      "No justification existed for violating associational rights related to expressive activities."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court recognized freedom of association as essential for political, social, and cultural expression and held that mere membership in an anti-government organization is not unlawful unless engaged in unlawful acts.",
+    "application_to_facts": "Since the Ratawesi Peramuna was not proscribed and the petitioners were not shown to be engaged in unlawful activities, their right to freedom of association was violated by their arrest and detention.",
+    "principles_established": [
+      "Freedom of association protects political and expressive activities.",
+      "Membership in lawful organizations cannot be criminalized without evidence of unlawful conduct.",
+      "Arrest and detention of members of lawful associations violate constitutional rights."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioners' fundamental right to freedom of association under Article 14(1)(c) was violated by their arrest and detention.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioners (except one) were awarded Rs. 5,000 each as solatium for the violation of their rights."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(c) was materially engaged as the case concerned the petitioners' right to associate in a political movement without unlawful interference.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the Ratawesi Peramuna was not a proscribed organization and that the petitioners' associational rights were violated by their arrest and detention.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

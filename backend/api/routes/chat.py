@@ -178,11 +178,9 @@ async def chat(
             len(retrieval_result) if retrieval_result else 0,
         )
 
-        # Build pinned_summaries for persistence — fetch real frame data so titles/articles
-        # survive page refresh, regardless of whether FAISS retrieval ran or not.
         pinned_summaries = None
         if input.pinned_case_ids:
-            # Prefer data already in retrieval_result (free, no extra DB call needed)
+            # Prefer data already in retrieval_result
             retrieval_by_id = {
                 r.get("interpretation_frame_id"): r
                 for r in (retrieval_result or [])

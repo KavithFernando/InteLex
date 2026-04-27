@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_004-SLLR-SLLR-2003-V-2-MAHANTHEGAMA-V.-T_022_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_540_2001_FR",
+    "case_title": "Mahanthegama v. The University of Peradeniya and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2003-03-11",
+    "source_citation": "[2003] 2 Sri L.R"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was denied equal protection of the law under Article 12(1) in the appointment process for the post of Curator (Higher Grade) at the University of Peradeniya.",
+    "petitioner_claim": "The petitioner argued that the 27th respondent did not possess the requisite experience for the post and that the appointment process was flawed, thus infringing his fundamental rights under Article 12(1).",
+    "respondent_argument": "The University and UGC contended that the appointment process was proper, that the UGC was the appointing authority, and that the petitioner was not entitled to relief as the UGC had not given any binding undertaking and the petitioner had withdrawn the application prematurely.",
+    "key_facts": [
+      "The UGC was the appointing authority but delegated advertising and recommending powers to the University.",
+      "The petitioner was unsuccessful in the interview and challenged the appointment of the 27th respondent on grounds of insufficient experience.",
+      "The petitioner withdrew the application due to a misunderstanding caused by the Vice-Chancellor's failure to disclose a letter supporting the 27th respondent's experience.",
+      "The UGC was not initially a party to the application and later was added to investigate its conduct.",
+      "The court found no binding undertaking by the UGC and noted procedural failures by the Vice-Chancellor and the petitioner."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as guaranteeing equality before the law and equal protection, but emphasized that the petitioner must actively protect his rights by seeking appropriate orders or undertakings. The court found no deliberate violation of equal protection by the UGC or the University.",
+    "application_to_facts": "The court held that the petitioner was not entitled to substantial relief because the UGC had not given a binding undertaking, the petitioner withdrew prematurely, and the Vice-Chancellor's failure to disclose information misled the petitioner’s counsel. The court found the petitioner’s predicament was due to his own failure to insist on enforceable orders.",
+    "principles_established": [
+      "Article 12(1) requires active assertion of rights to obtain protection.",
+      "Failure to disclose material facts by officials can mislead parties but does not automatically amount to violation of equal protection.",
+      "The appointing authority’s discretion can be revisited if justified by new material.",
+      "Equity may allow costs even if substantive relief is not granted."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court dismissed the substantive claim for relief under Article 12(1) but ordered the University to pay the petitioner Rs. 25,000 as costs.",
+    "disposition": "dismissed",
+    "remedy_or_orders": "University ordered to pay Rs. 25,000 to petitioner as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner’s claim that he was denied equal protection in the appointment process. The court’s reasoning and outcome directly addressed whether the petitioner’s fundamental rights under this clause were infringed.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner challenged the appointment on grounds of insufficient experience, relying on Article 12(1). The court found no binding undertaking by the UGC and noted the petitioner withdrew the application due to a misunderstanding caused by the Vice-Chancellor's failure to disclose a letter dated 13.06.2002.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_042-SLLR-SLLR-2002-3-WIJERATNE-V.-VIJITH_090_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_379_93",
+    "case_title": "Wijeratne v. Vijitha Perera, Sub-Inspector of Police, Polonnaruwa and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-01-10",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 379/93, decided on 10 January 1994"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s detention without being brought before a judge violated Article 13(2).",
+    "petitioner_claim": "The petitioner claimed he was detained overnight unlawfully without being produced before a judge or legal authority.",
+    "respondent_argument": "The respondents denied unlawful detention and claimed the petitioner was not held beyond lawful limits; the 2nd respondent argued no violation of Article 13(2) as detention was not excessive.",
+    "key_facts": [
+      "The petitioner was detained overnight at the police station but not produced before a judge within 24 hours.",
+      "The respondents denied arrest and detention but did not explain the detention fully.",
+      "The petitioner was released the next day around noon."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires that any detained person be brought before a judge within the time prescribed by law. The court considered whether the detention period violated this requirement.",
+    "application_to_facts": "The majority held the petitioner was unlawfully detained, infringing Article 13(2). However, the dissenting opinion held that since the petitioner was not held beyond 24 hours, there was no violation of Article 13(2).",
+    "principles_established": [
+      "Detention without judicial order beyond lawful time limits violates Article 13(2).",
+      "Detention within 24 hours may not violate Article 13(2) if the person is produced before a judge."
+    ],
+    "precedents_cited": [
+      "Mohamed Faiz v. The Attorney-General and Six Others"
+    ]
+  },
+  "outcome": {
+    "holding": "The majority held there was an infringement of Article 13(2) rights; the dissenting judge disagreed. The court awarded compensation for infringement of Article 13(1) and Article 14 rights but was divided on Article 13(2).",
+    "disposition": "allowed_in_part",
+    "remedy_or_orders": "Compensation awarded; directions to police issued."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was materially engaged in the court’s reasoning about the legality of the petitioner’s detention and whether he was brought before a judge timely, affecting the outcome on fundamental rights infringement.",
+    "relevance_level": "medium",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was detained overnight but not produced before a judge; the majority found infringement of Article 13(2), while the dissent held no violation as detention was under 24 hours.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "frame_id": "RQ1_003-SLLR-SLLR-2003-1-SRIYANI-SILVA-WIFE-_003_C01__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION No. 471/2000",
+    "case_title": "Sriyani Silva (Wife of Jagath Kumara-Deceased) v. Iddamalgoda, Officer-in-Charge, Police Station, Payagala and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-12-10",
+    "source_citation": "Sri Lanka Law Reports [2003] 1 Sri L.R"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the widow of a deceased detainee whose fundamental rights were allegedly infringed has locus standi to apply for relief under Article 17 read with Article 126(2) of the Constitution, and whether the application was filed within time.",
+    "petitioner_claim": "The petitioner (widow) claimed that the fundamental rights of her deceased husband were violated and that she, as his legal representative, has the right to continue the application seeking relief and compensation under Articles 11, 13, and 17 of the Constitution.",
+    "respondent_argument": "The respondents argued that the petitioner had no locus standi to make the application because the right to apply under Article 126(2) is personal to the aggrieved person and does not devolve to heirs or legal representatives upon death. They also argued that the application was time barred as it was filed after the one-month period prescribed by Article 126(2).",
+    "key_facts": [
+      "The deceased detainee was arrested on 12.06.2000 and died in custody on 20.06.2000.",
+      "The initial petition was filed on 18.07.2000 on behalf of the deceased by an attorney-at-law.",
+      "The petition was amended on 23.08.2000 to substitute the widow as petitioner.",
+      "Medical evidence indicated the detainee died due to injuries sustained from alleged torture in police custody.",
+      "Preliminary objections raised included locus standi and time bar issues."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 17 as granting every person the right to apply to the Supreme Court for violations of fundamental rights, subject to the conditions in Article 126. The Court held that the right to seek redress is personal to the person whose fundamental rights were infringed and does not automatically devolve to heirs or legal representatives upon death. However, if the applicant dies after the Court has joined issue, the right to relief may pass to the legal representatives as an asset of the estate. The Court rejected a strict literal interpretation that would bar relief simply because the victim died, emphasizing that such an interpretation would produce absurd results.",
+    "application_to_facts": "The Court found that the initial petition was filed within the one-month period after the death of the detainee, thus timely under Article 126(2). The substitution of the widow as petitioner was allowed to continue the application. The Court held that the widow had locus standi to prosecute the right in this case due to the causal link between the death and the infringement of fundamental rights. The dissenting opinion disagreed, holding that the widow had no locus standi and that the amended petition was a new, time-barred application.",
+    "principles_established": [
+      "The right to apply for fundamental rights violations is personal and does not automatically devolve to heirs upon death.",
+      "A strict literal interpretation of Article 126(2) that bars relief due to death of the victim may produce absurd results and should be avoided.",
+      "Where there is a causal link between death and infringement, a person with legitimate interest (e.g., widow) may prosecute the right.",
+      "The right to relief may survive death if the applicant dies after litis contestatio, passing to legal representatives as an estate asset.",
+      "Time limits under Article 126(2) are mandatory but the initial petition was filed within time."
+    ],
+    "precedents_cited": [
+      "Somawathie v Weerasinghe and Others (1990) 2 Sri LR 121",
+      "Corocraft v Pan-Am (1969) Q B 616",
+      "Lyons v Tucker (1880) 6 Q B D 660",
+      "Barru v Lachchman 111 PR 1913",
+      "Rananjaya Singh v Baijnath Singh and Others AIR 1954 S.C. 749",
+      "Chatenay v Brazilian Submarine Telegraph Co (1891) 1 Q B 79",
+      "Abel v Lee (1871) L.R. 6 P 365",
+      "Premalal de Silva v Inspector Rodrigo and Others (1991) 2 Sri LR 301"
+    ]
+  },
+  "outcome": {
+    "holding": "The preliminary objections on locus standi and time bar were overruled, allowing the widow to continue the application for relief under Article 17 read with Article 126(2).",
+    "disposition": "granted",
+    "remedy_or_orders": "Registrar directed to list the application for hearing; no costs ordered."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 is central as it establishes the right of any person to apply to the Supreme Court for violations of fundamental rights, which underpins the petitioner's claim and the Court's reasoning on locus standi and timeliness.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that the deceased detainee had a constitutional right to seek redress for fundamental rights violations, and that the widow could prosecute that right due to the causal link between death and infringement, overruling objections on locus standi and time bar.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 200,
+      "end_char": 2900
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "frame_id": "RQ1_011-SLLR-SLLR-1984-2-KAPUGEEKIYANA-V.-HE_024_C03__13(3)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. No. 80/84",
+    "case_title": "Kapugeekiyana v. Hettiarachchi and Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1984-08-08",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. No. 80/84, decided on 8 August 1984"
+  },
+  "clause": {
+    "article": "13(3)",
+    "text": "Any accused person has the right to a fair trial and legal representation."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was denied the right to be defended by an attorney-at-law and the right to a fair trial as guaranteed by Article 13(3).",
+    "petitioner_claim": "The petitioner claimed an attempt was made to deny him the unfettered right to be freely defended by an attorney-at-law by the first respondent demanding to see a written note of instructions passed to counsel.",
+    "respondent_argument": "The respondents denied the allegation and argued that the stage of trial had not been reached and no violation of Article 13(3) occurred.",
+    "key_facts": [
+      "On 19 June, while in the dock, petitioner handed a written note to his counsel.",
+      "The first respondent demanded to see the note; counsel refused.",
+      "Counsel described the incident as reprehensible but it did not impede a fair trial.",
+      "Petitioner was represented by counsel at the hearing on 19 June."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(3) guarantees the right to a fair trial and legal representation. The Court noted that the petitioner was represented by counsel at the relevant hearing and that the attempt to see the note was unsuccessful and did not impede a fair trial.",
+    "application_to_facts": "The Court held that since the petitioner was represented by counsel and the attempt to interfere with legal representation did not succeed, there was no violation of Article 13(3).",
+    "principles_established": [
+      "Right to legal representation is fundamental but interference must be proven to have impeded fair trial.",
+      "Representation by counsel at hearing satisfies Article 13(3) rights."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "No violation of Article 13(3) was found as the petitioner was represented by counsel and the attempt to interfere did not succeed.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(3) was considered to assess the petitioner's right to legal representation and fair trial, which was found not to be violated.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was represented by counsel on 19 June, and although the first respondent attempted to see a note passed to counsel, this attempt failed and did not impede a fair trial.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

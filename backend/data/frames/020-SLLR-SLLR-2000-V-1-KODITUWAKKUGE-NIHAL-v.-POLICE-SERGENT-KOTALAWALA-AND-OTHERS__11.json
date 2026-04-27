@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_020-SLLR-SLLR-2000-V-1-KODITUWAKKUGE-NIH_027_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_126_94",
+    "case_title": "Kodituwakkuge Nihal v. Police Sergeant Kotalawala and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-09-13",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 126/94, decided on 13 September 1994"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s fundamental right under Article 11 was violated by police officers through torture and cruel, inhuman or degrading treatment while in police custody.",
+    "petitioner_claim": "The petitioner claimed that he was subjected to assault and torture by police officers while in custody, including being struck with a rubber hose and wooden slats, and suffering injuries such as contusions, fractures, and perforated ear drums.",
+    "respondent_argument": "The police officers denied assaulting the petitioner and claimed the injuries were not caused by them but occurred during the petitioner’s resistance to arrest; they also stated the petitioner was produced before a medical officer and declined ward admission initially.",
+    "key_facts": [
+      "Petitioner was arrested on 04.03.1994 for a traffic offence and taken to police custody.",
+      "Petitioner was assaulted by multiple police officers while in custody, including being hit on the ear and with a rubber hose.",
+      "Medical evidence showed contusions, fractures, and perforated ear drums.",
+      "Petitioner was admitted to hospital under police custody and later transferred to prison custody on an order by the Magistrate without physical production before the Magistrate.",
+      "The Magistrate’s remand order was made without the petitioner being physically present, raising legal concerns."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 11 as protecting individuals from torture and cruel, inhuman or degrading treatment by state actors, including police officers. The court emphasized that the petitioner’s injuries and the circumstances of his custody constituted a violation of this fundamental right.",
+    "application_to_facts": "The court found the petitioner’s account credible and supported by medical evidence, concluding that the police officers named (1st to 5th respondents) violated Article 11 by inflicting injuries amounting to torture or cruel treatment. The court rejected the respondents’ version as insufficient to explain the injuries.",
+    "principles_established": [
+      "Article 11 protects detainees from torture and cruel, inhuman or degrading treatment by police.",
+      "Physical presence of the detainee before a Magistrate is required for lawful remand orders to protect liberty.",
+      "Unlawful remand orders that erode liberty without legal sanction violate constitutional protections."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the 1st, 2nd, 3rd, 4th, and 5th respondents violated the petitioner’s fundamental right under Article 11 and awarded compensation and costs to the petitioner.",
+    "disposition": "granted",
+    "remedy_or_orders": "Ordered the 1st to 5th respondents to pay Rs. 2000 each as compensation and Rs. 500 each as costs, totaling Rs. 10,000 compensation and Rs. 2,500 costs to the petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the court’s determination that the petitioner was subjected to torture and cruel treatment by police officers, which violated his fundamental rights, leading to the grant of relief.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was assaulted with a rubber hose and wooden slats by police officers, suffered contusions, fractures, and perforated ear drums, and was admitted to hospital under police custody. The court found these injuries and treatment violated Article 11.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

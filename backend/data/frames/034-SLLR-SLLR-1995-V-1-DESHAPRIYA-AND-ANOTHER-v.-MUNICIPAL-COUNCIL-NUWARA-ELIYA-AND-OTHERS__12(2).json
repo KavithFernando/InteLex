@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_034-SLLR-SLLR-1995-V-1-DESHAPRIYA-AND-AN_167_C01__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 884/92",
+    "case_title": "Deshapriya and Another v. Municipal Council, Nuwara Eliya and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-03-10",
+    "source_citation": "[1995] 1 Sri L.R. 362"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the seizure of the 'Yukthiya' newspaper by the 2nd respondent, acting as Mayoress, constituted discrimination on the grounds of political opinion in violation of Article 12(2) of the Constitution.",
+    "petitioner_claim": "The petitioners claimed that the 2nd respondent seized about 450 copies of the 'Yukthiya', an anti-government newspaper, to discourage its publication and distribution for political ends, amounting to discrimination based on political opinion.",
+    "respondent_argument": "The 2nd respondent denied seizing the newspapers and claimed she only instructed cleaning of the stall premises. She argued the seizure did not occur and that the newspapers were not unlawfully withheld.",
+    "key_facts": [
+      "The 2nd respondent seized four bundles containing about 450 copies of the 'Yukthiya' newspaper on 10.10.92 from a municipal council-owned stall.",
+      "The 'Yukthiya' was an anti-government newspaper, and the 2nd respondent was a supporter of the ruling United National Party.",
+      "The seizure was done under colour of office as Mayoress of the Municipal Council.",
+      "The 2nd respondent threatened cancellation of the Lake House newspaper agency if 'Yukthiya' newspapers were kept in the premises.",
+      "The seizure prevented distribution of the newspaper in a small part of Sri Lanka, abridging the petitioners' freedom of speech and expression."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that discrimination on grounds of political opinion under Article 12(2) includes exclusion or suppression of anti-government news and views, whether by government-controlled newspapers or by executive action such as seizure. Such discrimination infringes fundamental rights and is a serious violation.",
+    "application_to_facts": "The court found that the 2nd respondent seized the newspapers motivated by political antagonism against an anti-government newspaper, thus discriminating on the ground of political opinion. This aggravated the infringement of freedom of speech and expression.",
+    "principles_established": [
+      "Discrimination on political opinion includes suppression of dissenting views in media.",
+      "Executive or administrative actions motivated by political discrimination violate Article 12(2).",
+      "Freedom of speech and expression is fundamental and includes the right to publish dissenting views.",
+      "Compensation for infringement of fundamental rights must be measured by liberty, not mere pecuniary loss."
+    ],
+    "precedents_cited": [
+      "Ratnasara Thero v. Udugampola (1983) 1 Sri LR 461",
+      "De Jonge v. Oregon (1937) 299 U.S. 353",
+      "Amaratunga v. Sirimal (1993) 1 Sri L.R. 264",
+      "Wijeratne v. Perera S.C. 379/93 SCM of 2.3.1994",
+      "Pieris v. A.G. S.C. 156-155 LC 166/92 SCM of 17.6.1994"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the 2nd respondent discriminated against the petitioners on the ground of political opinion by seizing the 'Yukthiya' newspapers, infringing Article 12(2) and Article 14(1)(a). The petitioners were entitled to compensation.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 2nd respondent was ordered to pay Rs. 100,000/- as compensation and Rs. 10,000/- as costs to the petitioners."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) is central because the court found the seizure was motivated by political discrimination against an anti-government newspaper, directly implicating the prohibition of discrimination on political opinion.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The 2nd respondent seized 450 copies of the 'Yukthiya' while acting under colour of her office, motivated to discourage an anti-government newspaper, and threatened cancellation of the Lake House newspaper agency to reinforce this.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

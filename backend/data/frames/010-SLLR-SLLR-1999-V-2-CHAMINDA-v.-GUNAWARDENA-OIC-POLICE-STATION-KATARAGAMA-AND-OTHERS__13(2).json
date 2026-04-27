@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_010-SLLR-SLLR-1999-V-2-CHAMINDA-V.-GUNAW_022_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (SPECIAL) NO. 106/97",
+    "case_title": "Chaminda v. Gunawardena, OIC Police Station, Kataragama and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-01-28",
+    "source_citation": "[1999] 2 Sri LR."
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was unlawfully detained without being produced before a judge as required by Article 13(2).",
+    "petitioner_claim": "The petitioner claimed he was detained for over 18 hours without being produced before a Magistrate or any legal authority, violating Article 13(2).",
+    "respondent_argument": "The 1st respondent denied the arrest and detention, and no records were maintained to show the petitioner was held or produced before a Magistrate.",
+    "key_facts": [
+      "Petitioner was detained in police custody from evening of 20.02.1997 to 10:30 am on 21.02.1997.",
+      "No warrant was issued against the petitioner.",
+      "Petitioner was not produced before a Magistrate during detention.",
+      "No criminal proceedings were instituted against the petitioner.",
+      "Petitioner was released without surety bond to a Pradeshiya Sabha member."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) mandates that any detained person must be brought before a judge and cannot be held without a legal order. The court emphasized that detention without production before a Magistrate and without legal proceedings violates this constitutional protection.",
+    "application_to_facts": "The petitioner was detained for over 18 hours without a warrant or being produced before a Magistrate. The court found this detention unlawful and a violation of Article 13(2).",
+    "principles_established": [
+      "Detention without production before a judicial authority is unlawful.",
+      "Police must comply with legal procedures including timely production before a Magistrate.",
+      "Failure to produce detainees before a judge violates fundamental rights."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s rights under Article 13(2) were violated due to unlawful detention without production before a Magistrate or legal order.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation awarded to the petitioner; Rs. 5,000 to be paid personally by the 1st respondent and the balance by the State."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was central to the court’s finding that the petitioner was unlawfully detained without being brought before a judge, constituting a violation of fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was detained for over 18 hours without a warrant and was not produced before a Magistrate. No criminal proceedings were instituted and he was released without surety bond.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 81,
+      "end_char": 83
+    }
+  }
+}

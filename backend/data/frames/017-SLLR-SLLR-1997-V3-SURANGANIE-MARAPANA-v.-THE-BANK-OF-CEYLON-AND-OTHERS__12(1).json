@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_017-SLLR-SLLR-1997-V3-SURANGANIE-MARAPAN_092_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION 749/96 (F.R.)",
+    "case_title": "Suranganie Marapana v. The Bank of Ceylon and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-08-28",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application 749/96 (F.R.), decided on 28 August 1997"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the refusal by the Bank of Ceylon to grant the petitioner an extension of service was arbitrary, discriminatory, and violated her right to equality before the law and equal protection under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that despite her unblemished 25-year service record and the Personnel Department's recommendation for extension, the Bank arbitrarily refused her extension without valid reasons, discriminating against her and violating her fundamental rights under Article 12(1).",
+    "respondent_argument": "The Bank argued that the refusal was a bona fide decision made after careful evaluation and that it was within the Board's discretion to refuse extensions under exceptional circumstances. They also contended that the Bank had operational autonomy exempting it from certain circulars and was not bound to give reasons for refusal.",
+    "key_facts": [
+      "Petitioner had 25 years of unblemished service and was Chief Legal Officer since 1988.",
+      "Petitioner applied for a one-year extension at age 55, recommended by Personnel Department.",
+      "Board of Directors took four months to decide and refused extension without reasons.",
+      "Other officers of comparable grade were granted extensions.",
+      "Bank failed to produce the Board's decision or reasons for refusal to Court."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the power to grant extensions must be exercised fairly, reasonably, and without discrimination. The Board's failure to provide reasons and departure from established practice indicated arbitrariness and unreasonableness, violating Article 12(1). The Court emphasized the duty to act fairly and the necessity of transparency in administrative decisions affecting fundamental rights.",
+    "application_to_facts": "The Board ignored the Personnel Department's recommendation without valid reasons, failed to disclose its decision to the Court, and delayed informing the petitioner, which was unfair and discriminatory. The Court inferred arbitrariness from the lack of reasons and the Board's departure from usual practice, thus violating the petitioner's right to equal protection under the law.",
+    "principles_established": [
+      "Administrative discretion must be exercised fairly and reasonably.",
+      "Failure to give reasons for adverse decisions may lead to inference of arbitrariness.",
+      "Legitimate expectation arises from established practice and recommendations.",
+      "Discriminatory and arbitrary refusal violates Article 12(1) fundamental rights."
+    ],
+    "precedents_cited": [
+      "Padfield v. Minister of Agriculture, Fisheries and Food (1968) A.C. 997",
+      "Wijepala v. Jayawardene, S.C. Application 89/95",
+      "Manage v. Kotakadeniya, 1997 1 SLR. 264"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the refusal to grant the extension was arbitrary, capricious, unreasonable, unfair, and discriminatory, violating Article 12(1). The petitioner was entitled to restoration to her post with backwages and allowances, compensation, and costs.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioner was ordered to be restored to the post of Chief Legal Officer for one year from 27.11.96 with all backwages and allowances, Rs. 100,000 compensation, and Rs. 25,000 costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it protects against arbitrary and discriminatory treatment by the Bank in refusing the petitioner's extension, ensuring equality before the law and equal protection.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Board failed to show valid reasons for refusal despite Personnel Department's recommendation; refusal was arbitrary, capricious, unreasonable, unfair, and discriminatory violating Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

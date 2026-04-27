@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_011-SLLR-SLLR-2007-V-1-HAPUTHANTIRIGE-AN_059_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_10_13_2007",
+    "case_title": "Haputhantirige and Others v Attorney General",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2007-03-29",
+    "source_citation": "Supreme Court of Sri Lanka, SC FR 10,11,12,13/07, decided on 29 March 2007"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the impugned Circular on Grade 1 admissions to National Schools violates the fundamental right to equality before the law and equal protection of the law guaranteed by Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that the Circular's classification and criteria for admission are arbitrary, capricious, and unreasonable, resulting in unequal treatment and infringement of their fundamental rights under Article 12(1).",
+    "respondent_argument": "The respondents maintained that the Circular represents a national policy affirmed by the Cabinet of Ministers and is a valid executive regulation for school admissions.",
+    "key_facts": [
+      "The Circular sets out a classification system with seven categories and a weighted marking scheme for admission to Grade 1 in National Schools.",
+      "The classification is based on extraneous factors such as property ownership, past pupil status of parents, siblings in school, and place of birth, rather than the child's suitability or need for education.",
+      "The Circular was issued as a purported National Policy but was dated before the Cabinet's letter affirming it, casting doubt on its legitimacy.",
+      "There is no operative law governing National Schools admissions; the Education Ordinance and regulations have fallen into disuse, creating a legal vacuum.",
+      "The petitioners' children were denied admission despite residing close to the schools and having sufficient marks, due to arbitrary application of the Circular."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(1) as guaranteeing equality before the law and equal protection of the law, extending to any binding executive or administrative regulation. The term 'law' includes such binding processes, not just formal legislation. The Court applied the 'Royster formulation' requiring classifications to be reasonable, non-arbitrary, and substantially related to the law's object.",
+    "application_to_facts": "The Court found the Circular's classification system arbitrary and unrelated to the objective of providing equal access to education. The criteria ignored the child's suitability and need, relying instead on extraneous factors. The weighted marking scheme further defeated equal access. Thus, the Circular violated Article 12(1).",
+    "principles_established": [
+      "Equality before the law includes equal protection against arbitrary executive regulations.",
+      "The term 'law' in Article 12(1) encompasses binding executive or administrative regulations.",
+      "Classifications in law must be reasonable, non-arbitrary, and substantially related to the law's objective.",
+      "Admission policies must focus on equal access to education based on suitability and need, not extraneous criteria."
+    ],
+    "precedents_cited": [
+      "Gulf Colorado and Santa Railway Co. v Ethis (1897) 165 US 150",
+      "Royster Guano Co. v Commonwealth of Virginia (1920) 253 US 412",
+      "Brown v Board of Education Topeka 347 US 483"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the impugned Circular is inconsistent with Article 12(1) and invalid in respect of admissions to Grade 1 in National Schools. The petitioners' fundamental rights were infringed by the executive and administrative action.",
+    "disposition": "granted",
+    "remedy_or_orders": "The Circular is declared invalid and of no legal effect. The Court directed the formulation of a new national policy on school admissions under the National Education Commission Act, with appropriate methods and criteria ensuring equality. Administrative relief is to be granted to affected students."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) is central to the Court's reasoning as it guarantees equality before the law and equal protection, which the Circular violated by arbitrary and unreasonable classifications in school admissions. The Court's decision directly rests on the interpretation and application of this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the Circular's classification is not based on the suitability and need of the child but on extraneous considerations such as property ownership and past pupil status, defeating the objective of equal access to education, thus violating Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

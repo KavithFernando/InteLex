@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_014-SLLR-SLLR-1996-1-ATUKORALE-V.-ATTORN_069_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (S.D) NO. 2 of 1995",
+    "case_title": "Atukorale v. Attorney-General",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-12-28",
+    "source_citation": "Sri Lanka Law Reports [1996] 1 Sri L.R. 238"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether Clause 2 of the Bill to amend the Pradeshiya Sabhas Act, which grants the Minister powers to vary limits, number of members, and dissolve Pradeshiya Sabhas without appropriate guidelines, violates Article 12(1) of the Constitution by potentially causing discrimination and denying equal protection of the law.",
+    "petitioner_claim": "The petitioner argued that the absence of appropriate guidelines for the Minister's powers would result in discrimination and deprive affected persons of equality before the law and equal protection under Article 12(1).",
+    "respondent_argument": "The Attorney-General acknowledged the need for guidelines and stated the intention to exercise the powers subject to existing guidelines in sections 2 and 4 of the Act and relevant ordinances, implying the Bill itself does not lack safeguards.",
+    "key_facts": [
+      "Clause 2 of the Bill proposes new section 9A granting broad powers to the Minister to vary Pradeshiya Sabha limits, membership, and dissolve Sabhas.",
+      "No explicit guidelines were included in the Bill to regulate the exercise of these powers.",
+      "Pradeshiya Sabhas correspond to Assistant Government Agent divisions and have elected members with fixed terms.",
+      "The Minister's powers affect the franchise and local governance structure.",
+      "The Attorney-General indicated that existing guidelines in other laws would govern the exercise of these powers."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Parliament must ensure equality before the law and equal protection for similarly circumstanced persons when enacting legislation. The absence of appropriate guidelines in the Bill for the Minister's powers could lead to discrimination, violating Article 12(1).",
+    "application_to_facts": "Since the Bill lacked explicit guidelines to regulate the Minister's discretion, it risked arbitrary or discriminatory actions affecting persons equally situated, thus breaching Article 12(1). However, if the Bill were amended to include proper guidelines, it would cease to be inconsistent with Article 12(1).",
+    "principles_established": [
+      "Legislation must include adequate guidelines to prevent discriminatory exercise of discretionary powers.",
+      "Equality before the law requires protection against arbitrary administrative actions.",
+      "Parliament's failure to provide guidelines can render a law inconsistent with constitutional equality guarantees."
+    ],
+    "precedents_cited": [
+      "Minister of Home Affairs v. Fisher (1979) 3 All ER 21 (PC)",
+      "Re The Thirteenth Amendment to the Constitution (1987) 2 Sri L.R. 324"
+    ]
+  },
+  "outcome": {
+    "holding": "Clause 2 of the Bill, as originally drafted without appropriate guidelines, is inconsistent with Article 12(1) and can only be passed with a special majority under Article 84(2). If amended to include specified guidelines, it would no longer be inconsistent.",
+    "disposition": "other",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) is central to the Court's reasoning because the Bill's lack of guidelines risks discrimination and denial of equal protection, directly implicating the constitutional guarantee of equality before the law.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The proposed legislation did not carry appropriate guidelines for the exercise of the powers of the Minister and the absence of appropriate guidelines would result in discrimination and thereby deprive the persons affected, equally before the law and equal protection of the law. Hence the impugned clause is inconsistent with Article 12(1)... If the impugned clause (2) of the Bill is amended as specified... it will cease to be inconsistent with Article 12(1) of the Constitution.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 246,
+      "end_char": 430
+    }
+  }
+}

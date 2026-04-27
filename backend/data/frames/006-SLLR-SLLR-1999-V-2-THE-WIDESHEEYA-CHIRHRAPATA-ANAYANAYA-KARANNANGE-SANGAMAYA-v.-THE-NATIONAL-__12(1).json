@@ -1,0 +1,77 @@
+{
+  "frame_id": "RQ1_006-SLLR-SLLR-1999-V-2-THE-WIDESHEEYA-CH_033_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 991/97",
+    "case_title": "The Widesheeya Chithrapata Anayanaya Karannange Sangamaya v. The National Film Corporation of Sri Lanka and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-02-03",
+    "source_citation": "[1999] 2 Sri LR 40"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the National Film Corporation violated Article 12(1) by discriminating in the importation and supply of foreign films, allowing the 5th respondent to import used prints while restricting the petitioner’s members to brand new prints.",
+    "petitioner_claim": "The petitioner argued that the 1st respondent discriminated against its members by permitting the 5th respondent to import and supply used prints and granting other concessions, while only allowing the petitioner’s members to import brand new prints, thus violating their fundamental rights under Article 12(1).",
+    "respondent_argument": "The respondents contended that the 1st respondent had a consistent practice of accepting 'runnable' prints in addition to brand new prints, and that concessions were sometimes made to suppliers. They denied that used prints were permitted for the petitioner’s members.",
+    "key_facts": [
+      "The National Film Corporation controls import, distribution, and exhibition of foreign films under the National Film Corporation Act No. 47 of 1971.",
+      "The petitioner is an association of eight members engaged in importing foreign films, registered with the Corporation.",
+      "The Corporation’s policy required only brand new prints to be imported, defined by specific physical criteria.",
+      "The 5th respondent was permitted to import used prints and given other concessions not extended to the petitioner’s members.",
+      "Condition reports and documentary evidence showed that used prints were accepted from the 5th respondent but not from the petitioner’s members."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as requiring equal treatment and protection under the law, especially where a statutory monopoly is exercised in trust for the public benefit. The Corporation’s policy and practice must be consistent and non-discriminatory.",
+    "application_to_facts": "The court found that the 1st respondent violated Article 12(1) by secretly relaxing its own declared policy to allow the 5th respondent to import used prints while enforcing stricter conditions on the petitioner’s members. This unequal treatment breached the fundamental right to equality and equal protection of the law.",
+    "principles_established": [
+      "A statutory monopoly must be exercised fairly and for the public benefit.",
+      "Declared policies and criteria must be adhered to and not secretly relaxed for favored parties.",
+      "Associations can vindicate the fundamental rights of their members under Article 12(1).",
+      "Discriminatory treatment in the exercise of statutory powers violates Article 12(1)."
+    ],
+    "precedents_cited": [
+      "Wijesuriya v. Lai Ranjith (1994) 3 Sri LR 276",
+      "Piyasena v. People's Bank (1994) 2 Sri LR 65",
+      "Perera v. Monetary Board (1994) 1 Sri LR 152",
+      "Samarasinghe v. Air Lanka (1996) 1 Sri LR 259",
+      "Bandara v. Ratwatte (1997) 3 Sri LR 360; (1998) 2 Sri LR 96",
+      "Amirtharajah v. CGIR SC Minutes 20 September, 1996",
+      "Nanayakkara v. Bandusena SC 572/95 Minutes 1 February, 1996",
+      "Surendran v. UGC (1993) 1 Sri LR 344",
+      "Perera v. Institute of Aesthetic Studies SC 18/95 SC Minutes 27 July, 1995",
+      "Wickremanayake v. Telecom SC 222/94 SC Minutes 12 December, 1995",
+      "Jayawickreme v. University of Colombo (1998) 2 Sri LR 235",
+      "Rajanayagam v. Commissioner of Excise SC 389/98 SC Minutes 1 October, 1998",
+      "Smith Kline Beecham v. State Pharmaceuticals Corporation (1997) 3 Sri LR 20",
+      "Swissary v. Fernando SC 51/94 SC Minutes 25 July, 1994",
+      "Ratnayake v. SLRC SC 867/96 SC Minutes 11 June, 1998"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the 1st respondent violated Article 12(1) by permitting the 5th respondent to import and supply used and/or runnable prints while restricting the petitioner’s members to brand new prints, thereby discriminating against them.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 1st respondent was directed to define and publish clear criteria for importation, supply, and distribution of films after affording stakeholders an opportunity to make representations, and to notify reasons in writing if any print is rejected. The 1st respondent was also ordered to pay Rs. 400,000 as compensation and costs to the petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court’s reasoning as it protects against discriminatory treatment by public authorities. The court found that the National Film Corporation’s unequal application of its importation criteria violated the right to equality and equal protection under the law.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner established that the 1st respondent’s policy was to allow only brand new prints, but the 5th respondent was permitted to import used prints and given other concessions. Condition reports and affidavits confirmed this discriminatory practice.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

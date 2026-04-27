@@ -1,0 +1,71 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-1983-2-JANATHA-FINANCE-AND_061_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 127 OF 1982",
+    "case_title": "Janatha Finance and Investments Ltd v. Liyanage and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1983-02-14",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 127 of 1982, decided on 14 February 1983"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the sealing of the Petitioner's printing press constituted discrimination against the Petitioner on the ground of political opinion in violation of Article 12(2) of the Constitution.",
+    "petitioner_claim": "The Petitioner alleged that the Orders were motivated by political vengeance against Dr. Fernando for his opposition to the Government and that the Petitioner was singled out for harsh treatment because of the political opinions held and expressed by its Chairman and the materials printed.",
+    "respondent_argument": "The Respondents argued that the Orders were made based on credible information relating to national security and public order, not on political opinion, and that the power exercised was lawful, reasonable, and in good faith. They denied any discrimination on political grounds.",
+    "key_facts": [
+      "Dr. Neville Fernando, Chairman of the Petitioner, was politically active and opposed the Government.",
+      "The Petitioner printed materials supporting the opposition Sri Lanka Freedom Party during the presidential election.",
+      "The printing press was sealed under emergency regulations after credible information of its use for producing materials prejudicial to national security.",
+      "Similar Orders were made against other printing presses, not only the Petitioner.",
+      "The Petitioner claimed it was singled out for political reasons."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court recognized that Article 12(2) prohibits discrimination on grounds including political opinion. However, it held that the Orders were not discriminatory but lawful restrictions under emergency regulations justified by national security concerns. The Court found no evidence that the 1st Respondent acted with malice or political vengeance, and the Petitioner failed to prove discrimination on political grounds.",
+    "application_to_facts": "The Court noted that the 1st Respondent acted on credible information from official sources and that similar Orders were made against other printing presses. The Court found the exercise of discretion was reasonable and in good faith, and the Petitioner was not singled out due to political opinion but due to the nature of the materials produced and national security concerns.",
+    "principles_established": [
+      "Restrictions on fundamental rights during emergencies must be lawful and reasonable, not arbitrary or discriminatory.",
+      "Discrimination claims under Article 12(2) require proof of malice or improper motive.",
+      "Judicial review of emergency powers includes scrutiny for bad faith or unreasonableness.",
+      "The presumption of regularity applies to executive Orders unless rebutted by evidence."
+    ],
+    "precedents_cited": [
+      "Anisminic Ltd. v. The Foreign Compensation Commission (1969) 1 All ER 208",
+      "Hirdaramani v. Ratnavale 75 NLR 67",
+      "Gunasekera v. De Fonseka 76 NLR 246",
+      "Siriwardena v. Liyanage S.C. Application No. 120/80 SCM 27.1.83",
+      "Liversidge v. Anderson (1942) AC 206",
+      "Redge v. Baldwin (1963) 2 All ER 66",
+      "IRC v. Rossminster Ltd. (1980) 1 All ER 80",
+      "Secretary of State v. ASLEF (No. 2) (1972) 2 All ER 949",
+      "A.G. of Saint Christopher v. Reynolds (1979) 3 All ER 129 (PC)"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the Petitioner's claim of discrimination under Article 12(2), holding that the Orders were valid and not motivated by political opinion or malice.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was directly engaged by the Petitioner's claim that the sealing of its printing press was discriminatory on political grounds. The Court's analysis focused on whether the Orders were motivated by political opinion or were lawful restrictions, thus directly interpreting the clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Petitioner alleged political discrimination in the sealing of its printing press, but the Court found the 1st Respondent acted on credible information and that similar Orders were made against other presses, concluding no discrimination on political grounds.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

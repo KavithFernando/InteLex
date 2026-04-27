@@ -1,0 +1,69 @@
+{
+  "frame_id": "RQ1_006-SLLR-SLLR-1994-V2-PREMACHANDRA-V.-MA_032_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "006-SLLR-SLLR-1994-V2-PREMACHANDRA-V.-MAJOR-MONTAGUE-JAYAWICJREMA-AND-ANOTHER-PROVINCIAL-GOVERNO",
+    "case_title": "Premachandra v. Major Montague Jayawickrema and Another (Provincial Governors’ Case)",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1993-08-16",
+    "source_citation": "Sri Lanka Law Reports [1994] 2 Sri LR. Supreme Court Reference Nos. 2/93 & 3/93, 4/93 & 5/93, decided on 16 August 1993"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Governor's appointment of Chief Ministers under Article 154F(4) discriminated against the Petitioners on prohibited grounds, violating Article 12(2) of the Constitution.",
+    "petitioner_claim": "The Petitioners claimed that the Governor's appointment of UNP candidates, despite evidence of majority support for themselves, constituted discrimination violating Article 12(2).",
+    "respondent_argument": "The Respondents argued that the appointment was based on the Governor's opinion of who could command majority support and was not discriminatory on any prohibited ground under Article 12(2).",
+    "key_facts": [
+      "Petitioners submitted documentary evidence and affidavits showing majority support.",
+      "Governors appointed UNP candidates without applying the proviso of Article 154F(4) as no party had absolute majority.",
+      "Petitioners alleged discrimination in the exercise of the Governor's discretion.",
+      "Court of Appeal referred only the question of infringement of fundamental rights under Article 126(3).",
+      "Supreme Court held the reference under Article 126(3) was improper and considered the matter under Article 125."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(2) prohibits discrimination on specified grounds and that any exercise of constitutional power must not be discriminatory. The Governor's discretion must be exercised without discrimination on prohibited grounds. The Court found no evidence that the Governor's decision was based on any prohibited ground of discrimination but emphasized that judicial review is available to ensure no such discrimination occurs.",
+    "application_to_facts": "The Court found that the Governor's appointment was based on his opinion of who could command majority support and not on any prohibited ground such as race, religion, or political opinion. The Petitioners failed to prove discrimination under Article 12(2). However, the Court affirmed that the Governor's discretion is subject to judicial review to prevent discrimination.",
+    "principles_established": [
+      "Article 12(2) prohibits discrimination on specified grounds in the exercise of constitutional powers.",
+      "Judicial review is available to prevent discriminatory exercise of discretion.",
+      "The Governor's discretion must be exercised objectively and without improper considerations.",
+      "No evidence of discrimination on prohibited grounds was found in this case."
+    ],
+    "precedents_cited": [
+      "Chandrasekeram v. A.G.",
+      "Baker v. Carr",
+      "Bhut Nath v. State of West Bengal",
+      "Adegbenro v. Akintola",
+      "Dinesh Chandra v. Charan Singh",
+      "State of Rajasthan v. Union of India",
+      "Council of Civil Service Unions v. Minister for Services"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that there was no evidence of discrimination violating Article 12(2) in the Governor's appointment of Chief Ministers. The Governor's discretion is subject to judicial review to ensure no discrimination occurs, but the Petitioners' claim under Article 12(2) was not established. The matter was remitted to the Court of Appeal for determination consistent with this ruling.",
+    "disposition": "other",
+    "remedy_or_orders": "Case sent back to the Court of Appeal with determination of the Supreme Court."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) is relevant as the Petitioners alleged discrimination in the Governor's appointment decisions. The Court's reasoning and outcome address the non-discriminatory exercise of constitutional discretion, affirming judicial review to prevent discrimination.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found no evidence that the Governor's decision was based on any prohibited ground of discrimination but emphasized that judicial review is available to ensure no such discrimination occurs.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

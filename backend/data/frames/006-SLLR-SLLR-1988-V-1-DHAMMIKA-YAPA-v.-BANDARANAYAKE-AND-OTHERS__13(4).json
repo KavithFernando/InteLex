@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_006-SLLR-SLLR-1988-V-1-DHAMMIKA-YAPA-V.-_012_C03__13(4)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. 110/87",
+    "case_title": "Dhammiaka Yapa v. Bandaranayake and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1987-11-17",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. 110/87, decided on 17 November 1987"
+  },
+  "clause": {
+    "article": "13(4)",
+    "text": "Punishment can only be imposed by a competent court and detention before trial is not punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the preventive detention orders under Emergency Regulations violated Article 13(4) by constituting punishment without trial.",
+    "petitioner_claim": "The petitioner argued that the detention under Regulation 17(1) was punitive and thus violated Article 13(4).",
+    "respondent_argument": "Respondents argued that preventive detention is not punishment and Regulation 17(1) is constitutionally valid.",
+    "key_facts": [
+      "Wijesekera was detained under Regulation 19(2) for investigation and subsequently under Regulation 17(1) for preventive detention.",
+      "The detention under Regulation 17(1) was to prevent him from acting prejudicially to national security and public order.",
+      "The petitioner challenged Regulation 17(1) as ultra vires the Constitution and violative of Article 13(4).",
+      "The court considered precedents and legal principles distinguishing preventive detention from punishment."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(4) prohibits punishment except by competent court but detention pending investigation or trial is not punishment. Preventive detention under Regulation 17(1) is a precautionary measure, not punitive.",
+    "application_to_facts": "Applying established legal principles and precedents, the court found Regulation 17(1) valid and not in violation of Article 13(4). The detention was preventive, aimed at national security and public order.",
+    "principles_established": [
+      "Preventive detention is qualitatively different from punitive detention.",
+      "Detention pending investigation or trial does not constitute punishment under Article 13(4).",
+      "Regulation 17(1) of Emergency Regulations is constitutionally valid and not ultra vires."
+    ],
+    "precedents_cited": [
+      "Vijaya Kumaranatunga v. G. V. P. Samarasinghe and others",
+      "Rex v. Halliday",
+      "Gopalan v. State of Madras",
+      "Liversidge v. Anderson"
+    ]
+  },
+  "outcome": {
+    "holding": "The court upheld the validity of Regulation 17(1) and held that preventive detention under it does not violate Article 13(4).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(4) protects against punishment without trial. The court's reasoning on preventive detention under Regulation 17(1) directly addresses this protection and confirms the constitutionality of such detention.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court cited precedents and held that preventive detention is not punishment; Regulation 17(1) is a precautionary measure valid under the Constitution.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

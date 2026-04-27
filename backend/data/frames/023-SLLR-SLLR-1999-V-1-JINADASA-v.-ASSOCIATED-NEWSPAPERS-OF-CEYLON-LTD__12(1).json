@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_023-SLLR-SLLR-1999-V-1-JINADASA-V.-ASSOC_118_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. FR NO. 296/98",
+    "case_title": "Jinadasa v. Associated Newspapers of Ceylon Ltd.",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-11-12",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. FR No. 296/98, decided on 12 November 1998"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the termination of the petitioner's services by the Board violated his fundamental rights under Article 12(1) of the Constitution regarding equality before the law and equal protection.",
+    "petitioner_claim": "The petitioner claimed that his termination was arbitrary, lacked rational explanation, and violated his right to equality and equal protection under Article 12(1).",
+    "respondent_argument": "The respondents argued that the termination was justified due to loss of trust and confidence in the petitioner based on past misconduct and that the petitioner was not appointed on merit but because he was the only candidate.",
+    "key_facts": [
+      "Petitioner was appointed Additional Secretary in 1988 and later promoted to General Manager and Special Grade with salary increments.",
+      "Termination occurred on 6 April 1998 on grounds of loss of trust and confidence by the Board.",
+      "Past allegations against petitioner were either forgiven or irrelevant as they predated salary increments and promotions.",
+      "Letters from former and present Chairmen commended the petitioner's work.",
+      "The decision to terminate was found to be capricious and based on will and pleasure without rational grounds."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as guaranteeing protection against arbitrary and capricious actions by authorities, requiring rational and impartial decision-making.",
+    "application_to_facts": "The court found no rational basis for the termination decision, noting that past allegations were forgiven and that the petitioner had been promoted and commended. The termination was therefore a violation of the petitioner's right to equal protection under the law.",
+    "principles_established": [
+      "Termination of employment must be based on rational and fair grounds.",
+      "Past forgiven misconduct cannot justify arbitrary dismissal.",
+      "Equal protection requires impartial and even-handed treatment by authorities."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the termination of the petitioner's services violated Article 12(1) of the Constitution and set aside the termination decision.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioner was ordered to continue as General Manager/Secretary and awarded Rs. 75,000 as compensation and Rs. 25,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects individuals from arbitrary and irrational actions by authorities, which was the core issue in the petitioner's termination.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found no rational explanation for the termination and noted letters commending the petitioner’s work, concluding the decision was capricious and violated Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

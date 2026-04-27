@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_018-SLLR-SLLR_1978-79-80_V1-SAMARASINGHE_096_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO: 95/80",
+    "case_title": "Samarasinghe v. The Bank of Ceylon Ltd.",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1980-10-30",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 95/80, decided on 30 October 1980"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Bank of Ceylon's promotion scheme, which required direct recruit graduates to pass the Institute of Bankers' Examination Part I for promotion to Assistant Manager while promoted Sub-Managers were not subject to this requirement, violated the petitioner's constitutional right to equality under Article 12(1).",
+    "petitioner_claim": "The petitioner argued that the Bank's distinction between promoted Sub-Managers and direct recruit Sub-Managers in promotion eligibility was discriminatory and infringed his right to equality under Article 12(1) because both groups belonged to the same cadre but were treated differently.",
+    "respondent_argument": "The Bank contended that the distinction was reasonable, based on intelligible differentials such as educational qualifications and experience, and was aimed at ensuring efficiency in the post of Assistant Manager. The Bank argued that the direct recruits and promotees were not equals due to differences in experience and qualifications, and thus the classification was constitutional.",
+    "key_facts": [
+      "The Bank had two categories of Sub-Managers: those promoted internally from clerks and those appointed directly as graduates.",
+      "Promoted Sub-Managers could be promoted to Assistant Manager after about six years without passing the Institute of Bankers' Examination Part I if they had special merit and experience.",
+      "Direct recruit Sub-Managers had to pass the Institute of Bankers' Examination Part I or its equivalent to be promoted to Assistant Manager.",
+      "The petitioner was a direct recruit graduate with over seven years service but had not passed the required examination and was denied promotion.",
+      "The Bank's promotion scheme was approved by its Board of Directors and included provisions for probation and examination requirements."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(1) as allowing reasonable classification within an integrated class if based on intelligible differentials that have a nexus with the object of classification, such as efficiency in the post. The Court emphasized that the burden of proving discrimination lies on the petitioner with cogent and convincing evidence.",
+    "application_to_facts": "The Court found that the Bank's classification between promoted and direct recruit Sub-Managers was reasonable and related to differences in experience and qualifications. The petitioner failed to provide convincing evidence of discrimination. The Court relied on precedents that upheld classification based on educational qualifications for promotion within integrated classes.",
+    "principles_established": [
+      "Burden of proof to establish discrimination under Article 12(1) lies on the petitioner.",
+      "Reasonable classification based on intelligible differentials with nexus to the object (efficiency) is permissible under Article 12(1).",
+      "Integration into one class does not preclude further classification for promotion based on relevant criteria.",
+      "The Court will not substitute its judgment for that of the authority if classification is reasonable."
+    ],
+    "precedents_cited": [
+      "State of Jammu and Kashmir v. T. N. Kosha (1974) AIR Vol. 61 Supreme Court",
+      "State of Uttar Pradesh v. Kartar Singh (1964) Vol. 6 S.C.R. 679",
+      "Boshan Lai v. Union (1968) Vol. 1 S.C.R. 185"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the Bank's promotion scheme did not violate Article 12(1) of the Constitution and dismissed the petitioner's application.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner's claim of discrimination in promotion. The Court's reasoning focused on whether the Bank's classification violated the equality guarantee under this clause, making it dispositive to the outcome.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner claimed discrimination under Article 12(1) because direct recruit Sub-Managers were required to pass the Institute of Bankers' Examination Part I for promotion, unlike promoted Sub-Managers. The Court found the classification reasonable and not unconstitutional.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

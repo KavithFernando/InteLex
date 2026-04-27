@@ -1,0 +1,71 @@
+{
+  "frame_id": "RQ1_040-SLLR-SLLR-1989-V-2-SASANASIRITISSA-T_183_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATIONS 13/88, 14/88 and 15/88",
+    "case_title": "Sasanasiritissa Thero and Others v. P.A. De Silva, Chief Inspector, C.I.D. and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1989-07-27",
+    "source_citation": "Sri Lanka Law Reports (1989) 2 Sri LR 356"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' arrest and detention under Emergency Regulations violated their right to equality before the law and equal protection of the law under Article 12(1).",
+    "petitioner_claim": "The petitioners claimed that their arrest and detention were mala fide, politically motivated, and violated their fundamental rights including Article 12(1).",
+    "respondent_argument": "Respondents denied political motivation and mala fides, contending the detention was lawful under Emergency Regulations and justified by national security concerns.",
+    "key_facts": [
+      "Petitioners were arrested following a bomb explosion at a public event.",
+      "The 1st petitioner was a political opponent of the government and a party patron.",
+      "The petitioners were detained without being produced before a Magistrate.",
+      "Detention orders were issued under Emergency Regulations, with the main order dated 20.12.87.",
+      "The Court found the detention orders were signed mechanically without proper consideration and were mala fide."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 12(1) guarantees equality before the law and equal protection. The Court examined whether the petitioners were treated differently or arbitrarily deprived of liberty without lawful justification.",
+    "application_to_facts": "The Court found that the detention was not based on reasonable grounds but on mala fide allegations unsupported by credible evidence. The petitioners were detained longer than justified and without proper legal process, violating their right to equal protection.",
+    "principles_established": [
+      "Detention must be based on bona fide opinion and lawful grounds.",
+      "Mala fide exercise of power violates Article 12(1).",
+      "Political victimization without evidence does not justify detention.",
+      "The State is liable for violations of fundamental rights by its agents."
+    ],
+    "precedents_cited": [
+      "Kottunnage Somaratne Ranasinghe v. Ceylon Plywood Corporation",
+      "Gunasena Thenabadu v. University of Ceylon",
+      "Jayasena v. Soysa",
+      "Ganeshanathan Jeganathan v. Attorney-General",
+      "Sahul Hameed v. Stanley Ranasinghe et al",
+      "Liversidge v. Sir John Anderson",
+      "Hirdaramani v. Ratnavali",
+      "Gunasekera v. Ratnavale",
+      "Yapa v. Bandaranayake"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioners' detention was unlawful and violated their fundamental rights under Article 12(1). The 2nd and 7th respondents were found responsible for the infringement.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioners were awarded compensation for unlawful detention and violation of fundamental rights."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it protects equality before the law and equal protection, which the petitioners argued was violated by their arbitrary and mala fide detention.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the 2nd and 7th respondents acted mala fide in making serious allegations unsupported by credible evidence, and the detention was unlawful violating fundamental rights under Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3700,
+      "end_char": 3900
+    }
+  }
+}

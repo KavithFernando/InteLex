@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_029-SLLR-SLLR-1998-V-2-RIFAIDEEN-V.-SUB-_045_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC(SPL) NO. 71/96",
+    "case_title": "Rifaideen v. Sub-Inspector of Police Jayalath, Wellawatte Police Station and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-09-01",
+    "source_citation": "Supreme Court of Sri Lanka, SC (SPL) No. 71/96, decided on 1 September 1998"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment by the 1st respondent in police custody, violating Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioner alleged that the 1st respondent assaulted him with sand-filled S-lon pipes while in police custody, causing injuries including a fractured right index finger and ongoing pain.",
+    "respondent_argument": "The 1st respondent denied involvement in any assault, claimed the petitioner was arrested after being informed of the reason, and argued the injuries were due to the petitioner falling after jumping over a 6-foot wall.",
+    "key_facts": [
+      "Petitioner was taken into custody on 27 or 28 May 1996 by the 1st respondent and others.",
+      "Petitioner alleges assault causing multiple injuries including a fractured finger.",
+      "Medical report confirmed contusions, bruises, and a fracture consistent with assault.",
+      "1st respondent claimed petitioner jumped over a wall causing injuries, which the court found improbable.",
+      "Petitioner was 59 years old at the time and appeared in court two years later."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 11 as prohibiting torture and cruel, inhuman or degrading treatment, which includes physical assault causing injury while in custody.",
+    "application_to_facts": "The court found the petitioner's version credible and supported by medical evidence, rejecting the respondent's improbable explanation. The injuries sustained were held to be caused by the assault by the 1st respondent, thus violating Article 11.",
+    "principles_established": [
+      "Physical assault causing injury while in police custody constitutes a violation of Article 11.",
+      "Medical evidence is critical in assessing claims of torture or cruel treatment.",
+      "Unlikely or improbable explanations by respondents will not absolve responsibility for violations."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the 1st respondent violated the petitioner's fundamental right under Article 11 and awarded compensation.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State and the 1st respondent were ordered to pay Rs. 40,000/- in total compensation to the petitioner within three months. The Registrar was directed to send a copy of the judgment to the Inspector-General of Police."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the court's determination that the petitioner was subjected to cruel and inhuman treatment by the police, leading to a violation of fundamental rights and the award of compensation.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was assaulted with sand-filled S-lon pipes causing injuries including a fractured finger; medical report confirmed contusions and fracture; the court rejected the respondent's claim that injuries were from a fall.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

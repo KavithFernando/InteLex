@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1989-V-2-VEERADAS-V.-CONTR_038_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 221/88",
+    "case_title": "Veeradas v. Controller of Immigration and Emigration and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1989-09-27",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 221/88, decided on 27 September 1989"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s fundamental right to freedom of speech and expression under Article 14(1)(a) was infringed by preventing him from traveling to the United Kingdom to address Amnesty International seminars.",
+    "petitioner_claim": "The petitioner claimed he was precluded from proceeding to London to participate in seminars and discussions arranged by Amnesty International, thus violating his right to freedom of speech and expression.",
+    "respondent_argument": "The respondents argued that any delay in attending the seminar did not constitute an infringement of Article 14(1)(a), especially since the petitioner eventually traveled and participated in the seminar. They also contended that the off-loading and detention were lawful and based on reasonable suspicion of forged travel documents.",
+    "key_facts": [
+      "The petitioner had a valid passport and visa and was invited by Amnesty International to speak in the UK.",
+      "He was off-loaded from the flight on suspicion of having a forged or altered passport.",
+      "The petitioner was detained and later discharged by the Magistrate as no proceedings were instituted.",
+      "He eventually traveled to the UK and participated in the seminar as planned.",
+      "The petitioner did not pursue the complaint that the delay violated Article 14(1)(a) at the hearing."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the right to freedom of speech under Article 14(1)(a) does not extend to exercising that right outside Sri Lanka if prevented by lawful action within Sri Lanka. The delay in attending the seminar did not amount to an infringement of this right.",
+    "application_to_facts": "Since the petitioner was lawfully prevented from traveling temporarily due to reasonable suspicion about his travel documents, and he ultimately attended the seminar, there was no violation of his freedom of speech rights.",
+    "principles_established": [
+      "Article 14(1)(a) protects freedom of speech and expression within Sri Lanka.",
+      "Temporary lawful restrictions on travel do not necessarily infringe freedom of speech rights.",
+      "Delays in exercising the right abroad caused by lawful domestic actions do not constitute violations."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court found no infringement of the petitioner’s rights under Article 14(1)(a).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioner claimed a violation of his freedom of speech by being prevented from traveling to speak abroad. The court directly addressed whether Article 14(1)(a) protects such travel-related expression rights and found no violation.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Any consequential delay in attending the Amnesty International Seminar does not in the circumstances constitute an infringement of Article 14(1)(a) of the Constitution. The petitioner eventually left Sri Lanka and participated in the seminar.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

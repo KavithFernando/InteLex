@@ -140,16 +140,15 @@ def get_or_create_clause_id(
     cur, article: str, subclause: str, fallback_text: Optional[str]
 ) -> Optional[int]:
     """
-    Look up constitution_clauses id for (article, subclause).
-    On a miss, auto-seed the row from the pre-loaded articles.json cache
-    (falling back to the LLM-provided clause_text) and retry.
-    Returns None only when the clause cannot be found or created.
+    Look up constitution_clauses id for (article, subclause)
+    If not found check articles.json and populate db
+    if stilll not found, skip
     """
     cid = resolve_constitution_clause_id(cur, article, subclause, fallback_text)
     if cid is not None:
         return cid
 
-    # Find text to seed with: authoritative constitution JSON first
+    # Find clause text from article.json
     text_to_insert: Optional[str] = None
     sub_to_insert = subclause
     for sub_variant in subclause_lookup_variants(subclause):
@@ -159,10 +158,9 @@ def get_or_create_clause_id(
             sub_to_insert = sub_variant
             break
     if text_to_insert is None:
-        # Article not present in articles.json — not a constitutional clause, don't insert
+        # skip
         return None
 
-    # Auto-seed the missing constitution_clauses row
     cur.execute(
         """
         INSERT INTO constitution_clauses (article, subclause, clause_text)
@@ -472,9 +470,8 @@ def import_one_frame(
 
 def run_import(frames_dir: str, manifest_path: str) -> Tuple[int, int, int, List[str]]:
     """
-    Import all frame JSONs from frames_dir using the given manifest.
-    Returns (inserted, skipped, error_count).
-    Raises on fatal DB/IO errors; individual frame errors are counted in error_count.
+    Import all frames from frames_dir using the manifest.json
+    Count individual frame errors in error_count
     """
     frames_dir = os.path.abspath(frames_dir)
     if not os.path.isdir(frames_dir):

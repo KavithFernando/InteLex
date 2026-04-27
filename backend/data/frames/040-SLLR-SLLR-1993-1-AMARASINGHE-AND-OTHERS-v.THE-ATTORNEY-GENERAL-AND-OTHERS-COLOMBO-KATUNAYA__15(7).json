@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_040-SLLR-SLLR-1993-1-AMARASINGHE-AND-OTH_035_C01__15(7)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (SPL) NO. 6/92",
+    "case_title": "Amarasinghe and Others v. The Attorney-General and Others (Colombo-Katunayake Expressway Case)",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1993-01-22",
+    "source_citation": "[1993] 1 Sri L.R. 376"
+  },
+  "clause": {
+    "article": "15(7)",
+    "text": "General restrictions may apply for national security, public order, health, morality, and welfare."
+  },
+  "case_context": {
+    "legal_issue": "Whether the President's order under section 2 of the Urban Development Projects (Special Provisions) Act, No. 2 of 1990, declaring lands urgently required for the Colombo-Katunayake expressway project, was valid and met the just requirements of the general welfare of the people, including considerations of natural justice, environmental impact, and resettlement.",
+    "petitioner_claim": "The petitioners argued that the President's opinion was subject to review for failure of natural justice (no hearing prior to recommendation and opinion), excess of jurisdiction, failure to consider relevant material including alternatives, environmental and socio-economic factors, and the large number of people affected and their resettlement needs.",
+    "respondent_argument": "The respondents contended that the President was entitled to form an opinion on the available material without a prior hearing, that the project was urgent and necessary, that environmental considerations were adequately addressed through the EIA process, and that the order met the just requirements of the general welfare of the people including national interest.",
+    "key_facts": [
+      "The President made an order under section 2 declaring lands urgently required for the expressway project.",
+      "The project had been under consideration since 1982 with feasibility studies and environmental impact assessments.",
+      "Approximately 2,500 families would be affected and resettlement plans were underway.",
+      "Environmental Impact Assessment (EIA) and supplementary EIA were prepared and subject to public scrutiny before possession of lands.",
+      "The order did not deprive property rights immediately and legal remedies under Article 140 remained available."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the phrase 'just requirements of the general welfare of the People' in section 2 is virtually identical to Article 15(7) of the Constitution and includes national interest considerations. The President's opinion is a policy determination based on general evidence and is not subject to a prior hearing requirement. The obligation to give a hearing arises later when objections are submitted under the Land Acquisition Act. Environmental and socio-economic factors were considered adequately through the EIA process, and the project was not unreasonable or unlawful.",
+    "application_to_facts": "The Court found that the President had adequate material to form his opinion, including urgency and welfare considerations. The EIA process provided for public participation and environmental safeguards. The number of affected families was not unduly high given the district population, and resettlement was being addressed. The Court emphasized that it is not its role to assess the merits or alternatives of the project but to ensure legality and procedural fairness, which were satisfied.",
+    "principles_established": [
+      "The President's opinion under section 2 is a policy decision subject to limited judicial review.",
+      "No prior hearing is required before the President forms an opinion under section 2.",
+      "Environmental considerations are protected by the EIA process and do not invalidate the section 2 order.",
+      "The just requirements of the general welfare include national interest and are not limited to those directly affected.",
+      "Judicial review focuses on jurisdictional errors, procedural fairness, and reasonableness, not merits."
+    ],
+    "precedents_cited": [
+      "Hirdaramani v. Ratnavale [1971] 75 NLR 67",
+      "Visuvalingam v. Liyanage [1984] 2 Sri LR 123",
+      "Wickremabandu v. Herath [1990] 2 Sri LR 348",
+      "Weeraratne v. Colin-Thome [1988] 2 Sri LR 151",
+      "Fernandopulle v. Minister of Lands and Agriculture (1978) 79(2) NLR 115"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court refused the petitioners' application for Certiorari and Prohibition, holding that the President's order under section 2 was valid and met the just requirements of the general welfare of the people, including environmental and resettlement considerations.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 15(7) was central to the Court's reasoning as it defines the scope of 'just requirements of the general welfare of the People' which the President must consider when making the section 2 order. The Court interpreted this clause to include national interest and general welfare, justifying the order despite the impact on affected persons.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The phrase under consideration is virtually identical to that occurring in Article 15 (7) of the Constitution. It must include the national interest in general. The Order has, of itself, no adverse impact on the citizen's property, liberty or livelihood; ... and it was not unreasonable for the President to have concluded, when he made the section 2 Order, that the expressway is in the national interest.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 11400,
+      "end_char": 11750
+    }
+  }
+}

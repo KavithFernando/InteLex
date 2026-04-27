@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_007-SLLR-SLLR-1983-1-FERNANDO-V.-ATTORNE_008_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 2 OF 1983",
+    "case_title": "Fernando v. Attorney General and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1983-02-25",
+    "source_citation": "[1983] 1 SriLR 374"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to cruel, inhuman or degrading treatment or punishment in violation of Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that he was subjected to cruel, inhuman and degrading treatment and punishment by the police during his arrest and detention.",
+    "respondent_argument": "The respondents denied the allegations of cruel, inhuman or degrading treatment and stated that the petitioner was part of an illegal procession and that the police acted lawfully to disperse it and arrest participants.",
+    "key_facts": [
+      "The petitioner was attending a peaceful assembly and fast at a church to protest detention of detainees.",
+      "Police forcibly entered the church compound, baton charged, assaulted, and arrested the petitioner.",
+      "The petitioner alleged assault and abuse by police during arrest and detention.",
+      "Respondents claimed the petitioner was part of an illegal procession on a public road that turned violent.",
+      "The court found the procession was illegal under the Referendum Act and Police Ordinance."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court considered Article 11's protection against cruel, inhuman or degrading treatment and examined the facts of the police action against the petitioner.",
+    "application_to_facts": "The court found that the allegations of cruel, inhuman and degrading treatment were not substantiated or pursued during argument and thus did not find a violation of Article 11.",
+    "principles_established": [
+      "Allegations of cruel, inhuman or degrading treatment must be substantiated to succeed under Article 11.",
+      "Police have lawful powers to disperse illegal processions and arrest participants.",
+      "Police actions done in good faith under relevant laws do not necessarily constitute cruel or degrading treatment."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The petitioner's claim under Article 11 was dismissed as unsubstantiated.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the petitioner's claim that he was subjected to cruel, inhuman or degrading treatment by the police, but the court found no substantiation for this claim and dismissed it.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "There are the further allegations of violation of freedom of thought and conscience, of cruel, inhuman and degrading punishment. These were not substantiated and not pursued in the course of the argument.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3830,
+      "end_char": 3880
+    }
+  }
+}

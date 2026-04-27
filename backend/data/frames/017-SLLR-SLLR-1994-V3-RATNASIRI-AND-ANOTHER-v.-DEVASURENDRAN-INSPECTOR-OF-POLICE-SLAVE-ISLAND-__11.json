@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_017-SLLR-SLLR-1994-V3-RATNASIRI-AND-ANOT_025_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 4/91 WITH S.C. APPLICATION NO. 3/91",
+    "case_title": "Ratnasiri and Another v. Devasurendran, Inspector of Police, Slave Island and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1992-09-22",
+    "source_citation": "Sri Lanka Law Reports (1994) 3 Sri LR 127"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners were subjected to torture or inhuman treatment in police custody, violating Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioners claimed they were assaulted and subjected to inhuman treatment by police officers while in custody at the Slave Island Police Station.",
+    "respondent_argument": "The respondents denied the alleged assault in custody, suggesting injuries were sustained during the initial fight with the 3rd respondent and questioned the credibility of the petitioners' claims.",
+    "key_facts": [
+      "Petitioners were involved in an altercation with a police officer on a bus and subsequently arrested.",
+      "While in police custody, petitioners alleged assault and inhuman treatment by multiple police officers.",
+      "Medical examination showed injuries consistent with assault.",
+      "Petitioners were hospitalized for injuries sustained after arrest.",
+      "Respondents denied assault in custody and claimed injuries were from the bus altercation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 11 as prohibiting torture and inhuman treatment, emphasizing protection of dignity and physical integrity. The treatment causing severe physical and mental suffering without lawful sanction constitutes a violation.",
+    "application_to_facts": "The court found the petitioners' account plausible and corroborated by medical evidence, hospitalisation, and complaints made to the I.G.P. The injuries and treatment described amounted to inhuman treatment violating Article 11.",
+    "principles_established": [
+      "Police officers must exercise restraint and cannot lawfully inflict punishment before trial.",
+      "Inhuman treatment includes acts causing severe pain or suffering that grossly humiliate the individual.",
+      "Failure to establish personal responsibility of individual officers does not negate the State's liability.",
+      "Superior officers may be held accountable for acquiescence if they ignore such conduct."
+    ],
+    "precedents_cited": [
+      "W. M. K. Silva v. Chairman, Ceylon Fertilizer Corporation (1989) 2 Sri LR 393",
+      "Amal Sudath Silva v. Kodituwakku (1987) 2 Sri LR 119",
+      "Geekiyanage Premalal Silva v. Rodrigo S.C. Appl. No. 24/89",
+      "Jayaratne v. Tennakoon S.C. Appl. No. 18/89 with No. 10/89",
+      "Gamalath v. Neville Silva S.C. Appl. No. 78/90",
+      "Wimal Vidyamuni v. Lt. Col. Jayatilleke S.C. Appl. 852/91"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioners' rights under Article 11 were infringed by executive or administrative action through inhuman treatment in police custody. Compensation was awarded to the petitioners, but personal responsibility of individual officers was not established.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation of Rs. 5,000 plus Rs. 750 costs to the 1st petitioner; Rs. 3,000 plus Rs. 750 costs to the 2nd petitioner; State directed to pay. Registrar to forward judgment to Inspector General of Police for appropriate action."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 directly protects individuals from torture and inhuman treatment, which was the core issue in the case. The court's reasoning and ultimate decision centered on whether the petitioners were subjected to such treatment in police custody.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioners were assaulted with sticks, kicked, forced into painful positions, and subjected to humiliating acts while in police custody, as corroborated by medical reports, hospitalisation, and complaints to the I.G.P.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_044-SLLR-SLLR-1996-V-2-RAHUMA-V.-BERTY-P_070_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_120_95",
+    "case_title": "Rahuma Umma v. Berty Premalal Dissanayake",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-01-15",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 120/95, decided on 29 December 1995 and 15 January 1996"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Petitioner's fundamental right to freedom of speech and expression guaranteed by Article 14(1)(a) was violated by the Respondents' disruption of a school function.",
+    "petitioner_claim": "The Petitioner claimed that the Respondents disrupted the school function arranged for the opening of a new building and prize giving, thereby depriving her of the right to hold the meeting and address the students, staff, and well-wishers, violating her freedom of speech and expression.",
+    "respondent_argument": "The 1st Respondent argued that he intervened at the request of the 2nd Respondent to prevent a breach of the peace, participated at the invitation of the Petitioner, and that the acts were not related to his official capacity or authority over the school.",
+    "key_facts": [
+      "The Petitioner is the Principal of a school where a function was arranged for opening a new building and prize giving.",
+      "The 1st, 2nd, and 3rd Respondents, accompanied by police officers, disrupted the function by pulling down a pandol and conducting a 'mock' prize giving.",
+      "The 1st Respondent made an entry in the school log book directing an investigation into the Petitioner's political activities.",
+      "The Petitioner was deprived of the opportunity to hold the meeting and address attendees as planned.",
+      "The 1st Respondent claimed to act to prevent a breach of the peace and denied having authority over the school."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court adopted a liberal and purposive approach to fundamental rights under Article 14(1)(a), emphasizing that acts by public officers under colour of office that infringe such rights are actionable even if they exceed authority or involve abuse of power.",
+    "application_to_facts": "The court found that the 1st, 2nd, and 3rd Respondents acted under colour of office and that their disruption of the function and interference with the Petitioner's rights constituted an infringement of her freedom of speech and expression.",
+    "principles_established": [
+      "A public officer acting under colour of office can be held liable for abuse of power infringing fundamental rights.",
+      "The doctrine of acting under colour of office applies even if the officer exceeds authority or acts without jurisdiction, provided the act relates to their office.",
+      "Fundamental rights under Article 14(1)(a) protect the right to hold meetings and express views peacefully."
+    ],
+    "precedents_cited": [
+      "Velumurugu v. A.G.",
+      "Sunanda Deshapriya and another v. Municipal Council Nuwara-Eliya and Mayor of Nuwara Eliya",
+      "Upaliratne and Others v. Tikiri Banda and Others",
+      "Mohamed Faiz, Wild Life Ranger v. A.G."
+    ]
+  },
+  "outcome": {
+    "holding": "The court overruled the preliminary objection and held that the acts complained of constituted executive or administrative action infringing the Petitioner's fundamental right to freedom of speech and expression under Article 14(1)(a).",
+    "disposition": "granted",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) guarantees freedom of speech and expression, which the Petitioner claimed was violated by the Respondents' disruption of the school function. The court's reasoning and outcome centrally depended on interpreting and applying this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Petitioner complained that the Respondents disrupted the school function, pulled down the pandol, conducted a mock prize giving, and deprived her of the right to hold the meeting and address attendees, violating her freedom of speech and expression.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_047-SLLR-SLLR-2005-V-1-SENADEERA-INSPECT_196_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_263_2001_FR",
+    "case_title": "Senadeera, Inspector of Police, Pulmuddai Police Station vs Lt. Siyasinghe and others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2005-01-20",
+    "source_citation": "Sri Lanka Law Reports (2005) 7 Sri L. R. 335"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s fundamental right to equal protection of the law under Article 12(1) was infringed by the respondents.",
+    "petitioner_claim": "The petitioner claimed that he was assaulted and discriminated against by army personnel, infringing his right to equal protection under the law.",
+    "respondent_argument": "The respondents denied the allegations, highlighting contradictory evidence and lack of independent supporting affidavits.",
+    "key_facts": [
+      "Petitioner alleged assault and mistreatment by army officers and soldiers at Kokilai Army Camp.",
+      "Contradictory evidence and lack of independent affidavits from accompanying police officers.",
+      "Medical reports showed only mild injuries inconsistent with petitioner’s claims.",
+      "Criminal proceedings against respondents were withdrawn on Attorney General’s advice.",
+      "Court found petitioner failed to discharge burden of proof on balance of probabilities."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as guaranteeing equal protection under the law, requiring credible evidence to establish infringement. The petitioner must prove on a balance of probabilities that his right was violated.",
+    "application_to_facts": "The court found the petitioner’s evidence exaggerated and unsupported by independent affidavits or medical evidence. The withdrawal of criminal charges indicated lack of material to proceed, undermining petitioner’s claim of unequal protection.",
+    "principles_established": [
+      "Burden of proof lies on petitioner to establish infringement on balance of probabilities.",
+      "Equal protection requires credible and consistent evidence.",
+      "Withdrawal of criminal charges may indicate insufficient evidence of rights violation."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner failed to establish infringement of his right to equal protection under Article 12(1).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner’s claim of discrimination and denial of equal protection by the army personnel, and the court’s dismissal was based on failure to prove violation of this right.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner’s allegations were unsupported by independent affidavits, medical reports showed mild injuries, and criminal charges were withdrawn on Attorney General’s advice, indicating lack of material to prove infringement.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 320,
+      "end_char": 340
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_011-SLLR-SLLR-2003-1-THAVANEETHAN-V.-DAY_057_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. No. 20/2002 (FR) WITH SC Nos. 25 AND 26/2002 (FR)",
+    "case_title": "Thavaneethan v. Dayananda Dissanayake Commissioner of Elections and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-10-07",
+    "source_citation": "[2003] 1 Sri L.R"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' right to equality and equal protection of the law under Article 12(1) was infringed by the differential treatment in voting arrangements during the 2001 Parliamentary General Election.",
+    "petitioner_claim": "The petitioners claimed that they were arbitrarily and mala fide prevented from voting while other voters, including VVIPs, were given special voting privileges, constituting a violation of their right to equality under Article 12(1).",
+    "respondent_argument": "The respondents argued that the restrictions and special arrangements were justified on grounds of national security and lawful exercise of powers under relevant laws and regulations.",
+    "key_facts": [
+      "About 55,000 voters including the petitioners were prevented from voting by army orders in Batticaloa and Vanni districts.",
+      "Voters in Trincomalee district and six VVIPs were allowed to vote without similar restrictions.",
+      "The 1st Respondent made an Order under section 129 of the Parliamentary Elections Act to allow six VVIPs to vote at their residences.",
+      "The decision to close entry points was not communicated to the 1st Respondent and was shrouded in secrecy.",
+      "The 1st Respondent's Order under section 129 was made without material evidence of threats and without requests from the VVIPs."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equality before the law and equal protection, which prohibits arbitrary and discriminatory treatment by state authorities, especially in fundamental rights such as voting. The special privileges granted to a few while denying the majority the right to vote violated this principle.",
+    "application_to_facts": "The court found that the closure of entry points was arbitrary and mala fide, motivated by extraneous political considerations, and that the 1st Respondent's special arrangements for six VVIPs were unlawful, discriminatory, and lacked rational basis. This differential treatment infringed the petitioners' right to equality under Article 12(1).",
+    "principles_established": [
+      "Equality before the law requires non-arbitrary, non-discriminatory treatment of all voters.",
+      "Special voting arrangements must be based on lawful authority and rational grounds.",
+      "Section 129 of the Parliamentary Elections Act does not empower ad hoc preferential treatment.",
+      "Fundamental rights violations in elections undermine democratic integrity."
+    ],
+    "precedents_cited": [
+      "Mallows v Commissioner of Income Tax (1962) 66 NLR 32",
+      "Vadivelu v OIC Sithambarapura Refugee Camp Police Post SC 44/2002 SCM 5.9.2002",
+      "Dias v Secretary, Ministry of Defence SC 604/2001 SCM 5.9.2002",
+      "Karunathilaka v Dissanayake (1999) 1 SRI LR 157",
+      "Egodawela v Dissanayake (Reported as Mediwake v Dissanayake (2001) SRI LR 177)"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioners' right to equality and equal protection under Article 12(1) was infringed by the 1st and 3rd Respondents due to arbitrary and discriminatory voting restrictions and unlawful special voting privileges.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declarations of infringement of Article 12(1) rights; compensation of Rs. 100,000 payable by the State to each petitioner; Rs. 30,000 costs payable personally by the 3rd Respondent; Rs. 1,000 nominal compensation payable personally by the 1st Respondent for the unlawful Order under section 129."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as the petitioners challenged the unequal and discriminatory treatment in voting rights, which the court found violated the constitutional guarantee of equality before the law and equal protection.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the 3rd Respondent's decision to close entry points was arbitrary and mala fide, and that the 1st Respondent's Order under section 129 allowing six VVIPs to vote at home was unlawful and discriminatory, lacking any material basis.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

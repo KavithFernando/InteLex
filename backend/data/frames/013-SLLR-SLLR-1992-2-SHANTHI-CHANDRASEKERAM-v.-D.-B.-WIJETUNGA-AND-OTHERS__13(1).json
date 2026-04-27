@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_013-SLLR-SLLR-1992-2-SHANTHI-CHANDRASEKE_031_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. 1/92, 2/92, 3/92",
+    "case_title": "Shanthi Chandrasekeram v. D. B. Wijetunga and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1992-05-04",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. 1/92, 2/92, 3/92, decided on 4 May 1992"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the arrests of the detenues were lawful and complied with Article 13(1) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that the detenues were arrested without valid reasons and were not informed of the reasons for their arrest, violating Article 13(1).",
+    "respondent_argument": "The respondents claimed that the arrests were based on information related to a bomb blast investigation and that reasons were given, though not disclosed in affidavits.",
+    "key_facts": [
+      "The detenues were arrested on 3 July 1991 at Talawakelle, likely at the party office.",
+      "The arresting officer did not disclose the reasons for arrest in affidavits.",
+      "The detenues and their wives stated no reasons were given at the time of arrest.",
+      "No contemporaneous documentary evidence was produced by the respondents to justify the arrests.",
+      "The court found no credible evidence or reasonable suspicion justifying the arrests."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(1) requires that no person be arrested except according to law and that the person be informed of the reason for arrest. The Court held that the failure to provide valid reasons or disclose credible material for the arrest violates this constitutional protection.",
+    "application_to_facts": "The Court found that the respondents failed to produce any material or evidence to justify the arrests or to show that the detenues were informed of the reasons. The conflicting affidavits and lack of disclosure led to the conclusion that the arrests were unlawful under Article 13(1).",
+    "principles_established": [
+      "Arrest must be lawful and accompanied by informing the arrested person of the reasons.",
+      "The burden is on the arresting authority to produce credible material justifying the arrest.",
+      "Failure to disclose reasons or credible evidence renders the arrest unlawful."
+    ],
+    "precedents_cited": [
+      "Hirdaramani v. Ratnavel 75 NLR 67",
+      "Wickremabandu v. Herath [1990] 2 Sri L.R. 348"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the arrests of the detenues violated Article 13(1) of the Constitution.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration that the detenu had been arrested in violation of Article 13(1) and an order for compensation of Rs. 2,500/- plus Rs. 2,500/- costs to each petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) is central to the Court's reasoning as it protects against unlawful arrest and requires informing the arrested person of the reasons, which was not done here, leading to the finding of violation.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "No valid reasons were given for the arrests and the arrests were in violation of Article 13(1). The respondents failed to produce any material to justify the arrests or to show that the detenues were informed of the reasons.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1990-2-ISMALEBBE-V.-JAYAWA_112_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "C.A. APPLICATION No. 978/83",
+    "case_title": "Ismalebbe v. Jayawardena, Assistant Commissioner of Agrarian Services and Others",
+    "court_name": "Court of Appeal of Sri Lanka",
+    "decision_date": "1990-10-08",
+    "source_citation": "Sri Lanka Law Reports [1990] 2 Sri L.R."
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the proviso to Section 4(2) of the Agrarian Services Act applies only to districts where the Minister has made an order under subsection (2), and whether limiting its application would violate the right to equality before the law under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the proviso to Section 4(2) applies only in districts where the Minister has made an order under subsection (2), and thus the declaration made by the Commissioner was ultra vires and discriminatory.",
+    "respondent_argument": "The respondents contended that the proviso applies to every tenant cultivator who is also an owner cultivator of paddy land of not less than 5 acres, regardless of any Ministerial order, and that limiting it to subsection (2) would result in absurdity and irrational classification.",
+    "key_facts": [
+      "The petitioner was a tenant cultivator of paddy land and also claimed to be an owner cultivator of more than 5 acres.",
+      "The respondents applied for a declaration that the petitioner is not entitled to tenant cultivator rights under the proviso to Section 4(2).",
+      "The Assistant Commissioner found the petitioner was an owner cultivator of not less than 5 acres and declared he was not entitled to tenant cultivator rights.",
+      "The petitioner challenged this declaration on the ground that the proviso applies only where the Minister has made an order under subsection (2)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the proviso to Section 4(2) is intended to apply to the entire Section 4, not just subsection (2). It deals with a specific class of tenant cultivators who are also owner cultivators of at least 5 acres. Restricting the proviso to only districts with a Ministerial order under subsection (2) would create irrational classification and violate the constitutional right to equality under Article 12(1). The proviso is a legislative exception that removes certain persons from tenant cultivator rights and must be read in the context of the entire section and the Act.",
+    "application_to_facts": "Applying this interpretation, the Commissioner was correct to declare the petitioner not entitled to tenant cultivator rights under the proviso, despite no Ministerial order for the district, because the petitioner was an owner cultivator of not less than 5 acres. The petitioner's challenge was dismissed as untenable.",
+    "principles_established": [
+      "A proviso should be construed in relation to the entire section and not limited to the subsection it immediately follows.",
+      "Interpretation of statutes must be consistent with the Constitution, especially the right to equality under Article 12(1).",
+      "Legislative provisions that create irrational classifications violating equality must be avoided.",
+      "The proviso to Section 4(2) creates an exception removing tenant cultivator rights from those who are also owner cultivators of at least 5 acres."
+    ],
+    "precedents_cited": [
+      "Karunadasa v. Wijesinghe (1986) Sri LR 368",
+      "R v. Newark Inhabitants 38 & C 71",
+      "Saradambal v. Seethalakshmi AIR 1962 Madras 108"
+    ]
+  },
+  "outcome": {
+    "holding": "The court dismissed the petitioner's application and upheld the Assistant Commissioner's declaration that the petitioner was not entitled to tenant cultivator rights under the proviso to Section 4(2), applying Article 12(1) to reject the petitioner's narrow interpretation.",
+    "disposition": "dismissed",
+    "remedy_or_orders": "Costs fixed at Rs. 1,500 payable by the petitioner to the respondents."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning because the petitioner's interpretation of the proviso would have resulted in unequal treatment of tenant cultivators who are also owner cultivators, violating the constitutional guarantee of equality before the law.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that limiting the proviso to subsection (2) would result in irrational classification and violate the right to equality guaranteed by Article 12(1) of the Constitution, and that any provision of law should be interpreted consistently with the Constitution.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

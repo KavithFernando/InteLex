@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_034-SLLR-SLLR-1997-V3-RANGE-BANDARA-V.-G_168_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION (F.R.) NO. 128/96",
+    "case_title": "Range Bandara v. Gen. Anuruddha Ratwatte and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-08-21",
+    "source_citation": "[1997] 3 Sri LR. S.C. Application (F.R.) No. 128/96, decided on 21 August 1997"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the transfer of the petitioner police officer was arbitrary, capricious, and a misuse of power violating his rights under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that his transfer was not in accordance with the Establishments Code or departmental regulations but was made at the request of a political party organiser, constituting misuse of power and violating his fundamental rights under Article 12(1).",
+    "respondent_argument": "The respondents claimed the transfer was a normal annual transfer based on exigencies of service and disciplinary grounds supported by reports of complaints against the petitioner. They denied any improper political influence or misuse of power.",
+    "key_facts": [
+      "The petitioner was transferred from Weerambugedera Police Post to Moratuwa on 5.1.96 by the Inspector-General of Police.",
+      "The transfer followed a request by the SLFP Chief Organiser for Polgahawela to appoint another officer as OIC at Weerambugedera.",
+      "The petitioner received a letter from the 3rd respondent supporting his efficiency and requesting a transfer closer to Kurunegala.",
+      "The 1st respondent Deputy Minister of Defence received and referred this letter to the Inspector-General of Police.",
+      "The respondents claimed the transfer was part of normal year-end transfers and disciplinary reasons based on complaints, but did not disclose or produce evidence of such complaints."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(1) as protecting the petitioner from arbitrary and unreasonable administrative decisions that violate equality before the law and equal protection. The power to transfer must be exercised fairly, reasonably, and in accordance with established procedures without misuse or political interference.",
+    "application_to_facts": "The Court found the transfer was not a normal transfer but a misuse of discretion influenced by political requests. The respondents failed to justify the transfer with credible evidence or follow natural justice by withholding reasons and denying the petitioner an opportunity to respond to complaints. The transfer was therefore arbitrary, capricious, and unreasonable, violating Article 12(1).",
+    "principles_established": [
+      "Public officers exercising delegated powers must act with due care and independence, free from improper political influence.",
+      "Transfers affecting fundamental rights must be based on fair, reasonable grounds and comply with procedural fairness.",
+      "Vague or undisclosed complaints cannot justify punitive transfers without giving the affected officer a chance to respond.",
+      "Misuse of power that demoralizes and demotivates an officer violates the constitutional guarantee of equality before the law."
+    ],
+    "precedents_cited": [
+      "Leelaratne v. Herath, S.C. 145/86",
+      "Tennakoon v. de Silva, 1997 - 1 SLR 16"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the transfer was a misuse of discretion and violated the petitioner's fundamental rights under Article 12(1). The transfer order was quashed, and compensation and costs were awarded to the petitioner.",
+    "disposition": "granted",
+    "remedy_or_orders": "The transfer was quashed; the petitioner was awarded Rs. 25,000 as compensation and Rs. 15,000 as costs. The Court allowed disciplinary proceedings or transfers in accordance with applicable rules but not the impugned transfer."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it protects individuals from arbitrary state action and guarantees equality before the law. The Court found the transfer violated this constitutional guarantee by being arbitrary and politically influenced.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found the transfer was not a normal annual transfer but a misuse of discretion influenced by political requests, with no credible evidence of complaints justifying it, and that the petitioner was denied an opportunity to respond, violating Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_041-SLLR-SLLR_1992_V__1_-_ANSALIN_FERNAN_089_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 18/87",
+    "case_title": "Ansalin Fernando v. Sarath Perera, Officer-in-Charge, Police Station, Chilaw and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1990-03-30",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 18/87, decided on 19 and 30 March 1990"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the arrest of the 6th respondent was lawful and whether he was informed of the reason for his arrest as required by Article 13(1).",
+    "petitioner_claim": "The petitioner argued that the 6th respondent was arrested illegally without being informed of the reason for arrest, violating Article 13(1).",
+    "respondent_argument": "The respondents claimed the 6th respondent was arrested under Regulation 18(1) of the Emergency Regulations on suspicion of offences under those regulations.",
+    "key_facts": [
+      "The 6th respondent was arrested on 02.01.87 without being informed of the reason.",
+      "The arrest was claimed to be under Regulation 18(1) of the Emergency Regulations, which only authorizes arrest for offences under those regulations.",
+      "Murder is not an offence under the Emergency Regulations and arrest for murder must follow Section 23 of the Code of Criminal Procedure.",
+      "No credible information was produced to justify the arrest under Regulation 18(1).",
+      "The 6th respondent was not informed of the reason for his arrest."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) requires that arrests be made according to law and that the person arrested must be informed of the reason. Arrest under Regulation 18(1) is lawful only for offences under Emergency Regulations, which murder is not. Therefore, the arrest was unlawful and violated Article 13(1).",
+    "application_to_facts": "Since the 6th respondent was arrested on suspicion of murder, which is not an offence under Emergency Regulations, and was not informed of the reason for arrest, the arrest was illegal under Article 13(1).",
+    "principles_established": [
+      "Arrest must be made according to law and the arrestee must be informed of the reason.",
+      "Regulation 18(1) of Emergency Regulations does not authorize arrest for murder.",
+      "Failure to inform the arrestee of the reason for arrest violates Article 13(1)."
+    ],
+    "precedents_cited": [
+      "Nanayakkara v. Henry Perera (1985) 1 Sri LR 375",
+      "Wijewardena v. Zain and Others S.C. Application No. 202/87",
+      "Joseph Perera v. Attorney-General S.C. No. 107-109/86"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the arrest of the 6th respondent was illegal and violated Article 13(1) of the Constitution.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was directed to pay Rs. 25,000/- and costs of Rs. 2,500/- to the petitioner on behalf of the 6th respondent."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the court's determination that the arrest was unlawful because it was not made according to law and the arrestee was not informed of the reason, directly leading to the finding of violation and remedy.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the arrest under Regulation 18(1) was unlawful as murder is not an offence under Emergency Regulations and the 6th respondent was not informed of the reason for arrest, violating Article 13(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

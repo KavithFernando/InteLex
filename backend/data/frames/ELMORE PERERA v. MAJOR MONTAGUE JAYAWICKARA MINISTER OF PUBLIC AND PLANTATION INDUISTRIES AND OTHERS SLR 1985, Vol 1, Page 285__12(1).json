@@ -1,0 +1,75 @@
+{
+  "frame_id": "RQ1_ELMORE_PERERA_V._MAJOR_MONTAGUE_JAYAWICK_211_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "1985_LKSC_6",
+    "case_title": "Elmore Perera v. Major Montague Jayawickara Minister of Public and Plantation Industries and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-05-21",
+    "source_citation": "[1985] LKSC 6; (1985) 1 Sri LR 285 (21 May 1985)"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the compulsory retirement of the petitioner from public service violated his fundamental right to equality before the law and equal protection of the law under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed he was compulsorily retired without good grounds, without due consideration of his explanation, and solely due to personal animosity by the 1st respondent. He alleged that the 2nd, 3rd, and 4th respondents acted at the dictation of the 1st respondent, violating his fundamental rights under Article 12(1).",
+    "respondent_argument": "The respondents argued that the retirement was based on inefficiency and incompetence, following procedures under Public Administration Circular No. 136 and the Establishments Code. They denied any mala fide or discriminatory treatment and contended that the petitioner failed to prove discrimination or unequal treatment.",
+    "key_facts": [
+      "Petitioner was Deputy Surveyor-General with an unblemished record and had served in SLIDA.",
+      "Petitioner was reverted to substantive post and later placed in Public Officers' Reserve on grounds of inefficiency.",
+      "Petitioner submitted explanations within stipulated time, but respondents claimed no reply was received.",
+      "Retirement order was issued without following the proper procedure under the Establishments Code.",
+      "Petitioner alleged personal animosity by the 1st respondent due to disputes in the Sri Lanka Tennis Association."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) guarantees equality before the law and equal protection of the law, prohibiting discrimination and requiring that similarly situated persons be treated alike. The principle allows for reasonable classification based on rational distinctions. Mere arbitrary or wrongful treatment does not amount to a violation unless it involves unequal treatment of equals or unjust discrimination. The burden of proof to show discrimination lies on the petitioner.",
+    "application_to_facts": "The petitioner failed to show that others similarly situated were treated differently or that he was singled out for discriminatory treatment. The procedure for compulsory retirement was not properly followed, but this constituted a breach of non-fundamental rights, not a violation of Article 12(1). The Court found that the respondents acted under a mistaken belief of authority and that the Circular No. 136 was improperly applied. The retirement was unlawful but did not amount to denial of equal protection under Article 12(1).",
+    "principles_established": [
+      "Article 12(1) prohibits discrimination and guarantees equal treatment of equals.",
+      "Reasonable classification by the State is permitted if based on rational distinctions.",
+      "Burden of proving discrimination lies on the petitioner.",
+      "Violation of procedural rules alone does not constitute a breach of fundamental right unless it results in discriminatory treatment.",
+      "Arbitrariness and mala fide conduct may violate equality if they produce unequal treatment."
+    ],
+    "precedents_cited": [
+      "Yick Wo v. Hopkins (1886) 118 U.S. 356",
+      "Snowden v. Hughes (1944) 321 U.S. 1",
+      "Truax v. Corrigan (1921) 257 U.S. 312",
+      "Kathi Raning Rawat v. State of Saurashtra AIR 1952 S.C. 123",
+      "Melbourne Corporation v. The Commonwealth (1946-47) 74 CLR 31",
+      "State of Jammu and Kashmir v. Ghulam Rasool AIR 1961 S.C. 1301",
+      "Wijesinghe v. Attorney-General (1984) Fundamental Rights Decisions",
+      "Dr. Wijetunga v. Aluwatuwala and Others S.C. Application No. 89/84",
+      "Royappa v. State of Tamil Nadu AIR 1974 S.C. 555",
+      "Maneka Gandhi v. Union of India AIR 1978 S.C. 597",
+      "Ramana Dayaram Shetty v. International Airport Authority of India AIR 1979 S.C. 1628",
+      "The Manager, Government Branch Press v. Beliappa AIR 1979 S.C. 429"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner was unlawfully retired without following the proper procedure, but this did not amount to a violation of his fundamental right under Article 12(1) as he failed to prove discriminatory treatment. The application was dismissed on the ground that no fundamental right was infringed.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner's claim that he was denied equal protection of the law through discriminatory and arbitrary treatment in his compulsory retirement. The Court's reasoning focused on the interpretation and application of this clause to determine whether the petitioner was treated unequally compared to others similarly situated.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner alleged denial of equal protection under Article 12(1) due to personal animosity and improper procedure in compulsory retirement. The Court found no evidence of discriminatory treatment compared to others similarly situated and held that the breach was of non-fundamental rights.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

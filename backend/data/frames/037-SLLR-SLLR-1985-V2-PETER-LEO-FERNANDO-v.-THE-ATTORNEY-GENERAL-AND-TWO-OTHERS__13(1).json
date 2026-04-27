@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_037-SLLR-SLLR-1985-V2-PETER-LEO-FERNANDO_080_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 31/85",
+    "case_title": "Peter Leo Fernando v. The Attorney-General and Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-09-09",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 31/85, decided on 9 September 1985"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the detention of the petitioner by the Magistrate without proper procedure violated Article 13(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that his fundamental rights under Article 13(1) were infringed by his arbitrary arrest and detention without being informed of the charge or given an opportunity to answer.",
+    "respondent_argument": "The 2nd respondent (Magistrate) argued that the detention was a judicial act done in good faith under the Code of Criminal Procedure and thus did not violate fundamental rights.",
+    "key_facts": [
+      "Petitioner was detained in the Magistrate's Court cell on the order of the Magistrate without being informed of the charge or given a chance to answer.",
+      "The complaint used to justify detention did not mention the petitioner threatening to shoot anyone.",
+      "The petitioner was detained for about four hours and then released after the complaint was verified to be unfounded.",
+      "The Magistrate did not comply with procedural requirements under sections 136, 139, and 142 of the Code of Criminal Procedure.",
+      "There was no evidence of malice or bad faith by the Magistrate."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 13(1) protects against arbitrary arrest and requires arrest according to law with the person being informed of the reason. The Magistrate's failure to comply with procedural safeguards meant the detention was improper and violated Article 13(1).",
+    "application_to_facts": "The Magistrate detained the petitioner without proper examination of the complaint or informing the petitioner of the charge, violating the procedural safeguards required by law and thus Article 13(1).",
+    "principles_established": [
+      "Arrest must be according to law with procedural safeguards strictly complied with.",
+      "Judicial officers have immunity for acts done in good faith within jurisdiction, but procedural non-compliance can render detention improper.",
+      "Lack of malice or bad faith does not excuse failure to follow lawful arrest procedures."
+    ],
+    "precedents_cited": [
+      "Kesri v. Muhammad Baksh",
+      "R. v. Secretary of State for India in Council and Others, Ex parte Ezekiel"
+    ]
+  },
+  "outcome": {
+    "holding": "The detention was improper and violated Article 13(1), but the Magistrate acted in good faith and is immune from personal liability.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) is central because the petitioner's claim is based on unlawful arrest and detention without informing him of the reason, which the Court found was procedurally defective.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was detained without being informed of the charge or given an opportunity to answer, contrary to sections 136, 139, and 142 of the Code of Criminal Procedure, violating Article 13(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_028-SLLR-SLLR-2006-V-2-KUMARA-VS.-SILVA-_068_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC(FR) 121/2004",
+    "case_title": "Kumara vs. Silva, Sub-Inspector of Police, Welipenna and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2006-02-17",
+    "source_citation": "Sri Lanka Law Reports (2006) 2 Sri L R. 236"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was brought before a judge within the time and procedure required by Article 13(2) after arrest.",
+    "petitioner_claim": "The petitioner claimed he was detained for over 81 hours without being produced before a Magistrate, violating Article 13(2).",
+    "respondent_argument": "The 1st respondent contended the petitioner was arrested on 05.02.2004 at about 6.45 p.m. and produced before the Magistrate on 06.02.2004 within 24 hours as required by law.",
+    "key_facts": [
+      "Petitioner alleged detention from 03.02.2004 to 06.02.2004 without Magistrate production.",
+      "Respondent produced notes and affidavits showing arrest on 05.02.2004 and production on 06.02.2004.",
+      "Petitioner was produced before Magistrate Mathugama on 06.02.2004.",
+      "Only affidavit of Don Shantha supported petitioner’s claim of earlier detention."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires that any person detained be brought before a judge within 24 hours according to procedure established by law. The court applied the civil standard of proof and required sufficient evidence to establish violation.",
+    "application_to_facts": "The court found the petitioner failed to provide sufficient evidence beyond the affidavit of Don Shantha to prove detention beyond 24 hours without Magistrate production. The respondent’s evidence was credible and showed compliance with Article 13(2).",
+    "principles_established": [
+      "Detention beyond 24 hours without production before a judge violates Article 13(2).",
+      "Civil standard of proof applies in fundamental rights cases.",
+      "Sufficient evidence is required to establish violation."
+    ],
+    "precedents_cited": [
+      "Kapugeekiyana vs. Hettiarachchi 1984 2 SLR 153",
+      "Malinda Channa Pieris vs. A.G. and Others 1994 1 Sri LR 1",
+      "Fillastre vs. Bolivia (HRC. 5.11.1991) UN Committee on Human Rights"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner was produced before the Magistrate within 24 hours and there was no violation of Article 13(2).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was essential to assess whether the petitioner’s detention was lawful and timely, impacting the fundamental rights claim.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Respondent’s notes and affidavits showed arrest on 05.02.2004 and production before Magistrate on 06.02.2004; petitioner failed to provide sufficient evidence to prove otherwise.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

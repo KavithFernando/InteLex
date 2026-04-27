@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_023-SLLR-SLLR_1991_V2-GAMLATH_V._NEVILLE_032_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 78/90",
+    "case_title": "Gamlath v. Neville Silva and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1991-07-16",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 78/90, decided on 16 July 1991"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment while in police custody, violating Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioner claimed he was severely assaulted and tortured by police officers while in custody, constituting a violation of Article 11.",
+    "respondent_argument": "The respondents denied the torture allegations, claiming the petitioner was arrested in the afternoon and any injuries were caused by a fall after slipping and rolling down a rock.",
+    "key_facts": [
+      "Petitioner was arrested in early hours of 01.12.90 by police investigating theft of a water pump.",
+      "Petitioner was assaulted with blunt objects (Kitul clubs), tied by wrists, hung from a beam, and had chili powder thrown on his face while in custody.",
+      "Medical reports confirmed multiple contusions and abrasions consistent with assault and tying of wrists.",
+      "Affidavits and prompt complaints support the petitioner's version of torture.",
+      "Respondents claimed arrest and statements occurred in the afternoon and injuries were from a fall, which the court rejected."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 11 prohibits torture and cruel, inhuman or degrading treatment, and that the petitioner’s injuries and credible evidence established such treatment while in police custody.",
+    "application_to_facts": "The court accepted the petitioner’s account supported by medical reports and witness affidavits, rejecting the respondents’ version. The assault was found to be deliberate and aimed at extracting a confession, thus violating Article 11.",
+    "principles_established": [
+      "Torture and cruel, inhuman or degrading treatment by police officers violate Article 11.",
+      "Medical evidence and prompt complaints are critical in establishing such violations.",
+      "State is liable for violations by police officers and must provide compensation.",
+      "Police misconduct in torture continues despite prior court condemnations."
+    ],
+    "precedents_cited": [
+      "Amal Sudath Silva v. Kodituwakku",
+      "Geekiyanage Premalal de Silva v. Rodrigo",
+      "Jayaratne v. Tennakoon"
+    ]
+  },
+  "outcome": {
+    "holding": "The court found that the petitioner’s fundamental rights under Article 11 were infringed by the 1st and 2nd respondents through torture and cruel, inhuman or degrading treatment.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was ordered to pay Rs. 14,000 as compensation for the Article 11 violation, and the 1st and 2nd respondents were held personally liable."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 is central to the court’s reasoning as it directly prohibits the torture and cruel treatment the petitioner suffered, forming the basis for the finding of violation and compensation.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was severely assaulted with blunt weapons, tied and hung by the police, with medical reports confirming injuries consistent with torture, supported by affidavits and prompt complaints.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

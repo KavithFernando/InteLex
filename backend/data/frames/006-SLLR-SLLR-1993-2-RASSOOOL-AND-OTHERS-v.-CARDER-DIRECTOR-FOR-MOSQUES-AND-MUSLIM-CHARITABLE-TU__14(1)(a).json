@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_006-SLLR-SLLR-1993-2-RASSOOOL-AND-OTHERS_009_C01__14(1)(a)",
+  "created_at": "2024-06-10",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_85_88",
+    "case_title": "Rassool and others v. Cader, Director for Mosques and Muslim Charitable Trusts and others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1989-03-20",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 85/88, decided on 20 March 1989"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the suspension of the petitioners from office as Special Trustees of a Mosque violated their fundamental rights under Article 14(1)(a) of the Constitution, specifically their freedom of speech and expression.",
+    "petitioner_claim": "The petitioners claimed that their suspension was due to their political activities and opinions, including public criticism of the ruling party and the 2nd respondent, and that this suspension violated their fundamental right to freedom of speech and expression under Article 14(1)(a).",
+    "respondent_argument": "The respondents argued that the suspension was justified because the petitioners used the Mosque premises for political purposes, which was improper and illegal, and that the suspension was within the powers delegated under the Wakfs Act.",
+    "key_facts": [
+      "The petitioners were Special Trustees of a Mosque appointed by the Wakfs Board.",
+      "The 1st petitioner was a candidate for the North-Western Provincial Council nominated by the Sri Lanka Muslim Congress.",
+      "The 1st petitioner publicly criticized the ruling United National Party and the 2nd respondent on Rupavahini.",
+      "The 1st respondent suspended the petitioners allegedly due to their political activities within the Mosque premises.",
+      "No specific evidence was produced to prove that political activities occurred within the Mosque premises."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that while the petitioners were suspended ostensibly due to political activities, there was no evidence that these activities took place within the Mosque premises, which would have justified the suspension. The court emphasized that freedom of speech and expression under Article 14(1)(a) was not distinctly violated as the suspension was not directly linked to suppression of speech but rather to alleged misuse of Mosque premises.",
+    "application_to_facts": "The court found that the suspension was ultra vires and without jurisdiction as no inquiry was held and no proof was provided that political activities occurred within the Mosque. The suspension was based on unsubstantiated submissions and was therefore unjustified. However, the court did not find a distinct violation of Article 14(1)(a) because the evidence did not establish that the petitioners' freedom of speech was directly infringed.",
+    "principles_established": [
+      "Suspension of trustees without inquiry is without jurisdiction and ultra vires.",
+      "Burden of proof lies on the petitioners to establish discrimination or violation of fundamental rights.",
+      "High degree of proof is required for allegations of mala fides or discrimination based on political opinion.",
+      "Freedom of speech and expression under Article 14(1)(a) requires direct evidence of suppression to establish violation."
+    ],
+    "precedents_cited": [
+      "Royappa v. State of Tamil Nadu AIR 1974 SC 555",
+      "Saman v. Leeladasa [1989] 1 Sri L R. 1"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioners' suspension was unlawful and violated their fundamental rights under Article 12(2) (equal protection and non-discrimination) but did not establish a distinct violation of Article 14(1)(a). The petitioners were entitled to relief for the violation of their rights under Article 12(2), but no relief was granted specifically under Article 14(1)(a).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) was considered because the petitioners claimed their suspension was due to their political speech and expression. The court examined whether the suspension infringed their freedom of speech but found no direct evidence of such infringement, making the clause relevant but not dispositive.",
+    "relevance_level": "medium",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found no direct evidence that the petitioners' political activities took place within the Mosque premises or that their freedom of speech was directly suppressed by the suspension.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

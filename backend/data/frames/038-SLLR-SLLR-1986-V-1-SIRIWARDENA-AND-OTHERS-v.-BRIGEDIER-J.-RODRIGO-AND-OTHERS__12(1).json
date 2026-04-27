@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_038-SLLR-SLLR-1986-V-1-SIRIWARDENA-AND-O_181_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION 104/85",
+    "case_title": "Siriwardena and Others v. Brigadier J. Rodrigo and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1986-02-10",
+    "source_citation": "Sri Lanka Law Reports [1986] 1 SriL.R. 384"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the actions of the 1st and 2nd respondents in redistributing state land called Gallewatta violated the fundamental right of equality guaranteed by Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners claimed that the respondents' decision to single out Gallewatta for redistribution into smaller blocks, allegedly at the instigation of the politically opposed 3rd respondent, constituted discrimination and violated their fundamental right to equality before the law.",
+    "respondent_argument": "The respondents argued that Gallewatta had become state land under a different legal category than the other two lands, and their actions were lawful under the Land Grant (Special Provisions) Law No. 43 of 1979. They also contended the petition was filed out of time.",
+    "key_facts": [
+      "Gallewatta land vested in the Land Reform Commission in 1973 and later vested in the State in 1982 under Law No. 43 of 1979.",
+      "Petitioners were granted minor leases on Gallewatta but these were cancelled in 1979.",
+      "Respondents re-distributed Gallewatta into smaller blocks in 1982 and 1985, allegedly to evict petitioners and settle political supporters of the 3rd respondent.",
+      "Two other nearby lands remained vested in the Land Reform Commission and were not redistributed.",
+      "Petitioners filed the fundamental rights application in 1985, more than one month after becoming aware of the alleged infringement."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(1) as guaranteeing equality before the law and equal protection, but recognized that different legal categories of land may justify different treatment. The Court emphasized the need for timely filing of fundamental rights applications.",
+    "application_to_facts": "The Court found that Gallewatta was state land under a different legal regime than the other two lands, justifying different treatment. The petitioners failed to prove improper conduct by the respondents or that the respondents acted under political pressure. The application was also dismissed as out of time.",
+    "principles_established": [
+      "Different legal status of land can justify different treatment without violating equality rights.",
+      "Fundamental rights applications must be filed within one month of awareness of infringement.",
+      "Political motivation allegations must be supported by evidence to establish violation."
+    ],
+    "precedents_cited": [
+      "Edirisuriya v. Navaratnam and Others [1985] (1) SLR 100"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the petitioners' claim under Article 12(1), holding there was no violation of the fundamental right to equality.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioners' claim that they were denied equal protection of the law by the respondents' actions in redistributing state land differently from other lands.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that Gallewatta being state land was in a different category from the other two lands vested in the Land Reform Commission, and there was no infringement of the fundamental right of equality.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3700,
+      "end_char": 3900
+    }
+  }
+}

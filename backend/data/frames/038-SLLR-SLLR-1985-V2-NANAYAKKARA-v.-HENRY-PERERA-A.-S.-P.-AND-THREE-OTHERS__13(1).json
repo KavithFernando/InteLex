@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_038-SLLR-SLLR-1985-V2-NANAYAKKARA-V.-HEN_084_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application No. 19/85",
+    "case_title": "Nanayakkara v. Henry Perera, A.S.P. and Three Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-08-09",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 19/85, decided on 9 August 1985"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the arrest of Vasudeva Nanayakkara was lawful under Article 13(1) given that the arresting officer allegedly lacked reasonable grounds and did not inform the detainee of the reason for arrest.",
+    "petitioner_claim": "The petitioner argued that the arrest was illegal and mala fide, that the arresting officer did not have reasonable grounds to suspect an offence, and that the detainee was not informed of the reason for arrest, thus infringing Article 13(1).",
+    "respondent_argument": "The respondent argued that the arresting officer had knowledge, either first hand or through credible statements, that the petitioner had distributed leaflets in contravention of Emergency Regulations, and that the petitioner was informed of the reason for arrest at the time.",
+    "key_facts": [
+      "Vasudeva Nanayakkara was arrested on 17 February 1985 by ASP Henry Perera under Regulation 18(1) of the Emergency Regulations.",
+      "The arresting officer had knowledge that the petitioner had distributed leaflets in contravention of Emergency Regulations.",
+      "The petitioner was informed at the time of arrest that he was being taken into custody for distributing leaflets.",
+      "The petitioner admitted distributing the leaflets and inciting students.",
+      "The petitioner claimed he was not informed of the specific Emergency Regulation violated at the time of arrest."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 13(1) requires that a person arrested must be informed of the reason for arrest. The knowledge of the arresting officer need not be first hand; it can be based on credible statements. The arresting officer had sufficient knowledge and informed the petitioner of the reason for arrest, satisfying Article 13(1).",
+    "application_to_facts": "The arresting officer was aware that the petitioner had distributed leaflets in contravention of Emergency Regulations and informed him accordingly at the time of arrest. The petitioner admitted the act. Therefore, the arrest was lawful and did not infringe Article 13(1).",
+    "principles_established": [
+      "Arresting officers must have reasonable grounds for arrest, which can be based on credible information, not necessarily first hand knowledge.",
+      "The arrested person must be informed of the reason for arrest promptly to enable them to take steps to regain liberty."
+    ],
+    "precedents_cited": [
+      "Muthusamy v. Kannangara (1951) 52 NLR 324",
+      "Corea v. The Queen (1954) 55 NLR 457",
+      "Gunasekera v. De Fonseka (1972) 75 NLR 246",
+      "Vimtabai Despande A.I.R. 1945 Nagpur 8",
+      "King Emperor v. Deshpande (1946) 47 Cr.L.J. 831"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the arrest was lawful and did not infringe Article 13(1) of the Constitution.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) is central to the Court's reasoning on the legality of the arrest, requiring that the arrested person be informed of the reason for arrest, which was satisfied here.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The arresting officer knew the petitioner had distributed leaflets in contravention of Emergency Regulations and informed him of the reason for arrest at the time.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 350,
+      "end_char": 900
+    }
+  }
+}

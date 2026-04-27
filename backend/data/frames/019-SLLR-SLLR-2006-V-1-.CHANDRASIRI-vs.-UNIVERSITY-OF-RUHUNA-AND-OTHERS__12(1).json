@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_019-SLLR-SLLR-2006-V-1-.CHANDRASIRI-VS.-_104_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_326_2003",
+    "case_title": "Chandrasiri v. University of Ruhuna and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2005-06-06",
+    "source_citation": "Sri Lanka Law Reports (2006) 1 Sri L R. SC (FR) Application No 326/2003, decided on 6 June 2005"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the issuance of a warning against the petitioner by the University without a proper inquiry and charge sheet violated Article 12(1) of the Constitution guaranteeing equality and protection of the law.",
+    "petitioner_claim": "The petitioner argued that the warning was issued arbitrarily without a charge sheet or preliminary inquiry, violating principles of natural justice and his fundamental rights under Article 12(1).",
+    "respondent_argument": "The respondents contended that a warning is not a punishment and can be issued without a preliminary inquiry or charge sheet under the University Establishments Code, and that the Vice Chancellor had discretion to issue the warning.",
+    "key_facts": [
+      "The petitioner was a Senior Professor of Forensic Medicine at the University of Ruhuna.",
+      "He and another doctor wrote a letter alleging unauthorized medico-legal work by pediatricians not attached to the Department of Health.",
+      "The University Council appointed a Committee to consider disciplinary action but the Committee found no need for inquiry and recommended a warning instead.",
+      "The warning was issued without a charge sheet or preliminary inquiry.",
+      "The petitioner was never heard by the Committee or the Council before the warning."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) prohibits arbitrary and uncontrolled discretion by authorities. The power to issue warnings must be exercised with safeguards and according to law, respecting natural justice. The Committee acted beyond its mandate by recommending a warning without inquiry, and the warning issued was arbitrary and void.",
+    "application_to_facts": "The Court found that the University Council and Committee failed to follow the disciplinary procedure requiring a preliminary inquiry and charge sheet before issuing a warning. The petitioner was denied a fair hearing, and the warning was issued arbitrarily violating Article 12(1).",
+    "principles_established": [
+      "Discretion of statutory bodies is not unfettered and must be exercised according to law.",
+      "Issuing a warning without inquiry or charge sheet is arbitrary and violates natural justice.",
+      "Uncontrolled discretion negates equal protection under Article 12(1).",
+      "Acts beyond the mandate of a Committee are void and have no legal effect."
+    ],
+    "precedents_cited": [
+      "Ram Krishna Dalmia v. S. R. Tendolkar (1958)",
+      "Saman Gupta v. Jammu and Kashmir (1983)",
+      "Padfield v. Minister of Agriculture (1968)",
+      "Breen v. Amalgamated Engineering Union (1971)",
+      "Ridge v. Baldwin (1964)",
+      "Russell v. Duke of Norfolk (1949)"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court declared the warning issued to the petitioner null and void as it violated Article 12(1) of the Constitution. The University acted arbitrarily and unreasonably infringing the petitioner's fundamental rights.",
+    "disposition": "granted",
+    "remedy_or_orders": "The University was ordered to pay the petitioner Rs. 25,000 as compensation and costs within 3 months."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it protects against arbitrary exercise of power and ensures equality before the law. The Court found the University's actions violated this clause by issuing a warning without due process.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that issuing a warning without a charge sheet and preliminary inquiry was arbitrary and violated Article 12(1). The Committee exceeded its powers and the warning was void in law.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

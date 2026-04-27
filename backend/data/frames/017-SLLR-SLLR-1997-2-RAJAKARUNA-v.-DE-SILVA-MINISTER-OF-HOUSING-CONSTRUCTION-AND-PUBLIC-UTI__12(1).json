@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_017-SLLR-SLLR-1997-2-RAJAKARUNA-V.-DE-SI_091_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 201/95",
+    "case_title": "Rajakaruna v. De Silva, Minister of Housing, Construction and Public Utilities and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-05-09",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 201/95, decided on 9 May 1997"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was denied equal treatment in violation of Article 12(1) of the Constitution due to his transfer from Colombo to Hambantota.",
+    "petitioner_claim": "The petitioner claimed that his transfer was a form of victimization and discrimination violating his fundamental right to equal treatment under Article 12(1).",
+    "respondent_argument": "The respondents argued that the transfer was valid, not politically motivated, and was due to exigencies of service. The petitioner’s poor service record justified the transfer and it did not violate Article 12(1).",
+    "key_facts": [
+      "Petitioner employed since 1986, transferred from Colombo to Hambantota in 1995.",
+      "Petitioner had a poor service record with disciplinary actions and demotion.",
+      "Transfer was requested by Assistant Commissioner due to service needs.",
+      "Petitioner agreed to serve anywhere in Sri Lanka as per appointment terms.",
+      "Multiple appeals against transfer were rejected."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as guaranteeing equal treatment and protection under the law, but recognized that transfers within a transferable service do not violate this right if made for valid service reasons.",
+    "application_to_facts": "The court found the transfer valid given the petitioner’s consent to transfer, poor service record, and the absence of any evidence of improper motive. Therefore, no violation of equal treatment occurred.",
+    "principles_established": [
+      "Transfers within a transferable service do not violate Article 12(1) if justified by service exigencies.",
+      "Poor service record can justify administrative decisions without violating equal protection.",
+      "Consent to transfer conditions in employment contracts is relevant to equal treatment claims."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental rights under Article 12(1) were not violated by the transfer.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioner’s claim of denial of equal treatment by transfer, and the court’s reasoning and dismissal directly addressed this constitutional guarantee.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was aware he was in a transferable service and had consented to serve anywhere; the transfer was due to service exigencies and not politically motivated, thus no violation of Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

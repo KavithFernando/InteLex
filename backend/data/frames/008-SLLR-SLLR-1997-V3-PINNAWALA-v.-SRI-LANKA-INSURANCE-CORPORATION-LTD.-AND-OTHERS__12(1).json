@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_008-SLLR-SLLR-1997-V3-PINNAWALA-V.-SRI-L_042_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 583/95(FR)",
+    "case_title": "Pinnawala v. Sri Lanka Insurance Corporation Ltd. and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-07-16",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 583/95(FR), decided on 16 July 1997"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the refusal to grant the petitioner a third extension of service beyond the age of 55 was an arbitrary exercise of discretion violating Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that although he had no right to an extension beyond 55 years, he was entitled to have his application considered fairly and properly, and that the refusal was arbitrary and violated his fundamental rights under Article 12(1).",
+    "respondent_argument": "The respondents argued that the refusal was based on loss of confidence due to allegations of improper discharge of duties, supported by a committee of inquiry report, and was not related to political affiliations. They also contended that the Sri Lanka Insurance Corporation Ltd. was a commercial entity not subject to Article 126 protections.",
+    "key_facts": [
+      "Petitioner joined the Insurance Corporation in 1969 and rose to General Manager by 1993.",
+      "Petitioner was granted two prior extensions of service limited to six months each.",
+      "The third extension application was refused by the Chairman in 1995 citing poor performance.",
+      "The refusal was based on findings from an ex parte inquiry without giving the petitioner a chance to be heard.",
+      "The Sri Lanka Insurance Corporation Ltd. was shown to be a governmental agency subject to state control."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) requires that any discretion vested in an employer, especially a governmental agency, must be exercised fairly, reasonably, and with a rational basis. Arbitrary decisions without a fair hearing violate the right to equality before the law and equal protection.",
+    "application_to_facts": "The refusal of the petitioner's extension was based on an ex parte inquiry without giving him an opportunity to respond to allegations, making the exercise of discretion arbitrary and violative of Article 12(1). The Sri Lanka Insurance Corporation Ltd. was found to be a governmental agency, thus subject to constitutional obligations.",
+    "principles_established": [
+      "Discretion vested in public or governmental agencies must be exercised fairly and reasonably.",
+      "An ex parte decision without hearing the affected party is arbitrary and violates Article 12(1).",
+      "Governmental agencies cannot evade constitutional obligations by adopting corporate forms."
+    ],
+    "precedents_cited": [
+      "Rajaratne v Air Lanka Ltd. and Others (1987) 2 Sri L.R. 128"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the refusal to grant the third extension was an arbitrary exercise of discretion violating Article 12(1) and declared the petitioner's fundamental right infringed. Compensation was awarded instead of reinstatement.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioner was awarded Rs. 70,000 as compensation and Rs. 5,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it protects individuals from arbitrary state action and guarantees equality before the law. The employer's refusal was found to violate this constitutional guarantee.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The discretion was exercised against the petitioner on the basis of findings reached at an ex parte inquiry. The exercise of the discretion was arbitrary, devoid of a rational basis, and was violative of Article 12(1) of the Constitution.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

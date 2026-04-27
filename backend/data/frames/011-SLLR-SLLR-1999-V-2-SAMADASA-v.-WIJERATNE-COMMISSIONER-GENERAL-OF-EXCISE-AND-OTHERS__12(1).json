@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_011-SLLR-SLLR-1999-V-2-SAMADASA-V.-WIJER_055_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_495_97_WITH_172_98",
+    "case_title": "Samadasa v. Wijeratne, Commissioner-General of Excise and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-11-04",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 495/97 with 172/98, decided on 4 November 1998"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the refusal to grant the petitioner a liquor licence violated the petitioner's right to equality and equal protection under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the refusal to grant the liquor licence was discriminatory and lacked a rational basis, violating his fundamental right to equality under Article 12(1).",
+    "respondent_argument": "The Divisional Secretary objected to the licence on grounds of possible breach of peace and religious and moral considerations; the Commissioner-General of Excise relied on this objection in refusing the licence.",
+    "key_facts": [
+      "The petitioner’s application for a liquor licence was recommended by local authorities including the Grama Seva Niladhari, police, and excise officials.",
+      "The Divisional Secretary objected to the licence citing public protests, breach of peace, and religious/moral grounds.",
+      "A licence was granted to another applicant, Ariyasena, without weighing such considerations, and four other liquor stores operated in close proximity.",
+      "The Commissioner-General of Excise abdicated his authority by accepting the Divisional Secretary’s objection without independent assessment.",
+      "Police investigations found no likelihood of breach of peace from the petitioner’s proposed liquor store."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as guaranteeing equal treatment before the law and equal protection, requiring that similar cases be treated alike unless there is a rational basis for differentiation.",
+    "application_to_facts": "The court found no rational basis for treating the petitioner’s application differently from others who were granted licences despite similar or more serious objections. The Commissioner-General’s blind acceptance of the Divisional Secretary’s objection amounted to abdication of lawful authority and violated the petitioner’s right to equality.",
+    "principles_established": [
+      "Equal protection under the law prohibits arbitrary or discriminatory treatment in administrative decisions.",
+      "Licensing authorities must exercise independent judgment and not abdicate their statutory powers.",
+      "Religious and moral considerations must be applied consistently and not selectively to discriminate."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the refusal to grant the liquor licence violated Article 12(1) rights of the petitioner and declared the petitioner entitled to the licence. Compensation and costs were awarded.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioner was declared entitled to the liquor licence for 1998; the State was ordered to pay Rs. 50,000 as compensation and Rs. 5,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court’s reasoning as it protects against unequal and arbitrary treatment by public authorities. The court found a direct violation of the petitioner’s right to equal protection under this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court noted that the police and other authorities recommended the licence, but the Divisional Secretary objected on untenable grounds, and the Commissioner-General abdicated his authority by accepting this objection, resulting in unequal treatment violating Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

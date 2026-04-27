@@ -1,0 +1,71 @@
+{
+  "frame_id": "RQ1_012-SLLR-SLLR-1996-1-FAROOK-V.-RAYMOND-A_028_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application No. 156/95",
+    "case_title": "Farook v. Raymond and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-06-20",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 156/95, decided on 20 June 1996"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the detention of the petitioner after being produced before the Magistrate was lawful under Article 13(2).",
+    "petitioner_claim": "The petitioner claimed that his continued detention after being produced before the Magistrate was not authorized by law and violated Article 13(2).",
+    "respondent_argument": "The respondents argued that the Magistrate ordered the detention under the Customs Ordinance and Code of Criminal Procedure.",
+    "key_facts": [
+      "Petitioner was produced before the Magistrate who ordered detention at police station.",
+      "The Magistrate's order was based on the Customs Ordinance and section 124 of the Code of Criminal Procedure.",
+      "The Customs Ordinance does not authorize Magistrates to order detention in police custody.",
+      "Section 124 of the Code of Criminal Procedure does not empower Magistrates to order detention.",
+      "Petitioner was detained from 13th to 17th April 1995 under this order."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires that any detention after being brought before a judge must be pursuant to a lawful order made according to procedure established by law. The Court emphasized that judicial officers must act judicially and within jurisdiction, and orders not made according to law violate this article.",
+    "application_to_facts": "The Magistrate's order was not authorized by the Customs Ordinance or the Code of Criminal Procedure, thus the detention was not 'upon and in terms of the order of such judge made in accordance with procedure established by law'. The Court found the detention was a judicial act but not lawful under Article 13(2).",
+    "principles_established": [
+      "Detention after production before a judge must be authorized by law and follow proper procedure.",
+      "Judicial officers must exercise discretion judicially and within jurisdiction.",
+      "Orders made without jurisdiction or proper procedure are not lawful orders under Article 13(2).",
+      "The Court lacks jurisdiction to entertain complaints about judicial acts even if they violate fundamental rights."
+    ],
+    "precedents_cited": [
+      "Velmurugu v. A. G.",
+      "Kumarasinghe v. A. G.",
+      "Siriwardene v. Liyanage",
+      "Dayananda v. Weerasinghe",
+      "Leo Fernando v. A. G.",
+      "Jayasinghe v. Mahendran and Others",
+      "Dharmatilleke v. Abeynaike",
+      "Saman v. Leeladasa",
+      "Cannosa Investments Ltd. v. Ernest Perera and Others"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner’s detention after being produced before the Magistrate was not in accordance with procedure established by law under Article 13(2), but the Court had no jurisdiction to entertain complaints arising from judicial acts.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was central to assessing the legality of the Magistrate’s detention order and the Court’s jurisdiction to hear complaints about judicial acts affecting personal liberty.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The detention of the Petitioner after he was produced before the Magistrate was not 'upon and in terms of the order of such judge made in accordance with procedure established by law'. The Court has no jurisdiction to entertain complaints relating to that imprisonment.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "frame_id": "RQ1_037-SLLR-SLLR-1985-V2-PETER-LEO-FERNANDO_034_C01__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 31/85",
+    "case_title": "Peter Leo Fernando v. The Attorney-General and Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-09-09",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 31/85, decided on 9 September 1985"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the detention order by the Magistrate constituted executive or administrative action under Article 17, thus allowing a fundamental rights application to the Supreme Court.",
+    "petitioner_claim": "The petitioner claimed violation of his fundamental rights under Articles 11, 13, and 14 of the Constitution due to unlawful detention ordered by the Magistrate, seeking relief and damages under Articles 17 and 126.",
+    "respondent_argument": "The respondents argued that the detention was a judicial act done in good faith by the Magistrate exercising judicial authority, thus immune from liability and not executive or administrative action under Articles 17 and 126.",
+    "key_facts": [
+      "Petitioner was detained in the Magistrate's Court cell for about four hours on the Magistrate's order without proper procedure.",
+      "The complaint used to justify detention did not allege the petitioner threatened anyone.",
+      "The Magistrate acted without malice but did not comply with procedural requirements under the Code of Criminal Procedure.",
+      "Judicial immunity protects judges from liability for acts done in judicial capacity, even if mistaken.",
+      "Articles 17 and 126 limit fundamental rights applications to infringements by executive or administrative action, excluding judicial acts."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 17 allows applications only for infringements by executive or administrative action, not judicial acts. Judicial acts, even if unlawful or mistaken, are protected by judicial immunity and are not subject to fundamental rights applications under Article 17.",
+    "application_to_facts": "The Magistrate's order detaining the petitioner was a judicial act done in good faith, despite procedural errors. Such an act does not constitute executive or administrative action. Therefore, the Supreme Court lacks jurisdiction under Article 17 to grant relief for this detention.",
+    "principles_established": [
+      "Judges have immunity from civil liability for acts done in judicial capacity done in good faith.",
+      "Unlawful judicial orders do not convert judicial acts into executive or administrative acts.",
+      "Fundamental rights applications under Article 17 are limited to executive or administrative actions, excluding judicial acts.",
+      "The remedy for judicial errors is appeal, not fundamental rights applications under Article 17."
+    ],
+    "precedents_cited": [
+      "Sirros v. Moore and Others [1974] 3 All ER 776",
+      "Maharaj v. Attorney-General of Trinidad and Tobago (No. 2) [1979] AC 385",
+      "Naresh S. Murajikar v. State of Maharashtra, AIR [1967] SC 1",
+      "Chokalinge v. Attorney-General of Trinidad and Tobago [1981] 1 All ER 244",
+      "Anderson v. Gorrie [1895] 1 QB 668",
+      "Fray v. Blackburn [1863] 38 & S. 576",
+      "Garnett v. Ferrand [1827] 6 B & C 611",
+      "Miller v. Seare [1777] 2 Wm. Bl. 1141",
+      "Mathews et al v. Young [1922] AD 492",
+      "Penrice v. Dickinson [1945] AD 6",
+      "In re Me C. (A Minor) [1984] 3 WLR 1227",
+      "A. K. Velmurugu v. Attorney-General and Others",
+      "Perera v. University Grants Commission",
+      "Wijetunga v. Insurance Corporation and Another",
+      "Wijeratne v. People's Bank",
+      "Dayananda v. Weeratunga S. I. Police et al.",
+      "Kumarasinghe v. Attorney-General et al."
+    ]
+  },
+  "outcome": {
+    "holding": "The application for relief under Articles 17 and 126 was dismissed because the detention was a judicial act, not executive or administrative action.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 defines the scope of fundamental rights applications to the Supreme Court as limited to infringements by executive or administrative action. The Court's reasoning centered on this limitation, holding that judicial acts are excluded, which was dispositive of the outcome.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that the Magistrate's detention order was a judicial act done in good faith and not executive or administrative action under Articles 17 and 126, thus no relief was available under these Articles.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_006-SLLR-SLLR-1991-V2-BERNARD-SOYSA-AND-_007_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 2/91",
+    "case_title": "Bernard Soysa and Two Others v. The Attorney-General and Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1991-08-29",
+    "source_citation": "[1991] 2 Sri L.R."
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' right to freedom of speech and expression under Article 14(1)(a) was infringed by police dispersal of their satyagraha at the Maha Maluwa of the Dalada Maligawa without prior permission.",
+    "petitioner_claim": "The petitioners claimed that the Maha Maluwa is a public place where they had a right to conduct a peaceful satyagraha without permission, and that the police unlawfully disrupted their peaceful assembly violating Article 14(1)(a).",
+    "respondent_argument": "The respondents argued that the Maha Maluwa is not a public place but property under the control of the Diyawadana Nilame, that no permission was granted for the satyagraha, and that the police acted lawfully to disperse an unlawful and unruly assembly to maintain public order.",
+    "key_facts": [
+      "The Maha Maluwa is part of the Dalada Maligawa, a religious precinct under the Diyawadana Nilame's control.",
+      "Petitioners did not obtain permission to hold the satyagraha at the Maha Maluwa.",
+      "The satyagraha was a political event involving about 300 supporters.",
+      "Police dispersed the gathering following a request from the Diyawadana Nilame due to disturbance of the peaceful religious atmosphere.",
+      "The petitioners alleged police assault and injury, which was disputed by the respondents."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that freedom of speech and expression is not absolute and depends on the circumstances, including the nature of the place. The Maha Maluwa, being part of a religious shrine, is not a public forum for political protest without express permission. The right to free speech does not extend to conduct that disturbs public order or the peaceful atmosphere of a religious place.",
+    "application_to_facts": "The petitioners had no express or implied permission to hold a satyagraha at the Maha Maluwa. Their political protest disturbed the peaceful environment, justifying police intervention under the Code of Criminal Procedure and Police Ordinance to maintain public order. Hence, there was no infringement of Article 14(1)(a).",
+    "principles_established": [
+      "Freedom of speech and expression is subject to reasonable restrictions in the interests of public order.",
+      "Public places for free speech must be understood in context; religious precincts are not traditional public forums for political protest.",
+      "Express permission is required to hold political protests in places like the Maha Maluwa.",
+      "Police have lawful authority to disperse assemblies that disturb public peace under relevant statutes."
+    ],
+    "precedents_cited": [
+      "Whitney v. California (1927)",
+      "Schenck v. U.S. (1949)",
+      "Perry Education Association v. Perry Local Educators Association (1983)",
+      "Haque v. C.I.O. (1939)",
+      "Railway Board v. Niranjan Singh (1969)"
+    ]
+  },
+  "outcome": {
+    "holding": "The court dismissed the petitioners' claim under Article 14(1)(a), holding that their freedom of speech was not infringed as the satyagraha was unlawful without permission and disturbed public order.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) guarantees freedom of speech and expression, which the petitioners claimed was violated by police dispersal of their satyagraha. The court's reasoning centered on the limits of this freedom in the context of the location and public order, making this clause central to the decision.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the Maha Maluwa is not a public place for political protest without permission, and that the police were justified in dispersing the satyagraha to maintain public order, thus no infringement of Article 14(1)(a) occurred.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

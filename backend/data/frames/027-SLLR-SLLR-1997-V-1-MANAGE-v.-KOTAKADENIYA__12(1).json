@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_027-SLLR-SLLR-1997-V-1-MANAGE-V.-KOTAKAD_132_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. 439/95",
+    "case_title": "Manage v. Kotakadeniya",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-12-20",
+    "source_citation": "[1997] 1 Sri L.R. 204"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to unequal and discriminatory treatment in the refusal to extend his service and in his retirement, violating Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that the refusal to extend his service and his retirement were discriminatory and not based on adequate grounds, violating his fundamental right to equality under Article 12(1).",
+    "respondent_argument": "The respondents argued that the petitioner committed several offences which made it undesirable to extend his service, justifying the refusal and retirement.",
+    "key_facts": [
+      "The petitioner was interdicted and retired from service; his application for extension of service at age 55 was refused.",
+      "Three charges were made against the petitioner; no adequate reasons were given for the first two charges, and the third charge was withdrawn.",
+      "The petitioner was treated differently from others in similar circumstances who were granted extensions and reinstatements.",
+      "The retirement order was issued by the 1st respondent, not by the Secretary to the Ministry as required by law.",
+      "Formal disciplinary proceedings were not properly conducted before retirement."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(1) as guaranteeing equal treatment before the law and protection against discriminatory conduct by the state. The refusal to extend service and the retirement order must be based on adequate and lawful grounds.",
+    "application_to_facts": "The court found that the refusal to extend service was not based on adequate grounds since the charges were either unsupported or withdrawn. The petitioner was treated unequally compared to others similarly situated. The retirement order was invalid as it was not issued by the proper authority and lacked due disciplinary process.",
+    "principles_established": [
+      "Equal protection under Article 12(1) prohibits arbitrary and discriminatory treatment in public employment decisions.",
+      "Disciplinary and retirement orders must follow lawful procedures and be issued by authorized officials.",
+      "Adequate reasons must be provided for adverse administrative decisions affecting fundamental rights."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental right to equality under Article 12(1) was violated. The retirement order was quashed, and the petitioner was awarded compensation and costs.",
+    "disposition": "granted",
+    "remedy_or_orders": "The retirement order was quashed; the petitioner was awarded Rs. 25,000 as compensation and Rs. 5,000 as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court’s reasoning as it protects against unequal and discriminatory treatment by the state, which was the core issue in the petitioner’s claim regarding refusal of service extension and retirement.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found no adequate grounds for refusal of extension since charges were unsupported or withdrawn, and noted others similarly situated were treated differently, constituting unequal treatment under Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 204,
+      "end_char": 2070
+    }
+  }
+}

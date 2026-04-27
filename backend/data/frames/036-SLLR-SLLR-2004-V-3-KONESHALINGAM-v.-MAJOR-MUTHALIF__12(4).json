@@ -1,0 +1,52 @@
+{
+  "frame_id": "RQ1_036-SLLR-SLLR-2004-V-3-KONESHALINGAM-V.-_177_C04__12(4)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_555_2001",
+    "case_title": "Koneshalingam v Major Muthalif",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-12-12",
+    "source_citation": "[2004] 3 Sri L.R 226"
+  },
+  "clause": {
+    "article": "12(4)",
+    "text": "Special provisions may be made for the advancement of women, children or disabled persons."
+  },
+  "case_context": {
+    "legal_issue": "Whether any special provisions for advancement of disabled persons under Article 12(4) were relevant or applied in this case.",
+    "petitioner_claim": null,
+    "respondent_argument": null,
+    "key_facts": [
+      "Petitioner is disabled, having lost his lower left limb due to a land mine injury."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court noted the petitioner’s disability but did not materially engage Article 12(4) in its reasoning or decision.",
+    "application_to_facts": "The petitioner’s disability was acknowledged but no special provisions under Article 12(4) were applied or discussed.",
+    "principles_established": [],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": null,
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(4) was not materially engaged or relied upon in the court’s reasoning or holding.",
+    "relevance_level": "low",
+    "match_type": "mentioned_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner is 26 years of age and married with 2 children. According to him, in 1991 he had accidentally stepped on a land mine, which cost him his lower left limb.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

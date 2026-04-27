@@ -1,0 +1,69 @@
+{
+  "frame_id": "RQ1_029-SLLR-SLLR-1991-V2-ABEYWARDENE-V.-INS_143_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application No. 92/91",
+    "case_title": "Abeywardene v. Inspector General of Police and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1991-10-23",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 92/91, decided on 23 October 1991"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Emergency Regulations that allowed seizure of jackpot machines but exempted State lotteries violated the petitioner's right to equal protection of the law under Article 12(1).",
+    "petitioner_claim": "The petitioner argued that the exemption of State and public corporation lotteries from seizure under the Emergency (Games of Chance) Regulations amounted to denial of equal protection of the law, as the law must be the same for all persons, including the State and private persons.",
+    "respondent_argument": "The State argued that the distinction between State lotteries and private persons like the petitioner was intelligible and justified by the need to preserve public security and order. The classification was based on an intelligible differentia related to the object of the legislation and was valid under Article 12(1).",
+    "key_facts": [
+      "Petitioner owned jackpot machines seized under Emergency Regulations.",
+      "State lotteries and public corporation lotteries were exempted from seizure by Regulation 4 of the Emergency (Games of Chance) Regulations.",
+      "The Regulations were made under the Public Security Ordinance during a declared state of emergency.",
+      "The petitioner was engaged in gaming activities considered harmful to public order and security, unlike State lotteries.",
+      "The petitioner admitted all jackpot owners were treated alike, with no unequal treatment among them."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 12(1) guarantees equal justice and equal protection of the law, meaning the law should be equally administered among equals. The State has the power to classify and differentiate between persons or things if the classification is based on an intelligible differentia and has a rational nexus to the object of the legislation. The State lotteries are not 'persons' in the same sense as private individuals, and the distinction between State and private lotteries is valid.",
+    "application_to_facts": "The court found that the Regulations aimed to preserve public security and order, not to eradicate gaming entirely. The differentiation between the petitioner’s jackpot machines and State lotteries was rational and intelligible because the petitioner’s activities threatened public order, whereas State lotteries did not. The exemption of State lotteries was therefore justified and did not violate Article 12(1).",
+    "principles_established": [
+      "Legislative classification need not be scientifically perfect or logically complete.",
+      "The State may differentiate between classes based on degrees of harm and legislative policy.",
+      "Article 12(1) guarantees equal protection of the law, not equal violation of the law.",
+      "The burden is on the challenger to negative every conceivable basis supporting the classification.",
+      "The President’s subjective satisfaction in declaring emergency regulations is conclusive absent bad faith."
+    ],
+    "precedents_cited": [
+      "State of U.P. v. Deoman AIR 1960 S.C. 1125",
+      "Madden v. Kentucky 1940 309 U.S. 83",
+      "State of Bombay v. F.N. Balsara AIR 1951 SC 318",
+      "Barbier v. Connolly (1885) 113 U.S. 27",
+      "Yasapala v. Ranil Wickremasinghe and others (1980) 1 FRD 143",
+      "C.W. Mackie & Co. Ltd. v. Hugh Molagoda, Commissioner-General of Inland Revenue and Others II 1986 1 Sri LR 300"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the Emergency Regulations did not violate Article 12(1) as the classification between State lotteries and private persons was rational and had a nexus to the object of preserving public security and order.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's analysis of whether the differential treatment between State lotteries and private jackpot machine owners was constitutionally permissible under the right to equality and equal protection of the law.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court explained that Article 12(1) guarantees equal justice and equal protection of the law, and that the State may classify and differentiate between persons if the classification is based on an intelligible differentia and rational nexus to the legislation's object. The petitioner’s activities threatened public order, unlike State lotteries, justifying the distinction.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

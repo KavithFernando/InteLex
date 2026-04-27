@@ -1,0 +1,73 @@
+{
+  "frame_id": "RQ1_003-SLLR-SLLR-1996-1-DE-SILVA-AND-OTHERS_005_C01__14(1)(c)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "003-SLLR-SLLR-1996-1-DE-SILVA-AND-OTHERS",
+    "case_title": "De Silva and Others v. Jeyaraj Fernandopulle and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-11-30",
+    "source_citation": "1996)1 Sri L.R."
+  },
+  "clause": {
+    "article": "14(1)(c)",
+    "text": "Freedom of association."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' fundamental rights under Article 14(1)(c) were infringed by preventing them from engaging in their occupation and associating at the Airport premises.",
+    "petitioner_claim": "The petitioners claimed that they were prevented from entering the Airport premises and engaging in their occupation as taxi operators due to intimidation and threats instigated by the 1st to 7th Respondents, and that the police and Airport authorities failed to provide protection, infringing their fundamental rights under Article 14(1)(c).",
+    "respondent_argument": "The 1st Respondent denied the allegations, stating the inauguration of the new taxi service was peaceful with no violence or intimidation, and that the petitioners' allegations were politically motivated and uncorroborated. The police and Airport authorities denied any failure to act or involvement in intimidation.",
+    "key_facts": [
+      "Petitioners were members of two taxi societies with agreements to provide taxi services at the Airport until 1996.",
+      "On 31 January 1995, a public meeting was held where petitioners were allegedly intimidated and prevented from operating taxis.",
+      "Police and Airport authorities were present but allegedly did not intervene to protect petitioners.",
+      "A new taxi service company (16th Respondent) was introduced, allegedly replacing petitioners' services.",
+      "Statements made by the 1st Respondent in Parliament contradicted his affidavit denying involvement."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 14(1)(c) as protecting the petitioners' right to associate and engage in their lawful occupation without intimidation or obstruction. The failure of police and Airport authorities to provide protection constituted a violation of this right. The Court also held that statements made in Parliament could be used to assess the credibility of affidavits, but not as substantive evidence of truth.",
+    "application_to_facts": "The Court found that the petitioners were effectively prevented from exercising their rights due to threats and intimidation instigated by the 1st Respondent and others, and that the police and Airport authorities acquiesced in this treatment by failing to provide protection. The contradictory statements by the 1st Respondent in Parliament undermined his affidavit, making the petitioners' version more credible.",
+    "principles_established": [
+      "Freedom of association includes protection from intimidation preventing lawful occupation.",
+      "Police and administrative authorities have a duty to provide reasonable protection to enable exercise of fundamental rights.",
+      "Statements made in Parliament are admissible to impeach credibility but not as substantive evidence.",
+      "Parliamentary privilege protects freedom of speech in Parliament from being questioned in courts."
+    ],
+    "precedents_cited": [
+      "Faiz v. Attorney-General and Others",
+      "Upaliratne v. Tikiri Banda and Others",
+      "Church of Scientology v. Johnson Smith",
+      "J.B. Textiles Ltd. v. Minister of Finance",
+      "Strickland v. Mitsui Bonnici",
+      "De Zoysa v. Wijesinghe",
+      "Weerasinghe v. Samarasinghe",
+      "Schmidt v. Secretary of State for Home Affairs",
+      "Laker Airways Ltd. v. Department of Trade",
+      "Dissanayake v. Kaleel",
+      "Jayatilleke v. Kaleel"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioners' fundamental rights under Article 14(1)(c) were infringed by the 1st and 14th Respondents due to intimidation and failure to provide protection, and granted relief accordingly.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of infringement of fundamental rights under Articles 12(1), 12(2), 14(1)(g) read with 14(1)(c).\nCompensation of Rs. 10,000 to each individual petitioner for loss of occupation.\nCompensation of Rs. 50,000 to each petitioner society for culpable inaction.\nCosts of Rs. 50,000 against the 1st Respondent to be paid to petitioner societies.\nDirections to police and Airport authorities to provide security and facilities to petitioners to operate taxis."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(c) guarantees freedom of association, which the petitioners claimed was violated when they were prevented from associating and engaging in their lawful occupation at the Airport due to intimidation and lack of protection.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioners were prevented from operating taxis at the Airport due to threats and intimidation instigated by the 1st Respondent and others, with police and Airport authorities failing to provide protection, as supported by affidavits and the contradictory statements of the 1st Respondent in Parliament.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_016-SLLR-SLLR-1998-1-WEERASINGHE-V.-PREM_022_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (F.R) APPLICATION NO. 477/96",
+    "case_title": "Weerasinghe v. Premaratne, Police Sergeant and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1997-10-31",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (F.R) Application No. 477/96, decided on 31 October 1997"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment by police officers in violation of Article 11 of the Constitution during his detention.",
+    "petitioner_claim": "The petitioner claimed he was illegally detained for over 24 hours, stripped naked, tied in a painful suspended position using a rice pounder, and assaulted by police officers, constituting torture and cruel treatment violating Article 11.",
+    "respondent_argument": "The respondents denied arresting the petitioner on 7.5.96, claimed he was arrested only on 10.5.96, and challenged the petitioner's character. They also disputed the allegations of torture and the accuracy of medical reports.",
+    "key_facts": [
+      "Petitioner was arrested on 7.5.96 and detained at Pannala police station for over 24 hours.",
+      "Petitioner was stripped naked, tied in a squatting suspended position using a rice pounder, and assaulted by police officers.",
+      "Petitioner was seen naked in the police cell by his parents.",
+      "Medical reports showed some injuries but did not conclusively corroborate torture; court noted torture can be proved even without medical evidence.",
+      "Respondents admitted some investigation but disputed timing of arrest and denied torture allegations."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 11 prohibits torture and cruel, inhuman or degrading treatment or punishment. The court recognized that proof of such violations can be established even without medical evidence depending on circumstances. The court emphasized that all persons, regardless of character, are entitled to fundamental rights protections.",
+    "application_to_facts": "The court found the petitioner was illegally detained and subjected to cruel treatment by being suspended in a painful position and assaulted. The court accepted the petitioner's version over the respondents' conflicting accounts, noting the unreliability of police records and corroborative affidavits. The physical and psychological suffering described constituted a violation of Article 11.",
+    "principles_established": [
+      "Article 11 protects all persons from torture and cruel, inhuman or degrading treatment.",
+      "Proof of Article 11 violations can be established even without medical evidence depending on circumstances.",
+      "Police records may be unreliable in fundamental rights cases.",
+      "Even persons with poor character are entitled to constitutional fundamental rights."
+    ],
+    "precedents_cited": [
+      "Senthilnayagam v. Seneviratne (1981) 2 Sri LR 187",
+      "Amal Sudath Silva v. Kodituwakku (1987) 2 Sri LR 119",
+      "Sudath Peiris v. Adikari and others S.C. (F.R.) 94/93",
+      "Re. Dr. S. Abeykoon, SC Application 454/93",
+      "Ansalim Fernando v. Sarath Perera and others (1992) 1 Sri LR 411"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner was subjected to torture and cruel, inhuman or degrading treatment in violation of Article 11 and granted relief accordingly.",
+    "disposition": "granted",
+    "remedy_or_orders": "The court ordered the 1st, 7th and 8th respondents to pay Rs. 5,000 each as compensation and Rs. 1,500 each as costs; the 2nd and 3rd respondents to pay Rs. 2,500 each as compensation and Rs. 750 each as costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 is central to the court's reasoning as the petitioner alleged torture and cruel treatment by police officers, which the court found proven and thus violated the constitutional guarantee.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Petitioner was tied in a squatting suspended position using a rice pounder and assaulted; parents saw him naked in the cell; court found these facts established cruel treatment violating Article 11.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

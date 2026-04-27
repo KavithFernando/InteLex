@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_046-SLLR-SLLR-2005-V-1-RATNAYAKE-AND-ANO_071_C01__14(1)(g)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (FR) 231/2003",
+    "case_title": "Ratnayake and Another vs Mediwaka, Deputy Inspector General of Police, Kandy and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2004-06-03",
+    "source_citation": "Sri Lanka Law Reports (2005) 1 Sri L.R."
+  },
+  "clause": {
+    "article": "14(1)(g)",
+    "text": "Freedom to engage in lawful occupation or business."
+  },
+  "case_context": {
+    "legal_issue": "Whether the police raid and search of the petitioners' hotel violated their fundamental right to freedom to engage in a lawful occupation or business under Article 14(1)(g) of the Constitution.",
+    "petitioner_claim": "The petitioners claimed that the police raid on their hotel, conducted with a large armed contingent during a family celebration, was malicious and intended to bring disrepute to their business, thereby infringing their right to engage in lawful business.",
+    "respondent_argument": "The respondents argued that the raid was conducted on reasonable suspicion based on credible information and a valid search warrant issued by the Magistrate, and that the police acted according to law without any mala fide intention.",
+    "key_facts": [
+      "The petitioners owned and operated Hotel Sunray in Kandy.",
+      "On 10.04.2003, police officers entered the hotel with a search warrant following an anonymous complaint alleging illegal activities including prostitution and drug sales.",
+      "The search warrant was issued under section 9(2) of the Criminal Procedure Code, though the correct law was the Brothels Ordinance.",
+      "The police conducted surveillance and preliminary investigations before obtaining the warrant.",
+      "The petitioners alleged humiliation and loss of business due to the raid."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the right to engage in lawful occupation is subject to reasonable regulation and that police actions based on credible information and judicially issued search warrants do not violate this right. The court emphasized the need to balance individual freedoms with societal interests in crime prevention.",
+    "application_to_facts": "The court found that the police had credible information and followed due process by obtaining a search warrant. The raid was not arbitrary or malicious but a lawful exercise of police powers. The petitioners failed to prove that their fundamental right under Article 14(1)(g) was infringed.",
+    "principles_established": [
+      "A search warrant issued by a Magistrate is a judicial act that cannot be challenged in fundamental rights proceedings.",
+      "Errors in the legal basis for issuing a warrant do not necessarily invalidate the warrant if the officer acted in good faith.",
+      "The freedom to engage in lawful business is not absolute and must be balanced against the interests of society.",
+      "Allegations of mala fide must be substantiated with material evidence.",
+      "Police must act according to law and respect fundamental rights, but their lawful actions based on reasonable suspicion are not violations."
+    ],
+    "precedents_cited": [
+      "Anura Bandaranaike v The IGP (1999) 1 Sri LR 104",
+      "Fernando v Parwathi Radan (1908) 1 Weerakoon's Report 15",
+      "L.C.H. Peiris v The Commissioner of Inland Revenue (1963) 65 NLR 457",
+      "Chick Fashions (West Wales) Ltd. v Jones 1968 (2) OB 299"
+    ]
+  },
+  "outcome": {
+    "holding": "The court dismissed the petitioners' claim that their fundamental right under Article 14(1)(g) was violated by the police raid and search.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioners alleged that the police raid interfered with their freedom to conduct lawful business, making Article 14(1)(g) central to the claim and the court's analysis of whether the police action was lawful and justified.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the police acted on credible information, obtained a judicially issued search warrant, and conducted the search lawfully, rejecting the petitioners' claim of malicious intent and violation of their right to engage in lawful business.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_044-SLLR-SLLR-1998-V-2-DISSANAYAKE-ATTON_091_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 524/96",
+    "case_title": "Dissanayake, Attorney-at-Law on Behalf of K.M. Lai v. Sujeewa, Sub Inspector of Police, Meetiyagoda Police Station and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1998-12-17",
+    "source_citation": "Sri Lanka Law Reports (1998) 2 Sri L.R. 413"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the detention of the petitioner was lawful and complied with the requirement to bring the detainee before a judge and have a legal order for detention under Article 13(2).",
+    "petitioner_claim": "The petitioner claimed he was detained unlawfully without being brought before a judge or having a legal order authorizing his detention.",
+    "respondent_argument": "Respondents claimed the petitioner was arrested lawfully on complaint and released on bail after hospital admission, implying lawful detention.",
+    "key_facts": [
+      "Petitioner was taken to police station and later admitted to hospital unconscious.",
+      "Petitioner was not allowed visitors at police station and was transferred between hospitals.",
+      "Petitioner was released on bail on 03.06.1996 after hospital admission.",
+      "Court found arrest and detention unlawful and violative of Article 13(2)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires that any person detained must be brought before a judge and cannot be held without a legal order. The court emphasized the necessity of judicial oversight to prevent unlawful detention.",
+    "application_to_facts": "The court found that the petitioner was detained unlawfully without being brought before a judge or having a legal order. The detention was therefore in violation of Article 13(2).",
+    "principles_established": [
+      "Detention without judicial order or bringing detainee before a judge is unlawful.",
+      "Judicial oversight is essential to protect fundamental rights against unlawful detention.",
+      "Violation of Article 13(2) constitutes infringement of fundamental rights."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the detention of the petitioner violated Article 13(2) of the Constitution as he was not brought before a judge and was held without legal order.",
+    "disposition": "granted",
+    "remedy_or_orders": "Same compensation and costs as for Article 13(1) violation."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was central to the court’s finding that the petitioner’s detention was unlawful because he was not brought before a judge and held without legal order, violating his fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was detained at the police station and hospitals without being brought before a judge or having a legal order, and was not allowed visitors at the police station.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

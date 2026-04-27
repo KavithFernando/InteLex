@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_030-SLLR-SLLR-2003-1-JANAPRIYA-V.-SRI-JA_153_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_531_92",
+    "case_title": "Janapriya v. Sri Jayawardenapura General Hospital and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1993-11-17",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application 531/92, decided on 17 November 1993"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the direction to appoint a Consultant Surgeon without readvertisement violated the petitioner's right to equality under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the vacancy for the 3rd Consultant Surgeon post arose in 1991 and should have been readvertised, and that the direction to appoint without advertisement deprived him of the opportunity to apply, violating his right to equality under Article 12(1).",
+    "respondent_argument": "The respondents contended that the direction was to remedy the unfair discrimination against the 2nd respondent, who had been unlawfully disqualified for lack of PGIM certification, and that the petitioner and 2nd respondent were not similarly circumstanced, so no discrimination against the petitioner arose under Article 12(1).",
+    "key_facts": [
+      "The 2nd respondent had been appointed Resident Surgeon on contract since 1984 and acted as Consultant Surgeon in 1985 and 1991.",
+      "The post of Consultant Surgeon was advertised in 1984, 1986, and 1987; the 2nd respondent was interviewed but disqualified for lack of PGIM certification.",
+      "The PGIM Circular 1389 requiring certification was declared ultra vires and violative of Article 12(1) in Weligodapola v Secretary, Ministry of Women Affairs.",
+      "A Court of Appeal settlement in 1987 allowed appointment without readvertisement of candidates from the 1986 advertisement, including the 2nd respondent.",
+      "The Minister directed the SJGH Board in 1992 to interview the original applicants without readvertisement to give effect to the settlement."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(1) as prohibiting discrimination and requiring equal protection of the law. It held that the PGIM Circular 1389 was ultra vires and discriminatory. The Court recognized that the 2nd respondent had been unfairly excluded based on an invalid requirement, and the direction to interview without readvertisement was to remedy that injustice.",
+    "application_to_facts": "The Court found that the 2nd respondent was qualified and had been unfairly disqualified due to the PGIM certification requirement. The petitioner failed to establish that his own rights under Article 12(1) were infringed, as the 2nd respondent and petitioner were not similarly circumstanced. The appointment without readvertisement was not arbitrary but based on remedying discrimination against the 2nd respondent.",
+    "principles_established": [
+      "A classification or requirement that is not scientifically perfect but is discriminatory violates Article 12(1).",
+      "The PGIM Circular 1389 was ultra vires and discriminatory against holders of foreign qualifications.",
+      "Remedial measures to correct past discrimination do not necessarily violate the rights of others who are not similarly circumstanced.",
+      "There must be clearly formulated and published recruitment schemes to avoid unfairness and victimization."
+    ],
+    "precedents_cited": [
+      "Weligodapola v Secretary, Ministry of Women Affairs"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the petitioner's application, holding that the petitioner failed to prove infringement of his rights under Article 12(1). The direction to appoint without readvertisement was lawful as it remedied discrimination against the 2nd respondent.",
+    "disposition": "dismissed",
+    "remedy_or_orders": "Costs of Rs. 3500/- payable by the petitioner to the 2nd respondent."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as the petitioner claimed violation of equality rights due to appointment without advertisement, while the Court found the direction was to remedy discrimination violating Article 12(1) against the 2nd respondent.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court held that the PGIM Circular 1389 was ultra vires and discriminatory, and that the 2nd respondent was unfairly excluded on that basis. The petitioner failed to establish infringement of his Article 12(1) rights by the appointment without readvertisement.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "frame_id": "RQ1_040-SLLR-SLLR-1989-V-2-SASANASIRITISSA-T_088_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATIONS 13/88, 14/88 and 15/88",
+    "case_title": "Sasanasiritissa Thero and Others v. P.A. De Silva, Chief Inspector, C.I.D. and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1989-07-27",
+    "source_citation": "Sri Lanka Law Reports (1989) 2 Sri LR 356"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners' detention without being produced before a Magistrate and continued detention under Emergency Regulations violated Article 13(2).",
+    "petitioner_claim": "The petitioners claimed they were detained without being brought before a judge and without valid legal orders, violating Article 13(2).",
+    "respondent_argument": "Respondents argued detention was lawful under Emergency Regulations, supported by detention orders under Regulation 17(1) and 19(2).",
+    "key_facts": [
+      "Petitioners were detained for 73 days under Regulation 19(2) without being produced before a Magistrate.",
+      "On 01.01.88, petitioners were served with a detention order dated 20.12.87 under Regulation 17(1).",
+      "Petitioners were not informed of earlier detention orders and were not produced before a Magistrate.",
+      "The detention orders were signed by the Secretary and Additional Secretaries of the Ministry of Defence.",
+      "The petitioners challenged the legality and mala fides of the detention orders."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that detention without production before a Magistrate was permissible under the Emergency Regulations but must be supported by valid detention orders. The entire detention period from 20.12.87 was treated as a single detention. The Court emphasized the necessity of good faith in issuing detention orders and found mala fides in the issuance of the impugned detention order.",
+    "application_to_facts": "The Court found the petitioners were not produced before a Magistrate, but this was consistent with Emergency Regulations. However, the detention orders, especially the one dated 20.12.87, were issued mala fide without credible material, rendering the detention unlawful under Article 13(2).",
+    "principles_established": [
+      "Detention under Emergency Regulations does not require production before a Magistrate.",
+      "Detention must be supported by valid detention orders issued in good faith.",
+      "Mala fide issuance of detention orders violates Article 13(2).",
+      "The entire period of detention under successive orders can be treated as a single detention for relief purposes."
+    ],
+    "precedents_cited": [
+      "Kumaranatunge v. Samarasinghe",
+      "Yapa v. Bandaranayake",
+      "Hirdaramani v. Ratnavale",
+      "Gunasekera v. Ratnavale"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioners' detention violated Article 13(2) due to mala fide issuance of detention orders and ordered compensation for unlawful detention.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration that the detention is unlawful; compensation awarded to petitioners."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was central to the Court's finding that the petitioners' prolonged detention without lawful and bona fide detention orders violated their fundamental rights, leading to relief.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Petitioners were detained without being produced before a Magistrate; detention orders were issued under Emergency Regulations but were found mala fide and unsupported by credible material, rendering detention unlawful.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

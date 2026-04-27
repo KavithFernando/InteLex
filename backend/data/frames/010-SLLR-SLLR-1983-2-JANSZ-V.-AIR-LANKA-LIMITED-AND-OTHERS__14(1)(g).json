@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_010-SLLR-SLLR-1983-2-JANSZ-V.-AIR-LANKA-_015_C02__14(1)(g)",
+  "created_at": "2024-06-10",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_45_83",
+    "case_title": "Jansz v. Air Lanka Limited and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1983-08-30",
+    "source_citation": "Supreme Court Application No. 45/83, decided on 30 August 1983"
+  },
+  "clause": {
+    "article": "14(1)(g)",
+    "text": "Freedom to engage in lawful occupation or business."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s fundamental right under Article 14(1)(g) to freedom to engage in lawful occupation was infringed by executive or administrative action.",
+    "petitioner_claim": "The petitioner claimed that his interdiction and disciplinary inquiry interfered with his right to engage in his lawful occupation as Chief Flight Engineer.",
+    "respondent_argument": "The respondents argued that the interdiction and disciplinary inquiry were lawful administrative actions based on conduct and company policy, not on union membership or unlawful restriction of occupation.",
+    "key_facts": [
+      "The petitioner was interdicted from duties and subjected to disciplinary inquiry.",
+      "The petitioner alleged that these actions were due to his union membership and thus infringed his right to engage in lawful occupation.",
+      "Respondents denied that the actions were motivated by union membership and stated they were based on conduct and safety concerns.",
+      "The petitioner was offered pilot training and career advancement opportunities, which he declined."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 14(1)(g) protects the right to engage in lawful occupation. The court held that administrative or executive actions that are lawful and based on valid grounds do not necessarily infringe this right.",
+    "application_to_facts": "The court found no evidence that the interdiction or disciplinary inquiry unlawfully restricted the petitioner’s occupation. The actions were connected to conduct and safety issues, and the petitioner had other career opportunities offered by the company.",
+    "principles_established": [
+      "Freedom to engage in lawful occupation is protected but subject to lawful administrative action.",
+      "Disciplinary and administrative measures based on conduct and safety do not automatically violate Article 14(1)(g).",
+      "Offers of career advancement indicate no unlawful restriction on occupation."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The petitioner failed to prove that his right under Article 14(1)(g) was infringed. The application was dismissed.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioner’s claim included alleged infringement of his right to engage in lawful occupation under Article 14(1)(g). The court’s reasoning addressed whether the administrative actions unlawfully restricted this right.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was interdicted and subjected to disciplinary inquiry based on conduct and safety concerns; the court found no unlawful restriction on his occupation and noted offers of pilot training and advancement.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

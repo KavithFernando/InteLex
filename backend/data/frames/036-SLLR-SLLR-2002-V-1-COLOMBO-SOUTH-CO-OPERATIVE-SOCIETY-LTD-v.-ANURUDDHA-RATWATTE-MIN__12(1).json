@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_036-SLLR-SLLR-2002-V-1-COLOMBO-SOUTH-CO-_176_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_698_98",
+    "case_title": "Colombo South Co-operative Society Ltd v. Anuruddha Ratwatte, Minister of Power and Irrigation and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-03-25",
+    "source_citation": "[2002] 1 Sri LR"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the termination of the petitioner's dealership agreement by the Petroleum Corporation violated the petitioner's fundamental right to equality and equal protection under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the termination of the dealership was discriminatory and arbitrary, violating their right to equal treatment under Article 12(1). They contended that the Corporation applied the 'one shed per dealer' policy unequally, as other dealers were allowed multiple dealerships.",
+    "respondent_argument": "The respondents contended that the termination was based on a valid Board decision to limit dealers to one dealership each, and that the petitioner was operating multiple filling stations contrary to this policy. They also claimed the petitioner's dealership was temporary.",
+    "key_facts": [
+      "The petitioner operated a petrol filling station as a dealer of the Petroleum Corporation under a formal agreement entered in 1997.",
+      "The Corporation terminated the dealership on 13.10.1998 without the required three months' notice.",
+      "The Corporation had a policy decision to limit dealers to one filling station each.",
+      "Evidence showed other dealers were allowed multiple dealerships despite the policy.",
+      "The termination letter did not cite any default by the petitioner justifying termination without notice."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) guarantees equality before the law and equal protection, prohibiting arbitrary or discriminatory treatment of persons similarly situated. The policy must be applied fairly and not in a capricious or unreasonable manner.",
+    "application_to_facts": "The Court found that the Corporation acted arbitrarily by terminating the petitioner's dealership without due notice and by applying the 'one shed per dealer' policy unequally, as other dealers were permitted multiple dealerships. This constituted discrimination violating Article 12(1).",
+    "principles_established": [
+      "Executive or administrative actions by a state corporation are subject to constitutional fundamental rights protections.",
+      "Discriminatory or arbitrary application of policies violates Article 12(1).",
+      "Termination of agreements without due process or notice can infringe fundamental rights."
+    ],
+    "precedents_cited": [
+      "Dahanayake v. De Silva",
+      "Kuruppu Don Somapala Gunaratne and Others v. Ceylon Petroleum Corporation and Others",
+      "Wickrematunge v. Anuruddha Ratwatte and Others",
+      "Sangadasa Silva v. Anuruddha Ratwatte and Others"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner's fundamental right under Article 12(1) was infringed by the arbitrary and discriminatory termination of the dealership. The termination letter was declared null and void, and the petitioner was ordered to be reinstated with compensation and costs.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 2nd respondent Corporation was ordered to reinstate the petitioner as dealer under the 1997 agreement within one month and to pay Rs. 125,000 as compensation and Rs. 25,000 as costs within three months."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it protects against arbitrary and discriminatory treatment by the state or its agencies. The Court found the Corporation's actions violated this constitutional guarantee, leading to the relief granted.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court noted that the petitioner was subjected to unequal treatment as other dealers were allowed multiple dealerships despite the 'one shed per dealer' policy, and the termination was done without the required notice, violating clause 12B of the agreement.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

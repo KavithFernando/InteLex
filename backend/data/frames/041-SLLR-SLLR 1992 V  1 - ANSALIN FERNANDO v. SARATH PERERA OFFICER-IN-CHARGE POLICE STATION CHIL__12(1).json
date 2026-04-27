@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_041-SLLR-SLLR_1992_V__1_-_ANSALIN_FERNAN_185_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 18/87",
+    "case_title": "Ansalin Fernando v. Sarath Perera, Officer-in-Charge, Police Station, Chilaw and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1990-03-30",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 18/87, decided on 19 and 30 March 1990"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s son was denied equal protection of the law under Article 12(1) of the Constitution due to unlawful arrest and detention.",
+    "petitioner_claim": "The petitioner claimed that her son was arrested unlawfully on 02.01.87, detained without proper authority, subjected to assaults and humiliations, and denied his fundamental rights including equal protection under the law.",
+    "respondent_argument": "The respondents denied the date of arrest and claimed the 6th respondent was arrested on 05.01.87 under Emergency Regulations with proper detention orders. They denied knowledge of unlawful detention or ill-treatment.",
+    "key_facts": [
+      "The 6th respondent was arrested on 02.01.87 according to petitioner and supporting affidavits, but respondents claimed arrest on 05.01.87.",
+      "The arrest was made on suspicion of involvement in a murder, but no credible information or lawful authority under Emergency Regulations was shown.",
+      "The 6th respondent was detained for 49 days, including 15 days without lawful detention orders.",
+      "During detention, the 6th respondent was assaulted, humiliated, blindfolded, chained to a bench causing pain, and taken to a lonely house for interrogation.",
+      "No material was produced to justify detention under Emergency Regulations; Regulation 45 cited does not create an offence."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equality before the law and equal protection, which requires lawful arrest and detention procedures. Arrests must be based on credible information and lawful authority. Detention without lawful orders and degrading treatment violates the constitutional guarantee of equal protection.",
+    "application_to_facts": "The court found the arrest was not lawful under Emergency Regulations as murder is not an offence under those regulations and the arrest was not made under the proper Code of Criminal Procedure provisions. The detention orders were invalid and the treatment of the detainee was degrading. Thus, the 6th respondent was denied equal protection of the law.",
+    "principles_established": [
+      "Arrest and detention must comply with lawful procedures to satisfy Article 12(1).",
+      "Detention without lawful authority and degrading treatment violates equal protection rights.",
+      "Regulation 45 of Emergency Regulations does not create an offence and cannot justify detention.",
+      "Credible information is required for lawful arrest under Emergency Regulations."
+    ],
+    "precedents_cited": [
+      "Nanayakkara v. Henry Perera (1985) 1 Sri LR 375",
+      "Wijewardena v. Zain and Others S.C. Application No. 202/87",
+      "Joseph Perera v. Attorney-General S.C. No. 107-109/86",
+      "Gunasekera v. De Fonseka 75 NLR 246",
+      "Muttusamy v. Kannangara 52 NLR 324",
+      "Yapa v. Bandaranayake (1988) 1 Sri LR 63"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the arrest and detention of the 6th respondent violated Article 12(1) as he was denied equal protection of the law through unlawful arrest, detention without authority, and degrading treatment.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was directed to pay Rs. 25,000/- to the petitioner on behalf of the 6th respondent and costs of Rs. 2,500/-."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court’s reasoning as the unlawful arrest and detention deprived the 6th respondent of equal protection under the law, which was the basis for granting relief.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found no credible information to justify arrest under Emergency Regulations and held the detention orders invalid; the 6th respondent was subjected to degrading treatment and detained unlawfully for 49 days.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

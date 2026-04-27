@@ -1,0 +1,70 @@
+{
+  "frame_id": "RQ1_047-SLLR-SLLR-1982-2-MALALGODA-V.-ATTORN_072_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application No. 95/82",
+    "case_title": "Malalgoda v. Attorney-General and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1982-12-02",
+    "source_citation": "Sri Lanka Law Reports (1982) 2 S.L.R. 778"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the seizure of the applicant's published anthology of poems infringed his fundamental right to freedom of speech and expression including publication under Article 14(1)(a) of the Constitution.",
+    "petitioner_claim": "The applicant argued that his fundamental right to freedom of speech and expression including publication was violated by the Police seizure of his book, which contained defamatory material.",
+    "respondent_argument": "The respondents contended that freedom of speech is subject to restrictions prescribed by law, including defamation, and that the seizure was lawful to prevent defamatory publication.",
+    "key_facts": [
+      "Applicant is a writer and poet of over 40 years standing.",
+      "Published an anthology of poems titled 'Nuthana Devadaththa' on 17 September 1982.",
+      "The book contained defamatory diatribes against the President, Prime Minister, and other public figures.",
+      "Police seized all copies of the publication on or about 24 September 1982.",
+      "Applicant claimed seizure violated his constitutional right to freedom of speech and publication."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the fundamental right to freedom of speech and expression including publication under Article 14(1)(a) is subject to restrictions prescribed by law under Article 15(2). Freedom of publication does not include the license to defame or vilify others. The Court distinguished the absolute protections in the US First Amendment and noted that Sri Lankan constitutional freedoms are subject to more absolute legal restrictions without a reasonableness test.",
+    "application_to_facts": "Since the publication was defamatory, the seizure of the book by the Police was justified under the restrictions allowed by law. The applicant's right to publish is not absolute and does not protect defamatory material. Therefore, the seizure did not violate the applicant's fundamental rights.",
+    "principles_established": [
+      "Freedom of speech and publication is subject to legal restrictions including defamation under Article 15(2).",
+      "The phrase 'subject to' in Article 15(2) means the right is limited by the restrictions prescribed by law.",
+      "Freedom of publication does not grant a license to defame or vilify others.",
+      "The Court may apply restrictions without testing their reasonableness, unlike in some other jurisdictions."
+    ],
+    "precedents_cited": [
+      "Cohen v. California",
+      "Schenck v. United States",
+      "Terminiello v. Chicago",
+      "Bowman v. Secular Society Ltd.",
+      "Bahulal Parate v. Maharashtra",
+      "Jang Bahadur v. Principal, Mohindra College",
+      "Akistan Apena of Iporo v. Akinwande Thomas",
+      "Smith v. London Transport Executive"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the application, holding that the seizure of the defamatory publication did not violate the applicant's fundamental right to freedom of speech and expression including publication under Article 14(1)(a).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) guarantees freedom of speech and expression including publication, which was the core right claimed by the applicant. The Court's reasoning and decision centrally hinged on interpreting this clause in light of the restrictions allowed under Article 15(2).",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The fundamental right to freedom of speech is subject to such restrictions as the law may impose under the heads mentioned in Article 15(2) of the Constitution. Freedom of publication means that the applicant may publish whatever will not expose him to a prosecution or a civil action for defamation. The freedom of publication does not include the licence to defame and vilify others.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

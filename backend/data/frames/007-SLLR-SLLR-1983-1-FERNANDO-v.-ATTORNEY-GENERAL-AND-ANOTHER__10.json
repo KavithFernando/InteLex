@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_007-SLLR-SLLR-1983-1-FERNANDO-V.-ATTORNE_002_C01__10",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 2 OF 1983",
+    "case_title": "Fernando v. Attorney General and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1983-02-25",
+    "source_citation": "[1983] 1 SriLR 374"
+  },
+  "clause": {
+    "article": "10",
+    "text": "Every person is entitled to freedom of thought, conscience and religion, including the freedom to have or to adopt a religion or belief of his choice."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s fundamental right to freedom of thought and conscience under Article 10 was violated by the police during his arrest at a peaceful assembly and procession.",
+    "petitioner_claim": "The petitioner claimed that his fundamental right of freedom of thought and conscience was violated when he was assaulted, illegally arrested without being informed of the reason, and subjected to cruel and degrading treatment while attending a peaceful assembly and fast protesting the detention of certain detainees.",
+    "respondent_argument": "The respondents argued that the petitioner was part of an illegal procession on the Horowpatana Road, that violence erupted during police action to disperse the procession, and that the police had lawful authority to arrest and disperse the processionists under the Referendum Act and Police Ordinance.",
+    "key_facts": [
+      "The petitioner attended a one-day fast and planned procession to protest detention of Christian clergymen and others.",
+      "Police warned the procession would not be permitted; the procession attempted to proceed and was blocked by police.",
+      "Police baton charged and used tear gas to disperse the procession and arrested the petitioner.",
+      "The procession was held during a Referendum period and was declared illegal under Section 45 of the Referendum Act No.7 of 1981.",
+      "The petitioner alleged violation of freedom of thought and conscience, cruel treatment, illegal arrest, and failure to inform reasons for arrest."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court recognized that Article 10 guarantees freedom of thought and conscience. However, this right can be subject to lawful restrictions. The court found that the procession was illegal under the Referendum Act and Police Ordinance, and the police had lawful authority to act to disperse it and arrest participants.",
+    "application_to_facts": "The court accepted the police version that the petitioner was part of an illegal procession that entered the highway despite warnings. The police had the power to disperse the procession and arrest participants. The petitioner was informed he was arrested for participating in an illegal procession, which sufficed as informing the reason for arrest.",
+    "principles_established": [
+      "Freedom of thought and conscience under Article 10 is protected but can be lawfully restricted.",
+      "Participation in an illegal procession can justify police action including arrest.",
+      "Police need not quote exact legal provisions when informing reasons for arrest."
+    ],
+    "precedents_cited": [
+      "Vijaya Kumaranatunga vs. G.V.P. Samarasinghe et al S.C 121/82"
+    ]
+  },
+  "outcome": {
+    "holding": "The court dismissed the petition, holding that the police did not violate the petitioner’s fundamental right to freedom of thought and conscience under Article 10.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 10 was central to the petitioner’s claim that his freedom of thought and conscience was violated by police action during the protest. The court’s reasoning and ultimate dismissal of the petition directly engaged with the scope and limits of this right.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner claimed violation of freedom of thought and conscience under Article 10, but the court found the procession illegal under the Referendum Act and Police Ordinance and held the police had lawful authority to act and arrest participants.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 360,
+      "end_char": 390
+    }
+  }
+}

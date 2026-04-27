@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_030-SLLR-SLLR-1996-V-2-MENDIS-V.-AIR-LAN_150_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 443/96",
+    "case_title": "Mendis v. Air Lanka Limited and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-09-09",
+    "source_citation": "[1996] 2 Sri LR 194"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the termination of the Petitioner's services after failing two Recurrent Simulator Checks without granting a third chance violated his fundamental right under Article 12(1) to equality before the law and equal protection of the law.",
+    "petitioner_claim": "The Petitioner claimed that the Air Lanka Manual procedures were not properly followed, that he was denied a third Simulator Check opportunity, and that other officers were treated more favourably, constituting unequal treatment violating Article 12(1).",
+    "respondent_argument": "The Respondents argued that the Petitioner was given adequate opportunities and guidance as per the Manual, that dismissal after the second failure was within the airline's discretion due to safety concerns, and that the alleged unequal treatment examples were not comparable.",
+    "key_facts": [
+      "Petitioner employed as Second Officer (Flight Engineer) from 21.9.95.",
+      "Required to pass Recurrent Simulator Check every six months; failure invalidates licence.",
+      "Petitioner failed first Check on 19.1.96, received some training but no Simulator practice.",
+      "Petitioner failed repeat Check on 2.2.96; recommended additional Simulator practice and another Check but was denied a third chance.",
+      "Petitioner's services terminated in April 1996 after representations and reports."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 12(1) as requiring equal treatment under the law, but recognized that the airline's discretion in safety matters is paramount. The Court found that the Petitioner was substantially given the opportunities and guidance required by the Air Lanka Manual, even if informally, and that the refusal to grant a third Check was a proper exercise of discretion.",
+    "application_to_facts": "The Court found that the Petitioner was informed of his failure and advised to study manuals rather than Simulator practice, which was appropriate given his knowledge deficiencies. The alleged unequal treatment examples were not comparable or relevant. Therefore, no violation of equal protection occurred.",
+    "principles_established": [
+      "Substantial compliance with procedural duties can satisfy equality requirements even if formalities are lacking.",
+      "Discretion in safety-related employment decisions is entitled to deference.",
+      "Unequal treatment claims require comparable circumstances to succeed."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that there was no violation of Article 12(1) as the Petitioner was not denied equal protection of the law; the refusal to grant a third Simulator Check and termination of services were lawful.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Petitioner's claim of unequal treatment and denial of procedural fairness. The Court's reasoning focused on whether the Petitioner was treated equally and fairly under the Air Lanka Manual and law, making this clause dispositive.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the Petitioner was interviewed, informed of his shortcomings, advised on necessary steps, and given opportunities to regain standards, and that the refusal to grant a third Check was a proper exercise of discretion.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 850,
+      "end_char": 2300
+    }
+  }
+}

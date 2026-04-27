@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_011-SLLR-SLLR-2003-1-THAVANEETHAN-V.-DAY_020_C02__14(1)(h)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. No. 20/2002 (FR)",
+    "case_title": "Thavaneethan v. Dayananda Dissanayake Commissioner of Elections and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-10-07",
+    "source_citation": "[2003] 1 Sri L.R"
+  },
+  "clause": {
+    "article": "14(1)(h)",
+    "text": "Freedom of movement and residence."
+  },
+  "case_context": {
+    "legal_issue": "Whether the closure of entry points preventing petitioners from entering cleared areas to vote infringed their freedom of movement under Article 14(1)(h).",
+    "petitioner_claim": "The petitioners claimed that army personnel prevented them from moving freely to their polling stations, infringing their constitutional right to freedom of movement.",
+    "respondent_argument": "The respondents argued that the restrictions were lawful under the Prevention of Terrorism Act and related regulations for national security reasons.",
+    "key_facts": [
+      "On election day, about 55,000 voters were prevented from entering cleared areas by army orders.",
+      "The decision to close entry points was not communicated in writing and was shrouded in secrecy.",
+      "No evidence supported the national security justification.",
+      "The 3rd Respondent did not inform the 1st Respondent of the closure.",
+      "Voters in Trincomalee district were not similarly restricted."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that freedom of movement can only be restricted by law, including emergency regulations under the Public Security Ordinance. The Prevention of Terrorism Act regulations did not validly impose such restrictions on the petitioners.",
+    "application_to_facts": "The closure of entry points was done mala fide, without lawful authority, and was not based on objective evidence. The failure to inform the Commissioner of Elections prevented alternative lawful arrangements. The restriction was not a minor inconvenience but a serious denial of movement.",
+    "principles_established": [
+      "Freedom of movement is a fundamental right subject only to lawful restrictions.",
+      "Restrictions must be imposed by valid law, not by executive orders without legal basis.",
+      "Secrecy and failure to communicate decisions affecting fundamental rights raise suspicion of mala fides."
+    ],
+    "precedents_cited": [
+      "Mallows v Commissioner of Income Tax",
+      "Vadivelu v OIC Sithambarapura Refugee Camp Police Post",
+      "Dias v Secretary, Ministry of Defence",
+      "Karunathilaka v Dissanayake"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the petitioners' freedom of movement under Article 14(1)(h) was infringed by the 3rd Respondent due to the unlawful closure of entry points.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declarations of infringement, compensation awarded, and costs ordered."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(h) guarantees freedom of movement, which was directly restricted by the closure of entry points preventing voters from reaching polling stations. The court's reasoning and holding centrally rely on this clause to find infringement.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the closure of entry points was not authorized by law, was done mala fide, and prevented the petitioners from exercising their freedom of movement to vote.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 90,
+      "end_char": 600
+    }
+  }
+}

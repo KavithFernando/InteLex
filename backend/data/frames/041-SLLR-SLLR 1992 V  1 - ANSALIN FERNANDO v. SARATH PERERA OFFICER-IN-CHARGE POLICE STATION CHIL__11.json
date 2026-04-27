@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_041-SLLR-SLLR_1992_V__1_-_ANSALIN_FERNAN_059_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 18/87",
+    "case_title": "Ansalin Fernando v. Sarath Perera, Officer-in-Charge, Police Station, Chilaw and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1990-05-21",
+    "source_citation": "Sri Lanka Law Reports [1992] 1 Sri L.R. 411"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the arrest, detention, and treatment of the 6th respondent violated Article 11 of the Constitution prohibiting torture or cruel, inhuman or degrading treatment or punishment.",
+    "petitioner_claim": "The petitioner claimed that her son was unlawfully arrested and detained, subjected to assaults, humiliation, blindfolding, chaining to a bench causing pain, and degrading treatment violating Article 11.",
+    "respondent_argument": "The respondents denied the arrest date and the allegations of ill-treatment; the 1st respondent denied arresting the 6th respondent, and the 2nd respondent claimed lawful arrest under Emergency Regulations.",
+    "key_facts": [
+      "The 6th respondent was arrested on 02.01.87 at about 3.30 p.m. by police without reason given.",
+      "He was detained at multiple police stations and subjected to assaults, humiliation, blindfolding, and chaining to a bench causing pain.",
+      "The detention lasted 49 days, including 15 days without lawful authority.",
+      "The police failed to inform the detainee of the reasons for arrest and detention as required by law.",
+      "No credible evidence was produced to justify arrest under Emergency Regulations; murder is not an offence under those regulations."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 11 prohibits torture and cruel, inhuman or degrading treatment or punishment. The facts of assault, humiliation, chaining causing pain, and blindfolding amounted to degrading treatment violating Article 11.",
+    "application_to_facts": "The court accepted the petitioner’s evidence and found the police conduct of assaulting, humiliating, blindfolding, chaining, and unlawful detention constituted degrading treatment. The absence of lawful authority for detention and failure to inform the detainee further violated constitutional protections.",
+    "principles_established": [
+      "Degrading treatment can be established even without medical evidence of injuries.",
+      "Unlawful detention and treatment causing pain and humiliation violate Article 11.",
+      "Arrest and detention must be lawful and based on credible information.",
+      "Failure to inform detainee of reasons for arrest/detention violates constitutional rights."
+    ],
+    "precedents_cited": [
+      "Nanayakkara v. Henry Perera (1985) 1 Sri LR 375",
+      "Wijewardena v. Zain and Others S.C. Application No. 202/87",
+      "Joseph Perera v. Attorney-General S.C. No. 107-109/86",
+      "Gunasekera v. De Fonseka 75 NLR 246",
+      "Muttusamy v. Kannangara 52 NLR 324",
+      "Yapa v. Bandaranayake (1988) 1 Sri LR 63"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the arrest and detention of the 6th respondent violated Article 11 of the Constitution due to degrading treatment and unlawful detention.",
+    "disposition": "granted",
+    "remedy_or_orders": "The State was directed to pay Rs. 25,000/- to the petitioner on behalf of the 6th respondent and Rs. 2,500/- costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the court's reasoning as the case involved allegations of torture, assault, humiliation, and degrading treatment during unlawful detention, which the court found violated this constitutional protection.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The 6th respondent was assaulted, blindfolded, chained to a bench causing pain, humiliated by a hostile student unionist, and detained unlawfully for 49 days, including 15 days without authority.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

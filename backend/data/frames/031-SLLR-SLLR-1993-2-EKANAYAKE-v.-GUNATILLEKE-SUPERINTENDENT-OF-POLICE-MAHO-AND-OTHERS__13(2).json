@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_031-SLLR-SLLR-1993-2-EKANAYAKE-V.-GUNATI_073_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 1007/92",
+    "case_title": "Ekanayake v. Gunatilleke, Superintendent of Police, Maho and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1993-09-24",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 1007/92, decided on 24 September 1993"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s detention without a valid detention order and prolonged custody violated Article 13(2) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed he was detained without being served a detention order and was held in custody for over 80 days without lawful justification.",
+    "respondent_argument": null,
+    "key_facts": [
+      "Petitioner was detained at Maho police station on orders of the 1st respondent without being shown a detention order.",
+      "Petitioner was produced before the Magistrate after 30 days but was returned to police custody.",
+      "Petitioner was detained until 19.11.92 and then released unconditionally.",
+      "No valid detention order was produced to justify the initial or continued detention.",
+      "No charges were filed against the petitioner during detention."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires that any detained person be brought before a judge and that detention must be supported by a valid legal order. The court found that the petitioner’s detention without a valid detention order and prolonged custody without lawful justification violated this constitutional protection.",
+    "application_to_facts": "Since the petitioner was detained without being served a detention order and was held in custody for over 80 days without lawful justification or charges, the court held that his detention violated Article 13(2).",
+    "principles_established": [
+      "Detention without a valid detention order is unconstitutional under Article 13(2).",
+      "Prolonged detention without judicial authorization or charges violates constitutional rights."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s detention violated Article 13(2) of the Constitution.",
+    "disposition": "granted",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was central to the court’s finding that the petitioner’s detention was unlawful because it was not supported by a valid detention order and he was held without judicial authorization.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was detained without being shown a detention order and was held in custody for over 80 days without charges or lawful justification.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_037-SLLR-SLLR-2002-V-1-ROSHANA-MICHAEL-V_056_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_1_2001",
+    "case_title": "Roshana Michael v. Saleh, OIC (Crimes), Police Station, Narahenpita and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-06-03",
+    "source_citation": "Supreme Court of Sri Lanka, SC (FR) No. 1/2001, decided on 3 June 2002"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to cruel, inhuman or degrading treatment amounting to a violation of Article 11 of the Constitution during her unlawful arrest and detention by the police.",
+    "petitioner_claim": "The petitioner claimed she was unlawfully arrested on the night of 3 December 2000 without a valid complaint or reasonable suspicion, and was subjected to assault and cruel, inhuman and degrading treatment by police officers while in custody.",
+    "respondent_argument": "The 1st respondent claimed the petitioner was arrested on 4 December 2000 at 5.10 pm on suspicion of theft after a complaint was made, and denied the allegations of assault and ill-treatment.",
+    "key_facts": [
+      "Petitioner was arrested at about 8.00 pm on 3 December 2000 without a prior complaint or reasonable suspicion.",
+      "Petitioner was assaulted with a rod and pole by police officers to extract a confession.",
+      "Medical evidence confirmed multiple contusions consistent with assault during police custody.",
+      "Police records and respondent's affidavit contained inconsistencies and omissions regarding the timing and circumstances of the arrest.",
+      "Petitioner was detained beyond the legally permitted period due to false police entries."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 11 as prohibiting torture and cruel, inhuman or degrading treatment, which includes physical assault and ill-treatment by state agents such as the police during arrest and detention.",
+    "application_to_facts": "The court found the petitioner's version credible and supported by medical and witness evidence, while rejecting the police version as a cover-up. The unlawful arrest without reasonable suspicion and the physical assaults constituted violations of Article 11.",
+    "principles_established": [
+      "Unlawful arrest without reasonable suspicion violates fundamental rights.",
+      "Physical assault and ill-treatment by police constitute cruel, inhuman or degrading treatment under Article 11.",
+      "False police entries and delays in producing detainees before court exacerbate violations of fundamental rights."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner’s fundamental rights under Article 11 were infringed by the 1st respondent through unlawful arrest and cruel, inhuman and degrading treatment.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioner was awarded a declaration of infringement, compensation of Rs. 100,000 (Rs. 70,000 by the State and Rs. 30,000 by the 1st respondent personally), and costs."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 directly addresses the prohibition of torture and cruel, inhuman or degrading treatment, which was central to the court’s finding that the petitioner was unlawfully assaulted and mistreated by police officers during her arrest and detention.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was assaulted with a rod and pole by police officers for about two hours while in custody; medical evidence showed multiple contusions consistent with assault; police records were inconsistent and the respondent’s version was rejected as a cover-up.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

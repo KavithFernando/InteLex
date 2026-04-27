@@ -1,0 +1,66 @@
+{
+  "frame_id": "RQ1_004-SLLR-SLLR-2008-V-2-ROMESH-COORAY-V.-_007_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (F.R.) APPLICATION NO. 663/2003",
+    "case_title": "Romesh Cooray v Jayalath, Sub-Inspector of Police and others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2007-06-25",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (F.R.) Application No. 663/2003, decided on 25 June 2007"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment in violation of Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioner claimed he was unlawfully arrested and brutally assaulted by police officers, including being blindfolded, beaten with wooden clubs, hose pipes, and other objects, subjected to petrol fumes, and kept in unlawful detention, constituting a violation of Article 11.",
+    "respondent_argument": "The respondents denied the allegations of torture and assault, contending that the petitioner was lawfully arrested based on credible information and that the conduct did not meet the qualitative standard of reprehensible conduct required to establish a violation of Article 11.",
+    "key_facts": [
+      "Petitioner was arrested at his home by police officers on 06.07.2003 without a warrant.",
+      "He was blindfolded, taken in a private van, and assaulted repeatedly over several hours at different locations.",
+      "Medical examination revealed multiple contusions and injuries consistent with blunt trauma.",
+      "The petitioner was questioned about a robbery and possession of a gun, which he denied.",
+      "The petitioner was released on bail and later discharged due to lack of evidence."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court recognized that Article 11 prohibits torture and cruel, inhuman or degrading treatment, which can be physical or psychological. The Court noted the difficulty in drawing the line but emphasized that the Convention against Torture and the related domestic Act provide definitions and standards. The Court held that the acts complained of must be of a specially reprehensible kind to violate Article 11.",
+    "application_to_facts": "Considering the totality of facts, including the petitioner’s detailed account, the medical evidence confirming injuries consistent with assault, and the absence of lawful grounds for arrest, the Court concluded that the petitioner was subjected to torture and cruel, inhuman treatment in violation of Article 11.",
+    "principles_established": [
+      "Torture and cruel, inhuman or degrading treatment can be physical or psychological and must be assessed on a case-by-case basis.",
+      "The Convention against Torture and the Torture Act provide a framework for defining torture.",
+      "Medical evidence is critical in substantiating claims of torture or cruel treatment.",
+      "Unlawful arrest and detention can be factors in establishing violations of Article 11."
+    ],
+    "precedents_cited": [
+      "Collins v Jamaica (Communication No. 240/87)",
+      "Kumarasena v Sub-Inspector Sriyantha and others S.C. Application No. 257/93",
+      "Wijayasiriwardena v Kumara, Inspector of Police, Kandy and two others",
+      "Hobbs v London and South Western Railway Co. (1875) L.R. 10 Q.B. 111"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner’s fundamental right under Article 11 was infringed by the executive action of the respondents.",
+    "disposition": "granted",
+    "remedy_or_orders": "The petitioner was awarded Rs. 100,000/- as compensation and costs payable by the State, with Rs. 15,000/- each to be paid personally by the 1st to 3rd respondents, totaling Rs. 145,000/-. Payment to be made within three months."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 is central to the Court’s reasoning as the petitioner’s claim directly alleges torture and cruel, inhuman treatment by police officers, which the Court found proven based on the facts and medical evidence.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was blindfolded, assaulted with wooden clubs, hose pipes, and other objects for hours, subjected to petrol fumes, and medical evidence confirmed injuries consistent with blunt trauma.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

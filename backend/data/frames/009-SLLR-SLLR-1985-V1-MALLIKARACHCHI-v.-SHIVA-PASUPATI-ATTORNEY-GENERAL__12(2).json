@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_009-SLLR-SLLR-1985-V1-MALLIKARACHCHI-V.-_045_C01__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No. 107/04",
+    "case_title": "Mallikarachchi v. Shiva Pasupati, Attorney-General",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1984-11-20",
+    "source_citation": "Sri Lanka Law Reports [1985] 1 SriL.R. 74"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the proscription orders made by the President under Emergency Regulations infringed the petitioner's fundamental rights under Article 12(2) of the Constitution by discriminating against him on grounds including political opinion.",
+    "petitioner_claim": "The petitioner claimed that the proscription orders were mala fide, aimed at eliminating political opposition, and infringed his fundamental rights under Article 12(2) by preventing him and his party from functioning and contesting elections.",
+    "respondent_argument": "The Attorney-General argued that the President enjoys absolute immunity under Article 35(1) of the Constitution and that the proceedings were improperly instituted against the Attorney-General, who was not the proper respondent for acts not covered by Article 35(3).",
+    "key_facts": [
+      "The petitioner was a member of the Jathika Vimukthi Peramuna (J.V.P.), a recognized political party.",
+      "The J.V.P. was proscribed by the President on 30 July 1983 under Emergency Regulations.",
+      "The petitioner alleged mala fide motives behind the proscription aimed at eliminating political opposition.",
+      "The petitioner and fellow members were prevented from contesting elections due to the proscription.",
+      "The petitioner cited the Attorney-General as respondent, challenging the validity of the proscription orders."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(2) prohibits discrimination on grounds including political opinion, but the case did not proceed to substantive examination of this clause because the petition was dismissed on procedural grounds related to the immunity of the President and the improper citation of the Attorney-General.",
+    "application_to_facts": "The court found that the proscription orders were made under Emergency Regulations and not under powers assigned to the President under Article 44(2), thus the Attorney-General was not the proper respondent. Consequently, the court did not address the merits of the alleged discrimination under Article 12(2).",
+    "principles_established": [
+      "The President has absolute immunity from legal proceedings under Article 35(1) for acts done in official or private capacity.",
+      "Proceedings against the President's acts can only be instituted against the Attorney-General if the acts relate to powers assigned under Article 44(2).",
+      "Proscription orders under Emergency Regulations are not powers assigned under Article 44(2).",
+      "Improper citation of the Attorney-General as respondent leads to dismissal of the petition without addressing substantive fundamental rights claims."
+    ],
+    "precedents_cited": [
+      "Satyapala v. The Attorney-General - S.C. Application No. 40/84"
+    ]
+  },
+  "outcome": {
+    "holding": "The application was dismissed because the Attorney-General was not the proper respondent and the petition was not properly constituted; the court did not rule on the substantive claim under Article 12(2).",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was central to the petitioner's claim that the proscription orders discriminated against him on political grounds, but the court dismissed the petition on procedural grounds without addressing the substantive discrimination claim.",
+    "relevance_level": "high",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner claimed infringement of fundamental rights under Article 12(2) due to proscription orders preventing political activity; the court dismissed the petition because the Attorney-General was not the proper respondent for acts not under Article 44(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 74,
+      "end_char": 82
+    }
+  }
+}

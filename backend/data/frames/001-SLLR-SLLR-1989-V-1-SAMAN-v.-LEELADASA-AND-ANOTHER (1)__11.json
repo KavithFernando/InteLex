@@ -1,0 +1,69 @@
+{
+  "frame_id": "RQ1_001-SLLR-SLLR-1989-V-1-SAMAN-V.-LEELADAS_002_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 4/88",
+    "case_title": "Saman v. Leeladasa and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1988-12-12",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 4/88, decided on 12 December 1988"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to cruel, inhuman or degrading treatment or punishment in violation of Article 11 of the Constitution, and the liability of the State and respondents for such violation.",
+    "petitioner_claim": "The petitioner claimed that he was assaulted by the 1st respondent, a prison guard, while bathing near the prison cell, resulting in a fracture and other injuries, constituting cruel, inhuman or degrading treatment or punishment under Article 11.",
+    "respondent_argument": "The 1st respondent denied the assault and claimed the petitioner slipped and fell. The 2nd and 3rd respondents denied liability, asserting prompt action was taken and no cover-up occurred. It was also argued that the 1st respondent was not authorized to enforce discipline or use force.",
+    "key_facts": [
+      "Petitioner was arrested and remanded to Galle prison.",
+      "On 1 December 1987, the petitioner was bathing near the prison cell when the 1st respondent ordered him not to bathe there.",
+      "The petitioner was assaulted by the 1st respondent with a baton, suffering a fractured left arm and other injuries.",
+      "The 2nd and 3rd respondents took prompt action to treat the petitioner and interdicted the 1st respondent.",
+      "The petitioner filed the fundamental rights application on 7 January 1988, argued to be within time due to hospitalization and lack of access to a lawyer."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 11 as prohibiting torture and cruel, inhuman or degrading treatment or punishment. The court held that a brutal assault involving repeated blows with a baton, kicks, and blows after compliance with orders amounts to cruel, inhuman and degrading treatment or punishment, though not torture which requires additional elements.",
+    "application_to_facts": "The court found the petitioner was assaulted by the 1st respondent while he was bathing, causing serious injuries consistent with baton blows. The assault was unauthorized but connected to the 1st respondent's duties as a prison guard, thus constituting cruel, inhuman or degrading treatment under Article 11.",
+    "principles_established": [
+      "Article 11 protects against torture and cruel, inhuman or degrading treatment or punishment.",
+      "An assault by a prison guard in the course of employment causing serious injury can violate Article 11.",
+      "The State is liable for such violations committed by its agents within the scope of their employment.",
+      "The principle lex non cogit ad impossibilia applies to time limits for filing fundamental rights applications when access to legal counsel is impeded.",
+      "Vicarious liability principles apply to State liability for fundamental rights violations by public officials."
+    ],
+    "precedents_cited": [
+      "Maharaj v. Attorney-General of Trinidad and Tobago",
+      "Gamaethige v. Siriwardena",
+      "Velmurugu v. Attorney-General",
+      "Vivienne Goonewardene v. Hector Perera and Others",
+      "Mariadas Raj v. Attorney-General",
+      "Ganeshanathan v. Vivienne Goonewardene and Others"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the 1st respondent violated the petitioner's fundamental rights under Article 11 by subjecting him to cruel, inhuman or degrading treatment or punishment. The State is liable to pay Rs. 15,000 as compensation to the petitioner.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation of Rs. 15,000 awarded to the petitioner payable by the State. The 1st respondent was interdicted and disciplinary proceedings initiated. The application against the 2nd and 3rd respondents was dismissed."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 is central to the court's reasoning as the petitioner alleged and the court found that he was subjected to cruel, inhuman or degrading treatment by a prison guard, constituting a violation of this constitutional protection.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner suffered a fracture of his left arm and other injuries consistent with an assault by the 1st respondent with a baton while bathing near the prison cell. Medical reports and witness statements supported the assault claim.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -196,19 +196,17 @@ class ChatService:
         divergence: Dict[str, Any] = {}
         pinned_case_ids = [int(x) for x in (pinned_case_ids or []) if x is not None]
 
-        # Extract the last user message — needed as the synthesis query in all paths.
+        # Extract the last user message
         user_query_for_synthesis = ""
         for m in reversed(conversation_messages):
             if m.get("role") == "user":
                 user_query_for_synthesis = m.get("content", "")
                 break
 
-        # When the user has pinned specific cases, skip retrieval entirely — we already
-        # know exactly which frames to use, so there is no need for the tool-calling step.
         if pinned_case_ids:
             logger.info("[Chat] Pinned cases present (%d) — skipping retrieval", len(pinned_case_ids))
         else:
-            # First call: let the model decide whether to call search_cases or respond directly
+            # Check Legal intent
             resp = client.chat.completions.create(
                 model=self._tool_model,
                 messages=conversation_messages,

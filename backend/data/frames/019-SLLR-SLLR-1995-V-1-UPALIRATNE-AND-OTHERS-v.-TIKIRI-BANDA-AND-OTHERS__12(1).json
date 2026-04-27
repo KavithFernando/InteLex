@@ -1,0 +1,74 @@
+{
+  "frame_id": "RQ1_019-SLLR-SLLR-1995-V-1-UPALIRATNE-AND-OT_101_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. (F.R.) APPLICATION NO. 86/95",
+    "case_title": "Upaliratne and Others v. Tikiri Banda and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-09-05",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (F.R.) Application No. 86/95, decided on 5 September 1995"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the forcible ousting of the legitimate Time-Keepers by unauthorized persons, with the involvement and assistance of State officials and Police, violated the petitioners' right to equal protection of the law under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners claimed that they were unlawfully ousted from their positions as Time-Keepers by a group of over 100 persons armed with iron rods and poles, who were aided and abetted by State officials including the first respondent and Police officers, thereby denying them equal protection of the law.",
+    "respondent_argument": "The respondents denied unlawful conduct by some parties, claimed some respondents were mistakenly named, and argued that the second respondent was not personally involved or responsible for the Police actions. The new Time-Keepers claimed they lawfully assumed office and performed duties without hindrance.",
+    "key_facts": [
+      "The Central Province Private Bus Workers Co-operative Society was the legitimate employer of Time-Keepers under a contract with the Central Provincial Council.",
+      "On 14 February 1995, the petitioners were forcibly ousted by a large group of unauthorized persons who took over their duties.",
+      "The first respondent, a Co-ordinating Secretary to a Minister, was found to have directed and coordinated the unlawful eviction.",
+      "Police officers were present and involved in the eviction, failing to protect the petitioners and aiding the intruders.",
+      "The new Time-Keepers had no legal right or contract with the Council and were unlawfully occupying the positions."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 12(1) guarantees equality before the law and equal protection of the law. The Court held that the Police and State officials' failure to protect the petitioners, and their active involvement in ousting them, amounted to a denial of equal protection. The State is responsible for actions of its officers done under colour of office, even if exceeding authority.",
+    "application_to_facts": "The Court found credible evidence that the first respondent and Police officers actively participated in and facilitated the unlawful eviction of the petitioners. The Police's failure to act impartially and protect the petitioners was irrational and motivated by impermissible purposes, violating Article 12(1). The new Time-Keepers' occupation was unlawful and deprived the petitioners of their rights.",
+    "principles_established": [
+      "State responsibility arises when private acts are done with significant aid or under colour of State authority.",
+      "Police discretion must not be exercised arbitrarily or discriminatorily to deny equal protection.",
+      "Executive or administrative action includes acts by State officers even if exceeding their authority.",
+      "Equal protection under Article 12(1) prohibits State officials from denying protection to certain persons."
+    ],
+    "precedents_cited": [
+      "Jayasinghe v. Principal, Anuta Vidyalaya and Others",
+      "Railway Express Agency Inc. v. New York",
+      "Yick Wo v. Hopkins",
+      "Perera v. University Grants Commission",
+      "Neal v. Delaware",
+      "Dennis v. Sparks",
+      "Tower v. Glover",
+      "Lugar v. Edmonson Oil Co. Inc.",
+      "Mohammed Faiz v. Attorney-General and Others",
+      "Screws v. United States",
+      "Griffin v. Maryland",
+      "Somawathie v. Weerasinghe"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court declared that the State violated Article 12(1) of the Constitution by failing to protect the petitioners and by the unlawful actions of State officials and Police in ousting the legitimate Time-Keepers. The unlawful occupation by the new Time-Keepers was ordered to cease, and the petitioners were entitled to compensation and protection.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 7th, 10th, 11th, 12th, 13th, 14th, 15th, 16th, 17th and 19th respondents were ordered to vacate the Time-Keepers premises and desist from performing duties. The Inspector-General of Police was directed to assist the petitioners to regain possession and provide protection. The first respondent was ordered to pay costs, and the State to pay compensation to each petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as it protects individuals from unequal treatment and denial of protection by the State. The Court found that the Police and State officials' actions and omissions amounted to a violation of this constitutional guarantee, directly leading to the relief granted.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found credible evidence that the first respondent coordinated the unlawful eviction, Police officers were present and involved in forcibly removing the petitioners, and the Police failed to act impartially or protect the petitioners, thereby denying them equal protection under the law.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

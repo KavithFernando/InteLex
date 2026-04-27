@@ -1,0 +1,54 @@
+{
+  "frame_id": "RQ1_016-SLLR-SLLR-2005-V-1-FAROOK-VS.-DHARMA_086_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_508_2002",
+    "case_title": "Farook VS Dharmaratne, Chairman, Provincial Public Service Commission, Uva and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2004-09-29",
+    "source_citation": "Supreme Court of Sri Lanka, SC (FR) Application No. 508/2002, decided on 29 September 2004"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner's transfer was discriminatory under Article 12(2) on grounds of religion or political opinion.",
+    "petitioner_claim": "The petitioner claimed that his transfer was effected due to his close relationship with a former Chief Minister and that he was being victimized, implying discrimination contrary to Article 12(2).",
+    "respondent_argument": "The respondents did not substantively argue a violation of Article 12(2); the court did not find material engagement with this clause in its reasoning.",
+    "key_facts": [
+      "The petitioner alleged victimization due to political associations.",
+      "The petitioner was transferred to a lower grade school with a predominantly Tamil student body and Tamil principals as a general practice.",
+      "The court did not find sufficient material to establish discrimination under Article 12(2)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 12(2) prohibits discrimination on specified grounds. However, the court did not find that the petitioner's transfer was based on any prohibited ground such as religion or political opinion, but rather on lawful administrative decisions related to qualifications and school practices.",
+    "application_to_facts": "The court noted the petitioner's transfer was consistent with school practices and qualification requirements, and the claim of discrimination was not supported by evidence.",
+    "principles_established": [],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court did not uphold any claim of discrimination under Article 12(2) and did not find a violation of this clause.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Although the petitioner alleged discrimination under Article 12(2), the court did not materially engage with or rely on this clause in its decision, finding no evidence of discrimination on prohibited grounds.",
+    "relevance_level": "low",
+    "match_type": "mentioned_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner claimed victimization due to political connections, but the court found no material to establish discrimination under Article 12(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

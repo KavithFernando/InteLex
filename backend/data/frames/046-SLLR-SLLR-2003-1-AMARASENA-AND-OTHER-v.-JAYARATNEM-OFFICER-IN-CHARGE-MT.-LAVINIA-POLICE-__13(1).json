@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_046-SLLR-SLLR-2003-1-AMARASENA-AND-OTHER_093_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_290_2002",
+    "case_title": "Amarasena and another v. Jayaratnem, Officer-in-Charge, Mt. Lavinia Police Station and others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2002-09-11",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (FR) Application No. 290/2002, decided on 11 September 2002"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the arrest of the petitioners was lawful and whether they were informed of the reason for their arrest in accordance with Article 13(1).",
+    "petitioner_claim": "The petitioners claimed infringement of their fundamental rights under Article 13(1), alleging unlawful arrest and failure to inform them of the reasons.",
+    "respondent_argument": "The respondents argued that the arrest was lawful based on reasonable grounds and that the petitioners were informed of the reasons for arrest.",
+    "key_facts": [
+      "Petitioners were arrested on 4 May 2002 after police acted on information about suspects involved in robberies.",
+      "The 1st petitioner bit off a portion of a police officer's ear during the attempted arrest.",
+      "Petitioners were informed of the reasons for their arrest.",
+      "Police officers used reasonable force during the arrest.",
+      "Petitioners were detained overnight and produced before a Magistrate the next day."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 13(1) requires that arrests be made according to law and that the arrested person be informed of the reasons. The police had reasonable grounds to arrest the petitioners and did inform them of the reasons.",
+    "application_to_facts": "Given the reasonable grounds for arrest and the fact that the petitioners were informed of the reasons, the court found no infringement of Article 13(1). The use of reasonable force was justified due to the violent resistance by the 1st petitioner.",
+    "principles_established": [
+      "Arrest must be based on reasonable grounds and according to law.",
+      "The arrested person must be informed of the reasons for arrest.",
+      "Reasonable force may be used in effecting an arrest when necessary."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "No infringement of Article 13(1) was established on the facts.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to determining the lawfulness of the arrest and whether the petitioners were properly informed, which the court found was satisfied.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the police had reasonable grounds to arrest the petitioners and that the petitioners were informed of the reasons for the arrest; no infringement of Article 13(1) was found.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3700,
+      "end_char": 4000
+    }
+  }
+}

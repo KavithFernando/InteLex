@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_018-SLLR-SLLR-1996-1-ATUKORALE-AND-OTHER_097_C02__12(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 137/95(F/R)",
+    "case_title": "Atukorale and Others v. T.P.F. De Silva - I.G.P. and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1996-08-01",
+    "source_citation": "Sri Lanka Law Reports [1996] 1 Sri L.R. 280"
+  },
+  "clause": {
+    "article": "12(2)",
+    "text": "No citizen shall be discriminated against on the grounds of race, religion, language, caste, sex, political opinion, place of birth or any one of such grounds."
+  },
+  "case_context": {
+    "legal_issue": "Whether the refusal to allow the UNP May Day rally and procession in Kandy constituted discrimination against the Petitioners on the ground of their political opinion, violating Article 12(2) of the Constitution.",
+    "petitioner_claim": "The Petitioners argued that they were discriminated against because they belonged to the opposition UNP, while constituent parties of the ruling Peoples Alliance were permitted to hold rallies in other towns, thus violating Article 12(2).",
+    "respondent_argument": "The 1st Respondent denied discrimination, asserting that the other parties had a long-standing geographical base in their respective towns and that the Petitioners were not similarly circumstanced. He claimed security and logistical reasons justified the refusal.",
+    "key_facts": [
+      "Permission was granted to four constituent parties of the Peoples Alliance to hold May Day rallies in various towns.",
+      "The UNP, a major opposition party, was refused permission to hold a rally and procession in Kandy.",
+      "The 1st Respondent did not provide detailed reasons for the refusal and did not explain why security and logistical concerns did not apply to other parties.",
+      "The Petitioners alleged the refusal was politically motivated discrimination."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court interpreted Article 12(2) as prohibiting discrimination on grounds including political opinion, requiring that any differential treatment must be justified and not arbitrary.",
+    "application_to_facts": "The court found that the 1st Respondent's reasoning was inconsistent and unsubstantiated, and that allowing other parties to hold rallies while refusing the UNP constituted discrimination based on political opinion.",
+    "principles_established": [
+      "Discrimination on the basis of political opinion violates Article 12(2).",
+      "Authorities must provide clear, non-arbitrary reasons for differential treatment of political parties.",
+      "Long-standing practice or geographical base does not justify discriminatory treatment if it results in unequal rights."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the Petitioners were discriminated against on the ground of their political opinion, violating Article 12(2) of the Constitution.",
+    "disposition": "granted",
+    "remedy_or_orders": "The refusal to permit the Petitioners' May Day rally and procession was quashed, and costs were awarded."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(2) was central to the court's conclusion that the refusal was discriminatory against the Petitioners due to their political opinion, which was a key basis for the violation finding and remedy.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court noted that the 1st Respondent permitted four Peoples Alliance parties to hold rallies in provinces but refused the UNP, the major opposition party, without adequate justification, constituting discrimination on political grounds.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

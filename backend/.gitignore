@@ -4,4 +4,4 @@ __pycache__/
 logs/
 results/
 data/pdfs
-data/frames
+# data/frames

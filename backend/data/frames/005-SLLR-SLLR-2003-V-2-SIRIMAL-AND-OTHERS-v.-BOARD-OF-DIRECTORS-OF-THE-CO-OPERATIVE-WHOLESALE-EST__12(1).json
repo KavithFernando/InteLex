@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_005-SLLR-SLLR-2003-V-2-SIRIMAL-AND-OTHER_029_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_FR_445_2002",
+    "case_title": "Sirimal and Others v Board of Directors of the Co-operative Wholesale Establishment and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2003-08-08",
+    "source_citation": "Supreme Court of Sri Lanka, SC (FR) No. 445/2002, decided on 8 August 2003"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the decision of the Board of Directors of the Co-operative Wholesale Establishment (C.W.E.) to stop extension of service beyond 55 years and retire employees violated their fundamental rights under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that they had a legitimate expectation to receive extensions of service up to 60 years based on previous circulars and practice, and that the new policy forcing retirement at 55 was arbitrary, discriminatory, and violated their right to equal protection under the law.",
+    "respondent_argument": "The 1st respondent Board contended that the age of retirement was 55 years, that C.W.E. employees were not governed by the Establishments Code but only guided by it, and that the decision was a reasonable policy to address overstaffing, heavy losses, and reorganization to make C.W.E. profitable, applied uniformly without discrimination.",
+    "key_facts": [
+      "Prior circular (14.11.1995) allowed annual extensions beyond 55 up to 60 years except on medical or disciplinary grounds.",
+      "The 1st respondent issued a new circular (21.6.2002) mandating compulsory retirement at 55 years.",
+      "Petitioners had good service records and were medically fit.",
+      "Applications for extension were recommended by the Service Extension Committee but not forwarded to the Ministry.",
+      "The Board failed to provide rational or analytical evidence justifying the policy change."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equality before the law and equal protection, which includes protection against arbitrary and discriminatory treatment in employment conditions. The petitioners had a substantive legitimate expectation based on prior policy and practice to receive extensions up to 60 years. The sudden policy change without consultation or opportunity to make representations violated procedural and substantive fairness. The Board's reasons for the policy change were not supported by rational evidence and were applied inconsistently, undermining the claim of non-discrimination.",
+    "application_to_facts": "The court found that the Board's failure to forward extension applications and the abrupt retirement decision without notice or hearing breached the petitioners' legitimate expectations and fundamental rights. The Board's justification for the policy change was not substantiated by evidence of excess staff or cost savings, and contradictory actions such as recruiting new employees and retaining older employees in other units demonstrated discriminatory treatment.",
+    "principles_established": [
+      "Legitimate expectation can be substantive and procedural, requiring fairness in policy changes affecting employment.",
+      "Public bodies must provide reasonable notice and opportunity to make representations before changing established policies.",
+      "Decisions that are perverse, irrational, or discriminatory violate Article 12(1) rights.",
+      "Availability of alternative remedies does not preclude seeking fundamental rights relief under Article 12(1)."
+    ],
+    "precedents_cited": [
+      "R. v Secretary of State for the Home Department exp. Khan (1985) 1 ALL E R 40",
+      "Council of Civil Service Unions v Minister for the Civil Service (1984) 3 ALL E R 935",
+      "R v Minister of Agriculture, Fisheries and Food exp. Hamble (Offshore) Fisheries Ltd (1995) 2 ALL E R 714",
+      "R v Secretary of State for the Home Department exp. Hargreaves (1997) 1 ALL E R 397",
+      "Associated Provincial Picture Houses Ltd. v Wednesbury Corporation (1947) ALL E R 680"
+    ]
+  },
+  "outcome": {
+    "holding": "The court granted relief to the petitioners, holding that the decision to retire them at 55 without extensions violated their fundamental rights under Article 12(1). The Board was ordered to pay compensation to the petitioners for the violation of their rights.",
+    "disposition": "granted",
+    "remedy_or_orders": "The 1st respondent Board was ordered to pay specified compensation amounts to each petitioner by 30 November 2003 and costs of Rs. 5,000 each."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as the petitioners claimed that the Board's policy change was discriminatory and violated their right to equal protection under the law. The court analyzed whether the policy was applied fairly and rationally, directly engaging with the clause's guarantee of equality.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioners had a legitimate expectation of extension up to 60 years based on Circular No.1-1/07 dated 14.11.1995 and past practice; the Board's new circular dated 21.6.2002 mandated retirement at 55 without consultation; no rational evidence supported the policy change; inconsistent treatment of employees over 55 was shown.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

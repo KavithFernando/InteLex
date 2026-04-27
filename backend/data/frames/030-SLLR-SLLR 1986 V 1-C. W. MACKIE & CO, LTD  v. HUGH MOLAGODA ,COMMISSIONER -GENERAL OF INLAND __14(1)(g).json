@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_030-SLLR-SLLR_1986_V_1-C._W._MACKIE_&_CO_055_C01__14(1)(g)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_85_85",
+    "case_title": "C. W. Mackie & Co., Ltd. v. Hugh Molagoda, Commissioner-General of Inland Revenue and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-10-01",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 85/85, decided on 1 October 1985"
+  },
+  "clause": {
+    "article": "14(1)(g)",
+    "text": "Freedom to engage in lawful occupation or business."
+  },
+  "case_context": {
+    "legal_issue": "Whether the refusal to refund Business Turnover Tax (B.T.T.) paid by the petitioner on rubber sales, while other rubber dealers were not required to pay, violated the petitioner's fundamental right to freedom to engage in lawful occupation or business under Article 14(1)(g).",
+    "petitioner_claim": "The petitioner argued that the refusal to refund the B.T.T. paid by it, while other rubber dealers (members of the Sri Lanka (All Ceylon) Rubber Dealers' Association) were not required to pay the tax for the same period, constituted unlawful discrimination and violated its fundamental right to equality and freedom to engage in lawful business.",
+    "respondent_argument": "The respondents contended that the order exempting rubber from B.T.T. was not retrospective, that the Commissioner-General had no legal power to refund taxes lawfully paid, and that any administrative arrangements not to recover tax were ultra vires and illegal. They denied any unlawful discrimination or violation of fundamental rights.",
+    "key_facts": [
+      "The petitioner paid Rs. 2,109,001.43 as B.T.T. on rubber sales for the period 1.4.80 to 31.12.82.",
+      "A Ministerial order dated 1.6.1983 exempted rubber from B.T.T. but was not retrospective.",
+      "The Commissioner-General had given an administrative undertaking not to recover B.T.T. from rubber dealers up to 31.12.82, but this was not legally valid.",
+      "Other rubber dealers who were members of the Rubber Dealers' Association did not pay B.T.T. for that period.",
+      "The petitioner was not a member of the Association and was unaware of the administrative arrangement."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the freedom to engage in lawful occupation or business under Article 14(1)(g) does not permit illegal acts or exemptions not authorized by law. The Commissioner-General's powers are defined and limited by the Turnover Tax Act, which does not allow refunds except for excess payments. Administrative arrangements to waive tax recovery were ultra vires and illegal. Equality under the law requires equal lawful treatment, not equal illegal treatment.",
+    "application_to_facts": "The petitioner failed to establish unlawful discrimination in the performance of a lawful act because the exemption from tax recovery for other dealers was illegal and unauthorized. The petitioner lawfully paid the tax and was entitled to no refund. The court refused to direct the Commissioner-General to act contrary to the law by refunding the tax or setting it off against future taxes.",
+    "principles_established": [
+      "Equality before the law requires equal lawful treatment, not equal illegal treatment.",
+      "A public official cannot waive or exempt taxes not authorized by statute.",
+      "Administrative arrangements contrary to statutory duties are ultra vires and have no legal effect.",
+      "The court cannot sanction illegal acts even to remedy inequality."
+    ],
+    "precedents_cited": [
+      "Venkata Subbiah Setty v. Bangalore Municipality AIR 1968 Mysore 251",
+      "Ram Prasad v. Union of India AIR 1978 Rajasthan 131",
+      "Chief Commissioner v. Kitty Puri AIR 1973 Delhi 148",
+      "Narain Dass v. Improvement Trust AIR 1972 S.C. 865",
+      "Sioux City Bridge Company v. Dakota County, Nebraska (1923) 200 U.S. 441"
+    ]
+  },
+  "outcome": {
+    "holding": "The petitioner's application was dismissed. The court held that there was no violation of the fundamental right to freedom to engage in lawful occupation or business under Article 14(1)(g) because the petitioner was lawfully required to pay the tax and no lawful basis existed for refund or exemption.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioner's claim was grounded on the fundamental right to freedom to engage in lawful business under Article 14(1)(g), arguing that the refusal to refund the tax while others were exempted violated this right. The court's reasoning focused on the lawful limits of this freedom and the statutory powers of the Commissioner-General, making the clause central to the decision.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that the Commissioner-General was not empowered to grant exemption or waiver of taxes legally due, and that administrative arrangements not to recover turnover tax were illegal and ultra vires. The petitioner lawfully paid the tax and was not entitled to a refund.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "frame_id": "RQ1_008-SLLR-SLLR-1996-V-2-ARIYASINGHE-V.-ST_041_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C.283/1993 (FR)",
+    "case_title": "Ariyasighe v. State Timber Corporation and 6 Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1994-09-22",
+    "source_citation": "Sri Lanka Law Reports [1996] 2 Sri L.R. 48"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s fundamental right under Article 12(1) was violated by the appointment of other candidates to a Grade 1 post overlooking him, specifically challenging the promotion scheme and its application.",
+    "petitioner_claim": "The petitioner argued that the promotion scheme was flawed and improperly applied, contending that seniority should have been given about half the weightage instead of 20%, and that the interview weightage of 30% was excessive and the interview superficial.",
+    "respondent_argument": "The respondents contended that the scheme allocated effectively 40% of marks for seniority and related criteria, which was reasonable; the weightage between seniority and merit can vary depending on the post; and the interview was relevant and properly conducted for a senior post.",
+    "key_facts": [
+      "Petitioner was overlooked for promotion to a Grade 1 post in favor of the 9th and 10th respondents.",
+      "The promotion scheme allocated 20% marks for seniority and 30% for interview performance.",
+      "Petitioner claimed he should have received 10 marks for experience but was given only 3.",
+      "Interview lasted about 4 minutes with 4 questions; petitioner claimed it was superficial.",
+      "Interview board reviewed documents related to petitioner’s service quality."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the weightage between seniority and merit can vary depending on the responsibilities and skills required for the post. The interview is relevant for assessing suitability for senior posts. The allocation of marks for seniority and interview was not arbitrary or discriminatory.",
+    "application_to_facts": "The court found that the petitioner did not have 10 years of relevant experience but only 3, so the marks given were proper. The affidavit evidence showed the interview was not superficial and the board assessed the quality of service. The difference in marks between the petitioner and successful candidates was significant enough that any minor error would not affect the outcome.",
+    "principles_established": [
+      "Weightage between seniority and merit can vary based on job requirements.",
+      "Interviews are relevant and appropriate for senior post promotions.",
+      "Proper application of promotion criteria is essential to avoid arbitrariness.",
+      "Assessment of experience must be factually accurate."
+    ],
+    "precedents_cited": [
+      "Perera v. Ranatunga, S.C. 121/91, SCM 27.5.92 - 1993 - 1 SLR 39"
+    ]
+  },
+  "outcome": {
+    "holding": "The petitioner failed to establish any violation of Article 12(1); the promotion scheme was neither arbitrary nor discriminatory, and its application was proper.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) guarantees equality before the law and equal protection, which the petitioner claimed was violated by discriminatory promotion practices. The court’s reasoning focused on whether the promotion scheme and its application treated candidates equally and fairly under this constitutional guarantee.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that 40% of marks were allocated for seniority and related criteria, the interview was relevant and properly conducted, and the petitioner’s experience was correctly assessed, thus no violation of Article 12(1) was established.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "frame_id": "RQ1_006-SLLR-SLLR-2000-V-1-LERINS-PEIRIS-V.-_010_C02__14(1)(b)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_126_99_FR",
+    "case_title": "Lerins Peiris v. Neil Rupasinghe, Member of Parliament and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1999-11-19",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application 126/99 (FR), decided on 19 November 1999"
+  },
+  "clause": {
+    "article": "14(1)(b)",
+    "text": "Freedom of peaceful assembly."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner’s right to freedom of peaceful assembly under Article 14(1)(b) was infringed when he was forcibly excluded from a workshop and assaulted.",
+    "petitioner_claim": "The petitioner claimed that the respondents’ actions prevented him from peacefully assembling and participating in the workshop, violating his constitutional right.",
+    "respondent_argument": "Respondents argued that the petitioner left voluntarily after persuasion by police and venue manager and denied responsibility for any violation of assembly rights.",
+    "key_facts": [
+      "The petitioner was invited to a workshop concerning the Muturajawela/Negombo Lagoon System.",
+      "Respondents told the petitioner he should be kept out of the meeting and assaulted him.",
+      "The petitioner was forced to leave and could not participate in the assembly.",
+      "The respondents were acting in their official capacity as elected representatives."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court recognized freedom of peaceful assembly as a fundamental right essential for democratic participation and expression of public views.",
+    "application_to_facts": "By assaulting the petitioner and forcing him to leave, the respondents effectively prevented him from peacefully assembling and participating in the workshop, violating Article 14(1)(b).",
+    "principles_established": [
+      "Freedom of peaceful assembly is protected against executive action that forcibly excludes participants.",
+      "Elected representatives must respect constitutional rights even in public policy forums."
+    ],
+    "precedents_cited": [
+      "Velumurugu v. A.G. and others",
+      "Wijeratne v. Vijitha Perera and Others",
+      "Faiz v. Attorney General and Others",
+      "Deshapriya and Another v. Municipal Council, Nuwara Eliya and two others",
+      "Channa Pieris v. Attorney General and Others"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the respondents violated the petitioner’s fundamental right to freedom of peaceful assembly under Article 14(1)(b).",
+    "disposition": "granted",
+    "remedy_or_orders": "The respondents were ordered to pay compensation and costs as stated in the judgment."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(b) was materially engaged because the petitioner was prevented from peacefully assembling at the workshop, a key fact in the court’s finding of constitutional violation.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner was forcibly excluded from the workshop and assaulted, preventing his participation in the assembly; the court found this violated Article 14(1)(b).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

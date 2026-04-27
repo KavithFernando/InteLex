@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_046-SLLR-SLLR-2005-V-1-RATNAYAKE-AND-ANO_194_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C (FR) 231/2003",
+    "case_title": "Ratnayake and Another vs Mediwaka, Deputy Inspector General of Police, Kandy and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2005-02-24",
+    "source_citation": "Sri Lanka Law Reports (2005) 1 Sri L. R."
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the police raid and search of the petitioners' hotel, allegedly conducted with excessive force and on a possibly incorrect legal basis, violated the petitioners' fundamental right to equality and equal protection of the law under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners claimed that the police raid was a malicious, pre-determined act designed to humiliate them and bring disrepute to their business, constituting unequal and discriminatory treatment violating Article 12(1). They alleged the search was conducted with excessive armed force and without proper cause.",
+    "respondent_argument": "The respondents argued that the raid was based on credible information from an anonymous letter alleging illegal activities at the hotel, followed by proper investigation and judicially authorized search warrant. They contended the police acted lawfully and not arbitrarily or discriminatorily.",
+    "key_facts": [
+      "Petitioners owned Hotel Sunray in Kandy and were celebrating their son's award on 10.04.2003.",
+      "About 30 armed persons in camouflage and police officers entered and searched the hotel with a search warrant.",
+      "The search warrant was issued by the Magistrate based on credible information and preliminary investigation.",
+      "Petitioners alleged the warrant was issued under a wrong legal provision but the court held this did not invalidate it.",
+      "There were discrepancies and contradictions in the petitioners' affidavits and complaints."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equal treatment and protection under the law, but does not prohibit all inequality—only unreasonable and arbitrary discrimination violates the clause. The police action was supported by credible information, proper investigation, and a judicially issued search warrant, thus not arbitrary or discriminatory.",
+    "application_to_facts": "The court found the police had reasonable suspicion based on credible information, conducted surveillance, and obtained a valid search warrant. The petitioners' allegations of mala fide and excessive force were not substantiated by credible evidence. Discrepancies in petitioners' affidavits and the lawful process followed by police led the court to accept the respondents' version.",
+    "principles_established": [
+      "Equal protection under Article 12(1) requires protection from unreasonable and arbitrary discrimination.",
+      "Judicial issuance of a search warrant based on credible information confers legality on police action.",
+      "Errors in citing the legal provision for a search warrant do not necessarily invalidate the warrant.",
+      "Police must balance individual rights with societal interest in crime prevention.",
+      "Discrimination must be clearly shown and cannot be presumed."
+    ],
+    "precedents_cited": [
+      "Anura Bandaranaike v The IGP (1999) 1 Sri LR 104",
+      "Fernando v Parwathi Radan (1908) 1 Weerakoon's Report 15",
+      "L.C.H. Peiris v The Commissioner of Inland Revenue (1963) 65 NLR 457",
+      "Chick Fashions (West Wales) Ltd. v Jones 1968 (2) QB 299"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that there was no violation of the petitioners' fundamental right to equality and equal protection of the law under Article 12(1). The police action was lawful and justified under the circumstances.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the petitioners' claim that the police raid constituted discriminatory and unequal treatment violating their fundamental rights. The court's reasoning focused on whether the police action was arbitrary or discriminatory under this clause, leading to dismissal of the claim.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that the police acted on credible information, obtained a judicially issued search warrant, and that the petitioners failed to prove any arbitrary or discriminatory conduct violating Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

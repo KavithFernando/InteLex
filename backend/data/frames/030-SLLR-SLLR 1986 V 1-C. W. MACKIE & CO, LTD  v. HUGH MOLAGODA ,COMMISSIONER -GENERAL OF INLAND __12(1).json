@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_030-SLLR-SLLR_1986_V_1-C._W._MACKIE_&_CO_147_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_85_85",
+    "case_title": "C. W. Mackie & Co., Ltd. v. Hugh Molagoda, Commissioner-General of Inland Revenue and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1985-10-01",
+    "source_citation": "[1986] 1 Sri L.R."
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the refusal to refund Business Turnover Tax (B.T.T.) paid by the petitioner constituted unlawful discrimination violating the fundamental right to equality under Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that it was discriminated against because other rubber dealers, members of the Sri Lanka (All Ceylon) Rubber Dealers' Association, were not required to pay B.T.T. up to 31.12.1982 due to administrative arrangements, while the petitioner had paid Rs. 2,109,001.43 and was refused a refund, violating its right to equal protection of the law under Article 12(1).",
+    "respondent_argument": "The respondents argued that the order excepting rubber from B.T.T. was not retrospective, the petitioner lawfully paid the tax due, and the Commissioner-General had no legal power to refund taxes paid lawfully. The administrative arrangement not to recover tax from certain dealers was ultra vires and illegal. No unlawful discrimination occurred as the petitioner was treated according to law.",
+    "key_facts": [
+      "The petitioner paid Rs. 2,109,001.43 as B.T.T. on rubber sales for the period 1.4.80 to 31.12.82.",
+      "Minister of Finance issued an order on 1.6.1983 making rubber an excepted article for B.T.T., effective from that date, not retrospectively.",
+      "An administrative arrangement was made by the former Commissioner-General not to recover B.T.T. from members of the Rubber Dealers' Association up to 31.12.82.",
+      "The petitioner was not a member of the Association and was unaware of the arrangement until 1985.",
+      "The Commissioner-General stated he had no power to refund taxes lawfully paid and would recover taxes from all defaulters."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equal protection of the law, not equal violation of the law. To prove discrimination under Article 12(1), the petitioner must show differential treatment of similarly situated persons without reasonable basis in the exercise of a lawful right. Illegal or ultra vires acts by officials cannot be used to justify further illegal acts or claims of equality.",
+    "application_to_facts": "The court found the administrative arrangement not to recover tax from certain dealers was illegal and beyond the Commissioner-General's powers under the Turnover Tax Act. The petitioner lawfully paid the tax due and was not entitled to a refund. The petitioner’s claim was based on an illegal act by others, which does not create a lawful right to equal treatment. Therefore, no violation of Article 12(1) occurred.",
+    "principles_established": [
+      "Equality before the law requires equal treatment in the performance of lawful acts.",
+      "Illegal or ultra vires acts by officials do not create rights enforceable under Article 12(1).",
+      "The court cannot direct officials to act contrary to law to achieve equality.",
+      "The Commissioner-General’s powers are limited to those granted by statute and cannot be waived or fettered by administrative arrangements."
+    ],
+    "precedents_cited": [
+      "Venkata Subbiah Setty v. Bangalore Municipality AIR 1968 Mysore 251",
+      "Ram Prasad v. Union of India AIR 1978 Rajasthan 131",
+      "Chief Commissioner v. Kitty Puri AIR 1973 Delhi 148",
+      "Narain Dass v. Improvement Trust AIR 1972 S.C. 865",
+      "Sioux City Bridge Company v. Dakota County, Nebraska (1923) 200 U.S. 441"
+    ]
+  },
+  "outcome": {
+    "holding": "The petitioner's application alleging violation of Article 12(1) was dismissed. The court held there was no unlawful discrimination as the petitioner was lawfully required to pay the tax and no refund was warranted.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as the petitioner alleged violation of the fundamental right to equality due to differential treatment in tax recovery. The court analyzed the scope of equality under this clause to determine whether the petitioner’s claim was valid.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court stated that to sustain discrimination under Article 12(1), the petitioner must show different treatment of similarly circumstanced persons without reasonable basis, and that illegal acts by officials do not create enforceable rights. The administrative arrangement not to recover tax was ultra vires and illegal, and the petitioner lawfully paid the tax due.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

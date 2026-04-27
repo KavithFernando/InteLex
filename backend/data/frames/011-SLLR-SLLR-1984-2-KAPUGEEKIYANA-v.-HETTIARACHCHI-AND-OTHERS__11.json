@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_011-SLLR-SLLR-1984-2-KAPUGEEKIYANA-V.-HE_013_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. No. 80/84",
+    "case_title": "Kapugeekiyana v. Hettiarachchi and Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1984-08-31",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. No. 80/84, decided on 31 August 1984"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment in violation of Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioner alleged that after his illegal arrest and detention, he was subjected to harassment, assault, torture, duress, humiliation, and cruel, inhuman, degrading and barbaric treatment by the respondents while in custody at the CID office.",
+    "respondent_argument": "The respondents denied the allegations of torture and cruel treatment, and no corroborative medical evidence was presented to support the petitioner's claims.",
+    "key_facts": [
+      "Petitioner was arrested without a warrant and detained incommunicado for three days at the CID office.",
+      "Petitioner alleged specific acts of torture including physical assault, carrying heavy ledgers, being handcuffed, and having pins driven under his nails.",
+      "No medical or independent evidence corroborated the torture allegations.",
+      "The petitioner complained of torture to his counsel and requested a medical examination, but no such examination was conducted.",
+      "The court found the place of detention was an office space without living facilities but this alone did not establish torture."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the petitioner must prove allegations of torture or cruel treatment to the civil standard of proof. The absence of corroborative medical or independent evidence weakened the petitioner's claim. Mere detention in an office without living facilities does not constitute torture or cruel, inhuman or degrading treatment.",
+    "application_to_facts": "The court found the petitioner's detailed allegations uncorroborated and noted the lack of medical examination or other evidence. Therefore, the court concluded that the petitioner had not established a violation of Article 11.",
+    "principles_established": [
+      "Allegations of torture or cruel treatment require corroborative evidence to establish a violation of Article 11.",
+      "Detention conditions alone do not necessarily amount to cruel or inhuman treatment.",
+      "The civil standard of proof applies to fundamental rights claims."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court held that the petitioner had not established a violation of Article 11 of the Constitution.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 is central to the petitioner's claim of being subjected to torture and cruel treatment during detention. The court's reasoning and ultimate dismissal of this claim directly relate to the interpretation and application of Article 11.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner described detailed acts of torture but no medical or independent evidence corroborated these claims; the court found no established violation of Article 11.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

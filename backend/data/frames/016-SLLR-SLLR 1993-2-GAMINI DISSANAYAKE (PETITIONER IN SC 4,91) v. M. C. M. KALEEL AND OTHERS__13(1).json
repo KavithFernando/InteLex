@@ -1,0 +1,67 @@
+{
+  "frame_id": "RQ1_016-SLLR-SLLR_1993-2-GAMINI_DISSANAYAKE__037_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_4_91",
+    "case_title": "Gamini Dissanayake v. M. C. M. Kaleel and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1991-12-03",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. (Special) No. 4-11/91, decided on 3 December 1991"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the expulsion of the petitioners from the United National Party violated their constitutional rights, including the right to be informed of the reasons for such action.",
+    "petitioner_claim": "The petitioners argued that their expulsion was invalid as they were not given prior notice or an opportunity to be heard, thus violating principles of natural justice and their constitutional rights.",
+    "respondent_argument": "The respondents contended that the expulsion was valid based on party rules and discipline, and that the petitioners had breached party obligations by signing a notice of resolution without prior internal discussion.",
+    "key_facts": [
+      "Eight members of Parliament were expelled from the United National Party for signing a notice of resolution to remove the President.",
+      "The petitioners were not given prior notice or an opportunity to explain before expulsion.",
+      "The expulsion was based on charges including signing the notice without internal discussion and deceiving the Cabinet.",
+      "The Working Committee of the Party passed the expulsion resolution, later endorsed by the National Executive Committee.",
+      "The petitioners challenged the expulsion under Article 99 (13)(a) of the Constitution."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that the power of expulsion under the Party Constitution is subject to the principles of natural justice, including the audi alteram partem rule, requiring that members be given notice of allegations and an opportunity to be heard before expulsion.",
+    "application_to_facts": "The petitioners were not informed of the charges or given a chance to explain before the Working Committee decided on expulsion, violating natural justice. The court found no exceptional circumstances to justify this denial.",
+    "principles_established": [
+      "Disciplinary powers of political parties are subject to natural justice.",
+      "Members must be given notice and opportunity to respond before expulsion.",
+      "Failure to provide a hearing renders the expulsion void ab initio unless exceptional circumstances exist.",
+      "Subsequent judicial proceedings do not cure the lack of an antecedent hearing."
+    ],
+    "precedents_cited": [
+      "Ridge v. Baldwin [1964] AC 40",
+      "General Medical Council v. Spackman [1943] AC 627",
+      "Wickremabahu v. Herath SC 27/1988",
+      "Joseph Perera v. A G. SC 107-109/86",
+      "Glynn v. Keele University [1971] 1 WLR 487"
+    ]
+  },
+  "outcome": {
+    "holding": "The expulsion of the petitioners in S.C. (Special) Nos 4, 6, 7, 9, 10 and 11/91 was invalid due to denial of natural justice.",
+    "disposition": "dismissed",
+    "remedy_or_orders": "The expulsions are declared invalid; fresh disciplinary proceedings may be initiated."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) protects individuals from arbitrary deprivation of liberty and requires lawful procedures including notice of reasons. The court applied the principle of natural justice, closely related to this clause, to ensure fair treatment before expulsion, which affects the petitioners' rights and status.",
+    "relevance_level": "high",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "It is admitted that the Petitioners were neither informed of the allegations and the evidence against them, nor afforded an opportunity to submit an explanation or to be heard in their defence before expulsion.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1780,
+      "end_char": 2200
+    }
+  }
+}

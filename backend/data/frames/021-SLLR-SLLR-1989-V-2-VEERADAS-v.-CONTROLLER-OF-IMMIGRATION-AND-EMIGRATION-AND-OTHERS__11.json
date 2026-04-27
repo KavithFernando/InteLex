@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_021-SLLR-SLLR-1989-V-2-VEERADAS-V.-CONTR_029_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 221/88",
+    "case_title": "Veeradas v. Controller of Immigration and Emigration and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1989-09-27",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 221/88, decided on 27 September 1989"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment or punishment in violation of Article 11 of the Constitution during his detention and arrest.",
+    "petitioner_claim": "The petitioner alleged that he suffered degrading treatment at the hands of the respondents in violation of Article 11.",
+    "respondent_argument": "The respondents denied any violation of Article 11, stating no complaint of torture or degrading treatment was made during or after detention, and that the petitioner was lawfully detained and released without any such allegations raised in Sri Lanka.",
+    "key_facts": [
+      "The petitioner was detained under Emergency Regulations from 1985 to 1987 and released in 1987.",
+      "No complaint of torture or degrading treatment was made by the petitioner during or after detention in Sri Lanka.",
+      "The petitioner was off-loaded from a flight in 1988 due to suspicion about his passport and detained briefly.",
+      "A newspaper article in the UK alleged torture but this was not part of the petitioner's claims in Sri Lanka.",
+      "The court found no evidence supporting the claim of torture or degrading treatment."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 11 prohibits torture or cruel, inhuman or degrading treatment or punishment. The court examined whether the petitioner was subjected to such treatment during detention or arrest.",
+    "application_to_facts": "The court found no allegations or evidence of torture or degrading treatment made during or after detention in Sri Lanka. The petitioner’s counsel confirmed no such complaint was made. The newspaper article alleging torture was not part of the petition and appeared only after the petitioner left Sri Lanka. The court held that the petitioner was not subjected to treatment violating Article 11.",
+    "principles_established": [
+      "Allegations of torture or degrading treatment must be supported by evidence and made timely.",
+      "Absence of complaint during detention or in court weakens claims under Article 11.",
+      "Subsequent allegations made abroad do not establish violation under Article 11 in Sri Lanka."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "There was no violation of Article 11 of the Constitution as the petitioner was not subjected to torture or cruel, inhuman or degrading treatment or punishment.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "The petitioner alleged degrading treatment violating Article 11, but the court found no evidence or complaint supporting this claim, making the clause central to dismissing that part of the application.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "No complaint of torture or degrading treatment was made during or after detention; the petitioner’s counsel confirmed no such claim was pressed; the court found no evidence supporting the allegation under Article 11.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2120,
+      "end_char": 2220
+    }
+  }
+}

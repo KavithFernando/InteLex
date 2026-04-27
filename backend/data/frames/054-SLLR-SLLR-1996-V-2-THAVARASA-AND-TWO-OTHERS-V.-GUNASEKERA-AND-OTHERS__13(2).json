@@ -1,0 +1,66 @@
+{
+  "frame_id": "RQ1_054-SLLR-SLLR-1996-V-2-THAVARASA-AND-TWO_096_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application Nos. 224/94, 225/94, 226/94 (Consolidated)",
+    "case_title": "Thavarasa and two Others v. Gunasekera and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1995-08-01",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application Nos. 224/94, 225/94, 226/94 (Consolidated), decided on 1 August 1995"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioners were unlawfully detained beyond the permissible period without being brought before a judge, violating Article 13(2).",
+    "petitioner_claim": "The petitioners claimed that although the offences were bailable, they were not granted police bail and were unlawfully detained until 11 a.m. the next day before being produced in court, violating Article 13(2).",
+    "respondent_argument": "The respondents argued that section 116(1) of the Criminal Procedure Code is directory, not mandatory, and police have discretion to produce suspects before a Magistrate instead of granting bail. The detention was justified given the circumstances including complaints of assault and obstruction.",
+    "key_facts": [
+      "Petitioners were detained overnight after arrest for election offences and related charges.",
+      "Police did not grant bail but produced petitioners before a Magistrate at about 11 a.m.",
+      "Petitioners complained of police assault and obstruction.",
+      "CID investigation questioned the allegation of attempted murder but did not affect Article 13(2) analysis.",
+      "Court found detention until 11 a.m. was not arbitrary but justifiable."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires that detained persons be brought before a judge within a reasonable time to prevent arbitrary detention. The court held that the police have discretion under section 116(1) of the Criminal Procedure Code to produce suspects before a Magistrate instead of granting bail immediately. Detention until 11 a.m. was reasonable and justified given the circumstances.",
+    "application_to_facts": "The court found that the petitioners were treated as ringleaders and given different treatment than others released on police bail. Complaints of assault and obstruction justified producing them before a Magistrate. The detention was not arbitrary or unlawful under Article 13(2).",
+    "principles_established": [
+      "Police discretion under section 116(1) is directory, not mandatory.",
+      "Detention beyond immediate arrest is permissible if suspects are brought before a judge within reasonable time.",
+      "Article 13(2) protects against arbitrary detention, not all detention beyond arrest."
+    ],
+    "precedents_cited": [
+      "Tunnaya alias Gunapala v. O.I.C. Police, Galewela (1993) 1 Sri L.R. 61",
+      "Selvakumar v. Devananda S.C. Application 150/93",
+      "Kumara v. Rohan Fernando S.C. Application 22/90",
+      "Mahinda Rajapakse's case S.C. Application No. 2/93",
+      "Faiz v. A.G. S.C. Application No. 89/91"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held there was no infringement of Article 13(2) as the detention until 11 a.m. was justifiable and the petitioners were brought before a judge within a reasonable time.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was central to assessing whether the petitioners' detention was lawful and whether they were brought before a judge within the constitutionally required time, which the court found was satisfied.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that section 116(1) of the Criminal Procedure Code is directory and police have discretion to produce suspects before a Magistrate instead of granting bail. Detention until 11 a.m. was reasonable and justified given complaints of assault and obstruction.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 4101,
+      "end_char": 4450
+    }
+  }
+}

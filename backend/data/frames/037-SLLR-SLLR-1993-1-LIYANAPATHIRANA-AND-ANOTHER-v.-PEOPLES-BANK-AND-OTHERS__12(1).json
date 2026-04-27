@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_037-SLLR-SLLR-1993-1-LIYANAPATHIRANA-AND_178_C01__12(1)",
+  "created_at": "2024-06-10",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 143/91",
+    "case_title": "Liyanapathirana and Another v. Peoples Bank and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1993-03-11",
+    "source_citation": "Sri Lanka Law Reports [1993] ISriLR"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the differentiation in promotion based on employee classes and service duration violated Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that the 29 employees promoted on ethnic ratios and themselves (among 466 employees) should be treated as one class and promoted equally; exclusion from eligibility for promotion due to lack of one year of service was discriminatory and violated Article 12(1).",
+    "respondent_argument": "The respondents contended that the petitioners and the 29 promoted employees were no longer in the same class; differentiation by class and service was rational and not a violation of Article 12(1).",
+    "key_facts": [
+      "In 1988, 228 promotions were made based on merit and seniority under Staff Circular No. 216/88.",
+      "In 1990, 29 additional promotions were made on ethnic ratios under Circular No. 15/90, which was later held unconstitutional.",
+      "The petitioners did not challenge the 29 promotions immediately or soon after the constitutional ruling.",
+      "In 1991, Circular No. 4005/91 called for promotions requiring one year of service in Grade III class 3, which the petitioners did not have.",
+      "The petitioners claimed discrimination as they were excluded from eligibility for promotion under the 1991 circular."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) prohibits irrational or unintelligible differentiation but allows classification based on legitimate distinctions such as employee class and service duration.",
+    "application_to_facts": "Since the petitioners and the 29 promoted employees belonged to different classes by the time of the 1991 promotion circular, and the petitioners did not meet the essential service qualification, the differentiation was rational and did not violate Article 12(1).",
+    "principles_established": [
+      "Differentiation by reference to employee classes and service is permissible if rational and intelligible.",
+      "Failure to challenge unconstitutional promotions promptly may affect claims of discrimination.",
+      "Article 12(1) does not guarantee identical treatment where legitimate classification exists."
+    ],
+    "precedents_cited": [
+      "Ramupillai v. Minister of Public Administration, [1991] 1 Sri LR II"
+    ]
+  },
+  "outcome": {
+    "holding": "The petitioners' claim of discrimination under Article 12(1) was dismissed as the differentiation was rational and not a violation of the constitutional guarantee of equality.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's analysis of whether the promotion differentiation constituted unlawful discrimination, directly informing the reasoning and final dismissal of the petitioners' claim.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court held that differentiation by reference to the classes to which the employees belonged and service therein is neither irrational nor unintelligible. There is no violation of Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3400,
+      "end_char": 3500
+    }
+  }
+}

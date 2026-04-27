@@ -1,0 +1,76 @@
+{
+  "frame_id": "RQ1_014-SLLR-SLLR-1978-79-80-V1-RIENZIE-PERE_068_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 57/1980",
+    "case_title": "Rienzie Perera and Another v. University Grants Commission and Another",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1980-08-04",
+    "source_citation": "Sri Lanka Law Reports (1978-79-80) 1 Sri LR 128"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the University Grants Commission's decision to allocate university admission places between two separate G.C.E. 'A' Level examinations held in April and August 1979 on a ratio basis violated the fundamental right to equality of opportunity guaranteed by Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioner argued that the primary criterion for university admission should be merit based on order of marks obtained, and that applying a ratio to allocate places between the two examinations resulted in unfair discrimination violating Article 12(1).",
+    "respondent_argument": "The respondent contended that the two examinations were different in syllabus and standard, making it impracticable to combine results into a single merit list, and that the ratio allocation was a reasonable and equitable solution reflecting the number of candidates qualifying in each exam.",
+    "key_facts": [
+      "Two G.C.E. 'A' Level exams were held in 1979: April and August, with different syllabuses.",
+      "Both exams had the same qualifying minimum aggregate of 160 marks for university admission.",
+      "Total qualified candidates for Bio-Science group were 6,750 but only 995 places were available, with 400 for Medicine.",
+      "The Commission allocated places between April and August candidates in the ratio 7.2:2.8 based on number qualifying in each exam.",
+      "The petitioner qualified in the August exam but was denied admission due to the ratio allocation."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 12(1) guarantees equality of opportunity and equal protection of the law, which means equal treatment of persons similarly situated. Reasonable classification is permitted if based on intelligible differentia with a rational nexus to the objective. However, once candidates from both exams were treated as equally qualified by applying the same qualifying standard, they formed one class and could not be discriminated against by reference to their original exam source.",
+    "application_to_facts": "The Commission's decision to apply a ratio based on the number of qualifiers in each exam discriminated between candidates who were equally qualified under the same standard. The court found no rational basis for the classification since the Commission itself treated both exams as equivalent for qualification. The ratio allocation resulted in candidates with higher marks in August being denied admission in favor of lower scoring April candidates, violating equality of opportunity.",
+    "principles_established": [
+      "Equality before the law requires equal treatment of equals and forbids discrimination without reasonable classification.",
+      "Reasonable classification must be based on intelligible differentia and have a rational nexus to the objective.",
+      "Fundamental rights apply against the State and its organs; the University Grants Commission is an organ of the State.",
+      "The effect of executive action is determinative, not the motive.",
+      "Once candidates are integrated into one class by qualification, they cannot be discriminated by original source."
+    ],
+    "precedents_cited": [
+      "Rajendran v. State of Madras A.I.R. 1968 Supreme Court 1012",
+      "Neat v. Delaware Vol: 25 Law. ed. 567",
+      "Devadasan v. Union of India A.I.R. 1964 Supreme Court 179",
+      "Railway Express Agency v. New York (1949) Vol: 336 U.S. 100",
+      "Probhudas Morarjee v. Union of India A.I.R. 1966 Supreme Court 1044",
+      "Re State of Andhra Pradesh A.I.R. 1972 Supreme Court 1375",
+      "Singh v. Darbhanga Medical College A.I.R. (1969) Patna 11",
+      "State of J&K. v. Khosa A.I.R. 1964 Supreme Court 1",
+      "Roshan Lai v. Union of India A.I.R. 1967 Supreme Court 1889",
+      "Soans v. State of Hyderabad A.I.R. 1969 Supreme Court 348",
+      "Rita v. Union of India A.I.R. 1973 Supreme Court 1050",
+      "Surendrakumar v. The State A.I.R. 1969 Raj 182",
+      "S.C. Pundit v. The State A.I.R. 1972 Bombay 242"
+    ]
+  },
+  "outcome": {
+    "holding": "The court quashed the University Grants Commission's decision to apply the ratio basis of selection and ordered that selection for university admission in 1980 be made on the basis of merit from an integrated list of candidates from both April and August examinations, thus upholding the petitioner's fundamental right to equality of opportunity under Article 12(1).",
+    "disposition": "granted",
+    "remedy_or_orders": "The Commission was restrained from applying any ratio basis and directed to select candidates solely on merit from a consolidated list for the 1980 admissions. The petitioner was awarded costs of Rs. 1,050."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the court's reasoning as it guarantees equality before the law and equal protection, which the Commission's ratio-based selection violated by discriminating between equally qualified candidates. The court's holding directly enforced this constitutional guarantee.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court found that since the Commission treated both April and August exams as equivalent for qualification, the candidates formed one class and could not be discriminated by original exam source. The ratio basis resulted in unfair discrimination violating Article 12(1).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 1200,
+      "end_char": 3500
+    }
+  }
+}

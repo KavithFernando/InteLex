@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_014-SLLR-SLLR-2001-V-1-MEDIWAKE-AND-OTHE_025_C01__14(1)(a)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APP_412_99",
+    "case_title": "Mediwake and Others v. Dayananda Dissanayake, Commissioner of Elections and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2001-04-03",
+    "source_citation": "Sri Lanka Law Reports 2001 1 Sri L.R. 178"
+  },
+  "clause": {
+    "article": "14(1)(a)",
+    "text": "Freedom of speech and expression including publication."
+  },
+  "case_context": {
+    "legal_issue": "Whether the failure of the Commissioner of Elections to annul the poll and order a re-poll at 23 polling stations, where ballot stuffing and intimidation occurred, infringed the petitioners' fundamental right to freedom of expression under Article 14(1)(a).",
+    "petitioner_claim": "The petitioners argued that the failure to ensure a genuine, free, equal and secret poll, and the failure to annul the poll and order a re-poll at affected polling stations, infringed their fundamental rights under Article 14(1)(a) as their right to freely express their will through voting was denied.",
+    "respondent_argument": "The respondents contended that the Commissioner of Elections had no duty to annul the poll unless the poll did not commence or conclude at the stipulated time, and that the qualitative assessment of the poll's fairness was for the Election Court, not the Commissioner. They also argued that the irregularities did not affect the election result.",
+    "key_facts": [
+      "Ballot stuffing and intimidation occurred at 23 polling stations in Kandy District during the Provincial Council elections on 6.4.99.",
+      "The Commissioner annulled the poll only at one polling station (Polwatta) but did not order a re-poll.",
+      "The petitioners were registered voters and members of the United National Party; one was a candidate and another a polling agent.",
+      "The Commissioner failed to make adequate inquiries or act on the information of irregularities despite having discretionary power and duty under section 46A of the Provincial Council Elections Act.",
+      "The irregularities prevented a genuine, free, equal and secret poll, affecting the collective expression of the electorate's will."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that the right to vote is a form of freedom of expression under Article 14(1)(a), which includes the collective right of like-minded electors to have their will freely expressed through a genuine election. A genuine poll must be free, equal, secret, and uninterrupted. The Commissioner has a duty to annul a poll where irregularities interfere with these qualities and to order a re-poll if the election result is likely affected.",
+    "application_to_facts": "The Court found prima facie evidence of ballot stuffing and intimidation at 23 polling stations, which prevented a genuine poll. The Commissioner had sufficient notice but failed to inquire or annul the polls except at one station. This failure infringed the petitioners' rights under Article 14(1)(a) because it denied the collective free expression of the electorate's will.",
+    "principles_established": [
+      "The right to vote is an integral part of freedom of expression under Article 14(1)(a).",
+      "A genuine election guarantees the free expression of the will of the entire electorate, not just individual voters.",
+      "The Commissioner of Elections has a duty to ensure a free, equal, and secret poll and to annul and order re-polls where necessary.",
+      "Irregularities affecting some voters can infringe the rights of others who share their political views, as voting is a collective expression.",
+      "The freedom of expression includes both individual and collective aspects."
+    ],
+    "precedents_cited": [
+      "Karunatileke v. Dissanayake",
+      "Bandaranaike v. Premadasa",
+      "Faiz v. Attorney-General",
+      "Don Alexander v. Fernando",
+      "Amaratunga v. Sirimal"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court declared that the failure of the Commissioner of Elections to ensure a genuine, free, equal and secret poll, to annul the poll, and to order a re-poll at the 23 affected polling stations infringed the petitioners' fundamental rights under Article 14(1)(a).",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration of infringement of fundamental rights; no order for re-poll due to impracticality; costs awarded to petitioners."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 14(1)(a) guarantees freedom of expression, which the Court interpreted to include the right to a genuine election as a collective expression of the electorate's will. The irregularities and the Commissioner's failure to act infringed this right, making the clause central to the Court's reasoning and holding.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found prima facie evidence of ballot stuffing and intimidation at 23 polling stations, and held that the failure to annul the poll and order a re-poll infringed the petitioners' rights under Article 14(1)(a) as it denied the collective free expression of the electorate's will.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 2000,
+      "end_char": 3200
+    }
+  }
+}

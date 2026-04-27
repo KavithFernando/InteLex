@@ -1,0 +1,60 @@
+{
+  "frame_id": "RQ1_047-SLLR-SLLR-2005-V-1-SENADEERA-INSPECT_064_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_263_2001_FR",
+    "case_title": "Senadeera, Inspector of Police, Pulmuddai Police Station vs Lt. Siyasinghe and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2005-01-20",
+    "source_citation": "Sri Lanka Law Reports (2005) 7 Sri L. R. 335"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to cruel, inhuman or degrading treatment or punishment in violation of Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioner alleged that he was assaulted, dragged, and subjected to cruel and inhuman treatment by army personnel, including being kicked, pulled by his collar, assaulted by soldiers in a truck, and chased away, infringing his fundamental rights under Article 11.",
+    "respondent_argument": "The respondents denied the allegations, highlighting contradictory evidence, lack of independent supporting affidavits from accompanying police officers, mild injuries inconsistent with the alleged assault, and the withdrawal of criminal charges against the accused on the advice of the Attorney General.",
+    "key_facts": [
+      "The petitioner and his wife were allegedly assaulted by army officers and soldiers at Kokilai Camp.",
+      "The petitioner was produced before a medical officer with reports indicating no major injuries.",
+      "Criminal proceedings against the accused were withdrawn on the Attorney General's advice.",
+      "The petitioner’s supporting evidence was mainly his and his wife’s affidavits, with no corroboration from other police officers.",
+      "The court found contradictions and exaggerations in the petitioner’s account."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that to grant relief, the petitioner must establish the allegations on a balance of probabilities. The court interpreted Article 11 as prohibiting torture and cruel, inhuman or degrading treatment, requiring credible and consistent evidence to prove such violations.",
+    "application_to_facts": "The court found the petitioner’s evidence exaggerated and unsupported by independent affidavits. The medical reports showed only mild injuries inconsistent with the alleged assault. The withdrawal of criminal charges indicated lack of material evidence. Therefore, the petitioner failed to prove he was subjected to cruel, inhuman or degrading treatment under Article 11.",
+    "principles_established": [
+      "Burden of proof lies on the petitioner to establish fundamental rights violations on a balance of probabilities.",
+      "Medical evidence inconsistent with allegations weakens claims of cruel or inhuman treatment.",
+      "Independent corroboration is important to substantiate claims of fundamental rights violations."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The court dismissed the petitioner's claim under Article 11, finding no established violation of the right against cruel, inhuman or degrading treatment.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 is central to the petitioner’s claim of being subjected to cruel and inhuman treatment by army personnel. The court’s reasoning and dismissal directly address whether the petitioner’s fundamental rights under Article 11 were violated.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The court noted the petitioner’s injuries were mild per medical reports and that the petitioner’s version was unsupported by independent affidavits, leading to the conclusion that the petitioner failed to establish cruel, inhuman or degrading treatment.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3200,
+      "end_char": 3500
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "frame_id": "RQ1_010-SLLR-SLLR-1993-1-GUNARATNE-AND-OTHER_049_C01__12(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_APPLICATION_NO_70_92",
+    "case_title": "Gunaratne and Others v. Sri Lanka Telecom and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1992-06-15",
+    "source_citation": "Supreme Court of Sri Lanka, SC Application No. 70/92, decided on 15 June 1992"
+  },
+  "clause": {
+    "article": "12(1)",
+    "text": "All persons are equal before the law and are entitled to the equal protection of the law."
+  },
+  "case_context": {
+    "legal_issue": "Whether the classification of graduate clerks for preferential treatment in the new schemes of recruitment and promotion by Sri Lanka Telecom is reasonable and consistent with Article 12(1) of the Constitution.",
+    "petitioner_claim": "The petitioners argued that the preferential treatment given to graduate clerks in the new schemes of recruitment (P11A and P11B) is discriminatory, unreasonable, and violates their right to equality under Article 12(1). They contended that the educational qualifications used for preferential treatment have no rational basis and that the legitimate expectations of non-graduate clerks with long service were disregarded.",
+    "respondent_argument": "The respondents argued that the revised schemes were designed to provide a better and more reasonable method of promotion based mainly on efficiency. They contended that the schemes considered the grievances of under-employed graduates and that giving due consideration to educational qualifications in the interest of the service was not unreasonable.",
+    "key_facts": [
+      "Petitioners were Class I Clerks who became employees of Sri Lanka Telecom under the Sri Lanka Telecommunications Act, No. 25 of 1991.",
+      "New schemes of recruitment adopted on 03.01.1992 gave preferential treatment to graduate clerks by reducing required service periods for promotion.",
+      "Previous schemes emphasized seniority and merit including special ability; new schemes deleted the express requirement of special ability and merit for graduates.",
+      "The new schemes imposed more stringent service conditions on non-graduate clerks compared to previous schemes.",
+      "The schemes were prepared primarily to alleviate social grievances of under-employed graduates, disregarding legitimate expectations of long-serving non-graduate clerks."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 12(1) requires classifications to be founded on an intelligible differentia having a rational relation to the object sought to be achieved. Preferential treatment based solely on possession of a degree, without regard to relevance to job duties or reasonable notice, is unreasonable and discriminatory.",
+    "application_to_facts": "The Court found that the new schemes were unreasonable because they removed merit and special ability as promotion criteria, gave preferential treatment to graduates regardless of relevance of their degrees, and imposed harsher conditions on non-graduates. The schemes were primarily aimed at social objectives rather than efficient functioning of the service, thus violating Article 12(1).",
+    "principles_established": [
+      "A scheme that is prima facie non-discriminatory cannot be challenged before discrimination occurs, but inherently discriminatory schemes affecting promotions can be challenged immediately.",
+      "Variations to recruitment schemes are permissible if not violative of Article 12(1) and dictated by service needs.",
+      "Preferential treatment must be based on relevant qualifications and reasonable notice without prejudicing legitimate expectations.",
+      "Possession of a degree alone, without relevance to duties, does not justify preferential promotion treatment."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court declared that the preferential treatment given to graduate clerks under the schemes P11A and P11B is violative of Article 12(1) of the Constitution and therefore void. The petitioners' application was allowed with costs.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declaration that preferential treatment to graduate clerks under schemes P11A and P11B is unconstitutional and void; costs awarded to petitioners."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 12(1) was central to the Court's reasoning as the petitioners challenged the discriminatory classification of graduate clerks under the new promotion schemes. The Court applied the equality guarantee to assess the reasonableness and rationality of the classification and found it violated the clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found the classification unreasonable because it was not based on criteria having a rational relation to the efficient functioning of the Telecommunications Service and gave preferential treatment to graduates without regard to relevant qualifications or reasonable notice.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

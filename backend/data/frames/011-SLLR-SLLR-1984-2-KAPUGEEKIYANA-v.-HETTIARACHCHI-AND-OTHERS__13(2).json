@@ -1,0 +1,62 @@
+{
+  "frame_id": "RQ1_011-SLLR-SLLR-1984-2-KAPUGEEKIYANA-V.-HE_024_C02__13(2)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. No. 80/84",
+    "case_title": "Kapugeekiyana v. Hettiarachchi and Two Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1984-08-08",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. No. 80/84, decided on 8 August 1984"
+  },
+  "clause": {
+    "article": "13(2)",
+    "text": "Any person detained shall be brought before a judge and cannot be held without legal order."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was held in custody or detained without being brought before a judge of the nearest competent court within the time prescribed by law, violating Article 13(2).",
+    "petitioner_claim": "The petitioner claimed he was arrested on 13 June 1984 and illegally detained incommunicado on the 4th floor of the C.I.D. office until 17 June without being produced before a judge, violating Article 13(2).",
+    "respondent_argument": "The respondents claimed the petitioner was arrested on 16 June and produced before the Magistrate on 17 June, thus no violation occurred.",
+    "key_facts": [
+      "Petitioner was allegedly arrested on 13 June at about 9:00 a.m.",
+      "Petitioner was held incommunicado on the 4th floor of the C.I.D. office until 17 June.",
+      "Petitioner was produced before the Acting Magistrate on 17 June and remanded.",
+      "Respondents denied arrest on 13 June and claimed arrest on 16 June.",
+      "Independent evidence including complaints by petitioner's wife and affidavits supported arrest on 13 June."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "Article 13(2) requires that any person detained must be brought before a judge of the nearest competent court according to procedure established by law, and cannot be held in custody without legal order beyond a reasonable time, generally not exceeding 24 hours as per the Code of Criminal Procedure.",
+    "application_to_facts": "The Court found credible independent evidence that the petitioner was arrested on 13 June and illegally detained until 17 June without being produced before a judge, violating Article 13(2) and sections 36 and 37 of the Code of Criminal Procedure Act No. 15 of 1979.",
+    "principles_established": [
+      "Detention without production before a judge within 24 hours violates Article 13(2).",
+      "The procedure established by law includes sections 36 and 37 of the Code of Criminal Procedure.",
+      "Independent evidence can establish the date of arrest and detention."
+    ],
+    "precedents_cited": [
+      "A. K. Velmurugu v. The Attorney-General S.C. Application No. 74/81"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner was illegally detained for three days without being produced before a judge, violating Article 13(2). Compensation of Rs. 10,000 was awarded.",
+    "disposition": "granted",
+    "remedy_or_orders": "Order for respondents to pay Rs. 10,000 as compensation to petitioner."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(2) was central to the Court's finding of illegal detention and the award of compensation for violation of the petitioner's fundamental rights.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Independent evidence including affidavits and complaints established that the petitioner was arrested on 13 June and detained until 17 June without being produced before a judge, violating Article 13(2).",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

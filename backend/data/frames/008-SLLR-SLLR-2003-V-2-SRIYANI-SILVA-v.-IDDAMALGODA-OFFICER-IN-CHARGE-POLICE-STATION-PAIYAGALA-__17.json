@@ -1,0 +1,65 @@
+{
+  "frame_id": "RQ1_008-SLLR-SLLR-2003-V-2-SRIYANI-SILVA-V.-_004_C01__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "SC_NO_471_2000_FR",
+    "case_title": "Sriyani Silva v. Iddamalgoda, Officer-in-Charge, Police Station Paiyagala and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2003-07-14",
+    "source_citation": "Supreme Court of Sri Lanka, SC No. 471/2000 (FR), decided on 13 June and 14 July 2003"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the widow and minor child of a deceased person who died due to police torture can apply to the Supreme Court for violation of the deceased's fundamental rights under Article 17, given that the deceased was prevented from applying personally due to death.",
+    "petitioner_claim": "The petitioner claimed that the deceased's fundamental rights under Articles 11, 13(2), and 17 were infringed by police torture causing death, and that the petitioner and minor child have the right to apply for relief and compensation under Article 17 as lawful heirs/dependants.",
+    "respondent_argument": "The respondents denied the allegations of torture and assault, disputed the arrest date, and challenged the credibility of the petitioner’s version. They argued no violation occurred and that the deceased made no complaint to the Magistrate.",
+    "key_facts": [
+      "The deceased was arrested on 12 June 2000 and detained until 17 June 2000.",
+      "The deceased was assaulted repeatedly by police officers during detention, resulting in death on 20 June 2000.",
+      "The deceased was unable to file a fundamental rights application personally due to death.",
+      "The petitioner (widow) filed the application seeking compensation for herself and the minor child.",
+      "The court had to decide if the right to apply under Article 17 extends to heirs/dependants when the victim dies before applying."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The court held that Article 17 guarantees every person the right to apply to the Supreme Court for violations of fundamental rights. This right is an independent fundamental right. If a person dies due to violation of fundamental rights (such as unlawful death by torture), the right to apply does not perish but devolves to lawful heirs or dependants. The court interpreted Article 17 expansively to avoid rendering the right illusory and to ensure effective protection of fundamental rights.",
+    "application_to_facts": "Since the deceased was tortured to death and prevented from applying personally, the petitioner and minor child as lawful heirs/dependants have the right under Article 17 to apply for relief and compensation. The court accepted the petitioner’s credible evidence of torture and death, and held that the respondents infringed the deceased’s fundamental rights, thus entitling the heirs to relief.",
+    "principles_established": [
+      "Article 17 confers an independent fundamental right to apply to the Supreme Court for violation of fundamental rights.",
+      "The right to apply under Article 17 survives the death of the victim and devolves to lawful heirs or dependants.",
+      "Fundamental rights must be interpreted purposively and expansively to secure and advance their protection.",
+      "The right to life and freedom from torture are fundamental rights impliedly protected under the Constitution.",
+      "Compensation for violation of fundamental rights can be claimed by dependants if the victim dies."
+    ],
+    "precedents_cited": [
+      "Porage Lakshman v Fernando",
+      "Sanjeewa v Suraweera"
+    ]
+  },
+  "outcome": {
+    "holding": "The court held that the deceased’s fundamental rights under Articles 11, 13(2), and 17 were infringed by the respondents, and that the petitioner and minor child have the right to apply under Article 17 for relief and compensation. The application was allowed and compensation was awarded.",
+    "disposition": "granted",
+    "remedy_or_orders": "Compensation of Rs 800,000 awarded in equal shares to the petitioner and minor child; directions to pay specified sums by the State and respondents; order to forward judgment to National Police Commission for action."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 is central because it guarantees the right to apply to the Supreme Court for violations of fundamental rights. The court’s reasoning and decision hinge on interpreting this right to include heirs/dependants when the victim dies before applying, thus enabling the petitioner to seek relief.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner claimed relief under Articles 11, 13(2), and 17 read with Article 126. The court held that Article 17 recognizes an independent fundamental right to apply, which devolves to heirs if the victim dies, and granted relief accordingly.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3500,
+      "end_char": 5200
+    }
+  }
+}

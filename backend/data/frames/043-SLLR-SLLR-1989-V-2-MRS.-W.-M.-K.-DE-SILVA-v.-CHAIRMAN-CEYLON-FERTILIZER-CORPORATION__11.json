@@ -1,0 +1,77 @@
+{
+  "frame_id": "RQ1_043-SLLR-SLLR-1989-V-2-MRS.-W.-M.-K.-DE-_060_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION No.7/88",
+    "case_title": "Mrs. W.M.K De Silva v. Chairman, Ceylon Fertilizer Corporation",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1989-03-31",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 7/88, decided on 31 March 1989"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the treatment meted out to the petitioner between 1.1.1988 and 19.1.1988 constituted torture or cruel, inhuman or degrading treatment or punishment in violation of Article 11 of the Constitution.",
+    "petitioner_claim": "The petitioner claimed that she was subjected to cruel, inhuman or degrading treatment or punishment by being isolated, humiliated, locked out of her office, and denied work, as a consequence of her statements to the C.I.D. Unit of the Special Presidential Commission of Inquiry.",
+    "respondent_argument": "The respondents argued that the treatment did not amount to torture or cruel, inhuman or degrading treatment or punishment under Article 11, but rather constituted a grossly unfair labour practice and issues related to contractual rights, which are outside the scope of Article 11.",
+    "key_facts": [
+      "Petitioner was Secretary to the Board of the Fertilizer Corporation and made statements to the C.I.D. about irregularities involving the Chairman.",
+      "Petitioner was sent on compulsory leave and later recalled but denied use of her old cubicle and work.",
+      "Petitioner was made to sit on a broken chair and table in a verandah and was at times locked out of the office.",
+      "The treatment occurred between 1 January 1988 and 19 January 1988.",
+      "Petitioner alleged violation of fundamental rights under Article 11 and Article 14(1)(g)."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that Article 11 prohibits acts by public officials that intentionally inflict severe physical or mental pain or suffering without lawful sanction, for purposes such as obtaining information, punishing an offence, or coercion. The Court recognized that Article 11 covers both physical and mental suffering but requires a very high degree of mal-treatment to constitute cruel, inhuman or degrading treatment or punishment.",
+    "application_to_facts": "The Court found that the petitioner's treatment, while humiliating and degrading, did not reach the threshold of torture or cruel, inhuman or degrading treatment or punishment as contemplated by Article 11. The acts were not punishment in the constitutional sense and did not involve the imposition of a penalty for an offence or breach of a rule. The conduct was related to employment and contractual disputes, which are outside the scope of Article 11 protections.",
+    "principles_established": [
+      "Article 11 protects against severe physical or mental pain or suffering intentionally inflicted by public officials without lawful sanction.",
+      "Mental suffering can fall within Article 11 but requires a high threshold of severity.",
+      "Article 11 is concerned with protection of life and personal freedom, not contractual or employment disputes.",
+      "Cruel, inhuman or degrading treatment requires more than mere humiliation or unfair labour practices."
+    ],
+    "precedents_cited": [
+      "Thadchanamoorthi v Attorney-General and others",
+      "Velmurugu v Attorney-General and another",
+      "Jeganathan v The Attorney-General",
+      "Mariadas Raj v The Attorney-General",
+      "Vivienne Goonewardene v Perera",
+      "Kapugeekiyana v Hettiarachchi and two others",
+      "Amal Sudath Silva v Kodituwakku",
+      "A.S. Saman v Leeladasa et al",
+      "Revis v Smith",
+      "Marrinan v Vibart",
+      "Eshugbayi v Government of Nigeria",
+      "The State of Jammu and Kashmir v Ghulam Rasool",
+      "Elmore Perera v Major Montague Jayawickrema",
+      "Wijeratne v People's Bank",
+      "Roberts and another v Ratnayake and others"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court dismissed the petitioner's claim under Article 11, holding that the treatment did not constitute torture or cruel, inhuman or degrading treatment or punishment under the Constitution.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the petitioner's claim that she was subjected to cruel, inhuman or degrading treatment by public officials in the course of her employment. The Court's detailed analysis of the scope and threshold of Article 11 was dispositive in rejecting the claim.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Court found that the acts complained of were humiliating and degrading but did not amount to torture or cruel, inhuman or degrading treatment or punishment as required by Article 11. The treatment was related to employment issues and did not involve lawful punishment or severe pain or suffering.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "frame_id": "RQ1_028-SLLR-SLLR-2000-V-1-SUNILA-ABEYSEKERA_029_C02__17",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. Application No. 994/99",
+    "case_title": "Sunila Abeysekera v. Ariya Rubasinghe, Competent Authority and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "2000-06-15",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 994/99, decided on 15 June 2000"
+  },
+  "clause": {
+    "article": "17",
+    "text": "Every person has the right to apply to the Supreme Court for violations of fundamental rights."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner had the right to apply to the Supreme Court alleging violations of her fundamental rights under the Constitution.",
+    "petitioner_claim": "The petitioner filed an application alleging violations of her fundamental rights under Articles 10, 12(1), and 14(1)(a) of the Constitution due to the impugned regulation restricting freedom of speech and expression.",
+    "respondent_argument": "The respondents did not dispute the petitioner's right to apply under Article 17 but argued that the regulation did not violate any fundamental rights.",
+    "key_facts": [
+      "The petitioner filed a fundamental rights application in the Supreme Court.",
+      "The application challenged the constitutionality of the Emergency Regulation restricting publication of sensitive military information.",
+      "The Court considered the petitioner's right to apply under Article 17 as part of its jurisdiction."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court recognized Article 17 as the constitutional provision empowering any person to apply to the Supreme Court for relief in respect of alleged violations of fundamental rights. The Court accepted jurisdiction to hear the petition under Article 17.",
+    "application_to_facts": "The petitioner, as a citizen and social activist, exercised her right under Article 17 to seek judicial review of the regulation alleged to violate her fundamental rights. The Court proceeded to consider the merits of the petition accordingly.",
+    "principles_established": [
+      "Article 17 grants every person the right to apply to the Supreme Court for violations of fundamental rights.",
+      "The Supreme Court has jurisdiction to hear and determine such applications."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court accepted the petitioner's application under Article 17 and proceeded to adjudicate the fundamental rights claims.",
+    "disposition": "other",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 17 is the constitutional basis for the Court's jurisdiction to hear the petitioner's fundamental rights application. It is central to the procedural posture of the case but not dispositive of the substantive outcome.",
+    "relevance_level": "medium",
+    "match_type": "application_only"
+  },
+  "evidence": {
+    "evidence_excerpt": "The petitioner filed an application alleging violations of her fundamental rights under the Constitution. The Court recognized Article 17 as empowering any person to apply to the Supreme Court for relief in respect of alleged violations of fundamental rights.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

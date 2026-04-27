@@ -1,0 +1,68 @@
+{
+  "frame_id": "RQ1_010-SLLR-SLLR-1991-V2-SIRISENA-AND-OTHER_021_C01__13(1)",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 14/90",
+    "case_title": "Sirisena and Others v. Earnest Perera and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1991-05-07",
+    "source_citation": "Supreme Court of Sri Lanka, S.C. Application No. 14/90, decided on 7 May 1991"
+  },
+  "clause": {
+    "article": "13(1)",
+    "text": "No person shall be arrested except according to law and must be informed of the reason."
+  },
+  "case_context": {
+    "legal_issue": "Whether the Petitioners were unlawfully arrested and detained in violation of Article 13(1) of the Constitution.",
+    "petitioner_claim": "The Petitioners claimed they were arbitrarily arrested and detained without being informed of the reason, and subjected to unlawful treatment by the police.",
+    "respondent_argument": "The Respondents argued that the Petitioners were not arrested within the meaning of Article 13(1) as there was no suspicion of an offence against them and that their detention was lawful for investigation purposes.",
+    "key_facts": [
+      "1st and 2nd Petitioners were detained from 19 April 1990 to 22 April 1990 by police.",
+      "3rd to 5th Petitioners were arrested on 21 April 1990 at the Coroner's Court and detained until 8 p.m. the same day.",
+      "Petitioners were not informed of the reason for their arrest/detention as required by law.",
+      "Petitioners were threatened and assaulted to coerce statements implicating a third party.",
+      "Respondents failed to produce investigation notes and statements, casting doubt on their version."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court held that 'arrest' under Article 13(1) includes any deprivation of liberty regardless of whether there is suspicion of an offence. The arrest must be according to procedure established by law and the person arrested must be informed of the reason. The protection against arbitrary arrest is central to Article 13(1).",
+    "application_to_facts": "The Petitioners were deprived of their liberty without lawful procedure and were not informed of the reason for their arrest. The Respondents' failure to produce proper records and contradictory explanations supported the Petitioners' claim of unlawful arrest.",
+    "principles_established": [
+      "Arrest under Article 13(1) is a de facto deprivation of liberty, not limited to lawful arrests or suspicion of offence.",
+      "Arrest must be according to procedure established by law and the arrested person must be informed of the reason.",
+      "Any ambiguity in interpretation must favor liberty and fundamental rights.",
+      "Police officers can be held personally liable for unlawful arrest in addition to State liability."
+    ],
+    "precedents_cited": [
+      "State of Punjab v. Ajaib Singh AIR 1953 S.C. 10",
+      "Namasivayam v. Gunawardena [1989] 1 Sri LR 394",
+      "Somawathie v. Weerasinghe S.C. Application No. 227/88",
+      "Piyasiri v. Fernando [1988] 1 Sri LR 173",
+      "Spicer v. Holt [1976] 3 All ER 71",
+      "Karunaratne v. Rupasinghe S.C. 71/90"
+    ]
+  },
+  "outcome": {
+    "holding": "The Court held that the Petitioners' fundamental rights under Article 13(1) were infringed by unlawful arrest and deprivation of liberty by the Respondents.",
+    "disposition": "granted",
+    "remedy_or_orders": "Declarations of infringement, compensation awarded to Petitioners payable by the State and the 2nd and 3rd Respondents personally, and an inquiry ordered by the Inspector General of Police."
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 13(1) was central to the Court's determination that the Petitioners were unlawfully arrested without being informed of the reason, violating their fundamental rights and entitling them to relief.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "The Petitioners were deprived of their liberty from 19 April to 22 April 1990 without lawful procedure or being informed of the reason, and the Respondents failed to produce investigation records supporting their version.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": null,
+      "end_char": null
+    }
+  }
+}

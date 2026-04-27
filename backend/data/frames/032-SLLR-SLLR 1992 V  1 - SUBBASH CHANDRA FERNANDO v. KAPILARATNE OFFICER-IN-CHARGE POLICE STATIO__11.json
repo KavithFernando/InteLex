@@ -1,0 +1,59 @@
+{
+  "frame_id": "RQ1_032-SLLR-SLLR_1992_V__1_-_SUBBASH_CHANDR_049_C01__11",
+  "created_at": "2024-06-01",
+  "annotator_id": "KF",
+  "source": {
+    "dataset": "casedata.json",
+    "notes": "Manual RQ1 clause interpretation frame"
+  },
+  "case": {
+    "case_id": "S.C. APPLICATION NO. 1/91",
+    "case_title": "Subbash Chandra Fernando v. Kapilaratne, Officer-in-Charge, Police Station, Gampaha and Others",
+    "court_name": "Supreme Court of Sri Lanka",
+    "decision_date": "1991-08-02",
+    "source_citation": "Sri Lanka Law Reports [1992] 1 Sri L.R. 305"
+  },
+  "clause": {
+    "article": "11",
+    "text": "No person shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."
+  },
+  "case_context": {
+    "legal_issue": "Whether the petitioner was subjected to torture or cruel, inhuman or degrading treatment or punishment in violation of Article 11 of the Constitution during his detention.",
+    "petitioner_claim": "The petitioner alleged that he was assaulted multiple times by prison officials while in detention, resulting in injuries, and thus subjected to cruel, inhuman or degrading treatment.",
+    "respondent_argument": "The respondents denied the assaults and claimed that any force used was in response to the petitioner’s unruly and abusive behavior; they denied that the petitioner was subjected to torture or cruel, inhuman or degrading treatment.",
+    "key_facts": [
+      "Petitioner was detained under Emergency Regulations and subjected to multiple alleged assaults by prison officials between 1990 and 1991.",
+      "Medical reports from Assistant and Deputy Judicial Medical Officers supported the petitioner’s allegations of injuries consistent with assaults.",
+      "Respondents admitted some force may have been used but denied intentional assault or torture.",
+      "The petitioner’s behavior in prison was described as unruly and abusive by prison officials.",
+      "The Court found the petitioner’s complaints were not fabrications but concluded the force used did not amount to torture or cruel, inhuman or degrading treatment."
+    ]
+  },
+  "reasoning": {
+    "interpretation_summary": "The Court interpreted Article 11 as prohibiting torture and cruel, inhuman or degrading treatment or punishment. It examined the evidence of assaults and injuries and assessed whether the treatment met this threshold.",
+    "application_to_facts": "Although the petitioner was subjected to assaults causing injuries, the Court found that the force used, while unfortunate, did not rise to the level of torture or cruel, inhuman or degrading treatment under Article 11.",
+    "principles_established": [
+      "Not all use of force or assaults in detention amount to a violation of Article 11; the threshold requires treatment to be torture or cruel, inhuman or degrading.",
+      "Medical evidence supporting injuries is relevant but must be considered in context of the circumstances and intent."
+    ],
+    "precedents_cited": []
+  },
+  "outcome": {
+    "holding": "The Court held that the petitioner’s allegations of assault did not establish a violation of Article 11; the claim under Article 11 was not established.",
+    "disposition": "dismissed",
+    "remedy_or_orders": null
+  },
+  "link_explanation": {
+    "why_this_clause_matters": "Article 11 was central to the petitioner’s claim of unlawful treatment during detention. The Court’s analysis of the evidence and ultimate rejection of the claim was based on the interpretation of this clause.",
+    "relevance_level": "high",
+    "match_type": "direct_interpretation"
+  },
+  "evidence": {
+    "evidence_excerpt": "Medical reports from Assistant and Deputy Judicial Medical Officers supported the petitioner’s allegations of injuries from assaults by prison officials, but the Court found the force used did not amount to torture or cruel, inhuman or degrading treatment.",
+    "evidence_location": {
+      "field": "full_text",
+      "start_char": 3090,
+      "end_char": 3350
+    }
+  }
+}
